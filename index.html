@@ -241,6 +241,48 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .tblwrap table{min-width:52rem}
 @media (max-width:56rem){.how td:first-child{white-space:normal}}
 
+/* ---------- navy sections (medtech, decks) ---------- */
+.navy-sec{position:relative;margin:clamp(1rem,2vw,1.5rem) clamp(.4rem,1.4vw,1.25rem);border-radius:clamp(18px,2.4vw,32px);overflow:clip;isolation:isolate;color:#EEF1FB;
+  background:radial-gradient(44rem 26rem at 100% 105%,rgba(255,90,31,.22),transparent 62%),radial-gradient(40rem 26rem at -5% -5%,rgba(90,44,224,.28),transparent 62%),linear-gradient(160deg,#0B1440 0%,#0A1238 55%,#080E2C 100%)}
+.navy-sec .eyebrow{color:rgba(226,232,255,.78)}
+.navy-sec .eyebrow::before{background:linear-gradient(90deg,#8E9BFF,#FF8A5B)}
+.navy-sec h2{color:#fff}
+.navy-sec .intro{color:rgba(226,232,255,.82)}
+.navy-sec a{color:#fff}
+.ncards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+@media (max-width:64rem){.ncards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:40rem){.ncards{grid-template-columns:minmax(0,1fr)}}
+.ncard{border-radius:22px;padding:1.45rem 1.4rem 1.3rem;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.12);display:flex;flex-direction:column;gap:.7rem;min-width:0}
+.ncard .ic{display:inline-grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:12px;background:linear-gradient(135deg,rgba(142,155,255,.25),rgba(255,138,91,.25));border:1px solid rgba(255,255,255,.2);font-size:1.05rem}
+.ncard h3{font-size:1.55rem;color:#fff}
+.ncard p{margin:0;font-size:.8rem;line-height:1.7;color:rgba(226,232,255,.8)}
+.ncard ul{margin:0;padding:0;list-style:none;font-size:.76rem;line-height:1.6;color:rgba(235,239,255,.92);display:flex;flex-direction:column;gap:.3rem}
+.ncard li::before{content:"\2192  ";color:#FF9A6E}
+.ncard .std{margin-top:auto;display:flex;flex-wrap:wrap;gap:.35rem;padding-top:.6rem}
+.ncard .std span{font-size:.64rem;letter-spacing:.04em;padding:.12rem .5rem;border-radius:999px;border:1px solid rgba(255,255,255,.28);color:rgba(235,239,255,.9)}
+.nrow{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1.5rem 3rem;align-items:center;margin-top:2.2rem}
+@media (max-width:56rem){.nrow{grid-template-columns:minmax(0,1fr)}}
+.term{border-radius:18px;background:#060A22;border:1px solid rgba(255,255,255,.14);box-shadow:0 30px 60px -30px rgba(0,0,0,.8);overflow:hidden;font-size:.78rem}
+.term .tb{display:flex;align-items:center;gap:.4rem;padding:.6rem .9rem;border-bottom:1px solid rgba(255,255,255,.1);color:rgba(226,232,255,.65);font-size:.7rem}
+.term .tb i{width:.55rem;height:.55rem;border-radius:50%;background:rgba(255,255,255,.18)}
+.term .tb span{margin-left:.5rem}
+.term ul{list-style:none;margin:0;padding:.9rem 1rem 1rem;display:flex;flex-direction:column;gap:.4rem;line-height:1.55}
+.term li{display:grid;grid-template-columns:1.4rem 1fr;gap:.3rem;color:rgba(235,239,255,.92)}
+.term .ok{color:#62E6A6}.term .mid{color:#FFC56E}.term .bad{color:#FF8A8A}.term .go{color:#9EAAFF}
+.term small{display:block;padding:0 1rem .9rem;color:rgba(226,232,255,.55);font-size:.66rem}
+.fineprint{font-size:.74rem;line-height:1.7;color:rgba(226,232,255,.7);margin:0;padding-left:.9rem;border-left:2px solid rgba(255,138,91,.6)}
+/* decks */
+.decks{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:1.2rem;align-items:start}
+@media (max-width:60rem){.decks{grid-template-columns:minmax(0,1fr)}}
+.slideimg{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:14px;border:1px solid rgba(255,255,255,.15);box-shadow:0 24px 50px -28px rgba(0,0,0,.85);background:#0A1238}
+.dfeat{display:flex;flex-direction:column;gap:.8rem;margin:0}
+.dstrip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem}
+.dside{display:flex;flex-direction:column;gap:1.2rem}
+.dside figure{margin:0}
+.dside figcaption,.dfeat figcaption{font-size:.72rem;color:rgba(226,232,255,.7);margin-top:.5rem}
+.dcta{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.4rem}
+.dlist{display:flex;flex-wrap:wrap;gap:.5rem;margin:2rem 0 1.2rem;padding:0;list-style:none}
+.dlist li{font-size:.76rem;padding:.4rem .8rem;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);color:rgba(235,239,255,.92)}
 /* experience, process, principles */
 .exp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
 @media (max-width:56rem){.exp{grid-template-columns:minmax(0,1fr)}}
@@ -324,8 +366,9 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
       <a class="nl" href="#work">Work</a>
       <a class="nl" href="#cases">Tools</a>
       <a class="nl" href="#how">How it works</a>
-      <a class="nl" href="#principles">Principles</a>
-    </nav>
+      <a class="nl" href="#medtech">Medtech</a>
+      <a class="nl" href="#decks">Decks</a>
+          </nav>
     <div class="pill right">
       <a class="cta" href="ward/">Open Halvia Ward</a>
       <a class="cta go" href="#contact">Work with me</a>
@@ -557,7 +600,61 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec" aria-labelledby="expH" style="padding-top:0">
+  <section class="sec navy-sec" id="medtech" aria-labelledby="medH">
+    <div class="wrap">
+      <div class="split2">
+        <div><p class="eyebrow">Medtech &amp; biotech software</p><h2 id="medH">Code for devices, labs and the systems around them</h2></div>
+        <p class="intro">Hearing aids, prosthetic hands and lab instruments all run on software, and so do the apps, dashboards and set-ups around them. These are real roles in medtech and biotech teams. I work on the design and software side, alongside your engineers, clinicians and regulatory team.</p>
+      </div>
+      <div class="ncards">
+        <article class="ncard"><span class="ic" aria-hidden="true">&#9673;</span><h3>Hearing aid apps and fitting software</h3>
+          <p>Users change volume, programs and streaming from a companion app. Audiologists use fitting software to set each device to the person's hearing test.</p>
+          <ul><li>Companion app screens and flows built for older users</li><li>Remote fitting session screens for audiologists</li><li>Bluetooth pairing and connection journeys</li></ul>
+          <div class="std" aria-label="Standards and technologies"><span>Bluetooth LE Audio</span><span>Made for iPhone hearing devices</span><span>Android ASHA</span></div></article>
+        <article class="ncard"><span class="ic" aria-hidden="true">&#9995;</span><h3>Prosthetics and orthotics software</h3>
+          <p>Myoelectric prosthetic hands are set up through apps that choose grip patterns and tune how sensitive they are to muscle signals (EMG). Prosthetists use clinic software to calibrate them.</p>
+          <ul><li>Configuration and grip-pattern apps</li><li>Clear EMG signal views for prosthetists</li><li>Practice and training games for new users</li></ul>
+          <div class="std" aria-label="Standards"><span>IEC 62304</span><span>IEC 62366-1</span><span>ISO 14971</span></div></article>
+        <article class="ncard"><span class="ic" aria-hidden="true">&#9638;</span><h3>Medical device software</h3>
+          <p>When software is itself a medical device, it's built under a defined lifecycle and a usability engineering process, with every design decision documented.</p>
+          <ul><li>Interface design and prototypes for usability testing</li><li>User-interface specs and use-related risk input</li><li>Design documentation your QMS can file</li></ul>
+          <div class="std" aria-label="Standards and regulations"><span>IEC 62304</span><span>IEC 62366-1</span><span>UK MDR 2002</span></div></article>
+        <article class="ncard"><span class="ic" aria-hidden="true">&#10003;</span><h3>Code health checks</h3>
+          <p>An independent look at an existing codebase before an audit, a funding round or a handover to a new team.</p>
+          <ul><li>Tests, coverage and anything failing</li><li>Static analysis and code quality</li><li>Dependency and vulnerability scan, with a software bill of materials (SBOM)</li><li>Requirements traced to tests, and a ranked fix list</li></ul>
+          <div class="std" aria-label="Standards and tools"><span>SBOM (CycloneDX)</span><span>IEC 81001-5-1</span><span>OWASP</span></div></article>
+        <article class="ncard"><span class="ic" aria-hidden="true">&#9879;</span><h3>Lab and biotech data tools</h3>
+          <p>Labs run on instrument exports, analysis pipelines and a lot of spreadsheets. Good tools make results quicker to read and easier to trust.</p>
+          <ul><li>Dashboards for assay and screening results</li><li>Front-ends for bioinformatics pipelines</li><li>Clean exports from your LIMS</li><li>Reproducible analysis notebooks</li></ul>
+          <div class="std" aria-label="Technologies"><span>Nextflow</span><span>Snakemake</span><span>FAIR data</span></div></article>
+        <article class="ncard"><span class="ic" aria-hidden="true">&#9881;</span><h3>Set-up, integration and troubleshooting</h3>
+          <p>Getting systems talking to each other, then keeping them working once real staff and patients are using them.</p>
+          <ul><li>HL7 FHIR and HL7 v2 interface mapping</li><li>Device and app set-up guides and runbooks</li><li>Log review and fault-finding for connections and updates</li><li>Clear handover notes for support teams</li></ul>
+          <div class="std" aria-label="Standards"><span>HL7 FHIR</span><span>HL7 v2</span><span>DICOM</span></div></article>
+      </div>
+      <div class="nrow">
+        <div class="term" role="img" aria-label="Example code health report: 214 tests passing, 2 failing, 71% coverage, 3 vulnerable dependencies, SBOM generated, 5 ranked fixes">
+          <div class="tb"><i></i><i></i><i></i><span>code-health &middot; example report</span></div>
+          <ul>
+            <li><span class="ok">&#10003;</span><span>214 tests passing &middot; <span class="bad">2 failing</span></span></li>
+            <li><span class="mid">&#9680;</span>Test coverage 71% (target 80%)</li>
+            <li><span class="ok">&#10003;</span>Static analysis: 0 critical, 6 warnings</li>
+            <li><span class="bad">&#10007;</span>3 dependencies with known vulnerabilities (1 high)</li>
+            <li><span class="ok">&#10003;</span>SBOM generated: 186 components, CycloneDX</li>
+            <li><span class="mid">&#9680;</span>Requirements traced to tests: 82%</li>
+            <li><span class="go">&rarr;</span>5 fixes, ranked by risk to patients and users</li>
+          </ul>
+          <small>Example output for illustration, not a real product's results.</small>
+        </div>
+        <div>
+          <p class="fineprint">The standards listed are the ones this work sits within, so it fits how your quality team already operates. Certification and regulatory sign-off stay with your quality and regulatory team.</p>
+          <div class="actions"><a class="btn light" href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20%E2%80%94%20medtech%20software">Talk about a device or lab project</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="expH">
     <div class="wrap">
       <p class="eyebrow">Where this comes from</p>
       <h2 id="expH">Health, science and screens</h2>
@@ -570,7 +667,37 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec" aria-labelledby="stepsH" style="padding-top:0">
+  <section class="sec navy-sec" id="decks" aria-labelledby="deckH">
+    <div class="wrap">
+      <div class="split2">
+        <div><p class="eyebrow">Decks &amp; research documents</p><h2 id="deckH">Research decks clinicians actually want to sit through</h2></div>
+        <p class="intro">Clinical and research meetings move fast. I design decks, case-study PDFs and posters that make the finding clear in the first minute, for grand rounds, MDT and governance meetings, journal clubs, funding bids and conferences.</p>
+      </div>
+      <div class="decks">
+        <figure class="dfeat">
+          <a href="decks/sample-research-deck.html" aria-label="Open the sample research deck"><img class="slideimg" src="decks/deck-1.jpg" alt="Sample deck title slide: Faster answers for respiratory infections" loading="lazy" width="1280" height="720"></a>
+          <div class="dstrip">
+            <img class="slideimg" src="decks/deck-3.jpg" alt="Study flow diagram slide" loading="lazy" width="1280" height="720">
+            <img class="slideimg" src="decks/deck-4.jpg" alt="Results slide with a bar chart and a forest plot" loading="lazy" width="1280" height="720">
+            <img class="slideimg" src="decks/deck-5.jpg" alt="Takeaways slide" loading="lazy" width="1280" height="720">
+          </div>
+          <figcaption>Sample deck: point-of-care testing for respiratory viruses. Six slides, from the question to the decision. Illustrative data, not real study results.</figcaption>
+          <div class="dcta"><a class="btn light" href="decks/Halvia-sample-research-deck.pdf" download>Download the sample deck (PDF)</a><a class="btn outline-w" href="decks/sample-research-deck.html">View in the browser</a></div>
+        </figure>
+        <div class="dside">
+          <figure><img class="slideimg" src="decks/cover-amr.jpg" alt="Sample cover: A new way in against drug-resistant E. coli, lab research update" loading="lazy" width="1280" height="720"><figcaption>Lab research update for a drug-discovery team</figcaption></figure>
+          <figure><img class="slideimg" src="decks/cover-sepsis.jpg" alt="Sample cover: Sepsis in the emergency department, a 12-month audit" loading="lazy" width="1280" height="720"><figcaption>Clinical audit for an emergency medicine governance meeting</figcaption></figure>
+        </div>
+      </div>
+      <ul class="dlist" aria-label="What I can make">
+        <li>Research and grand-rounds decks</li><li>Case-study PDFs</li><li>Clinical audit reports</li><li>Conference posters</li>
+        <li>Forest plots, survival curves and CONSORT flow diagrams</li><li>Patient-friendly summaries</li><li>Templates for PowerPoint, Keynote or Google Slides</li>
+      </ul>
+      <p class="fineprint">Samples use illustrative data. Real projects are built from your data and checked by your research team before they're presented.</p>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="stepsH">
     <div class="wrap">
       <div class="split2">
         <div><p class="eyebrow">How a project runs</p><h2 id="stepsH">Small, safe steps</h2></div>
@@ -685,13 +812,15 @@ var A=[
   {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output. <a href="#how">See the comparison</a>.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
   {k:/cost|price|budget|quote|pilot|start|timeline|how long/i,q:'How does a pilot start?',a:'Usually with 1 to 2 weeks of discovery with one team, then a 2 to 4 week working prototype tested on synthetic data. Every project is scoped with you, so <a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20pilot">email Shaun</a> for a plan and a quote.'},
+  {k:/hearing|prosthe|device|medtech|biotech|lab\b|firmware|code health|sbom|62304|integration|fhir|troubleshoot/i,q:'Do you work on medtech software?',a:'Yes: hearing aid and prosthetics apps, medical device software interfaces, code health checks, lab and biotech data tools, and set-up and troubleshooting. <a href="#medtech">See the details</a>.'},
+  {k:/deck|slide|present|pdf|poster|research|audit|grand round/i,q:'Can you design research decks?',a:'Yes: decks, case-study PDFs, audit reports and posters for clinical and research meetings. <a href="#decks">See a sample deck</a>.'},
   {k:/chks|coding|explainer|video|film/i,q:'Tell me about the CHKS work',a:'A 72-second explainer for CHKS\u2019s AI clinical coding system, used across the NHS, showing coding teams how the product helps while they stay in control. <a href="#work">Watch it</a>.'},
   {k:/who|shaun|about|experience|background/i,q:'Who is behind Halvia?',a:'Shaun Finch, a UI/UX and motion designer in Manchester working on AI in health and science, with a background in broadcast design for the BBC, Universal, Paramount and LIV Golf.'}
 ];
 function say(html,me){var d=document.createElement('div');d.className='msg'+(me?' me':'');if(me)d.textContent=html;else d.innerHTML=html;log.appendChild(d);log.scrollTop=log.scrollHeight}
 function answer(text){var hit=A.filter(function(x){return x.k.test(text)})[0];setTimeout(function(){say(hit?hit.a:'I\u2019m a simple scripted helper, so I may not have an answer for that. <a href="mailto:shaundavidfinch@gmail.com">Email Shaun</a> and you\u2019ll get a proper reply.')},250)}
 function start(){if(started)return;started=true;say('Hi, I\u2019m the Halvia helper. What\u2019s the biggest time sink for your team right now? Or pick a question below.');
-  chips.innerHTML='<a href="ward/">Try Halvia Ward</a><a href="Halvia-capability-sheet.pdf" download>Capability sheet</a><a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20%E2%80%94%20book%20a%20call">Book a call</a>'+A.slice(1,6).map(function(x,i){return '<button type="button" data-i="'+(i+1)+'">'+x.q+'</button>'}).join('')}
+  chips.innerHTML='<a href="ward/">Try Halvia Ward</a><a href="Halvia-capability-sheet.pdf" download>Capability sheet</a><a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20%E2%80%94%20book%20a%20call">Book a call</a>'+A.slice(1,8).map(function(x,i){return '<button type="button" data-i="'+(i+1)+'">'+x.q+'</button>'}).join('')}
 function open(){box.hidden=false;btn.setAttribute('aria-expanded','true');start();inp.focus()}
 function close(){box.hidden=true;btn.setAttribute('aria-expanded','false');btn.focus()}
 btn.addEventListener('click',function(){if(box.hidden)open();else close()});

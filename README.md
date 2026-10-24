@@ -7,5 +7,6 @@ AI systems for healthcare, by Shaun Finch. Source for **https://halvia.cloud**.
 - `/capability.html` and `Halvia-capability-sheet.pdf` — one-page capability sheet
 - `assets/` — shared tool engine (`tools.js`, `tools.css`) and self-hosted fonts (SIL OFL)
 - `media/` — product tour, CHKS explainer and the patient explainer video
+- `decks/` — sample research deck (HTML + PDF, illustrative data) and sample covers
 
 All tools run in the browser on synthetic patients. They are concept prototypes, not medical devices, and not for clinical use.

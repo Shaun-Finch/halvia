@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample deck covers — Halvia</title>
+<meta name="description" content="A sample clinical research deck designed by Halvia. All figures are illustrative, not real study results.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+@page{size:1280px 720px;margin:0}
+:root{--navy:#0A1238;--navy2:#141E52;--ink:#0B0D12;--mute:#4B5160;--dim:#666C7A;--line:#E4E7EF;--soft:#F5F6FA;
+  --blue:#1A3CFF;--violet:#5A2CE0;--orange:#FF5A1F;--teal:#0E8A7A;
+  --grad:linear-gradient(115deg,#1A3CFF 0%,#5A2CE0 55%,#FF5A1F 100%);
+  --sans:"Inter Tight","Helvetica Neue",Arial,sans-serif;--mono:"JetBrains Mono",Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html,body{margin:0;background:#D9DCE6}
+body{font-family:var(--mono);color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.slide{width:1280px;height:720px;position:relative;overflow:hidden;background:#fff;page-break-after:always;break-after:page}
+@media screen{.slide{margin:24px auto;box-shadow:0 20px 50px -25px rgba(0,0,0,.35)}}
+.pad{position:absolute;inset:64px 80px 70px}
+h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;margin:0;line-height:1.04}
+.kick{font-size:14px;letter-spacing:.22em;text-transform:uppercase;color:var(--dim);display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.kick::before{content:"";width:36px;height:3px;border-radius:2px;background:var(--grad)}
+.foot{position:absolute;left:80px;right:80px;bottom:28px;display:flex;justify-content:space-between;font-size:12px;color:var(--dim)}
+.foot b{font-weight:500;color:var(--orange)}
+.navy{background:radial-gradient(700px 420px at 100% 100%,rgba(255,90,31,.32),transparent 62%),radial-gradient(620px 420px at 0% 0%,rgba(26,60,255,.35),transparent 62%),var(--navy);color:#fff}
+.navy .kick{color:rgba(255,255,255,.75)}
+.navy .foot{color:rgba(255,255,255,.65)}
+.brand{display:flex;align-items:center;gap:12px;font-size:20px}
+.brand svg{width:44px;height:38px}
+/* slide 1 */
+.s1 h1{font-size:84px;max-width:15ch;margin-top:96px}
+.s1 p{font-size:22px;line-height:1.5;max-width:44ch;color:rgba(255,255,255,.85);margin:26px 0 0}
+.tag{display:inline-block;margin-top:34px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.45)}
+/* slide 2 */
+.s2 h2{font-size:58px;max-width:20ch}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px}
+.three div{border:1px solid var(--line);border-radius:20px;padding:26px 26px 28px;background:var(--soft)}
+.three b{display:block;font-family:var(--sans);font-weight:300;font-size:46px;letter-spacing:-.03em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.three span{display:block;font-size:16px;line-height:1.55;color:var(--mute);margin-top:8px}
+/* slide 3 flow */
+.s3 h2{font-size:52px}
+.flow{position:absolute;left:80px;right:80px;top:200px;bottom:90px}
+.box{position:absolute;border:1.5px solid #0A1238;border-radius:12px;padding:12px 16px;font-size:15px;line-height:1.4;background:#fff}
+.box b{display:inline;font-family:var(--sans);font-weight:500;font-size:22px;letter-spacing:-.01em}
+.box.side{border-style:dashed;border-color:#9AA1B2;color:var(--mute)}
+.box.arm{background:var(--soft)}
+svg.lines{position:absolute;inset:0;width:100%;height:100%}
+/* slide 4 results */
+.s4 h2{font-size:50px;max-width:22ch}
+.res{display:grid;grid-template-columns:1fr 1.25fr;gap:44px;margin-top:40px}
+.panel h3{font-family:var(--mono);font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);font-weight:400;margin-bottom:16px}
+/* slide 5 */
+.s5 h2{font-size:58px;max-width:18ch}
+.take{margin:44px 0 0;padding:0;list-style:none;display:grid;gap:18px;max-width:900px}
+.take li{display:grid;grid-template-columns:54px 1fr;gap:18px;align-items:start;font-size:21px;line-height:1.45;color:rgba(255,255,255,.9)}
+.take li i{font-style:normal;display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--grad);font-size:16px;color:#fff}
+.ask{position:absolute;right:80px;bottom:90px;width:360px;border-radius:20px;padding:22px 24px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.3);font-size:16px;line-height:1.55}
+.ask b{display:block;font-family:var(--sans);font-weight:400;font-size:24px;margin-bottom:8px}
+/* slide 6 */
+.s6 h2{font-size:64px;max-width:16ch;margin-top:120px}
+.s6 p{font-size:20px;line-height:1.6;color:rgba(255,255,255,.85);max-width:52ch;margin-top:24px}
+.warn{position:absolute;left:80px;right:80px;bottom:80px;font-size:14px;line-height:1.6;color:rgba(255,255,255,.75);border-top:1px solid rgba(255,255,255,.2);padding-top:18px}
+</style>
+</head>
+<body>
+<section class="slide s1" style="background:radial-gradient(640px 420px at 100% 0%,rgba(14,138,122,.18),transparent 60%),#fff">
+  <div class="pad">
+    <div class="brand" style="color:#0A1238"><svg viewBox="0 0 37 32" shape-rendering="crispEdges" color="#0A1238"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg>halvia &middot; lab research update</div>
+    <h1 style="color:#0A1238;font-size:78px;max-width:16ch">A new way in against drug-resistant <em style="font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent">E.&nbsp;coli</em></h1>
+    <p style="color:var(--mute)">Screening results from the first 2,000 compounds, and what we take into the next round.</p>
+    <span class="tag" style="border-color:#0A1238;color:#0A1238">Sample cover &middot; illustrative</span>
+  </div>
+  <svg viewBox="0 0 420 420" style="position:absolute;right:70px;top:150px;width:380px" aria-hidden="true">
+    <g fill="none" stroke="#0A1238" stroke-width="2"><rect x="60" y="150" width="300" height="120" rx="60"/><path d="M60 210H10M360 210h50M120 150l-20-40M300 150l20-40M120 270l-20 40M300 270l20 40"/></g>
+    <g fill="#FF5A1F"><circle cx="150" cy="210" r="10"/><circle cx="205" cy="190" r="7"/><circle cx="260" cy="228" r="9"/></g>
+    <circle cx="210" cy="210" r="150" fill="none" stroke="url(#gc)" stroke-width="3" stroke-dasharray="6 10"/>
+    <defs><linearGradient id="gc"><stop offset="0" stop-color="#1A3CFF"/><stop offset="1" stop-color="#FF5A1F"/></linearGradient></defs>
+  </svg>
+  <div class="foot"><span>Antimicrobial resistance programme</span><span><b>Illustrative</b> &middot; not real results</span></div>
+</section>
+<section class="slide navy s1">
+  <div class="pad">
+    <div class="brand"><svg viewBox="0 0 37 32" shape-rendering="crispEdges" color="#fff"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg>halvia &middot; clinical audit</div>
+    <h1 style="font-size:64px;max-width:15ch;margin-top:72px">Sepsis in the emergency department: a 12-month audit</h1>
+    <p>Time to antibiotics, screening compliance and what changed after the new pathway.</p>
+    <span class="tag">Sample cover &middot; illustrative</span>
+  </div>
+  <svg viewBox="0 0 480 300" style="position:absolute;right:70px;top:210px;width:440px" aria-hidden="true">
+    <g fill="none" stroke="rgba(255,255,255,.25)"><path d="M0 250H480M0 190H480M0 130H480M0 70H480"/></g>
+    <polyline fill="none" stroke="url(#gs)" stroke-width="4" stroke-linejoin="round" points="0,90 40,104 80,96 120,120 160,140 200,150 240,178 280,190 320,200 360,214 400,222 440,226 480,232"/>
+    <g fill="#fff"><circle cx="240" cy="178" r="6"/></g>
+    <text x="250" y="166" fill="#fff" font-family="JetBrains Mono" font-size="14">new pathway</text>
+    <defs><linearGradient id="gs"><stop offset="0" stop-color="#7C8CFF"/><stop offset="1" stop-color="#FF7A45"/></linearGradient></defs>
+  </svg>
+  <div class="foot"><span>Emergency medicine governance</span><span><b>Illustrative</b> &middot; not real results</span></div>
+</section>
+</body></html>
