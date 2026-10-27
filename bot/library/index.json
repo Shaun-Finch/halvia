@@ -1,0 +1,8 @@
+[
+ {"id":"news2","file":"news2.md","title":"NEWS2: National Early Warning Score 2","source":"Royal College of Physicians, 2017"},
+ {"id":"sepsis","file":"sepsis.md","title":"Recognising sepsis in adults","source":"Based on NICE NG51 (updated 2024) and the UK Sepsis Trust"},
+ {"id":"abcde","file":"abcde.md","title":"ABCDE assessment of the acutely unwell adult","source":"Based on the Resuscitation Council UK ABCDE approach"},
+ {"id":"sbar","file":"sbar.md","title":"SBAR: structured handover and escalation","source":"SBAR, as used across the NHS"},
+ {"id":"black-eye","file":"black-eye.md","title":"Black eye: aftercare advice for patients","source":"General first-aid guidance"},
+ {"id":"halvia-bot","file":"halvia-bot.md","title":"About Halvia bot","source":"Halvia"}
+]

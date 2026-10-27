@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Halvia bot — offline AI for clinicians</title>
+<meta name="description" content="Halvia bot: an AI assistant for doctors and nurses that runs on your device and keeps working with no internet. Answers cite their sources, and you can add your own papers and guidelines. Prototype, not a medical device.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Halvia">
+<meta property="og:title" content="Halvia bot — an AI assistant that works with no signal">
+<meta property="og:description" content="Runs on your device, works offline, cites its sources and learns from the papers you add. A prototype by Halvia.">
+<meta property="og:url" content="https://halvia.cloud/bot/">
+<meta property="og:image" content="https://halvia.cloud/bot/og-bot.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0F26" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://halvia.cloud/bot/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Halvia bot">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<link rel="stylesheet" href="bot.css">
+<script>try{var t=localStorage.getItem('halvia-bot-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="module" src="bot.js"></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="heart" viewBox="0 0 37 32"><g shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></g></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15ZM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-clip" viewBox="0 0 24 24"><path d="M20.5 11.5 12 20a5.2 5.2 0 0 1-7.4-7.4l8.8-8.8a3.5 3.5 0 0 1 5 5l-8.8 8.8a1.8 1.8 0 0 1-2.6-2.6L15 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-stop" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5" fill="currentColor"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6.5 7l1 13h9l1-13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Zm0 0v5h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+</svg>
+
+<a class="skip" href="#composerIn">Skip to message box</a>
+<div class="app" id="app">
+  <aside class="side" id="side" aria-label="Chats and library">
+    <div class="side-top">
+      <button class="brand" type="button" id="brand" aria-label="Halvia bot, start a new chat"><svg class="logo" aria-hidden="true"><use href="#heart"/></svg><span>Halvia <b>bot</b></span></button>
+      <button class="icon only-m" type="button" id="sideClose" aria-label="Close menu"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+    <button class="newchat" type="button" id="newChat"><svg aria-hidden="true"><use href="#i-plus"/></svg>New chat</button>
+    <button class="side-link" type="button" id="openLib"><svg aria-hidden="true"><use href="#i-book"/></svg>Library<span class="count" id="libCount">6</span></button>
+    <nav class="hist" aria-labelledby="histH">
+      <h2 id="histH">Recent chats</h2>
+      <ul id="chatList"></ul>
+      <p class="hist-empty" id="histEmpty">Your chats will show here. <span id="histGuest">Sign in to keep them on this device.</span></p>
+    </nav>
+    <button class="install" type="button" id="installBtn" hidden>Install Halvia bot as an app</button>
+    <div class="me" id="me">
+      <div class="me-who" id="meWho"><span class="av" aria-hidden="true">?</span><span><b>Guest</b><small>Not signed in</small></span></div>
+      <div class="me-acts">
+        <button class="btn sm" type="button" id="signBtn">Sign in</button>
+        <button class="icon" type="button" id="openSet" aria-label="Settings"><svg aria-hidden="true"><use href="#i-gear"/></svg></button>
+      </div>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <main class="main" id="main">
+    <header class="top">
+      <h1 class="sr">Halvia bot</h1>
+      <button class="icon only-m" type="button" id="sideOpen" aria-label="Open menu" aria-controls="side" aria-expanded="false"><svg aria-hidden="true"><use href="#i-menu"/></svg></button>
+      <a class="back" href="../">&larr; halvia.cloud</a>
+      <div class="pills">
+        <span class="pill net" id="netPill" role="status"><i aria-hidden="true"></i><span>Online</span></span>
+        <button class="pill ai" type="button" id="aiPill" aria-describedby="aiPillHint"><i aria-hidden="true"></i><span id="aiPillText">AI: checking…</span></button>
+        <span class="sr" id="aiPillHint">Opens AI model settings</span>
+        <button class="icon" type="button" id="themeBtn" aria-label="Switch to dark mode"><svg aria-hidden="true"><use href="#i-moon"/></svg></button>
+      </div>
+    </header>
+
+    <div class="thread" id="thread" tabindex="-1">
+      <div class="hello" id="hello">
+        <svg class="hello-logo" aria-hidden="true"><use href="#heart"/></svg>
+        <h2 id="helloH">How can I help on shift?</h2>
+        <p class="hello-sub">Ask about guidelines, scores and protocols. I answer from your library, cite my sources and keep working with no internet.</p>
+        <div class="status-card" id="statusCard" hidden></div>
+        <div class="sugs" id="sugs" role="group" aria-label="Suggested questions">
+          <button type="button" class="sug">What NEWS2 score needs an emergency response?</button>
+          <button type="button" class="sug">How do I structure an SBAR call to a registrar?</button>
+          <button type="button" class="sug">What are the high-risk signs of sepsis in adults?</button>
+          <button type="button" class="sug">What aftercare advice should I give for a black eye?</button>
+        </div>
+      </div>
+      <div role="log" aria-live="polite" aria-label="Conversation"><ol class="msgs" id="msgs"></ol></div>
+    </div>
+
+    <div class="dock">
+      <div class="pii" id="pii" role="alert" hidden>
+        <p><b>This may contain patient-identifiable information</b> <span id="piiWhat"></span>. Halvia bot is not for patient data, even though it stays on this device.</p>
+        <div><button class="btn sm" type="button" id="piiEdit">Edit message</button><button class="btn sm ghost" type="button" id="piiSend">Send anyway</button></div>
+      </div>
+      <form class="composer" id="composer">
+        <label class="sr" for="composerIn">Message Halvia bot</label>
+        <textarea id="composerIn" rows="1" placeholder="Ask Halvia bot…" autocomplete="off" enterkeyhint="send"></textarea>
+        <div class="comp-row">
+          <button class="icon" type="button" id="attach" aria-label="Add documents to your library"><svg aria-hidden="true"><use href="#i-clip"/></svg></button>
+          <span class="comp-mode" id="compMode">Library search</span>
+          <button class="send" type="submit" id="send" aria-label="Send message" disabled><svg aria-hidden="true"><use href="#i-up"/></svg></button>
+        </div>
+      </form>
+      <p class="fine">Prototype, not a medical device. Check answers against the cited source and local guidance. Don't enter patient-identifiable information.</p>
+    </div>
+  </main>
+</div>
+
+<!-- Library -->
+<dialog class="dlg wide" id="libDlg" aria-labelledby="libH">
+  <div class="dlg-hd"><h2 id="libH">Library</h2><button class="icon" type="button" data-close aria-label="Close library"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  <div class="dlg-bd">
+    <p class="lead">Halvia bot answers from these documents. Add your own papers, guidelines and notes to teach it: they're split into passages, indexed and cited in answers. Everything stays on this device.</p>
+    <section aria-labelledby="mineH">
+      <h3 id="mineH">Your documents</h3>
+      <div id="mineGuest" class="gate"><svg aria-hidden="true"><use href="#i-lock"/></svg><p><b>Sign in to add your own documents.</b> Your profile is created on this device and your documents are encrypted with your passcode.</p><button class="btn go sm" type="button" id="libSign">Sign in or create a profile</button></div>
+      <div id="mineBox" hidden>
+        <label class="drop" id="drop" for="fileIn">
+          <svg aria-hidden="true"><use href="#i-file"/></svg>
+          <span><b>Drop files here or choose files</b><small>PDF, Word (.docx), text, Markdown, HTML or CSV · up to 25 MB each</small></span>
+          <input type="file" id="fileIn" multiple accept=".pdf,.docx,.txt,.md,.markdown,.html,.htm,.csv,application/pdf,text/plain,text/markdown,text/html,text/csv,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+        </label>
+        <details class="paste"><summary>Or paste text</summary>
+          <form id="pasteForm">
+            <label for="pasteTitle">Title</label><input id="pasteTitle" required maxlength="120" placeholder="e.g. Trust AKI pathway 2026">
+            <label for="pasteText">Text</label><textarea id="pasteText" required rows="6" placeholder="Paste the guideline, paper abstract or notes here"></textarea>
+            <button class="btn sm" type="submit">Add to library</button>
+          </form>
+        </details>
+        <p class="ingest" id="ingest" role="status" aria-live="polite"></p>
+        <ul class="docs" id="mineList"></ul>
+        <p class="docs-empty" id="mineEmpty">No documents yet.</p>
+      </div>
+    </section>
+    <section aria-labelledby="starterH">
+      <div class="row-h"><h3 id="starterH">Halvia starter library</h3><label class="switch"><input type="checkbox" id="useStarter" checked><span>Use in answers</span></label></div>
+      <ul class="docs" id="starterList"></ul>
+      <p class="tiny">Summaries written by Halvia from public UK guidance, with the source named on each. Check the original before relying on them.</p>
+    </section>
+  </div>
+</dialog>
+
+<!-- Settings -->
+<dialog class="dlg wide" id="setDlg" aria-labelledby="setH">
+  <div class="dlg-hd"><h2 id="setH">Settings</h2><button class="icon" type="button" data-close aria-label="Close settings"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  <div class="dlg-bd">
+    <section aria-labelledby="modelH">
+      <h3 id="modelH">On-device AI</h3>
+      <p class="lead" id="gpuNote">Checking whether this device can run the AI…</p>
+      <fieldset class="models" id="models"><legend class="sr">Choose a model</legend></fieldset>
+      <div class="prog" id="prog" hidden><div class="bar"><span id="progBar"></span></div><p id="progText" role="status" aria-live="polite"></p></div>
+      <div class="acts"><button class="btn go" type="button" id="dlBtn">Download for offline use</button><button class="btn ghost" type="button" id="rmBtn" hidden>Remove from this device</button></div>
+      <p class="tiny" id="storeNote"></p>
+    </section>
+    <section aria-labelledby="ansH">
+      <h3 id="ansH">Answers</h3>
+      <label class="switch"><input type="checkbox" id="strict" checked><span>Only answer from the library <small>When off, the AI may add general knowledge and will say when it does.</small></span></label>
+    </section>
+    <section aria-labelledby="appH">
+      <h3 id="appH">Appearance</h3>
+      <div class="seg" role="radiogroup" aria-labelledby="appH" id="themeSeg">
+        <label><input type="radio" name="theme" value="system" checked><span>Match device</span></label>
+        <label><input type="radio" name="theme" value="light"><span>Light</span></label>
+        <label><input type="radio" name="theme" value="dark"><span>Night</span></label>
+      </div>
+    </section>
+    <section aria-labelledby="dataH">
+      <h3 id="dataH">Your data</h3>
+      <p class="lead" id="dataNote">You're using Halvia bot as a guest. Chats are not saved.</p>
+      <div class="acts" id="dataActs" hidden><button class="btn sm ghost" type="button" id="clearChats">Delete all chats</button><button class="btn sm danger" type="button" id="delProfile">Delete profile and documents</button></div>
+      <p class="tiny">Signed-in profiles lock automatically after 15 minutes without use, for shared ward computers.</p>
+    </section>
+    <section aria-labelledby="appsH">
+      <h3 id="appsH">Install as an app</h3>
+      <p class="lead">On Android or a computer, use <b>Install</b> in the browser menu. On iPhone or iPad, tap <b>Share</b>, then <b>Add to Home Screen</b>. Native Android and iOS apps are on the way.</p>
+    </section>
+  </div>
+</dialog>
+
+<!-- Sign in -->
+<dialog class="dlg" id="signDlg" aria-labelledby="signH">
+  <div class="dlg-hd"><h2 id="signH">Sign in</h2><button class="icon" type="button" data-close aria-label="Close"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  <div class="dlg-bd">
+    <div class="tabs" role="tablist" aria-label="Sign in or create a profile">
+      <button type="button" role="tab" id="tabIn" aria-controls="panIn" aria-selected="true">Sign in</button>
+      <button type="button" role="tab" id="tabNew" aria-controls="panNew" aria-selected="false" tabindex="-1">Create profile</button>
+    </div>
+    <div id="panIn" role="tabpanel" aria-labelledby="tabIn"><form class="form" id="formIn">
+      <fieldset id="profPick"><legend>Profile on this device</legend></fieldset>
+      <label for="inPass">Passcode</label><input id="inPass" type="password" autocomplete="current-password" required minlength="6">
+      <p class="err" id="inErr" role="alert"></p>
+      <button class="btn go" type="submit">Unlock</button>
+    </form></div>
+    <div id="panNew" role="tabpanel" aria-labelledby="tabNew" hidden><form class="form" id="formNew">
+      <label for="nName">Name</label><input id="nName" required maxlength="60" autocomplete="name" placeholder="e.g. Dr Sam Patel">
+      <label for="nRole">Role</label>
+      <select id="nRole"><option>Doctor</option><option>Nurse</option><option>Midwife</option><option>Paramedic</option><option>Pharmacist</option><option>Allied health professional</option><option>Medical student</option><option>Researcher</option><option>Other</option></select>
+      <label for="nPass">Passcode <small>at least 6 characters</small></label><input id="nPass" type="password" autocomplete="new-password" required minlength="6">
+      <label for="nPass2">Confirm passcode</label><input id="nPass2" type="password" autocomplete="new-password" required minlength="6">
+      <p class="err" id="newErr" role="alert"></p>
+      <button class="btn go" type="submit">Create profile</button>
+    </form></div>
+    <p class="tiny">Your profile lives on this device only, and your documents and chats are encrypted with your passcode. If you forget it, they can't be recovered. Profiles that sync across devices are coming.</p>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p style="padding:2rem;font-family:system-ui">Halvia bot needs JavaScript to run.</p></noscript>
+</body>
+</html>

@@ -271,6 +271,42 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .term .ok{color:#62E6A6}.term .mid{color:#FFC56E}.term .bad{color:#FF8A8A}.term .go{color:#9EAAFF}
 .term small{display:block;padding:0 1rem .9rem;color:rgba(226,232,255,.55);font-size:.66rem}
 .fineprint{font-size:.74rem;line-height:1.7;color:rgba(226,232,255,.7);margin:0;padding-left:.9rem;border-left:2px solid rgba(255,138,91,.6)}
+/* Halvia bot */
+.hb{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);gap:2.5rem 3.5rem;align-items:center}
+@media (max-width:60rem){.hb{grid-template-columns:minmax(0,1fr)}}
+.hb h2 em{font-style:normal;background:linear-gradient(115deg,#9AA6FF,#C9A6FF 55%,#FF9A6E);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hb-feats{list-style:none;margin:1.6rem 0 1.8rem;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1.4rem}
+@media (max-width:34rem){.hb-feats{grid-template-columns:minmax(0,1fr)}}
+.hb-feats li{font-size:.78rem;line-height:1.6;color:rgba(226,232,255,.8);padding-left:.9rem;border-left:2px solid rgba(142,155,255,.5)}
+.hb-feats b{display:block;font-family:var(--sans);font-weight:500;font-size:1rem;color:#fff;margin-bottom:.15rem}
+.hb .actions{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center}
+.navy-sec .hb-shot{display:block;text-decoration:none;border-radius:22px;background:#FFFFFF;color:#0B0D12;box-shadow:0 40px 80px -36px rgba(0,0,0,.9),0 0 0 1px rgba(255,255,255,.18);overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
+.hb-shot:hover{transform:translateY(-4px);box-shadow:0 50px 90px -36px rgba(0,0,0,.95),0 0 0 1px rgba(255,255,255,.35)}
+.hb-shot:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.hb-bar{display:flex;align-items:center;gap:.5rem;padding:.7rem 1rem;border-bottom:1px solid #E4E7EF;font-size:.68rem;color:#4B5160}
+.hb-bar .logo{display:flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.92rem;color:#0B0D12;margin-right:auto}
+.hb-bar .logo svg{width:1.3rem;height:1.15rem}
+.hb-bar .logo b{font-weight:300;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hb-pill{display:inline-flex;align-items:center;gap:.35rem;border:1px solid #E4E7EF;border-radius:99px;padding:.18rem .55rem;white-space:nowrap}
+.hb-pill i{width:.42rem;height:.42rem;border-radius:50%;background:#0E8A4B}
+.hb-pill.off{border-color:#E9A55B;color:#8A4A00}.hb-pill.off i{background:#D97A12}
+.hb-body{padding:1.2rem 1.2rem .6rem;display:flex;flex-direction:column;gap:.9rem;background:linear-gradient(180deg,#fff,#F8F9FD)}
+.hb-q{align-self:flex-end;background:#EEF0F7;border-radius:16px 16px 4px 16px;padding:.55rem .85rem;font-family:var(--sans);font-size:.95rem;max-width:85%}
+.hb-a{display:grid;grid-template-columns:1.7rem minmax(0,1fr);gap:.65rem;font-family:var(--sans);font-size:.92rem;line-height:1.5}
+.hb-a .av{width:1.7rem;height:1.7rem;border:1px solid #E4E7EF;border-radius:8px;display:grid;place-items:center;background:#fff}
+.hb-a .av svg{width:1.1rem;height:1rem}
+.hb-a p{margin:0 0 .45rem}
+.hb-a ul{margin:0 0 .5rem;padding-left:1.1rem}
+.hb-a sup{display:inline-grid;place-items:center;min-width:1.05rem;height:1.05rem;border-radius:5px;background:#E6E9F3;font:500 .6rem/1 var(--mono);vertical-align:.15em;margin-left:.15rem}
+.hb-src{display:flex;flex-wrap:wrap;gap:.35rem}
+.hb-src span{font-family:var(--mono);font-size:.62rem;border:1px solid #E4E7EF;border-radius:8px;padding:.2rem .5rem;color:#4B5160;background:#fff}
+.hb-comp{margin:0 1.2rem 1.1rem;border:1px solid #CDD2DE;border-radius:16px;padding:.6rem .6rem .6rem .9rem;display:flex;align-items:center;gap:.6rem;color:#636978;font-family:var(--sans);font-size:.9rem}
+.hb-comp span{margin-right:auto}
+.hb-comp i{width:1.8rem;height:1.8rem;border-radius:50%;background:var(--grad);display:grid;place-items:center;color:#fff;font-style:normal;font-size:.9rem}
+.hb-open{display:flex;justify-content:space-between;align-items:center;padding:.75rem 1.2rem;background:#0B0D12;color:#fff;font-size:.74rem}
+.hb-open b{font-family:var(--sans);font-weight:500;font-size:.95rem}
+@media (max-width:30rem){.hb-pill:not(.off),.hb-open > span:last-child{display:none}}
+@media (prefers-reduced-motion:reduce){.hb-shot,.hb-shot:hover{transition:none;transform:none}}
 /* decks */
 .decks{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:1.2rem;align-items:start}
 @media (max-width:60rem){.decks{grid-template-columns:minmax(0,1fr)}}
@@ -420,7 +456,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
       <a class="nl" href="#how">How it works</a>
       <a class="nl" href="#medtech">Medtech</a>
       <a class="nl" href="#decks">Decks</a>
-      <a class="nl" href="#agents">Agents</a>
+      <a class="nl" href="#agents">Agents</a><a class="nl" href="#bot">Bot</a>
           </nav>
     <div class="pill right">
       <a class="cta" href="ward/">Open Halvia Ward</a>
@@ -838,6 +874,41 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
+  <section class="sec navy-sec" id="bot" aria-labelledby="botH">
+    <div class="wrap">
+      <div class="hb">
+        <div>
+          <p class="eyebrow">Halvia bot &middot; offline AI</p>
+          <h2 id="botH">An AI assistant for clinicians that <em>works with no signal</em></h2>
+          <p class="intro">Halvia bot runs on the device itself, so it keeps answering on a ward with no Wi-Fi, in a basement clinic or on a flight. It answers from a library of guidance, shows the passages it used, and learns from the papers and protocols you add.</p>
+          <ul class="hb-feats">
+            <li><b>Works offline</b>The AI model downloads once, then runs on the phone or laptop with no internet.</li>
+            <li><b>Cites its sources</b>Every answer links to the passage it came from, so you can check it in seconds.</li>
+            <li><b>Learns your documents</b>Sign in and add PDFs, Word files and notes: they're indexed and used in answers.</li>
+            <li><b>Private by design</b>Documents and chats stay on the device, encrypted with your passcode.</li>
+          </ul>
+          <div class="actions">
+            <a class="btn go" href="bot/">Open Halvia bot</a>
+            <span style="font-size:.74rem;color:rgba(226,232,255,.72)">Web app today &middot; Android and iOS next</span>
+          </div>
+        </div>
+        <a class="hb-shot" href="bot/" aria-label="Open Halvia bot: preview of the chat answering a NEWS2 question offline, with sources">
+          <div class="hb-bar" aria-hidden="true"><span class="logo"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg>Halvia <b>bot</b></span><span class="hb-pill off"><i></i>Offline</span><span class="hb-pill"><i></i>AI on this device</span></div>
+          <div class="hb-body" aria-hidden="true">
+            <div class="hb-q">What NEWS2 score needs an emergency response?</div>
+            <div class="hb-a"><span class="av"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg></span><div>
+              <p>An aggregate NEWS2 of <strong>7 or more</strong> is high risk and needs an emergency response.<sup>1</sup> That means:</p>
+              <ul><li>Emergency assessment by a team with critical care competencies<sup>1</sup></li><li>Continuous monitoring of vital signs<sup>2</sup></li></ul>
+              <div class="hb-src"><span>1 &middot; NEWS2 &middot; RCP 2017</span><span>2 &middot; Observation frequency</span><span>+ Your trust protocol</span></div>
+            </div></div>
+          </div>
+          <div class="hb-comp" aria-hidden="true"><span>Ask Halvia bot&hellip;</span><i>&uarr;</i></div>
+          <div class="hb-open"><span><b>Try Halvia bot</b><br>Prototype &middot; not a medical device</span><span aria-hidden="true">halvia.cloud/bot &rarr;</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="sec" id="contact" aria-labelledby="contactH" style="padding-top:0">
     <div class="wrap">
       <div class="contact">
@@ -927,6 +998,7 @@ v.addEventListener('play',setTg);v.addEventListener('pause',setTg);setTg();
 var btn=$('#askBtn'),box=$('#ask'),log=$('#askLog'),chips=$('#askChips'),form=$('#askForm'),inp=$('#askIn'),started=false;
 var A=[
   {k:/contact|email|call|meet|book|talk|hire/i,q:'How do I get in touch?',a:'Email <a href="mailto:shaundavidfinch@gmail.com">shaundavidfinch@gmail.com</a> or message on <a href="https://www.linkedin.com/in/shaun-finch" rel="noopener">LinkedIn</a>. A short description of the problem is plenty to start.'},
+  {k:/offline|\bbot\b|chat ?bot|no (internet|signal|wifi)|halvia bot/i,q:'What is Halvia bot?',a:'An AI assistant for clinicians that runs on the device and keeps working with no internet. It answers from a library of guidance, cites its sources, and learns from the papers you add. <a href="bot/">Open Halvia bot</a>.'},
   {k:/build|make|do you do|service|offer|help with/i,q:'What can you build?',a:'Design, working prototypes and AI set-up for health teams: ward tools like the NEWS2 board, documentation helpers such as handover and discharge letters, coding support and patient-facing content. The seven tools on this page are examples. <a href="#cases">Try them</a>.'},
   {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output. <a href="#how">See the comparison</a>.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
