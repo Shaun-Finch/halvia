@@ -150,6 +150,12 @@
       <ul class="docs" id="starterList"></ul>
       <p class="tiny">Summaries written by Halvia from public UK guidance, with the source named on each. Check the original before relying on them.</p>
     </section>
+    <section aria-labelledby="resH">
+      <div class="row-h"><h3 id="resH">Research library <small id="resCount" class="count-note"></small></h3><label class="switch"><input type="checkbox" id="useResearch" checked><span>Use in answers</span></label></div>
+      <p class="tiny" style="margin:0 0 .6rem">Peer-reviewed reviews, systematic reviews and guidelines from open-access journals, published under CC BY or CC0 licences that allow reuse. Collected from Europe PMC and credited on every answer.</p>
+      <label class="sr" for="resFilter">Filter research papers</label><input class="filter" id="resFilter" type="search" placeholder="Filter by topic, journal or title, e.g. sepsis">
+      <ul class="docs" id="resList"></ul>
+    </section>
   </div>
 </dialog>
 
@@ -157,6 +163,12 @@
 <dialog class="dlg wide" id="setDlg" aria-labelledby="setH">
   <div class="dlg-hd"><h2 id="setH">Settings</h2><button class="icon" type="button" data-close aria-label="Close settings"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
   <div class="dlg-bd">
+    <section aria-labelledby="readyH">
+      <h3 id="readyH">Offline readiness</h3>
+      <ul class="ready" id="readyList"></ul>
+      <div class="acts"><button class="btn go" type="button" id="readyBtn">Get ready for offline</button></div>
+      <p class="tiny" id="readyMsg" role="status" aria-live="polite"></p>
+    </section>
     <section aria-labelledby="modelH">
       <h3 id="modelH">On-device AI</h3>
       <p class="lead" id="gpuNote">Checking whether this device can run the AI…</p>

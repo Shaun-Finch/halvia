@@ -1,0 +1,38 @@
+name: Halvia bot offline end-to-end test
+on:
+  push:
+    branches: [bot-lab]
+    paths: [tools/e2e_offline.cjs, tools/e2e-run.txt, .github/workflows/bot-e2e.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: e2e, cancel-in-progress: true }
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Check https on the live site
+        run: |
+          { echo "## Live site"; echo '```'; curl -sSI https://halvia.cloud/bot/ 2>&1 | head -5; echo; curl -sSI http://halvia.cloud/bot/ 2>&1 | head -5; echo '```'; } > live.md || true
+          cat live.md
+      - name: Install Playwright
+        run: npm i --no-save playwright@1.48.2
+      - name: Serve the site and run the test
+        run: |
+          python3 -m http.server 8080 >/dev/null 2>&1 &
+          sleep 2
+          MODEL=$(cut -d' ' -f1 tools/e2e-run.txt) node tools/e2e_offline.cjs
+      - name: Commit results
+        if: always()
+        run: |
+          mkdir -p e2e && cat live.md >> e2e/result.md || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add e2e
+          git commit -m "Offline end-to-end test results" || echo "nothing new"
+          git pull --rebase -q origin bot-lab || true
+          git push

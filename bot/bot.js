@@ -13,18 +13,22 @@ const LS = {
 };
 
 const MODELS = [
+  { key: 'pocket', name: 'Pocket', model: 'SmolLM2 360M', f16: 'SmolLM2-360M-Instruct-q4f16_1-MLC', f32: 'SmolLM2-360M-Instruct-q4f32_1-MLC', size: 'about 0.3 GB', note: 'For older phones: short, simple answers' },
   { key: 'fast', name: 'Fast', model: 'Llama 3.2 1B', f16: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', size: 'about 0.9 GB', note: 'Works on most laptops and recent phones' },
   { key: 'better', name: 'Better', model: 'Llama 3.2 3B', f16: 'Llama-3.2-3B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-3B-Instruct-q4f32_1-MLC', size: 'about 2.3 GB', note: 'Clearer answers, needs a recent laptop' },
   { key: 'best', name: 'Most capable', model: 'Phi-3.5 mini', f16: 'Phi-3.5-mini-instruct-q4f16_1-MLC', f32: 'Phi-3.5-mini-instruct-q4f32_1-MLC', size: 'about 3.7 GB', note: 'Desktop or gaming laptop with a good GPU' },
 ];
 const IDLE_LOCK_MS = 15 * 60 * 1000;
+// Must match sw.js.
+const CACHES = { shell: 'halvia-bot-shell-v2', vendor: 'halvia-bot-vendor-v1' };
+const VENDOR = ['./vendor/web-llm.js', './vendor/pdf.min.mjs', './vendor/pdf.worker.min.mjs'];
 
 const S = {
   profile: null, key: null,
-  starter: [], mine: [], chats: [], chatId: null,
+  starter: [], research: [], mine: [], chats: [], chatId: null, ready: null,
   gpu: null, engine: null, worker: null, ai: 'checking', modelKey: LS.get('halvia-bot-model', 'fast'), have: LS.get('halvia-bot-have', {}),
   busy: false, stopReq: false, index: null, lastActive: Date.now(),
-  strict: LS.get('halvia-bot-strict', true), useStarter: LS.get('halvia-bot-starter', true),
+  strict: LS.get('halvia-bot-strict', true), useStarter: LS.get('halvia-bot-starter', true), useResearch: LS.get('halvia-bot-research', true),
 };
 
 /* ---------- storage ---------- */
@@ -131,7 +135,7 @@ function toPassages(text, pages) {
 }
 
 function buildIndex() {
-  const docs = [...(S.useStarter ? S.starter : []), ...S.mine];
+  const docs = [...(S.useStarter ? S.starter : []), ...(S.useResearch ? S.research : []), ...S.mine];
   const items = [];
   for (const d of docs) d.passages.forEach((p, i) => {
     const tf = new Map();
@@ -158,11 +162,17 @@ function search(q, k = 4) {
       const n = ix.df.get(w), idf = Math.log(1 + (ix.N - n + 0.5) / (n + 0.5));
       s += idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * it.len / ix.avg));
     }
-    if (s > 0) scored.push({ ...it, score: s * (0.6 + 0.4 * hits / qt.length) });
+    // Clinical reference and the user's own documents rank ahead of research papers on a tie.
+    if (s > 0) scored.push({ ...it, score: s * (0.6 + 0.4 * hits / qt.length) * (it.doc.weight || 1) });
   }
   scored.sort((a, b) => b.score - a.score);
-  const top = scored[0]?.score || 0;
-  return scored.filter(r => r.score >= top * 0.35).slice(0, k);
+  const top = scored[0]?.score || 0, per = new Map(), out = [];
+  for (const r of scored) {
+    if (r.score < top * 0.35 || out.length >= k) break;
+    const n = per.get(r.doc) || 0; if (n >= 2) continue;
+    per.set(r.doc, n + 1); out.push(r);
+  }
+  return out;
 }
 
 /* ---------- reading files ---------- */
@@ -296,6 +306,7 @@ async function loadModel() {
     try { await navigator.storage?.persist?.(); } catch {}
     warmOfflineFiles();
     $('#prog').hidden = true;
+    checkReady();
     setAi('ready');
     toast(`${m.model} is ready. Halvia bot now works offline.`);
     storageNote();
@@ -316,13 +327,13 @@ async function removeModel() {
   setAi('none'); storageNote(); toast(`${m.model} removed from this device.`);
 }
 // After the model is in, make sure the PDF reader is cached too, so adding PDFs works offline.
-function warmOfflineFiles() { ['./vendor/pdf.min.mjs', './vendor/pdf.worker.min.mjs'].forEach(u => fetch(u).catch(() => {})); }
+function warmOfflineFiles() { caches.open(CACHES.vendor).then(c => Promise.all(VENDOR.map(async u => (await c.match(new URL(u, location.href).href)) || c.add(u)))).catch(() => {}); }
 
 const SYSTEM = strict => `You are Halvia bot, an assistant for UK doctors, nurses and other clinicians. You run offline on the user's own device.
 Answer the question using ONLY the numbered sources provided. Cite the source after each fact, like [1] or [2].
 ${strict ? 'If the sources do not contain the answer, say "I couldn\'t find that in your library" and suggest what kind of document to add. Do not guess and do not use outside knowledge.' : 'Prefer the sources. If you add general knowledge that is not in the sources, say so clearly and do not cite it.'}
 Be concise and practical: a short answer first, then bullet points if useful. Use UK spelling and units.
-Never make a diagnosis or give a dose for a specific patient. Where it matters, remind the user to check local guidance and use clinical judgement.
+You may quote doses and thresholds exactly as they appear in the sources, but never work out a dose or make a diagnosis for a specific patient. Where it matters, remind the user to check local guidance and use clinical judgement.\nWhen a source is a research paper, say so (for example "A 2021 review found...").
 Do not ask for, or repeat, patient-identifiable information.`;
 
 /* ---------- chat ---------- */
@@ -342,7 +353,7 @@ async function ask(text) {
   let hits = search(text, S.ai === 'ready' ? 4 : 3);
   const followUp = /^(and|also|what about|how about|what if|why|in |for |does (it|that|this)|is (it|that|this))|\b(it|that|this|they|them|those|these)\b/i.test(text);
   if (!hits.length && prevUser && followUp) hits = search(prevUser.content + ' ' + text, S.ai === 'ready' ? 4 : 3);
-  const sources = hits.map(h => ({ title: h.doc.title, h: h.p.h && h.p.h !== h.doc.title ? h.p.h : '', page: h.p.page, text: h.p.text, starter: !!h.doc.starter }));
+  const sources = hits.map(h => ({ title: h.doc.title, h: h.p.h && h.p.h !== h.doc.title ? h.p.h : '', page: h.p.page, text: h.p.text, starter: !!h.doc.starter, meta: docMeta(h.doc), doi: h.doc.doi || '', research: !!h.doc.research }));
   const msg = { role: 'assistant', content: '', sources, mode: S.ai === 'ready' ? `On-device AI · ${modelOf(S.modelKey).model}` : 'Library search', t: Date.now() };
   chat.messages.push(msg);
   renderThread(); renderChats();
@@ -352,6 +363,7 @@ async function ask(text) {
     else msg.content = answerFromLibrary(text, hits);
   } catch (err) {
     console.error(err);
+    if (S.ai === 'ready') { S.engine = null; S.worker?.terminate(); setAi('error', 'AI stopped · tap to restart'); }
     msg.content = (msg.content ? msg.content + '\n\n' : '') + 'Something went wrong while answering. ' + (hits.length ? 'Here is what the library says instead:\n\n' + answerFromLibrary(text, hits) : '');
     msg.mode = 'Library search';
   }
@@ -360,8 +372,13 @@ async function ask(text) {
   updateMsg(chat.messages.length - 1, msg, true);
   saveChat(chat).then(renderChats);
 }
+function docMeta(d) {
+  if (d.research) return ['Research', [d.journal, d.year].filter(Boolean).join(' '), d.institution, (d.license || '').toUpperCase()].filter(Boolean).join(' · ');
+  if (d.starter) return 'Halvia clinical reference · ' + d.source;
+  return 'Your library';
+}
 async function answerWithAi(chat, msg, text) {
-  const ctx = msg.sources.map((s, i) => `[${i + 1}] ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''}\n${s.text}`).join('\n\n');
+  const ctx = msg.sources.map((s, i) => `[${i + 1}] ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''}${s.research ? ` (research paper: ${s.meta.replace(/^Research · /, '')})` : ''}\n${s.text.slice(0, 1000)}`).join('\n\n');
   const history = chat.messages.slice(0, -2).slice(-4).map(m => ({ role: m.role, content: m.content.slice(0, 800) }));
   const messages = [
     { role: 'system', content: SYSTEM(S.strict) },
@@ -432,7 +449,7 @@ function botBody(m, i, done) {
   if (!m.content) return '<span class="typing" aria-label="Halvia bot is writing"><i></i><i></i><i></i></span>';
   let h = md(m.content, m.sources.length, i);
   if (!done) return h;
-  if (m.sources.length) h += `<ol class="srcs" aria-label="Sources">${m.sources.map((s, j) => `<li><details class="src" id="src-${i}-${j + 1}"><summary><span class="n">${j + 1}</span><span class="t"><b>${esc(s.title)}</b><span>${esc([s.h, s.page && 'page ' + s.page, s.starter ? 'Halvia starter library' : 'Your library'].filter(Boolean).join(' · '))}</span></span></summary><div class="full">${esc(s.text)}</div></details></li>`).join('')}</ol>`;
+  if (m.sources.length) h += `<ol class="srcs" aria-label="Sources">${m.sources.map((s, j) => `<li><details class="src" id="src-${i}-${j + 1}"><summary><span class="n">${j + 1}</span><span class="t"><b>${esc(s.title)}</b><span>${esc([s.h, s.page && 'page ' + s.page, s.meta || (s.starter ? 'Halvia starter library' : 'Your library')].filter(Boolean).join(' · '))}</span></span></summary><div class="full">${esc(s.text)}${s.doi ? `\n\n<a href="https://doi.org/${esc(s.doi)}" target="_blank" rel="noopener">Read the full paper (needs internet)</a>` : ''}</div></details></li>`).join('')}</ol>`;
   h += `<div class="meta"><span class="tag">${esc(m.mode)}</span>${m.sources.length ? `<span>${m.sources.length} source${m.sources.length > 1 ? 's' : ''}</span>` : ''}<button type="button" data-copy="${i}"><svg aria-hidden="true"><use href="#i-copy"/></svg>Copy</button></div>`;
   return h;
 }
@@ -460,9 +477,56 @@ function renderStatusCard() {
   let h = '';
   if (!window.isSecureContext) h = `<p><b>Open the secure version to use the AI, sign-in and offline mode.</b> They only work over https.</p><a class="btn go sm" href="https://${esc(location.host)}${esc(location.pathname)}">Open secure version</a>`;
   else if (S.ai === 'unsupported') h = `<p><b>This browser can't run the on-device AI</b>, so Halvia bot answers by searching the library and showing the passages. For written answers, use a recent version of Chrome, Edge or Safari on a laptop or phone that supports WebGPU.</p>`;
-  else if (S.ai === 'none' || S.ai === 'error') h = `<p><b>Download the AI once and Halvia bot works with no internet.</b> The fast model is ${modelOf(S.modelKey).size} and stays on this device. Until then, I'll answer by searching the library.</p><button class="btn go sm" type="button" data-act="download">Download AI</button>`;
-  else if (S.ai === 'loading') h = `<p><b>Starting the on-device AI…</b> The first download can take a few minutes on Wi-Fi. You can ask questions meanwhile: I'll search the library.</p>`;
+  else if (S.ai === 'loading') h = `<p><b>Getting the on-device AI ready…</b> The first download can take a few minutes on Wi-Fi. Keep this page open. You can ask questions meanwhile: I'll search the library.</p>`;
+  else if (S.ready && readyAll()) h = `<p><b>✓ Ready for offline.</b> Halvia bot, the medical library and the AI are saved on this device. To test it, turn on airplane mode and reload this page.</p>`;
+  else if (S.ai === 'none' || S.ai === 'error') h = `<p><b>Get ready for offline in one tap.</b> This saves the app, the medical library and the AI (${modelOf(S.modelKey).model}, ${modelOf(S.modelKey).size}) on this device, so Halvia bot keeps working when the Wi-Fi goes down. Use Wi-Fi for the download.</p><button class="btn go sm" type="button" data-act="ready">Get ready for offline</button>`;
   el.innerHTML = h; el.hidden = !h;
+}
+const readyAll = () => S.ready && S.ready.app && S.ready.library && S.ready.engine && (S.ready.model || !S.gpu?.ok);
+async function checkReady() {
+  const has = async u => { try { return !!(await caches.match(new URL(u, location.href).href)); } catch { return false; } };
+  S.ready = {
+    app: (await has('./bot.js')) && (await has('./index.html') || await has('./')),
+    library: await has('./library/index.json'),
+    engine: await has('./vendor/web-llm.js'),
+    model: S.ai === 'ready' || !!S.have[S.modelKey],
+    pdf: await has('./vendor/pdf.worker.min.mjs'),
+  };
+  renderReady(); renderStatusCard();
+}
+function renderReady() {
+  const r = S.ready || {}, gpu = S.gpu?.ok;
+  const item = (ok, label, note) => `<li class="${ok ? 'ok' : ''}"><span class="tick" aria-hidden="true">${ok ? '✓' : '○'}</span><span>${label}${note ? `<small>${note}</small>` : ''}</span><span class="sr">${ok ? 'done' : 'not yet'}</span></li>`;
+  $('#readyList').innerHTML = [
+    item(r.app, 'App saved on this device'),
+    item(r.library, `Medical library saved`, `${S.starter.length} clinical reference guides and ${S.research.length} research papers`),
+    item(r.engine, 'AI engine saved'),
+    gpu ? item(r.model, `AI model downloaded`, `${modelOf(S.modelKey).model}, ${modelOf(S.modelKey).size}`) : item(false, 'AI model', "This browser can't run the on-device AI. Library search still works offline."),
+    item(r.pdf, 'PDF reader saved', 'So you can add PDFs with no internet'),
+  ].join('');
+  const all = readyAll();
+  $('#readyBtn').hidden = all && r.pdf;
+  $('#readyMsg').textContent = all ? 'Ready. Turn on airplane mode and reload to test it.' : '';
+}
+// Save everything Halvia bot needs into this device's cache, then download and start the model.
+async function prepareOffline() {
+  if (!window.isSecureContext) { toast('Open the https version first.'); return; }
+  const btn = $('#readyBtn'); btn.disabled = true;
+  document.querySelectorAll('[data-act="ready"]').forEach(b => (b.disabled = true));
+  toast('Saving Halvia bot for offline use…');
+  try {
+    await navigator.serviceWorker?.register('sw.js');
+    const shell = await caches.open(CACHES.shell);
+    const lib = await (await fetch('library/index.json', { cache: 'no-cache' })).json();
+    await shell.addAll(['./', 'index.html', 'bot.css', 'bot.js', 'llm-worker.js', 'manifest.webmanifest', 'library/index.json', 'library/research.json', ...lib.map(d => 'library/' + d.file)]);
+    const vendor = await caches.open(CACHES.vendor);
+    for (const u of VENDOR) if (!(await vendor.match(new URL(u, location.href).href))) await vendor.add(u);
+    try { await navigator.storage?.persist?.(); } catch {}
+  } catch (e) { console.warn(e); toast("Couldn't save everything. Check the connection and try again."); }
+  await checkReady();
+  if (S.gpu?.ok && S.ai !== 'ready') await loadModel();
+  btn.disabled = false;
+  await checkReady();
 }
 function renderModels() {
   const box = $('#models'); if (!box) return;
@@ -486,10 +550,17 @@ async function storageNote() {
 function renderLibrary() {
   const row = (d, starter) => `<li class="doc"><svg aria-hidden="true"><use href="#i-file"/></svg><span><b>${esc(d.title)}</b><small>${esc(starter ? d.source : `${d.kind} · ${d.passages.length} passage${d.passages.length === 1 ? '' : 's'} · added ${new Date(d.added).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}`)}</small></span>${starter ? `<a href="library/${d.file}" target="_blank" rel="noopener">Read<span class="sr"> ${esc(d.title)}</span></a>` : `<button type="button" data-deldoc="${d.id}" aria-label="Remove ${esc(d.title)}"><svg aria-hidden="true"><use href="#i-trash"/></svg></button>`}</li>`;
   $('#starterList').innerHTML = S.starter.map(d => row(d, true)).join('');
+  renderResearch();
   $('#mineList').innerHTML = S.mine.map(d => row(d, false)).join('');
   $('#mineEmpty').hidden = S.mine.length > 0;
   $('#mineGuest').hidden = !!S.profile;
   $('#mineBox').hidden = !S.profile;
+}
+function renderResearch() {
+  const q = ($('#resFilter')?.value || '').toLowerCase().trim();
+  const list = S.research.filter(d => !q || (d.title + ' ' + d.topic + ' ' + d.journal + ' ' + (d.institution || '')).toLowerCase().includes(q));
+  $('#resCount').textContent = `${S.research.length} open-access papers`;
+  $('#resList').innerHTML = list.slice(0, 80).map(d => `<li class="doc"><svg aria-hidden="true"><use href="#i-file"/></svg><span><b>${esc(d.title)}</b><small>${esc([d.topic, [d.journal, d.year].filter(Boolean).join(' '), d.institution, (d.license || '').toUpperCase()].filter(Boolean).join(' · '))}</small></span>${d.doi ? `<a href="https://doi.org/${esc(d.doi)}" target="_blank" rel="noopener">Paper<span class="sr"> ${esc(d.title)}</span></a>` : ''}</li>`).join('') + (list.length > 80 ? `<li class="docs-empty">Showing 80 of ${list.length}. Type to narrow the list.</li>` : '') + (!list.length ? '<li class="docs-empty">No papers match.</li>' : '');
 }
 function renderMe() {
   const p = S.profile;
@@ -587,6 +658,11 @@ async function init() {
     const list = await (await fetch('library/index.json')).json();
     S.starter = await Promise.all(list.map(async d => ({ ...d, starter: true, passages: toPassages(await (await fetch('library/' + d.file)).text()) })));
   } catch (e) { console.warn('Starter library unavailable', e); }
+  try {
+    const pack = await (await fetch('library/research.json')).json();
+    S.research = pack.papers.map(d => ({ ...d, research: true, weight: 0.85, passages: d.passages }));
+  } catch (e) { console.warn('Research library unavailable', e); }
+  $('#useResearch').checked = S.useResearch;
   $('#useStarter').checked = S.useStarter; $('#strict').checked = S.strict;
   buildIndex(); renderLibrary(); renderMe(); renderThread(); renderModels(); net(); syncSide();
   applyTheme(LS.get('halvia-bot-theme-choice', 'system'));
@@ -621,12 +697,13 @@ async function init() {
   document.addEventListener('click', e => {
     const close = e.target.closest('[data-close]'); if (close) close.closest('dialog').close();
     if (e.target.closest('[data-act="download"]')) loadModel();
+    if (e.target.closest('[data-act="ready"]')) prepareOffline();
   });
   document.querySelectorAll('dialog').forEach(d => d.addEventListener('click', e => { if (e.target === d) d.close(); }));
   $('#openLib').onclick = () => { renderLibrary(); progressIngest(''); $('#libDlg').showModal(); closeSide(); };
   $('#attach').onclick = () => { renderLibrary(); progressIngest(''); $('#libDlg').showModal(); if (S.profile) $('#fileIn').click(); };
-  $('#openSet').onclick = () => { renderModels(); renderMe(); storageNote(); $('#setDlg').showModal(); closeSide(); };
-  $('#aiPill').onclick = () => { renderModels(); storageNote(); $('#setDlg').showModal(); };
+  $('#openSet').onclick = () => { renderModels(); renderMe(); storageNote(); checkReady(); $('#setDlg').showModal(); closeSide(); };
+  $('#aiPill').onclick = () => { renderModels(); storageNote(); checkReady(); $('#setDlg').showModal(); };
   $('#libSign').onclick = () => { $('#libDlg').close(); openSign(); };
   $('#signBtn').onclick = () => (S.profile ? lock('Locked. Your documents and chats are encrypted on this device.') : openSign());
   $('#tabIn').onclick = () => tab('in'); $('#tabNew').onclick = () => tab('new');
@@ -677,6 +754,9 @@ async function init() {
     S.mine = S.mine.filter(x => x !== d); await DB.del('vault', 'doc:' + d.id);
     buildIndex(); renderLibrary(); progressIngest(`Removed ${d.title}.`);
   });
+  $('#useResearch').onchange = e => { S.useResearch = e.target.checked; LS.set('halvia-bot-research', S.useResearch); buildIndex(); };
+  $('#resFilter').addEventListener('input', renderResearch);
+  $('#readyBtn').onclick = prepareOffline;
   $('#useStarter').onchange = e => { S.useStarter = e.target.checked; LS.set('halvia-bot-starter', S.useStarter); buildIndex(); };
   $('#strict').onchange = e => { S.strict = e.target.checked; LS.set('halvia-bot-strict', S.strict); };
   $('#models').addEventListener('change', e => {
@@ -711,12 +791,18 @@ async function init() {
   let deferred;
   addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferred = e; $('#installBtn').hidden = false; });
   $('#installBtn').onclick = async () => { if (!deferred) return; deferred.prompt(); await deferred.userChoice; deferred = null; $('#installBtn').hidden = true; };
-  if ('serviceWorker' in navigator && window.isSecureContext) navigator.serviceWorker.register('sw.js').catch(e => console.warn('Offline cache unavailable', e));
+  if ('serviceWorker' in navigator && window.isSecureContext) {
+    navigator.serviceWorker.register('sw.js').catch(e => console.warn('Offline cache unavailable', e));
+    // A tiny site-wide worker so halvia.cloud/bot (without the slash) also opens offline.
+    navigator.serviceWorker.register('../sw-root.js').catch(() => {});
+    navigator.serviceWorker.ready.then(() => setTimeout(checkReady, 1500));
+  }
 
   // AI: detect, then start the model straight away if it's already on this device.
   S.gpu = await detectGpu();
-  if (!S.gpu.ok) { setAi('unsupported', window.isSecureContext ? undefined : 'Needs https for AI'); return; }
+  if (!S.gpu.ok) { setAi('unsupported', window.isSecureContext ? undefined : 'Needs https for AI'); checkReady(); return; }
   setAi('none');
+  checkReady();
   if (S.have[S.modelKey]) {
     try { if (await (await webllm()).hasModelInCache(modelId(modelOf(S.modelKey)))) loadModel(); else { delete S.have[S.modelKey]; LS.set('halvia-bot-have', S.have); renderModels(); } } catch {}
   }
