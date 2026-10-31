@@ -13,8 +13,8 @@ const LS = {
 };
 
 const MODELS = [
-  { key: 'fast', name: 'Fast', model: 'Llama 3.2 1B', f16: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', size: 'about 0.9 GB', note: 'Works on most laptops and recent phones' },
-  { key: 'better', name: 'Better', model: 'Llama 3.2 3B', f16: 'Llama-3.2-3B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-3B-Instruct-q4f32_1-MLC', size: 'about 2.3 GB', note: 'Clearer answers, needs a recent laptop' },
+  { key: 'fast', name: 'Fast', model: 'Llama 3.2 1B', f16: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', size: 'about 0.9 GB', note: 'Recommended for phones. Good for quick look-ups' },
+  { key: 'better', name: 'Better', model: 'Llama 3.2 3B', f16: 'Llama-3.2-3B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-3B-Instruct-q4f32_1-MLC', size: 'about 2.3 GB', note: 'Recommended for laptops and desktops. More reliable answers' },
   { key: 'best', name: 'Most capable', model: 'Phi-3.5 mini', f16: 'Phi-3.5-mini-instruct-q4f16_1-MLC', f32: 'Phi-3.5-mini-instruct-q4f32_1-MLC', size: 'about 3.7 GB', note: 'Desktop or gaming laptop with a good GPU' },
 ];
 const IDLE_LOCK_MS = 15 * 60 * 1000;
@@ -25,7 +25,7 @@ const VENDOR = ['./vendor/web-llm.js', './vendor/pdf.min.mjs', './vendor/pdf.wor
 const S = {
   profile: null, key: null,
   starter: [], research: [], mine: [], chats: [], chatId: null, ready: null,
-  gpu: null, engine: null, worker: null, ai: 'checking', modelKey: LS.get('halvia-bot-model', 'fast'), have: LS.get('halvia-bot-have', {}),
+  gpu: null, engine: null, worker: null, ai: 'checking', modelKey: LS.get('halvia-bot-model', /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent) ? 'fast' : 'better'), have: LS.get('halvia-bot-have', {}),
   busy: false, stopReq: false, index: null, lastActive: Date.now(),
   strict: LS.get('halvia-bot-strict', true), useStarter: LS.get('halvia-bot-starter', true), useResearch: LS.get('halvia-bot-research', true),
 };
@@ -360,7 +360,7 @@ const SYSTEM = strict => `You are Halvia bot, a clinical assistant for UK hospit
 Answer the question using the numbered sources. After each fact, add its source number, like [1].
 Copy doses, rates and thresholds exactly as the source writes them, with units, and only for the drug or situation they belong to.
 Use CLINICAL GUIDE and YOUR DOCUMENT sources for what to do. If you use a RESEARCH PAPER, say it is research.
-Keep it short: one sentence, then up to 5 bullet points. Use UK spelling. Never diagnose or work out a dose for a specific patient.
+Keep it short: one sentence, then up to 5 bullet points. Use UK spelling. Give the general guidance from the sources; the clinician applies it to their patient.
 ${strict ? 'If none of the sources are about the question, say only: "I couldn\'t find that in your library."' : 'If the sources do not cover something, you may add general knowledge, but say clearly that it is not from the library.'}`;
 
 /* ---------- chat ---------- */

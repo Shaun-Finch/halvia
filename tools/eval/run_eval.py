@@ -5,7 +5,7 @@ from llama_cpp import Llama
 
 MODELS = [
     ("Llama 3.2 1B (Fast)", "bartowski/Llama-3.2-1B-Instruct-GGUF", "Llama-3.2-1B-Instruct-Q4_K_M.gguf"),
-    # ("Llama 3.2 3B (Better)", "bartowski/Llama-3.2-3B-Instruct-GGUF", "Llama-3.2-3B-Instruct-Q4_K_M.gguf"),
+    ("Llama 3.2 3B (Better)", "bartowski/Llama-3.2-3B-Instruct-GGUF", "Llama-3.2-3B-Instruct-Q4_K_M.gguf"),
 ]
 prompts = json.load(open("tools/eval/prompts.json"))
 out = ["# Halvia bot answer quality check\n", "Same prompts and sources the app sends; temperature 0.2. GGUF Q4 builds on CPU, so wording can differ slightly from the in-browser model.\n"]
