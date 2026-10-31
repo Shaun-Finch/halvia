@@ -202,6 +202,23 @@ function bestSentences(q, text, n = 2) {
   return (pick.length ? pick : sents.slice(0, n)).join(' ');
 }
 
+// Exact maths for infusion questions, so the language model never does arithmetic.
+// Recognises "1 litre over 8 hours", "500 ml over 30 minutes", "1000mL in 6 hrs" and similar.
+function infusionCalc(q) {
+  const m = q.toLowerCase().match(/(\d+(?:\.\d+)?)\s*(ml|millilitres?|milliliters?|l|litres?|liters?)\b[^0-9]{0,25}?(?:over|in|across)\s*(\d+(?:\.\d+)?)\s*(h|hrs?|hours?|min|mins|minutes?)\b/);
+  if (!m || !/rate|drip|drops?|ml\/h|ml per h|pump|run|infus|give|how fast|speed/.test(q.toLowerCase())) return null;
+  const ml = parseFloat(m[1]) * (/^l|^lit/.test(m[2]) ? 1000 : 1);
+  const mins = parseFloat(m[3]) * (/^h/.test(m[4]) ? 60 : 1);
+  if (!(ml > 0 && mins > 0) || ml > 10000 || mins > 7 * 24 * 60) return null;
+  const r1 = n => (Math.round(n * 10) / 10).toLocaleString('en-GB');
+  const time = mins % 60 === 0 ? `${mins / 60} hour${mins === 60 ? '' : 's'}` : `${mins} minutes`;
+  return `**Infusion rate for ${ml.toLocaleString('en-GB')} mL over ${time}** (worked out exactly by Halvia bot)\n` +
+    `- Pump rate: ${ml.toLocaleString('en-GB')} mL ÷ ${r1(mins / 60)} h = **${r1(ml / (mins / 60))} mL per hour**\n` +
+    `- Gravity set, 20 drops/mL (clear fluids): (${ml.toLocaleString('en-GB')} × 20) ÷ ${mins} min = **${r1(ml * 20 / mins)} drops per minute**\n` +
+    `- Gravity set, 15 drops/mL (blood): (${ml.toLocaleString('en-GB')} × 15) ÷ ${mins} min = **${r1(ml * 15 / mins)} drops per minute**\n\n` +
+    `Check the drop factor on your giving set, and have the calculation checked according to your local policy.`;
+}
+
 /* ---------- reading files ---------- */
 async function readPdf(file) {
   const pdfjs = await import('./vendor/pdf.min.mjs');
@@ -360,7 +377,7 @@ const SYSTEM = strict => `You are Halvia bot, a clinical assistant for UK hospit
 Answer the question using the numbered sources. After each fact, add its source number, like [1].
 Copy doses, rates and thresholds exactly as the source writes them, with units, and only for the drug or situation they belong to.
 Use CLINICAL GUIDE and YOUR DOCUMENT sources for what to do. If you use a RESEARCH PAPER, say it is research.
-Keep it short: one sentence, then up to 5 bullet points. Use UK spelling. Give the general guidance from the sources; the clinician applies it to their patient.
+Do not do arithmetic or convert units yourself. Keep it short: one sentence, then up to 5 bullet points. Use UK spelling. Give the general guidance from the sources; the clinician applies it to their patient.
 ${strict ? 'If none of the sources are about the question, say only: "I couldn\'t find that in your library."' : 'If the sources do not cover something, you may add general knowledge, but say clearly that it is not from the library.'}`;
 
 /* ---------- chat ---------- */
@@ -385,8 +402,10 @@ async function ask(text) {
   chat.messages.push(msg);
   renderThread(); renderChats();
   S.busy = true; S.stopReq = false; setSend();
+  const calc = infusionCalc(text);
   try {
-    if (S.ai === 'ready' && S.engine) await answerWithAi(chat, msg, text);
+    if (calc) { msg.content = calc; msg.mode = 'Calculator'; }
+    else if (S.ai === 'ready' && S.engine) await answerWithAi(chat, msg, text);
     else msg.content = answerFromLibrary(text, [...hits].sort((x, y) => y.score - x.score));
   } catch (err) {
     console.error(err);
@@ -425,9 +444,16 @@ async function answerWithAi(chat, msg, text) {
     if (S.stopReq) break;
   }
   cancelAnimationFrame(raf);
+  // Tidy small-model quirks: a stray "couldn't find" line after a real answer, or a needless refusal.
+  const body = msg.content.replace(/^\s*I am Halvia bot[^\n]*\n+/i, '');
+  const refusal = /^\s*I (cannot|can't|can not) (provide|help|give|answer)/i.test(body);
+  const stray = body.replace(/I couldn.t find that in your library\.?/gi, '').trim();
+  if (refusal && msg.sources.length) msg.content = answerFromLibrary(text, msg.sources.map(s => ({ p: s, doc: s })).sort((a, b) => (b.p.score || 0) - (a.p.score || 0)));
+  else if (/couldn.t find that/i.test(body) && stray.length > 120 && /\d|\[\d\]|•|\*|-/.test(stray)) msg.content = stray;
+  else msg.content = body;
   if (!msg.content.trim()) msg.content = answerFromLibrary(text, msg.sources.map(s => ({ p: s, doc: s })));
   // Small on-device models can slip, so always show the exact wording of the top source underneath.
-  else if (msg.sources[0] && !/couldn.t find that/i.test(msg.content)) {
+  else if (msg.sources[0] && !/couldn.t find that/i.test(msg.content) && !msg.content.startsWith("Here's what your library says")) {
     const top = msg.sources.reduce((b, s, i) => ((s.score || 0) > (msg.sources[b].score || 0) ? i : b), 0);
     msg.content += `\n\n**Exact words from source [${top + 1}]:**\n> ${bestSentences(text, msg.sources[top].text, 2)}`;
   }
@@ -837,4 +863,4 @@ async function init() {
 }
 init();
 // Lets the test suite check retrieval and prompts without a model.
-if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, pickSources, buildMessages, docMeta };
+if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, pickSources, buildMessages, docMeta, infusionCalc };
