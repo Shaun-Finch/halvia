@@ -13,8 +13,8 @@ const LS = {
 };
 
 const MODELS = [
-  { key: 'fast', name: 'Fast', model: 'Llama 3.2 1B', f16: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', size: 'about 0.9 GB', note: 'Works on most laptops and recent phones' },
-  { key: 'better', name: 'Better', model: 'Llama 3.2 3B', f16: 'Llama-3.2-3B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-3B-Instruct-q4f32_1-MLC', size: 'about 2.3 GB', note: 'Clearer answers, needs a recent laptop' },
+  { key: 'fast', name: 'Fast', model: 'Llama 3.2 1B', f16: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', size: 'about 0.9 GB', note: 'Recommended for phones. Good for quick look-ups' },
+  { key: 'better', name: 'Better', model: 'Llama 3.2 3B', f16: 'Llama-3.2-3B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-3B-Instruct-q4f32_1-MLC', size: 'about 2.3 GB', note: 'Recommended for laptops and desktops. More reliable answers' },
   { key: 'best', name: 'Most capable', model: 'Phi-3.5 mini', f16: 'Phi-3.5-mini-instruct-q4f16_1-MLC', f32: 'Phi-3.5-mini-instruct-q4f32_1-MLC', size: 'about 3.7 GB', note: 'Desktop or gaming laptop with a good GPU' },
 ];
 const IDLE_LOCK_MS = 15 * 60 * 1000;
@@ -25,7 +25,7 @@ const VENDOR = ['./vendor/web-llm.js', './vendor/pdf.min.mjs', './vendor/pdf.wor
 const S = {
   profile: null, key: null,
   starter: [], research: [], mine: [], chats: [], chatId: null, ready: null,
-  gpu: null, engine: null, worker: null, ai: 'checking', modelKey: LS.get('halvia-bot-model', 'fast'), have: LS.get('halvia-bot-have', {}),
+  gpu: null, engine: null, worker: null, ai: 'checking', modelKey: LS.get('halvia-bot-model', /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent) ? 'fast' : 'better'), have: LS.get('halvia-bot-have', {}),
   busy: false, stopReq: false, index: null, lastActive: Date.now(),
   strict: LS.get('halvia-bot-strict', true), useStarter: LS.get('halvia-bot-starter', true), useResearch: LS.get('halvia-bot-research', true),
 };
@@ -172,6 +172,34 @@ function search(q, k = 4) {
     per.set(r.doc, n + 1); out.push(r);
   }
   return out;
+}
+
+// Pick the passages to answer from. Bedside questions use clinical guides and the user's own documents;
+// research papers come in for evidence questions, or when they match far better than anything else.
+const RESEARCHY = /\b(evidence|stud(y|ies)|trials?|research|reviews?|meta-?analys[ie]s|systematic|outcomes?|mortality|effective(ness)?|efficacy|compare|versus|vs|does)\b/i;
+function pickSources(q, k = 3) {
+  const all = search(q, 8);
+  const core = all.filter(h => !h.doc.research), res = all.filter(h => h.doc.research);
+  let out;
+  if (RESEARCHY.test(q)) out = [...core.slice(0, 2), ...res.slice(0, 2)];
+  else if (res.length && (!core.length || res[0].score > core[0].score * 1.25)) out = [...core.slice(0, 1), ...res.slice(0, 2)];
+  else out = core.slice(0, k);
+  // Keep each document's passages in reading order, so steps come out in the order the guide gives them.
+  const order = [...new Set(out.map(h => h.doc))];
+  return out.sort((a, b) => order.indexOf(a.doc) - order.indexOf(b.doc) || a.i - b.i);
+}
+function bestSentences(q, text, n = 2) {
+  const qt = queryTerms(q), ix = S.index;
+  const idf = w => { const m = ix.df.get(w) || 0; return Math.log(1 + (ix.N - m + 0.5) / (m + 0.5)); };
+  const sents = text.split(/(?<=[.!?])\s+|\n+/).map(s => s.trim()).filter(Boolean);
+  // Score sentences by the rarity of the query words they share; title-like lines count for less.
+  const ranked = sents.map((s, j) => {
+    const t = new Set(terms(s)), heading = !/[.!?:]$/.test(s) && s.split(/\s+/).length < 14;
+    return { s, j, n: qt.reduce((a, w) => a + (t.has(w) ? idf(w) : 0), 0) * (heading ? 0.5 : 1) };
+  }).sort((a, b) => b.n - a.n || a.j - b.j);
+  const best = ranked[0]?.n || 0;
+  const pick = ranked.filter(r => r.n > 0 && r.n >= best * 0.6).slice(0, n).sort((a, b) => a.j - b.j).map(r => r.s);
+  return (pick.length ? pick : sents.slice(0, n)).join(' ');
 }
 
 /* ---------- reading files ---------- */
@@ -328,12 +356,12 @@ async function removeModel() {
 // After the model is in, make sure the PDF reader is cached too, so adding PDFs works offline.
 function warmOfflineFiles() { caches.open(CACHES.vendor).then(c => Promise.all(VENDOR.map(async u => (await c.match(new URL(u, location.href).href)) || c.add(u)))).catch(() => {}); }
 
-const SYSTEM = strict => `You are Halvia bot, an assistant for UK doctors, nurses and other clinicians. You run offline on the user's own device.
-Answer the question using ONLY the numbered sources provided. Cite the source after each fact, like [1] or [2].
-${strict ? 'If the sources do not contain the answer, say "I couldn\'t find that in your library" and suggest what kind of document to add. Do not guess and do not use outside knowledge.' : 'Prefer the sources. If you add general knowledge that is not in the sources, say so clearly and do not cite it.'}
-Be concise and practical: a short answer first, then bullet points if useful. Use UK spelling and units.
-You may quote doses and thresholds exactly as they appear in the sources, but never work out a dose or make a diagnosis for a specific patient. Where it matters, remind the user to check local guidance and use clinical judgement.\nWhen a source is a research paper, say so (for example "A 2021 review found...").
-Do not ask for, or repeat, patient-identifiable information.`;
+const SYSTEM = strict => `You are Halvia bot, a clinical assistant for UK hospital staff. It runs offline on this device.
+Answer the question using the numbered sources. After each fact, add its source number, like [1].
+Copy doses, rates and thresholds exactly as the source writes them, with units, and only for the drug or situation they belong to.
+Use CLINICAL GUIDE and YOUR DOCUMENT sources for what to do. If you use a RESEARCH PAPER, say it is research.
+Keep it short: one sentence, then up to 5 bullet points. Use UK spelling. Give the general guidance from the sources; the clinician applies it to their patient.
+${strict ? 'If none of the sources are about the question, say only: "I couldn\'t find that in your library."' : 'If the sources do not cover something, you may add general knowledge, but say clearly that it is not from the library.'}`;
 
 /* ---------- chat ---------- */
 function currentChat() { return S.chats.find(c => c.id === S.chatId); }
@@ -349,17 +377,17 @@ async function ask(text) {
   const prevUser = [...chat.messages].reverse().find(m => m.role === 'user');
   chat.messages.push({ role: 'user', content: text });
   // Search on the question itself; only lean on the previous question for short follow-ups that find nothing alone.
-  let hits = search(text, S.ai === 'ready' ? 4 : 3);
+  let hits = pickSources(text, 3);
   const followUp = /^(and|also|what about|how about|what if|why|in |for |does (it|that|this)|is (it|that|this))|\b(it|that|this|they|them|those|these)\b/i.test(text);
-  if (!hits.length && prevUser && followUp) hits = search(prevUser.content + ' ' + text, S.ai === 'ready' ? 4 : 3);
-  const sources = hits.map(h => ({ title: h.doc.title, h: h.p.h && h.p.h !== h.doc.title ? h.p.h : '', page: h.p.page, text: h.p.text, starter: !!h.doc.starter, meta: docMeta(h.doc), doi: h.doc.doi || '', research: !!h.doc.research }));
+  if (!hits.length && prevUser && followUp) hits = pickSources(prevUser.content + ' ' + text, 3);
+  const sources = hits.map(h => ({ title: h.doc.title, h: h.p.h && h.p.h !== h.doc.title ? h.p.h : '', page: h.p.page, text: h.p.text, starter: !!h.doc.starter, meta: docMeta(h.doc), doi: h.doc.doi || '', research: !!h.doc.research, score: h.score }));
   const msg = { role: 'assistant', content: '', sources, mode: S.ai === 'ready' ? `On-device AI · ${modelOf(S.modelKey).model}` : 'Library search', t: Date.now() };
   chat.messages.push(msg);
   renderThread(); renderChats();
   S.busy = true; S.stopReq = false; setSend();
   try {
     if (S.ai === 'ready' && S.engine) await answerWithAi(chat, msg, text);
-    else msg.content = answerFromLibrary(text, hits);
+    else msg.content = answerFromLibrary(text, [...hits].sort((x, y) => y.score - x.score));
   } catch (err) {
     console.error(err);
     if (S.ai === 'ready') { S.engine = null; S.worker?.terminate(); setAi('error', 'AI stopped · tap to restart'); }
@@ -377,18 +405,19 @@ function docMeta(d) {
   return 'Your library';
 }
 function buildMessages(chat, msg, text) {
-  const ctx = msg.sources.map((s, i) => `[${i + 1}] ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''}${s.research ? ` (research paper: ${s.meta.replace(/^Research · /, '')})` : ''}\n${s.text.slice(0, 1000)}`).join('\n\n');
+  const kind = s => (s.research ? 'RESEARCH PAPER' : s.starter ? 'CLINICAL GUIDE' : 'YOUR DOCUMENT');
+  const ctx = msg.sources.map((s, i) => `[${i + 1}] ${kind(s)}: ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''} (${s.meta.replace(/^(Research|Halvia clinical reference) · /, '')})\n${s.text.slice(0, 1000)}`).join('\n\n');
   const history = chat.messages.slice(0, -2).slice(-4).map(m => ({ role: m.role, content: m.content.slice(0, 800) }));
   const messages = [
     { role: 'system', content: SYSTEM(S.strict) },
     ...history,
-    { role: 'user', content: (ctx ? `Sources:\n${ctx}` : 'Sources: none found in the library.') + `\n\nQuestion: ${text}` },
+    { role: 'user', content: `Question: ${text}\n\n` + (ctx ? `Sources:\n${ctx}` : 'Sources: none found in the library.') + `\n\nUsing the sources, answer the question: ${text}` },
   ];
   return messages;
 }
 async function answerWithAi(chat, msg, text) {
   const messages = buildMessages(chat, msg, text);
-  const stream = await S.engine.chat.completions.create({ messages, stream: true, temperature: 0.2, max_tokens: 700 });
+  const stream = await S.engine.chat.completions.create({ messages, stream: true, temperature: 0.1, max_tokens: 600 });
   let raf = 0;
   for await (const part of stream) {
     msg.content += part.choices[0]?.delta?.content || '';
@@ -397,23 +426,19 @@ async function answerWithAi(chat, msg, text) {
   }
   cancelAnimationFrame(raf);
   if (!msg.content.trim()) msg.content = answerFromLibrary(text, msg.sources.map(s => ({ p: s, doc: s })));
+  // Small on-device models can slip, so always show the exact wording of the top source underneath.
+  else if (msg.sources[0] && !/couldn.t find that/i.test(msg.content)) {
+    const top = msg.sources.reduce((b, s, i) => ((s.score || 0) > (msg.sources[b].score || 0) ? i : b), 0);
+    msg.content += `\n\n**Exact words from source [${top + 1}]:**\n> ${bestSentences(text, msg.sources[top].text, 2)}`;
+  }
 }
 // Without the model: show the most relevant sentences from the best passages, with citations.
 function answerFromLibrary(q, hits) {
   if (!hits.length) return `I couldn't find anything about that in your library.\n\nTry different words, or open the **Library** and add a guideline or paper that covers it.${S.gpu?.ok && S.ai !== 'ready' ? ' For written answers, download the on-device AI in **Settings**.' : ''}`;
-  const qt = queryTerms(q), ix = S.index;
-  const idf = w => { const n = ix.df.get(w) || 0; return Math.log(1 + (ix.N - n + 0.5) / (n + 0.5)); };
   const lines = hits.map((h, i) => {
-    const sents = h.p.text.split(/(?<=[.!?])\s+|\n+/).map(s => s.trim()).filter(Boolean);
-    // Score sentences by the rarity of the query words they share; title-like lines count for less.
-    const ranked = sents.map((s, j) => {
-      const t = new Set(terms(s)), heading = !/[.!?:]$/.test(s) && s.split(/\s+/).length < 14;
-      return { s, j, n: qt.reduce((a, w) => a + (t.has(w) ? idf(w) : 0), 0) * (heading ? 0.5 : 1) };
-    }).sort((a, b) => b.n - a.n || a.j - b.j);
-    const best = ranked[0]?.n || 0;
-    const pick = ranked.filter(r => r.n > 0 && r.n >= best * 0.6).slice(0, 2).sort((a, b) => a.j - b.j).map(r => r.s);
+    const pick = bestSentences(q, h.p.text, 2);
     const head = h.p.h && h.p.h !== h.doc.title ? `${h.doc.title}: ${h.p.h}` : h.doc.title;
-    return `**${head}** [${i + 1}]\n> ${(pick.length ? pick : sents.slice(0, 2)).join(' ')}`;
+    return `**${head}** [${i + 1}]\n> ${pick}`;
   });
   return `Here's what your library says:\n\n${lines.join('\n\n')}\n\n${S.gpu?.ok ? 'This is a search result, not a written answer. Download the on-device AI in **Settings** for written answers.' : 'This is a search result. This device can\'t run the on-device AI, so Halvia bot is showing the passages directly.'}`;
 }
@@ -812,4 +837,4 @@ async function init() {
 }
 init();
 // Lets the test suite check retrieval and prompts without a model.
-if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, buildMessages, docMeta };
+if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, pickSources, buildMessages, docMeta };
