@@ -1,0 +1,32 @@
+name: Halvia bot answer quality check
+on:
+  push:
+    branches: [bot-lab]
+    paths: [tools/eval/prompts.json, tools/eval/run_eval.py, .github/workflows/eval.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: eval, cancel-in-progress: true }
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Install llama.cpp bindings
+        run: pip install -q huggingface_hub llama-cpp-python --prefer-binary --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+      - name: Run prompts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ( while sleep 120; do git add tools/eval/answers.md 2>/dev/null && git commit -qm "eval progress" && git pull -q --rebase origin bot-lab && git push -q; done ) &
+          python tools/eval/run_eval.py
+      - name: Commit answers
+        if: always()
+        run: |
+          git add tools/eval/answers.md
+          git commit -m "Answer quality check results" || echo "nothing new"
+          git pull --rebase -q origin bot-lab || true
+          git push
