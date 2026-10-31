@@ -4,10 +4,12 @@ An AI assistant for clinicians that runs on the device and works with no interne
 
 ## How it works
 
-- **On-device AI.** [WebLLM](https://github.com/mlc-ai/web-llm) runs Llama 3.2 (1B or 3B) or Phi-3.5 mini on the device's GPU through WebGPU, inside a web worker (`llm-worker.js`). The model downloads once from Hugging Face and is cached by the browser, so it keeps working offline.
+- **On-device AI.** [WebLLM](https://github.com/mlc-ai/web-llm) runs Llama 3.2 1B (Fast) or 3B (Better), or Phi-3.5 mini on the device's GPU through WebGPU, inside a web worker (`llm-worker.js`). The model downloads once from Hugging Face and is cached by the browser, so it keeps working offline.
 - **Answers from a library.** Every question is searched against a local library (BM25 over passages, in `bot.js`). The best passages go to the model with the question, and the answer cites them. Without the model (not downloaded, or no WebGPU), the bot answers by quoting the most relevant sentences.
 - **Teaching it.** Signed-in users add PDFs (pdf.js), Word `.docx` files, text, Markdown, HTML, CSV or pasted text. Documents are split into passages and indexed. This is retrieval, not fine-tuning: the model reads your documents at answer time and shows which passages it used.
 - **Profiles.** Local profiles on the device. Documents and chats are stored in IndexedDB, encrypted with AES-GCM using a key derived from the passcode (PBKDF2, 310,000 rounds). Profiles lock after 15 minutes without use.
+- **Medical library.** `library/*.md` are 30 short clinical reference guides, each based on a named UK guideline (NICE, Resuscitation Council UK, JBDS, BTS, UK Kidney Association). `library/research.json` holds 242 peer-reviewed reviews and guidelines from Europe PMC's open-access subset, CC BY licences only, with journal, year, first-author institution and DOI. It's rebuilt by `tools/fetch_research.py` and `tools/build_research_pack.py` on the `bot-lab` branch.
+- **Offline readiness.** Settings → Get ready for offline saves the app, library, AI engine, PDF reader and model, and shows a tick list so you know it's safe to go offline.
 - **Offline app.** `sw.js` caches the app shell and starter library on first visit, and the AI engine and PDF reader when first used. `manifest.webmanifest` makes it installable.
 
 ## Files
