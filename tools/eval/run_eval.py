@@ -15,7 +15,7 @@ for name, repo, fn in MODELS:
     out.append(f"\n## {name}\n")
     for p in prompts:
         t0 = time.time()
-        r = llm.create_chat_completion(messages=p["messages"], temperature=0.2, max_tokens=450)
+        r = llm.create_chat_completion(messages=p["messages"], temperature=0.1, max_tokens=450)
         txt = r["choices"][0]["message"]["content"].strip()
         out.append(f"\n### Q: {p['q']}\n_{time.time() - t0:.0f}s_\n\n{txt}\n")
         print(name, p["q"], "->", txt[:200].replace("\n", " "), flush=True)

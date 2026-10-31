@@ -174,6 +174,34 @@ function search(q, k = 4) {
   return out;
 }
 
+// Pick the passages to answer from. Bedside questions use clinical guides and the user's own documents;
+// research papers come in for evidence questions, or when they match far better than anything else.
+const RESEARCHY = /\b(evidence|stud(y|ies)|trials?|research|reviews?|meta-?analys[ie]s|systematic|outcomes?|mortality|effective(ness)?|efficacy|compare|versus|vs|does)\b/i;
+function pickSources(q, k = 3) {
+  const all = search(q, 8);
+  const core = all.filter(h => !h.doc.research), res = all.filter(h => h.doc.research);
+  let out;
+  if (RESEARCHY.test(q)) out = [...core.slice(0, 2), ...res.slice(0, 2)];
+  else if (res.length && (!core.length || res[0].score > core[0].score * 1.25)) out = [...core.slice(0, 1), ...res.slice(0, 2)];
+  else out = core.slice(0, k);
+  // Keep each document's passages in reading order, so steps come out in the order the guide gives them.
+  const order = [...new Set(out.map(h => h.doc))];
+  return out.sort((a, b) => order.indexOf(a.doc) - order.indexOf(b.doc) || a.i - b.i);
+}
+function bestSentences(q, text, n = 2) {
+  const qt = queryTerms(q), ix = S.index;
+  const idf = w => { const m = ix.df.get(w) || 0; return Math.log(1 + (ix.N - m + 0.5) / (m + 0.5)); };
+  const sents = text.split(/(?<=[.!?])\s+|\n+/).map(s => s.trim()).filter(Boolean);
+  // Score sentences by the rarity of the query words they share; title-like lines count for less.
+  const ranked = sents.map((s, j) => {
+    const t = new Set(terms(s)), heading = !/[.!?:]$/.test(s) && s.split(/\s+/).length < 14;
+    return { s, j, n: qt.reduce((a, w) => a + (t.has(w) ? idf(w) : 0), 0) * (heading ? 0.5 : 1) };
+  }).sort((a, b) => b.n - a.n || a.j - b.j);
+  const best = ranked[0]?.n || 0;
+  const pick = ranked.filter(r => r.n > 0 && r.n >= best * 0.6).slice(0, n).sort((a, b) => a.j - b.j).map(r => r.s);
+  return (pick.length ? pick : sents.slice(0, n)).join(' ');
+}
+
 /* ---------- reading files ---------- */
 async function readPdf(file) {
   const pdfjs = await import('./vendor/pdf.min.mjs');
@@ -329,11 +357,13 @@ async function removeModel() {
 function warmOfflineFiles() { caches.open(CACHES.vendor).then(c => Promise.all(VENDOR.map(async u => (await c.match(new URL(u, location.href).href)) || c.add(u)))).catch(() => {}); }
 
 const SYSTEM = strict => `You are Halvia bot, an assistant for UK doctors, nurses and other clinicians. You run offline on the user's own device.
-Answer the question using ONLY the numbered sources provided. Cite the source after each fact, like [1] or [2].
-${strict ? 'If the sources do not contain the answer, say "I couldn\'t find that in your library" and suggest what kind of document to add. Do not guess and do not use outside knowledge.' : 'Prefer the sources. If you add general knowledge that is not in the sources, say so clearly and do not cite it.'}
-Be concise and practical: a short answer first, then bullet points if useful. Use UK spelling and units.
-You may quote doses and thresholds exactly as they appear in the sources, but never work out a dose or make a diagnosis for a specific patient. Where it matters, remind the user to check local guidance and use clinical judgement.\nWhen a source is a research paper, say so (for example "A 2021 review found...").
-Do not ask for, or repeat, patient-identifiable information.`;
+Answer the question using ONLY the numbered sources. Put the source number after each fact, like [1].
+Rules:
+- Use CLINICAL GUIDE and YOUR DOCUMENT sources for what to do. Use RESEARCH PAPER sources only to describe evidence, and say that it is research.
+- Only give a dose, rate or threshold if a source states it for exactly that drug or situation. Copy it exactly, with its units. Never mix numbers from different sentences.
+- ${strict ? 'If the sources do not answer the question, reply "I couldn\'t find that in your library." and suggest what kind of document to add. Do not guess and do not use outside knowledge.' : 'Prefer the sources. If you add general knowledge that is not in the sources, say so clearly and do not cite it.'}
+- Keep it short: a one-sentence answer, then at most 5 bullet points. Do not repeat yourself. Use UK spelling.
+- Never make a diagnosis or work out a dose for a specific patient. Do not ask for, or repeat, patient-identifiable information.`;
 
 /* ---------- chat ---------- */
 function currentChat() { return S.chats.find(c => c.id === S.chatId); }
@@ -349,10 +379,10 @@ async function ask(text) {
   const prevUser = [...chat.messages].reverse().find(m => m.role === 'user');
   chat.messages.push({ role: 'user', content: text });
   // Search on the question itself; only lean on the previous question for short follow-ups that find nothing alone.
-  let hits = search(text, S.ai === 'ready' ? 4 : 3);
+  let hits = pickSources(text, 3);
   const followUp = /^(and|also|what about|how about|what if|why|in |for |does (it|that|this)|is (it|that|this))|\b(it|that|this|they|them|those|these)\b/i.test(text);
-  if (!hits.length && prevUser && followUp) hits = search(prevUser.content + ' ' + text, S.ai === 'ready' ? 4 : 3);
-  const sources = hits.map(h => ({ title: h.doc.title, h: h.p.h && h.p.h !== h.doc.title ? h.p.h : '', page: h.p.page, text: h.p.text, starter: !!h.doc.starter, meta: docMeta(h.doc), doi: h.doc.doi || '', research: !!h.doc.research }));
+  if (!hits.length && prevUser && followUp) hits = pickSources(prevUser.content + ' ' + text, 3);
+  const sources = hits.map(h => ({ title: h.doc.title, h: h.p.h && h.p.h !== h.doc.title ? h.p.h : '', page: h.p.page, text: h.p.text, starter: !!h.doc.starter, meta: docMeta(h.doc), doi: h.doc.doi || '', research: !!h.doc.research, score: h.score }));
   const msg = { role: 'assistant', content: '', sources, mode: S.ai === 'ready' ? `On-device AI · ${modelOf(S.modelKey).model}` : 'Library search', t: Date.now() };
   chat.messages.push(msg);
   renderThread(); renderChats();
@@ -377,7 +407,8 @@ function docMeta(d) {
   return 'Your library';
 }
 function buildMessages(chat, msg, text) {
-  const ctx = msg.sources.map((s, i) => `[${i + 1}] ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''}${s.research ? ` (research paper: ${s.meta.replace(/^Research · /, '')})` : ''}\n${s.text.slice(0, 1000)}`).join('\n\n');
+  const kind = s => (s.research ? 'RESEARCH PAPER' : s.starter ? 'CLINICAL GUIDE' : 'YOUR DOCUMENT');
+  const ctx = msg.sources.map((s, i) => `[${i + 1}] ${kind(s)}: ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''} (${s.meta.replace(/^(Research|Halvia clinical reference) · /, '')})\n${s.text.slice(0, 1000)}`).join('\n\n');
   const history = chat.messages.slice(0, -2).slice(-4).map(m => ({ role: m.role, content: m.content.slice(0, 800) }));
   const messages = [
     { role: 'system', content: SYSTEM(S.strict) },
@@ -388,7 +419,7 @@ function buildMessages(chat, msg, text) {
 }
 async function answerWithAi(chat, msg, text) {
   const messages = buildMessages(chat, msg, text);
-  const stream = await S.engine.chat.completions.create({ messages, stream: true, temperature: 0.2, max_tokens: 700 });
+  const stream = await S.engine.chat.completions.create({ messages, stream: true, temperature: 0.1, max_tokens: 600 });
   let raf = 0;
   for await (const part of stream) {
     msg.content += part.choices[0]?.delta?.content || '';
@@ -397,23 +428,19 @@ async function answerWithAi(chat, msg, text) {
   }
   cancelAnimationFrame(raf);
   if (!msg.content.trim()) msg.content = answerFromLibrary(text, msg.sources.map(s => ({ p: s, doc: s })));
+  // Small on-device models can slip, so always show the exact wording of the top source underneath.
+  else if (msg.sources[0] && !/couldn.t find that/i.test(msg.content)) {
+    const top = msg.sources.reduce((b, s, i) => ((s.score || 0) > (msg.sources[b].score || 0) ? i : b), 0);
+    msg.content += `\n\n**Exact words from source [${top + 1}]:**\n> ${bestSentences(text, msg.sources[top].text, 2)}`;
+  }
 }
 // Without the model: show the most relevant sentences from the best passages, with citations.
 function answerFromLibrary(q, hits) {
   if (!hits.length) return `I couldn't find anything about that in your library.\n\nTry different words, or open the **Library** and add a guideline or paper that covers it.${S.gpu?.ok && S.ai !== 'ready' ? ' For written answers, download the on-device AI in **Settings**.' : ''}`;
-  const qt = queryTerms(q), ix = S.index;
-  const idf = w => { const n = ix.df.get(w) || 0; return Math.log(1 + (ix.N - n + 0.5) / (n + 0.5)); };
   const lines = hits.map((h, i) => {
-    const sents = h.p.text.split(/(?<=[.!?])\s+|\n+/).map(s => s.trim()).filter(Boolean);
-    // Score sentences by the rarity of the query words they share; title-like lines count for less.
-    const ranked = sents.map((s, j) => {
-      const t = new Set(terms(s)), heading = !/[.!?:]$/.test(s) && s.split(/\s+/).length < 14;
-      return { s, j, n: qt.reduce((a, w) => a + (t.has(w) ? idf(w) : 0), 0) * (heading ? 0.5 : 1) };
-    }).sort((a, b) => b.n - a.n || a.j - b.j);
-    const best = ranked[0]?.n || 0;
-    const pick = ranked.filter(r => r.n > 0 && r.n >= best * 0.6).slice(0, 2).sort((a, b) => a.j - b.j).map(r => r.s);
+    const pick = bestSentences(q, h.p.text, 2);
     const head = h.p.h && h.p.h !== h.doc.title ? `${h.doc.title}: ${h.p.h}` : h.doc.title;
-    return `**${head}** [${i + 1}]\n> ${(pick.length ? pick : sents.slice(0, 2)).join(' ')}`;
+    return `**${head}** [${i + 1}]\n> ${pick}`;
   });
   return `Here's what your library says:\n\n${lines.join('\n\n')}\n\n${S.gpu?.ok ? 'This is a search result, not a written answer. Download the on-device AI in **Settings** for written answers.' : 'This is a search result. This device can\'t run the on-device AI, so Halvia bot is showing the passages directly.'}`;
 }
@@ -812,4 +839,4 @@ async function init() {
 }
 init();
 // Lets the test suite check retrieval and prompts without a model.
-if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, buildMessages, docMeta };
+if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, pickSources, buildMessages, docMeta };
