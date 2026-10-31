@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC5375966",
+ "pmid": "28364357",
+ "doi": "10.1007/s11892-017-0857-4",
+ "topic": "diabetic ketoacidosis",
+ "title": "Treatment of Diabetic Ketoacidosis (DKA)/Hyperglycemic Hyperosmolar State (HHS): Novel Advances in the Management of Hyperglycemic Crises (UK Versus USA).",
+ "authors": "Dhatariya KK, Vellanki P.",
+ "affiliation": "Elsie Bertram Diabetes Centre, Norfolk and Norwich University Hospitals NHS Foundation Trust, Colney Lane, Norwich, Norfolk, NR4 7UY, UK. ketan.dhatariya@nnuh.nhs.uk.",
+ "journal": "Current diabetes reports",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 79,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Purpose of review Diabetic ketoacidosis (DKA) and hyperglycemic hyperosmolar state (HHS) are diabetic emergencies that cause high morbidity and mortality. Their treatment differs in the UK and USA. This review delineates the differences in diagnosis and treatment between the two countries. Recent findings Large-scale studies to determine optimal management of DKA and HHS are lacking. The diagnosis of DKA is based on disease severity in the USA, which differs from the UK. The diagnosis of HHS in the USA is based on total rather than effective osmolality. Unlike the USA, the UK has separate guidelines for DKA and HHS. Treatment of DKA and HHS also differs with respect to timing of fluid and insulin initiation. There is considerable overlap but important differences between the UK and USA guidelines for the management of DKA and HHS. Further research needs to be done to delineate a unifying diagnostic and treatment protocol.",
+ "sections": [
+  {
+   "h": "Treatment",
+   "text": "Both documents agree that the primary treatment should be fluid replacement and that the initial fluid replacement of choice is 0.9% sodium chloride solution. The rates of fluid replacement are similar—the US document advocating 15–20 mL/kg/h (1–1.5 L) in the first hour (regardless of severity) and the UK document 1 L in each of the first 2 h. Both documents agree that phosphate replacement is not needed as the randomized controlled study by Kitabchi et al. did not show differences in outcomes ["
+  },
+  {
+   "h": "Diagnosis",
+   "text": "HHS occurs mostly in adults and elderly patients and has a higher mortality than DKA with death occurring in 5–16% [\n\nThe unique distinguishing factor in HHS is the absence of ketones or a low ketone production despite an insulinopenic state. In general, glucose levels in HHS are higher than the ones for DKA. Both the UK guidelines and the ADA suggest similar glucose levels to diagnose HHS. The UK guidelines suggest a cutoff value of glucose >30 mmol/L (540 mg/dL), and the ADA consensus statement suggests a cutoff >33.3 mmol/L (600 mg/dL). In addition to hyperglycemia, patients with HHS present with severe dehydration due to the chronic nature of hyperglycemia. Although there are a subset of patients that present with both DKA and HHS, both groups suggest making a diagnosis of HHS when the pH is greater than 7.3 and the bicarbonate level is greater than 15 mmol/L (UK guidelines) and >20 mmol/L for ADA consensus statement along with minimal ketonemia. The differences in the diagnosis, although minimal, lie in the calculation of osmolality and assessment of severity. The differences are outlined in Table"
+  },
+  {
+   "h": "Treatment",
+   "text": "The treatment of HHS, as with DKA, involves correction of dehydration and lowering glucose. Both guidelines recommend careful monitoring of serum osmolality in order to avoid complications of rapid overcorrection. Both guidelines recommend initiation of IV fluids with approximately 1 l of 0.9% saline and aggressive correction of dehydration till osmolality stops declining. Both guidelines suggest maintaining glucose concentrations of 13.9–16.7 mmol/L (250–300 mg/dL in the USA) and 10–15 mmol/L (180–270 mg/dL in the UK). Patients with HHS have depleted potassium stores although less than that in DKA. Both the UK and the ADA consensus statements suggest giving potassium if the concentration is less than 3.3 meQ/L (3.3 mmol/L) and to not replace potassium if the concentration is greater than 5.5 meQ/L (5.5 mmol/L) ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "In summary, with respect to the management of DKA and HHS, there are wide areas of overlap between the US and UK guidelines. However, there are also equally wide areas where opinions diverge. It is these areas where there are differences of opinion that illustrate the lack of good research to help guide the best treatments for patients. Ultimately, it is fluid, insulin, and potassium replacements, but the questions remain: how much and how fast? For example, there remain questions on which fluid should be used ["
+  }
+ ]
+}

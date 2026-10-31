@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC9189738",
+ "pmid": "35697365",
+ "doi": "10.1136/bmj-2021-068424",
+ "topic": "acute heart failure",
+ "title": "Development and validation of a decision support tool for the diagnosis of acute heart failure: systematic review, meta-analysis, and modelling study.",
+ "authors": "Lee KK, Doudesis D, Anwar M, Astengo F, Chenevier-Gobeaux C, Claessens YE, Wussler D, Kozhuharov N, Strebel I, Sabti Z, deFilippi C, Seliger S, Moe G, Fernando C, Bayes-Genis A, van Kimmenade RRJ, Pinto Y, Gaggin HK, Wiemer JC, Möckel M, Rutten JHW, van den Meiracker AH, Gargani L, Pugliese NR, Pemberton C, Ibrahim I, Gegenhuber A, Mueller T, Neumaier M, Behnes M, Akin I, Bombelli M, Grassi G, Nazerian P, Albano G, Bahrmann P, Newby DE, Japp AG, Tsanas A, Shah ASV, Richards AM, McMurray JJV, Mueller C, Januzzi JL, Mills NL, CoDE-HF investigators.",
+ "affiliation": "British Heart Foundation Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK.",
+ "journal": "BMJ (Clinical research ed.)",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 42,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Objectives To evaluate the diagnostic performance of N-terminal pro-B-type natriuretic peptide (NT-proBNP) thresholds for acute heart failure and to develop and validate a decision support tool that combines NT-proBNP concentrations with clinical characteristics. Design Individual patient level data meta-analysis and modelling study. Setting Fourteen studies from 13 countries, including randomised controlled trials and prospective observational studies. Participants Individual patient level data for 10 369 patients with suspected acute heart failure were pooled for the meta-analysis to evaluate NT-proBNP thresholds. A decision support tool (Collaboration for the Diagnosis and Evaluation of Heart Failure (CoDE-HF)) that combines NT-proBNP with clinical variables to report the probability of acute heart failure for an individual patient was developed and validated. Main outcome measure Adjudicated diagnosis of acute heart failure. Results Overall, 43.9% (4549/10 369) of patients had an adjudicated diagnosis of acute heart failure (73.3% (2286/3119) and 29.0% (1802/6208) in those with and without previous heart failure, respectively). The negative predictive value of the guideline recommended rule-out threshold of 300 pg/mL was 94.6% (95% confidence interval 91.9% to 96.4%); despite use of age specific rule-in thresholds, the positive predictive value varied at 61.0% (55.3% to 66.4%), 73.5% (62.3% to 82.3%), and 80.2% (70.9% to 87.1%), in patients aged  75 years, respectively. Performance varied in most subgroups, particularly patients with obesity, renal impairment, or previous heart failure. CoDE-HF was well calibrated, with excellent discrimination in patients with and without previous heart failure (area under the receiver operator curve 0.846 (0.830 to 0.862) and 0.925 (0.919 to 0.932) and Brier scores of 0.130 and 0.099, respectively). In patients without previous heart failure, the diagnostic performance was consistent across all subgroups, with 40.3% (2502/6208) identified at low probability (negative predictive value of 98.6%, 97.8% to 99.1%) and 28.0% (1737/6208) at high probability (positive predictive value of 75.0%, 65.7% to 82.5%) of having acute heart failure. Conclusions In an international, collaborative evaluation of the diagnostic performance of NT-proBNP, guideline recommended thresholds to diagnose acute heart failure varied substantially in important patient subgroups. The CoDE-HF decision support tool incorporating NT-proBNP as a continuous measure and other clinical variables provides a more consistent, accurate, and individualised approach. Study registration PROSPERO CRD42019159407.",
+ "sections": [
+  {
+   "h": "Guideline recommended and age specific NT-proBNP thresholds",
+   "text": "Pooled meta-estimates of negative predictive value, sensitivity, positive predictive value, and specificity of NT-proBNP for the overall population at the guideline recommended rule-out threshold of 300 pg/mL were 94.6% (95% confidence interval 91.9% to 96.4%), 96.8% (94.6% to 98.1%), 62.9% (51.3% to 73.3%), and 49.3% (35.4% to 63.4%), respectively (\n\nPooled meta-estimates of the positive predictive value for age specific NT-proBNP rule-in thresholds of 450, 900 and 1800 pg/mL were 61.0% (55.3% to 66.4%), 73.5% (62.3% to 82.3%), and 80.2% (70.9% to 87.1%), respectively (\n\nOverall, we identified seven studies as having a high risk of bias (supplementary table A). In sensitivity analyses restricted to studies in which the adjudication of acute heart failure was blinded to NT-proBNP concentrations and those with a low risk of bias, diagnostic performance of the guideline recommended and age specific NT-proBNP thresholds remained unchanged (supplementary tables E and F)."
+  },
+  {
+   "h": "Implications for practice and future research",
+   "text": "We anticipate that CoDE-HF, our novel decision support tool, has the potential to improve the triage of patients with suspected acute heart failure presenting to multiple medical specialties and to transform their care by facilitating more accurate diagnosis. Previous studies have showed that prompt and accurate delivery of evidence based treatments for patients with acute heart failure can lead to a substantial reduction in mortality and length of hospital stay, whereas delays are associated with worse outcomes."
+  },
+  {
+   "h": "Conclusions",
+   "text": "We have shown that the diagnostic performance of guideline recommended NT-proBNP thresholds for acute heart failure varies across important patient subgroups. We developed and validated the CoDE-HF score, which combines NT-pro-BNP as a continuous measure with clinical variables by using statistical modelling to determine the probability of acute heart failure for individual patients. This decision support tool accurately ruled in and ruled out acute heart failure and performed consistently across all subgroups. Prospective studies are now needed to evaluate the effect of implementing this decision support tool on healthcare resource utilisation and patients’ outcomes."
+  }
+ ]
+}

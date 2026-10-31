@@ -1,0 +1,41 @@
+{
+ "pmcid": "PMC10950989",
+ "pmid": "38112800",
+ "doi": "10.1007/s00431-023-05366-6",
+ "topic": "pneumonia",
+ "title": "Childhood community-acquired pneumonia.",
+ "authors": "Meyer Sauteur PM.",
+ "affiliation": "Division of Infectious Diseases and Hospital Epidemiology, University Children's Hospital Zurich, Steinwiesstrasse 75, CH-8032, Zurich, Switzerland. patrick.meyersauteur@kispi.uzh.ch.",
+ "journal": "European journal of pediatrics",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 77,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Community-acquired pneumonia (CAP) is a common disease in children, and its aetiological and clinical diagnosis are challenging for physicians in both private practice and hospitals. Over the past three decades, conjugate vaccines have successfully reduced the burden of the former main causes of CAP, Streptococcus pneumoniae and Haemophilus influenzae type b. Today, viruses are by far the most commonly detected pathogens in children with CAP.  Conclusion: New insights into the aetiology and treatment of CAP in children in recent years have influenced management and are the focus of this review. In addition to reducing diagnostic uncertainty, there is an urgent need to reduce antibiotic overuse and antimicrobial resistance in children with CAP. What is Known: • Conjugate vaccines against Streptococcus pneumoniae and Haemophilus influenzae type b have shifted the epidemiology of childhood CAP to predominantly viral pathogens and Mycoplasma pneumoniae. • Clinical, laboratory, and radiological criteria cannot reliably distinguish between bacterial and viral aetiology in children with CAP. What is New: • Test results and epidemiological data must be carefully interpreted, as no single diagnostic method applied to non-pulmonary specimens has both high sensitivity and high specificity for determining pneumonia aetiology in childhood CAP. • This review provides a simple and pragmatic management algorithm for children with CAP to aid physicians in providing optimal and safe care and reducing antibiotic prescribing.",
+ "sections": [
+  {
+   "h": "Clinical diagnosis",
+   "text": "Childhood CAP is mainly diagnosed clinically, but symptoms and signs vary with age and are highly variable. CAP should be considered in children with fever and tachypnoea after reducing fever with antipyretics [\n\nChest radiography correlates poorly with clinical signs and outcome and should therefore not be considered as a routine investigation [\n\nNumerous studies have demonstrated that clinical, laboratory, and radiological criteria cannot reliably distinguish between bacterial and viral aetiology in children with CAP ["
+  },
+  {
+   "h": "Microbiological diagnosis",
+   "text": "Timely and reliable identification of the underlying pathogen is critical for initiating effective and tailored antimicrobial treatment, but identifying the microbial aetiology of pneumonia is challenging in many clinical settings [\n\nSputum and tracheal aspirates are samples from the lower respiratory tract with a higher probability of URT contamination. In addition, sputum collection is hampered in children by difficulties with expectoration. Therefore, the aetiological diagnosis of CAP mostly depends on the detection of respiratory pathogens from specimens distant from the site of infection, such as URT samples, blood, and urine. However, test results from these specimens must be carefully interpreted because no single diagnostic method applied to these non-pulmonary specimens has both high sensitivity and high specificity for determining CAP aetiology [S. pneumoniae in the URT [Streptococcus pneumoniae can be detected in the URT of up to 77% and 34% of healthy children and adults, respectively [\n\nPromising diagnostic approaches for the future are novel biomarkers, exhaled-breath analysis, and multidimensional molecular assessment of the host response [M. pneumoniae, we demonstrated that the detection of pathogen-specific antibody-secreting cells (ASCs) by enzyme-linked immunospot (ELISpot) assay improved the diagnosis of M. pneumoniae infection [Mycoplasma pneumoniae–specific IgM ASCs were detectable in children with M. pneumoniae CAP but not in M. pneumoniae carriers suffering from CAP caused by other pathogens or asymptomatic M. pneumoniae carriers ["
+  },
+  {
+   "h": "Management",
+   "text": "Because of the diagnostic uncertainty, children with CAP are often prescribed antibiotics “just in case” for fear of rapid clinical deterioration, future hospital admission, or complications of bacterial infection. Across health care systems, antibiotic prescription increases with diagnostic uncertainty ["
+  },
+  {
+   "h": "Non-response to empirical treatment",
+   "text": "The possible reasons for a non-response to empirical treatment are diverse and include incorrect diagnosis, antibiotic resistance, or complications of CAP. However, only a small proportion of children with CAP develop complications (Table"
+  },
+  {
+   "h": "Conclusion",
+   "text": "Timely and reliable identification of the underlying pathogen is critical for initiating effective and tailored antibiotic treatment of CAP. However, no single diagnostic test applied to non-pulmonary specimens is able to reliably determine aetiology in childhood CAP. In addition to reducing diagnostic uncertainty, there is an urgent need to reduce antibiotic overuse and antimicrobial resistance in children with CAP. Thus, improved diagnostic methods are needed to accurately diagnose bacterial CAP and assess the true effect of antibiotic treatment. A simple and pragmatic management algorithm for childhood CAP may aid physicians in providing optimal and safe care while helping to reduce the prescribing of antibiotics."
+  }
+ ]
+}

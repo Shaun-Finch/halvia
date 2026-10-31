@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC8837474",
+ "pmid": "35157991",
+ "doi": "10.1016/j.jhin.2022.01.024",
+ "topic": "infection prevention",
+ "title": "Infection prevention and control insights from a decade of pathogen whole-genome sequencing.",
+ "authors": "Eyre DW.",
+ "affiliation": "Big Data Institute, Nuffield Department of Population Health, University of Oxford, Oxford, UK; National Institiute for Health Research, Health Protection Research Unit in Healthcare Associated Infections and Antimicrobial Resistance, University of Oxford, Oxford, UK; Oxford University Hospitals, Oxford, UK. Electronic address: david.eyre@bdi.ox.ac.uk.",
+ "journal": "The Journal of hospital infection",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 46,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Pathogen whole-genome sequencing has become an important tool for understanding the transmission and epidemiology of infectious diseases. It has improved our understanding of sources of infection and transmission routes for important healthcare-associated pathogens, including Clostridioides difficile and Staphylococcus aureus. Transmission from known infected or colonized patients in hospitals may explain fewer cases than previously thought and multiple introductions of these pathogens from the community may play a greater a role. The findings have had important implications for infection prevention and control. Sequencing has identified heterogeneity within pathogen species, with some subtypes transmitting and persisting in hospitals better than others. It has identified sources of infection in healthcare-associated outbreaks of food-borne pathogens, Candida auris and Mycobacterium chimera, as well as individuals or groups involved in transmission and historical sources of infection. SARS-CoV-2 sequencing has been central to tracking variants during the COVID-19 pandemic and has helped understand transmission to and from patients and healthcare workers despite prevention efforts. Metagenomic sequencing is an emerging technology for culture-independent diagnosis of infection and antimicrobial resistance. In future, sequencing is likely to become more accessible and widely available. Real-time use in hospitals may allow infection prevention and control teams to identify transmission and to target interventions. It may also provide surveillance and infection control benchmarking. Attention to ethical and wellbeing issues arising from sequencing identifying individuals involved in transmission is important. Pathogen whole-genome sequencing has provided an incredible new lens to understand the epidemiology of healthcare-associated infection and to better control and prevent these infections.",
+ "sections": [
+  {
+   "h": "Sequencing as a diagnostic tool",
+   "text": "Whole-genome sequencing can also be used as a diagnostic tool. It has replaced culture as the first-line antimicrobial susceptibility test in England for Mycobacterium tubuculosis [Neisseria gonorrhoeae, is possible, but error rates are not yet consistently low enough to meet regulatory standards across commonly used antibiotics [N. gonorrhoeae infection described to date [S. aureus, Panton–Valentine leucocidin has been shown to be a key determinant of pyomyositis using this approach [\n\nClinical metagenomic sequencing can be used to identify the causative organism in an infection directly from a clinical sample without the need for culture. As such it potentially provides a rapid, culture-independent diagnostic and with some methods it may also identify any antimicrobial resistance determinates present. However, it remains largely at the proof-of-concept stage with sensitivity versus culture in common sample types (blood, cerebrospinal fluid, orthopaedic infections) ranging from 75% to 90% and specificity between 67% and 96% ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Pathogen whole-genome sequencing has provided a remarkable new lens through which to understand the epidemiology of healthcare-associated infection. Insights gained have improved our understanding and ability to better control and prevent these infections. Whether real-time pathogen sequencing becomes routine for all healthcare-associated infections depends on better demonstrating its benefits, and this will likely become clearer over the next few years."
+  }
+ ]
+}

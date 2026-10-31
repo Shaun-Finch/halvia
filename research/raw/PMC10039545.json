@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC10039545",
+ "pmid": "36964573",
+ "doi": "10.1186/s13054-023-04363-3",
+ "topic": "intravenous fluids",
+ "title": "How I personalize fluid therapy in septic shock?",
+ "authors": "Monnet X, Lai C, Teboul JL.",
+ "affiliation": "AP-HP, Service de Médecine Intensive-Réanimation, Hôpital de Bicêtre, DMU 4 CORREVE, Inserm UMR S_999, FHU SEPSIS, CARMAS, Université Paris-Saclay, 78 Rue du Général Leclerc, 94270, Le Kremlin-Bicêtre, France. xavier.monnet@aphp.fr.",
+ "journal": "Critical care (London, England)",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 49,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "During septic shock, fluid therapy is aimed at increasing cardiac output and improving tissue oxygenation, but it poses two problems: it has inconsistent and transient efficacy, and it has many well-documented deleterious effects. We suggest that there is a place for its personalization according to the patient characteristics and the clinical situation, at all stages of circulatory failure. Regarding the choice of fluid for volume expansion, isotonic saline induces hyperchloremic acidosis, but only for very large volumes administered. We suggest that balanced solutions should be reserved for patients who have already received large volumes and in whom the chloremia is rising. The initial volume expansion, intended to compensate for the constant hypovolaemia in the initial phase of septic shock, cannot be adapted to the patient's weight only, as suggested by the Surviving Sepsis Campaign, but should also consider potential absolute hypovolemia induced by fluid losses. After the initial fluid infusion, preload responsiveness may rapidly disappear, and it should be assessed. The choice between tests used for this purpose depends on the presence or absence of mechanical ventilation, the monitoring in place and the risk of fluid accumulation. In non-intubated patients, the passive leg raising test and the mini-fluid challenge are suitable. In patients without cardiac output monitoring, tests like the tidal volume challenge, the passive leg raising test and the mini-fluid challenge can be used as they can be performed by measuring changes in pulse pressure variation, assessed through an arterial line. The mini-fluid challenge should not be repeated in patients who already received large volumes of fluids. The variables to assess fluid accumulation depend on the clinical condition. In acute respiratory distress syndrome, pulmonary arterial occlusion pressure, extravascular lung water and pulmonary vascular permeability index assess the risk of worsening alveolar oedema better than arterial oxygenation. In case of abdominal problems, the intra-abdominal pressure should be taken into account. Finally, fluid depletion in the de-escalation phase is considered in patients with significant fluid accumulation. Fluid removal can be guided by preload responsiveness testing, since haemodynamic deterioration is likely to occur in patients with a preload dependent state.",
+ "sections": [
+  {
+   "h": "How to personalize therapeutic targets?",
+   "text": "Fluid boluses are aimed at increasing mean systemic pressure, cardiac preload, consequently stroke volume and CO, and ultimately at improving tissue oxygenation. However, the therapeutic targets must be adapted to the available haemodynamic monitoring and to the context."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Despite its apparent simplicity, fluid therapy is complex. Fluids are drugs, inconsistently effective and endowed with notable deleterious effects. Like any medicine, they must be administered at the right dose and only to patients who need them. To guide fluid therapy, rather than relying on an identical strategy for all patients, it is possible to personalize decisions. Consider the characteristics of the patient (the severity of the vasodilation, the importance of the fluid accumulation), his/her clinical history (to assess the depth of the initial hypovolaemia), his/her physiological conditions (in particular preload responsiveness), should logically ensure effective and safe fluid delivery and removal. If these individual criteria are not considered, clinical studies investigating the various fluid therapy strategies are and will remain negative."
+  }
+ ]
+}

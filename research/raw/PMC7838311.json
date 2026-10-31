@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC7838311",
+ "pmid": "33500533",
+ "doi": "10.1038/s41598-021-81886-1",
+ "topic": "oxygen therapy",
+ "title": "Efficacy of hyperbaric oxygen therapy for diabetic foot ulcer, a systematic review and meta-analysis of controlled clinical trials.",
+ "authors": "Sharma R, Sharma SK, Mudgal SK, Jelly P, Thakur K.",
+ "affiliation": "College of Nursing, All India Institute of Medical Sciences, Rishikesh, Uttarakhand, India.",
+ "journal": "Scientific reports",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 71,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Studies have suggested that hyperbaric oxygen therapy (HBOT) is effective in the healing of diabetic foot ulcer (DFU); however, there is a lack of consensus. Therefore, to assess the efficacy of HBOT on diabetic foot ulcer among diabetic patients, controlled clinical trials were searched through PubMed, EMBASE, Clinical key, Ovid Discovery, ERMED, Clinical Trials.gov databases for randomized controlled trials (RCTs) and other sources until 15 September 2020. Studies that evaluated the effect of HBOT on diabetic foot ulcer, complete healing, amputation, adverse events, ulcer reduction area, and mortality rate were included. Of 1984 study records screened, 14 studies (768 participants) including twelve RCTs, and two CCTs were included as per inclusion criteria. The results with pooled analysis have shown that HBOT was significantly effective in complete healing of diabetic foot ulcer (OR = 0.29; 95% CI 0.14-0.61; I 2  = 62%) and reduction of major amputation (RR = 0.60; 95% CI 0.39-0.92; I 2  = 24%). Although, it was not effective for minor amputations (RR = 0.82; 95% CI 0.34-1.97; I 2  = 79%); however, less adverse events were reported in standard treatment group (RR = 1.68; 95% CI 1.07-2.65; I 2  = 0%). Nevertheless, reduction in mean percentage of ulcer area and mortality rate did not differ in HBOT and control groups. This review provides an evidence that hyperbaric oxygen therapy is effective as an adjunct treatment measure for the diabetes foot ulcers. These findings could be generalized cautiously by considering methodological flaws within all studies.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "This meta-analysis concludes that HBOT was associated with higher rates of complete healed DFUs and lower major amputation rates. however, it did not shown effect on reduction of minor amputation rate, all group amputation rate, mortality rate, and mean percent of ulcer size. While, adverse events were fewer in standard treatment group as compared HBOT. Hence, HBOT should be used with cautions for the treatment of DFUs and there is a great need of well-planned sufficiently larger size multicentric trials with a robust methodology to assess the efficacy and safety of HBOT as an adjuvant treatment for DFUs."
+  },
+  {
+   "h": "Quality assessment",
+   "text": "Four reviewers reviewed all included studies, and they used the Cochrane Collaboration approach for the assessment of risk bias. Two primary reviewers assessed for randomization bias, allocation concealment, blinding of participants and assessor, incomplete outcome data and other bias (Fig."
+  }
+ ]
+}

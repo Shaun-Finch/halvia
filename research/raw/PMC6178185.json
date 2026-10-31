@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6178185",
+ "pmid": "30356438",
+ "doi": "10.1155/2018/7656752",
+ "topic": "urinary tract infection",
+ "title": "Community-Acquired Urinary Tract Infection by Escherichia coli in the Era of Antibiotic Resistance.",
+ "authors": "Lee DS, Lee SJ, Choe HS.",
+ "affiliation": "Department of Urology, St. Vincent's Hospital, The Catholic University of Korea, College of Medicine, Republic of Korea.",
+ "journal": "BioMed research international",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 115,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Urinary tract infections (UTIs) caused by  Escherichia coli (E. coli)  are the most common types of infections in women. The antibiotic resistance of  E. coli  is increasing rapidly, causing physicians to hesitate when selecting oral antibiotics. In this review, our objective is to ensure that clinicians understand the current seriousness of antibiotic-resistant  E. coli , the mechanisms by which resistance is selected for, and methods that can be used to prevent antibiotic resistance.",
+ "sections": [
+  {
+   "h": "8. Antibiotic Treatment of UTIs by MDR Gram-Negative Bacteria",
+   "text": "In regard to laboratory cut-off values of microbial load (103 cfu/ml, 104 cfu/ml, or 105 cfu/ml), it is very difficult to determine treatment initiation in certain cut-off value. However, bacterial count is usually 102 ~ 104 cfu/ml in many patients with UTIs, and half of women with symptomatic cystitis have bacteriuria lower than 105 cfu/ml [2 and 105 cfu/ml [\n\nClinical studies have indicated that delayed treatment with inappropriate antibiotics for MDR bacteremia would exert a negative influence on patient mortality [\n\nCurrently, the emergence of many types of carbapenemases has caused a sense of crisis for physicians. However, several new drugs have been developed that have allowed physicians to save the use of carbapenems. Ceftazidime/avibactam is a new cephalosporin β-lactamase inhibitor combination targeting to Enterobacteriaceae and Pseudomonas aeruginosa, which can be used as an alternative to carbapenems for infections caused by ESBL- or AmpC-producing gram-negative bacteria [\n\nA recent study suggested a treatment algorithm for MDR gram-negative bacterial infections [β-lactamases is known as a prevalent type in the local area, physicians can use colistin or tigecycline ["
+  },
+  {
+   "h": "16. Conclusion",
+   "text": "Even if new antibiotics are introduced and appear on the market, the development of resistance to these antibiotics by E. coli will begin immediately. The mechanisms by which E. coli becomes resistant to antibiotics vary greatly with the antibiotic, but genes conferring resistance can be transmitted via plasmids among species. Therefore, the implementation of antibiotic stewardship programs is crucial to minimize the chance of selecting for resistant resistance. Such programs should be founded on the following principles: (1) antibiotics should be used when there is evidence of a bacterial infection to minimize the unnecessary exposure of patients to antibiotics; (2) ABU should not be treated (if there is no risk factor) to minimize unnecessary exposure to antibiotics; (3) cultivation before using antibiotics and using appropriate antibiotics (if possible, considering using nitrofurantoin, fosfomycin, or pivmecillinam as first-line antibiotics) should be performed according to regional susceptibility data to decrease the chance of “collateral damage”; (4) the use of appropriate antibiotic doses, not underdoses, to potentially reduce mutant formation; and (5) the use of antibiotics for appropriate durations to reduce recurrence (appropriate de-escalation with repeated culture). In addition, to prevent overuse of antibiotics, self-medication, or over-the-counter (OTC) availability should be limited by education or regulation. Furthermore, paying attention to hygiene, especially individuals who travel to endemic areas or who are frequently in circumstances with a high risk of exposure to antibiotic resistant bacteria (e.g., healthcare units), could reduce the chance of colonization by resistant micro-organisms. Finally, the use of nonantimicrobial prophylaxis could effectively reduce the total amount of antibiotic consumption.\n\nIn general, cotrimoxazole has under 80% sensitivity and fluoroquinolones have approximately 80% sensitivity, but the latter drug shows under 60% sensitivity in some parts of Asia, the Middle-East, and the Mediterranean region. Beta-lactam with inhibitor, amoxicillin/clavulanate, shows approximately 80% sensitivity, except for some European countries and the Mediterranean region. South Asia is an endemic region of ESBL producing E. coli. Yet, nitrofurantoin and fosfomycin show over 90% of sensitivity in the most of countries of the world."
+  }
+ ]
+}

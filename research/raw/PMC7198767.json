@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7198767",
+ "pmid": "32411647",
+ "doi": "10.3389/fpubh.2020.00140",
+ "topic": "antimicrobial stewardship",
+ "title": "Antimicrobial Stewardship Programs in Resource Constrained Environments: Understanding and Addressing the Need of the Systems.",
+ "authors": "Kakkar AK, Shafiq N, Singh G, Ray P, Gautam V, Agarwal R, Muralidharan J, Arora P.",
+ "affiliation": "Department of Pharmacology, Post Graduate Institute of Medical Education and Research, Chandigarh, India.",
+ "journal": "Frontiers in public health",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 89,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "World Health Organization (WHO) has identified antimicrobial resistance as one of the top 10 threats to public health. The agency has formulated a global action plan to tackle antimicrobial resistance by reducing incidence of infectious diseases, increasing knowledge and awareness and promoting rational use of antimicrobials amongst other measures. While the core elements of successful antimicrobial stewardship (AMS) programs are much publicized, there application in resource limited settings is fraught with several challenges. The key limiting factors include lack of clear political commitment, inadequate funding, overcrowded healthcare systems, lax legal and regulatory frameworks, non-uniform access to diagnostics, absence of electronic health record systems, limited knowledge and awareness especially with existence of multiple systems of medicines, issues with access to quality assured medicines, in-house pharmacies, and shortage of trained manpower. Since these implementation-impeding issues may differ considerably from those experienced in developed economies, intervention efforts in low- and middle-income countries (LMICs) need to address the context and focus on the root causes prevailing locally. In this article, we review the evidence highlighting the magnitude of these challenges and suggest feasible models with effective application. We also share the evidence from our center where we have contextualized the core elements to resource constrained settings. These domains include delivering prospective audit and feedback, prescriber education, development of evidence-based and implementable guidelines, and optimization of surgical antibiotic prophylaxis. However, there is a tremendous need for scaling up, extending outreach and honing these models while at the same time, addressing the existing strategic challenges that curtail the full potential of global antimicrobial stewardship.",
+ "sections": [
+  {
+   "h": "Conclusions and Future Directions",
+   "text": "There are several existing roadblocks plaguing antimicrobial stewardship programs in resource constrained environments and the current evidence base supporting various AMS strategies in LMICs is scanty. However, proven AMS interventions need to be contextualized before they can be successfully employed in LMICs and they must undergo rigorous testing to support their application on a wider scale. Given the complexity and challenges of implementing various AMS program strategies in resource limited settings, it is advisable to rely on plan-do-check-act (PDCA) model to improve the efficiency as well as the likelihood of success of the program. As in other situations where applied, this iterative PDCA cycle results in quicker troubleshooting and continuous improvements in the system. Besides the activities and challenges highlighted above, other critical issues such as development of electronic health record systems and clinical decision support systems, development of adequately skilled and trained human resource, enabling environment for infection prevention strategies, addressing the conundrum of access vs. excess and political commitment with sustained and enhanced financing, need to be prioritized if the overarching goal of global containment of antimicrobial resistance is to be achieved."
+  }
+ ]
+}

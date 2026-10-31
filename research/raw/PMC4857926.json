@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC4857926",
+ "pmid": "27148740",
+ "doi": "10.1371/journal.pone.0154963",
+ "topic": "hyperkalaemia",
+ "title": "Optimal Dose and Method of Administration of Intravenous Insulin in the Management of Emergency Hyperkalemia: A Systematic Review.",
+ "authors": "Harel Z, Kamel KS.",
+ "affiliation": "Division of Nephrology, St Michael's Hospital, University of Toronto, Toronto, Canada, 2 Department of Medicine, St Michael's Hospital, University of Toronto, Toronto, Canada.",
+ "journal": "PloS one",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 44,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background and objectives Hyperkalemia is a common electrolyte disorder that can result in fatal cardiac arrhythmias. Despite the importance of insulin as a lifesaving intervention in the treatment of hyperkalemia in an emergency setting, there is no consensus on the dose or the method (bolus or infusion) of its administration. Our aim was to review data in the literature to determine the optimal dose and route of administration of insulin in the management of emergency hyperkalemia. Design, setting, participants, & measurements We searched several databases from their date of inception through February 2015 for eligible articles published in any language. We included any study that reported on the use of insulin in the management of hyperkalemia. Results We identified eleven studies. In seven studies, 10 units of regular insulin was administered (bolus in five studies, infusion in two studies), in one study 12 units of regular insulin was infused over 30 minutes, and in three studies 20 units of regular insulin was infused over 60 minutes. The majority of included studies were biased. There was no statistically significant difference in mean decrease in serum potassium (K+) concentration at 60 minutes between studies in which insulin was administered as an infusion of 20 units over 60 minutes and studies in which 10 units of insulin was administered as a bolus (0.79±0.25 mmol/L versus 0.78±0.25 mmol/L, P = 0.98) or studies in which 10 units of insulin was administered as an infusion (0.79±0.25 mmol/L versus 0.39±0.09 mmol/L, P = 0.1). Almost one fifth of the study population experienced an episode of hypoglycemia. Conclusion The limited data available in the literature shows no statistically significant difference between the different regimens of insulin used to acutely lower serum K+ concentration. Accordingly, 10 units of short acting insulin given intravenously may be used in cases of hyperkalemia. Alternatively, 20 units of short acting insulin may be given as a continuous intravenous infusion over 60 minutes in patients with severe hyperkalemia (i.e., serum K+ concentration > 6.5 mmol/L) and those with marked EKG changes related to hyperkalemia (e.g., prolonged PR interval, wide QRS complex) as an alternative to 10 units of short acting insulin. Because the risk of hypoglycemia is increased with using large insulin doses, sufficient glucose (60 grams with the administration of 20 units of insulin and 50 grams with the administration of 10 units) should be given to prevent hypoglycemia, and plasma glucose should be frequently monitored.",
+ "sections": [
+  {
+   "h": "Quality Assessment",
+   "text": "Two reviewers (ZH and KK) independently assessed the risk of bias in the included studies without blinding to authorship or journal by using the predefined checklists of the Cochrane Database of Systematic Reviews.["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Although there are multiple interventions that are used in combination to treat hyperkalemia, insulin is the mainstay of therapy in an emergency setting of hyperkalemia, where a management strategy that can quickly, and reliably lower serum K+ concentration is required. The limitations of other currently available interventions to induce a shift of K+ into cells or its loss via the GI tract has been previously reviewed.["
+  }
+ ]
+}

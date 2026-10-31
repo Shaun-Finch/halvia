@@ -1,0 +1,35 @@
+{
+ "pmcid": "PMC6382095",
+ "pmid": "30785921",
+ "doi": "10.1371/journal.pone.0211228",
+ "topic": "atrial fibrillation",
+ "title": "Ibrutinib increases the risk of hypertension and atrial fibrillation: Systematic review and meta-analysis.",
+ "authors": "Caldeira D, Alves D, Costa J, Ferreira JJ, Pinto FJ.",
+ "affiliation": "Serviço de Cardiologia, Hospital Universitário de Santa Maria (CHLN), CAML, Centro Cardiovascular da Universidade de Lisboa-CCUL, Faculdade de Medicina, Universidade de Lisboa, Avenida Professor Egas Moniz, Lisboa, Portugal.",
+ "journal": "PloS one",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 137,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Introduction Ibrutinib is an oral covalent inhibitor of Bruton's tyrosine kinase approved for the treatment of patients with chronic lymphocytic leukemia (CLL), mantle cell lymphoma and Waldenstrӧm's macroglobulinemia. Ibrutinib has an increased risk of atrial fibrillation but the mechanism is unknown, and hypertension may play a role in the pathogenesis of this adverse drug reaction. Methods We aimed to review the risk of hypertension and atrial fibrillation as adverse events associated with ibrutinib through a systematic review with meta-analysis of randomized controlled trials (RCTs) retrieved in December 2018 on MEDLINE, EMBASE, CENTRAL and ClinicalTrials.gov. The data were pooled using random-effects meta-analyses using the risk ratio (RR) with the 95% confidence interval (95%CI). The confidence on the pooled estimates was ascertained through the grading of recommendations assessment, development, and evaluation (GRADE) approach. Results There were 8 eligible RCTs (2580 patients), all reporting safety data of interest. Ibrutinib was associated with a significant increase in the risk of hypertension with a RR of 2.82 (95%CI 1.52-5.23) with moderate quality evidence. Ibrutinib increased significantly the risk of atrial fibrillation with a RR of 4.69 (95%CI 2.17-7.64) with high quality evidence. Conclusions Ibrutinib was associated with significantly increased risks of both hypertension and atrial fibrillation.",
+ "sections": [
+  {
+   "h": "Assessment of confidence in cumulative evidence",
+   "text": "As recommended by the Grading of Recommendations Assessment, Development and Evaluation (GRADE) Working Group methodology, two reviewers independently assessed all the critical outcomes in the following domains: risk of bias, inconsistency, indirectness, imprecision and publication bias ["
+  },
+  {
+   "h": "Grading of recommendations assessment, development and evaluation (GRADE)",
+   "text": "We used the GRADE approach to ascertain the confidence of the obtained pooled results. Both hypertension and atrial fibrillation were analysed through the same trials. Overall, we considered that the results may have been influenced by performance bias and selective reporting bias ("
+  },
+  {
+   "h": "Conclusions",
+   "text": "Our results suggest that ibrutinib increases significantly the risks of hypertension and atrial fibrillation. The pooled data for hypertension had moderate quality evidence, and high-quality evidence for atrial fibrillation. Whether hypertension is a crucial factor for ibrutinib-induced atrial fibrillation is still unknown."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC9355925",
+ "pmid": "35917098",
+ "doi": "10.1007/s11892-022-01481-0",
+ "topic": "diabetes inpatient",
+ "title": "Electronic Health Record-Based Decision-Making Support in Inpatient Diabetes Management.",
+ "authors": "Gerwer JE, Bacani G, Juang PS, Kulasa K.",
+ "affiliation": "Department of Internal Medicine, Division of Endocrinology and Metabolism, University of California San Diego, San Diego, CA, USA.",
+ "journal": "Current diabetes reports",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 17,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Purpose of review This review discusses ways in which the electronic health record (EHR) can offer clinical decision support (CDS) tools for management of inpatient diabetes and hyperglycemia. Recent findings The use of electronic order sets can help providers order comprehensive basal bolus insulin regimens that are consistent with current guidelines. Order sets have been shown to reduce insulin errors and hypoglycemia rates. They can also help set glycemic targets, give hemoglobin A1C reminders, guide weight-based dosing, and match insulin regimen to nutritional profile. Glycemic management dashboards allow multiple variables affecting blood glucose to be shown in a single view, which allows for efficient evaluation of glucose trends and adjustment of insulin regimen. With the use glycemic management dashboards, active surveillance and remote management also become feasible. Hypoglycemia prevention and management are another part of inpatient diabetes management that is enhanced by EHR CDS tools. Furthermore, diagnosis and management of diabetic ketoacidosis and hyperglycemia hyperosmolar state are improved with the aid of EHR CDS tools. The use of EHR CDS tools helps improve the care of patients with diabetes and hyperglycemia in the inpatient hospital setting.",
+ "sections": [
+  {
+   "h": "Hypoglycemia Prevention, Management, and Nursing Documentation",
+   "text": "Another useful EHR feature in inpatient glycemic control is the ability to embed hypoglycemia prevention and management. For instance, predictive analytic tools can be utilized in the EHR to evoke real-time alerts for patients at high risk for hypoglycemia [\n\nMoreover, a hospital-wide, nurse-driven hypoglycemia protocol can also be default-selected when ordering insulin using the order set. This ensures all patients on insulin have a standardized hypoglycemia protocol ordered and ready for use. Having this protocol ordered automatically for all patients on insulin improves patient safety as it eliminates the time consuming task for the nurse to contact the provider and await orders to treat hypoglycemia. Nurse-initiated strategies to treat hypoglycemia can have slight differences between institutions but the aim is to provide 15 g of fast-acting carbohydrates, rechecking blood glucose in 15 min, and repeating the treatment and blood glucose check every 15 min until hypoglycemia is resolved [\n\nIdentifying the etiology of hypoglycemia in real time can also help reduce recurrent hypoglycemic events. The EHR can help support this process by standardizing hypoglycemia documentation and including prompts related to etiology. These prompts empower nurses to identify and report suspected causes of the hypoglycemia episode to the provider, in order for the provider to make treatment changes to prevent its recurrence. This documentation is also recommended by the ADA for each hypoglycemia event for this reason [P < 0.001) and recurrent hypoglycemia (3 or more BG < 70 mg/dL during hospital stay) from 5.7 to 2.2% (P = 0.044) after instituting an automated tool that elicited from nurses the possible causes at the time of the hypoglycemia event ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Suboptimal blood glucose control in the hospital is associated with adverse outcomes, including higher mortality, increased risk for infections, greater financial costs, and longer lengths of stay. The use of CDS tools in the EHR has been found to increase provider adherence to standards of care, provide both guidance and safeguards in the provision of diabetes care, and improve inpatient glycemic control."
+  }
+ ]
+}

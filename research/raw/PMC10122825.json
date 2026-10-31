@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC10122825",
+ "pmid": "37087452",
+ "doi": "10.1186/s12872-023-03231-w",
+ "topic": "acute coronary syndrome",
+ "title": "The global prevalence of myocardial infarction: a systematic review and meta-analysis.",
+ "authors": "Salari N, Morddarvanjoghi F, Abdolmaleki A, Rasoulpoor S, Khaleghi AA, Hezarkhani LA, Shohaimi S, Mohammadi M.",
+ "affiliation": "Department of Biostatistics, School of Health, Kermanshah University of Medical Sciences, Kermanshah, Iran.",
+ "journal": "BMC cardiovascular disorders",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 411,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Myocardial infarction (MI) is one of the life-threatening coronary-associated pathologies characterized by sudden cardiac death. The provision of complete insight into MI complications along with designing a preventive program against MI seems necessary. Methods Various databases (PubMed, Web of Science, ScienceDirect, Scopus, Embase, and Google scholar search engine) were hired for comprehensive searching. The keywords of \"Prevalence\", \"Outbreak\", \"Burden\", \"Myocardial Infarction\", \"Myocardial Infarct\", and \"Heart Attack\" were hired with no time/language restrictions. Collected data were imported into the information management software (EndNote v.8x). Also, citations of all relevant articles were screened manually. The search was updated on 2022.9.13 prior to the publication. Results Twenty-two eligible studies with a sample size of 2,982,6717 individuals (  60 years), this value was detected at 9.5%. Conclusion Due to the accelerated rate of MI prevalence in older ages, precise attention by patients regarding the complications of MI seems critical. Thus, determination of preventive planning along with the application of safe treatment methods is critical.",
+ "sections": [
+  {
+   "h": "Quality control assessment",
+   "text": "For validation and the quality control assessment, an observational study-associated checklist (The Strengthening the Reporting of Observational Studies in Epidemiology checklist (STROBE)) was used. This STROBE checklist consisted of six assessment scales of Title, Abstract, Introduction, Methodology, Results, and Discussion with 32 evaluation items including Title, Problem Statement, Study Objectives, Type of Study, Statistical Population, Sampling Method, Appropriate Sample Size Determination, Variables Definition, and the Procedures, Data Collection Tools, Statistical Analysis Methods and Findings. The article with STROBE scoring ≥ 16 was considered good and moderate (included in the study), and articles < 16 were poor quality (excluded from the study)."
+  },
+  {
+   "h": "Conclusion",
+   "text": "According to the findings of the present study, the prevalence of MI in people < 60 and > 60 years old were 3.8% and 9.5%, respectively. Therefore, based on the results of the studies that have been reviewed and included in the meta-analysis, the high prevalence of MI was reported to be higher in individuals > 60 years which is considered a warning for health policymakers regarding the importance of this age for diagnosis and screening procedures of MI."
+  }
+ ]
+}

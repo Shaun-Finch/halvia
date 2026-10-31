@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7082775",
+ "pmid": "32232058",
+ "doi": "10.3389/fcvm.2020.00036",
+ "topic": "syncope",
+ "title": "Timing of Circulatory and Neurological Events in Syncope.",
+ "authors": "van Dijk JG, van Rossum IA, Thijs RD.",
+ "affiliation": "Department of Neurology, Leiden University Medical Centre, Leiden, Netherlands.",
+ "journal": "Frontiers in cardiovascular medicine",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 33,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Syncope usually lasts less than a minute, in which short time arterial blood pressure temporarily falls enough to decrease brain perfusion so much that loss of consciousness ensues. Blood pressure decreases quickest when the heart suddenly stops pumping, which happens in arrhythmia and in severe cardioinhibitory reflex syncope. Loss of consciousness starts about 8 s after the last heart beat and circulatory standstill occurs after 10-15 s. A much slower blood pressure decrease can occur in syncope due to orthostatic hypotension Standing blood pressure can then stabilize at low values often causing more subtle signs (i.e., inability to act) but often not low enough to cause loss of consciousness. Cerebral autoregulation attempts to keep cerebral blood flow constant when blood pressure decreases. In reflex syncope both the quick blood pressure decrease and its low absolute value mean that cerebral autoregulation cannot prevent syncope. It has more protective value in orthostatic hypotension. Neurological signs are related to the severity and timing of cerebral hypoperfusion. Several unanswered pathophysiological questions with possible clinical implications are identified.",
+ "sections": [
+  {
+   "h": "Definitions and Causes of cOH",
+   "text": "The causes of cOH are a failure to control arteriolar vasoconstriction, hypovolemia or both. The most common cause of cOH is medication. When the cause concerns structural damage to the sympathetic nervous system, the resulting cOH is often labeled “neurogenic OH” [nOH; ("
+  },
+  {
+   "h": "Conclusions",
+   "text": "The above discussion shows that the speed and timing of circulatory and neurological events is of prime importance to understand the signs and symptoms of syncope. Syncope concerns a change from fully functional alertness and awareness to, in the most severe forms, one in which cortical functions have stopped altogether while the brainstem is on the way to equal that state. The quickest natural way to reach that state is probably a sudden asystole, leading to LOC in about 8 s., in which patients may only realize that something was wrong when they regain consciousness after the fact. At the other end of the spectrum lies the slow BP decrease in nOH, in which patients may perceive a slow progression of symptoms over minutes, in which an inability to rectify the situation may precede a loss of vision and finally LOC. Important factors in the equation are the occurrence of bradycardia or asystole on the cardiovascular side, and cerebral autoregulation on the cerebral end.\n\nThe timing and speed not only have consequences for the clinical presentation of syncope, but also for therapy. Whether attempts to rectify CI with a pacemaker will prevent syncope in reflex syncope will critically depend on simultaneous VD. The fact that CI started too late to cause LOC in one third of cases with tilt-induced reflex syncope, suggests that pacing will fail at least that same rate, if started at the onset of asystole ("
+  }
+ ]
+}

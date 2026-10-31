@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10754191",
+ "pmid": "38165196",
+ "doi": "10.5811/westjem.59099",
+ "topic": "paracetamol overdose",
+ "title": "Is Two Better Than Three? A Systematic Review of Two-bag Intravenous N-acetylcysteine Regimens for Acetaminophen Poisoning.",
+ "authors": "Cole JB, Oakland CL, Lee SC, Considine KA, Rudis MI, Swanson AL, Olives TD.",
+ "affiliation": "Hennepin Healthcare, Department of Emergency Medicine, Minneapolis, Minnesota.",
+ "journal": "The western journal of emergency medicine",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 8,
+ "pubtypes": [
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Introduction Acetaminophen poisoning is commonly treated by emergency physicians. First-line therapy is N-acetylcysteine (NAC), traditionally administered intravenously via a US Food and Drug Administration (FDA)-approved three-bag protocol in which each bag has a unique concentration and infusion duration. Recently, simplified, off-label two-bag NAC infusion protocols have become more common. The purpose of this review is to summarize the effectiveness and safety of two-bag NAC. Methods We undertook a comprehensive search of PubMed, EMBASE, and MEDLINE from inception to December 13, 2022, for articles describing human acetaminophen poisonings treated with two-bag NAC, defined as any regimen involving two discrete infusions in two separate bags. Outcomes included effectiveness (measured by incidence of liver injury); incidence of non-allergic anaphylactoid reactions (NAAR); gastrointestinal, cutaneous, and systemic reactions; treatments for NAARs; incidence of NAC-related medication errors; and delays or interruptions in NAC administration. Results Twelve articles met final inclusion, 10 of which compared two-bag NAC to the three-bag regimen. Nine articles evaluated the two-bag/20-hour regimen, a simplified version of the FDA-approved three-bag regimen in which the traditional first and second bags are combined into a single four-hour infusion. Nine articles assessed comparative effectiveness of two-bag NAC in terms of liver injury, most commonly assessed for by incidence of hepatotoxicity (aspartate aminotransferase or alanine aminotransferase >1,000 international units per liter). No difference in liver injury was observed between two-bag and three-bag regimens. Of nine articles comparing incidence of NAARs, eight demonstrated statistically fewer NAARs with two-bag regimens, and one showed no difference. In seven articles evaluating treatment for NAARs (antihistamines, corticosteroids, epinephrine), all showed that patients received fewer medications for NAARs with two-bag NAC. Three articles evaluated NAC-related medication errors; two demonstrated no difference, while one study evaluating only children showed fewer errors with two-bag NAC. Two studies evaluated delays and/or interruptions in NAC infusions; both favored two-bag NAC. Conclusion For patients with acetaminophen poisoning, two-bag NAC regimens appear to have similar outcomes to the traditional three-bag regimen in terms of liver injury. Two-bag NAC regimens are associated with fewer adverse events and fewer treatments for those events than the three-bag regimen and fewer interruptions in antidotal therapy.",
+ "sections": [
+  {
+   "h": "CONCLUSION",
+   "text": "For patients with acetaminophen poisoning, two-bag NAC regimens appear to have similar outcomes to the traditional three-bag regimen in terms of liver injury while resulting in fewer adverse reactions, fewer treatments for adverse reactions, and fewer delays or interruptions in NAC infusions. A two-bag infusion may also result in fewer medication errors. Of the published two-bag regimens, the two-bag/20-hour regimen that combines bags one and two of the traditional three-bag regimen is the most studied."
+  }
+ ]
+}

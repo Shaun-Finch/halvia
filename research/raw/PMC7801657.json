@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC7801657",
+ "pmid": "33432057",
+ "doi": "10.1038/s41598-020-79837-3",
+ "topic": "asthma exacerbation",
+ "title": "Do beta-adrenergic blocking agents increase asthma exacerbation? A network meta-analysis of randomized controlled trials.",
+ "authors": "Huang KY, Tseng PT, Wu YC, Tu YK, Stubbs B, Su KP, Matsuoka YJ, Hsu CW, Lin CH, Chen YW, Lin PY.",
+ "affiliation": "Division of Chest Medicine, Department of Internal Medicine, Changhua Christian Hospital, Changhua, Taiwan.",
+ "journal": "Scientific reports",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 21,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Network Meta-Analysis",
+  "Journal Article"
+ ],
+ "abstract": "Beta-adrenergic blocking agents (abbreviated as beta-blockers) have been used for treating various cardiovascular diseases. However, the potential for asthma exacerbation is one of the major adverse effects of beta-blockers. This study aimed to compare the level of risk for an asthma attack in patients receiving various beta-blockers. We searched for randomized controlled trials (RCTs) of either placebo-controlled or active-controlled design. The current network meta-analysis (NMA) was conducted under a frequentist model. The primary outcome was the incidence of asthmatic attack. A total of 24 RCTs were included. Overall NMA revealed that only oral timolol [risk ratio (RR) = 3.35 (95% confidence interval (CI) 1.04-10.85)] and infusion of propranolol [RR = 10.19 (95% CI 1.29-80.41)] were associated with significantly higher incidences of asthma attack than the placebo, whereas oral celiprolol [RR = 0.39 (95% CI 0.04-4.11)], oral celiprolol and propranolol [RR = 0.46 (95% CI 0.02-11.65)], oral bisoprolol [RR = 0.46 (95% CI 0.02-11.65)], oral atenolol [RR = 0.51 (95% CI 0.20-1.28)], infusion of practolol [RR = 0.80 (95% CI 0.03-25.14)], and infusion of sotalol [RR = 0.91 (95% CI 0.08-10.65)] were associated with relatively lower incidences of asthma attack than the placebo. In participants with a baseline asthma history, in addition to oral timolol and infusion of propranolol, oral labetalol, oxprenolol, propranolol, and metoprolol exhibited significantly higher incidences of asthma attack than did the placebo. In conclusion, oral timolol and infusion of propranolol were associated with a significantly higher risk of developing an asthma attack in patients, especially in those with a baseline asthma history, and should be avoided in patients who present a risk of asthma.Trial registration: PROSPERO CRD42020190540.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "This study showed that oral timolol and infusion of propranolol were associated with a significant risk of developing asthma attacks in patients with or without asthma history. Alternatively, oral celiprolol, oral celiprolol and propranolol, oral bisoprolol, oral atenolol, infusion of practolol, and infusion of sotalol might be associated with a lower incidence of asthma exacerbation. However, as some of the intervention comparisons were based only on a limited number of RCTs, clinicians should select specific treatments with caution and avoid the “one-size-fits-all” treatment for all clinical conditions."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "pmcid": "PMC10556532",
+ "pmid": "37810604",
+ "doi": "10.3389/fpsyt.2023.1266424",
+ "topic": "alcohol withdrawal",
+ "title": "Sex difference in alcohol withdrawal syndrome: a scoping review of clinical studies.",
+ "authors": "Unlu H, Macaron MM, Ayraler Taner H, Kaba D, Akin Sari B, Schneekloth TD, Leggio L, Abulseoud OA.",
+ "affiliation": "Department of Psychiatry and Psychology, Mayo Clinic Arizona, Phoenix, AZ, United States.",
+ "journal": "Frontiers in psychiatry",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 18,
+ "pubtypes": [
+  "Scoping Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Background We conducted a review of all studies comparing clinical aspects of alcohol withdrawal syndrome (AWS) between men and women. Methods Five databases (PubMed, Cochrane, EMBASE, Scopus and Clinical Trials) were searched for clinical studies using the keywords \"alcohol withdrawal syndrome\" or \"delirium tremens\" limited to \"sex\" or \"gender\" or \"sex difference\" or \"gender difference.\" The search was conducted on May 19, 2023. Two reviewers selected studies including both male and female patients with AWS, and they compared males and females in type of AWS symptoms, clinical course, complications, and treatment outcome. Results Thirty-five observational studies were included with a total of 318,730 participants of which 75,346 had AWS. In twenty of the studies, the number of patients presenting with or developing AWS was separated by sex, resulting in a total of 8,159 (12.5%) female patients and a total of 56,928 (87.5%) male patients. Despite inconsistent results, males were more likely than females to develop complicated AWS [delirium tremens (DT) and AW seizures, collective DT in Males vs. females: 1,792 (85.4%) vs. 307 (14.6%), and collective seizures in males vs. females: 294 (78%) vs. 82 (22%)]. The rates of ICU admissions and hospital length of stay did not show sex differences. Although variable across studies, compared to females, males received benzodiazepine treatment at higher frequency and dose. One study reported that the time from first hospitalization for AWS to death was approximately 1.5 years shorter for males and males had higher mortality rate [19.5% (197/1,016)] compared to females [16% (26/163)]. Conclusion Despite the significant heterogeneity of the studies selected and the lack of a focus on investigating potential sex differences, this review of clinical studies on AWS suggests that men and women exhibit different AWS manifestations. Large-scale studies focusing specifically on investigating sex difference in AWS are needed.",
+ "sections": [
+  {
+   "h": "Article selection and quality assessment",
+   "text": "The search was conducted on May 19, 2023, and yielded 796 records. An abstract review identified articles addressing clinical symptoms and their management; these were shortlisted. From all original articles (open-label or double-blind trials, prospective or retrospective observational studies, and cohort or cross-sectional studies) written in English, we included those that met the following criteria: (1) study participants consisted of both male and female patients experiencing alcohol withdrawal syndrome, (2) results compared males and females in at least one of the following outcomes: (i) AWS symptoms, (ii) AWS complications (i.e., delirium tremens, seizures, hallucinations, or mortality), (iii) ICU admission rates, (iv) hospital length of stay, (v) laboratory values and clinical course, or (vi) treatment plan. We excluded pre-clinical studies, articles not in English language, articles not in full text, studies that do not compare at least one outcome of interest between males and females, reviews, commentaries, or letters to the editor. All authors agreed on the inclusion and exclusion criteria. The inclusion or exclusion of individual studies was discussed between the two lead authors (HU and MMM). Articles with non-agreement were discussed with the senior author (OAA). The full texts of the shortlisted articles were reviewed. Cross-references were searched from selected studies and relevant articles were also evaluated for inclusion (\n\nThe quality of each study was independently evaluated by the two lead authors (HU and MMM). Cohort studies were assessed using the Newcastle Ottawa Assessment Scale (NOAS) ("
+  },
+  {
+   "h": "Clinical institute withdrawal assessment of alcohol scale, revised",
+   "text": "The CIWA-Ar scale is a 10-item survey that assesses a patient’s symptoms and scores a patient’s severity of symptoms. Scores on the CIWA-Ar range from 0 to 67 points. The CIWA-Ar evaluates the following signs and symptoms: (1) nausea and vomiting, (2) tremors, (3) sweating; (4) anxiety; (5) agitation; (6) tactile disturbances, (7) auditory disturbances, (8) visual disturbances, (9) headache; and (10) disorientation or clouding of sensorium. Each item is scored 0–7 except item 10, which is scored 0–4 ("
+  },
+  {
+   "h": "Clinical institute withdrawal assessment for alcohol",
+   "text": "The CIWA-A scale is a 15-item survey that assesses a patient’s symptoms and scores a patient’s severity of symptoms. Scores on the CIWA-A range from 0 to 86 points. The CIWA-A scale quantifies the following signs and symptoms: (1) nausea and vomiting, (2) tremors, (3) sweating, (4) tactile disturbances, (5) auditory disturbances, (6) visual disturbances, (7) hallucinations, (8) clouding of sensorium, (9) quality of contact, (10) anxiety, (11) agitation, (12) thought disturbances, (13) convulsions, (14) headache, and (15) flushing. Items 1, 2, 3, 9, 10, 11, 13, and 14 are scored 0–7, while items 4, 5, and 6 are scored 0–6, items 7, and 12 are scored 0–3, item 8 is scored 0–4 and item 15 is scored 0–2 ("
+  },
+  {
+   "h": "Sex difference in AWS treatment",
+   "text": "Soyka et al. (p < 0.01), sedation, vertigo, somnolence (p < 0.05) and “others” (p < 0.01), while males suffered from more ataxia (p < 0.05) (p = 0.044) and at higher doses [a dose>30 mg administered: 9.5% (97/1016) vs. 3% (5/163), p = 0.04], but no sex differences in treatment with hydroxyzine or haloperidol was observed. In contrast, Canales et al. (p = 0.01), but there was no significant sex difference in diazepam doses in the emergency department or in lorazepam doses neither in emergency department nor in the hospital ward. O’Connor et al. reported that the incidence of AWS treatment failure (such as prolonged withdrawal more than 5 days) was non-significantly higher in women compared to men [43% (62/145) vs. 53% (18/34), RR = 1.24, 95% CI:0.84–1.83] ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "Despite these limitations, our review highlights several significant differences in the clinical manifestations and treatment outcomes between men and women and brings more wariness to the unmet need to include more women in large-scale AWS studies and quantify sex specific differences and effects in the development, diagnosis, clinical manifestations and treatments of AWS and its complications. With the recent progressive increase in alcohol drinking among women, it is imperative for the scientific community to update the current research on AWS that has focused primarily on men and/or has not analyzed potential sex differences."
+  }
+ ]
+}

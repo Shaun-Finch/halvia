@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5343889",
+ "pmid": "28208708",
+ "doi": "10.3390/ijms18020354",
+ "topic": "acute pancreatitis",
+ "title": "The Interplay between Inflammation, Coagulation and Endothelial Injury in the Early Phase of Acute Pancreatitis: Clinical Implications.",
+ "authors": "Dumnicka P, Maduzia D, Ceranowicz P, Olszanecki R, Drożdż R, Kuśnierz-Cabala B.",
+ "affiliation": "Department of Medical Diagnostics, Jagiellonian University Medical College, Medyczna 9, 30-688 Kraków, Poland. paulina.dumnicka@uj.edu.pl.",
+ "journal": "International journal of molecular sciences",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 139,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute pancreatitis (AP) is an inflammatory disease with varied severity, ranging from mild local inflammation to severe systemic involvement resulting in substantial mortality. Early pathologic events in AP, both local and systemic, are associated with vascular derangements, including endothelial activation and injury, dysregulation of vasomotor tone, increased vascular permeability, increased leukocyte migration to tissues, and activation of coagulation. The purpose of the review was to summarize current evidence regarding the interplay between inflammation, coagulation and endothelial dysfunction in the early phase of AP. Practical aspects were emphasized: (1) we summarized available data on diagnostic usefulness of the markers of endothelial dysfunction and activated coagulation in early prediction of severe AP; (2) we reviewed in detail the results of experimental studies and clinical trials targeting coagulation-inflammation interactions in severe AP. Among laboratory tests, d-dimer and angiopoietin-2 measurements seem the most useful in early prediction of severe AP. Although most clinical trials evaluating anticoagulants in treatment of severe AP did not show benefits, they also did not show significantly increased bleeding risk. Promising results of human trials were published for low molecular weight heparin treatment. Several anticoagulants that proved beneficial in animal experiments are thus worth testing in patients.",
+ "sections": [
+  {
+   "h": "8. Conclusions",
+   "text": "The interplay between inflammation, coagulation and endothelial activation is involved in the earliest local events in acute pancreatitis (AP), and is associated with the early phase of systemic disease in severe AP (SAP), although many aspects remain unknown. From the current evidence on this subject, there are several practical conclusions: (1) Systemic inflammation as seen in SAP is not rarely associated with thrombotic disorders, and the activation of coagulation may further aggravate inflammation. Laboratory tests in SAP often reveal abnormalities of coagulation, while clinically relevant disorders of coagulation in AP are associated with significantly worse prognosis; (2) Markers of coagulation/fibrinolysis measured early in the course of AP, in particular d-dimer, are significantly associated with AP severity, and may therefore be used to assist treatment decisions and prognosis; (3) Markers of endothelial dysfunction, in particular angiopoietin-2, may prove even more useful; however, we need robust, routine and standardized laboratory tests, currently available only for sFlt-1; (4) There are severe difficulties in translation between animal experiments using anticoagulant or antithrombotic medications and their use in humans. There may be several reasons. Patients with AP form a much more heterogeneous group than the experimental animals, both regarding the causes of AP and the time from the disease onset to the start of treatment. In substantial proportion of patients, systemic inflammation and organ failure are present already at admission. Also, there are difficulties in recruiting enough patients for clinical trials; (5) Nevertheless, some reports from clinical trials with low molecular weight heparin treatment are promising. However, the results have to be corroborated by other groups before this treatment can be recommended; (6) Although the use of anticoagulants was rarely associated with significant benefits in clinical trials, there were also no significant bleeding complications. This fact encourages the use of such drugs in the treatment of thrombotic complications of AP.\n\nFurther clarification of the relationships between inflammation, pancreatic blood flow, coagulation system, endothelial involvement and the development and course of AP is needed. Several anticoagulant or antithrombotic drugs have ameliorated AP severity in experimental designs, and their therapeutic potential is still worth being tested in patients."
+  }
+ ]
+}

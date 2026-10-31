@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC9144124",
+ "pmid": "35628985",
+ "doi": "10.3390/jcm11102859",
+ "topic": "blood transfusion",
+ "title": "Blood Transfusion Reactions-A Comprehensive Review of the Literature including a Swiss Perspective.",
+ "authors": "Ackfeld T, Schmutz T, Guechi Y, Le Terrier C.",
+ "affiliation": "Department of Emergency Medicine, Fribourg Hospital, The University of Fribourg, 1702 Fribourg, Switzerland.",
+ "journal": "Journal of clinical medicine",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 53,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Blood transfusions have been the cornerstone of life support since the introduction of the ABO classification in the 20th century. The physiologic goal is to restore adequate tissue oxygenation when the demand exceeds the offer. Although it can be a life-saving therapy, blood transfusions can lead to serious adverse effects, and it is essential that physicians remain up to date with the current literature and are aware of the pathophysiology, initial management and risks of each type of transfusion reaction. We aim to provide a structured overview of the pathophysiology, clinical presentation, diagnostic approach and management of acute transfusion reactions based on the literature available in 2022. The numbers of blood transfusions, transfusion reactions and the reporting rate of transfusion reactions differ between countries in Europe. The most frequent transfusion reactions in 2020 were alloimmunizations, febrile non-hemolytic transfusion reactions and allergic transfusion reactions. Transfusion-related acute lung injury, transfusion-associated circulatory overload and septic transfusion reactions were less frequent. Furthermore, the COVID-19 pandemic has challenged the healthcare system with decreasing blood donations and blood supplies, as well as rising concerns within the medical community but also in patients about blood safety and transfusion reactions in COVID-19 patients. The best way to prevent transfusion reactions is to avoid unnecessary blood transfusions and maintain a transfusion-restrictive strategy. Any symptom occurring within 24 h of a blood transfusion should be considered a transfusion reaction and referred to the hemovigilance reporting system. The initial management of blood transfusion reactions requires early identification, immediate interruption of the transfusion, early consultation of the hematologic and ICU departments and fluid resuscitation.",
+ "sections": [
+  {
+   "h": "3.2. Definition of Blood Transfusion Reactions and Initial Management",
+   "text": "Transfusion reactions are defined as adverse events following a blood transfusion, with the severity ranging from minor to life-threatening. In a clinical setting, any new symptom or change in vital signs occurring within 24 h of a blood transfusion should be considered a transfusion reaction until proven otherwise [\n\nThe symptomatic patient should be evaluated immediately. Initial management for all types of transfusion reactions includes stopping the transfusion, keeping the intravenous line open, providing supportive and symptomatic therapy and checking the patient identification and the blood product labeling ["
+  },
+  {
+   "h": "4. Conclusions",
+   "text": "Any symptom occurring within 24 h of a blood transfusion should be considered a transfusion reaction until proven otherwise, with most adverse events occurring within 15 min–6 h of transfusion. There is significant overlap between the manifestations of mild transfusion reactions and the early stages of a severe transfusion reaction. Therefore, until proven otherwise, a severe reaction should be suspected, and the initial management of all such transfusion reactions should follow the same steps. The first step is to stop the transfusion and maintain venous access with isotonic saline. Depending on the severity and progress of the diagnosis, specific cardiac, respiratory and renal support should be initiated. Blood product labeling and patient identification should be checked, and every incident must be reported to the transfusion center. The cornerstone of transfusion reaction prevention is a restrictive attitude towards transfusion indications and pre-transfusion testing. Transfusion reactions in COVID-19-positive patients need further research. Despite the rising trend of hemovigilance reports, especially in Switzerland in 2020, there is still an important variation in reporting rates and a wide disparity in the frequency and quality of reporting across Switzerland. This corresponds to the trend in Germany, where not all reports of adverse reactions and events have been considered, due to insufficient data quality. This trend was superposable on previous years and highlights the importance of detailed documentation, especially when death occurs due to a suspected transfusion reaction. Sensibilization of medical staff to the importance of hemovigilance must be continued."
+  }
+ ]
+}

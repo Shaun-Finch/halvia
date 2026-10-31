@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10325084",
+ "pmid": "37410730",
+ "doi": "10.1371/journal.pone.0288011",
+ "topic": "cellulitis and skin infection",
+ "title": "Diagnostic test accuracy of ultrasound for orbital cellulitis: A systematic review.",
+ "authors": "Anwar MR, Mahant S, Agbaje-Ojo T, Mahood Q, Borkhoff CM, Parkin PC, Gill PJ.",
+ "affiliation": "Child Health Evaluative Sciences, SickKids Research Institute, Toronto, Ontario, Canada.",
+ "journal": "PloS one",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 7,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Periorbital and orbital cellulitis are inflammatory conditions of the eye that can be difficult to distinguish using clinical examination alone. Computer tomography (CT) scans are often used to differentiate these two infections and to evaluate for complications. Orbital ultrasound (US) could be used as a diagnostic tool to supplement or replace CT scans as the main diagnostic modality. No prior systematic review has evaluated the diagnostic test accuracy (DTA) of ultrasound compared to cross-sectional imaging. Objective To conduct a systematic review of studies evaluating the DTA of orbital ultrasound compared with cross-sectional imaging, to diagnose orbital cellulitis. Methods MEDLINE, EMBASE, CENTRAL, and Web of Science were searched from inception to August 10, 2022. All study types were included that enrolled patients of any age with suspected or diagnosed orbital cellulitis who underwent ultrasound and a diagnostic reference standard (i.e., CT or magnetic resonance imaging [MRI]). Two authors screened titles/abstracts for inclusion, extracted data, and assessed the risk of bias. Results Of the 3548 studies identified, 20 were included: 3 cohort studies and 17 case reports/series. None of the cohort studies directly compared the diagnostic accuracy of ultrasound with CT or MRI, and all had high risk of bias. Among the 46 participants, diagnostic findings were interpretable in 18 (39%) cases which reported 100% accuracy. We were unable to calculate sensitivity and specificity due to limited data. In the descriptive analysis of the case reports, ultrasound was able to diagnose orbital cellulitis in most (n = 21/23) cases. Conclusion Few studies have evaluated the diagnostic accuracy of orbital ultrasound for orbital cellulitis. The limited evidence based on low quality studies suggests that ultrasound may provide helpful diagnostic information to differentiate orbital inflammation. Future research should focus studies to determine the accuracy of orbital US and potentially reduce unnecessary exposure to radiation.",
+ "sections": [
+  {
+   "h": "Eligibility criteria, data extraction and risk of bias assessment",
+   "text": "Patients of any age who were seen at an emergency department (ED) or hospital (any level of care) with suspected orbital infection (i.e., periorbital or orbital cellulitis) were eligible for inclusion. Studies were included if the study participants had undergone an ultrasound (index test) and a diagnostic reference standard (i.e., CT or MRI) within a reasonably close time interval (i.e., defined as within 48 hours). We included any type of ultrasound including those obtained by technologists and point-of-care ultrasounds (POCUS) obtained by healthcare professionals. We included all study types (i.e., case reports, case series, observational studies, randomized controlled trials. There were no restrictions based on country of origin or language of publication. We used Covidence to manage the selected studies [\n\nTwo review authors (MRA and TAO) independently screened titles and abstracts. The full text of any potentially relevant articles that met the inclusion criteria were then reviewed for eligibility. The review authors (MRA and TAO) independently screened the articles for inclusion and resolved any discrepancies through discussion. When needed, a third review author (PJG) was consulted. The review authors (MRA and TAO) independently extracted data using a custom designed data collection tool (\n\nTwo reviewers (MRA, PJG) evaluated the methodological quality of individual studies using the Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2) tool ["
+  }
+ ]
+}

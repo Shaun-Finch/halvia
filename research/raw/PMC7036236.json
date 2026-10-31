@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC7036236",
+ "pmid": "32087741",
+ "doi": "10.1186/s13054-020-2773-2",
+ "topic": "cardiac arrest",
+ "title": "The global survival rate among adult out-of-hospital cardiac arrest patients who received cardiopulmonary resuscitation: a systematic review and meta-analysis.",
+ "authors": "Yan S, Gan Y, Jiang N, Wang R, Chen Y, Luo Z, Zong Q, Chen S, Lv C.",
+ "affiliation": "School of Public Health, Hainan Medical University, Haikou, Hainan, China.",
+ "journal": "Critical care (London, England)",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 661,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background To quantitatively summarize the available epidemiological evidence on the survival rate of out-of-hospital cardiac arrest (OHCA) patients who received cardiopulmonary resuscitation (CPR). Methods We systematically searched the PubMed, Embase, and Web of Science databases, and the references of retrieved articles were manually reviewed to identify studies reporting the outcome of OHCA patients who received CPR. The overall incidence and outcome of OHCA were assessed using a random-effects meta-analysis. Results A total of 141 eligible studies were included in this meta-analysis. The pooled incidence of return of spontaneous circulation (ROSC) was 29.7% (95% CI 27.6-31.7%), the rate of survival to hospital admission was 22.0% (95% CI 20.7-23.4%), the rate of survival to hospital discharge was 8.8% (95% CI 8.2-9.4%), the pooled 1-month survival rate was 10.7% (95% CI 9.1-13.3%), and the 1-year survival rate was 7.7% (95% CI 5.8-9.5%). Subgroup analysis showed that survival to hospital discharge was more likely among OHCA patients whose cardiac arrest was witnessed by a bystander or emergency medical services (EMS) (10.5%; 95% CI 9.2-11.7%), who received bystander CPR (11.3%, 95% CI 9.3-13.2%), and who were living in Europe and North America (Europe 11.7%; 95% CI 10.5-13.0%; North America: 7.7%; 95% CI 6.9-8.6%). The survival to discharge (8.6% in 1976-1999 vs. 9.9% in 2010-2019), 1-month survival (8.0% in 2000-2009 vs. 13.3% in 2010-2019), and 1-year survival (8.0% in 2000-2009 vs. 13.3% in 2010-2019) rates of OHCA patients who underwent CPR significantly increased throughout the study period. The Egger's test did not indicate evidence of publication bias for the outcomes of OHCA patients who underwent CPR. Conclusions The global survival rate of OHCA patients who received CPR has increased in the past 40 years. A higher survival rate post-OHCA is more likely among patients who receive bystander CPR and who live in Western countries.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "In conclusion, this meta-analysis suggests that the rates of survival to discharge, 1 month survival, and 1 year survival are increasing among OHCA patients who receive CPR globally. Relatively lower survival to discharge rates were observed in Asian countries. Higher rates of survival to discharge, 1-month survival, and 1-year survival were found among OHCA patients who had their cardiac arrest witnessed by EMS or a bystander and who received bystander CPR."
+  }
+ ]
+}

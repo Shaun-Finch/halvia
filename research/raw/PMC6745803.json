@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6745803",
+ "pmid": "31534977",
+ "doi": "10.1186/s41038-019-0163-2",
+ "topic": "burns",
+ "title": "Understanding acute burn injury as a chronic disease.",
+ "authors": "Barrett LW, Fear VS, Waithman JC, Wood FM, Fear MW.",
+ "affiliation": "Telethon Kids Institute, University of Western Australia, Northern Entrance, Perth Children's Hospital, 15 Hospital Ave, Nedlands, WA 6009 Australia.",
+ "journal": "Burns & trauma",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 121,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "While treatment for burn injury has improved significantly over the past few decades, reducing mortality and improving patient outcomes, recent evidence has revealed that burn injury is associated with a number of secondary pathologies, many of which arise long after the initial injury has healed. Population studies have linked burn injury with increased risk of cancer, cardiovascular disease, nervous system disorders, diabetes, musculoskeletal disorders, gastrointestinal disease, infections, anxiety and depression. The wide range of secondary pathologies indicates that burn can cause sustained disruption of homeostasis, presenting new challenges for post-burn care. Understanding burn injury as a chronic disease will improve patient care, providing evidence for better long-term support and monitoring of patients. Through focused research into the mechanisms underpinning long-term dysfunction, a better understanding of burn injury pathology may help with the development of preventative treatments to improve long-term health outcomes. The review will outline evidence of long-term health effects, possible mechanisms linking burn injury to long-term health and current research into burns as a chronic disease.",
+ "sections": [
+  {
+   "h": "Summary of population studies",
+   "text": "The data from the WA population study revealed that burn injury has a wide range of significant long-lasting negative impacts on the overall health of patients and that these effects can also occur after a non-severe burn. This is an important finding and demonstrates the need for a greater understanding of the cellular and molecular effects of burn. The current knowledge regarding the effects of burn on long-term cellular function is discussed in detail in the next section."
+  },
+  {
+   "h": "Conclusions",
+   "text": "While acute clinical treatment for burns has improved significantly over the past few decades resulting in significantly higher rates of survival, there is increasing evidence of lifelong impacts of burn injury. Recent findings suggest burn injury can be considered a chronic disease, with secondary morbidity most likely linked to sustained changes to immune function. Future studies to understand the mechanisms involved will be critical to change clinical treatment pathways and reduce the long-term burden of burn injury for patients."
+  }
+ ]
+}

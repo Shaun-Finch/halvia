@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC7175494",
+ "pmid": "32317013",
+ "doi": "10.1186/s13054-020-02885-8",
+ "topic": "stroke",
+ "title": "Brain-heart interaction after acute ischemic stroke.",
+ "authors": "Battaglini D, Robba C, Lopes da Silva A, Dos Santos Samary C, Leme Silva P, Dal Pizzol F, Pelosi P, Rocco PRM.",
+ "affiliation": "Anesthesia and Intensive Care, San Martino Policlinico Hospital, IRCCS for Oncology and Neurosciences, Genoa, Italy.",
+ "journal": "Critical care (London, England)",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 143,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Early detection of cardiovascular dysfunctions directly caused by acute ischemic stroke (AIS) has become paramount. Researchers now generally agree on the existence of a bidirectional interaction between the brain and the heart. In support of this theory, AIS patients are extremely vulnerable to severe cardiac complications. Sympathetic hyperactivity, hypothalamic-pituitary-adrenal axis, the immune and inflammatory responses, and gut dysbiosis have been identified as the main pathological mechanisms involved in brain-heart axis dysregulation after AIS. Moreover, evidence has confirmed that the main causes of mortality after AIS include heart attack, congestive heart failure, hemodynamic instability, left ventricular systolic dysfunction, diastolic dysfunction, arrhythmias, electrocardiographic anomalies, and cardiac arrest, all of which are more or less associated with poor outcomes and death. Therefore, intensive care unit admission with continuous hemodynamic monitoring has been proposed as the standard of care for AIS patients at high risk for developing cardiovascular complications. Recent trials have also investigated possible therapies to prevent secondary cardiovascular accidents after AIS. Labetalol, nicardipine, and nitroprusside have been recommended for the control of hypertension during AIS, while beta blockers have been suggested both for preventing chronic remodeling and for treating arrhythmias. Additionally, electrolytic imbalances should be considered, and abnormal rhythms must be treated. Nevertheless, therapeutic targets remain challenging, and further investigations might be essential to complete this complex multi-disciplinary puzzle. This review aims to highlight the pathophysiological mechanisms implicated in the interaction between the brain and the heart and their clinical consequences in AIS patients, as well as to provide specific recommendations for cardiovascular management after AIS.",
+ "sections": [
+  {
+   "h": "Clinical implications",
+   "text": "Cardiac issues that may be implicated in AIS include atrial fibrillation, patent foramen ovale, a hypokinetic segment with mural thrombus, infective endocarditis, and hematological disorders (e.g., polycythemia vera) ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Despite great strides in our understanding of the brain–heart crosstalk after AIS, the roles of sympathetic control, gut dysbiosis, and inflammatory response are still under-investigated. Stroke-heart interactions are now a central theme of interest for researchers, and the causative mechanisms of stroke-related heart dysfunction are attractive new targets for future therapeutic strategies. Further studies are warranted to explore these fascinating theories and mechanisms and to translate pathophysiological knowledge into clinical practice."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC8888529",
+ "pmid": "33847854",
+ "doi": "10.1007/s11065-021-09500-9",
+ "topic": "oxygen therapy",
+ "title": "Impact of Hyperbaric Oxygen Therapy on Cognitive Functions: a Systematic Review.",
+ "authors": "Marcinkowska AB, Mankowska ND, Kot J, Winklewski PJ.",
+ "affiliation": "Applied Cognitive Neuroscience Lab, Department of Human Physiology, Medical University of Gdańsk, Tuwima Str. 15 80-210, Gdańsk, Poland. anna.marcinkowska@gumed.edu.pl.",
+ "journal": "Neuropsychology review",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 57,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Hyperbaric oxygen therapy (HBOT) is a modality of treatment in which patients inhale 100% oxygen inside a hyperbaric chamber pressurised to greater than 1 atmosphere. The aim of this review is to discuss neuropsychological findings in various neurological disorders treated with HBOT and to open new perspectives for therapeutic improvement. A literature search was conducted in the MEDLINE (via PubMed) database from the inception up 10 May 2020. Eligibility criteria included original articles published in English. Case studies were excluded. Full-text articles were obtained from the selected studies and were reviewed on the following inclusion criteria (1) performed cognitive processes assessment (2) performed HBOT with described protocol. Two neuropsychologists independently reviewed titles, abstracts, full texts and extracted data. The initial search retrieved 1024 articles, and a total of 42 studies were finally included after applying inclusion and exclusion criteria. The search yielded controversial results with regard to the efficiency of HBOT in various neurological conditions with cognitive disturbance outcome. To the best of our knowledge this is the first state-of-the art, systematic review in the field. More objective and precise neuropsychological assessment methods are needed to exact evaluation of the efficacy of HBOT for neuropsychological deficits. Future studies should widen the assessment of HBOT effects on different cognitive domains because most of the existing studies have focussed on a single process. Finally, there is a need for further longitudinal studies.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "To the best of our knowledge this review provides the first state-of-the art, systematic summary of research focused on the use of HBOT in various neurological conditions.\n\nExisting clinical data can be conflicting due to several inherent procedural issues, such as the use of non-objective endpoints, the lack of appropriate brain imaging as part of the inclusion criteria, inappropriate placebo of a hyperbaric environment as well as the inclusion of patients and lack of control groups. Clearly, larger randomised trials that evaluate the effect of HBOT on cognitive impairment should be conducted. Current HBOT studies have reported controversial results with regard to the efficiency of HBOT in various neurological conditions with cognitive disturbance outcome.\n\nSome study limitations relate to HBOT itself. There is still no agreement about an HBOT protocol, specifically the appropriate air pressure and the time and repetition of treatment sessions. The exact HBOT protocol for each neurological state – which will induce maximal neuroplasticity and functional improvement with minimal side effects – must be determined.\n\nFuture studies should widen the assessment of HBOT effects on different cognitive functions because most of the existing investigations have focussed on single processes. Furthermore, more objective and precise neuropsychological assessment methods are needed to evaluate the efficacy of HBOT for neuropsychological deficits. To reach an agreement about the effectiveness of HBOT for neuropsychological disorders, research needs to focus more on homogeneity of the included subjects. The current studies were conducted using heterogeneous groups of patients with wide variations in age, severity and nature of the brain damage. Thus, there is a need for longitudinal studies to verify whether the administration of a more extensive series of HBOT sessions will lead to longer-lasting improvements in cognitive functioning.\n\nAssuming that the methodological issues described in this review can be properly addressed and evaluated HBOT may have potential for the treatment of neuropsychological deficits in a wide range of neurological states."
+  }
+ ]
+}

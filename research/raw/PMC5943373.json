@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5943373",
+ "pmid": "28791567",
+ "doi": "10.1007/s10877-017-0049-4",
+ "topic": "oxygen therapy",
+ "title": "The oxygen reserve index (ORI): a new tool to monitor oxygen therapy.",
+ "authors": "Scheeren TWL, Belda FJ, Perel A.",
+ "affiliation": "Department of Anaesthesiology, University of Groningen, University Medical Center Groningen, PO Box 30 001, 9700 RB, Groningen, The Netherlands. t.w.l.scheeren@umcg.nl.",
+ "journal": "Journal of clinical monitoring and computing",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 89,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Supplemental oxygen is administered in the vast majority of patients in the perioperative setting and in the intensive care unit to prevent the potentially deleterious effects of hypoxia. On the other hand, the administration of high concentrations of oxygen may induce hyperoxia that may also be associated with significant complications. Oxygen therapy should therefore be precisely titrated and accurately monitored. Although pulse oximetry has become an indispensable monitoring technology to detect hypoxemia, its value in assessing the oxygenation status beyond the range of maximal arterial oxygen saturation (SpO 2  ≥97%) is very limited. In this hyperoxic range, we need to rely on blood gas analysis, which is intermittent, invasive and sometimes delayed. The oxygen reserve index (ORI) is a new continuous non-invasive variable that is provided by the new generation of pulse oximeters that use multi-wavelength pulse co-oximetry. The ORI is a dimensionless index that reflects oxygenation in the moderate hyperoxic range (PaO 2  100-200 mmHg). The ORI may provide an early alarm when oxygenation deteriorates well before any changes in SpO 2  occur, may reflect the response to oxygen administration (e.g., pre-oxygenation), and may facilitate oxygen titration and prevent unintended hyperoxia. In this review we describe this new variable, summarize available data and preliminary experience, and discuss its potential clinical utilities in the perioperative and intensive care settings.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The ORI is a new promising variable that serves as a relative indicator of the PaO2 in the range of 100–200 mmHg. Its addition to conventional pulse oximetry opens new opportunities in the continuous, non-invasive monitoring of the oxygenation status in patients receiving supplemental oxygen. The ORI may potentially allow better control of pre-oxygenation, provide an alarm of decreasing oxygenation well before any decrease in SpO2, allow a more adequate titration of oxygen therapy and prevent unintended hyperoxia, and reflect the immediate impact of recruitment maneuvers and PEEP adjustments. Further studies are needed to determine the potential role of the ORI in the management of acutely ill patients who are in need of oxygen supplementation."
+  }
+ ]
+}

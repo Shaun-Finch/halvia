@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8680163",
+ "pmid": "34992719",
+ "doi": "10.14797/mdcvj.1040",
+ "topic": "chest pain",
+ "title": "Noninvasive Imaging for Patients with COVID-19 and Acute Chest Pain.",
+ "authors": "Javaid A, Saleh Y, Ahmed AI, Saad JM, Malahfji M, Al-Mallah MH.",
+ "affiliation": "Kirk Kerkorian School of Medicine at the University of Nevada Las Vegas School of Medicine, Las Vegas, NV, US.",
+ "journal": "Methodist DeBakey cardiovascular journal",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 2,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute chest pain is a common presentation in patients with COVID-19. Although noninvasive cardiac imaging modalities continue to be important cornerstones of management, the pandemic has brought forth difficult and unprecedented challenges in the provision of timely care while ensuring the safety of patients and providers. Clinical practice has adapted to these challenges, with several recommendations and societal guidelines emerging on the appropriate use of imaging modalities. In this review, we summarize the current evidence base on the use of noninvasive cardiac imaging modalities in COVID-19 patients with acute chest pain, with a focus on acute coronary syndromes.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Although vaccines and public health measures have helped reduce COVID-19 morbidity and mortality, the emergence of more virulent strains and vaccine inequity means that it will take time before clinical practice can return to a prepandemic state. With adherence to patient-focused evaluations in addition to general infection prevention measures, imaging techniques can continue to provide important diagnostic and prognostic information in patients with acute chest pain, ultimately contributing to improved patient care."
+  }
+ ]
+}

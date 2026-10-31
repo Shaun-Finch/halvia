@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7585656",
+ "pmid": "33123598",
+ "doi": "10.1155/2020/7489795",
+ "topic": "hypoglycaemia",
+ "title": "Association of Glycemic Indices (Hyperglycemia, Glucose Variability, and Hypoglycemia) with Oxidative Stress and Diabetic Complications.",
+ "authors": "Papachristoforou E, Lambadiari V, Maratou E, Makrilakis K.",
+ "affiliation": "First Department of Propaedeutic Internal Medicine, National and Kapodistrian University of Athens Medical School, Laiko General Hospital, Athens, Greece.",
+ "journal": "Journal of diabetes research",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 327,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Oxidative stress (OS) is defined as a disturbance in the prooxidant-antioxidant balance of the cell, in favor of the former, which results in the antioxidant capacity of the cell to be overpowered. Excess reactive oxygen species (ROS) production is very harmful to cell constituents, especially proteins, lipids, and DNA, thus causing damage to the cell. Oxidative stress has been associated with a variety of pathologic conditions, including diabetes mellitus (DM), cancer, atherosclerosis, neurodegenerative diseases, rheumatoid arthritis, ischemia/reperfusion injury, obstructive sleep apnea, and accelerated aging. Regarding DM specifically, previous experimental and clinical studies have pointed to the fact that oxidative stress probably plays a major role in the pathogenesis and development of diabetic complications. It is postulated that hyperglycemia induces free radicals and impairs endogenous antioxidant defense systems through several different mechanisms. In particular, hyperglycemia promotes the creation of advanced glycation end-products (AGEs), the activation of protein kinase C (PKC), and the hyperactivity of hexosamine and sorbitol pathways, leading to the development of insulin resistance, impaired insulin secretion, and endothelial dysfunction, by inducing excessive ROS production and OS. Furthermore, glucose variability has been associated with OS as well, and recent evidence suggests that also hypoglycemia may be playing an important role in favoring diabetic vascular complications through OS, inflammation, prothrombotic events, and endothelial dysfunction. The association of these diabetic parameters (i.e., hyperglycemia, glucose variability, and hypoglycemia) with oxidative stress will be reviewed here.",
+ "sections": [
+  {
+   "h": "3. Conclusions",
+   "text": "The overproduction of reactive oxygen species (ROS) is very harmful to the cell. Many studies are linking oxidative stress with a lot of pathological conditions, including diabetes as well as other human diseases. It has been reported that oxidative stress is implicated in the pathogenesis of diabetes per se, but also plays a major role in the occurrence and evolution of diabetic complications in both types of diabetes.\n\nAll three glycemic indices (hyperglycemia, glycemic variability, and hypoglycemia) have been associated with ROS production. Various mechanisms associated with hyperglycemia, such as the production of AGEs, the activation of PKC, the accumulation of sorbitol, and the hyperactivity of the hexosamine pathway, lead to reactive oxygen species overproduction and a decrease in the endogenous antioxidant defense systems. Several other studies have pointed that glycemic variability (GV) compared to chronic hyperglycemia is associated with greater ROS production, leading to vascular damage, most likely acting through the same mechanisms as hyperglycemia, but also with the possible additional effects of hypoglycemia. Recent evidence suggests that hypoglycemia is implicated in the production of oxidative stress, inflammation, hypercoagulability, and endothelial dysfunction, all of which favor diabetic vascular disorders. However, the exact mechanism by which oxidative stress is associated with hypoglycemia and the precise mechanism by which oxidative stress specifically contributes to the development of diabetic complications are partly unknown and need to be elucidated in future studies."
+  }
+ ]
+}

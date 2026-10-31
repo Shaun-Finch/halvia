@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7601370",
+ "pmid": "33022961",
+ "doi": "10.3390/microorganisms8101521",
+ "topic": "meningitis",
+ "title": "Vaccines against Meningococcal Diseases.",
+ "authors": "Pizza M, Bekkat-Berkani R, Rappuoli R.",
+ "affiliation": "GSK, 53100 Siena, Italy.",
+ "journal": "Microorganisms",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 113,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Neisseria meningitidis  is the main cause of meningitis and sepsis, potentially life-threatening conditions. Thanks to advancements in vaccine development, vaccines are now available for five out of six meningococcal disease-causing serogroups (A, B, C, W, and Y). Vaccination programs with monovalent meningococcal serogroup C (MenC) conjugate vaccines in Europe have successfully decreased MenC disease and carriage. The use of a monovalent MenA conjugate vaccine in the African meningitis belt has led to a near elimination of MenA disease. Due to the emergence of non-vaccine serogroups, recommendations have gradually shifted, in many countries, from monovalent conjugate vaccines to quadrivalent MenACWY conjugate vaccines to provide broader protection. Recent real-world effectiveness of broad-coverage, protein-based MenB vaccines has been reassuring. Vaccines are also used to control meningococcal outbreaks. Despite major improvements, meningococcal disease remains a global public health concern. Further research into changing epidemiology is needed. Ongoing efforts are being made to develop next-generation, pentavalent vaccines including a MenACWYX conjugate vaccine and a MenACWY conjugate vaccine combined with MenB, which are expected to contribute to the global control of meningitis.",
+ "sections": [
+  {
+   "h": "6. Conclusions",
+   "text": "Despite the tremendous success in the control of meningococcal disease by vaccines, IMD still remains to be a major public health concern in many parts of the world. Vaccine introduction and coverage are variable. While some countries have implemented meningococcal vaccines via NIPs, some have only recommended vaccines to high-risk groups, travelers, or in response to outbreaks. Due to increased understanding, vaccine recommendations are continuously evolving, and newer vaccines are under development, with the aim to help achieve global meningitis control."
+  }
+ ]
+}

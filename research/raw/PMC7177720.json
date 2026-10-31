@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC7177720",
+ "pmid": "31841135",
+ "doi": "10.1093/cvr/cvz336",
+ "topic": "acute coronary syndrome",
+ "title": "Cardiac monocytes and macrophages after myocardial infarction.",
+ "authors": "Peet C, Ivetic A, Bromage DI, Shah AM.",
+ "affiliation": "School of Cardiovascular Medicine and Sciences, James Black Centre, King's College London BHF Centre of Excellence, 125 Coldharbour Lane, London SE5 9NU, UK.",
+ "journal": "Cardiovascular research",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 522,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Improvements in early interventions after acute myocardial infarction (AMI), notably, the increased use of timely reperfusion therapy, have increased survival dramatically in recent decades. Despite this, maladaptive ventricular remodelling and subsequent heart failure (HF) following AMI remain a significant clinical challenge, particularly because several pre-clinical strategies to attenuate remodelling have failed to translate into clinical practice. Monocytes and macrophages, pleiotropic cells of the innate immune system, are integral in both the initial inflammatory response to injury and subsequent wound healing in many tissues, including the heart. However, maladaptive immune cell behaviour contributes to ventricular remodelling in mouse models, prompting experimental efforts to modulate the immune response to prevent the development of HF. Seminal work in macrophage biology defined macrophages as monocyte-derived cells that are comprised of two populations, pro-inflammatory M1 macrophages and reparative M2 macrophages, and initial investigations into cardiac macrophage populations following AMI suggested they aligned well to this model. However, more recent data, in the heart and other tissues, demonstrate remarkable heterogeneity and plasticity in macrophage development, phenotype, and function. These recent insights into macrophage biology may explain the failure of non-specific immunosuppressive strategies and offer novel opportunities for therapeutic targeting to prevent HF following AMI. Here, we summarize the traditional monocyte-macrophage paradigm, experimental evidence for the significance of these cells in HF after AMI, and the potential relevance of emerging evidence that refutes canonical models of monocyte and macrophage biology.",
+ "sections": [
+  {
+   "h": "Conclusions and future directions",
+   "text": "Given the growing body of evidence demonstrating wide phenotypic variation of macrophages in vivo following AMI, understanding their contribution to pathological remodelling requires evolution from the established M1-M2 paradigm. This model assumes a continuum from M1 to M2, whereas in vivo evidence suggests a network of diverse macrophage behaviours, driven by a complex network of stimuli.\n\nInterpretation of studies investigating monocyte and macrophage populations is limited by poor phenotypic resolution, and this may account for apparent inconsistencies in the literature. The emergence of unbiased, high throughput single-cell techniques will facilitate more specific identification of candidate macrophage populations and novel signalling pathways for therapeutic application. Furthermore, accounting for temporal and spatial variation will further contribute to our understanding of the regulation of monocyte and macrophage phenotype. These novel techniques will need to be complemented by mechanistic studies to demonstrate the functional significance of newly described phenotypes.\n\nDespite compelling evidence for a key role for monocytes and macrophages in ventricular remodelling following AMI, targeted immunotherapeutic strategies are slow to emerge. Insights into macrophage biology in the context of atherosclerosis led to the first successful clinical trial of immunotherapy in cardiovascular disease (CANTOS) and this success provides a proof of concept for the utility of immunotherapy in this field. In light of the heterogeneity and plasticity of monocytes and macrophages in the heart following AMI, a conceptual shift from targeting arbitrarily and inconsistently defined myeloid cell populations to targeting candidate pathways identified in these cells may bridge the current gap between our current knowledge and therapeutic strategies."
+  }
+ ]
+}

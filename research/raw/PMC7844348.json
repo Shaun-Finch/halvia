@@ -1,0 +1,21 @@
+{
+ "pmcid": "PMC7844348",
+ "pmid": "32620259",
+ "doi": "10.1016/j.bja.2020.04.087",
+ "topic": "blood transfusion",
+ "title": "Patient blood management interventions do not lead to important clinical benefits or cost-effectiveness for major surgery: a network meta-analysis.",
+ "authors": "Roman MA, Abbasciano RG, Pathak S, Oo S, Yusoff S, Wozniak M, Qureshi S, Lai FY, Kumar T, Richards T, Yao G, Estcourt L, Murphy GJ.",
+ "affiliation": "Department of Cardiovascular Sciences and National Institute for Health Research Leicester Biomedical Research Unit in Cardiovascular Medicine, College of Life Sciences, University of Leicester, Leicester, UK. Electronic address: mr345@le.ac.uk.",
+ "journal": "British journal of anaesthesia",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 69,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Network Meta-Analysis",
+  "Journal Article"
+ ],
+ "abstract": "Background Patient blood management (PBM) interventions aim to improve clinical outcomes by reducing bleeding and transfusion. We assessed whether existing evidence supports the routine use of combinations of these interventions during and after major surgery. Methods Five systematic reviews and a National Institute of Health and Care Excellence health economic review of trials of common PBM interventions enrolling participants of any age undergoing surgery were updated. The last search was on June 1, 2019. Studies in trauma, burns, gastrointestinal haemorrhage, gynaecology, dentistry, or critical care were excluded. The co-primary outcomes were: risk of receiving red cell transfusion and 30-day or hospital all-cause mortality. Treatment effects were estimated using random-effects models and risk ratios (RR) with 95% confidence intervals (CIs). Heterogeneity assessments used I 2 . Network meta-analyses used a frequentist approach. The protocol was registered prospectively (PROSPERO CRD42018085730). Results Searches identified 393 eligible randomised controlled trials enrolling 54 917 participants. PBM interventions resulted in a reduction in exposure to red cell transfusion (RR=0.60; 95% CI 0.57, 0.63; I 2 =77%), but had no statistically significant treatment effect on 30-day or hospital mortality (RR=0.93; 95% CI 0.81, 1.07; I 2 =0%). Treatment effects were consistent across multiple secondary outcomes, sub-groups and sensitivity analyses that considered clinical setting, type of intervention, and trial quality. Network meta-analysis did not demonstrate additive benefits from the use of multiple interventions. No trial demonstrated that PBM was cost-effective. Conclusions In randomised trials, PBM interventions do not have important clinical benefits beyond reducing bleeding and transfusion in people undergoing major surgery.",
+ "sections": []
+}

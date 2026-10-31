@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC9304084",
+ "pmid": "35042765",
+ "doi": "10.1136/bmjqs-2021-013760",
+ "topic": "medication safety",
+ "title": "Medication-related interventions to improve medication safety and patient outcomes on transition from adult intensive care settings: a systematic review and meta-analysis.",
+ "authors": "Bourne RS, Jennings JK, Panagioti M, Hodkinson A, Sutton A, Ashcroft DM.",
+ "affiliation": "Pharmacy and Critical Care, Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield, UK richard.bourne1@nhs.net.",
+ "journal": "BMJ quality & safety",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 41,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Patients recovering from an episode in an intensive care unit (ICU) frequently experience medication errors on transition to the hospital ward. Structured handover recommendations often underestimate the challenges and complexity of ICU patient transitions. For adult ICU patients transitioning to a hospital ward, it is currently unclear what interventions reduce the risks of medication errors.The aims were to examine the impact of medication-related interventions on medication and patient outcomes on transition from adult ICU settings and identify barriers and facilitators to implementation. Methods The systematic review protocol was preregistered on PROSPERO. Six electronic databases were searched until October 2020 for controlled and uncontrolled study designs that reported medication-related (ie, de-prescribing; medication errors) or patient-related outcomes (ie, mortality; length of stay). Risk of bias (RoB) assessment used V.2.0 and ROBINS-I Cochrane tools. Where feasible, random-effects meta-analysis was used for pooling the OR across studies. The quality of evidence was assessed by Grading of Recommendations, Assessment, Development and Evaluations. Results Seventeen studies were eligible, 15 (88%) were uncontrolled before-after studies. The intervention components included education of staff (n=8 studies), medication review (n=7), guidelines (n=6), electronic transfer/handover tool or letter (n=4) and medicines reconciliation (n=4). Overall, pooled analysis of all interventions reduced risk of inappropriate medication continuation at ICU discharge (OR=0.45 (95% CI 0.31 to 0.63), I 2 =55%, n=9) and hospital discharge (OR=0.39 (95% CI 0.2 to 0.76), I 2 =75%, n=9). Multicomponent interventions, based on education of staff and guidelines, demonstrated no significant difference in inappropriate medication continuation at the ICU discharge point (OR 0.5 (95% CI 0.22 to 1.11), I 2 =62%, n=4), but were very effective in increasing de-prescribing outcomes on hospital discharge (OR 0.26 (95% CI 0.13 to 0.55), I 2 =67%, n=6)). Facilitators to intervention delivery included ICU clinical pharmacist availability and participation in multiprofessional ward rounds, while barriers included increased workload associated with the discharge intervention process. Conclusions Multicomponent interventions based on education of staff and guidelines were effective at achieving almost four times more de-prescribing of inappropriate medication by the time of patient hospital discharge. Based on the findings, practice and policy recommendations are made and guidance is provided on the need for, and design of theory informed interventions in this area, including the requirement for process and economic evaluations.",
+ "sections": [
+  {
+   "h": "Summary of main findings",
+   "text": "This systematic review has found that pooled analysis of specific interventions (education of staff, medication review, guidelines, medicines reconciliation, electronic handover tool) to reduce inappropriate medication continuation on ICU and hospital discharge were effective, with more than twice the likelihood of effective de-prescribing (low and very low quality of evidence). Multicomponent interventions based on education of staff and guidelines were associated with an almost fourfold higher rate of inappropriate medication discontinuation at hospital discharge compared with usual care, with moderate quality of evidence. Single component interventions (education of staff, medicines reconciliation, medication review) were twice as likely as usual care to reduce inappropriate medication continuation at ICU discharge only (shown by low quality of evidence).\n\nPatient and economic evaluation outcomes were reported in a minority of studies. Only one study demonstrated a reduction in potential ADEs with an ICU medicines reconciliation intervention,\n\nSuccessful delivery of complex interventions usually requires a combination of several factors including resources, education and training of staff.et al.\n\nDespite engagement of patients and family being an identified a facilitator to the provision of high-quality care for ICU patients transferring to a hospital ward,"
+  },
+  {
+   "h": "Conclusions",
+   "text": "This systematic review and meta-analysis newly identified that interventions aimed at reducing inappropriate medication continuation on patient ICU discharge and hospital discharge increased de-prescribing efficacy. Multicomponent interventions, built on education of staff and guidelines, appeared most effective in reducing inappropriate medication by hospital discharge. However, none of the de-prescribing initiatives exhibited beneficial effects on patient outcomes. More complex interventions such as medication review and medicines reconciliation, targeted at reducing MEs and medication-related problems on ICU discharge, were very effective and reduced potential ADEs. Our findings highlight the need to improve the quality and design of future prospective randomised intervention studies in this area."
+  }
+ ]
+}

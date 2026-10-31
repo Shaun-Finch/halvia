@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7901709",
+ "pmid": "33654698",
+ "doi": "10.1093/burnst/tkaa047",
+ "topic": "burns",
+ "title": "The pathogenesis and diagnosis of sepsis post burn injury.",
+ "authors": "Zhang P, Zou B, Liou YC, Huang C.",
+ "affiliation": "State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, and West China School of Basic Medical Sciences & Forensic Medicine, Sichuan University, and Collaborative Innovation Center for Biotherapy, No.17 People's South Road, Chengdu, 610041, China.",
+ "journal": "Burns & trauma",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 135,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Burn is an under-appreciated trauma that is associated with unacceptably high morbidity and mortality. Although the survival rate after devastating burn injuries has continued to increase in previous decades due to medical advances in burn wound care, nutritional and fluid resuscitation and improved infection control practices, there are still large numbers of patients at a high risk of death. One of the most common complications of burn is sepsis, which is defined as \"severe organ dysfunction attributed to host's disordered response to infection\" and is the primary cause of death in burn patients. Indeed, burn injuries are accompanied by a series of events that lead to sepsis and multiple organ dysfunction syndrome, such as a hypovolaemic state, immune and inflammatory responses and metabolic changes. Therefore, clear diagnostic criteria and predictive biomarkers are especially important in the prevention and treatment of sepsis and septic shock. In this review, we focus on the pathogenesis of burn wound infection and the post-burn events leading to sepsis. Moreover, the clinical and promising biomarkers of burn sepsis will also be summarized.",
+ "sections": [
+  {
+   "h": "Diagnosis of sepsis after burn trauma",
+   "text": "Due to the high lethality of sepsis, it is particularly important to choose an appropriate definition and criteria for early diagnosis and prediction of sepsis in burn patients. Yan and coworkers compared the sensitivity of the sepsis criteria of the ABA definition, the Mann-Salinas definition, and the new Sepsis-3 consensus definition in patients with burn and found Sepsis-3 to have a higher sensitivity (85%) than the ABA (60%) and Mann-Salinas (20%) definitions. The major advantage of Sepsis-3 is that it argues that the multiple organ dysfunction is more sepsis-specific than inflammation ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "Sepsis and septic complications not only account for the poor outcomes in burn patients, but also prolonged hospital stays and higher medical costs. Burn wound infection is a major cause of sepsis development in patients with severe burns. Moreover, other events following burn injury play important roles in the occurrence of sepsis, such as vascular leak, hypovolemia, hypermetabolism and immune dysregulation. Integrated management, including, but not limited to, fluid resuscitation, nutritional support, antimicrobial therapy and vasoactive medications is beneficial for the prevention and prognosis of sepsis by targeting the events leading to sepsis following burn injury. However, the prediction and diagnosis of sepsis or infection remains an ongoing challenge in burn patients, although numerous predictors for burn sepsis have been reported. More investigations are needed to explore novel diagnostic tools of burn sepsis due to the unreliability and limitation of the established biomarkers (CRP, PCT and cytokines). Meanwhile, Sepsis-3, which can be applied for analysis or research purposes, appeared to be a better definition of sepsis. Based on this definition and patient-specific molecular and biochemical profiles, clinicians can design an individualized management strategy which may improve the prognosis of burn patients with sepsis."
+  }
+ ]
+}

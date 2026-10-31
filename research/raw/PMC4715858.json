@@ -1,0 +1,21 @@
+{
+ "pmcid": "PMC4715858",
+ "pmid": "26780738",
+ "doi": "10.1007/s11239-015-1317-0",
+ "topic": "pulmonary embolism",
+ "title": "Guidance for the treatment of deep vein thrombosis and pulmonary embolism.",
+ "authors": "Streiff MB, Agnelli G, Connors JM, Crowther M, Eichinger S, Lopes R, McBane RD, Moll S, Ansell J.",
+ "affiliation": "Division of Hematology, Department of Medicine and Pathology, The Johns Hopkins University School of Medicine, Baltimore, MD, USA. mstreif@jhmi.edu.",
+ "journal": "Journal of thrombosis and thrombolysis",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 198,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "This guidance document focuses on the diagnosis and treatment of venous thromboembolism (VTE). Efficient, cost effective diagnosis of VTE is facilitated by combining medical history and physical examination with pre-test probability models, D dimer testing and selective use of confirmatory imaging. Clinical prediction rules, biomarkers and imaging can be used to tailor therapy to disease severity. Anticoagulation options for acute VTE include unfractionated heparin, low molecular weight heparin, fondaparinux and the direct oral anticoagulants (DOACs). DOACs are as effective as conventional therapy with LMWH and vitamin K antagonists. Thrombolytic therapy is reserved for massive pulmonary embolism (PE) or extensive deep vein thrombosis (DVT). Inferior vena cava filters are reserved for patients with acute VTE and contraindications to anticoagulation. Retrievable filters are strongly preferred. The possibility of thoracic outlet syndrome and May-Thurner syndrome should be considered in patients with subclavian/axillary and left common iliac vein DVT, respectively in absence of identifiable triggers. The optimal duration of therapy is dictated by the presence of modifiable thrombotic risk factors. Long term anticoagulation should be considered in patients with unprovoked VTE as well as persistent prothrombotic risk factors such as cancer. Short-term therapy is sufficient for most patients with VTE associated with transient situational triggers such as major surgery. Biomarkers such as D dimer and risk assessment models such the Vienna risk prediction model offer the potential to customize VTE therapy for the individual patient. Insufficient data exist to support the integration of bleeding risk models into duration of therapy planning.",
+ "sections": []
+}

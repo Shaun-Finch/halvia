@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7232538",
+ "pmid": "32478097",
+ "doi": "10.3389/fcvm.2020.00076",
+ "topic": "syncope",
+ "title": "Neurohormones in the Pathophysiology of Vasovagal Syncope in Adults.",
+ "authors": "Benditt DG, van Dijk JG, Krishnappa D, Adkisson WO, Sakaguchi S.",
+ "affiliation": "Cardiovascular Division, Department of Medicine, Cardiac Arrhythmia and Syncope Center, University of Minnesota Medical School, Minneapolis, MN, United States.",
+ "journal": "Frontiers in cardiovascular medicine",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 23,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Vasovagal syncope (VVS) is the most common cause of syncope across all age groups. Nonetheless, despite its clinical importance and considerable research effort over many years, the pathophysiology of VVS remains incompletely understood. In this regard, numerous studies have been undertaken in an attempt to improve insight into the evolution of VVS episodes and many of these studies have examined neurohormonal changes that occur during the progression of VVS events primarily using the head-up tilt table testing model. In this regard, the most consistent finding is a marked increase in epinephrine (Epi) spillover into the circulation beginning at an early stage as VVS evolves. Reported alterations of circulating norepinephrine (NE), on the other hand, have been more variable. Plasma concentrations of other vasoactive agents have been reported to exhibit more variable changes during a VVS event, and for the most part change somewhat later, but in some instances the changes are quite marked. The neurohormones that have drawn the most attention include arginine vasopressin [AVP], adrenomedullin, to a lesser extent brain and atrial natriuretic peptides (BNP, ANP), opioids, endothelin-1 (ET-1) and serotonin. However, whether some or all of these diverse agents contribute directly to VVS pathophysiology or are principally a compensatory response to an evolving hemodynamic crisis is as yet uncertain. The goal of this communication is to summarize key reported neurohumoral findings in VVS, and endeavor to ascertain how they may contribute to observed hemodynamic alterations during VVS.",
+ "sections": [
+  {
+   "h": "Possible Implications of Neurohumoral Agents in VVS Pathophysiology",
+   "text": "Humans are believed to be the principal if not the only species exhibiting VVS. However, VVS susceptibility does seem to differ among individuals, and also varies over time within affected persons. Thus, while 20–30% of humans report having had a presumed VVS event in their lifetime, only a much smaller proportion exhibit multiple episodes (\n\nSeveral hypotheses have been put forward in an attempt to understand VVS pathophysiology (see Ref #3 for summary). However, none provide a comprehensive explanation for how a VVS episode is first triggered, then evolves, and ultimately self-terminates. The understanding that does exist is principally based on observations obtained in VVS induced by upright posture or by LBNP (as opposed for example to emotional or pain triggers)."
+  },
+  {
+   "h": "Conclusions",
+   "text": "A number of neurohormonal agents have been studied to ascertain both how they change during posture-induced vasovagal faints and whether they contribute to the phenomenon. Nonetheless, despite the important insights that have been gained, many elements of the puzzle remain unclear. In particular, why VVS susceptibility varies between individuals and over time within known fainters remains a mystery that is not readily accounted for by either genetic, neural or hormonal differences. At this time, although there is reasonable evidence implicating Epi, NE and AVP changes in certain aspects of VVS, whether they or other neurohormones contribute directly to the evolving faint is still debatable. Further, whether better understanding of neurohumoral effects would enhance VVS prevention remains uncertain. Additional study is needed."
+  }
+ ]
+}

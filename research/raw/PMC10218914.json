@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10218914",
+ "pmid": "37240474",
+ "doi": "10.3390/jcm12103369",
+ "topic": "COPD exacerbation",
+ "title": "COPD Exacerbation: Why It Is Important to Avoid ICU Admission.",
+ "authors": "Prediletto I, Giancotti G, Nava S.",
+ "affiliation": "Alma Mater Studiorum University of Bologna, Department of Medical and Surgical Science (DIMEC), Via Massarenti 9, 40138 Bologna, Italy.",
+ "journal": "Journal of clinical medicine",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 35,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Chronic obstructive pulmonary disease (COPD) is one of the major causes of morbidity and mortality worldwide. Hospitalization due to acute exacerbations of COPD (AECOPD) is a relevant health problem both for its impact on disease outcomes and on health system resources. Severe AECOPD causing acute respiratory failure (ARF) often requires admission to an intensive care unit (ICU) with endotracheal intubation and invasive mechanical ventilation. AECOPD also acts as comorbidity in critically ill patients; this condition is associated with poorer prognoses. The prevalence reported in the literature on ICU admission rates ranges from 2 to 19% for AECOPD requiring hospitalization, with an in-hospital mortality rate of 20-40% and a re-hospitalization rate for a new severe event being 18% of the AECOPD cases admitted to ICUs. The prevalence of AECOPD in ICUs is not properly known due to an underestimation of COPD diagnoses and COPD misclassifications in administrative data. Non-invasive ventilation in acute and chronic respiratory failure may prevent AECOPD, reducing ICU admissions and disease mortality, especially when associated with a life-threating episode of hypercapnic ARF. In this review, we report on up to date evidence from the literature, showing how improving the knowledge and management of AECOPD is still a current research issue and clinical need.",
+ "sections": [
+  {
+   "h": "3. Conclusions",
+   "text": "The burden of mortality rates for AECOPD is not negligible. Nowadays, COPD represents a major cause of morbidity and mortality worldwide, although many improvements have been made in the management of COPD, both in pharmacological treatment and the global approach to end-stage COPD patients [\n\nNew data for the epidemiology of AECOPD, and specifically for AECOPD in an ICU setting, are unfortunately lacking. Infectious agents seem to be the most frequent and important triggers of AECOPD; pneumonia also acts as a negative prognostic factor [\n\nConsidering the disease management, one of the most important contributions to COPD prognoses has been obtained in recent decades, introducing NIV for the treatment of AECOPD causing AHRF, and, less strongly, with LTH-NIV [\n\nBetter phenotyping of COPD patients could also be meaningful in the context of AECOPD treatment in an ICU setting. Performing randomized controlled trials in an ICU is challenging, due to the complexity of the clinical situation and the instability of the patients. Recently, very promising data on acute settings for COPD have seemed to emerge for high-flow nasal cannulas (HFNC) used as non-invasive forms of respiratory support [\n\nAnother technique that has emerged as an alternative to MV is high-flow veno-venous extracorporeal membrane oxygenation (VV-ECMO). In some cases, AECOPD patients undergoing MV do not achieve the appropriate gas exchange due to an increase in dynamic hyperinflation, and, consequently, alveolar hyperinflation, worsening their hypercapnia. In addition, MV could lead to ventilator-induced lung injury (e.g., barotrauma) and hemodynamic unbalance. ECMO may be helpful in overcoming these limits, providing an external full respiratory and cardiac support and being able to both oxygenate patients and improve hypercapnia [\n\nThe best timing and management of ECMO is still under debate and its use is preferable in very selective situations due to the high incidence of severe complications. The strongest data are in favor of using VV-ECMO with a low tidal volume and highly positive end-expiratory pressure, with the patient in prone position, which seems to improve mortality and avoid both IMV and endotracheal intubation in severe AECOPD patients with hypercapnic ARF [\n\nOver recent decades, there has been an increase in the research interest in low-flow extracorporeal carbon dioxide removal (ECCO2R). ECCO2R was introduced to avoid IMV improving alveolar ventilation, combining NIV and the use of an extracorporeal device to remove CO2 from patient blood [\n\nThis technique could represent a bridge between NIV and IMV, when the gas exchanges are refractory to NIV alone in AECOPD patients with AHRF. The role of ECCO2R is still under debate due to a not negligible incidence of complications and a lack of solid data about its efficacy [\n\nFinally, preventing COPD and AECOPD is an urgent need worldwide. Tobacco smoking, the first known cause of COPD, and air pollution’s roles in developing chronic respiratory diseases are still not marginal ["
+  }
+ ]
+}

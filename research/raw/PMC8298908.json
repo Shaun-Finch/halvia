@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8298908",
+ "pmid": "34307426",
+ "doi": "10.3389/fmed.2021.699880",
+ "topic": "early warning scores",
+ "title": "The Prognostic Accuracy of National Early Warning Score 2 on Predicting Clinical Deterioration for Patients With COVID-19: A Systematic Review and Meta-Analysis.",
+ "authors": "Zhang K, Zhang X, Ding W, Xuan N, Tian B, Huang T, Zhang Z, Cui W, Huang H, Zhang G.",
+ "affiliation": "Department of Critical Care Medicine, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+ "journal": "Frontiers in medicine",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 21,
+ "pubtypes": [
+  "Systematic Review",
+  "systematic-review",
+  "Journal Article"
+ ],
+ "abstract": "Background:  During the coronavirus disease 2019 (COVID-19) pandemic, the National Early Warning Score 2 (NEWS2) is recommended for the risk stratification of COVID-19 patients, but little is known about its ability to detect severe cases. Therefore, our purpose is to assess the prognostic accuracy of NEWS2 on predicting clinical deterioration for patients with COVID-19.  Methods:  We searched PubMed, Embase, Scopus, and the Cochrane Library from December 2019 to March 2021. Clinical deterioration was defined as the need for intensive respiratory support, admission to the intensive care unit, or in-hospital death. Sensitivity, specificity, and likelihood ratios were pooled by using the bivariate random-effects model. Overall prognostic performance was summarized by using the area under the curve (AUC). We performed subgroup analyses to assess the prognostic accuracy of NEWS2 in different conditions.  Results:  Eighteen studies with 6,922 participants were included. The NEWS2 of five or more was commonly used for predicting clinical deterioration. The pooled sensitivity, specificity, and AUC were 0.82, 0.67, and 0.82, respectively. Benefitting from adding a new SpO 2  scoring scale for patients with hypercapnic respiratory failure, the NEWS2 showed better sensitivity (0.82 vs. 0.75) and discrimination (0.82 vs. 0.76) than the original NEWS. In addition, the NEWS2 was a sensitive method (sensitivity: 0.88) for predicting short-term deterioration within 72 h.  Conclusions:  The NEWS2 had moderate sensitivity and specificity in predicting the deterioration of patients with COVID-19. Our results support the use of NEWS2 monitoring as a sensitive method to initially assess COVID-19 patients at hospital admission, although it has a relatively high false-trigger rate. Our findings indicated that the development of enhanced or modified NEWS may be necessary.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "We perform the first meta-analysis to examine the prognostic accuracy of the NEWS2 on predicting clinical deterioration for patients with COVID-19. The NEWS2 has moderate sensitivity and specificity in predicting the deterioration of patients with COVID-19, and the threshold of 5 is an optimal trigger threshold for activating a rapid response. Our results support the recommendations for use of NEWS2 monitoring as a sensitive method to initially assess COVID-19 patients at hospital admission, although it has a relatively high false-trigger rate. However, the discriminative power of the NEWS2 is far from excellent. Further improvements of the NEWS2 by modifying the score or combining more important predictors is still necessary. In addition, the value of a single assessment is limited. Further research should focus on the utility of longitudinal NEWS2 monitoring to identify deteriorating patients and guide clinical response, not solely for initial assessment at hospital admission."
+  }
+ ]
+}

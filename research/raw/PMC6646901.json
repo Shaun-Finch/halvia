@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6646901",
+ "pmid": "29044735",
+ "doi": "10.1002/pds.4336",
+ "topic": "medication safety",
+ "title": "Making fair comparisons in pregnancy medication safety studies: An overview of advanced methods for confounding control.",
+ "authors": "Wood ME, Lapane KL, van Gelder MMHJ, Rai D, Nordeng HME.",
+ "affiliation": "PharmacoEpidemiology and Drug Safety Research Group, School of Pharmacy, University of Oslo, Norway.",
+ "journal": "Pharmacoepidemiology and drug safety",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 42,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Understanding the safety of medication use during pregnancy relies on observational studies: However, confounding in observational studies poses a threat to the validity of estimates obtained from observational data. Newer methods, such as marginal structural models and propensity calibration, have emerged to deal with complex confounding problems, but these methods have seen limited uptake in the pregnancy medication literature. In this article, we provide an overview of newer advanced methods for confounding control and show how these methods are relevant for pregnancy medication safety studies.",
+ "sections": [
+  {
+   "h": "Propensity scores (and other confounder summary scores)",
+   "text": "The propensity score, which is the probability of exposure given observed confounders,\n\nPropensity scores are typically constructed using multivariable logistic regression, where exposure is the dependent variable and confounders are the independent variables. The PS model should include variables that are confounders or predictors of the outcome; inclusion of factors that are only predictors of exposure will increase variance without decreasing bias."
+  }
+ ]
+}

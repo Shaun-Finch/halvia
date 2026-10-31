@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC8024143",
+ "pmid": "33818197",
+ "doi": "10.1177/1358863x21995566",
+ "topic": "venous thromboembolism",
+ "title": "Venous thromboembolism in COVID-19: A systematic review and meta-analysis.",
+ "authors": "Kollias A, Kyriakoulis KG, Lagou S, Kontopantelis E, Stergiou GS, Syrigos K.",
+ "affiliation": "Third Department of Medicine, National and Kapodistrian University of Athens, School of Medicine, Sotiria Hospital, Athens, Greece.",
+ "journal": "Vascular medicine (London, England)",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 149,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Severe coronavirus disease 2019 (COVID-19) is associated with increased risk of venous thromboembolism events (VTE). This study performed a systematic review in PubMed/EMBASE of studies reporting the prevalence of VTE in patients with COVID-19 who were totally screened/assessed for deep vein thrombosis (DVT) and/or for pulmonary embolism (PE). Among 47 candidate studies ( n  = 6459; 33 in Europe), 17 studies ( n  = 3973; weighted age 63.0 years, males 60%, intensive care unit (ICU) 16%) reported the prevalence of PE with a pooled estimate of 32% (95% CI: 25, 40%), and 32 studies ( n  = 2552; weighted age 62.6 years, males 57%, ICU 49%) reported the prevalence of DVT with a pooled estimate of 27% (95% CI: 21, 34%). A total of 36 studies reported the use of at least prophylactic antithrombotic treatment in the majority of their patients. Meta-regression analysis showed that the prevalence of VTE was higher across studies with a higher percentage of ICU patients and higher study population mean D-dimer values, and lower in studies with mixed dosing of anticoagulation in ⩾ 50% of the population compared to studies with standard prophylactic dosing of anticoagulation in  n  = 2882) was 2.1 (95% CI: 1.2, 3.6). Hospitalized patients with severe COVID-19 are at high VTE risk despite prophylactic anticoagulation. Further research should investigate the individualized VTE risk of patients with COVID-19 and the optimal preventive antithrombotic therapy.  PROSPERO Registration No.: CRD42020185543.",
+ "sections": [
+  {
+   "h": "Data extraction and risk of bias assessment",
+   "text": "Three investigators extracted independently data concerning study design, main characteristics of included populations and data regarding primary and secondary endpoints from included studies where available. The risk of bias was assessed using the Joanna Briggs Institute’s ‘Critical Appraisal Checklist for Analytical Cross Sectional Studies’."
+  },
+  {
+   "h": "Conclusion",
+   "text": "This systematic review of the evidence suggests that hospitalized patients with COVID-19, who are screened or assessed for VTE, present a pooled prevalence of DVT and PE at about 30% each, and despite thromboprophylaxis in most cases. The VTE risk appears to be considerably higher than in patients without COVID-19 admitted in the same ICUs. Further research is necessary to investigate the individualized VTE risk of patients with COVID-19, the underlying pathogenetic mechanisms, and the optimal preventive anticoagulant therapy."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC11879630",
+ "pmid": "40041633",
+ "doi": "10.7759/cureus.78365",
+ "topic": "chest pain",
+ "title": "Zero Coronary Artery Calcification: A Promising Value in Acute Chest Pain Evaluation.",
+ "authors": "Damani DN, Roongsritong C.",
+ "affiliation": "Department of Internal Medicine, Texas Tech University Health Sciences Center El Paso, El Paso, USA.",
+ "journal": "Cureus",
+ "year": "2025",
+ "license": "cc by",
+ "cited": 0,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Chest pain is the second most common reason for emergency room visits, accounting for approximately 11 million encounters annually. While benign conditions are often the underlying cause, life-threatening diagnoses such as acute coronary syndrome remain significant. Timely, accurate, and cost-effective assessment is, therefore, critical. The 2022 American Heart Association and American College of Cardiology guidelines recommend using clinical decision pathways followed by functional tests or coronary computed tomography (CT) angiography for patients with intermediate risk of acute coronary events. However, these conventional tests face challenges, including availability and complexity. Nongated, noncontrasted cardiac CT for coronary artery calcification (CAC) detection is fast and simple, and requires minimal technical expertise. Although traditionally validated in stable coronary artery disease (CAD), recent evidence supports CAC's utility in acute settings. Notably, the absence of CAC (known as CAC Zero) demonstrates exceptional accuracy, including a ~98% negative predictive value for CAD, and predicts excellent short- and intermediate-term prognoses in patients with acute chest pain. Despite its promise, caution is advised when applying CAC Zero in younger populations, as they are more likely to have noncalcified plaques. This article reviews recent evidence on the value and limitations of CAC Zero in evaluating acute chest pain.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "Accurate and timely diagnosis of cardiac chest pain remains a critical focus, with substantial efforts directed at minimizing missed ACS. Recent studies on functional testing have shown that coronary CTA has a better NPV than SPECT MPI and stress echo and hence a more effective tool to rule out obstructive CAD. The potential of CAC scores in patients with significant obstructive CAD has been increasingly recognized. CAC scores consistently exhibit high sensitivity and NPV, making them valuable in clinical decision-making. Incorporating CAC Zero in the clinical pretest probability model can further enhance the prediction of CAD. CAC scoring, as an initial diagnostic tool, can lead to more efficient triage, reduced healthcare costs, and improved patient outcomes in real-world settings.\n\nHowever, there are limitations in the generalizability of the CAC score as the definitions of chest pain in the various studies were not uniform. Another consideration is its cautious application in younger patients who are more likely to have uncalcified plaques. Hence, the pretest probability and clinical scenario are essential when using the CAC score in triage. When used in an appropriate clinical setting, the CAC Zero correlated with excellent short- and intermediate-term prognoses in patients with acute chest pain.\n\nFurther studies on long-term outcomes of patients triaged based on the CAC score with subgroup analysis can add to the knowledge base. Novel approaches exploring the optimization of the CAC score in clinical practice could guide future practice."
+  }
+ ]
+}

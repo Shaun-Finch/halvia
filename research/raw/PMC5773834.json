@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5773834",
+ "pmid": "29371752",
+ "doi": "10.3164/jcbn.17-62",
+ "topic": "stroke",
+ "title": "How is edaravone effective against acute ischemic stroke and amyotrophic lateral sclerosis?",
+ "authors": "Watanabe K, Tanaka M, Yuki S, Hirai M, Yamamoto Y.",
+ "affiliation": "Sohyaku. Innovative Research Division, Mitsubishi Tanabe Pharma Corporation, 1000 Kamoshida-cho, Aoba-ku, Yokohama 227-0033, Japan.",
+ "journal": "Journal of clinical biochemistry and nutrition",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 171,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Edaravone is a low-molecular-weight antioxidant drug targeting peroxyl radicals among many types of reactive oxygen species. Because of its amphiphilicity, it scavenges both lipid- and water-soluble peroxyl radicals by donating an electron to the radical. Thus, it inhibits the oxidation of lipids by scavenging chain-initiating water-soluble peroxyl radicals and chain-carrying lipid peroxyl radicals. In 2001, it was approved in Japan as a drug to treat acute-phase cerebral infarction, and then in 2015 it was approved for amyotrophic lateral sclerosis (ALS). In 2017, the U.S. Food and Drug Administration also approved edaravone for treatment of patients with ALS. Its mechanism of action was inferred to be scavenging of peroxynitrite. In this review, we focus on the radical-scavenging characteristics of edaravone in comparison with some other antioxidants that have been studied in clinical trials, and we summarize its pharmacological action and clinical efficacy in patients with acute cerebral infarction and ALS.",
+ "sections": [
+  {
+   "h": "Therapeutic effect of edaravone on severe carotid territory stroke",
+   "text": "Edaravone was administered for 14 days to 30 stroke patients with internal carotid artery occlusion and baseline NIHSS scores of at least 15. These patients were compared with a historical control group of 31 similar patients.(\n\nThe infarct volume measured by computed tomography was lower in the edaravone group, at 154 and 241 cm3 on day 2 and days 5 to 7, respectively, in comparison with 241 and 321 cm3 in the control group. The midline shift was lower in the edaravone group, with means of 3.5 mm on day 2, and 8.2 mm on days 5 to 7, compared with the control group, in which it was 7.7 and 11.5 mm, respectively. The numbers of patients who died within 14 days after onset were 6 (20%) and 14 (45%) in the edaravone and control groups, respectively. Among all patients, only two required no nursing care 8 weeks after onset, and these were both in the edaravone group.\n\nEarly-stage edaravone treatment delayed progression of infarction and edema in severe carotid territory stroke patients, and reduced the acute-phase mortality rate. However, no significant improvement in chronic functional outcome in surviving patients was found, and it is therefore concluded that combination therapy of edaravone with antithrombosis and/or thrombolytic agents is required for treating severe stroke."
+  },
+  {
+   "h": "Conclusions",
+   "text": "We have summarized the radical-scavenging and antioxidant activities of edaravone in comparison of other radical scavengers and antioxidants, together with the activities of edaravone in cerebral infarction and ALS models, and its clinical effects in humans. Edaravone shows marked scavenging effects on various reactive oxygen species and radicals including peroxynitrite. Approximately 50% of edaravone is present as the anion under physiological conditions, and the anion scavenges radicals by donating one electron to a radical. As a result, edaravone itself is converted to OPB irrespective of the radical species. Non-ionized edaravone can passively diffuse through biological membranes, and thus edaravone is capable of scavenging radicals in both aqueous and lipid phases. It is also considered that edaravone exerts its antioxidant activity cooperatively with endogenous antioxidants such as ascorbic acid and vitamin E. Based on these characteristics, edaravone has clinically used in Japan since 2001 as a therapeutic agent for acute cerebral infarction, and it has been established as a standard therapy for acute ischemic stroke in Japan to date. In addition, Japanese manufacturing and marketing approval of edaravone for treatment of ALS was given in 2015, for suppression of progression of functional disorders. Then in 2017, the U.S. Food and Drug Administration (https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209176lbl.pdf, cited June 13, 2017) also approved edaravone for treatment of patients with ALS.\n\nThere have been numerous reports on edaravone. Short summaries of some representative publications are given below."
+  }
+ ]
+}

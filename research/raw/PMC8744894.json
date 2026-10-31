@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8744894",
+ "pmid": "35008432",
+ "doi": "10.3390/ijms23010006",
+ "topic": "atrial fibrillation",
+ "title": "Atrial Fibrillation: Pathogenesis, Predisposing Factors, and Genetics.",
+ "authors": "Sagris M, Vardas EP, Theofilis P, Antonopoulos AS, Oikonomou E, Tousoulis D.",
+ "affiliation": "1st Cardiology Clinic, 'Hippokration' General Hospital, School of Medicine, National and Kapodistrian University of Athens, 11528 Athens, Greece.",
+ "journal": "International journal of molecular sciences",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 291,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Atrial fibrillation (AF) is the most frequent arrhythmia managed in clinical practice, and it is linked to an increased risk of death, stroke, and peripheral embolism. The Global Burden of Disease shows that the estimated prevalence of AF is up to 33.5 million patients. So far, successful therapeutic techniques have been implemented, with a high health-care cost burden. As a result, identifying modifiable risk factors for AF and suitable preventive measures may play a significant role in enhancing community health and lowering health-care system expenditures. Several mechanisms, including electrical and structural remodeling of atrial tissue, have been proposed to contribute to the development of AF. This review article discusses the predisposing factors in AF including the different pathogenic mechanisms, sedentary lifestyle, and dietary habits, as well as the potential genetic burden.",
+ "sections": [
+  {
+   "h": "8. Prevention-Conclusions",
+   "text": "Physicians might always estimate the AF risk for patients with burdened health profile (age, hypertension, diabetes, obesity etc.) via the multiple scales that have been introduced. Obesity, excessive alcohol use, and obstructive sleep apnoea are all known to contribute to unfavourable LA remodelling and AF risk [\n\nAs far as the recognition of potential paroxysmal AF is considered, new strategies with smart watches and other devices can detect events better than a traditional 24-h ambulatory ECG recording [\n\nBased on the above facts, it has become clear that fibrosis, inflammation, and oxidative stress, as well as behavioural and genetic factors, contribute decisively to the development of atrial fibrillation. Undoubtedly, the aforementioned risk factors, primarily the evolving atrial myopathy, form a fertile substrate for the establishment of anisotropic conduction properties in the atrial myocardium, the fragmentation of the electrical activity, and eventually, the development of atrial fibrillation."
+  }
+ ]
+}

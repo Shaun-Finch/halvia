@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8356407",
+ "pmid": "34380507",
+ "doi": "10.1186/s12959-021-00303-9",
+ "topic": "major haemorrhage",
+ "title": "Tranexamic acid for the prevention and treatment of bleeding in surgery, trauma and bleeding disorders: a narrative review.",
+ "authors": "Ockerman A, Vanassche T, Garip M, Vandenbriele C, Engelen MM, Martens J, Politis C, Jacobs R, Verhamme P.",
+ "affiliation": "Department of Imaging and Pathology, KU Leuven, OMFS-IMPATH Research Group, Leuven, Belgium. anna.ockerman@kuleuven.be.",
+ "journal": "Thrombosis journal",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 65,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Objectives We review the evidence for tranexamic acid (TXA) for the treatment and prevention of bleeding caused by surgery, trauma and bleeding disorders. We highlight therapeutic areas where evidence is lacking and discuss safety issues, particularly the concern regarding thrombotic complications. Methods An electronic search was performed in PubMed and the Cochrane Library to identify clinical trials, safety reports and review articles. Findings TXA reduces bleeding in patients with menorrhagia, and in patients undergoing caesarian section, myomectomy, hysterectomy, orthopedic surgery, cardiac surgery, orthognathic surgery, rhinoplasty, and prostate surgery. For dental extractions in patients with bleeding disorders or taking antithrombotic drugs, as well as in cases of idiopathic epistaxis, tonsillectomy, liver transplantation and resection, nephrolithotomy, skin cancer surgery, burn wounds and skin grafting, there is moderate evidence that TXA is effective for reducing bleeding. TXA was not effective in reducing bleeding in traumatic brain injury and upper and lower gastrointestinal bleeding. TXA reduces mortality in patients suffering from trauma and postpartum hemorrhage. For many of these indications, there is no consensus about the optimal TXA dose. With certain dosages and with certain indications TXA can cause harm, such as an increased risk of seizures after high TXA doses with brain injury and cardiac surgery, and an increased mortality after delayed administration of TXA for trauma events or postpartum hemorrhage. Whereas most trials did not signal an increased risk for thrombotic events, some trials reported an increased rate of thrombotic complications with the use of TXA for gastro-intestinal bleeding and trauma. Conclusions TXA has well-documented beneficial effects in many clinical indications. Identifying these indications and the optimal dose and timing to minimize risk of seizures or thromboembolic events is work in progress.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "In conclusion, TXA is an easy-to-use and high-potential drug with beneficial effects on bleeding and blood transfusion requirements within many fields of medicine. For some indications, evidence for TXA use is (still) lacking, and/or the optimal dose regimen is unclear. Ongoing vigilance for the risk of thrombotic events and possible side effects with the use of TXA is needed."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC9422736",
+ "pmid": "33722520",
+ "doi": "10.1016/j.bjorl.2021.02.003",
+ "topic": "cellulitis and skin infection",
+ "title": "Role of systemic corticosteroids in orbital cellulitis: a meta-analysis and literature review.",
+ "authors": "Kim BY, Bae JH.",
+ "affiliation": "Ewha Womans University of Korea, School of Medicine, Department of Otorhinolaryngology, Seoul, Republic of Korea. Electronic address: 81ungii@hanmail.net.",
+ "journal": "Brazilian journal of otorhinolaryngology",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 12,
+ "pubtypes": [
+  "Meta-Analysis",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Introduction The standard management of orbital cellulitis is to administer a combination of intravenous broad-spectrum antibiotics along with treatment of associated sinusitis. Objective The purpose of this study was to evaluate whether the addition of corticosteroids could lead to earlier resolution of inflammation and improve disease outcome. Methods We independently searched five databases (PubMed, SCOPUS, Embase, the Web of Science, and the Cochrane database) for studies published as recent as December 2019. Of the included studies, we reviewed orbital cellulitis and disease morbidity through lengths of hospitalization, incidence of surgical drainage, periorbital edema, vision, levels or C-reactive protein, and serum WBC levels in order to focus on comparing steroid with antibiotics treated group and only antibiotics treated group. Results Lengths of hospitalization after admission as diagnosed as orbital cellulitis (SMD=-4.02 [-7.93; -0.12], p-value=0.04, I 2 =96.9%) decrease in steroid with antibiotics treated group compared to antibiotics only treated group. Incidence of surgical drainage (OR=0.78 [0.27; 2.23], p-value=0.64, I 2 =0.0%) was lower in the steroid with antibiotics treated group compared to the antibiotics only treated group. Conclusion Use of systemic steroids as an adjunct to systemic antibiotic therapy for orbital cellulitis may decrease orbital inflammation with a low risk of exacerbating infection. Based on our analysis, we concluded that early use of steroids for a short period can help shorten hospitalization days and prevent inflammation progression.",
+ "sections": [
+  {
+   "h": "Data extraction and risk of bias assessment",
+   "text": "Data from studies were extracted with standardized forms and identified by two reviewers working separately. Outcomes for analysis included orbital cellulitis and disease morbidity to focus on comparing steroid with antibiotics treated group and antibiotics only treated group. From the included studies, we extracted the following data: the number of patients, length of hospitalization, incidence of surgical drainage, pain, periorbital edema, vision, levels or C-reactive protein, and serum white blood cell (WBC) levels. The risk of bias for each study was analyzed using the Cochrane’ Risk of Bias’ tool ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "Based on our analysis, we can conclude that early use of steroids for a short period can shorten the number of hospitalized days. Therefore, we recommend the early use of steroids for a short period with antibiotics to treat orbital cellulitis. Future research with a larger number of studies should be conducted for sufficient scientific evidence."
+  }
+ ]
+}

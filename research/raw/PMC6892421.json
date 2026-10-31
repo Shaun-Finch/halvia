@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC6892421",
+ "pmid": "31800080",
+ "doi": "10.1093/ndt/gfz206",
+ "topic": "hyperkalaemia",
+ "title": "Hyperkalemia: pathophysiology, risk factors and consequences.",
+ "authors": "Hunter RW, Bailey MA.",
+ "affiliation": "British Heart Foundation Centre for Cardiovascular Science, University of Edinburgh, Queen's Medical Research Institute, Edinburgh BioQuarter, Edinburgh, UK.",
+ "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 175,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "There have been significant recent advances in our understanding of the mechanisms that maintain potassium homoeostasis and the clinical consequences of hyperkalemia. In this article we discuss these advances within a concise review of the pathophysiology, risk factors and consequences of hyperkalemia. We highlight aspects that are of particular relevance for clinical practice. Hyperkalemia occurs when renal potassium excretion is limited by reductions in glomerular filtration rate, tubular flow, distal sodium delivery or the expression of aldosterone-sensitive ion transporters in the distal nephron. Accordingly, the major risk factors for hyperkalemia are renal failure, diabetes mellitus, adrenal disease and the use of angiotensin-converting enzyme inhibitors, angiotensin receptor blockers or potassium-sparing diuretics. Hyperkalemia is associated with an increased risk of death, and this is only in part explicable by hyperkalemia-induced cardiac arrhythmia. In addition to its well-established effects on cardiac excitability, hyperkalemia could also contribute to peripheral neuropathy and cause renal tubular acidosis. Hyperkalemia-or the fear of hyperkalemia-contributes to the underprescription of potentially beneficial medications, particularly in heart failure. The newer potassium binders could play a role in attempts to minimize reduced prescribing of renin-angiotensin inhibitors and mineraolocorticoid antagonists in this context.",
+ "sections": [
+  {
+   "h": "Clinical implications",
+   "text": "These molecular processes explain why hyperkalemia invariably occurs in response to stimuli that limit any of five key parameters (\n\nIn clinical practice, the first three of these are frequently encountered together, explaining the pathogenesis of hyperkalemia in acute kidney injury (AKI). The normal physiological response to volume depletion drives upregulation of aldosterone synthesis, so that any reductions in (i)–(iii) are offset by increases in (iv), maintaining potassium homoeostasis. Hyperkalemia ensues when this response is prevented, for example, by renin–angiotensin system (RAS) inhibitors or MR blockers.\n\nHyperkalemia can occur when NCC activity is stimulated, leading to reduced reabsorption of sodium through the electrogenic pathway. The archetypal example of this is type II pseudohypoaldosteronism (Gordon’s syndrome), in which inherited mutations in the Wnk-SPAK kinase cascade or the KLHL3–CUL3 ubiquitin ligase complex that regulates it lead to the constitutive phosphorylation (and therefore activation) of NCC [inhibited by drugs (e.g. amiloride, trimethoprim and pentamidine) in adrenal disease (because of impaired aldosterone synthesis) or by heritable mutations inactivating ENaC or MR (type I pseudohypoaldosteronism)."
+  },
+  {
+   "h": "CONCLUSIONS",
+   "text": "In classical models of potassium homoeostasis, aldosterone exerts negative feedback control of renal potassium excretion. There is an increasing appreciation that feedforward gut-to-kidney signalling plays an important role.\n\nHyperkalemia occurs when renal potassium excretion is limited by reductions in GFR, tubular flow, distal sodium delivery or the expression of (aldosterone-sensitive) ion transporters in the distal nephron. Accordingly, the major risk factors for hyperkalemia are renal failure, diabetes mellitus, adrenal disease and the use of ACEis, ARBs or potassium-sparing diuretics.\n\nHyperkalemia is associated with an increased risk of death and this is explicable only in part by hyperkalemia-induced cardiac arrhythmia. In addition to its well-established effects on cardiac excitability, hyperkalemia may also contribute to peripheral neuropathy and cause renal tubular acidosis. Fear of hyperkalemia might also contribute to the underprescription of potentially beneficial medications, particularly in HFrEF. The novel potassium binders may find a role in maximizing RASi and MRA use in heart failure and proteinuric kidney disease. We summarize the points that are most relevant for clinical practice in"
+  }
+ ]
+}

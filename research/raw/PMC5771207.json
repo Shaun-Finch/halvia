@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC5771207",
+ "pmid": "29338750",
+ "doi": "10.1186/s12883-017-1007-y",
+ "topic": "stroke",
+ "title": "Reperfusion therapy in acute ischemic stroke: dawn of a new era?",
+ "authors": "Bhaskar S, Stanwell P, Cordato D, Attia J, Levi C.",
+ "affiliation": "Western Sydney University (WSU), School of Medicine, South West Sydney Clinical School, Sydney, NSW, 2170, Australia. Sonu.Bhaskar@health.nsw.gov.au.",
+ "journal": "BMC neurology",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 174,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Following the success of recent endovascular trials, endovascular therapy has emerged as an exciting addition to the arsenal of clinical management of patients with acute ischemic stroke (AIS). In this paper, we present an extensive overview of intravenous and endovascular reperfusion strategies, recent advances in AIS neurointervention, limitations of various treatment paradigms, and provide insights on imaging-guided reperfusion therapies. A roadmap for imaging guided reperfusion treatment workflow in AIS is also proposed. Both systemic thrombolysis and endovascular treatment have been incorporated into the standard of care in stroke therapy. Further research on advanced imaging-based approaches to select appropriate patients, may widen the time-window for patient selection and would contribute immensely to early thrombolytic strategies, better recanalization rates, and improved clinical outcomes.",
+ "sections": [
+  {
+   "h": "Evolution of reperfusion therapy",
+   "text": "Thrombolysis, commonly known as “clot-busting”, is a pharmacological treatment using an infusion of analogues of tPA which leads to the breakdown (lysis) of the culprit blood-clot. Thrombolytic drugs dissolve blood clots by activating a proteolytic enzyme, plasminogen, to plasmin. Fibrin molecules provide the structural scaffold for blood clots, and plasmin cleaves cross-linkages between fibrin molecules. Subsequently, the clot becomes soluble and undergoes further degradation through proteolysis by other enzymes, eventually restoring blood flow. Due to their mechanism of action, thrombolytic drugs are also referred to as “plasminogen activators” or “fibrinolytic drugs”. The three major classes of plasminogen activators are (i) tPA, (ii) streptokinase (SK), and (iii) urokinase (UK). Thrombolytic drugs differ in the mechanism by which they act on fibrin clots. The sequence that leads to the breakdown of the clot or fibrinolysis by tPA is shown in Fig.\n\nSome of the known tPA analogues are Alteplase (Activase®; recombinant tPA (rtPA)), Retaplase (Retavase®) and Tenecteplase (TNK-tPA). Alteplase, the most commonly used thrombolytic drug, is a fibrin-selective analogue of tPA administered intravenously or intra-arterially. It is the only Food and Drug Administration (FDA)-approved thrombolytic agent for the treatment of AIS. rtPA causes lysis of fibrin; thereby dissolving the thrombus and resulting in recanalization of the occluded artery [\n\nUrokinase, also known as urinary-type plasminogen activator (uPA), is found in urine. Clinically, UK is used as a thrombolytic drug in conditions such as pulmonary embolism, myocardial infarction, and severe deep venous thrombosis (DVT). In comparison to rtPA, SK and UK lack fibrin specificity and bind equally to circulating plasminogen and clot-bound plasminogen. On binding with plasminogen, SK forms a complex that activates plasmin, triggering a proteolytic cascade. The proteolytic cascade leads to thrombolysis (clot degradation in AIS) or extracellular matrix degradation (e.g., tissue degradation causing tissue invasion and metastasis in tumour malignancy) depending upon the physiological environment. Therefore, SK and UK have less favourable adverse event profiles than rtPA. Thrombolytic drugs can be used as (a) Intravenous, and (b) Intra-arterial. Next, we will discuss the important aspects of these thrombolytic procedures."
+  },
+  {
+   "h": "Combined intravenous and endovascular therapy: A multimodal reperfusion therapy (MMRT) approach",
+   "text": "The idea behind combining intravenous and endovascular approaches, also called bridge therapy [\n\nThe Stent-Assisted Recanalization in Acute Ischemic Stroke (SARIS) trial, conducted to investigate the safety of intracranial stent deployment within 8 h of stroke onset, demonstrated expeditious recanalization, and favourable outcomes at 30 and 180 days clinical follow-up [\n\nA number of MMRT approaches including combined IV-rtPA and IA-tPA [\n\nDrawing from the success of these studies, an endovascular MMRT approach using pharmacological thrombolytics (IA lytic drugs), in conjunction with MT using mechanical devices such as clot retrievers, angioplasty with stenting, aspiration devices, and stent retrievers is being increasingly adopted as the treatment of choice for stroke due to large vessel occlusion ["
+  },
+  {
+   "h": "Limitations and unresolved questions of endovascular reperfusion therapy",
+   "text": "Despite the substantial advantages of MT, this is only offered to a limited number (5–10%) of AIS patients [\n\nIn addition to the limitations of present reperfusion therapies in AIS settings, a number of unresolved questions or issues need to be addressed."
+  },
+  {
+   "h": "Conclusions, discussions, and future recommendations",
+   "text": "The approved treatment for acute ischemic stroke is reperfusion therapy using systemic thrombolysis or endovascular mechanical thrombectomy. The recent success of endovascular trials has revolutionised the way large artery occlusion stroke patients are managed. AHA/ASA has accordingly updated its guidelines for stroke care. The recommendation is to use MT with stent retriever in combination with standard therapy (IV-rtPA) in AIS patients, aged ≥18 years; baseline ASPECTS score ≥ 6, baseline NIHSS score ≥ 6 with angiographically confirmed large vessel occlusion presenting within 6 h of symptom onset (Level 1A evidence) [\n\nEndovascular therapy also provides an alternative to systemic thrombolysis for patients who fail to reperfuse with IV-rtPA or those who are not eligible for IVT due to restricted time-window, or those with unknown onset or “wake-up” stroke, or contraindications [\n\nIn conclusion, both IV thrombolysis and endovascular treatment have been incorporated into the standard of care in stroke therapy. In light of recent studies in favour of imaging based selection of AIS patients for reperfusion therapy, the time window of MT may extend to 24 h (or beyond) since symptom onset ["
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "pmcid": "PMC8188986",
+ "pmid": "34123879",
+ "doi": "10.3389/fcimb.2021.691210",
+ "topic": "urinary tract infection",
+ "title": "Recurrent Urinary Tract Infection: A Mystery in Search of Better Model Systems.",
+ "authors": "Murray BO, Flores C, Williams C, Flusberg DA, Marr EE, Kwiatkowska KM, Charest JL, Isenberg BC, Rohn JL.",
+ "affiliation": "Centre for Urological Biology, Department of Renal Medicine, University College London, London, United Kingdom.",
+ "journal": "Frontiers in cellular and infection microbiology",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 92,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Urinary tract infections (UTIs) are among the most common infectious diseases worldwide but are significantly understudied. Uropathogenic  E. coli  (UPEC) accounts for a significant proportion of UTI, but a large number of other species can infect the urinary tract, each of which will have unique host-pathogen interactions with the bladder environment. Given the substantial economic burden of UTI and its increasing antibiotic resistance, there is an urgent need to better understand UTI pathophysiology - especially its tendency to relapse and recur. Most models developed to date use murine infection; few human-relevant models exist. Of these, the majority of  in vitro  UTI models have utilized cells in static culture, but UTI needs to be studied in the context of the unique aspects of the bladder's biophysical environment (e.g., tissue architecture, urine, fluid flow, and stretch). In this review, we summarize the complexities of recurrent UTI, critically assess current infection models and discuss potential improvements. More advanced human cell-based  in vitro  models have the potential to enable a better understanding of the etiology of UTI disease and to provide a complementary platform alongside animals for drug screening and the search for better treatments.",
+ "sections": []
+}

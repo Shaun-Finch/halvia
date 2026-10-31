@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC11449345",
+ "pmid": "39361621",
+ "doi": "10.1371/journal.pone.0302318",
+ "topic": "COPD exacerbation",
+ "title": "High blood eosinophils predict the risk of COPD exacerbation: A systematic review and meta-analysis.",
+ "authors": "Chen F, Yang M, Wang H, Liu L, Shen Y, Chen L.",
+ "affiliation": "Department of Pulmonary and Critical Care Medicine, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+ "journal": "PloS one",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 16,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background The association between blood eosinophils and COPD exacerbation has been controversial. This study aims to investigate whether high blood eosinophils predict the risk of COPD exacerbation across different thresholds and subgroups. Methods PubMed, Embase and Web of science were searched for randomized controlled trial (RCT) and observational studies regarding the relationship between blood eosinophils and COPD exacerbation. Pooled risk ratio (RR) for COPD exacerbation was calculated using the Mantel-Haenszel method with a random-effects model. Results A total of 21 studies (1 RCT and 20 observational studies) with 79868 participants were included. Thresholds of high blood eosinophils including absolute counts (200, 300 and 400 cell/μL) and percentages (2%, 3% and 4%) were analyzed respectively. Pooled analyses suggested that high blood eosinophils were significantly associated with increased risk of COPD exacerbation when using the thresholds of 300 cells/μL (RR 1.21, 95%CI 1.12-1.30, P  0.05). Moreover, high blood eosinophils contributed to moderate-severe exacerbation of COPD by the cutoffs of 300 cells/μL (RR 1.30, 95%CI 1.16-1.45, P  1year). Conclusions This study demonstrates that high blood eosinophils (over 300 cells/μL or 2%) could predict the risk of moderate-severe exacerbation of COPD in specific subgroups. However, large sample-sized, prospective, and well-designed studies are required to validate the present findings.",
+ "sections": [
+  {
+   "h": "Data extraction and quality assessment",
+   "text": "Two investigators (FC and MY) independently extracted data from each study using a standardized Excel file. The following information was picked up: first author (year of publication), country, study design, number of participants, demographic characteristics of patients, phases of COPD at baseline, maintenance treatment for COPD, thresholds of high blood eosinophils, follow-up time, definition of AECOPD and the outcome data. For the missing data, special effort was made to contact the corresponding authors of the original studies. Studies without available outcome data were not included in the quantitative analysis. The primary outcome was exacerbation of COPD. The secondary outcome was moderate-severe exacerbation. The quality of RCTs was evaluated with the Jadad Scale [MY and HW) independently assessed the quality of studies. Discrepancies were resolved through discussion with the third investigator (LL)."
+  },
+  {
+   "h": "Study characteristics and quality assessment",
+   "text": "The characteristics of the 21 included studies are presented in\n\nA total of 79868 participants were included in this meta-analysis. The mean age ranged from 63 to 77 years. The proportion of male subjects was between 41% and 96%. The mean FEV1% predicted of patients was above 30%, and more than 44.7% of them were receiving ICS-containing therapies.\n\nQuality assessment of included studies are presented in"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5727987",
+ "pmid": "29233130",
+ "doi": "10.1186/s12890-017-0541-0",
+ "topic": "COPD exacerbation",
+ "title": "Antibiotics for treatment of acute exacerbation of chronic obstructive pulmonary disease: a network meta-analysis.",
+ "authors": "Zhang HL, Tan M, Qiu AM, Tao Z, Wang CH.",
+ "affiliation": "Department of Respiration, Shanghai Tenth People's Hospital, Clinical Medical College, Nanjing Medical University, Extension of Middle Road 301#, Zhabei District, Shanghai, 200000, Shanghai, People's Republic of China.",
+ "journal": "BMC pulmonary medicine",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 22,
+ "pubtypes": [
+  "research-article",
+  "Network Meta-Analysis",
+  "Journal Article"
+ ],
+ "abstract": "Background Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) is the most common reason for the hospitalization and death of pulmonary patients. The use of antibiotics as adjuvant therapy for AECOPD, however, is still a matter of debate. Methods In this study, we searched the PubMed, EmBase, and Cochrane databases for randomized controlled trials published until September 2016 that evaluated the use of antibiotics for AECOPD treatment. The major outcome variables were clinical cure rate and adverse effects. The microbiological response rate, relapse of exacerbation, and mortality were also analysed. A random-effect network was used to assess the effectiveness and tolerance of each antibiotic used for AECOPD treatment. Results In this meta-analysis, we included 19 articles that assessed 17 types of antibiotics used in 5906 AECOPD patients. The cluster ranking showed that dirithromycin had a high clinical cure rate with a low rate of adverse effects. Ofloxacin, ciprofloxacin, and trimethoprim-sulfamethoxazole had high clinical cure rates with median rates of adverse effects. In terms of the microbiological response rate, only doxycycline was significantly better than placebo (odds ratio (OR), 3.84; 95% confidence interval (CI), 1.96-7.54; p  Conclusions Our study indicated that dirithromycin is adequate for improving the clinical cure rate of patients with AECOPD with few adverse effects. Ofloxacin, ciprofloxacin, and trimethoprim-sulfamethoxazole are also recommended for disease treatment. However, caution should still be exercised when using antibiotics to treat AECOPD. Trial Registration Not applicable.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "In conclusion, our study indicated that dirithromycin has a high clinical cure rate with a low rate of adverse effects. Ofloxacin, ciprofloxacin, and trimethoprim-sulfamethoxazole also have high clinical cure rates with median rates of adverse effects. However, caution should still be exercised when using antibiotics to treat acute exacerbations of COPD."
+  }
+ ]
+}

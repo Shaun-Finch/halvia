@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC6631782",
+ "pmid": "31307381",
+ "doi": "10.1186/s12871-019-0772-0",
+ "topic": "major haemorrhage",
+ "title": "Different dose regimes and administration methods of tranexamic acid in cardiac surgery: a meta-analysis of randomized trials.",
+ "authors": "Guo J, Gao X, Ma Y, Lv H, Hu W, Zhang S, Ji H, Wang G, Shi J.",
+ "affiliation": "Department of Anesthesiology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences, and Peking Union Medical College, No.167 Beilishi Road, Xicheng district, Beijing, China.",
+ "journal": "BMC anesthesiology",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 72,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background The efficacy of tranexamic acid (TXA) to reduce perioperative blood loss and allogeneic blood transfusion in cardiac surgeries has been proved in previous studies, but its adverse effects especially seizure has always been a problem of concern. This meta-analysis aims to provide information on the optimal dosage and delivery method which is effective with the least adverse outcomes. Methods We searched Cochrane Central Register of Controlled Trials, MEDLINE and EMBASE for all relevant articles published before 2018/12/31. Inclusion criteria were adult patients undergoing elective heart surgeries, and only randomized control trials comparing TXA with placebo were considered. Two authors independently assessed trial quality and extracted relevant data. Results We included 49 studies with 10,591 patients into analysis. TXA significantly reduced transfusion rate (RR 0.71, 95% CI 0.65 to 0.78, P Conclusions TXA was effective in reducing transfusion requirement in all kinds of cardiac surgeries. Low-dose intravenous infusion was the most preferable delivery method which was as effective as high-dose regimen in reducing transfusion rate without increasing the risk of seizure.",
+ "sections": [
+  {
+   "h": "Data extraction and management",
+   "text": "Two authors independently extracted study characteristics and outcomes. Data on the following items were recorded: type of surgery, usage of cardiopulmonary bypass (CPB), presence or absence of a transfusion protocol, method of TXA administration (topical or intravenous, continuous or bolus), drug dosage, number of patients in the experiment and control group, and the outcome measures of interest. The discrepancy was resolved by discussion."
+  },
+  {
+   "h": "Risk of bias assessment",
+   "text": "All included studies were assessed for methodological quality by two authors independently. We used the Cochrane Collaboration’s tool for assessing risk of bias (Version 5.1.0) as evaluation criteria. The following domains were assessed for each study: random sequence generation, allocation concealment, blinding of participants and personnel, blinding of outcome assessment, incomplete outcome data addressed and selective reporting. Each domain for every included study was graded into three categories: low risk of bias, unclear risk of bias and high risk of bias."
+  },
+  {
+   "h": "Conclusions",
+   "text": "This meta-analysis provides further evidence that TXA significantly reduces peri-operative blood loss and transfusion requirements in adult cardiac surgery, without increasing the risk of serious adverse events except for seizure. The risk of seizure is only seen in high-dose trials delivered intravenously. High-dose TXA does not further decrease transfusion rate and has a strong tendency to cause more seizure attacks compared to the low-dose TXA. We thus consider low-dose TXA(bolus injection<50 mg/kg, or 10 mg/kg + 1 mg/kg/h)to be more preferable."
+  }
+ ]
+}

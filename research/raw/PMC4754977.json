@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC4754977",
+ "pmid": "26878845",
+ "doi": "10.1186/s12891-016-0923-0",
+ "topic": "major haemorrhage",
+ "title": "The efficacy of topical tranexamic acid in total hip arthroplasty: a meta-analysis.",
+ "authors": "Chen S, Wu K, Kong G, Feng W, Deng Z, Wang H.",
+ "affiliation": "Department of Orthopaedics, First Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, 515041, China.",
+ "journal": "BMC musculoskeletal disorders",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 54,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Topical tranexamic acid (TXA) has been shown to be effective in reducing blood loss and the need for transfusion after total knee arthroplasty. However, the effectiveness of topical TXA use in total hip arthroplasty (THA) still remains unclear. The purpose of this meta-analysis is to examine the safety and efficacy of topical use of TXA following THA. Hypothesis Topical TXA reduces blood loss and transfusion rates without increasing risk of deep vein thrombosis in patients with THA. Methods An electronic literature search of PubMed, Embase, the Cochrane Library, Web of Science and Chinese Biomedical Database was performed, to identify studies published before February 2015. All randomized controlled trials and cohort studies evaluating the efficacy of topical TXA during THA were included. Two independent authors identified the eligible studies, assessed their methodological quality, and extracted data. The data were using fixed-effects or random-effects models with (standard) mean differences and risk ratios for continuous and dichotomous variables, respectively. Data were analysed using RevMan 5.3 software. Results Fourteen studies encompassing 2594 patients met the inclusion criteria for our meta-analysis. Our meta-analysis indicated that when compared with the placebo group, topical use of TXA significantly reduced total blood loss (MD = -297.65 ml, 95 % CI -371.68 ml, 116.08 ml; P  Conclusions Topical TXA could significantly reduce total blood loss, drainage loss, transfusion rates and decrease haemoglobin level following THA, without increasing risk of venous thromboembolisms.",
+ "sections": [
+  {
+   "h": "Quality assessment and grading the quality of evidence",
+   "text": "Two reviewers independently assessed the risk of bias of individual studies according to the Oxford Centre for Evidence-based Medicine Levels of Evidence [\n\nTo assess the level of evidence for an intervention, the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) was used. Quality of evidence was classified as high, moderate, low, or very low based on the judgements for the outcome regarding risk of bias, inconsistency, indirectness, imprecision, and other considerations (publication bias). Summary tables were constructed with GRADEpro version 3.6."
+  },
+  {
+   "h": "Conclusions",
+   "text": "This meta-analysis of the current literature indicates that topical TXA administration leads to a statistically significant reduction in total blood loss, drainage loss, transfusion rate and with less of a drop in haemoglobin level, with no increased risk of thromboembolic complications. Further study is required to elucidate the clinical outcomes and the optimal dose of topical TXA use in THA."
+  }
+ ]
+}

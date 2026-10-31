@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC9383680",
+ "pmid": "35976429",
+ "doi": "10.1007/s00392-022-02077-0",
+ "topic": "pulmonary embolism",
+ "title": "Pulmonary embolism response team (PERT) implementation and its clinical value across countries: a scoping review and meta-analysis.",
+ "authors": "Hobohm L, Farmakis IT, Keller K, Scibior B, Mavromanoli AC, Sagoschen I, Münzel T, Ahrens I, Konstantinides S.",
+ "affiliation": "Department of Cardiology, Center of Thrombosis and Hemostasis (CTH), University Medical Center of the Johannes Gutenberg-University, Mainz, Germany. lukas.hobohm@unimedizin-mainz.de.",
+ "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 74,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Scoping Review",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Over the last years, multidisciplinary pulmonary embolism response teams (PERTs) have emerged to encounter the increasing variety and complexity in the management of acute pulmonary embolism (PE). We aimed to systematically investigate the composition and added clinical value of PERTs. Methods We searched PubMed, CENTRAL and Web of Science until January 2022 for articles designed to describe the structure and function of PERTs. We performed a random-effects meta-analysis of controlled studies (PERT vs. pre-PERT era) to investigate the impact of PERTs on clinical outcomes and advanced therapies use. Results We included 22 original studies and four surveys. Overall, 31.5% of patients with PE were evaluated by PERT referred mostly by emergency departments (59.4%). In 11 single-arm studies (1532 intermediate-risk and high-risk patients evaluated by PERT) mortality rate was 10%, bleeding rate 9% and length of stay 7.3 days [95% confidence interval (CI) 5.7-8.9]. In nine controlled studies there was no difference in mortality [risk ratio (RR) 0.89, 95% CI 0.67-1.19] by comparing pre-PERT with PERT era. When analysing patients with intermediate or high-risk class only, the effect estimate for mortality tended to be lower for patients treated in the PERT era compared to those treated in the pre-PERT era (RR 0.71, 95% CI 0.45-1.12). The use of advanced therapies was higher (RR 2.67, 95% CI 1.29-5.50) and the in-hospital stay shorter (mean difference - 1.6 days) in PERT era compared to pre-PERT era. Conclusions PERT implementation led to greater use of advanced therapies and shorter in-hospital stay. Our meta-analysis did not show a survival benefit in patients with PE since PERT implementation. Large prospective studies are needed to further explore the impact of PERTs on clinical outcomes. Registration Open Science Framework 10.17605/OSF.IO/SBFK9.",
+ "sections": [
+  {
+   "h": "Data extraction and quality assessment",
+   "text": "We created a predefined excel spreadsheet into which two authors (IF, AM) independently extracted data from eligible studies. A pilot test was performed before the formal initiation of data extraction to ensure coherence. Any disagreement was resolved by consensus. We extracted data regarding the study design of each study (country of corresponding author, academic setting or not, multicenter or not, prospective or retrospective design, presence of control group or not, and population inclusion and exclusion criteria), site-specific characteristics of the PERT (structure and number of specialties involved, setting of PERT activations, proportion of patients with acute PE for whom PERT was activated, and predictors of PERT activation), baseline characteristics of the population (mean age, female sex, mean body mass index, active malignancy, right ventricular dysfunction, proportion of patients with low, intermediate–low, intermediate–high and high risk acute PE) and outcomes (as described above). We performed a quality assessment of the eligible controlled studies using the ROBINS-I risk-of-bias tool for non-randomised studies of interventions ["
+  }
+ ]
+}

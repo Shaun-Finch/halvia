@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC10726493",
+ "pmid": "38110897",
+ "doi": "10.1186/s12879-023-08919-0",
+ "topic": "cellulitis and skin infection",
+ "title": "Pseudomonas otitidis bacteremia in an immunocompromised patient with cellulitis: case report and literature review.",
+ "authors": "Mori T, Yoshizawa S, Yamada K, Sato T, Sasaki M, Nakamura Y, Gen U, Murakami H, Kashiwagi K, Maeda T, Miyazaki T, Yamaguchi T, Urita Y, Ishii Y, Tateda K.",
+ "affiliation": "Department of General Medicine and Emergency Care (Infectious Diseases), Toho University Omori Medical Center, 6-11-1 Omorinishi, Ota-ku, Tokyo, 143-8541, Japan.",
+ "journal": "BMC infectious diseases",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 4,
+ "pubtypes": [
+  "Review",
+  "Journal Article",
+  "Case Reports",
+  "case-report"
+ ],
+ "abstract": "Background Pseudomonas otitidis belongs to the genus Pseudomonas and causes various infections, including ear, skin, and soft tissue infections. P. otitidis has a unique susceptibility profile, being susceptible to penicillins and cephalosporins but resistant to carbapenems, due to the production of the metallo-β-lactamase called POM-1. This revealed genetic similarities with Pseudomonas aeruginosa, which can sometimes lead to misidentification. Case presentation We report the case of a 70-year-old Japanese male who developed cellulitis and bacteremia during chemotherapy for multiple myeloma. He was initially treated with meropenem, but blood culture later revealed gram-negative bacilli identified as P. otitidis using matrix-assisted laser desorption ionization-time of flight mass spectrometry (MALDI-TOF MS). Carbapenem resistance was predicted from previous reports; therefore, we switched to dual therapy with levofloxacin and cefepime, and favorable treatment results were obtained. Conclusion This is the first reported case of P. otitidis cellulitis and bacteremia in an immunocompromised patient. Carbapenems are typically used in immunocompromised patients and P. otitidis is often resistant to it. However, its biochemical properties are similar to those of Pseudomonas aeruginosa; therefore, its accurate identification is critical. In the present study, we rapidly identified P. otitidis using MALDI-TOF MS and switched from carbapenems to an appropriate antimicrobial therapy, resulting in a successful outcome.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "P. otitidis is often misidentified as other bacterial species by conventional identification methods. Due to production of POM-1 and resistance to carbapenems, caution is required in immunocompromised hosts, especially in bacteremia with febrile neutropenia. On the other hand, rapid diagnosis by MALDI-TOF MS has become possible in recent years. Therefore, when P. otitidis is suspected by MALDI-TOF MS, it is recommended to use antibiotics other than carbapenems."
+  }
+ ]
+}

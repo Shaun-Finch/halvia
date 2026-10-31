@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5334560",
+ "pmid": "28316971",
+ "doi": "10.3389/fmed.2017.00021",
+ "topic": "hyponatraemia",
+ "title": "Exercise-Associated Hyponatremia: 2017 Update.",
+ "authors": "Hew-Butler T, Loi V, Pani A, Rosner MH.",
+ "affiliation": "Oakland University School of Health Sciences , Rochester, MI , USA.",
+ "journal": "Frontiers in medicine",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 62,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Exercise-associated hyponatremia (EAH) was initially described in the 1980s in endurance athletes, and work done since then has conclusively identified that overdrinking beyond thirst and non-osmotic arginine vasopressin release are the most common etiologic factors. In recent years, EAH has been described in a broader variety of athletic events and also has been linked to the development of rhabdomyolysis. The potential role of volume and sodium depletion in a subset of athletes has also been described. This review focuses on the most recent literature in the field of EAH and summarizes key new findings in the epidemiology, pathophysiology, treatment, and prevention of this condition.",
+ "sections": [
+  {
+   "h": "Treatment of EAH",
+   "text": "Exercise-associated hyponatremia is largely an acute hyponatremia, clinically defined as having an onset within 48 h (via adaptive processes undertaken by surrounding astrocytes over 1–2 days, significantly affects both symptoms and treatment (\n\nCollective evidence from case studies (+] (\n\nNew evidence suggests that oral hypertonic saline solutions may reverse symptomatology (+] (\n\nIsotonic (0.9%) saline has been successfully utilized in the treatment of EAH (only rare (but notable) exception is when EAH is associated with signs and symptoms of volume depletion, as noted above (i.e., elevated blood urea nitrogen, weight loss, and scant urine with urine [Na+] <30 mmol/L, thirst). In these rare pathophysiological exceptions (i.e., after prolonged exercise in hot conditions in unacclimitized individuals or in individuals with chronically elevated sweat or urinary sodium content), plasma volume expansion with both sodium and water (isotonic saline) may be preferred over administration of concentrated sodium solutions (hypertonic saline) (+] should be performed regardless of treatment. When in doubt, hypertonic saline is an effective treatment option regardless of volemic status. Hypotonic solutions are absolutely contraindicated when a diagnosis of EAH is confirmed."
+  },
+  {
+   "h": "Summary",
+   "text": "The incidence of EAH continues to spread into a wider variety of sporting activities and cause unnecessary deaths in otherwise healthy individuals. Drinking beyond thirst continues to be the primary pathophysiological factor in the development of EAH, regardless of mode of physical activity. Administration of hypertonic saline continues to be lifesaving, with treatment largely guided by clinical signs and symptoms. For mild to moderate EAH (without altered mental status), fluid restriction or oral hypertonic saline is recommended while for severe symptomatic EAH (with altered mental status), urgent administration of IV boluses of 100 mL 3% NaCl is required. Drinking according to the dictates of thirst, during and immediately following exercise will prevent the development of EAH when exercise is performed in temperate climates with duration of less than 17 h."
+  }
+ ]
+}

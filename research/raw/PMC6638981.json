@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC6638981",
+ "pmid": "31318967",
+ "doi": "10.1371/journal.pone.0220204",
+ "topic": "pneumonia",
+ "title": "Effect of tobacco smoking on the risk of developing community acquired pneumonia: A systematic review and meta-analysis.",
+ "authors": "Baskaran V, Murray RL, Hunter A, Lim WS, McKeever TM.",
+ "affiliation": "Department of Respiratory Medicine, Nottingham University Hospitals NHS Trust, Nottingham, United Kingdom.",
+ "journal": "PloS one",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 91,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Aim To summarise and quantify the effect of tobacco smoking on the risk of developing community acquired pneumonia (CAP) in adults. Methods We systematically searched MEDLINE, Embase, CINAHL, PsychINFO and Web of Science, from inception to October 2017, to identify case-control and cohort studies and reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analysis (PRISMA) checklist. The review protocol was registered with the PROSPERO database (CRD42018093943). Study quality was assessed by the Newcastle-Ottawa Scale. Pooled odds ratios (ORs) or hazard ratios (HRs) were estimated using a random-effects model. Results Of 647 studies identified, 27 studies were included (n = 460,592 participants) in the systematic review. Most of the included studies were of moderate quality with a median score of six (IQR 6-7). Meta-analysis showed that current smokers (pooled OR 2.17, 95% CI 1.70-2.76, n = 13 studies; pooled HR 1.52, 95% CI 1.13-2.04, n = 7 studies) and ex-smokers (pooled OR 1.49, 95% CI 1.26-1.75, n = 8 studies; pooled HR 1.18, 95% CI 0.91-1.52, n = 6 studies) were more likely to develop CAP compared to never smokers. Although the association between passive smoking and risk of CAP in adults of all ages was not statistically significant (pooled OR 1.13, 95% CI 0.94-1.36, n = 5 studies), passive smoking in adults aged ≥65 years was associated with a 64% increased risk of CAP (pooled OR 1.64; 95% CI 1.17-2.30, n = 2 studies). Dose-response analyses of data from five studies revealed a significant trend; current smokers who smoked higher amount of tobacco had a higher risk of CAP. Conclusion Tobacco smoke exposure is significantly associated with the development of CAP in current smokers and ex-smokers. Adults aged > 65 years who are passive smokers are also at higher risk of CAP. For current smokers, a significant dose-response relationship is evident.",
+ "sections": [
+  {
+   "h": "Data extraction and assessment of methodological quality",
+   "text": "Two authors (VB, RM or TM) independently extracted all data for studies in English whilst data from non-English studies were extracted by a single reviewer (TL, LB, MOB or KN) who was literate in that particular language using a standardised form. Any disagreements that arose between reviewers were resolved through discussion, or with a third reviewer (TM) when required. Information on study population, study design, exposure of interest (tobacco smoking) including different exposure categories (e.g. never, ever, ex-, current, ‘not current’ and passive smokers), outcome (CAP) and the adjusted/ unadjusted effect size (either odds ratios (ORs) or hazard ratios (HRs)) were collected.\n\nMethodological quality was assessed using the Newcastle-Ottawa Quality Assessment Scale[a priori to indicate different levels of methodological quality (0–3: low quality, 4–6: moderate quality, 7–9: high quality)"
+  },
+  {
+   "h": "Implications",
+   "text": "This review provides good evidence to support recommendations for smoking cessation as well as avoidance of passive exposure to tobacco smoke, particularly in persons at high risk of developing pneumonia. Patients who recover from an episode of CAP are recognised to be at risk of recurrent CAP[\n\nFurther research is warranted to establish why and for how long ex-smokers continue to be at higher risk of developing CAP following smoking cessation, compared to those who have never smoked. For future studies, a more standardised approach to reporting pack-years of smoking instead of qualitative descriptions with variable definitions would facilitate comparisons and synthesis of data."
+  }
+ ]
+}

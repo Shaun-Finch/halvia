@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5219773",
+ "pmid": "28061909",
+ "doi": "10.1186/s13722-016-0068-3",
+ "topic": "opioid overdose",
+ "title": "Opioid overdose prevention and naloxone rescue kits: what we know and what we don't know.",
+ "authors": "Kerensky T, Walley AY.",
+ "affiliation": "Instructor of Medicine, Boston University School of Medicine, Boston Medical Center, 801 Massachusetts Avenue, Floor 2, Boston, MA, 02118, USA. Todd.Kerensky@bmc.org.",
+ "journal": "Addiction science & clinical practice",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 126,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The opioid use and overdose crisis is persistent and dynamic. Opioid overdoses were initially driven in the 1990s and 2000s by the increasing availability and misuse of prescription opioids. More recently, opioid overdoses are increasing at alarming rates due to wider use of heroin, which in some places is mixed with fentanyl or fentanyl derivatives. Naloxone access for opioid overdose rescue is one of the US Department of Health and Human Services' three priority areas for responding to the opioid crisis. This article summarizes the known benefits of naloxone access and details unanswered questions about overdose education and naloxone rescue kits. Hopefully future research will address these knowledge gaps, improve the effectiveness of opioid overdose education and naloxone distribution programs, and unlock the full promise of naloxone rescue kits.",
+ "sections": [
+  {
+   "h": "Should all patients receiving opioid therapy be offered naloxone co-prescribing?",
+   "text": "Center for Disease Control and Prevention opioid prescribing guidelines released in 2016 recommend considering naloxone and overdose prevention education for patients and household members of patients prescribed opioids with a history of overdose, history of substance use disorder, higher opioid dosages (≥50 MME/day), or concurrent benzodiazepine use ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "The opioid use and overdose crisis is persistent and dynamic, garnering much attention from the public, policymakers and public health officials. In an effort to curb opioid related overdoses and deaths the federal government has prioritized increasing prescriber education, improving access to treatments for opioid use disorder and naloxone. As an antidote to opioid overdoses, naloxone has proven to be a valuable tool in combating overdose deaths and associated morbidity. Further investigation into important knowledge gaps will help unlock the potential of naloxone needed to address the pervasive opioid overdose crisis."
+  }
+ ]
+}

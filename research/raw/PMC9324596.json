@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC9324596",
+ "pmid": "35889815",
+ "doi": "10.3390/nu14142859",
+ "topic": "refeeding and nutrition",
+ "title": "Refeeding Syndrome: A Critical Reality in Patients with Chronic Disease.",
+ "authors": "Krutkyte G, Wenk L, Odermatt J, Schuetz P, Stanga Z, Friedli N.",
+ "affiliation": "Division of Diabetes, Endocrinology, Nutritional Medicine and Metabolism, Inselspital, Bern University Hospital, University of Bern, 3010 Bern, Switzerland.",
+ "journal": "Nutrients",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 20,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Malnutrition is one of the most frequent metabolic challenges in the population of chronically ill patients. This results in increased administration of nutritional therapy in inpatient settings, which poses the risk of side effects, in particular, the development of refeeding syndrome. If not managed accordingly, it leads to a significant rise in morbidity and mortality. However, despite its importance, evidence-based recommendations on the management of refeeding syndrome are largely lacking, and only a few randomized controlled trials have been conducted. In light of this, the aim of this review is to raise awareness of refeeding syndrome in chronically ill patients by critically reviewing recent literature and providing a short overview as well as diagnosis and treatment algorithms of this underreported metabolic condition. In summary, recent findings suggest undergoing risk assessment and stratification for every patient receiving nutritional therapy. According to this, adaptation of energy and fluid support during the replenishment phase should be implemented in the nutritional therapy for patients at high risk. Additionally, continuous monitoring should take place, and appropriate actions should be initiated when necessary.",
+ "sections": [
+  {
+   "h": "7. Management",
+   "text": "Based on clinical experience as well as the summarized evidence in the literature, a standardized algorithm for managing and preventing RFS has been proposed by a group of experts [\n\nIf RFS develops (either imminent or manifest), the substitution of the corresponding electrolytes and micronutrients is suggested. If patients suffer from manifest RFS with edema, lung failure or heart failure, an adaptation of energy and fluid intake as in high-risk patients is recommended, and an adequate treatment for these conditions should be commenced ["
+  },
+  {
+   "h": "10. Conclusions",
+   "text": "RFS is a serious life-endangering metabolic complication arising from rapid nutritional support in the replenishment phase in malnourished, catabolic patients. If not correctly diagnosed or if appropriate measures are not being taken, RFS can lead to increased morbidity and mortality. In addition, patients with chronic disease are more exposed to this complication due to catabolic metabolism and reduced nutritional intake. That is why special attention should be devoted to preventing and managing RFS in this vulnerable population. Nonetheless, the inconclusive evidence poses a challenge to developing universal, evidence-based guidelines for the diagnosis, prevention and treatment of this disorder. As long as the evidence from randomized controlled trials is still lacking, clinical management can only be based on expert consensus statements. However, a few key aspects could be defined: Risk assessment before nutritional therapy is crucial in order to prevent RFS; patients at higher risk of RFS should be administered restricted energy and fluid intake as well as vitamin and electrolyte supplementation; monitoring and management of electrolyte levels and clinical symptoms is advised for patients at risk during the first 72 h of refeeding.\n\nThat being said, future research is needed to gain in-depth knowledge, from better definitions of RFS to the standardization of the treatment protocols."
+  }
+ ]
+}

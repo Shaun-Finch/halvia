@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6349735",
+ "pmid": "30723432",
+ "doi": "10.3389/fpsyt.2018.00773",
+ "topic": "alcohol withdrawal",
+ "title": "Baclofen and the Alcohol Withdrawal Syndrome-A Short Review.",
+ "authors": "Cooney G, Heydtmann M, Smith ID.",
+ "affiliation": "Florence Street Mental Health Resource Centre, Glasgow, United Kingdom.",
+ "journal": "Frontiers in psychiatry",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 16,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The Alcohol Withdrawal Syndrome (AWS), which may occur with or without delirium, is a frequent consequence of sudden alcohol cessation in patients with moderate to severe Alcohol Dependence Syndrome (ADS). Withdrawal as a result of habituation to alcohol is part of the definition of the Alcohol Dependence Syndrome (ICD10). Since the recognition of Delirium Tremens, in the early nineteenth century, the management of the syndrome, an acute medical emergency, has proven controversial. The barbiturates, chlormethiazole, and recently the safer benzodiazepines transformed the management of these conditions. The benzodiazepines, particularly diazepam and chlordiazepoxide, are now the most used first line agents in the treatment of AWS. In addition, a number of other agents, including baclofen, a GABA-B receptor agonist, have the potential to suppress the alcohol withdrawal syndrome. In this review we review the potential use of baclofen in its role to treat AWS. We summarize initial case reports as well as more recent randomized trials of AWS treatment with baclofen. We conclude that currently there is not enough evidence to support the use of baclofen as a first line treatment for AWS. More research will be needed to determine where baclofen might have a role in second-line management of the Alcohol Withdrawal Syndrome on its own or in combination with benzodiazepines or other agents.",
+ "sections": [
+  {
+   "h": "Conclusions and Discussion",
+   "text": "Overall, despite weaknesses in study design some studies show that baclofen at the dose of 30 mg per day as used in all studies so far may be effective in reducing symptoms of alcohol withdrawal. With just over 140 patients treated for alcohol withdrawal syndrome with baclofen there may be a publication bias with absence of publication of less favorable studies. Also, it is not known whether there would be a benefit in using symptom triggered baclofen doses and allow higher doses. Currently routine treatment with baclofen at a dose of 30 mg per day is not recommended outside trials and benzodiazepines should be used as first line treatment. It is also unclear whether baclofen prevents severe alcohol withdrawal symptoms such as seizures and delirium tremens.\n\nBenzodiazepine use is favored in managing both planned and unplanned AWS, using either a fixed dose or a symptom triggered regime with careful titration for the suppression of signs and symptoms of AWS. Given that tailored and significantly higher doses of baclofen are used in a number of trials in maintenance of abstinence from alcohol, it is surprising that higher (tailored) doses have not been systematically studied for AWS. Usage of higher doses might be more effective but an increased risk of adverse events and baclofen discontinuation syndrome for example on self-discharge would need to be considered (\n\nThe use of baclofen as a possible adjunct to benzodiazepines in AWS is worthy of further research, in particular to find out whether there are additive or synergistic effects of these two drugs. This is in particular attractive where baclofen maintenance for relapse prevention and treatment of anxiety or post withdrawal symptoms is being considered. The hypothesis that baclofen may offer neuroprotection, possibly alongside acamprosate, in some disease situations, has also been postulated on the basis of animal experiments [e.g., (\n\nGiven that baclofen has a good safety profile in patients with alcohol-related liver disease including cirrhosis and these patients respond to low doses (\n\nIn the light of our review we suggest several areas of further research on baclofen in the management of AWS. This includes trial of tailored (higher) baclofen doses in AWS, specific trials in patients with advanced liver disease and in patients with extreme delirium unresponsive to conventional treatment with benzodiazepines. Such studies should be of high quality and preferably multicenter trials."
+  }
+ ]
+}

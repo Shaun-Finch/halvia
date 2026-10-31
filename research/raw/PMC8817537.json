@@ -1,0 +1,28 @@
+{
+ "pmcid": "PMC8817537",
+ "pmid": "35123480",
+ "doi": "10.1186/s12933-022-01455-2",
+ "topic": "acute heart failure",
+ "title": "Efficacy and safety of sodium-glucose cotransporter 2 inhibitors initiation in patients with acute heart failure, with and without type 2 diabetes: a systematic review and meta-analysis.",
+ "authors": "Salah HM, Al'Aref SJ, Khan MS, Al-Hawwas M, Vallurupalli S, Mehta JL, Mounsey JP, Greene SJ, McGuire DK, Lopes RD, Fudim M.",
+ "affiliation": "Division of Cardiology, Department of Medicine, University of Arkansas for Medical Sciences, Little Rock, AR, USA.",
+ "journal": "Cardiovascular diabetology",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 60,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Research Support, U.S. Gov't, Non-P.H.S.",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Background There is uncertainty and limited data regarding initiation of sodium-glucose cotransporter 2 (SGLT2) inhibitors among patients hospitalized with acute heart failure (AHF). This systematic review and meta-analysis aim to establish the efficacy and safety of SGLT2 inhibitors initiated in patients hospitalized for AHF. Methods PubMed/Medline, Embase, and Cochrane library were searched using the following terms: (\"sglt2\" and \"acute heart failure\") and (\"sglt2\" and \"worsening heart failure\") from inception till November 15th, 2021 for randomized controlled trials (RCTs) comparing the efficacy and safety of initiating an SGLT2 inhibitor compared with placebo in patients with AHF. Major cardiovascular and diabetes scientific meetings in 2021 were also searched for relevant studies. Prespecified efficacy outcomes were all-cause mortality, rehospitalization for heart failure, and improvement in Kansas City Cardiomyopathy Questionnaire (KCCQ) scale score. Prespecified safety outcomes were acute kidney injury (AKI), hypotension, and hypoglycemia. Random effects odds ratio (OR) and mean difference with 95% confidence intervals (CIs) were calculated. Results Three RCTs with a total of 1831 patients were included. Initiation of SGLT2 inhibitors in patients with AHF reduced the risk of rehospitalization for heart failure (OR 0.52; 95% CI [0.42, 0.65]) and improved Kansas City Cardiomyopathy Questionnaire scores (mean difference 4.12; 95% CI [0.1.89, 6.53]). There was no statistically significant effect for initiation of SGLT2 inhibitors in patients with AHF on all-cause mortality (OR 0.70; 95% CI [0.46, 1.08]). Initiation of SGLT2 inhibitors in patients with AHF did not increase the acute kidney injury (OR 0.76; 95% CI [0.50, 1.16]), hypotension (OR 1.17; 95% CI [0.80, 1.71]), or hypoglycemia (OR 1.51; 95% CI [0.86, 2.65]). Conclusion Initiation of SGLT2 inhibitors in patients hospitalized for AHF during hospitalization or early post-discharge (within 3 days) reduces the risk of rehospitalization for heart failure and improves patient-reported outcomes with no excess risk of adverse effects.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Initiation of SGLT2 inhibitors in patients hospitalized for AHF before discharge or shortly after (within 3 days of discharge) resulted in a reduction in the risk of rehospitalization and improved patient-reported outcomes with no apparent increase in the risk of adverse effects."
+  }
+ ]
+}

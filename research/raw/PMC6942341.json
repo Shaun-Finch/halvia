@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6942341",
+ "pmid": "31911831",
+ "doi": "10.1186/s13756-019-0659-3",
+ "topic": "antimicrobial stewardship",
+ "title": "Implementation and impact of pediatric antimicrobial stewardship programs: a systematic scoping review.",
+ "authors": "Donà D, Barbieri E, Daverio M, Lundin R, Giaquinto C, Zaoutis T, Sharland M.",
+ "affiliation": "1Division of Pediatric Infectious Diseases, Department for Woman and Child Health, University of Padua, Via Giustiniani 3, 35141 Padua, Italy.",
+ "journal": "Antimicrobial resistance and infection control",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 118,
+ "pubtypes": [
+  "Scoping Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Antibiotics are the most common medicines prescribed to children in hospitals and the community, with a high proportion of potentially inappropriate use. Antibiotic misuse increases the risk of toxicity, raises healthcare costs, and selection of resistance. The primary aim of this systematic review is to summarize the current state of evidence of the implementation and outcomes of pediatric antimicrobial stewardship programs (ASPs) globally. Methods MEDLINE, Embase and Cochrane Library databases were systematically searched to identify studies reporting on ASP in children aged 0-18 years and conducted in outpatient or in-hospital settings. Three investigators independently reviewed identified articles for inclusion and extracted relevant data. Results Of the 41,916 studies screened, 113 were eligible for inclusion in this study. Most of the studies originated in the USA (52.2%), while a minority were conducted in Europe (24.7%) or Asia (17.7%). Seventy-four (65.5%) studies used a before-and-after design, and sixteen (14.1%) were randomized trials. The majority (81.4%) described in-hospital ASPs with half of interventions in mixed pediatric wards and ten (8.8%) in emergency departments. Only sixteen (14.1%) studies focused on the costs of ASPs. Almost all the studies (79.6%) showed a significant reduction in inappropriate prescriptions. Compliance after ASP implementation increased. Sixteen of the included studies quantified cost savings related to the intervention with most of the decreases due to lower rates of drug administration. Seven studies showed an increased susceptibility of the bacteria analysed with a decrease in extended spectrum beta-lactamase producers  E. coli  and  K. pneumoniae;  a reduction in the rate of  P. aeruginosa  carbapenem resistance subsequent to an observed reduction in the rate of antimicrobial days of therapy; and, in two studies set in outpatient setting, an increase in erythromycin-sensitive  S. pyogenes  following a reduction in the use of macrolides. Conclusions Pediatric ASPs have a significant impact on the reduction of targeted and empiric antibiotic use, healthcare costs, and antimicrobial resistance in both inpatient and outpatient settings. Pediatric ASPs are now widely implemented in the USA, but considerable further adaptation is required to facilitate their uptake in Europe, Asia, Latin America and Africa.",
+ "sections": [
+  {
+   "h": "Future research – conclusion",
+   "text": "Pediatric ASPs have a significant impact on antimicrobial use, healthcare costs, and antimicrobial resistance in both inpatient and outpatient settings. Because of this significant impact, pediatric ASPs are spreading rapidly in the USA. Their implementation in Europe is still limited, possibly due to the fact that guidelines published so far (IDSA/SHEA) are designed for the USA healthcare system and easily adopted in this setting, while the diversity of healthcare systems throughout Europe and Asia implies a wide range of approaches to the same problem. Secondly, across Europe we found a high variability of funding opportunities and availability of specialists with advance training in pediatrics, resources more consistently and easily accessible in the USA.\n\nFurther efforts in developing pediatric ASPs are urgently needed, particularly in order to improve the collection of surveillance data regarding antimicrobials use and antimicrobial resistance in pediatric populations. More coordination, harmonization, and sharing of information will lead to a more precise effects on healthcare systems, and, as a result, on patient health as well. This is especially important for pediatric patients, as lack of data represents a greater challenge for pediatricians in their daily practice compared with physicians treating adult patients."
+  }
+ ]
+}

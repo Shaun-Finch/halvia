@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC6947262",
+ "pmid": "31847205",
+ "doi": "10.3390/jcm8122202",
+ "topic": "refeeding and nutrition",
+ "title": "Management of Refeeding Syndrome in Medical Inpatients.",
+ "authors": "Reber E, Friedli N, Vasiloglou MF, Schuetz P, Stanga Z.",
+ "affiliation": "Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism, Inselspital, Bern University Hospital, and University of Bern, 3010 Bern, Switzerland.",
+ "journal": "Journal of clinical medicine",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 57,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Refeeding syndrome (RFS) is the metabolic response to the switch from starvation to a fed state in the initial phase of nutritional therapy in patients who are severely malnourished or metabolically stressed due to severe illness. It is characterized by increased serum glucose, electrolyte disturbances (particularly hypophosphatemia, hypokalemia, and hypomagnesemia), vitamin depletion (especially vitamin B1 thiamine), fluid imbalance, and salt retention, with resulting impaired organ function and cardiac arrhythmias. The awareness of the medical and nursing staff is often too low in clinical practice, leading to under-diagnosis of this complication, which often has an unspecific clinical presentation. This review provides important insights into the RFS, practical recommendations for the management of RFS in the medical inpatient population (excluding eating disorders) based on consensus opinion and on current evidence from clinical studies, including risk stratification, prevention, diagnosis, and management and monitoring of nutritional and fluid therapy.",
+ "sections": [
+  {
+   "h": "5. Diagnostic Procedure",
+   "text": "Even though RFS was identified more than 75 years ago, no common definition exists. Therefore, the diagnosis is often delayed or can even be overlooked. Electrolyte imbalance, mainly hypophosphatemia, was used to define RFS in several studies ["
+  },
+  {
+   "h": "6. Clinical Management",
+   "text": "Each malnourished, catabolic patient should receive the best nutritional support according to the highest quality standards in a timely fashion. A recent randomized controlled trial demonstrated the efficacy of adequate nutritional management [\n\nDiverse trials evaluated preventive approaches for RFS, such as substitution of electrolytes, thiamine administration, and hypocaloric feeding. Most studies used for the proposed nutritional management were observational and not interventional, pointing to the overall low level of evidence (see\n\nBased on a previously published systematic review, international experts in the field of starvation metabolism and refeeding published a consensus paper ["
+  },
+  {
+   "h": "8. Important Clinical Sequelae of Refeeding Syndrome and Management of Complications",
+   "text": "RFS may increase rates of morbidity and mortality in severely catabolic patients (\n\nThe first step in the management of RFS-related pathological conditions is to anticipate with preventive measures and closely monitor the at-risk patients. The overall objectives in the treatment of RFS complications are to stabilize the patient’s general clinical state, to reverse the medical complications, as well as to restore nutritional needs and weight. The sooner the RFS complications are treated, the lower the risk of damage to patient’s vital organs. The patients with RFS are often dehydrated and require correction of existing hydration deficits and replacement of abnormal fluid losses. Furthermore, electrolytes and vitamins have to be supplemented adequately, as well as any deficiency corrected. The nutritional rehabilitation should be started slowly and adapted to each individual patient. The introduction of carbohydrates in the replenishment phase leads to a quick decrease in renal excretion of sodium and water ["
+  },
+  {
+   "h": "10. Conclusions",
+   "text": "Nutritional therapies have shown to be efficacious and efficient, despite the overall low level of evidence. It however hides the risk of RFS in catabolic malnourished patients. RFS is a highly challenging metabolic situation, leading to potentially life-threatening complications with fluid and electrolyte disturbances. RFS should therefore be timely and adequately treated. As nutritional risk is associated with the risk of RFS, awareness of both conditions must be increased among the medical staff in daily clinical practice."
+  }
+ ]
+}

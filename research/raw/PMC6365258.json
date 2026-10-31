@@ -1,0 +1,20 @@
+{
+ "pmcid": "PMC6365258",
+ "pmid": "30585835",
+ "doi": "10.1097/mbc.0000000000000789",
+ "topic": "major haemorrhage",
+ "title": "What concentration of tranexamic acid is needed to inhibit fibrinolysis? A systematic review of pharmacodynamics studies.",
+ "authors": "Picetti R, Shakur-Still H, Medcalf RL, Standing JF, Roberts I.",
+ "affiliation": "Clinical Trials Unit, London School of Hygiene and Tropical Medicine, London, UK.",
+ "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 141,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": ": Intravenous tranexamic acid (TXA) reduces death because of bleeding in patients with trauma and postpartum haemorrhage. However, in some settings intravenous injection is not feasible. To find different routes of administration, we first need to determine the minimal concentration of TXA in the blood that is required to inhibit fibrinolysis.We conducted a systematic review of in-vitro and in-vivo pharmacodynamics studies. We searched MEDLINE, EMBASE, OviSP, and ISI Web of Science from database inception to November 2017 for all in-vitro (including simulated clotting models) or in-vivo studies reporting the relationship between the TXA concentration in blood or plasma and any reliable measure of fibrinolysis.We found 21 studies of which 20 were in vitro and one was in vivo. Most in-vitro studies stimulated fibrinolysis with tissue plasminogen activator and measured fibrinolysis using viscoelastic, optical density, or immunological assays. TXA concentrations between 10 and 15 mg/l resulted in substantial inhibition of fibrinolysis, although concentrations between 5 and 10 mg/l were partly inhibitory.TXA concentrations of 10-15 mg/l may be suitable targets for pharmacokinetic studies, although TXA concentrations above 5 mg/l may also be effective.",
+ "sections": []
+}

@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC7256029",
+ "pmid": "32236681",
+ "doi": "10.1007/s00540-020-02767-x",
+ "topic": "acute pain",
+ "title": "A practical guide to acute pain management in children.",
+ "authors": "Gai N, Naser B, Hanley J, Peliowski A, Hayes J, Aoyama K.",
+ "affiliation": "Department of Anesthesia and Pain Medicine, The Hospital for Sick Children, 555 University Ave, #2211, Toronto, ON, M5G 1X8, Canada.",
+ "journal": "Journal of anesthesia",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 67,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "In the pediatric population, pain is frequently under-recognized and inadequately treated. Improved education and training of health care providers can positively impact the management of pain in children. The purpose of this review is to provide a practical clinical approach to the management of acute pain in the pediatric inpatient population. This will include an overview of commonly used pain management modalities and their potential pitfalls. For institutions that have a pediatric acute pain service or are considering initiating one, it is our hope to provide a useful tool to aid clinicians in the safe and effective treatment of pain in children.",
+ "sections": [
+  {
+   "h": "Pain assessment tools",
+   "text": "Many methods of pain assessment exist, and ideally should combine patient and family history, assessments by the bedside nurse, physiologic parameters, and pain assessment tools. Assessment of pain includes both the measurement of pain severity, with a developmentally appropriate, validated tool, as well as a thorough pain history (exploring the pain quality, characteristics, location, onset, duration, aggravating and alleviating factors, and impact on function). The scales commonly used at our institution include the Numerical Rating Scale (NRS) [\n\nNumerous pain assessment tools exist for the pediatric population. Currently, there is no evidence to recommend any one single tool as superior. One study has found that the r-FLACC [\n\nPain assessment tools should not be the only method of quantifying pain. The pain score should be contextualized with assessment of patient satisfaction, family feedback, feedback from the patient’s nurse, and physiological parameters. This is especially true if pain scores flag a patient’s pain as moderate to severe. The patient should also be asked if the level of pain they are experiencing is tolerable to them, as some patients will report a pain score of 8/10 as being acceptable, while others will find it extremely difficult to cope with a pain score of 4/10. The pain assessment, therefore, should always be tailored to the individual patient and their own experience.\n\nIdeally, patients at high risk for severe pain should have a pain assessment done by their nurse every 2–4 h. At minimum, every child admitted to hospital should have a pain assessment done every shift.\n\nIn our institution, patients followed by the APS team are seen, at minimum, once daily by the APS. For patients whose analgesia regimen has been modified during the morning visit, a second visit will take place in the afternoon to assess for effects of the modifications. The APS will also reassess patients on request by the bedside nurse or admitting team."
+  },
+  {
+   "h": "Non-pharmacologic treatment options",
+   "text": "The multimodal approach to pain management also includes non-pharmacologic options. These include both physical and psychological strategies [\n\nWhen caring for patients with pain, it is also important to consider psychosocial factors that will impact how a patient experiences pain. It has been established that anxiety, catastrophizing, and depression can affect how a patient experiences pain and can aggravate or prolong acute pain ["
+  },
+  {
+   "h": "Epidural assessments",
+   "text": "All patients with an epidural infusion will have a daily assessment by the APS. The ideal epidural analgesia will provide satisfactory pain relief while minimizing side effects. Common issues seen with well-working epidural infusions include a dense motor block for lumbar epidurals, and can be distressing to older children. Daily epidural assessments should include not only an assessment for adequate pain control, but also screen for potential adverse effects, including assessments of the epidural insertion site and gross neurologic function. Some commonly observed issues encountered in epidural management are summarized in Table"
+  },
+  {
+   "h": "Conclusion",
+   "text": "For a variety of reasons, pediatric pain is still under-treated in modern medicine. One identified problem has been limited experience and training in acute pain management for physicians treating children. It is our hope that by describing typical practices used in our institution, we can share our knowledge and experience with other professionals endeavoring to safely minimize painful experiences for children."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC11350289",
+ "pmid": "39082698",
+ "doi": "10.1093/europace/euae206",
+ "topic": "syncope",
+ "title": "Cardioneuroablation for the treatment of reflex syncope and functional bradyarrhythmias: A Scientific Statement of the European Heart Rhythm Association (EHRA) of the ESC, the Heart Rhythm Society (HRS), the Asia Pacific Heart Rhythm Society (APHRS) and the Latin American Heart Rhythm Society (LAHRS).",
+ "authors": "Aksu T, Brignole M, Calo L, Debruyne P, Di Biase L, Deharo JC, Fanciulli A, Fedorowski A, Kulakowski P, Morillo C, Moya A, Piotrowski R, Stec S, Sutton R, van Dijk JG, Wichterle D, Tse HF, Yao Y, Sheldon RS, Vaseghi M, Pachon JC, Scanavacca M, Meyer C, Amin R, Gupta D, Magnano M, Malik V, Schauerte P, Shen WK, Acosta JCZ.",
+ "affiliation": "Department of Cardiology, Yeditepe University Hospital, İçerenköy Mah. Hastahane Sok. 4,4/1 34752 Ataşehir/İstanbul, Turkey.",
+ "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 76,
+ "pubtypes": [
+  "research-article",
+  "Practice Guideline",
+  "Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Cardioneuroablation has emerged as a potential alternative to cardiac pacing in selected cases with vasovagal reflex syncope, extrinsic vagally induced sinus bradycardia-arrest or atrioventricular block. The technique was first introduced decades ago, and its use has risen over the past decade. However, as with any intervention, proper patient selection and technique are a prerequisite for a safe and effective use of cardioneuroablation therapy. This document aims to review and interpret available scientific evidence and provide a summary position on the topic.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "This interesting therapeutic modality will require more systematic and organized investigation, including randomized studies, registry-based follow-up and standardized procedural approach(es) to assess best practices and clinical outcomes."
+  }
+ ]
+}

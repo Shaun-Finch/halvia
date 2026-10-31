@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC8012317",
+ "pmid": "33550443",
+ "doi": "10.1007/s00125-020-05366-3",
+ "topic": "hypoglycaemia",
+ "title": "The consequences of hypoglycaemia.",
+ "authors": "Amiel SA.",
+ "affiliation": "Department of Diabetes, School of Life Course Sciences, Faculty of Life Sciences and Medicine, King's College London, London, UK. Stephanie.amiel@kcl.ac.uk.",
+ "journal": "Diabetologia",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 162,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Hypoglycaemia (blood glucose concentration below the normal range) has been recognised as a complication of insulin treatment from the very first days of the discovery of insulin, and remains a major concern for people with diabetes, their families and healthcare professionals today. Acute hypoglycaemia stimulates a stress response that acts to restore circulating glucose, but plasma glucose concentrations can still fall too low to sustain normal brain function and cardiac rhythm. There are long-term consequences of recurrent hypoglycaemia, which are still not fully understood. This paper reviews our current understanding of the acute and cumulative consequences of hypoglycaemia in insulin-treated diabetes.",
+ "sections": [
+  {
+   "h": "Definitions of hypoglycaemia",
+   "text": "Hypoglycaemia is defined as a concentration of glucose in the blood that is lower than normal, traditionally defined biochemically as a plasma glucose of <3.5 mmol/l. A precise biochemical definition is complex, however. Blood glucose concentration is a continuum and the value that is associated with harm depends on the harm that is being described. Homeostatic responses begin as soon as plasma glucose starts to fall, with cessation of endogenous insulin secretion and stimulation of pancreatic glucagon noted at plasma glucose values of around 4 mmol/l. Evidence for material harm, such as impaired cognition, cardiac arrythmia, defective responses to subsequent low glucose values and associations with mortality rate has accrued for a plasma glucose value of less than 3 mmol/l [\n\nFor people with diabetes, hypoglycaemia may be better defined by the clinical picture and by the degree of distress and disruption an episode may cause, ranging from having to ingest carbohydrate when not wishing for it, to unpleasant but protective symptoms of an acute stress response, to confusion and coma. The American Diabetes Association categorises hypoglycaemic episodes into: severe (requiring third party intervention because of cognitive impairment too great to support self-treatment); documented symptomatic (also now referred to as non-severe and described as symptomatic episodes confirmed by a low blood glucose measurement and by definition, self-treated); asymptomatic (detected by testing only); probable symptomatic (symptoms of hypoglycaemia but not confirmed by a measurement); and pseudohypoglycaemia (symptoms of hypoglycaemia accompanied by a non-hypoglycaemic blood glucose concentration) ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "Hypoglycaemia has been a complication of diabetes treatments since the discovery of insulin, and remains a major concern for people with diabetes, their families and friends, and healthcare professionals and providers. Experiencing hypoglycaemia has consequences, as summarised in Fig."
+  }
+ ]
+}

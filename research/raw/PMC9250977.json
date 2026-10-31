@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC9250977",
+ "pmid": "35795686",
+ "doi": "10.3389/fimmu.2022.865973",
+ "topic": "asthma exacerbation",
+ "title": "Innate Immune Responses by Respiratory Viruses, Including Rhinovirus, During Asthma Exacerbation.",
+ "authors": "Nakagome K, Nagata M.",
+ "affiliation": "Department of Respiratory Medicine, Saitama Medical University, Saitama, Japan.",
+ "journal": "Frontiers in immunology",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 41,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Viral infection, especially with rhinovirus (RV), is a major cause of asthma exacerbation. The production of anti-viral cytokines such as interferon (IFN)-β and IFN-α from epithelial cells or dendritic cells is lower in patients with asthma or those with high IgE, which can contribute to viral-induced exacerbated disease in these patients. As for virus-related factors, RV species C (RV-C) induces more exacerbated disease than other RVs, including RV-B. Neutrophils activated by viral infection can induce eosinophilic airway inflammation through different mechanisms. Furthermore, virus-induced or virus-related proteins can directly activate eosinophils. For example, CXCL10, which is upregulated during viral infection, activates eosinophils  in vitro . The role of innate immune responses, especially type-2 innate lymphoid cells (ILC2) and epithelial cell-related cytokines including IL-33, IL-25, and thymic stromal lymphopoietin (TSLP), in the development of viral-induced airway inflammation has recently been established. For example, RV infection induces the expression of IL-33 or IL-25, or increases the ratio of ILC2 in the asthmatic airway, which is correlated with the severity of exacerbation. A mouse model has further demonstrated that virus-induced mucous metaplasia and ILC2 expansion are suppressed by antagonizing or deleting IL-33, IL-25, or TSLP. For treatment, IFNs including IFN-β suppress not only viral replication but also ILC2 activation  in vitro . Agonists of toll-like receptor (TLR) 3 or 7 can induce IFNs, which can then suppress viral replication and ILC2 activation. Therefore, if delivered in the airway, IFNs or TLR agonists could become innovative treatments for virus-induced asthma exacerbation.",
+ "sections": [
+  {
+   "h": "Possible Treatment Strategies for Suppressing Viral Infection and ILC2 Activation",
+   "text": "Type I IFNs including IFN-α and IFN-β, type II IFNs including IFN-γ, and type III IFNs including IFN-λ have anti-viral capacity in vitro (in vitro (in vitro, which could be a novel strategy for treating viral-induced asthma exacerbation.\n\nLow-dose IFN-α treatment improves lung function and allows for decreased corticosteroid dose in severe asthma (\n\nAs systemic administration of IFN-α, IFN-β, or IFN-γ increases the risk of developing auto-immune diseases such as systemic lupus erythematosus (\n\nAnother novel approach to suppress viral infection and ILC2 expansion is TLR agonists. For example, TLR7 agonists induce IFNs (in vitro. TLR7 activation increases IFN-λ receptor mRNA expression in PBMCs (\n\nAnti-TSLP Ab treatment reduces asthma exacerbation in severe asthmatics ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "ILC2 plays important roles in the development of type 2-mediated airway inflammation in viral-induced asthma exacerbation. IFNs including IFN-β or TLR agonists can suppress not only viral replication but also ILC2 activation, which could become an innovative strategy for the treatment of virus-induced asthma exacerbation."
+  }
+ ]
+}

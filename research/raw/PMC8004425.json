@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC8004425",
+ "pmid": "33771150",
+ "doi": "10.1186/s12889-021-10497-2",
+ "topic": "opioid overdose",
+ "title": "Take-home naloxone programs for suspected opioid overdose in community settings: a scoping umbrella review.",
+ "authors": "Moustaqim-Barrette A, Dhillon D, Ng J, Sundvick K, Ali F, Elton-Marshall T, Leece P, Rittenbach K, Ferguson M, Buxton JA.",
+ "affiliation": "BC Centre for Disease Control, Vancouver, BC, Canada.",
+ "journal": "BMC public health",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 50,
+ "pubtypes": [
+  "Scoping Review",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Opioid related overdoses and overdose deaths continue to constitute an urgent public health crisis. The implementation of naloxone programs, such as 'take-home naloxone' (THN), has emerged as a key intervention in reducing opioid overdose deaths. These programs aim to train individuals at risk of witnessing or experiencing an opioid overdose to recognize an opioid overdose and respond with naloxone. Naloxone effectively reverses opioid overdoses on a physiological level; however, there are outstanding questions on community THN program effectiveness (adverse events, dosing requirements, dose-response between routes of administration) and implementation (accessibility, availability, and affordability). The objective of this scoping review is to identify existing systematic reviews and best practice guidelines relevant to clinical and operational guidance on the distribution of THN. Methods Using the Arksey & O'Malley framework for scoping reviews, we searched both academic literature and grey literature databases using keywords (Naloxone) AND (Overdose) AND (Guideline OR Review OR Recommendation OR Toolkit). Only documents which had a structured review of evidence and/or provided summaries or recommendations based on evidence were included (systematic reviews, meta-analyses, scoping reviews, short-cut or rapid reviews, practice/clinical guidelines, and reports). Data were extracted from selected evidence in two key areas: (1) study identifiers; and (2) methodological characteristics. Results A total of 47 articles met inclusion criteria: 20 systematic reviews; 10 grey literature articles; 8 short-cut or rapid reviews; 4 scoping reviews; and 5 other review types (e.g. mapping review and comprehensive reviews). The most common subject themes were: naloxone effectiveness, safety, provision feasibility/acceptability of naloxone distribution, dosing and routes of administration, overdose response after naloxone administration, cost-effectiveness, naloxone training and education, and recommendations for policy, practice and gaps in knowledge. Conclusions Several recent systematic reviews address the effectiveness of take-home naloxone programs, naloxone dosing/route of administration, and naloxone provision models. Gaps remain in the evidence around evaluating cost-effectiveness, training parameters and strategies, and adverse events following naloxone administration. As THN programs continue to expand in response to opioid overdose deaths, this review will contribute to understanding the evidence base for policy and THN program development and expansion.",
+ "sections": [
+  {
+   "h": "Naloxone and THN program effectiveness in treatment of opioid overdose",
+   "text": "Ten systematic reviews examined the effectiveness of naloxone or THN programs for the treatment of opioid overdose [\n\nA systematic review by McDonald and Strang [\n\nOne article used meta-analyses to generate an estimate of the effectiveness of bystander naloxone administration and overdose education programs on overdose recovery across nine primary articles ["
+  },
+  {
+   "h": "Recommendations for policy and practice and gaps in knowledge",
+   "text": "Four practice guidelines were identified which used evidence syntheses to create recommendations for the use and/or distribution of naloxone. First, the World Health Organisation (WHO) published guidelines for community management of opioid overdose in 2014 [\n\nIn 2015, a Working Group on Best Practice for Harm Reduction Programs in Canada created recommendations for the use of naloxone in the event of an opioid overdose ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "There are several limitations associated with this study. Most of the evidence identified in the systematic reviews relied on observational data. Logistical and ethical issues related to conducting experimental trials in patients at risk of dying from opioid overdoses will likely continue to preclude the establishment of opioid-overdose interventions based on Randomized Controlled Trials (RCT) data. While we attempted to control for quality by limiting our search to studies or documents which used systematic methods to search the literature for evidence related to naloxone, this study did not attempt to provide a synthesis of findings or a quality appraisal of the included literature. Further, our group is based in Canada, and many of the grey literature products identified through targeted websites and expert contacts may be biased towards this region. Scholarly literature searches were also limited to documents in English or French, which may also limit the scope of this study as language of publication limits the geographical range of studies reviewed. Further assessment of included syntheses should be made before they are relied upon for developing recommendations or program amendments."
+  }
+ ]
+}

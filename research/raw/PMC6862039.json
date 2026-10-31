@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6862039",
+ "pmid": "31671729",
+ "doi": "10.3390/ijms20215376",
+ "topic": "sepsis",
+ "title": "The Pathogenesis of Sepsis and Potential Therapeutic Targets.",
+ "authors": "Huang M, Cai S, Su J.",
+ "affiliation": "Biomedical Research Center of South China, College of Life Science, Fujian Normal University, Fuzhou 350117, China. lll.suspendded@gmail.com.",
+ "journal": "International journal of molecular sciences",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 581,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Sepsis is defined as \"a life-threatening organ dysfunction caused by a host's dysfunctional response to infection\". Although the treatment of sepsis has developed rapidly in the past few years, sepsis incidence and mortality in clinical treatment is still climbing. Moreover, because of the diverse manifestations of sepsis, clinicians continue to face severe challenges in the diagnosis, treatment, and management of patients with sepsis. Here, we review the recent development in our understanding regarding the cellular pathogenesis and the target of clinical diagnosis of sepsis, with the goal of enhancing the current understanding of sepsis. The present state of research on targeted therapeutic drugs is also elaborated upon to provide information for the treatment of sepsis.",
+ "sections": [
+  {
+   "h": "1. Definition",
+   "text": "Sepsis is defined as a syndrome involving physiological, pathological, and biochemical abnormalities caused by infection. In the fourth century B.C., Hippocrates first proposed the term “σήψις” (sepsis), with sepsis being regarded as a process of decay or decomposition of organic matter [th Society of Critical Care Medicine [\n\nAccording to this new definition, the importance of the infection-induced unsteady host response was emphasized, which extends beyond the possibility of death directly from the infection itself and emphasizes the requirement for timely diagnosis. Concurrently, the description of sepsis 3.0 means that the concept of “severe sepsis” no longer exists, and the definition of septic shock has been updated to include the severe circulatory disorders and cellular metabolic disorders caused by sepsis, as well as the markedly higher risk of death than that from sepsis alone [\n\nHowever, according to the latest definition of sepsis, the accuracy of clinically implemented diagnostic criteria including Sequential Organ Failure Assessment (SOFA), Systemic Inflammatory Response Syndrome (SIRS), Logistic Organ Dysfunction Score, and quick Sequential Organ Failure Assessment (qSOFA) are ambiguous. Therefore, a measurement has been developed by Dr. Seymour of the Department of Critical Care Medicine, University of Pittsburgh School of Medicine, based upon the multicenter clinical data collection, suggesting that the predictive validity of qSOFA for inpatient mortality was higher than that of SOFA and SIRS among patients suspected of infection ["
+  }
+ ]
+}

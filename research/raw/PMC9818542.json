@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC9818542",
+ "pmid": "36611351",
+ "doi": "10.3390/diagnostics13010060",
+ "topic": "hypertension emergency",
+ "title": "Prevalence of Myocardial Injury and Myocardial Infarction in Patients with a Hypertensive Emergency: A Systematic Review.",
+ "authors": "Talle MA, Ngarande E, Doubell AF, Herbst PG.",
+ "affiliation": "Division of Cardiology, Department of Medicine, Faculty of Medicine and Health Sciences, Stellenbosch University and Tygerberg Academic Hospital, Cape Town 7505, South Africa.",
+ "journal": "Diagnostics (Basel, Switzerland)",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 10,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Myocardial injury and myocardial infarction can complicate a hypertensive emergency, and both are associated with poor prognosis. However, little is known about the prevalence of myocardial injury and the different subtypes of myocardial infarction in patients with hypertensive emergencies. This systematic review aims to determine the prevalence of myocardial infarction and its subtypes, and the prevalence of myocardial injury in patients with hypertensive emergencies following the PRISMA guideline. A systematic search of PubMed, Web of Science, and EBSCOHost (MEDLINE) databases was carried out from inception to identify relevant articles. A total of 18 studies involving 7545 patients with a hypertensive emergency were included. Fifteen (83.3%) studies reported on the prevalence of myocardial infarction ranging from 3.6% to 59.6%, but only two studies specifically indicated the prevalence of ST-elevation and non-ST-elevation myocardial infarction. The prevalence of myocardial injury was obtained in three studies (16.7%) and ranged from 15% to 63%. Despite being common, very few studies reported myocardial injury and the subtypes of myocardial infarction among patients presenting with a hypertensive emergency, highlighting the need for more research in this area which will provide pertinent data to guide patient management and identify those at increased risk of major adverse cardiovascular events.",
+ "sections": [
+  {
+   "h": "5. Conclusions",
+   "text": "The limitations mentioned above notwithstanding, our study has some strengths. This, to the best of our knowledge, is the first systematic review looking at the prevalence of myocardial injury and subtypes of MI in patients with hypertensive emergencies. Our findings of a varying, but overall high, prevalence of both MI and myocardial injury, albeit reported in only a relatively small number of the studies, underscores the need for more research to determine the actual prevalence of MI and its subtypes, and the prevalence of myocardial injury in patients with a hypertensive emergency. A cardiac troponin assay should be routinely carried out in all patients with hypertensive emergencies regardless of the presence of features of myocardial ischemia. Given its prognostic implications, acute myocardial injury (and other forms of subclinical target organ injury) should be classified as subclinical acute hypertension-mediated organ damage. These measures will improve the management strategies, including risk stratification, and recognition of individuals at increased risk of future cardiovascular, cerebrovascular, and renal events."
+  }
+ ]
+}

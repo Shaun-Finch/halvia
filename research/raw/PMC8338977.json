@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC8338977",
+ "pmid": "34349191",
+ "doi": "10.1038/s41598-021-95249-3",
+ "topic": "pulmonary embolism",
+ "title": "Deep learning for pulmonary embolism detection on computed tomography pulmonary angiogram: a systematic review and meta-analysis.",
+ "authors": "Soffer S, Klang E, Shimon O, Barash Y, Cahan N, Greenspana H, Konen E.",
+ "affiliation": "Internal Medicine B, Assuta Medical Center, Samson Assuta Ashdod University Hospital, Ashdod, Israel. soffer.shelly@gmail.com.",
+ "journal": "Scientific reports",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 100,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Computed tomographic pulmonary angiography (CTPA) is the gold standard for pulmonary embolism (PE) diagnosis. However, this diagnosis is susceptible to misdiagnosis. In this study, we aimed to perform a systematic review of current literature applying deep learning for the diagnosis of PE on CTPA. MEDLINE/PUBMED were searched for studies that reported on the accuracy of deep learning algorithms for PE on CTPA. The risk of bias was evaluated using the QUADAS-2 tool. Pooled sensitivity and specificity were calculated. Summary receiver operating characteristic curves were plotted. Seven studies met our inclusion criteria. A total of 36,847 CTPA studies were analyzed. All studies were retrospective. Five studies provided enough data to calculate summary estimates. The pooled sensitivity and specificity for PE detection were 0.88 (95% CI 0.803-0.927) and 0.86 (95% CI 0.756-0.924), respectively. Most studies had a high risk of bias. Our study suggests that deep learning models can detect PE on CTPA with satisfactory sensitivity and an acceptable number of false positive cases. Yet, these are only preliminary retrospective works, indicating the need for future research to determine the clinical impact of automated PE detection on patient care. Deep learning models are gradually being implemented in hospital systems, and it is important to understand the strengths and limitations of these algorithms.",
+ "sections": [
+  {
+   "h": "Quality assessment and risk of bias",
+   "text": "Quality was assessed by the adapted version of the Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2) criteria. The studies were also evaluated using the modified Joanna Briggs Institute (JBI) Critical Appraisal checklist for analytical cross-sectional studies."
+  },
+  {
+   "h": "Descriptive summary of results",
+   "text": "Tajbakhsh et al. were the first to apply a CNN solution to detect PE. Using 121 CTPA with 326 individual emboli, they achieved a sensitivity of 83% for detecting individual emboli at two false positives per scan. They have shown that a CNN-based solution outperforms classic machine learning techniques.\n\nHuang et al. utilized a 3D CNN model to detect PE. They used the entire volumetric CTPA imaging data of 1971 patients and achieved an AUROC of 0.85. Subsequently, they improved their model by integrating imaging data and clinical data from the electronic health record. The multimodality model showed an AUROC of 0.95, outperforming single modality models.\n\nLiu et al. deployed CNN to detect and calculate the clot burden of PE on CTPA. Using 878 CTPA with 646 PE, they have shown a sensitivity of 94.6% and a specificity of 76.5%. Additionally, they displayed that the automatic measurement of clot burden was highly correlated with traditional burden scores (Qanadli and Mastora scores).\n\nWeikert et al. developed a CNN algorithm with a relatively large training dataset consisting of 28,000 CTPAs. They achieved a sensitivity of 92.7% and a specificity of 95.5%. The authors have also performed a sub-analysis which revealed that exams containing central emboli had the highest detection rates with 95.7%, followed by segmental emboli with 93.3%. Sub-segmentally located emboli had the lowest detection rate with 85.7%."
+  },
+  {
+   "h": "Quality assessment",
+   "text": "According to the QUADAS-2 tool, five papers scored as high risk of bias in at least one category. Patient selection bias was evident in more than half of the papers, as most studies failed to describe their study population. Most papers also failed in data management as ethical approval was not specified. The objective assessment of the risk of bias is reported in Supplementary Table"
+  }
+ ]
+}

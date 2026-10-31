@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7253768",
+ "pmid": "32408911",
+ "doi": "10.1017/ice.2020.237",
+ "topic": "infection prevention",
+ "title": "Current knowledge of COVID-19 and infection prevention and control strategies in healthcare settings: A global analysis.",
+ "authors": "Islam MS, Rahman KM, Sun Y, Qureshi MO, Abdi I, Chughtai AA, Seale H.",
+ "affiliation": "School of Public Health and Community Medicine, University of New South Wales, Sydney, Australia.",
+ "journal": "Infection control and hospital epidemiology",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 113,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Objective In the current absence of a vaccine for COVID-19, public health responses aim to break the chain of infection by focusing on the mode of transmission. We reviewed the current evidence on the transmission dynamics and on pathogenic and clinical features of COVID-19 to critically identify any gaps in the current infection prevention and control (IPC) guidelines. Methods In this study, we reviewed global COVID-19 IPC guidelines by organizations such as the World Health Organization (WHO), the US Centers for Disease Control and Prevention (CDC), and the European Centre for Disease Prevention and Control (ECDC). Guidelines from 2 high-income countries (Australia and United Kingdom) and from 1 middle-income country (China) were also reviewed. We searched publications in English on 'PubMed' and Google Scholar. We extracted information related to COVID-19 transmission dynamics, clinical presentations, and exposures that may facilitate transmission. We then compared these findings with the recommended IPC measures. Results Nosocomial transmission of SARS-CoV-2 in healthcare settings occurs through droplets, aerosols, and the oral-fecal or fecal-droplet route. However, the IPC guidelines fail to cover all transmission modes, and the recommendations also conflict with each other. Most guidelines recommend surgical masks for healthcare providers during routine care and N95 respirators for aerosol-generating procedures. However, recommendations regarding the type of face mask varied, and the CDC recommends cloth masks when surgical masks are unavailable. Conclusion IPC strategies should consider all the possible routes of transmission and should target all patient care activities involving risk of person-to-person transmission. This review may assist international health agencies in updating their guidelines.",
+ "sections": [
+  {
+   "h": "Data management and analysis",
+   "text": "We extracted information related to COVID-19 transmission dynamics, clinical presentations, and exposures that may facilitate the transmission while reviewing the literature. For guidelines, we extracted title, country or organization, department, target audience, and the different control measures recommended to control COVID-19. The lead author extracted the information from the guidelines, and all coauthors reviewed and validated it. We performed a content analysis of all data and summarized it under certain themes, and we then compared and contrasted our findings as they related to COVID-19 IPC measures."
+  },
+  {
+   "h": "Corpse handling and management",
+   "text": "All of the guidelines recommend standard precautions while handling dead bodies. Only the Australian, Chinese, and UK guidelines recommend the use of body bags. The Chinese guideline recommends putting cotton balls or gauze in the mouth, nose, ears, and anus, as well as any tracheotomy or open wound of the deceased body. All of the guidelines also state that a burial ritual may be allowed with standard precautions. A dedicated vehicle is recommended for postmortem transport."
+  }
+ ]
+}

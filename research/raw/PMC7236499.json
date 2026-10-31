@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC7236499",
+ "pmid": "32430052",
+ "doi": "10.1186/s13054-020-02950-2",
+ "topic": "sepsis",
+ "title": "Mortality in sepsis and septic shock in Europe, North America and Australia between 2009 and 2019- results from a systematic review and meta-analysis.",
+ "authors": "Bauer M, Gerlach H, Vogelmann T, Preissing F, Stiefel J, Adam D.",
+ "affiliation": "Universitätsklinikum Jena, Klinik für Anästhesiologie und Intensivmedizin, Am Klinikum 1, 07747, Jena, Germany. Michael.Bauer@med.uni-jena.de.",
+ "journal": "Critical care (London, England)",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 628,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Sepsis and septic shock remain drivers for mortality in critically ill patients. The heterogeneity of the syndrome hinders the generation of reproducible numbers on mortality risks. Consequently, mortality rates range from 15 to 56%. We aimed to update and extend the existing knowledge from meta-analyses and estimate 30- and 90-day mortality rates for sepsis and septic shock separately, stratify rates by region and study type and assess mortality rates across different sequential organ failure assessment (SOFA) scores. Methods We performed a systematic review of articles published in PubMed or in the Cochrane Database, between 2009 and 2019 in English language including interventional and observational studies. A meta-analysis of pooled 28/30- and 90-day mortality rated separately for sepsis and septic shock was done using a random-effects model. Time trends were assessed via Joinpoint methodology and for the assessment of mortality rate over different SOFA scores, and linear regression was applied. Results Four thousand five hundred records were identified. After title/abstract screening, 783 articles were assessed in full text for eligibility. Of those, 170 studies were included. Average 30-day septic shock mortality was 34.7% (95% CI 32.6-36.9%), and 90-day septic shock mortality was 38.5% (95% CI 35.4-41.5%). Average 30-day sepsis mortality was 24.4% (95% CI 21.5-27.2%), and 90-day sepsis mortality was 32.2% (95% CI 27.0-37.5%). Estimated mortality rates from RCTs were below prospective and retrospective cohort studies. Rates varied between regions, with 30-day septic shock mortality being 33.7% (95% CI 31.5-35.9) in North America, 32.5% (95% CI 31.7-33.3) in Europe and 26.4% (95% CI 18.1-34.6) in Australia. A statistically significant decrease of 30-day septic shock mortality rate was found between 2009 and 2011, but not after 2011. Per 1-point increase of the average SOFA score, average mortality increased by 1.8-3.3%. Conclusion Trends of lower sepsis and continuous septic shock mortality rates over time and regional disparities indicate a remaining unmet need for improving sepsis management. Further research is needed to investigate how trends in the burden of disease influence mortality rates in sepsis and septic shock at 30- and 90-day mortality over time.",
+ "sections": [
+  {
+   "h": "Risk of bias assessment",
+   "text": "The results of risk of bias assessment of the studies for RCTs, assessed with RoB2 and observational studies, assessed with ROBINS-I for each outcome are presented in the supplementary material (Additional file"
+  },
+  {
+   "h": "Conclusion",
+   "text": "Despite some evidence of a trend towards lower mortality rates in sepsis patients over the past decade, a continuous reduction in mortality was not observed among sepsis or septic shock patients. This trend, and the regional disparities, may indicate an ongoing unmet need for improving sepsis management. The analysis of pure mortality rates should be accompanied by consideration of the burden of disease over time. As expected, the average mortality rates are higher in study populations with higher baseline SOFA scores, and an increasing burden of disease could potentially moderate mortality rate trends. Therefore, further investigation is needed to address this correlation over time."
+  }
+ ]
+}

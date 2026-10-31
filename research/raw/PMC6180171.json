@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6180171",
+ "pmid": "30337881",
+ "doi": "10.3389/fphys.2018.01380",
+ "topic": "atrial fibrillation",
+ "title": "Calcium in the Pathophysiology of Atrial Fibrillation and Heart Failure.",
+ "authors": "Denham NC, Pearman CM, Caldwell JL, Madders GWP, Eisner DA, Trafford AW, Dibb KM.",
+ "affiliation": "Unit of Cardiac Physiology, Division of Cardiovascular Sciences, Manchester Academic Health Science Centre, University of Manchester, Manchester, United Kingdom.",
+ "journal": "Frontiers in physiology",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 148,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Atrial fibrillation (AF) is commonly associated with heart failure. A bidirectional relationship exists between the two-AF exacerbates heart failure causing a significant increase in heart failure symptoms, admissions to hospital and cardiovascular death, while pathological remodeling of the atria as a result of heart failure increases the risk of AF. A comprehensive understanding of the pathophysiology of AF is essential if we are to break this vicious circle. In this review, the latest evidence will be presented showing a fundamental role for calcium in both the induction and maintenance of AF. After outlining atrial electrophysiology and calcium handling, the role of calcium-dependent afterdepolarizations and atrial repolarization alternans in triggering AF will be considered. The atrial response to rapid stimulation will be discussed, including the short-term protection from calcium overload in the form of calcium signaling silencing and the eventual progression to diastolic calcium leak causing afterdepolarizations and the development of an electrical substrate that perpetuates AF. The role of calcium in the bidirectional relationship between heart failure and AF will then be covered. The effects of heart failure on atrial calcium handling that promote AF will be reviewed, including effects on both atrial myocytes and the pulmonary veins, before the aspects of AF which exacerbate heart failure are discussed. Finally, the limitations of human and animal studies will be explored allowing contextualization of what are sometimes discordant results.",
+ "sections": [
+  {
+   "h": "Summary of the role of calcium handling in atrial fibrillation",
+   "text": "In summary, triggering impulses, arising most commonly from the pulmonary veins, lead to short bursts of rapid atrial activity and an increase in the influx of calcium. The response of the healthy atrium is to offset this net influx by increasing efflux in calcium signal silencing. However since some patients develop AF there must be factors which promote paroxysmal AF rather than signal silencing. We speculate that this could include (i) a failure in the ability of the calcium cycling mechanism to adapt to increased rate, (ii) the presence of pre-existing structural heart disease or, (iii) early loss of atrial t-tubules promoting arrhythmogenic calcium release. Other, extra cardiac factors, may also also determine the vulnerability to AF and include roles for obesity (Goudis et al.,"
+  },
+  {
+   "h": "Conclusions",
+   "text": "Calcium plays a fundamental role in the pathophysiology of AF, as well as in the bidirectional relationship between AF and heart failure. Remodeling of calcium cycling in response to rapid atrial stimulation can be seen within days in the form of calcium signaling silencing. However, these initially protective changes eventually become pathological as paroxysmal AF develops and can facilitate the progression to persistent AF. A recurring theme throughout this progression is increased diastolic leak of calcium from RyRs which promotes afterdepolarizations. The rise in intracellular calcium concentrations also activates pro-fibrotic pathways leading to structural remodeling in the atria that produces a substrate that can support the complex re-entry seen in AF. This review has provided a comprehensive stepwise description of the fundamental aspects of calcium cycling remodeling.\n\nHeart failure leads to remodeling of calcium cycling and structural changes within the atria which support persistent AF. In return, AF exacerbates heart failure by reducing cardiac output, due in part to a loss of atrial contraction but also by affecting ventricular calcium cycling. A vicious circle ensues whereby one condition begets the other. Questions remain surrounding the complex interaction between AF and heart failure, but the undeniable importance of calcium cycling remodeling in both conditions should prompt the exploration of these mechanisms as potential novel therapeutic targets."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "pmcid": "PMC8959619",
+ "pmid": "35355556",
+ "doi": "10.3389/fendo.2022.856958",
+ "topic": "diabetic ketoacidosis",
+ "title": "Incidence of Diabetic Ketoacidosis Among Pediatrics With Type 1 Diabetes Prior to and During COVID-19 Pandemic: A Meta-Analysis of Observational Studies.",
+ "authors": "Alfayez OM, Aldmasi KS, Alruwais NH, Bin Awad NM, Al Yami MS, Almohammed OA, Almutairi AR.",
+ "affiliation": "Department of Pharmacy Practice, College of Pharmacy, Qassim University, Qassim, Saudi Arabia.",
+ "journal": "Frontiers in endocrinology",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 42,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Systematic Review",
+  "systematic-review",
+  "Journal Article"
+ ],
+ "abstract": "Background Previous reports suggest that the Coronavirus Disease-2019 (COVID-19) pandemic might have affected incidences of diabetic ketoacidosis (DKA) and new diagnoses of type 1 diabetes. This systematic review and meta-analysis aimed to estimate the risk of DKA, including severe DKA, during the COVID-19 pandemic versus the prior-to-COVID-19 period among pediatric patients with type 1 diabetes. Methods PubMed and EMBASE were searched for observational studies investigating the risk of DKA among pediatric patients with type 1 diabetes during the COVID-19 pandemic and the prior-to-COVID-19 period. A random meta-analysis model was performed to estimate the relative risk of DKA during the COVID-19 pandemic compared to before the pandemic. Subgroup analyses were conducted based on the type 1 diabetes status, established or newly diagnosed. In addition, sensitivity analysis was conducted for studies that reported results from adjusted analysis for potential confounders using fixed effect model. Results A total of 20 observational studies reported the risk of DKA, of which 18 reported the risk of severe DKA. The risks of DKA and severe DKA were 35% (RR 1.35, 95%CI 1.2-1.53,  I  2  = 71%) and 76% (RR 1.76, 95%CI 1.33-2.33,  I  2 =  44%) higher in the during-COVID-19 group compared to the prior-to-COVID-19 group, respectively. Among patients with newly diagnosed type 1 diabetes, the risk of DKA was 44% higher for the during-COVID-19 group compared to the prior-to-COVID-19 group (RR 1.44, 95%CI 1.26-1.65;  I  2  = 64%). Only two studies reported the risk of DKA among patients with established type 1 diabetes and the cumulative risk was not statistically significant. In the sensitivity analysis, four studies reported an adjusted odds ratio (aOR) of the risk of DKA during COVID-19 compared to the prior-to-COVID-19 period. The fixed estimate from the meta-analysis found an increase in the risk of DKA in the during-COVID-19 group compared to the prior-to-COVID-19 group (aOR 2.04, 95%CI 1.66-2.50). Conclusions This study showed that DKA risk, especially the risk of severe DKA, has increased significantly during the pandemic. Healthcare systems must be aware and prepared for such an increase in DKA cases and take all necessary measures to prevent future spikes during the pandemic. Systematic review registration https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=272775, identifier PROSPERO [CRD42021272775].",
+ "sections": []
+}

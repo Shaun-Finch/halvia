@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5388340",
+ "pmid": "28399158",
+ "doi": "10.1371/journal.pone.0174847",
+ "topic": "head injury",
+ "title": "Mild Traumatic Brain Injury (mTBI) and chronic cognitive impairment: A scoping review.",
+ "authors": "McInnes K, Friesen CL, MacKenzie DE, Westwood DA, Boe SG.",
+ "affiliation": "Laboratory for Brain Recovery and Function, Dalhousie University, Halifax, Nova Scotia, Canada.",
+ "journal": "PloS one",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 403,
+ "pubtypes": [
+  "Scoping Review",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Mild traumatic brain injury (mTBI), or concussion, is the most common type of traumatic brain injury. With mTBI comes symptoms that include headaches, fatigue, depression, anxiety and irritability, as well as impaired cognitive function. Symptom resolution is thought to occur within 3 months post-injury, with the exception of a small percentage of individuals who are said to experience persistent post-concussion syndrome. The number of individuals who experience persistent symptoms appears to be low despite clear evidence of longer-term pathophysiological changes resulting from mTBI. In light of the incongruency between these longer-term changes in brain pathology and the number of individuals with longer-term mTBI-related symptoms, particularly impaired cognitive function, we performed a scoping review of the literature that behaviourally assessed short- and long-term cognitive function in individuals with a single mTBI, with the goal of identifying the impact of a single concussion on cognitive function in the chronic stage post-injury. CINAHL, Embase, and Medline/Ovid were searched July 2015 for studies related to concussion and cognitive impairment. Data relating to the presence/absence of cognitive impairment were extracted from 45 studies meeting our inclusion criteria. Results indicate that, in contrast to the prevailing view that most symptoms of concussion are resolved within 3 months post-injury, approximately half of individuals with a single mTBI demonstrate long-term cognitive impairment. Study limitations notwithstanding, these findings highlight the need to carefully examine the long-term implications of a single mTBI.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "A widely cited figure in the literature suggests that only 15% of first-time concussed individuals will go on to experience persistent PCS and concomitant long-term cognitive impairment. While duly noting the limitations of our scoping review and the addressed studies, our findings suggest that this number is likely a gross underestimation at least in relation to cognitive impairment and should be carefully examined in future prospective, longitudinal studies."
+  }
+ ]
+}

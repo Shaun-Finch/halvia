@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC10347853",
+ "pmid": "37452348",
+ "doi": "10.1186/s12909-023-04495-8",
+ "topic": "handover and communication",
+ "title": "Effectiveness of SBAR-based simulation programs for nursing students: a systematic review.",
+ "authors": "Yun J, Lee YJ, Kang K, Park J.",
+ "affiliation": "College of Nursing, Research Institute of Nursing Science, Pusan National University, Yangsan, 50612, Republic of Korea.",
+ "journal": "BMC medical education",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 22,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Situation, background, assessment, and recommendation (SBAR) has been extensively used in clinical and nursing education. A structured communication program increases effective communication, positivity, and education satisfaction during inter-professional collaboration among nursing students. This systematic review aimed to identify and synthesize evidence on the effectiveness of SBAR-based simulation training for nursing students. Methods A research protocol was developed according to the Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols guidelines. The protocol for this study was registered in PROSPERO (CRD42021234068). Eight bibliographical databases were searched for studies published between 2001 and 2021, using relevant search terms. Searches were conducted in PubMed, Embase, Cumulative Index to Nursing and Allied Health, and Cochrane Central Register of Controlled Trials for literature in English, and DBpia, Research Information Sharing Service, Korean Studies Information Service System, and Korea Institute of Science and Technology Information for literature in Korean. After screening titles, abstracts, and full-text papers, pertinent data were extracted, and critical appraisals of the retrieved studies were performed. Data were analyzed using the framework approach, and the findings were presented in a narrative summary. The Effective Public Health Practice Project \"Quality Assessment Tool for Quantitative Studies\" was used to assess the quality of the included studies. Results Twelve studies were included: 3 randomized controlled trials and 9 quasi-experimental studies. Two overarching themes were noted, namely communication clarity and critical thinking. The results of six out of 12 studies produced significant results in favor of SBAR-based simulation in terms of communication clarity. Divergent results were obtained regarding communication ability, critical thinking, confidence, learning self-efficacy, and attitude toward patient safety. The results of these studies highlight that communication clarity ultimately leads to positive results in terms of nursing students' behaviors related to patient safety. Conclusions This review provides a comprehensive update of the literature on the effectiveness of SBAR-based nursing simulation programs for nursing students. These programs were found to have positive learning outcomes because of clear and concise communication. Further studies on the effectiveness of various learning outcomes derived from SBAR-based programs are required.",
+ "sections": [
+  {
+   "h": "Implications for practice and future research",
+   "text": "Simulation approaches in nursing education are now being proposed as a new pedagogical method to complement or replace clinical practice. The findings of the current study suggest that SBAR-based simulation programs have positive effects on nursing students’ capabilities for practice, with satisfaction and intense concentration in the provided situation. In future research, standardized and validated interventions for SBAR training should be researched for effectiveness during nursing education. Another potential research study would be to identify the effects of different simulation methodologies, such as web-based, high fidelity, and virtual simulations."
+  },
+  {
+   "h": "Conclusion",
+   "text": "This review provides a comprehensive update of the literature on the effectiveness of SBAR-based nursing simulation programs for nursing students. Our findings indicate that such programs lead to enhanced communication clarity and other positive learning outcomes among nursing students. However, given the variability in program components and measurement methods, it is essential to continue exploring the specific effects of SBAR-based simulation programs on various learning outcomes. This will enable a deeper understanding of the most effective strategies for optimizing communication and other crucial skills in nursing education."
+  }
+ ]
+}

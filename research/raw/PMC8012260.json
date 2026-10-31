@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8012260",
+ "pmid": "33824816",
+ "doi": "10.7759/cureus.13665",
+ "topic": "diabetic ketoacidosis",
+ "title": "Euglycemic Diabetic Ketoacidosis and Sodium-Glucose Cotransporter-2 Inhibitors: A Focused Review of Pathophysiology, Risk Factors, and Triggers.",
+ "authors": "Somagutta MR, Agadi K, Hange N, Jain MS, Batti E, Emuze BO, Amos-Arowoshegbe EO, Popescu S, Hanan S, Kumar VR, Pormento K.",
+ "affiliation": "Department of Medicine, California Institute of Behavioral Neurosciences & Psychology, Fairfield, USA.",
+ "journal": "Cureus",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 35,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Diabetic ketoacidosis (DKA) is an acute and significant life-threatening complication of diabetes. The association of sodium-glucose cotransporter-2 inhibitors (SGLT2i) with euglycemic diabetic ketoacidosis (EDKA) has been well reported. This literature review was conducted to understand the mechanism of EDKA and identify the potential risk factors and precipitants for patients taking SGLT2i. After reviewing the published literature between 2010 and 2020, 32 articles are included in the final review. The underlying mechanism is mainly enhanced lipolysis and ketone body reabsorption. SGLT2i also stimulates pancreatic alpha cells and inhibits beta cells, causing an imbalance in glucagon/insulin levels, further contributing to lipolysis and ketogenesis. Most patients were diagnosed with blood glucose less than 200 mg/dL, blood pH <7.3, increased anion gap, increased blood, or urine ketones. Perioperative fasting, pancreatic etiology, low carbohydrate or ketogenic diet, obesity, and malignancy are identified precipitants in this review. As normoglycemia can conceal the underlying acidosis, physicians should be cognizant of the EDKA diagnosis and initiate prompt treatment. Patient education on risk factors and triggers is recommended to avoid future events.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "SGLT2i are now widely used to control hyperglycemia in diabetic patients. These medications are gaining popularity in diabetic management, mainly due to their proven CV and renal benefits in recent studies. The risk factors for EDKA in patients taking SGLT2i are diverse, and many preexisting or acute conditions can act as precipitants placing patients at risk for EDKA. Practitioners should be vigilant in diagnosing EDKA by thoughtful patient assessment for acidosis, measuring urine ketones even in normoglycemia. If EDKA is suspected, oral antidiabetic drugs, especially SGLT2i, should be discontinued and prompt treatment with intravenous fluids and insulin should be initiated in suspected patients. Patients also need to be educated about risk factors, triggers, signs, and symptoms and instructed to consult a physician before commencing any dietary changes. More research is needed to understand the mechanism of EDKA in the event of precipitants."
+  }
+ ]
+}

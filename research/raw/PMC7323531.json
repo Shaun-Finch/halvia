@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC7323531",
+ "pmid": "32568052",
+ "doi": "10.3201/eid2607.200017",
+ "topic": "pneumonia",
+ "title": "Macrolide-Resistant Mycoplasma pneumoniae Infections in Pediatric Community-Acquired Pneumonia.",
+ "authors": "Chen YC, Hsu WY, Chang TH.",
+ "affiliation": "",
+ "journal": "Emerging infectious diseases",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 134,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "A high prevalence rate of macrolide-resistant Mycoplasma pneumoniae (MRMP) has been reported in Asia. We performed a systematic review and meta-analysis to investigate the effect of macrolide resistance on the manifestations and clinical judgment during M. pneumoniae infections. We found no difference in clinical severity between MRMP and macrolide-sensitive Mycoplasma pneumoniae (MSMP) infections. However, in the pooled data, patients infected with MRMP had a longer febrile period (1.71 days), length of hospital stay (1.61 day), antibiotic drug courses (2.93 days), and defervescence time after macrolide treatment (2.04 days) compared with patients infected with MSMP. The risk of fever lasting for >48 hours after macrolide treatment was also significantly increased (OR 21.24), and an increased proportion of patients was changed to second-line treatment (OR 4.42). Our findings indicate diagnostic and therapeutic challenges after the emergence of MRMP. More precise diagnostic tools and clearly defined treatment should be appraised in the future.",
+ "sections": [
+  {
+   "h": "Data Extraction and Quality Assessment",
+   "text": "After full-text screening for eligibility and review, the 3 authors extracted data independently of one another. We resolved disagreements by consensus or review by another reviewer. We extracted the following variables from each study, if available: author, journal, year of publication, study design, study country, time period, detected point mutations, clinical symptoms, total febrile days, length of hospital stay, defervescence days after macrolide, antibiotic history, laboratory results, and chest radiographic findings. We also extracted pediatric data from studies with both children and adults, if available. We assessed the quality of nonrandomized studies included in the meta-analysis using the Newcastle-Ottawa Scale and excluded articles with poor quality (score 0–3)."
+  },
+  {
+   "h": "Effect on Clinical Features and Outcomes",
+   "text": "The duration of fever was longer in patients with MRMP than in patients with MSMP (mean difference [MD] 1.71, 95% CI 1.34–2.09; p<0.001) (I2 = 0%; p = 0.54). MRMP infections were also associated with prolonged hospitalization compared with MSMP infections (MD 1.61, 95% CI 1.08–2.13; p<0.001) (I2 = 28%; p = 0.18).\n\nWe examined the effect of macrolide resistance on work of breath and extrapulmonary symptoms. We found a slight trend toward MRMP patients with more extensive disease ("
+  }
+ ]
+}

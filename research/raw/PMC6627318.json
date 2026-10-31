@@ -1,0 +1,20 @@
+{
+ "pmcid": "PMC6627318",
+ "pmid": "31226747",
+ "doi": "10.3390/ijms20123011",
+ "topic": "acute kidney injury",
+ "title": "Recent Advances in Models, Mechanisms, Biomarkers, and Interventions in Cisplatin-Induced Acute Kidney Injury.",
+ "authors": "Holditch SJ, Brown CN, Lombardi AM, Nguyen KN, Edelstein CL.",
+ "affiliation": "Division of Renal Diseases and Hypertension, University of Colorado at Denver, Box C281, 12700 East, 19th Ave, Aurora, CO 80045, USA. sara.holditch@ucdenver.edu.",
+ "journal": "International journal of molecular sciences",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 303,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Cisplatin is a widely used chemotherapeutic agent used to treat solid tumours, such as ovarian, head and neck, and testicular germ cell. A known complication of cisplatin administration is acute kidney injury (AKI). The development of effective tumour interventions with reduced nephrotoxicity relies heavily on understanding the molecular pathophysiology of cisplatin-induced AKI. Rodent models have provided mechanistic insight into the pathophysiology of cisplatin-induced AKI. In the subsequent review, we provide a detailed discussion of recent advances in the cisplatin-induced AKI phenotype, principal mechanistic findings of injury and therapy, and pre-clinical use of AKI rodent models. Cisplatin-induced AKI murine models faithfully develop gross manifestations of clinical AKI such as decreased kidney function, increased expression of tubular injury biomarkers, and tubular injury evident by histology. Pathways involved in AKI include apoptosis, necrosis, inflammation, and increased oxidative stress, ultimately providing a translational platform for testing the therapeutic efficacy of potential interventions. This review provides a discussion of the foundation laid by cisplatin-induced AKI rodent models for our current understanding of AKI molecular pathophysiology.",
+ "sections": []
+}

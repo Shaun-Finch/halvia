@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6406787",
+ "pmid": "30813357",
+ "doi": "10.3390/jcm8020270",
+ "topic": "acute heart failure",
+ "title": "Cardiac Biomarkers in the Emergency Department: The Role of Soluble ST2 (sST2) in Acute Heart Failure and Acute Coronary Syndrome-There is Meat on the Bone.",
+ "authors": "Aleksova A, Paldino A, Beltrami AP, Padoan L, Iacoviello M, Sinagra G, Emdin M, Maisel AS.",
+ "affiliation": "Cardiovascular Department, Azienda Sanitaria Universitaria di Trieste and Department of Medical Surgical and Health Sciences, University of Trieste, 34100 Trieste, Italy. aaleksova@units.it.",
+ "journal": "Journal of clinical medicine",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 45,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Soluble ST2 (sST2) has recently emerged as a promising biomarker in the field of acute cardiovascular diseases. Several clinical studies have demonstrated a significant link between sST2 values and patients' outcome. Further, it has been found that higher levels of sST2 are associated with an increased risk of adverse left ventricular remodeling. Therefore, sST2 could represent a useful tool that could help the risk stratification and diagnostic and therapeutic work-up of patients admitted to an emergency department. With this review, based on recent literature, we have built sST2-assisted flowcharts applicable to three very common clinical scenarios of the emergency department: Acute heart failure, type 1, and type 2 acute myocardial infarction. In particular, we combined sST2 levels together with clinical and instrumental evaluation in order to offer a practical tool for emergency medicine physicians.",
+ "sections": [
+  {
+   "h": "4. Conclusions",
+   "text": "In conclusion, sST2, represents, especially when combined with NPs, troponins, and clinical variables, a promising tool that could improve the risk stratification and diagnostic–therapeutic work-up of patients admitted to the ED. Therefore, in this review, we are suggesting a sST2-assisted patient stratification approach in three clinical scenarios (i.e., ADHF, T1MI, and T2MI), whose clinical usefulness should be validated in larger prospective clinical studies. However, we are confident in our conclusion that sST2 plasma levels above 70 ng/mL seem to be associated with a significant activation of both neurohormonal and fibrotic pathways and can help to identify those patients that are affected by ADHF, type 1, and type 2 AMI that are at increased risk of adverse LV remodeling. Serial assessment of sST2 should also be considered for a better management of patients and more appropriate therapeutic decisions, since clinical data suggest that the kinetics of sST2 plasma levels can discriminate patients with different outcomes."
+  }
+ ]
+}

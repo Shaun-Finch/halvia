@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC4833950",
+ "pmid": "27087980",
+ "doi": "10.1186/s40560-016-0154-3",
+ "topic": "intravenous fluids",
+ "title": "Fluid therapy in the perioperative setting-a clinical review.",
+ "authors": "Voldby AW, Brandstrup B.",
+ "affiliation": "Department of Surgery, Holbaek University Hospital, Smedelundsgade 60, 4300 Holbaek, Denmark.",
+ "journal": "Journal of intensive care",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 97,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Perioperative hypovolemia and fluid overload have effects on both complications following surgery and on patient survival. Therefore, the administration of intravenous fluids before, during, and after surgery at the right time and in the right amounts is of great importance. This review aims to analyze the literature concerning perioperative fluid therapy in abdominal surgery and to provide evidence-based recommendations for clinical practice. Results Preoperative oral or intravenous administration of carbohydrate containing fluids has been shown to improve postoperative well-being and muscular strength and to reduce insulin resistance. Hence, the intake of fluid (preferably containing carbohydrates) should be encouraged up to 2 h prior to surgery in order to avoid dehydration. Excessive intravenous fluid administration adds to tissue inflammation and edema formation, thereby compromising tissue healing. During major abdominal surgery a \"zero-balance\" intraoperative fluid strategy aims at avoiding fluid overload (and comparable to the so-called restrictive approach) as well as goal-directed fluid therapy (GDT). Both proved to significantly reduce postoperative complications when compared to \"standard fluid therapy\". Trials comparing \"restrictive\" or zero-balance and GDT have shown equal results, as long as fluid overload is avoided in the GDT group as well (categorized as \"zero-balance GDT\"). It is possible that high-risk surgical patients, such as those undergoing acute surgery, may benefit from the continuous monitoring of circulatory status that the GDT provides. Data on this group of patients is not available at present, but trials are ongoing. Conclusion In elective surgery, the zero-balance approach has shown to reduce postoperative complications and is easily applied for most patients. It is less expensive and simpler than the zero-balance GDT approach and therefore recommended in this review. In outpatient surgery, 1-2 L of balanced crystalloids reduces postoperative nausea and vomiting and improves well-being.",
+ "sections": [
+  {
+   "h": "Fluid therapy preoperative",
+   "text": "Fasting prior to surgery is mandatory to avoid aspiration of stomach content to the lungs. Six hours fasting from food and 2 h from liquids is generally recommended, and the patient should be encouraged to minimize the fasting period, thus avoiding dehydration [\n\nCarbohydrates given orally or intravenously have been shown to improve postoperative well-being and muscular strength and to attenuate insulin resistance, the latter being correlated to prolonged length of hospital stay [\n\nJacob et al. show that a prolonged fasting period is unlikely to affect cardiopulmonary function and cause hypovolemia in healthy patients [\n\nMechanical bowel preparation prior to surgery has been argued to reduce postoperative leakage and infection. However, the benefit of the procedure has not been shown despite systematic review of the literature in a Cochrane review ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "Oral fluid intake should be encouraged up to 2 h prior to surgery, thereby minimizing the need for intravenous compensation. Preferably, carbohydrate-containing fluids should be given due to patients’ proven reduction of postoperative insulin resistance and improved well-being.\n\nPerioperative fluid turnover accounts for no more than 1–1.5 mL/kg/h consisting of diuresis, insensible perspiration, evaporation from the wound, and accumulation in the traumatized tissue and should be compensated by carbohydrate-containing (hypotonic) fluids unless counter indications are present. Sensible perspiration varies considerably and is recommended replaced by balanced crystalloids. The assumption that elective surgery causes a fluid loss to the third space is based on flawed methodology and the replacement of a “loss to third space” worsens the postoperative outcome, due to derived fluid overload. Hence, this practice should be abandoned. A delicately balanced fluid therapy is recommended to avoid adverse effects of unnecessary excessive fluid administration as edema, inflammation, and compromised tissue healing.\n\nThe intraoperative zero-balance fluid approach based on measurement of lost blood and fluid and postoperatively on body weight is easily implemented and has been shown to reduce postoperative major and minor complications. Therefore, a zero-balance fluid approach is recommended in the elective perioperative setting. A GDT approach likewise has shown to improve postoperative outcome, and guidelines recommending GDT seem well supported. However, the GDT practice is not documented to be superior to the zero-balance fluid approach. Nevertheless, high-risk surgery with multimorbid patients might benefit from the dynamic GDT approach. Evidence regarding urgent surgery is lacking, leaving a gap for future studies to explore.\n\nIn relation to outpatient surgery, 1–2 L balanced crystalloids reduces PONV and improves well-being."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC11202159",
+ "pmid": "38928583",
+ "doi": "10.3390/brainsci14060583",
+ "topic": "alcohol withdrawal",
+ "title": "Alterations in Neurotrophins in Alcohol-Addicted Patients during Alcohol Withdrawal.",
+ "authors": "Malewska-Kasprzak M, Skibińska M, Dmitrzak-Węglarz M.",
+ "affiliation": "Department of Psychiatry, Poznan University of Medical Sciences, 61-701 Poznan, Poland.",
+ "journal": "Brain sciences",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 13,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Alcohol use disorder (AUD) is related to mental and somatic disorders that result in alcohol withdrawal syndrome (AWS), with 30% of AWS cases leading to life-threatening delirium tremens (DTs). Currently, studies do not support using any one biomarker in DTs. Neurotrophins affect neuromodulation, playing a role in the pathogenesis of AUD, AWS, and DTs. Methods This review aims to summarize experimental and clinical data related to neurotrophins and S100B in neuroplasticity, as well as neurodegeneration in the context of AUD, AWS, and DTs. This work used publications that were selected based on the protocol consistent with the Preferred Reporting Items for Systematic Reviews and Meta-Analysis (PRISMA) statement. Results The BDNF level could be a good candidate biomarker for relapse susceptibility, as it is significantly reduced during consumption and gradually increases during abstinence. GDNF influences AUD through its integral role in the function of dopaminergic neurons and ablates the return to alcohol-drinking behavior. NGF protects neurons from ethanol-induced cytotoxic damage and affects recovery from cognitive deficits after brain damage. The NT-3 level is decreased after alcohol exposure and is involved in compensatory mechanisms for cognitive decline in AUD. NT-4 affects oxidative stress, which is associated with chronic alcohol consumption. S100B is used as a biomarker of brain damage, with elevated levels in serum in AUD, and can protect 5-HT neurons from the damage caused by alcohol. Conclusions BDNF, GDNF, NT-3, NT-4, NGF, and S100B may be valuable markers for withdrawal syndrome. In particular, the most relevant is their association with the development of delirium complications. However, there are few data concerning some neurotrophins in AWS and DTs, suggesting the need for further research.",
+ "sections": [
+  {
+   "h": "5.5. Summary",
+   "text": "The peripheral levels of neurotrophins offer valuable insights into the neurobiological underpinnings of AUD, AWS, and DTs. BDNF serves as a potential biomarker for relapse susceptibility and recovery during abstinence. GDNF’s role in dopaminergic regulation and neuroprotection highlights its importance in adaptive responses to alcohol withdrawal. S100B, as a marker of glial activation and brain damage, is an indicator of the neuroinflammatory response and neuronal injury in these conditions. Collectively, these neurotrophins could be crucial in developing biomarkers for the diagnosis, monitoring, and treatment of AUD and its associated withdrawal symptoms. However, the current body of research presents limited data on the role of some neurotrophins in AWS and DTs, indicating a need for further studies. Continued exploration in this area is essential to uncover reliable biomarkers and develop targeted interventions for managing and mitigating the effects of AUD and its severe withdrawal symptoms."
+  }
+ ]
+}

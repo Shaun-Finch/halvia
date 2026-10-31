@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10253886",
+ "pmid": "37297873",
+ "doi": "10.3390/jcm12113678",
+ "topic": "upper GI bleeding",
+ "title": "A Review of Risk Scores within Upper Gastrointestinal Bleeding.",
+ "authors": "Orpen-Palmer J, Stanley AJ.",
+ "affiliation": "Department of Gastroenterology, Glasgow Royal Infirmary, Glasgow G4 0SF, UK.",
+ "journal": "Journal of clinical medicine",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 23,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Upper gastrointestinal bleeding is a common medical emergency. Thorough initial assessment and appropriate resuscitation are essential to stabilise the patient. Risk scores provide an important tool to discriminate between lower- and higher-risk patients. Very low-risk patients can be safely discharged for out-patient management, while higher-risk patients can receive appropriate in-patient care. The Glasgow Blatchford Score, with a score of 0-1, performs best in the identification of very low-risk patients who will not require hospital based intervention or die, and is recommended by most guidelines to facilitate safe out-patient management. The performance of risk scores in the identification of specific adverse events to define high-risk patients is less accurate, with no individual score performing consistently well. Ongoing developments in the use of machine learning models and artificial intelligence in predicting poor outcomes in UGIB appear promising and will likely form the basis of dynamic risk assessment in the future.",
+ "sections": [
+  {
+   "h": "7. Conclusions",
+   "text": "UGIB risk scores are important tools that should be utilised as part of the management of UGIB to enable stratification of low- and high-risk patients.\n\nOf the current scores, the GBS has been shown to perform most consistently in the identification of low-risk patients who can safely avoid admission. A GBS < 1 is recommended by most current UGIB guidelines as the optimal threshold to identify patients suitable for out-patient management. Given the relatively low specificity achieved at this level, some patients who could be safely discharge may be admitted. Further research is required to determine if newer scores can provide better specificity with comparable sensitivity.\n\nFor prediction of mortality, the pre-endoscopic AIMS-65 score performs reasonably well when compared with post-endoscopic scores. However, the more recent ABC score appears to be superior in predicting mortality. No score currently can accurately predict need for endoscopic therapy therefore more work is required in this regard.\n\nML models have shown significant promise in risk scoring for UGIB and may address the criticism that current risk scores’ complexity limits their clinical use. Though predominantly limited to the research setting at present, ML modelling use is likely to become more widespread in the near future and a valuable tool for clinicians who manage patients with UGIB."
+  }
+ ]
+}

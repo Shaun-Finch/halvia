@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC7301346",
+ "pmid": "32552702",
+ "doi": "10.1186/s12911-020-01144-8",
+ "topic": "early warning scores",
+ "title": "Early warning score validation methodologies and performance metrics: a systematic review.",
+ "authors": "Fang AHS, Lim WT, Balakrishnan T.",
+ "affiliation": "Bedok Polyclinic, SingHealth Polyclinics, Singapore, Singapore. andrew.fang.h.s@singhealth.com.sg.",
+ "journal": "BMC medical informatics and decision making",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 33,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Early warning scores (EWS) have been developed as clinical prognostication tools to identify acutely deteriorating patients. In the past few years, there has been a proliferation of studies that describe the development and validation of novel machine learning-based EWS. Systematic reviews of published studies which focus on evaluating performance of both well-established and novel EWS have shown conflicting conclusions. A possible reason is the heterogeneity in validation methods applied. In this review, we aim to examine the methodologies and metrics used in studies which perform EWS validation. Methods A systematic review of all eligible studies from the MEDLINE database and other sources, was performed. Studies were eligible if they performed validation on at least one EWS and reported associations between EWS scores and inpatient mortality, intensive care unit (ICU) transfers, or cardiac arrest (CA) of adults. Two reviewers independently did a full-text review and performed data abstraction by using standardized data-worksheet based on the TRIPOD (Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis) checklist. Meta-analysis was not performed due to heterogeneity. Results The key differences in validation methodologies identified were (1) validation dataset used, (2) outcomes of interest, (3) case definition, time of EWS use and aggregation methods, and (4) handling of missing values. In terms of case definition, among the 48 eligible studies, 34 used the patient episode case definition while 12 used the observation set case definition, and 2 did the validation using both case definitions. Of those that used the patient episode case definition, 18 studies validated the EWS at a single point of time, mostly using the first recorded observation. The review also found more than 10 different performance metrics reported among the studies. Conclusions Methodologies and performance metrics used in studies performing validation on EWS were heterogeneous hence making it difficult to interpret and compare EWS performance. Standardizing EWS validation methodology and reporting can potentially address this issue.",
+ "sections": [
+  {
+   "h": "Case definition, time of EWS use and aggregation method",
+   "text": "There were two different ways a case was defined – a patient episode or an observation set – and this definition had impact on the subsequent validation steps (Fig.\n\nIn the observation set definition, recordings from each observation set would be used to compute a score to evaluate the EWS association with an outcome within a certain time window from the time of recording of the observation set. In the patient episode definition, because multiple recordings were available, study teams either chose to use a single score, or multiple scores to validate the EWS. This reflected how study teams intended for the EWS to be used in practice, so we termed this component as “time of EWS use”. If the time of EWS use was multiple, then the series of scores would be aggregated in evaluating the EWS with the outcome of the patient episode.\n\nAmong the 48 studies, 34 used the patient episode method while 12 used the observation set method, and 2 did the validation using both methods.\n\nOf the studies that used the patient episode method, 18 studies used a single point of time score to validate the EWS, most of which used the first recorded observation. For the 18 studies that used multiple recordings, 13 studies used use the maximum score as to aggregate the scores for each patient episode to compare with the outcomes. Most studies used all recordings from the patient episode, but there were 2 studies that excluded readings just prior to outcome to account for the “predictive” ability of the EWS [\n\nFor the studies that used the observation set method, all of them used EWS values generated within the 0-24 hour time window prior to outcome to validate the EWS, with the exception of one study ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "Current EWS validation methods are heterogenous and this probably contributes to conflicting conclusions regarding their ability to discriminate or predict the patients at risk of clinical deterioration. A standardized method of EWS validation and reporting can potentially address this issue."
+  }
+ ]
+}

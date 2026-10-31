@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC6172316",
+ "pmid": "30323811",
+ "doi": "10.3389/fimmu.2018.02220",
+ "topic": "asthma exacerbation",
+ "title": "Involvement and Possible Role of Eosinophils in Asthma Exacerbation.",
+ "authors": "Nakagome K, Nagata M.",
+ "affiliation": "Department of Respiratory Medicine, Saitama Medical University, Saitama, Japan.",
+ "journal": "Frontiers in immunology",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 142,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Eosinophils are involved in the development of asthma exacerbation. Recent studies have suggested that sputum and blood eosinophil counts are important factors for predicting asthma exacerbation. In severe eosinophilic asthma, anti-interleukin (IL)-5 monoclonal antibody decreases blood eosinophil count and asthma exacerbation frequency. However, even in the absence of IL-5, eosinophilic airway inflammation can be sufficiently maintained by the T helper (Th) 2 network, which comprises a cascade of vascular cell adhesion molecule-1/CC chemokines/eosinophil growth factors, including granulocyte-macrophage colony-stimulating factor (GM-CSF). Periostin, an extracellular matrix protein and a biomarker of the Th2 immune response in asthma, directly activates eosinophils  in vitro . A major cause of asthma exacerbation is viral infection, especially rhinovirus (RV) infection. The expression of intercellular adhesion molecule (ICAM)-1, a cellular receptor for the majority of RVs, on epithelial cells is increased after RV infection, and adhesion of eosinophils to ICAM-1 can upregulate the functions of eosinophils. The expressions of cysteinyl leukotrienes (cysLTs) and CXCL10 are upregulated in virus-induced asthma. CysLTs can directly provoke eosinophilic infiltration  in vivo  and activate eosinophils  in vitro . Furthermore, eosinophils express the CXC chemokine receptor 3, and CXCL10 activates eosinophils  in vitro . Both eosinophils and neutrophils contribute to the development of severe asthma or asthma exacerbation. IL-8, which is an important chemoattractant for neutrophils, is upregulated in some cases of severe asthma. Lipopolysaccharide (LPS), which induces IL-8 from epithelial cells, is also increased in the lower airways of corticosteroid-resistant asthma. IL-8 or LPS-stimulated neutrophils increase the transbasement membrane migration of eosinophils, even in the absence of chemoattractants for eosinophils. Therefore, eosinophils are likely to contribute to the development of asthma exacerbation through several mechanisms, including activation by Th2 cytokines, such as IL-5 or GM-CSF or by virus infection-related proteins, such as CXCL10, and interaction with other cells, such as neutrophils.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Eosinophils are likely to contribute to the development of asthma exacerbation. This process can involve cytokines, such as IL-5 or GM-CSF, chemokines, such as CCR3 ligands, matricellular proteins, a danger signal, and other cells, such as neutrophils or mast cells."
+  }
+ ]
+}

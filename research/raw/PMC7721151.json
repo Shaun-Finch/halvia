@@ -1,0 +1,28 @@
+{
+ "pmcid": "PMC7721151",
+ "pmid": "33284825",
+ "doi": "10.1371/journal.pone.0243191",
+ "topic": "COVID-19 in hospital",
+ "title": "Prevalence and predictors of death and severe disease in patients hospitalized due to COVID-19: A comprehensive systematic review and meta-analysis of 77 studies and 38,000 patients.",
+ "authors": "Dorjee K, Kim H, Bonomo E, Dolma R.",
+ "affiliation": "School of Medicine Division of Infectious Diseases, Center for TB Research, Johns Hopkins University, Baltimore, Maryland, United States of America.",
+ "journal": "PloS one",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 165,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Introduction Progression of COVID-19 to severe disease and death is insufficiently understood. Objective Summarize the prevalence of risk factors and adverse outcomes and determine their associations in COVID-19 patients who were hospitalized. Methods We searched Medline, Embase and Web of Science for case-series and observational studies of hospitalized COVID-19 patients through August 31, 2020. Data were analyzed by fixed-effects meta-analysis using Shore's adjusted confidence intervals to address heterogeneity. Results Seventy-seven studies comprising 38906 hospitalized patients met inclusion criteria; 21468 from the US-Europe and 9740 from China. Overall prevalence of death [% (95% CI)] from COVID-19 was 20% (18-23%); 23% (19-27%) in the US and Europe and 11% (7-16%) for China. Of those that died, 85% were aged≥60 years, 66% were males, and 66%, 44%, 39%, 37%, and 27% had hypertension, smoking history, diabetes, heart disease, and chronic kidney disease (CKD), respectively. The case fatality risk [%(95% CI)] were 52% (46-60) for heart disease, 51% (43-59) for COPD, 48% (37-63) for chronic kidney disease (CKD), 39% for chronic liver disease (CLD), 28% (23-36%) for hypertension, and 24% (17-33%) for diabetes. Summary relative risk (sRR) of death were higher for age≥60 years [sRR = 3.6; 95% CI: 3.0-4.4], males [1.3; 1.2-1.4], smoking history [1.3; 1.1-1.6], COPD [1.7; 1.4-2.0], hypertension [1.8; 1.6-2.0], diabetes [1.5; 1.4-1.7], heart disease [2.1; 1.8-2.4], CKD [2.5; 2.1-3.0]. The prevalence of hypertension (55%), diabetes (33%), smoking history (23%) and heart disease (17%) among the COVID-19 hospitalized patients in the US were substantially higher than that of the general US population, suggesting increased susceptibility to infection or disease progression for the individuals with comorbidities. Conclusions Public health screening for COVID-19 can be prioritized based on risk-groups. Appropriately addressing the modifiable risk factors such as smoking, hypertension, and diabetes could reduce morbidity and mortality due to COVID-19; public messaging can be accordingly adapted.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Epidemiological risk factors for progression of COVID-19 to severe disease and death and for acquisition of SARS-CoV-2, the causal agent for COVID-19, based on presence of pre-existing conditions have been insufficiently understood. Meta-analysis of 77 studies including 39023 COVID-19 patients hospitalized globally revealed case fatality risk of 52% for those having heart disease, 51% for COPD, 48% for CKD, 39% for CLD, 28% for hypertension, 27% for smoking history, 24% for diabetes, 35% for age≥60 years, and 26% for males. Of all the patients who died, an overwhelming majority (85%) were in people aged≥60 years. Also, of the people who died, 66% were males, 66% had hypertension, 44% had history of smoking, 39% had diabetes, 37% had CVD, 27% had CKD, and 6% had CLD. All of the above risk factors were significantly associated with death and severe disease in the patients hospitalized for COVID-19. The prevalence of ARDS was 48%, ACI 21%, and AKI 28% in the hospitalized patients. A higher prevalence of hypertension, diabetes, smoking and heart disease in the COVID-19 inpatients as compared to that of the general population could imply a higher risk of SARS-CoV-2 infection or disease progression for patients having these risk factors. These findings could inform public health strategies for targeted screening and appropriate control of modifiable risk factors such as smoking, hypertension, and diabetes to reduce morbidity and mortality. Finally, based on the published literature, there were vast differences in the prevalence of death and risk factors for the populations in China and in US-Europe that should be further investigated."
+  }
+ ]
+}

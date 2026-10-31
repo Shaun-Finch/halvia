@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC12808928",
+ "pmid": "41550854",
+ "doi": "10.1155/nrp/2713238",
+ "topic": "handover and communication",
+ "title": "Exploring Communication Tools in Clinical Settings: Addressing the Need for a Universal Approach to Clinical Handover.",
+ "authors": "Chan AML, Poon WK, Lau BYC, Kwan RYC.",
+ "affiliation": "School of Nursing, Tung Wah College, Hong Kong, China, twc.edu.hk.",
+ "journal": "Nursing research and practice",
+ "year": "2026",
+ "license": "cc by",
+ "cited": 0,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Effective communication in clinical handovers is critical for promoting patient safety and care quality. Healthcare professionals lack interprofessional training on clinical handovers. Aims To identify educational strategies used to enhance clinical handover competence in clinical settings, map outcomes used to evaluate training effectiveness, and explore methods suitable for interprofessional education. Design A scoping review guided by the PRISMA-ScR checklist. Methods A systematic search of seven electronic databases was conducted. Results Seventeen studies were included in this review, which yielded the following major themes: (1) education strategies were evidence-based program structured with communication frameworks; (2) diverse outcomes were measured in clinical handover training; (3) inadequacy in interprofessional training on clinical handovers. Training programs encompassed various learning activities to improve clinical handover practices. Few studies highlight effective training methods enhanced communication, confidence, and operational efficiency. Conclusions There is a need for more robust, longitudinal, and randomized studies to evaluate long-term effects. Future research should expand interprofessional training, incorporate innovative technologies, and develop standardized curricula to better prepare healthcare professionals for effective clinical handovers. Results indicate that no single tool has been universally recommended. There remains a need to recommend a universal handover tool through interprofessional education and promote its use within diverse healthcare disciplines.",
+ "sections": [
+  {
+   "h": "4.2. Study Implications",
+   "text": "Insufficient evidence exists to demonstrate a standardized assessment tool for evaluating the efficacy of training programs aimed at enhancing clinical handovers. The adoption of a standardized checklist, such as utilizing SBAR, could offer advantages in delivering consistent and routine evaluations of students’ performance and the effectiveness of training initiatives. Future research should evaluate interprofessional education in clinical handover and consider assessing the effectiveness of a standardized SBAR evaluation checklist. Given that only a few out of the 17 studies involved interprofessional education, there is a clear need for research and implementation of interprofessional education strategies in clinical handover training programs. Healthcare faculties should consider standardizing curriculum‐based training programs including TBL utilizing a SBAR communication framework, comprising online didactic instruction to impart fundamental knowledge on clinical handover, experiential learning through simulations, interactive student discussions, and interdisciplinary collaboration. The integration of advanced technologies such as immersive virtual reality training, which provides dynamic ward environments and diverse patient conditions, promises to significantly enhance and enrich the training experience for future programs among different disciplines. Notably, the reviewed studies have yet to explore this method, highlighting its untapped potential for improving training outcomes. Additionally, there is a need for more randomized controlled trials and longitudinal studies to assess the long‐term effectiveness of these education strategies on improving clinical handover competence."
+  },
+  {
+   "h": "5. Conclusion",
+   "text": "In summary, this scoping review analyzed a diverse range of training methods employed to enhance communication in handovers across different healthcare professionals. Communication framework was essential to provide a structured approach to enhance accurate and completeness of information. There is a need to develop standardized and comprehensive training programs utilizing SBAR as a universal tool to improve both verbal and written handovers in interprofessional education. This approach would enhance consistent and accurate interdisciplinary communication among healthcare professionals from different backgrounds. There is a pressing need for innovative training that leverages technology to create authentic real‐world scenarios for interprofessional education. Such initiatives are crucial in enhancing patient safety, promoting effective care coordination, and elevating the overall quality of healthcare services."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "pmcid": "PMC7245999",
+ "pmid": "32449147",
+ "doi": "10.1186/s13613-020-00679-3",
+ "topic": "intravenous fluids",
+ "title": "Intravenous fluid therapy in the perioperative and critical care setting: Executive summary of the International Fluid Academy (IFA).",
+ "authors": "Malbrain MLNG, Langer T, Annane D, Gattinoni L, Elbers P, Hahn RG, De Laet I, Minini A, Wong A, Ince C, Muckart D, Mythen M, Caironi P, Van Regenmortel N.",
+ "affiliation": "Department of Intensive Care Medicine, University Hospital Brussels (UZB), Laarbeeklaan 101, 1090, Jette, Belgium. manu.malbrain@uzbrussel.be.",
+ "journal": "Annals of intensive care",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 204,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Intravenous fluid administration should be considered as any other pharmacological prescription. There are three main indications: resuscitation, replacement, and maintenance. Moreover, the impact of fluid administration as drug diluent or to preserve catheter patency, i.e., fluid creep, should also be considered. As for antibiotics, intravenous fluid administration should follow the four Ds: drug, dosing, duration, de-escalation. Among crystalloids, balanced solutions limit acid-base alterations and chloride load and should be preferred, as this likely prevents renal dysfunction. Among colloids, albumin, the only available natural colloid, may have beneficial effects. The last decade has seen growing interest in the potential harms related to fluid overloading. In the perioperative setting, appropriate fluid management that maintains adequate organ perfusion while limiting fluid administration should represent the standard of care. Protocols including a restrictive continuous fluid administration alongside bolus administration to achieve hemodynamic targets have been proposed. A similar approach should be considered also for critically ill patients, in whom increased endothelial permeability makes this strategy more relevant. Active de-escalation protocols may be necessary in a later phase. The R.O.S.E. conceptual model (Resuscitation, Optimization, Stabilization, Evacuation) summarizes accurately a dynamic approach to fluid therapy, maximizing benefits and minimizing harms. Even in specific categories of critically ill patients, i.e., with trauma or burns, fluid therapy should be carefully applied, considering the importance of their specific aims; maintaining peripheral oxygen delivery, while avoiding the consequences of fluid overload.",
+ "sections": [
+  {
+   "h": "Perioperative fluid management",
+   "text": "The aim of perioperative fluid therapy, in parallel with the maintenance of the effective circulating blood volume, is to avoid both fluid overload and under-hydration, while maintaining patients’ fluid balance as close as possible to zero. Despite this rationale, it is not unusual for surgical patients to receive 5–10 L of fluid and 600–1000 mmol of sodium, leading to edema and adverse outcomes ["
+  },
+  {
+   "h": "Fluid management before surgery",
+   "text": "Fluid therapy is not only meant to compensate intraoperative losses but should also take into account those occurring prior to surgery, induced by poor water intake, bowel preparation, major inflammation associated with a stress response, and possibly, hemorrhage. Dehydration, however, is difficult to detect through clinical methods.\n\nMany studies examined whether a fluid load is capable of reducing hypotension caused by the induction of general/regional anesthesia. However, results regarding a preload strategy have been discouraging ["
+  },
+  {
+   "h": "Fluid management during surgery",
+   "text": "In response to the ongoing administration of large volumes of crystalloid to patients undergoing major surgery, a ‘fluid restrictive’ strategy has been proposed. For example, Brandstrup et al. demonstrated in a multi-center randomized controlled trial that a more restrictive regimen was associated with better outcomes following colorectal surgery [restrictive compared with the standard of care that was excessive (e.g., 5 L positive balance due to high crystalloid volumes) [\n\nIt is common in Enhanced Recovery after Surgery (ERAS) protocols to find the term “intraoperative fluid restriction” ["
+  },
+  {
+   "h": "Fluid management after surgery",
+   "text": "Fluid management in postoperative patients is a key determinant of their outcomes. While restoring effective volume is critical for these patients, fluid management should not compromise healing processes. Optimal fluid management should thus target efficient central hemodynamics and tissue perfusion while avoiding positive net fluid balance. In theory, colloids offer the advantages over crystalloids of higher plasma expansion capacity and longer plasma half-life. They have the theoretical disadvantage of delaying clotting time and increasing the risk of kidney injury. In randomized trials, the ratio of the cumulative dose of colloids over the cumulative dose of crystalloids ranged roughly from 0.41 to 1 [I2 = 0%), need for renal replacement therapy (risk ratio 1.11; 95% CI 0.26 to 4.69; I2 = 34%), and major infectious complications (risk ratio 1.19; 95% CI 0.59 to 2.39; I2 = 0%). It is worth mentioning that eligible trials were too small to draw firm conclusions on this issue.\n\nIt should also be stated that there are opposing views regarding the use of starches [\n\nAmong patients undergoing major abdominal surgery, the recent results of the FLASH trial, showed no significant difference in a composite outcome of death or major postoperative complications within 14 days after surgery [\n\nPending the results of ongoing trials, there are currently insufficient data to ban the use of colloids in the surgical intensive care unit.\n\nMany patients undergoing surgery are not able to ingest food or fluids for some time following surgery and will require maintenance fluids. Recently, a debate emerged on the tonicity of these solutions: although guidelines traditionally recommended the use of hypotonic maintenance fluids, in pediatric literature, these were shown to be associated with an increased incidence of symptomatic hyponatremia ["
+  },
+  {
+   "h": "The 4 phases of fluid therapy and the R.O.S.E. or S.O.S.D. concept",
+   "text": "Two articles were published recently, almost simultaneously, referring to the dynamics of fluid therapy [four dynamic phases. The Acute Dialysis Quality Initiative (ADQI) group proposed S.O.S.D. (Salvage, Optimization, Stabilization, De-escalation) as acronym [International Fluid Academy Day (IFAD) meetings there was a clear preference for the R.O.S.E. acronym (Resuscitation, Optimization, Stabilization, Evacuation) as summarized below, in Fig."
+  },
+  {
+   "h": "Fluid management in acute hemorrhagic shock following trauma",
+   "text": "Although traumatic brain injury remains the commonest cause of death following severe blunt injury, concomitant major hemorrhage will result in cerebral hypoperfusion, which undoubtedly contributes to secondary brain injury and death. As such, hemorrhage remains the most preventable cause of trauma mortality.\n\nAn adequate intravascular volume, hemoglobin concentration and oxygen saturation are essential to maintain aerobic metabolism. Humans do not tolerate anaerobic metabolism and 90% of oxygen consumption is used in the formation of adenosine triphosphate (ATP), the major energy source for cell function. Rapid reversal of anaerobic metabolism is imperative to restore ATP and prevent irreversible cellular apoptosis and death [\n\nRecognizing that hypovolemia is the consequence of hemorrhagic shock, past strategies utilized crystalloids to restore intravascular volume, followed by blood transfusion. Crystalloids, however, do not carry oxygen, and oxygen delivery may only be enhanced by an adequate hemoglobin concentration. Furthermore, major hemorrhage is accompanied by a unique coagulation disorder, the Acute Coagulopathy of Trauma and Shock (ACoTS) [\n\nWhile the above is a general recommendation, not all patients will require such an aggressive approach [\n\nThe standard approach has been to use conventional laboratory coagulation testing to determine the need for component therapy. These, however, are performed at room temperature and do not reflect individual steps in coagulation. Thromboelastometry has now been recognized as an essential tool to monitor coagulopathy in trauma [\n\nFollowing the CRASH-2 trial indicating the benefit of tranexamic acid given within 3 h from injury, such treatment has been included in many protocols for major hemorrhage ["
+  }
+ ]
+}

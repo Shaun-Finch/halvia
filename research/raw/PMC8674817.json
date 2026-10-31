@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC8674817",
+ "pmid": "33940057",
+ "doi": "10.1016/j.jaci.2021.03.048",
+ "topic": "anaphylaxis",
+ "title": "Global patterns in anaphylaxis due to specific foods: A systematic review.",
+ "authors": "Baseggio Conrado A, Patel N, Turner PJ.",
+ "affiliation": "National Heart & Lung Institute, Imperial College London, London, United Kingdom.",
+ "journal": "The Journal of allergy and clinical immunology",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 83,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background There are increasing global data relating to prevalence of food allergy and food-induced anaphylaxis; however, this is often based on surrogate measures of sensitization rather than objective symptoms at food challenge. In terms of protecting food-allergic consumers from reactions, to our knowledge, there has been no global survey assessing geographic differences in the proportion of anaphylaxis triggered by specific foods. Objective We sought to identify common triggers for food-induced anaphylaxis and how these vary from country to country. Methods Systematic review of relevant reports published between January 2010 and November 2020. Results were reported following PRISMA guidelines. Publications were screened and data extracted by 2 independent reviewers, and the risk of bias was assessed. Results Sixty-five studies (encompassing 41 countries and all 6 regions as defined by the Food and Agriculture Organization of the United Nations) were included. Significant regional variations in the most common triggers of food anaphylaxis were seen; however, in general, there was good agreement between local legislative requirements for allergen disclosure and the most common allergens for each region or nation. Conclusions Local legislation for allergen disclosure generally reflects those allergens commonly responsible for food anaphylaxis. Cow's milk and crustaceans appear to cause a higher proportion of anaphylaxis compared to peanut in some regions.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Using a systematic approach, we identified important and often region-specific differences in the most common food allergens causing anaphylaxis across the globe. However, legislative requirements for food allergen disclosure generally mirrored the local allergens most commonly responsible for food anaphylaxis events. Cow’s milk and shellfish/crustaceans are important causes of anaphylaxis globally, in addition to peanut and tree nuts. These data support the use of location-specific epidemiology to guide both public health policy and research with respect to food allergy."
+  }
+ ]
+}

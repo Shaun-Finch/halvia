@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC10416834",
+ "pmid": "37568965",
+ "doi": "10.3390/diagnostics13152602",
+ "topic": "diabetic ketoacidosis",
+ "title": "Diabetic Ketoacidosis in Children and Adolescents; Diagnostic and Therapeutic Pitfalls.",
+ "authors": "Kostopoulou E, Sinopidis X, Fouzas S, Gkentzi D, Dassios T, Roupakias S, Dimitriou G.",
+ "affiliation": "Department of Paediatrics, University of Patras, 26504 Patras, Greece.",
+ "journal": "Diagnostics (Basel, Switzerland)",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 27,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Diabetic ketoacidosis (DKA) represents an acute, severe complication of relative insulin deficiency and a common presentation of Type 1 Diabetes Mellitus (T1DM) primarily and, occasionally, Type 2 Diabetes Mellitus (T2DM) in children and adolescents. It is characterized by the biochemical triad of hyperglycaemia, ketonaemia and/or ketonuria, and acidaemia. Clinical symptoms include dehydration, tachypnoea, gastrointestinal symptoms, and reduced level of consciousness, precipitated by a variably long period of polyuria, polydipsia, and weight loss. The present review aims to summarize potential pitfalls in the diagnosis and management of DKA. A literature review was conducted using the Pubmed/Medline and Scopus databases including articles published from 2000 onwards. Diagnostic challenges include differentiating between T1DM and T2DM, between DKA and hyperosmolar hyperglycaemic state (HHS), and between DKA and alternative diagnoses presenting with overlapping symptoms, such as pneumonia, asthma exacerbation, urinary tract infection, gastroenteritis, acute abdomen, and central nervous system infection. The mainstays of DKA management include careful fluid resuscitation, timely intravenous insulin administration, restoration of shifting electrolyte disorders and addressing underlying precipitating factors. However, evidence suggests that optimal treatment remains a therapeutic challenge. Accurate and rapid diagnosis, prompt intervention, and meticulous monitoring are of major importance to break the vicious cycle of life-threatening events and prevent severe complications during this potentially fatal medical emergency.",
+ "sections": [
+  {
+   "h": "4.1. Pitfalls Related to the Diagnosis of DKA",
+   "text": "DKA is more frequent in children with T1DM, but it also occurs in adolescents with T2DM [\n\nDifferentiating between DKA and HHS, is yet another pitfall in the diagnosis of DKA. The two conditions are hyperglycaemic emergencies, although, with distinct pathophysiologies. HHS, which is rare in children with T1DM and more common in adults with T2DM, is characterized by marked hyperglycaemia and absence of ketosis. Specifically, HHS is characterized by severe hyperglycaemia (glucose > 30 mmol/L or 540 mg/dL), increased serum osmolality (>320 mOsmol/L) due to electrolyte and glucose concentrations, and circulatory volume depletion due to osmotic diuresis, in the absence of ketosis (β-hydroxybutyrate concentrations < 3.0 mmol/L) and acidosis (pH > 7.3 and HCO3− > 15 mmol/L) [\n\nIn addition, lack of prompt recognition of new-onset T1DM by health-care providers is another pitfall that may increase the risk of DKA [\n\nOnce ketosis and acidosis begin to develop, gastrointestinal symptoms are added, including nausea, vomiting and abdominal pain, in more than 60% of patients [\n\nIn addition, with the progression of DKA, Kussmaul breathing pattern is observed as a compensatory mechanism for hyperketonaemia and metabolic acidosis, characterized by tachypnoea, deep and laboured breathing. These symptoms may falsely be attributed to a respiratory tract infection or pneumonia. A careful physical examination can differentiate between the two conditions. Notably, DKA is not characterized by symptoms such as cough and fever, or by signs of respiratory distress, with the exception of tachypnoea. In contrast, children with DKA are either normothermic or hypothermic. Also, a fruity odour due to acetone exhalation is typical of DKA. Caution should be raised about the likelihood of DKA being precipitated by a respiratory tract infection.\n\nFinally, if DKA remains undiagnosed, mental status is impaired due to deteriorating dehydration and acidosis, resulting in lethargy or even coma. Excluding CNS infection, such as meningitis or encephalitis, is necessary."
+  },
+  {
+   "h": "4.3. Pitfalls Related to the Management of DKA",
+   "text": "Fluid and electrolyte replacement and insulin therapy are the cornerstones of DKA management, with the aims of restoring normal circulatory volume, improving glomerular filtration and clearing glucose and ketones from the blood, normalizing glucose concentrations, and correcting acidaemia and electrolyte disturbances ["
+  },
+  {
+   "h": "4.4. Fluid Management",
+   "text": "Numerous studies have highlighted the risk of development of cerebral oedema, a potentially devastating consequence of DKA, after initiation of DKA treatment [\n\nAdditionally, restoration of fluid volume is achieved with administration of 0.9% sodium chloride or Ringer’s lactate ["
+  }
+ ]
+}

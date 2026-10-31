@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6860389",
+ "pmid": "31738714",
+ "doi": "10.5811/westjem.2019.9.43732",
+ "topic": "acute heart failure",
+ "title": "Diagnosis of Acute Heart Failure in the Emergency Department: An Evidence-Based Review.",
+ "authors": "Long B, Koyfman A, Gottlieb M.",
+ "affiliation": "Brooke Army Medical Center, Department of Emergency Medicine, Fort Sam Houston, Texas.",
+ "journal": "The western journal of emergency medicine",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 42,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Heart failure is a common presentation to the emergency department (ED), which can be confused with other clinical conditions. This review provides an evidence-based summary of the current ED evaluation of heart failure. Acute heart failure is the gradual or rapid decompensation of heart failure, resulting from either fluid overload or maldistribution. Typical symptoms can include dyspnea, orthopnea, or systemic edema. The physical examination may reveal pulmonary rales, an S3 heart sound, or extremity edema. However, physical examination findings are often not sensitive or specific. ED assessments may include electrocardiogram, complete blood count, basic metabolic profile, liver function tests, troponin, brain natriuretic peptide, and a chest radiograph. While often used, natriuretic peptides do not significantly change ED treatment, mortality, or readmission rates, although they may decrease hospital length of stay and total cost. Chest radiograph findings are not definitive, and several other conditions may mimic radiograph findings. A more reliable modality is point-of-care ultrasound, which can facilitate the diagnosis by assessing for B-lines, cardiac function, and inferior vena cava size. These modalities, combined with clinical assessment and gestalt, are recommended.",
+ "sections": [
+  {
+   "h": "CONCLUSION",
+   "text": "Heart failure is a common presentation to the ED, which can be confused with other clinical conditions. Acute heart failure refers to the gradual or rapid decompensation of heart failure, resulting from either fluid overload or maldistribution. Typical symptoms can include dyspnea, orthopnea, or edema. The physical examination may reveal pulmonary rales, an S3 heart sound, or extremity edema. Laboratory studies should include an electrocardiogram, complete blood count, basic metabolic profile, coagulation studies, troponin, brain natriuretic peptide, and a chest radiograph. Point-of-care ultrasound can facilitate the diagnosis by assessing for B-lines, cardiac function, and inferior vena cava size. Understanding the diagnostic approach can improve the diagnostic accuracy and allow for more rapid initiation of the correct intervention."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5048662",
+ "pmid": "27716278",
+ "doi": "10.1186/s13049-016-0308-2",
+ "topic": "blood transfusion",
+ "title": "A systematic review on the rotational thrombelastometry (ROTEM®) values for the diagnosis of coagulopathy, prediction and guidance of blood transfusion and prediction of mortality in trauma patients.",
+ "authors": "Veigas PV, Callum J, Rizoli S, Nascimento B, da Luz LT.",
+ "affiliation": "Department of Surgery, St. Michael's Hospital and Institute of Medical Science, University of Toronto, 30 Bond Street, 3074 Donnelly Wing, Toronto, M5W 1B8, ON, Canada.",
+ "journal": "Scandinavian journal of trauma, resuscitation and emergency medicine",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 116,
+ "pubtypes": [
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Introduction Viscoelastic assays have been promoted as an improvement over traditional coagulation tests in the management of trauma patients. Rotational thromboelastometry (ROTEM®) has been used to diagnose coagulopathy and guide hemostatic therapy in trauma. This systematic review of clinical studies in trauma investigates the ROTEM® parameters thresholds used for the diagnosing coagulopathy, predicting and guiding transfusion and predicting mortality. Methods Systematic literature search was performed using MEDLINE, EMBASE and Cochrane databases. We included studies without restricting year of publication, language or geographic location. Original studies reporting the thresholds of ROTEM® parameters in the diagnosis or management of coagulopathy in trauma patients were included. Data on patient demographics, measures of coagulopathy, transfusion and mortality were extracted. We reported our findings according to the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) guidelines. Quality assessment and risk of bias were performed using Newcastle Ottawa Scale (NOS) and the quality assessment of diagnostic accuracy studies (QUADAS-2) tools, respectively. Results A total of 13 observational studies involving 2835 adult trauma patients met the inclusion criteria. Nine studies were prospective and four were retrospective. There were no randomized controlled trials. The quality of the included studies was moderate (mean NOS 5.92, standard deviation 0.26). Using QUADAS-2, only 1 study (7.6 %) had low risk of bias in all domains, and 9 studies (69.2 %) had low risk of applicability concerns. Outcomes from 13 studies were grouped into three categories: diagnosis of coagulopathy (n = 10), prediction of massive transfusion or transfusion guidance (n = 6) and prediction of mortality (n = 6). Overall, specific ROTEM® parameters measured (clot amplitude and lysis) in the extrinsically activated test (EXTEM) and the fibrin-based extrinsically activated test (FIBTEM) were consistently associated with the diagnosis of coagulopathy, increased risk of bleeding and massive transfusion, and prediction of mortality. Presence of hyperfibrinolysis by ROTEM® was associated with increased mortality. Conclusions Most of the evidence indicates that abnormal EXTEM and FIBTEM clot amplitude (CA5, CA10) or maximal clot firmness (MCF) diagnose coagulopathy, and predict blood transfusion and mortality. The presence of fibrinolysis (abnormal lysis index [LI30] or maximum lysis [ML]) was also associated with mortality. ROTEM® thus, may be of value in the early management of trauma patients.",
+ "sections": [
+  {
+   "h": "Studies addressing thresholds of ROTEM® parameters to diagnose ACoTS",
+   "text": "Definition of coagulopathy by SCTs and ROTEM® parameters varied across all studies. Five studies [9 L−1 and/or fibrinogen < 1 g/L [\n\nIn ROTEM®, 10 studies reported thresholds of parameters in detecting the various defects in ACoTS ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "In summary, this systematic review finds that, consistently across all manuscripts reviewed, abnormal EXTEM and FIBTEM clot amplitude (CA5, CA10, CA20) and MCF are capable of diagnosing ACoTS (compared to SCT tests), predict the need for massive transfusion, and predict mortality. Furthermore, the presence of lysis, diagnosed by abnormal LI30 or ML is also strongly associated with mortality. Thus, based on the current available evidence we reviewed, it could be extrapolated that clinical practice guidelines using ROTEM® parameters thresholds to guide blood component transfusion could be clinically useful. Goal-directed component transfusion approach guided by ROTEM® may reduce the exposure to allogeneic blood products and the complications derived from inappropriate resuscitation. However, due to the use of arbitrary cut-off values, lack of randomized controlled trials, cohort studies with small sample sizes, without comparable controls, and heterogeneous patient populations, no further conclusions can be drawn from the literature to date. Better designed prospective studies comparing ROTEM®-guided transfusion protocols with conventional massive transfusion protocols or transfusion guided by SCTs are warranted to determine optimal parameters and accurate thresholds."
+  }
+ ]
+}

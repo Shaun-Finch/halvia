@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC6558372",
+ "pmid": "31231233",
+ "doi": "10.3389/fphys.2019.00637",
+ "topic": "acute pancreatitis",
+ "title": "Incidence of New Onset Diabetes Mellitus Secondary to Acute Pancreatitis: A Systematic Review and Meta-Analysis.",
+ "authors": "Zhi M, Zhu X, Lugea A, Waldron RT, Pandol SJ, Li L.",
+ "affiliation": "Department of Endocrinology, Affiliated ZhongDa Hospital, School of Medicine, Southeast University, Nanjing, China.",
+ "journal": "Frontiers in physiology",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 92,
+ "pubtypes": [
+  "Systematic Review",
+  "systematic-review",
+  "Journal Article"
+ ],
+ "abstract": "Background and Aims:  Patients who have an episode of acute pancreatitis (AP) frequently develop diabetes mellitus (DM) over time. The reported incidence of DM after AP varies depending on the severity, etiology and the extent of pancreatic necrosis during AP. We performed a systematic review to determine the incidence of new-onset DM after AP episode (s), and compared the rate of DM in AP patients based upon different disease characteristics.  Methods:  A total of 31 relevant studies with 13894 subjects were collected from Medline, Embase, and Web of Science. Stata 15 software was used for data analyses in the meta-analysis.  Results:  The random-effects pooled incidence was 23.0% for DM (95% CI 16.0-31.0%) and 15.0% (95% CI 9.0-23.0%) for DM treated with insulin. We noted substantial heterogeneity in incidence estimates for DM and DM treated with insulin ( I   2  = 95.61 and 71.78%; both  p   Conclusion:  Patients with AP developed DM after discharge from hospital with a frequency of about 23%. SAP, alcoholic AP and acute necrotizing pancreatitis (ANP) were associated with increased incidence of DM. Assessments of severity, etiology, and pancreatic necrosis are critical for predicting DM development after AP.",
+ "sections": [
+  {
+   "h": "Quality Assessment and Data Extraction",
+   "text": "Titles and abstracts of the retrieved studies were scanned by two authors (MMZ reviewed all abstracts, and a second review was performed by MMZ and XYZ) to exclude irrelevant studies. MMZ and XYZ then read in detail the full text of the pre-selected articles to determine whether the studies met inclusion criteria. Reference lists of the selected articles were examined to avoid omission of any papers in the field. The corresponding authors were consulted to seek more information if required. The two authors undertook selection of studies, data extraction and quality assessment work independent of each other with all papers.\n\nData on the following variables were extracted: (1) year of publication (2) study design (e.g., cohort, case-control study) (3) method of sample selection (4) number and age of participants (5) proportion of male subjects (6) number of AP episodes (7) definition of AP and classification of its severity (8) criteria used to diagnose prediabetes and DM (9) etiology of AP (i.e., biliary, alcohol, other) and number of AP episodes due to each etiology (10) duration of follow-up period (11) glucose homeostasis test employed, (12) onset of prediabetes, DM and DM treated with insulin (13) number of subjects with acute necrotizing pancreatitis (ANP) and (14) occurrence of both abnormal glucose metabolism and ANP (15) presence of surgeries including pancreatic resection, necrosectomy, and lavage (16) presence of exocrine insufficiency and its measurement. If necessary, further clarifications were sought from the authors of relevant studies."
+  },
+  {
+   "h": "Participants' Key Characteristics and Definitions",
+   "text": "AP: AP was confirmed when 2 out of the 3 measures were fulfilled: (1) typical abdominal pain, (2) serum amylase and/or lipase >3 times the upper limit of normal, and/or (3) characteristic findings from abdominal imaging.\n\nBecause different definitions of diabetes were used during the years of the reports, we used the following in our review: individuals with FBG ≥7.8 mmol/L or 2 h OGTT ≥11.1 mmol/L or FBG ≥7.0 mmol/L and/or treatment with insulin, oral hypoglycemic drugs or specific dietary management.\n\nThe severity classifications of acute pancreatitis have changed over the years: (1) 1974: Ranson's Criteria (Ranson et al.,\n\nAcute necrotizing pancreatitis was determined based on contrast-enhanced CT scan, histology, surgery or medical records.\n\nPancreatic surgery was noted when the patient underwent pancreatic resection, necrosectomy with peritoneal lavage, retroperitoneal drainage and lavage. Surgeries not related to pancreas (e.g., cholecystectomy, cesarean section, and others) were not recorded as surgery for the purposes of this study.\n\nRecurrent AP was recorded in patients with one or more episodes of confirmed AP since their first AP attack. Those patients with only one confirmed episode of AP were recorded as no recurrence or one single attack of AP.\n\nExocrine pancreatic insufficiency was determined by using the Fecal elastase (FE-1) test. Abnormal exocrine pancreatic function was defined as Elastase ≤ 200 μg/g stool. Patients with abnormal exocrine pancreatic function tested using the secretin-cerulein test according to Malfertheiner Classification were also deemed to be positive."
+  },
+  {
+   "h": "Conclusion",
+   "text": "The results of our analysis show that ~1 in 5 patients with an AP episode develops DM afterwards, and the rate increases over time. In addition, the occurrence of DM after alcoholic AP, SAP, and ANP was 2 to 3 times higher than that secondary to biliary AP, MAP, and AP without necrosis. Our findings strongly highlight the importance of regular long-term follow-up for endocrine function in patients after AP, especially in those with severe, alcoholic, and necrotizing pancreatitis. The early diagnosis and treatment of endocrine impairment can also help the population prevent deterioration of pancreatic exocrine function."
+  }
+ ]
+}

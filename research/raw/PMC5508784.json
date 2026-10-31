@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC5508784",
+ "pmid": "28701227",
+ "doi": "10.1186/s13054-017-1760-8",
+ "topic": "oxygen therapy",
+ "title": "High-flow nasal cannula oxygen therapy is superior to conventional oxygen therapy but not to noninvasive mechanical ventilation on intubation rate: a systematic review and meta-analysis.",
+ "authors": "Zhao H, Wang H, Sun F, Lyu S, An Y.",
+ "affiliation": "Department of Critical Care Medicine, Peking University People's Hospital, No. 11 Xizhimen South Street, Xicheng District, Beijing, 100044, China. zhaohuiying109@sina.com.",
+ "journal": "Critical care (London, England)",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 112,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background High-flow nasal cannula oxygen (HFNC) is a relatively new therapy used in adults with respiratory failure. Whether it is superior to conventional oxygen therapy (COT) or to noninvasive mechanical ventilation (NIV) remains unclear. The aim of the present study was to investigate whether HFNC was superior to either COT or NIV in adult acute respiratory failure patients. Methods A review of the literature was conducted from the electronic databases from inception up to 20 October 2016. Only randomized clinical trials comparing HFNC with COT or HFNC with NIV were included. The intubation rate was the primary outcome; secondary outcomes included the mechanical ventilation rate, the rate of escalation of respiratory support and mortality. Results Eleven studies that enrolled 3459 patients (HFNC, n = 1681) were included. There were eight studies comparing HFNC with COT, two comparing HFNC with NIV, and one comparing all three. HFNC was associated with a significant reduction in intubation rate (OR 0.52, 95% CI 0.34 to 0.79, P = 0.002), mechanical ventilation rate (OR 0.56, 95% CI 0.33 to 0.97, P = 0.04) and the rate of escalation of respiratory support (OR 0.45, 95% CI 0.31 to 0.67, P  Conclusions Compared to COT, HFNC reduced the rate of intubation, mechanical ventilation and the escalation of respiratory support. When compared to NIV, HFNC showed no better outcomes. Large-scale randomized controlled trials are necessary to prove our findings. Trial registration PROSPERO International prospective register of systematic reviews on May 25, 2016 registration no. CRD42016039581 .",
+ "sections": [
+  {
+   "h": "Quality assessment and publication bias",
+   "text": "Two independent reviewers assessed the methodological quality of the included trials using the Cochrane Collaboration Risk of Bias tool [\n\nFunnel plots were used to assess the possibility of publication bias and were implemented in RevMan 5.3 software. The Egger regression test was used to measure funnel plot asymmetry ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "In conclusion, compared with COT, HFNC reduced the rate of intubation, mechanical ventilation and escalation of respiratory support. When compared to NIV, HFNC showed similar results. Large-scale randomized controlled trials are necessary to confirm our findings."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC12085841",
+ "pmid": "40383754",
+ "doi": "10.1186/s13023-025-03720-5",
+ "topic": "cellulitis and skin infection",
+ "title": "A systematic review of tumor necrosis factor-α blockers, anti-interleukins, and small molecule inhibitors for dissecting cellulitis of the scalp treatment.",
+ "authors": "Heidari N, Ghannadzadeh Kermani Pour R, Farshbafnadi M, Heidari A, Ghane Y.",
+ "affiliation": "School of Medicine, Iran University of Medical Sciences, Tehran, Iran.",
+ "journal": "Orphanet journal of rare diseases",
+ "year": "2025",
+ "license": "cc by",
+ "cited": 7,
+ "pubtypes": [
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Dissecting cellulitis of the scalp (DCS) is a type of neutrophilic scarring alopecia identified by the development of folliculitis with clusters of perifollicular pustules and then progresses to abscesses and intercommunicating sinus formation. In the absence of evidence-based guidelines, the treatment of DCS remains a therapeutic challenge. Our study aimed to assess the safety and efficacy of biologics, including tumor necrosis factor-α (TNF-α) blockers, anti-interleukins (ILs), and small molecule inhibitors, including Janus kinase (JAK) inhibitors and phosphodiesterase inhibitors in treating DCS. Methods PubMed/Medline, Scopus, and Ovid Embase databases were systematically searched until February 4th, 2024. Study selection was restricted to case reports, case series, cohort studies, and clinical trials published in English-language. NIH and Murad et al.'s quality assessment tools were utilized for critical appraisal. Results A total of 34 articles involving 81 patients met the inclusion criteria. The immunomodulators studied for the treatment of DCS include adalimumab, infliximab, certolizumab pegol, ustekinumab, secukinumab, guselkumab, risankizumab, tildrakizumab, apremilast, upadacitinib, and baricitinib. Our findings implied that TNF-α blockers and IL inhibitors were associated with clinical improvement in most individuals with moderate-to-severe DCS, especially in those who had failed earlier treatments. Moreover, certolizumab pegol could be a safe option for DCS in pregnancy. In addition, the prescription of small molecule inhibitors, including JAK inhibitors and apremilast in DCS patients, demonstrated a significant amelioration in DCS symptoms with a desirable safety profile. Nevertheless, the available data was limited, warranting further investigation. Besides, all aforementioned immunomodulators are still debated for their effectiveness on hair regrowth and reversing the scarring process. Conclusions The application of immunomodulators in treating DCS was associated with satisfactory outcomes, although there is still a need to assess the long-term safety and effectiveness of these therapeutic agents in preventing disease progression and new flare-ups.",
+ "sections": [
+  {
+   "h": "Risk of bias assessment",
+   "text": "Two independent investigators (RG and MF) evaluated the articles’ methodological quality and bias risk by using the National Institutes of Health’s Quality Assessment Tool for Cohort and Cross-Sectional Studies ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "DCS is a chronic, devastating, autoimmune-driven skin disease with no definitive treatment, leading to scar formation. Our systematic review revealed that immunomodulatory drugs are potentially effective for improving DCS lesions in patients suffering from moderate-to-severe DCS, especially in the ones who did not respond to previous treatments. However, achieving a satisfactory treatment response to hair regrowth needs further assessment. Moreover, our study’s reliance on limited data highlights the need for extensive investigations to verify these findings and evaluate the broader landscape of effective treatment options and their adverse events to determine the most effective practice for DCS."
+  }
+ ]
+}

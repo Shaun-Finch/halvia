@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC5429347",
+ "pmid": "28432428",
+ "doi": "10.1007/s00508-017-1194-y",
+ "topic": "major haemorrhage",
+ "title": "Tranexamic acid for treatment and prophylaxis of bleeding and hyperfibrinolysis.",
+ "authors": "Pabinger I, Fries D, Schöchl H, Streif W, Toller W.",
+ "affiliation": "Clinical Department of Hematology and Hemostaseology, Medical University Vienna, Vienna, Austria. ingrid.pabinger@meduniwien.ac.at.",
+ "journal": "Wiener klinische Wochenschrift",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 101,
+ "pubtypes": [
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Uncontrolled massive bleeding with subsequent derangement of the coagulation system is a major challenge in the management of both surgical and seriously injured patients. Under physiological conditions activators and inhibitors of coagulation regulate the sensitive balance between clot formation and fibrinolysis. In some cases, excessive and diffuse bleeding is caused by systemic activation of fibrinolysis, i. e. hyperfibrinolysis (HF). Uncontrolled HF is associated with a high mortality. Polytrauma patients and those undergoing surgical procedures involving organs rich in plasminogen proactivators (e. g. liver, kidney, pancreas, uterus and prostate gland) are at a high risk for HF. Antifibrinolytics, such as tranexamic acid (TXA) are used for prophylaxis and treatment of bleeding caused by a local or generalized HF as well as other hemorrhagic conditions. TXA is a synthetic lysine analogue that has been available in Austria since 1966. TXA is of utmost importance in the prevention and treatment of traumatic and perioperative bleeding due to the resulting reduction in perioperative blood loss and blood transfusion requirements. The following article presents the different fields of application of TXA with particular respect to indications and dosages, based on a literature search and on current guidelines.",
+ "sections": [
+  {
+   "h": "Diagnosis",
+   "text": "Diagnosing HF often proves difficult, since no specific tests that would allow prompt therapeutic decisions are currently available. Tests such as the determination of plasmin-antiplasmin complexes or α2-antiplasmin assays are time-consuming and hardly practicable in everyday clinical work. The same holds for the euglobulin lysis time, long seen as the gold standard but both time-consuming and fault-prone [2-antiplasmin levels are very low ["
+  },
+  {
+   "h": "TXA not recommended by the authors",
+   "text": "According to expert opinion, administration of TXA is not recommended in the following cases:\n\nIf TXA were still to be administered, this should only be done in patients in whom an activation of the fibrinolytic system preponderates and in the presence of severe bleeding."
+  },
+  {
+   "h": "Summary",
+   "text": "TXA has been used for decades to prevent and treat clinically relevant HF and more generally for the prevention and treatment of bleeding due to a variety of causes. In the course of major surgical interventions (especially cardiac surgery, orthopedic surgery and liver transplantations) TXA reduces perioperative blood loss and the need for transfusions. In trauma patients with partly excessive bleeding TXA can also reduce mortality, in particular if administered within a narrow time frame after injury.\n\nDespite extensive experience there still remain open questions as to the uses of TXA, which would ideally have to be dealt with in future studies:"
+  }
+ ]
+}

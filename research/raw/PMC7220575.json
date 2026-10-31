@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC7220575",
+ "pmid": "32404975",
+ "doi": "10.1038/s41409-020-0919-0",
+ "topic": "COVID-19 in hospital",
+ "title": "The challenge of COVID-19 and hematopoietic cell transplantation; EBMT recommendations for management of hematopoietic cell transplant recipients, their donors, and patients undergoing CAR T-cell therapy.",
+ "authors": "Ljungman P, Mikulska M, de la Camara R, Basak GW, Chabannon C, Corbacioglu S, Duarte R, Dolstra H, Lankester AC, Mohty M, Montoto S, Murray J, Peffault de Latour R, Snowden JA, Yakoub-Agha I, Verhoeven B, Kröger N, Styczynski J, European Society for Blood and Marrow Transplantation.",
+ "affiliation": "Department of Cellular Therapy and Allogeneic Stem Cell Transplantation, Karolinska University Hospital Huddinge, Stockholm, Sweden. Per.Ljungman@ki.se.",
+ "journal": "Bone marrow transplantation",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 167,
+ "pubtypes": [
+  "Practice Guideline",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The new coronavirus SARS-CoV-2 has rapidly spread over the world causing the disease by WHO called COVID-19. This pandemic poses unprecedented stress on the health care system including programs performing allogeneic and autologous hematopoietic cell transplantation (HCT) and cellular therapy such as with CAR T cells. Risk factors for severe disease include age and predisposing conditions such as cancer. The true impact on stem cell transplant and CAR T-cell recipients in unknown. The European Society for Blood and Marrow Transplantation (EBMT) has therefore developed recommendations for transplant programs and physicians caring for these patients. These guidelines were developed by experts from the Infectious Diseases Working Party and have been endorsed by EBMT's scientific council and board. This work intends to provide guidelines for transplant centers, management of transplant candidates and recipients, and donor issues until the COVID-19 pandemic has passed.",
+ "sections": [
+  {
+   "h": "Diagnosis of COVID-19",
+   "text": "Diagnostic procedures for COVID-19 should follow national or local guidelines. It is important to note that a test for SARS-CoV-2 in nasopharyngeal swab can be falsely negative and needs to be repeated if there is a strong clinical suspicion of COVID-19. The performance of testing is better in samples from the lower than from the upper respiratory tract. It is also important to test for other respiratory viral pathogens including influenza and RSV preferably by multiplex PCR."
+  },
+  {
+   "h": "Treatment of COVID-19 positive transplant recipients and CAR T-cell patients",
+   "text": "Currently there is no approved treatment options in Europe and there is no available vaccine. Several drugs have been studied in prior coronavirus outbreaks (SARS-CoV and MERS-CoV) and though some benefit has been demonstrated, the data are inconclusive. Remdesivir has demonstrated in vitro and in vivo activity in animal models against the viral pathogens MERS and SARS, which are also coronaviruses and are structurally similar to SARS-CoV-2. The limited preclinical data on remdesivir in MERS and SARS indicate that remdesivir may have potential activity against COVID-19 [\n\nSince an important part of the pathology seems to be cytokine release, different therapies addressing this syndrome have been tested. Tocilizumab, which is approved for cytokine release syndrome after CAR T-cell therapy, have been used and is approved in China [\n\nSome data suggest that use of angiotensin conversion enzyme inhibitors and angiotensin II receptor blocker might be implicated in development of organ failure in COVID-19 patients [\n\nAt this point no clear recommendations can be made on specific therapies due to limited data and unknown risk vs benefit. Even less data are available for pediatric patients. Therapy should be given in close collaboration with specialists in infectious diseases. Despite FDA approval of remdesivir, it is still unclear if and when it optimally should be used. Later in the course of the infection anti-inflammatory therapy with corticosteroids and/or tocilizumab has been shown to be of value in non-transplant patients. Supportive care is crucial including non-invasive ventilation and anti-coagulants to prevent thromboembolic complications, which can be frequent and severe in patients with COVID. Treatment of viral, bacterial and fungal co-pathogens should be optimized. It is currently recommended that immunosuppressive prophylaxis/treatment is continued since there is no data supporting reducing immunosuppression and it might instead cause harm."
+  }
+ ]
+}

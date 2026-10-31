@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC7232731",
+ "pmid": "32454909",
+ "doi": "10.1155/2020/9731854",
+ "topic": "acute pancreatitis",
+ "title": "Diagnostic Value of Neutrophil-Lymphocyte Ratio for Predicting the Severity of Acute Pancreatitis: A Meta-Analysis.",
+ "authors": "Kong W, He Y, Bao H, Zhang W, Wang X.",
+ "affiliation": "Department of Emergency Surgery, Department of Emergency Medicine, The First Affiliated Hospital of Anhui Medical University, Heifei, China.",
+ "journal": "Disease markers",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 89,
+ "pubtypes": [
+  "Meta-Analysis",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Acute pancreatitis (AP) is a life-threatening disease caused by a variety of factors, and once it progresses to severe acute pancreatitis, the prognosis is poor. The purpose of this study was to investigate the diagnostic value of the neutrophil-lymphocyte ratio (NLR) for predicting the severity of acute pancreatitis. Materials and methods We searched the databases of PubMed, EMBASE, Web of Science, and Cochrane Library to identify eligible studies using the NLR to predict the severity of AP. The sensitivity (SEN), specificity (SPE), negative likelihood ratio (NLR), positive likelihood ratio (PLR), diagnostic odds ratio (DOR), and area under the receiver operating characteristic curve (AUC) were combined using a bivariate mixed model. Results A total of 10 articles containing 394 cases and 1319 controls were included in the study. The combined SEN, SPE, NLR, PLR, DOR, and AUC are 79% (73%-84%), 71% (59%-80%), 0.30 (0.21-0.41), 2.7 (1.8-4.0), 9 (5-18), and 0.82 (0.78-0.85), respectively. Conclusions NLR has a moderately high diagnostic value in predicting the severity of acute pancreatitis.",
+ "sections": [
+  {
+   "h": "2.3. Data Extraction and Quality Assessment",
+   "text": "Two group members (Kong WH and He YY) independently extracted data from the included studies, and disagreement was resolved by consulting a third group member through group discussion. For each study included, the following information was extracted: first author, country, publication year, true positive, false positive, false negative, true negative, cases, controls, etiology, sample collecting time, area under the receiver operating characteristic curve, cut-off value, sensitivity, and specificity. Based on the 2012 Atlanta classification criteria, we classified patients into mild acute pancreatitis (MAP), moderately severe acute pancreatitis (MASP), and severe acute pancreatitis (SAP). MAP refers to no organ dysfunction and local complications; MSAP refers to the occurrence of transient organ dysfunction (≤48 h) or accompanied by local or systemic complications; SAP refers to the existence of persistent organ dysfunction (>48 h) ["
+  }
+ ]
+}

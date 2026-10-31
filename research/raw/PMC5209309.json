@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC5209309",
+ "pmid": "28050897",
+ "doi": "10.1186/s13613-016-0231-8",
+ "topic": "intravenous fluids",
+ "title": "Fluid resuscitation in human sepsis: Time to rewrite history?",
+ "authors": "Byrne L, Van Haren F.",
+ "affiliation": "Australian National University Medical School, Canberra, Australia. Liambyrne.syd@gmail.com.",
+ "journal": "Annals of intensive care",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 57,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Fluid resuscitation continues to be recommended as the first-line resuscitative therapy for all patients with severe sepsis and septic shock. The current acceptance of the therapy is based in part on long history and familiarity with its use in the resuscitation of other forms of shock, as well as on an incomplete and incorrect understanding of the pathophysiology of sepsis. Recently, the safety of intravenous fluids in patients with sepsis has been called into question with both prospective and observational data suggesting improved outcomes with less fluid or no fluid. The current evidence for the continued use of fluid resuscitation for sepsis remains contentious with no prospective evidence demonstrating benefit to fluid resuscitation as a therapy in isolation. This article reviews the historical and physiological rationale for the introduction of fluid resuscitation as treatment for sepsis and highlights a number of significant concerns based on current experimental and clinical evidence. The research agenda should focus on the development of hyperdynamic animal sepsis models which more closely mimic human sepsis and on experimental and clinical studies designed to evaluate minimal or no fluid strategies in the resuscitation phase of sepsis.",
+ "sections": [
+  {
+   "h": "Evolution of fluid resuscitation as a therapy for septic shock",
+   "text": "R. Hermann was a German chemist working in Moscow during the second cholera pandemic in 1830. He proposed injecting water into the circulation to replace lost fluid after observing haemoconcentration in cholera patients. His clinician colleague Jaehnichen subsequently injected a cholera patient intravenously with 6 oz. of water, which resulted in a notable improvement in the patient’s pulse. However, the patient died 2 h later [\n\nFluid resuscitation was re-discovered some 30 years later as a treatment for severe haemorrhage. In 1864, Goltz was the first to suggest that loss of intravascular volume rather than a loss of oxygen carrying capacity might be the central mechanism of death in haemorrhagic shock [\n\nThe development of a new paradigm for the condition “shock” accompanied the expansion of the use of intravenous fluids. Prior to the nineteenth century, “shock” remained a concept without a clear definition [\n\nThe ability to measure cardiac output fundamentally changed the paradigm of shock again. The increased understanding of circulatory pathophysiology allowed the differentiation and description of shock by Blalock into the different subtypes recognisable today ["
+  },
+  {
+   "h": "Effectiveness of resuscitation therapies on achieving haemodynamic targets",
+   "text": "Fluid resuscitation exerts its potentially therapeutic effect by increasing the stressed volume of the circulation leading to increased venous return and cardiac output [\n\nThe effect of vasopressors, increasing the stressed volume in the venous circulation, has been relatively overlooked until recently. In patients admitted to intensive care with septic shock, temporary reductions in noradrenaline infusion dose produced corresponding reductions in mean systemic filling pressure and cardiac output [\n\nThese studies highlight that interventions other than fluid resuscitation could be applied to manipulate haemodynamic variables such as cardiac output in sepsis. The comparative effectiveness of these therapies remains unclear."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Fluid resuscitation is recommended and widely used as the first-line resuscitative therapy for all patients presenting with septic shock. This practice seems mainly based on historical beliefs and an incomplete or incorrect understanding of the pathophysiology of sepsis.\n\nViewed as a whole, the bench-to-bedside evidence supporting fluid resuscitation as treatment for sepsis remains remarkably weak and highly conflicting. In addition, the indiscriminate use of fluid resuscitation, specifically beyond the initial resuscitation phase, has the potential to cause significant harm.\n\nAlthough absence of evidence does not equal evidence of absence, one could argue there is an urgent need for better evidence. The research agenda should focus on the development of hyperdynamic animal sepsis models which more closely mimic human sepsis and on experimental and clinical studies designed to evaluate minimal or no fluid strategies in the resuscitation phase of sepsis.\n\nThe recent history of intensive care medicine has taught us that overly aggressive attempts to “normalise physiology”, focusing on numbers, may be harmful. Perhaps the most important contribution towards improved outcomes of intensive care patients has been the removal of ineffective and potentially harmful treatments. Until proven otherwise, fluid resuscitation for sepsis fits that description."
+  }
+ ]
+}

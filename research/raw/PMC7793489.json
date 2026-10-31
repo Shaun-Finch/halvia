@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7793489",
+ "pmid": "33374656",
+ "doi": "10.3390/ijms22010064",
+ "topic": "pressure ulcers",
+ "title": "Role of microRNAs in Pressure Ulcer Immune Response, Pathogenesis, and Treatment.",
+ "authors": "Niemiec SM, Louiselle AE, Liechty KW, Zgheib C.",
+ "affiliation": "Laboratory for Fetal and Regenerative Biology, Department of Surgery, University of Colorado Denver School of Medicine, Aurora, CO 80045, USA.",
+ "journal": "International journal of molecular sciences",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 34,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Pressure ulcers are preventable, yet highly prevalent, chronic wounds that have significant patient morbidity and high healthcare costs. Like other chronic wounds, they are characterized by impaired wound healing due to dysregulated immune processes. This review will highlight key biochemical pathways in the pathogenesis of pressure injury and how this signaling leads to impaired wound healing. This review is the first to comprehensively describe the current literature on microRNA (miRNA, miR) regulation of pressure ulcer pathophysiology.",
+ "sections": [
+  {
+   "h": "3. Current Therapies in Pressure Ulcer Management",
+   "text": "The management of pressure injury starts with prevention, as reductions in external forces that stimulate the pathophysiologic cascade described above are paramount to minimizing soft tissue pressure injury. Mechanisms to reduce load and prevent pressure injury have been described in detail elsewhere, but include regular repositioning and use of advanced support surfaces that improve pressure redistribution [\n\nOptimization of nutrition is critical for wound healing, and has also been implicated in the prevention of pressure wound formation [\n\nDespite the development of preventative strategies, pressure ulcers affect nearly 3 million persons annually in the United States alone, so the development of therapeutics targeting immune dysregulation to improve wound healing is of ongoing interest ["
+  },
+  {
+   "h": "5. Conclusions",
+   "text": "Pressure injury has a significant physical, psychosocial, and economic burden on patient care. MicroRNAs have been described in the pathogenesis and treatment of chronic wounds, but their specific roles in the pathogenesis of pressure ulcers have not been reviewed previously. While correlations with other chronic wound models can be made to improve our understanding of pressure sore healing, the interplay of ischemia-reperfusion injury, impaired lymphatic drainage, and cellular deformation following mechanical pressure has unique pathophysiologic mechanisms. Critical pathways involved in miRNA regulation of pressure ulcer pathophysiology include PI3K/AKT, p38-MAPK, NFκB, and MMP9. Prevention of pressure injury remains of paramount importance, but early therapeutic intervention to prevent stage progression and chronic wound formation will be needed. MiRNAs offer potential regulatory targets to prevent the ongoing pressure injury and improve pressure ulcer resolution."
+  }
+ ]
+}

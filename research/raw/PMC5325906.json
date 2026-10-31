@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5325906",
+ "pmid": "28286843",
+ "doi": null,
+ "topic": "upper GI bleeding",
+ "title": "Clinical Scoring Systems in Predicting the Outcome of Acute Upper Gastrointestinal Bleeding; a Narrative Review.",
+ "authors": "Ebrahimi Bakhtavar H, Morteza Bagi HR, Rahmani F, Shahsavari Nia K, Ettehadi A.",
+ "affiliation": "Emergency Medicine Research Team, Tabriz University of Medical Sciences, Tabriz, Iran.",
+ "journal": "Emergency (Tehran, Iran)",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 24,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Prediction of the outcome and severity of acute upper gastrointestinal bleeding (UGIB) has significant importance in patient care, disposition, and determining the need for emergent endoscopy. Recent international recommendations endorse using scoring systems for management of non-variceal UGIB patients. To date, different scoring systems have been developed for predicting the risk of 30-day mortality and re-bleeding. We have discussed the screening performance characteristics of Baylor bleeding score, the Rockall risk scoring score, Cedars-Sinai Medical Center predictive index, Glasgow Blatchford score, T-score, and AIMS65 systems, in the present review. Based on the results of this survey, there are only 3 clinical decision rules that can predict the outcome of UGIB patients, independent from endoscopy. Among these, only Glasgow Blatchford score was highly sensitive for predicting the risk of 30-day mortality and re-bleeding, simultaneously.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Based on the results of this survey, there are only 3 clinical decision rules that can predict the outcome of UGIB patients, independent from endoscopy. Among these, only Glasgow Blatchford score was highly sensitive for predicting the risk of 30-day mortality and re-bleeding simultaneously."
+  }
+ ]
+}

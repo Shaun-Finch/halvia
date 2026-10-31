@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7991995",
+ "pmid": "33688846",
+ "doi": "10.2196/25704",
+ "topic": "pressure ulcers",
+ "title": "Using Machine Learning Technologies in Pressure Injury Management: Systematic Review.",
+ "authors": "Jiang M, Ma Y, Guo S, Jin L, Lv L, Han L, An N.",
+ "affiliation": "Evidence-based Nursing Center, School of Nursing, Lanzhou University, Lanzhou, China.",
+ "journal": "JMIR medical informatics",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 49,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Pressure injury (PI) is a common and preventable problem, yet it is a challenge for at least two reasons. First, the nurse shortage is a worldwide phenomenon. Second, the majority of nurses have insufficient PI-related knowledge. Machine learning (ML) technologies can contribute to lessening the burden on medical staff by improving the prognosis and diagnostic accuracy of PI. To the best of our knowledge, there is no existing systematic review that evaluates how the current ML technologies are being used in PI management. Objective The objective of this review was to synthesize and evaluate the literature regarding the use of ML technologies in PI management, and identify their strengths and weaknesses, as well as to identify improvement opportunities for future research and practice. Methods We conducted an extensive search on PubMed, EMBASE, Web of Science, Cumulative Index to Nursing and Allied Health Literature (CINAHL), Cochrane Library, China National Knowledge Infrastructure (CNKI), the Wanfang database, the VIP database, and the China Biomedical Literature Database (CBM) to identify relevant articles. Searches were performed in June 2020. Two independent investigators conducted study selection, data extraction, and quality appraisal. Risk of bias was assessed using the Prediction model Risk Of Bias ASsessment Tool (PROBAST). Results A total of 32 articles met the inclusion criteria. Twelve of those articles (38%) reported using ML technologies to develop predictive models to identify risk factors, 11 (34%) reported using them in posture detection and recognition, and 9 (28%) reported using them in image analysis for tissue classification and measurement of PI wounds. These articles presented various algorithms and measured outcomes. The overall risk of bias was judged as high. Conclusions There is an array of emerging ML technologies being used in PI management, and their results in the laboratory show great promise. Future research should apply these technologies on a large scale with clinical data to further verify and improve their effectiveness, as well as to improve the methodological quality.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The study results from various laboratory settings show an array of ML technologies with potential uses in PI management. Future research should apply these technologies on a large scale with clinical data to verify their effectiveness, enhance their performance, and improve methodological quality."
+  }
+ ]
+}

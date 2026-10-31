@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6659221",
+ "pmid": "31372365",
+ "doi": "10.1186/s41038-019-0162-3",
+ "topic": "burns",
+ "title": "Intestinal barrier dysfunction in severe burn injury.",
+ "authors": "He W, Wang Y, Wang P, Wang F.",
+ "affiliation": "State Key Laboratory of Trauma, Burns, and Combined Injury, Institute of Burn Research, Southwest Hospital, Third Military Medical University (Army Medical University), Chongqing, 400038 China.",
+ "journal": "Burns & trauma",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 73,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Severe burn injury is often accompanied by intestinal barrier dysfunction, which is closely associated with post-burn shock, bacterial translocation, systemic inflammatory response syndrome, hypercatabolism, sepsis, multiple organ dysfunction syndrome, and other complications. The intestinal epithelium forms a physical barrier that separates the intestinal lumen from the internal milieu, in which the tight junction plays a principal role. It has been well documented that after severe burn injury, many factors such as stress, ischemia/hypoxia, proinflammatory cytokines, and endotoxins can induce intestinal barrier dysfunction via multiple signaling pathways. Recent advances have provided new insights into the mechanisms and the therapeutic strategies of intestinal epithelial barrier dysfunction associated with severe burn injury. In this review, we will describe the current knowledge of the mechanisms involved in intestinal barrier dysfunction in response to severe burn injury and the emerging therapies for treating intestinal barrier dysfunction following severe burn injury.",
+ "sections": [
+  {
+   "h": "Therapeutic strategies for the burn-induced intestinal barrier dysfunction",
+   "text": "It is well recognized that the treatment of post-burn intestinal barrier dysfunction is an important part of the burn treatment and directly related to the level of comprehensive treatment of severe burns. The factors or pathophysiological processes affecting intestinal barrier function after severe burns are multiple and complex. Thus, the appropriate therapeutic measures should correspondingly be taken to every critical pathophysiological process, such as stress, shock, ischemia/hypoxia, inflammation, infection, and surgical operation. Many clinical and experimental studies in the past have suggested that taking some positive and reasonable measures is beneficial to the intestinal barrier in the early stage of severe burns. These measures include positive anti-shock to improve the oxygen supply to organs including intestine, control of inflammation and infection, wound management, early enteral nutrition, immunonutrition, ecoimmunonutrition, and supplementation of some special nutrients such as glutamine and arginine [\n\nIn addition to the aforementioned therapeutic measures, an animal study has recently demonstrated that zinc finger aspartate-histidine-histidine-cysteine (DHHC) domain-containing protein-21 (ZDHHC21), a particular palmitoyl acyltransferase, mediates the intestinal epithelial hyperpermeability in mice subjected to a 40% TBSA full-thickness scald injury [\n\nWith the deepening understanding of the regulatory mechanisms of intestinal epithelial TJ, new therapeutic strategies aiming at the regulation of intestinal epithelial TJ may be the direction for the prevention and treatment of post-burn intestinal barrier dysfunction, especially the measures targeting at MLC phosphorylation. This may be more important for controlling increased permeability when the histological structure of intestinal mucosa has not yet been damaged obviously. The previous animal studies have already demonstrated that inhibiting MLCK and ROCK activity by using specific inhibitors to reduce MLC phosphorylation in intestinal epithelial cells can significantly alleviate the severe burn-induced intestinal barrier dysfunction and hyperpermeability [in vivo study has also revealed that inhibiting MLCK-mediated MLC phosphorylation by MLCK inhibitor ML-7 can prevent the increase of intestinal permeability, opening of TJ, bacterial translocation, and intestinal inflammatory response in rats challenged with endotoxin ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "The integrity of intestinal barrier function is essential to maintain the homeostasis of the intestinal mucosa. However, the intestinal barrier is disrupted after severe burn injury. A broad range of pathogenic factors is known to induce the disruption of epithelial TJ barrier, thereby leading to the intestinal hyperpermeability. The mechanism of intestinal barrier disruption induced by severe burn injury is extremely complex, involving numerous signaling molecules and related pathways. A better basic understanding of the mechanism might be helpful for the prevention or treatment of intestinal barrier disruption following severe burn injury."
+  }
+ ]
+}

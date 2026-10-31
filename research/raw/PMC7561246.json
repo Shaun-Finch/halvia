@@ -1,0 +1,47 @@
+{
+ "pmcid": "PMC7561246",
+ "pmid": "33060844",
+ "doi": "10.1038/s41581-020-00356-5",
+ "topic": "acute kidney injury",
+ "title": "COVID-19-associated acute kidney injury: consensus report of the 25th Acute Disease Quality Initiative (ADQI) Workgroup.",
+ "authors": "Nadim MK, Forni LG, Mehta RL, Connor MJ, Liu KD, Ostermann M, Rimmelé T, Zarbock A, Bell S, Bihorac A, Cantaluppi V, Hoste E, Husain-Syed F, Germain MJ, Goldstein SL, Gupta S, Joannidis M, Kashani K, Koyner JL, Legrand M, Lumlertgul N, Mohan S, Pannu N, Peng Z, Perez-Fernandez XL, Pickkers P, Prowle J, Reis T, Srisawat N, Tolwani A, Vijayan A, Villa G, Yang L, Ronco C, Kellum JA.",
+ "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA.",
+ "journal": "Nature reviews. Nephrology",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 464,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Consensus Statement",
+  "Journal Article"
+ ],
+ "abstract": "Kidney involvement in patients with coronavirus disease 2019 (COVID-19) is common, and can range from the presence of proteinuria and haematuria to acute kidney injury (AKI) requiring renal replacement therapy (RRT; also known as kidney replacement therapy). COVID-19-associated AKI (COVID-19 AKI) is associated with high mortality and serves as an independent risk factor for all-cause in-hospital death in patients with COVID-19. The pathophysiology and mechanisms of AKI in patients with COVID-19 have not been fully elucidated and seem to be multifactorial, in keeping with the pathophysiology of AKI in other patients who are critically ill. Little is known about the prevention and management of COVID-19 AKI. The emergence of regional 'surges' in COVID-19 cases can limit hospital resources, including dialysis availability and supplies; thus, careful daily assessment of available resources is needed. In this Consensus Statement, the Acute Disease Quality Initiative provides recommendations for the diagnosis, prevention and management of COVID-19 AKI based on current literature. We also make recommendations for areas of future research, which are aimed at improving understanding of the underlying processes and improving outcomes for patients with COVID-19 AKI.",
+ "sections": [
+  {
+   "h": "Recommendations",
+   "text": "Timing of AKI with symptom onset, hospitalization, confirmation of infection, disease severity and level of care should be characterized for appropriate clinical management (not graded).We recommend use of the Kidney Disease: Improving Global Outcomes (KDIGO) consensus definition for AKI, including serum creatinine (SCr) level and urine output, in clinical practice (evidence level: 1A).We suggest using kidney-specific tests along with measures of kidney function to characterize clinical presentations, course and outcomes of AKI (evidence level: 2B)."
+  },
+  {
+   "h": "Recommendations",
+   "text": "We suggest that patients be stratified for risk of AKI based on their comorbidities and demographics. Information about baseline CKD, comorbidities, and demographics should be obtained to define risk profiles of COVID-19 AKI (Box (evidence level: 2C).Risk factors for community and hospital-acquired AKI, severity of illness, process of care, along with the threshold for admission to the hospital and the ICU should be considered when evaluating patients with COVID-19 (not graded)."
+  },
+  {
+   "h": "Recommendations",
+   "text": "We recommend that patients be monitored for AKI throughout their hospital course and be followed for recovery post-discharge (evidence level: 1B).When feasible, renal histology, particularly in cases of heavy proteinuria, may help to differentiate potential causes of AKI (not graded)."
+  },
+  {
+   "h": "Research recommendations",
+   "text": "Future studies should consider the impact of geographical variation, differences in health-care systems, the influence of hospital capacity, the preparedness of health-care systems and social determinants on the epidemiology of COVID-19 AKI, including analysis of how these factors influence risk factors, management of disease and outcomes.Future studies should incorporate information about the proportion of different comorbidities in patients with and without AKI, including potential risk factors for the development of COVID-19 AKI before and after hospital admission.Future studies should determine different phenotypes of COVID-19 AKI based on clinical presentation at diagnosis, patterns of injury, duration and course of AKI, and progression to CKD.The severity of COVID-19 disease at AKI diagnosis and the interventions that have been used for the management of the individual should be reported when describing COVID-19 AKI.The relationship between markers of systemic disease (for example, ferritin, D-dimers, non-respiratory organ failure) and the severity of pulmonary disease to the development, course and outcomes of COVID-19 AKI warrants further study. Risk factors for developing severe AKI (stage 3 AKI or requiring RRT initiation) need to be explored to identify approaches to prevent AKI.The mechanism, timing and clinical implications of traditional markers of AKI (proteinuria and haematuria) as well as novel biomarkers for the diagnosis and prognosis of AKI need to be studied and correlated with markers of systemic disease.Kidney recovery and mortality should be assessed at ICU and hospital discharge. Post-hospitalization outcomes and long-term renal recovery data should be evaluated across different countries."
+  },
+  {
+   "h": "Recommendations",
+   "text": "Strategies based on KDIGO and other relevant guidelines are appropriate for risk- and stage-based prevention and management of COVID-19 AKI (Table (not graded).We recommend individualized fluid and haemodynamic management based on dynamic assessment of cardiovascular status for critically ill patients with COVID-19 (evidence level: 1B).We recommend using balanced crystalloids as initial management for the expansion of intravascular volume in patients at risk of AKI or with AKI unless a specific indication exists for the use of other fluids (evidence level: 1A).We recommend limiting nephrotoxic drug exposure where possible and with careful monitoring when nephrotoxins are required (evidence level: 1B)."
+  },
+  {
+   "h": "Recommendations",
+   "text": "Patients with COVID-19 AKI should be treated using the KDIGO-based standard of care (not graded).We suggest that ventilator strategies in patients with COVID-19 be selected to reduce the risk of AKI when possible (evidence level: 2C)."
+  }
+ ]
+}

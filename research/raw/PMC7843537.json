@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC7843537",
+ "pmid": "33074463",
+ "doi": "10.1007/s11739-020-02525-7",
+ "topic": "refeeding and nutrition",
+ "title": "The Refeeding Syndrome: a neglected but potentially serious condition for inpatients. A narrative review.",
+ "authors": "Ponzo V, Pellegrini M, Cioffi I, Scaglione L, Bo S.",
+ "affiliation": "Department of Medical Sciences, University of Torino, c.so AM Dogliotti 14, 10126, Turin, Italy.",
+ "journal": "Internal and emergency medicine",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 43,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The Refeeding Syndrome (RFS) is a potentially serious, but still overlooked condition, occurring in individuals who are rapidly fed after a period of severe undernourishment. RFS derives from an abnormal electrolyte and fluid shifts leading to many organ dysfunctions. Symptoms generally appear within 2-5 days of re-feeding and may be absent/mild or severe and life threating, depending on the pre-existing degree of malnutrition and comorbidities. The lack of a standard definition and the nonspecificity of the symptoms make both incidence estimate and diagnosis difficult. In 2020, the American Society for Parenteral and Enteral Nutrition (ASPEN) proposed a unifying definition for the RFS and its severity classification. The awareness of the condition is crucial for identifying patients at risk, preventing its occurrence, and improving the management. The objectives of this narrative review were to summarize the current knowledge and recommendations about the RFS and to provide useful tips to help physicians to recognize and prevent the syndrome.",
+ "sections": [
+  {
+   "h": "Diagnosis of RFS",
+   "text": "The difficulty in RFS diagnosing is due to the discrepancy between the onset of the symptoms and the occurring of metabolic shift (see below), and the nonspecific nature of its clinical manifestations [\n\nMore recently, the ASPEN proposed diagnostic criteria for distinguishing mild, moderate or severe RFS ["
+  },
+  {
+   "h": "Prevention and treatment",
+   "text": "The identification of patients at risk for RFS is the first step to prevent the onset of the syndrome, and to avoid an excessive nutritional replenishment in those individuals [\n\nSeveral therapeutic approaches have been proposed to prevent or treat the RSF [\n\nSpecific conditions might require special attention."
+  },
+  {
+   "h": "Conclusions",
+   "text": "This narrative review provides the latest information on the management of RFS in light of the current evidence. Although RFS is a frequent condition that can have serious consequences above all in specific categories of inpatients, it is often undiagnosed and overlooked by physicians. Its knowledge is essential to avoid rapid and excessive nourishing of at-risk patients; thus, preventing serious complications, long hospital stays, and the increase in health costs."
+  }
+ ]
+}

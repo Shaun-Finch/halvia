@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8346007",
+ "pmid": "34360549",
+ "doi": "10.3390/ijms22157785",
+ "topic": "anaphylaxis",
+ "title": "Mechanisms Governing Anaphylaxis: Inflammatory Cells, Mediators, Endothelial Gap Junctions and Beyond.",
+ "authors": "Nguyen SMT, Rupprecht CP, Haque A, Pattanaik D, Yusin J, Krishnaswamy G.",
+ "affiliation": "Department of Medicine, Wake Forest School of Medicine, Winston-Salem, NC 27106, USA.",
+ "journal": "International journal of molecular sciences",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 119,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Anaphylaxis is a severe, acute, life-threatening multisystem allergic reaction resulting from the release of a plethora of mediators from mast cells culminating in serious respiratory, cardiovascular and mucocutaneous manifestations that can be fatal. Medications, foods, latex, exercise, hormones (progesterone), and clonal mast cell disorders may be responsible. More recently, novel syndromes such as delayed reactions to red meat and hereditary alpha tryptasemia have been described. Anaphylaxis manifests as sudden onset urticaria, pruritus, flushing, erythema, angioedema (lips, tongue, airways, periphery), myocardial dysfunction (hypovolemia, distributive or mixed shock and arrhythmias), rhinitis, wheezing and stridor. Vomiting, diarrhea, scrotal edema, uterine cramps, vaginal bleeding, urinary incontinence, dizziness, seizures, confusion, and syncope may occur. The traditional (or classical) pathway is mediated via T cells, Th2 cytokines (such as IL-4 and 5), B cell production of IgE and subsequent crosslinking of the high affinity IgE receptor (FcεRI) on mast cells and basophils by IgE-antigen complexes, culminating in mast cell and basophil degranulation. Degranulation results in the release of preformed mediators (histamine, heparin, tryptase, chymase, carboxypeptidase, cathepsin G and tumor necrosis factor alpha (TNF-α), and of de novo synthesized ones such as lipid mediators (cysteinyl leukotrienes), platelet activating factor (PAF), cytokines and growth factors such as vascular endothelial growth factor (VEGF). Of these, histamine, tryptase, cathepsin G, TNF-α, LTC 4 , PAF and VEGF can increase vascular permeability. Recent data suggest that mast cell-derived histamine and PAF can activate nitric oxide production from endothelium and set into motion a signaling cascade that leads to dilatation of blood vessels and dysfunction of the endothelial barrier. The latter, characterized by the opening of adherens junctions, leads to increased capillary permeability and fluid extravasation. These changes contribute to airway edema, hypovolemia, and distributive shock, with potentially fatal consequences. In this review, besides mechanisms (endotypes) underlying IgE-mediated anaphylaxis, we also provide a brief overview of IgG-, complement-, contact system-, cytokine- and mast cell-mediated reactions that can result in phenotypes resembling IgE-mediated anaphylaxis. Such classifications can lead the way to precision medicine approaches to the management of this complex disease.",
+ "sections": [
+  {
+   "h": "4. Conclusions",
+   "text": "Anaphylaxis is a serious and potentially fatal allergic reaction arising from a multitude of causes. Major advances have been made in the understanding of endotypes (mechanisms) and of the role of mast cells, IgE, inflammatory mediators and cytokines in such reactions-especially at the endothelial level. There is an overwhelming need to develop specific, targeted therapies that prevent, or reverse capillary leak and distributive shock, which should be based on our molecular understanding of these processes. The role of endothelial apoptosis, the effects of histamine and PAF on endothelial gene expression, and the use of pharmacological agents targeting signaling molecules and transcription factors (other than adrenaline, antihistamines, and steroids) have not been studied in much detail in anaphylaxis. Lacking also are studies on the roles of gap and tight junctions, and specific molecules such as nectins, PECAM and CD99 in anaphylaxis. The development of biomarkers and radiological techniques to evaluate alterations in endothelial permeability in human anaphylaxis can greatly enhance management of severe allergic reactions and other capillary leak disorders."
+  }
+ ]
+}

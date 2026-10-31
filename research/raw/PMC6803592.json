@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC6803592",
+ "pmid": "31563989",
+ "doi": "10.1007/s00415-019-09541-4",
+ "topic": "head injury",
+ "title": "Recent advances in traumatic brain injury.",
+ "authors": "Khellaf A, Khan DZ, Helmy A.",
+ "affiliation": "Division of Neurosurgery, Department of Clinical Neurosciences, University of Cambridge, Addenbrooke's Hospital, Box 167, Hills Road, Cambridge, CB2 0QQ, UK.",
+ "journal": "Journal of neurology",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 340,
+ "pubtypes": [
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Traumatic brain injury (TBI) is the most common cause of death and disability in those aged under 40 years in the UK. Higher rates of morbidity and mortality are seen in low-income and middle-income countries making it a global health challenge. There has been a secular trend towards reduced incidence of severe TBI in the first world, driven by public health interventions such as seatbelt legislation, helmet use, and workplace health and safety regulations. This has paralleled improved outcomes following TBI delivered in a large part by the widespread establishment of specialised neurointensive care. This update will focus on three key areas of advances in TBI management and research in moderate and severe TBI: refining neurointensive care protocolized therapies, the recent evidence base for decompressive craniectomy and novel pharmacological therapies. In each section, we review the developing evidence base as well as exploring future trajectories of TBI research.",
+ "sections": [
+  {
+   "h": "Therapeutic hypothermia",
+   "text": "There are several plausible mechanisms by which hypothermia can mitigate the effects of TBI including reducing ICP, reducing the innate inflammatory response and reducing the cerebral metabolic rate. These need to be balanced against the risks of coagulopathy, immunosuppression, hypotension, pneumonia, renal impairment and decreased catecholamine responsiveness [\n\nMore recently, the multi-center Prophylactic Hypothermia Trial to Lessen Traumatic Brain Injury—Randomized Clinical Trial (POLAR-RCT, 2018) evaluated outcomes of early, prophylactic, sustained hypothermia (33–35 °C), for at minimum 72 h and up to 7 days, in severe TBI patients. The intention-to-treat population included a total of 500 patients with severe TBI randomized to either normothermia (n = 240) or early hypothermia (n = 260). The study did not show any benefit from early prophylactic hypothermia in neurological outcomes and mortality at 6 months when compared to normothermia. Intention-to-treat analysis demonstrated increased rates of pneumonia in the hypothermia group (55.0%) vs the normothermia group (51.3%) ["
+  },
+  {
+   "h": "Pharmacological therapies for TBI",
+   "text": "Despite several decades of successful pre-clinical studies that have developed promising neuroprotective therapies, none have translated into the clinical arena. Unfortunately, there is still no proven curative pharmacotherapy for moderate-to-severe TBI nor pharmacotherapy with unequivocal benefit in functional outcomes. This universal failure has highlighted the biological differences between human and rodent TBI, the lack of investment into mechanistic human TBI studies, the need to accurately define the population who may benefit and the importance of pharmacokinetic studies in humans."
+  },
+  {
+   "h": "Conclusions",
+   "text": "TBI is a major global health challenge and priority. There are several promising lines of research directed towards optimising neurointensive care protocols, developing an evidence base for surgical intervention, and translating promising neuroprotective pharmacotherapies into application to human pathology. The importance of personalised medicine and combinatorial therapy in the field of TBI cannot be overstated given the heterogeneity of the pathology such that a single intervention cannot address every pathological mechanism at play. This is at odds with conventional randomized control trial methodology and may underpin the large number of failures of RCTs to demonstrate any benefit in this pathology."
+  }
+ ]
+}

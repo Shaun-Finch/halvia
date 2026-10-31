@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC8319382",
+ "pmid": "34336903",
+ "doi": "10.3389/fmed.2021.704358",
+ "topic": "early warning scores",
+ "title": "National Early Warning Score Does Not Accurately Predict Mortality for Patients With Infection Outside the Intensive Care Unit: A Systematic Review and Meta-Analysis.",
+ "authors": "Zhang K, Zhang X, Ding W, Xuan N, Tian B, Huang T, Zhang Z, Cui W, Huang H, Zhang G.",
+ "affiliation": "Department of Critical Care Medicine, Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+ "journal": "Frontiers in medicine",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 15,
+ "pubtypes": [
+  "Systematic Review",
+  "systematic-review",
+  "Journal Article"
+ ],
+ "abstract": "Background:  The prognostic value of the national early warning score (NEWS) in patients with infections remains controversial. We aimed to evaluate the prognostic accuracy of NEWS for prediction of in-hospital mortality in patients with infections outside the intensive care unit (ICU).  Methods:  We searched PubMed, Embase, and Scopus for related articles from January 2012 to April 2021. Sensitivity, specificity, and likelihood ratios were pooled by using the bivariate random-effects model. Overall prognostic performance was summarized by using the area under the curve (AUC). We performed subgroup analyses to assess the prognostic accuracy of NEWS in selected populations.  Results:  A total of 21 studies with 107,008 participants were included. The pooled sensitivity and specificity of NEWS were 0.71 and 0.60. The pooled AUC of NEWS was 0.70, which was similar to quick sequential organ failure assessment (qSOFA, AUC: 0.70) and better than systemic inflammatory response syndrome (SIRS, AUC: 0.60). However, the sensitivity (0.55) and AUC (0.63) of NEWS were poor in elder patients. The NEWS of 5 was more sensitive, which was a better threshold for activating urgent assessment and treatment.  Conclusions:  The NEWS had good diagnostic accuracy for early prediction of mortality in patients with infections outside the ICU, and the sensitivity and specificity were more moderate when compared with qSOFA and SIRS. Insufficient sensitivity and poor performance in the elder population may have limitations as an early warning score for adverse outcomes. NEWS should be used for continuous monitoring rather than a single time point predictive tool.",
+ "sections": [
+  {
+   "h": "Implications for Practice",
+   "text": "Although our research suggests that NEWS has moderate prognostic performance, it is worth highlighting some potential pitfalls in clinical practice. First of all, the qSOFA only contains three components and three boundary levels, whereas NEWS has seven components with more than 20 boundaries. Certainly, the application of NEWS requires additional resources and could become a burden on clinicians, especially in situations of overcrowding in the emergency wards. Second, the NEWS is not an ideal screening tool to identify high-risk patients because of its limited sensitivity. It means that some critically ill patients may be improperly classified as non-severe, even delayed treatment, which is devastating to the patients. Therefore, the NEWS is not an alternative to the clinical judgment by experienced clinicians, and it should be utilized to help clinical decision making by providing objective data. Even negative NEWS should not prevent clinicians from conducting further assessment and management of patients with suspected infection, indicating that experienced clinical judgment remains vital ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "The NEWS has good diagnostic accuracy for early prediction of mortality in patients with infections outside the ICU, the sensitivity and specificity were more moderate when compared with qSOFA and SIRS. NEWS of 5 or more was an optimal trigger threshold for activating a rapid response. However, as an early warning score, both NEWS and qSOFA had a significant weakness that insufficient sensitivity could delay lifesaving treatment for critical patients. The NEWS should be used for continuous monitoring of patients' condition and guide clinical response, not solely for initial assessment of illness severity. We suggest that developing enhanced or modified scoring systems is quite necessary, and future early warning scores could be devised by using machine learning algorithms."
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC6249335",
+ "pmid": "30498492",
+ "doi": "10.3389/fimmu.2018.02616",
+ "topic": "blood transfusion",
+ "title": "Blood Transfusion Management for Patients Treated With Anti-CD38 Monoclonal Antibodies.",
+ "authors": "Lancman G, Arinsburg S, Jhang J, Cho HJ, Jagannath S, Madduri D, Parekh S, Richter J, Chari A.",
+ "affiliation": "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, United States.",
+ "journal": "Frontiers in immunology",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 49,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Daratumumab has proven to be highly efficacious for relapsed and refractory multiple myeloma (MM) and has recently been approved in the frontline setting for MM patients ineligible for transplantation. In the future, expanded indications are possible for daratumumab and other anti-CD38 monoclonal antibodies in development. For several years, it has been recognized that these therapies interfere with blood bank testing by binding to CD38 on red blood cells and causing panagglutination on the Indirect Antiglobulin Test. This can lead to redundant testing and significant delays in patient care. Given the anticipated increase in utilization of anti-CD38 monoclonal antibodies, as well as the transfusion needs of MM patients, it is critical to understand the nature of this interference with blood bank testing and to optimize clinical and laboratory procedures. In this review, we summarize the pathophysiology of this phenomenon, examine the clinical data reported to date, describe currently available methods to resolve this issue, and lastly provide a guide to clinical management of blood transfusions for patients receiving anti-CD38 monoclonal antibodies.",
+ "sections": [
+  {
+   "h": "Prior to initiation of therapy",
+   "text": "Prior to the first dose of an anti-CD38 monoclonal antibody, all patients should get a type and screen to identify any alloantibodies present at baseline. They should also get either an extended phenotype or genotype, depending on the resources available. Incorporating a baseline type and screen and phenotype/genotype into the electronic or written chemotherapy order set can ensure that a type and screen sample is collected and sent to the blood bank along with notification of impending anti-CD38 therapy. Importantly, phenotyping may be inaccurate if a patient has received a blood transfusion in the prior 3 months or if they have a positive DAT; genotyping is unaffected.\n\nThis baseline testing ensures that the patient can receive appropriately matched blood even if their local blood bank does not perform DTT or trypsin testing. This is especially valuable in patients who are anticipated to require many transfusions in the future. Ideally, the blood bank would provide the patients with a card detailing their blood type and RBC antigens. However, at a minimum, patients should always carry a card indicating they are receiving anti-CD38 therapy that could interfere with blood typing along with contact information for the treating oncologist and blood bank. This allows other professionals to readily obtain this information in the event of travel or an emergency requiring care away from a cancer center."
+  },
+  {
+   "h": "Patients on therapy who require a blood transfusion",
+   "text": "If a patient has already received therapy and requires a blood transfusion, the blood bank should be explicitly notified that the patient is on a CD38 monoclonal antibody and requires special testing. Given near universal IAT positivity in this scenario, the blood bank can proceed with DTT treatment of RBCs, if available, as this is currently the most validated method. If there is a negative RBC antibody screen after application of DTT, the patient can be assumed to have no alloantibodies, bearing in mind those antigens, particularly Kell, denatured by the reagent. The blood bank can then crossmatch DTT-treated Kell-negative RBCs with the patient's serum and safely issue compatible blood. There remains a very slim possibility of a transfusion reaction to one of the minor antigens destroyed by DTT treatment, so clinicians should remain alert of this possibility. If the IAT is positive even after application of DTT, this suggests a true alloantibody, and antibody identification should be performed using DTT-treated RBCs.\n\nThe availability of an extended RBC phenotype or genotype can simplify this process. Matched RBCs can be issued by the blood bank depending on the extent of matching required and the availability of those units. Not all blood banks will have sufficient inventory to provide extended matches and may wish to preserve these scarce resources for patients known to have multiple alloantibodies. In this case, the blood bank can proceed with DTT-treated RBC antibody screen, with the advantage of knowing ahead of time the patient's Kell status. The blood bank can then provide crossmatched and Kell-compatible blood without the need for extensive antigen matching.\n\nIn the case that the blood bank is unable to perform testing with DTT and there is no phenotype or genotype available, a sample should be sent to a reference laboratory that has methods for removing anti-CD38 interference. This will increase the time required to procure appropriate blood, but it is a necessary step to ensure patient safety, provided that there is no urgency for transfusion."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Anti-CD38 monoclonal antibodies are highly efficacious therapies for MM, and their use is likely to increase as they continue to gain new indications. Daratumumab has now been approved in the frontline setting for transplant-ineligible MM and is in late-stage testing for many other malignancies, while isatuximab is in phase three trials for MM. As use of these antibodies becomes routine and expands into the community setting, the challenges and costs associated with blood compatibility testing will continue to grow. It will become imperative for laboratories and medical centers to streamline processes and maintain open communication. To date, there have been no safety issues for these patients receiving transfusions, and it must remain a priority to ensure that patient safety is preserved. This will require the awareness and education of patients, clinicians, and blood bank personnel."
+  }
+ ]
+}

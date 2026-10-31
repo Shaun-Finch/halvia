@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7492788",
+ "pmid": "32953201",
+ "doi": "10.1186/s13613-020-00741-0",
+ "topic": "pulmonary embolism",
+ "title": "Pulmonary embolism in patients with coronavirus disease-2019 (COVID-19) pneumonia: a narrative review.",
+ "authors": "Sakr Y, Giovini M, Leone M, Pizzilli G, Kortgen A, Bauer M, Tonetti T, Duclos G, Zieleskiewicz L, Buschbeck S, Ranieri VM, Antonucci E.",
+ "affiliation": "Dept. of Anesthesiology and Intensive Care Medicine, Jena University Hospital, Am Klinikum 1, 07743 Jena, Germany.",
+ "journal": "Annals of intensive care",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 139,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Preliminary reports have described significant procoagulant events in patients with coronavirus disease-2019 (COVID-19), including life-threatening pulmonary embolism (PE). Main text We review the current data on the epidemiology, the possible underlying pathophysiologic mechanisms, and the therapeutic implications of PE in relation to COVID-19. The incidence of PE is reported to be around 2.6-8.9% of COVID-19 in hospitalized patients and up to one-third of those requiring intensive care unit (ICU) admission, despite standard prophylactic anticoagulation. This may be explained by direct and indirect pathologic consequences of COVID-19, complement activation, cytokine release, endothelial dysfunction, and interactions between different types of blood cells. Conclusion Thromboprophylaxis should be started in all patients with suspected or confirmed COVID-19 admitted to the hospital. The use of an intermediate therapeutic dose of low molecular weight (LMWH) or unfractionated heparin can be considered on an individual basis in patients with multiple risk factors for venous thromboembolism, including critically ill patients admitted to the ICU. Decisions about extending prophylaxis with LMWH after hospital discharge should be made after balancing the reduced risk of venous thromboembolism (VTE) with the risk of increased bleeding events and should be continued for 7-14 days after hospital discharge or in the pre-hospital phase in case of pre-existing or persisting VTE risk factors. Therapeutic anticoagulation is the cornerstone in the management of patients with PE. Selection of an appropriate agent and correct dosing requires consideration of underlying comorbidities.",
+ "sections": [
+  {
+   "h": "Therapeutic implications",
+   "text": "The accumulating evidence suggests that PE is a significant complication in patients with COVID-19, so that indications and modalities for prophylactic and therapeutic use of antithrombotic agents should be revisited. Preliminary data from 449 consecutive patients with severe COVID-19 demonstrated that prophylactic doses of heparin were associated with improved survival in a subgroup of patients meeting criteria for sepsis-induced coagulopathy or with markedly elevated d-dimer levels [\n\nTherapeutic anticoagulation is the cornerstone in the management of patients with PE. Selection of an appropriate agent and correct dosage requires consideration of the underlying comorbidities, such as renal or hepatic dysfunction, thrombocytopenia, and gastrointestinal tract function [\n\nIntermediate-risk hemodynamically stable patients (intermediate–low risk or intermediate–high risk PE according to the European Society of Cardiology (ESC) classification; sub-massive PE according to prior classifications) should be managed initially with anticoagulation and close monitoring. If the condition suddenly worsens and there are signs of overt hemodynamic instability (massive or high-risk PE with hypotension or sudden cardiac arrest) and evidence on bedside echocardiography of new onset increased right-ventricular load or pulmonary arterial hypertension, thrombolytic therapy should be initiated urgently [\n\nSince the procoagulant effect of COVID-19 may extend some weeks after hospital discharge of apparently stable, asymptomatic patients. It would be prudent, therefore, to have a high degree of clinical suspicion of PE in COVID-19 patients readmitted to the hospital after surviving an initial hospitalization. Decisions about extending prophylaxis with LMWH after hospital discharge from acute medical illness should be made by balancing the reduced risk of VTE with the risk of increased bleeding events, including major bleeding. In the absence of high-quality data, pharmacological prophylaxis in this context should be reserved for patients at highest risk, including those with limited mobility and history of prior VTE or active malignancy ["
+  },
+  {
+   "h": "Summary and conclusions",
+   "text": "Patients with COVID-19 are at increased risk of developing PE which may occur in up to one-third of critically ill COVID-19 patients requiring ICU admission. Thromboprophylaxis should therefore be started in COVID-19 patients admitted to the hospital and intermediate therapeutic doses of anticoagulants can be considered in patients requiring ICU admission or those with multiple risk factors for VTE. Extending thromboprophylaxis after hospital discharge or in the prehospital phase during home self isolation should be done according to a meticulous risk/benefit assessment, balancing the reduced risk of VTE with the risk of increased bleeding events. Therapeutic anticoagulation is the cornerstone in the management of patients with PE. Selection of an appropriate agent and correct dosage requires consideration of underlying comorbidities and organ dysfunction."
+  }
+ ]
+}

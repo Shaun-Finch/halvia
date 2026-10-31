@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC4713723",
+ "pmid": "26744349",
+ "doi": "10.1007/s00401-015-1531-z",
+ "topic": "meningitis",
+ "title": "Host-pathogen interactions in bacterial meningitis.",
+ "authors": "Doran KS, Fulde M, Gratz N, Kim BJ, Nau R, Prasadarao N, Schubert-Unkmeir A, Tuomanen EI, Valentin-Weigand P.",
+ "affiliation": "Department of Biology and Center for Microbial Sciences, San Diego State University, San Diego, CA, USA.",
+ "journal": "Acta neuropathologica",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 161,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Bacterial meningitis is a devastating disease occurring worldwide with up to half of the survivors left with permanent neurological sequelae. Due to intrinsic properties of the meningeal pathogens and the host responses they induce, infection can cause relatively specific lesions and clinical syndromes that result from interference with the function of the affected nervous system tissue. Pathogenesis is based on complex host-pathogen interactions, some of which are specific for certain bacteria, whereas others are shared among different pathogens. In this review, we summarize the recent progress made in understanding the molecular and cellular events involved in these interactions. We focus on selected major pathogens, Streptococcus pneumonia, S. agalactiae (Group B Streptococcus), Neisseria meningitidis, and Escherichia coli K1, and also include a neglected zoonotic pathogen, Streptococcus suis. These neuroinvasive pathogens represent common themes of host-pathogen interactions, such as colonization and invasion of mucosal barriers, survival in the blood stream, entry into the central nervous system by translocation of the blood-brain and blood-cerebrospinal fluid barrier, and induction of meningeal inflammation, affecting pia mater, the arachnoid and subarachnoid spaces.",
+ "sections": [
+  {
+   "h": "Conclusions and outlook",
+   "text": "In summary, despite advances in antimicrobial therapy and vaccine development, bacterial meningitis represents a significant cause of morbidity and mortality, mainly in infants, children and in the elderly or immunocompromised patient. The emergence of antibiotic-resistant strains, e.g., E. coli and S. pneumoniae, phenotypic heterogeneity, e.g., meningococci, the lack of effective vaccines, e.g., GBS, or the occurrence of new emerging diseases as a results of zoonotic species jumps, e.g., S. suis, demands alternative strategies to prevent as many cases of bacterial meningitis and the associated neurological sequelae as possible. Significant progress has been made in identifying molecular mechanisms that contribute to host–pathogen interactions during the progression of CNS disease. Identification of common pathways employed by bacterial pathogens to breach mucosal barriers, survive in the blood stream and cross the BBB or B-CSF barrier will assist in the identification of important bacterial and host cell targets for the development of effective therapies. The identification of molecular patterns used by several bacterial species to cross the B-CSFB and BBB may lead to the systemic application of antibodies or antagonists blocking barrier epitopes involved in the attachment and transcytosis of bacteria. Vaccination against these bacterial patterns or prophylactic application of an antagonistic drug with low side effects can be an option, particularly in persons at a high risk of acquiring meningitis. Thus, targeting bacterial components and their associated signaling events should offer novel therapeutic strategies. A multi-disciplinary approach is necessary to incorporate all this knowledge into new testable hypotheses that will provide insight into the pathogenesis and pathophysiology of bacterial meningitis and the discovery of novel therapeutic and control strategies."
+  }
+ ]
+}

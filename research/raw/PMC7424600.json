@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC7424600",
+ "pmid": "32594963",
+ "doi": "10.1017/s0950268820001429",
+ "topic": "blood transfusion",
+ "title": "Hepatitis E virus and blood transfusion safety.",
+ "authors": "Bi H, Yang R, Wu C, Xia J.",
+ "affiliation": "Department of Laboratory Medicine, Maternal and Child Health Hospital of Hubei Province, Wuhan430070, China.",
+ "journal": "Epidemiology and infection",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 49,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "While the majority of worldwide hepatitis E viral (HEV) infections that occur in people are from contaminated water or food sources, there has also been a steadily rising number of reported cases of transfusion-transmitted HEV (TT-HEV) in blood donation recipients. For most, HEV infection is acute, self-limiting and asymptomatic. However, patients that are immunocompromised, especially transplant patients, are at much higher risk for developing chronic infections, which can progress to cirrhosis and liver failure, along with overall increased mortality. Because of the rising trend of HEV serological prevalence among the global population, and the fact that TT-HEV infection can cause serious clinical consequences among those patients most at need for blood donation, the need for screening for TT-HEV has been gaining in prominence as an important public health concern for both developing and developed countries. In the review, we summarise evidence for and notable cases of TT-HEV infections, the various aspects of HEV screening protocols and recent trends in the implementation of TT-HEV broad-based blood screening programmes.",
+ "sections": [
+  {
+   "h": "Serological antibody diagnosis",
+   "text": "Commercial reagents include a traditional microplate ELISA method and rapid immunochromatography. Anti-HEV IgM is a marker for acute infection while anti-HEV IgG is a marker for post-infection. The limit of detection (LoD) for most commercial anti-HEV IgG is in the range of 0.25–2.5 IU/ml, though the more sensitive detection commercial reagents (LoD: 0.25 IU/ml) are often used for studying HEV epidemiology."
+  },
+  {
+   "h": "Serological antigen diagnosis",
+   "text": "HEV viraemia can also be diagnosed directly through an ELISA-based capture assay of HEV capsid antigens. It has been reported that the specificity of antigen detection is high, but the sensitivity is poor, and the detection limit is 800–80 000 IU/ml ["
+  },
+  {
+   "h": "Summary and outlook",
+   "text": "As the global incidence of HE continues to rise, medical authorities are finally coming around to acknowledging the growing importance of HEV infection as a public health concern. In 2011, China's State Food and Drug Administration (SFDA) approved the first HEV-specific preventive vaccine. All of the clinical studies using Hecolin (HE vaccine produced in Escherichia coli (E. coli); Xiamen Innovax Biotech, China) were conducted in China, and the results showed that the vaccine was effective against genotypes 1 and 4 [\n\nGoing forward, the primary solution towards preventing HE will be to monitor and break the faecal–oral transmission route of HEV transmission, a laborious task that will require a campaign of greater awareness among the general population. Secondarily to that, food inspection should be enhanced, particularly during processing, packaging and preparation, e.g. through the promotion of hygienic diets (limiting raw meat), controlling animal farm waste runoff into irrigation water reservoirs, etc. At the same time, the implementation of HEV blood screening is an effective and feasible preventive measure, albeit its cost-effectiveness will need to be assessed on a regional and population-specific basis. The hope is that the near future will bring the continued development of more effective vaccines and improved pathogen inactivation technologies that will radically alter how we manage and constrain the spread of HEV infection."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC5995389",
+ "pmid": "29889859",
+ "doi": "10.1371/journal.pone.0198772",
+ "topic": "meningitis",
+ "title": "Global etiology of bacterial meningitis: A systematic review and meta-analysis.",
+ "authors": "Oordt-Speets AM, Bolijn R, van Hoorn RC, Bhavsar A, Kyaw MH.",
+ "affiliation": "Pallas Health Research and Consultancy BV, Rotterdam, The Netherlands.",
+ "journal": "PloS one",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 180,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Bacterial meningitis is a global public health concern, with several responsible etiologic agents that vary by age group and geographical area. The aim of this systematic review and meta-analysis was to assess the etiology of bacterial meningitis in different age groups across global regions. PubMed and EMBASE were systematically searched for English language studies on bacterial meningitis, limited to articles published in the last five years. The methodological quality of the studies was assessed using a customized scoring system. Meta-analyses were conducted to determine the frequency (percentages) of seven bacterial types known to cause meningitis: Escherichia coli, Haemophilus influenzae, Neisseria meningitidis, Streptococcus pneumoniae, group B Streptococcus agalactiae, Staphylococcus aureus, and Listeria monocytogenes, with results being stratified by six geographical regions as determined by the World Health Organization, and seven age groups. Of the 3227 studies retrieved, 56 were eligible for the final analysis. In all age groups, S. pneumoniae and N. meningitidis were the predominant pathogens in all regions, accounting for 25.1-41.2% and 9.1-36.2% of bacterial meningitis cases, respectively. S. pneumoniae infection was the most common cause of bacterial meningitis in the 'all children' group, ranging from 22.5% (Europe) to 41.1% (Africa), and in all adults ranging from 9.6% (Western Pacific) to 75.2% (Africa). E. coli and S. pneumoniae were the most common pathogens that caused bacterial meningitis in neonates in Africa (17.7% and 20.4%, respectively). N. meningitidis was the most common in children aged ±1-5 years in Europe (47.0%). Due to paucity of data, meta-analyses could not be performed in all age groups for all regions. A clear difference in the weighted frequency of bacterial meningitis cases caused by the different etiological agents was observed between age groups and between geographic regions. These findings may facilitate bacterial meningitis prevention and treatment strategies.",
+ "sections": [
+  {
+   "h": "2.4 Risk of bias assessment",
+   "text": "A customized checklist based on the Critical Appraisal Skills Program (CASP) [\n\nData were stratified by six geographic regions in accordance with the World Health Organization (WHO) regional classification of Member States (African region, Region of the Americas, South-East Asian region, European region, Eastern Mediterranean region [including Israel], and Western Pacific region). ["
+  },
+  {
+   "h": "4 Conclusions",
+   "text": "This systematic review and meta-analysis demonstrated notable differences in the frequency of bacterial meningitis pathogens in a wide range of age groups across geographic regions in studies published in the last five years. Further studies are required to monitor bacterial meningitis cases and facilitate the further development of prevention and treatment strategies worldwide."
+  }
+ ]
+}

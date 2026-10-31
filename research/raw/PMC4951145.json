@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC4951145",
+ "pmid": "27434033",
+ "doi": "10.1371/journal.pone.0158843",
+ "topic": "COPD exacerbation",
+ "title": "A Systematic Review of Diagnostic Biomarkers of COPD Exacerbation.",
+ "authors": "Chen YW, Leung JM, Sin DD.",
+ "affiliation": "Centre for Heart Lung Innovation, Institute for Heart Lung Health at St. Paul's Hospital & Department of Medicine, Division of Respiratory Medicine, University of British Columbia, Vancouver, BC, Canada.",
+ "journal": "PloS one",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 88,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "The aims of this systematic review were to determine which blood-based molecules have been evaluated as possible biomarkers to diagnose chronic obstructive pulmonary disease (COPD) exacerbations (AECOPD) and to ascertain the quality of these biomarker publications. Patients of interest were those that have been diagnosed with COPD. MEDLINE, EMBASE, and CINAHL databases were searched systematically through February 2015 for publications relating to AECOPD diagnostic biomarkers. We used a modified guideline for the REporting of tumor MARKer Studies (mREMARK) to assess study quality. Additional components of quality included the reporting of findings in a replication cohort and the use of receiver-operating characteristics area-under-the curve statistics in evaluating performance. 59 studies were included, in which the most studied biomarkers were C-reactive protein (CRP), interleukin-6 (IL-6), and tumor necrosis factor-alpha (TNF-α). CRP showed consistent elevations in AECOPD compared to control subjects, while IL-6 and TNF-α had variable statistical significance and results. mREMARK scores ranged from 6 to 18 (median score of 13). 12 articles reported ROC analyses and only one study employed a replication cohort to confirm biomarker performance. Studies of AECOPD diagnostic biomarkers remain inconsistent in their reporting, with few studies employing ROC analyses and even fewer demonstrating replication in independent cohorts.",
+ "sections": [
+  {
+   "h": "Data extraction and study quality assessment",
+   "text": "To assess the quality of publications reporting biomarkers, we first screened the 59 relevant original papers for the two important analytic components of biomarker studies, as recommended by Sin and colleagues ["
+  },
+  {
+   "h": "Biomarkers for the diagnosis of AECOPD",
+   "text": "In total, 134 distinct biomarkers were measured, with one additional study measuring 507 inflammatory mediators using an antibody microarray [\n\n51 biomarkers that were investigated only in a single study are detailed in"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC5964054",
+ "pmid": "29789983",
+ "doi": "10.1186/s13613-018-0402-x",
+ "topic": "intravenous fluids",
+ "title": "Principles of fluid management and stewardship in septic shock: it is time to consider the four D's and the four phases of fluid therapy.",
+ "authors": "Malbrain MLNG, Van Regenmortel N, Saugel B, De Tavernier B, Van Gaal PJ, Joannes-Boyau O, Teboul JL, Rice TW, Mythen M, Monnet X.",
+ "affiliation": "Intensive Care Unit, University Hospital Brussels (UZB), Laarbeeklaan 101, 1090, Jette, Belgium. manu.malbrain@uzbrussel.be.",
+ "journal": "Annals of intensive care",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 396,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "In patients with septic shock, the administration of fluids during initial hemodynamic resuscitation remains a major therapeutic challenge. We are faced with many open questions regarding the type, dose and timing of intravenous fluid administration. There are only four major indications for intravenous fluid administration: aside from resuscitation, intravenous fluids have many other uses including maintenance and replacement of total body water and electrolytes, as carriers for medications and for parenteral nutrition. In this paradigm-shifting review, we discuss different fluid management strategies including early adequate goal-directed fluid management, late conservative fluid management and late goal-directed fluid removal. In addition, we expand on the concept of the \"four D's\" of fluid therapy, namely drug, dosing, duration and de-escalation. During the treatment of patients with septic shock, four phases of fluid therapy should be considered in order to provide answers to four basic questions. These four phases are the resuscitation phase, the optimization phase, the stabilization phase and the evacuation phase. The four questions are \"When to start intravenous fluids?\", \"When to stop intravenous fluids?\", \"When to start de-resuscitation or active fluid removal?\" and finally \"When to stop de-resuscitation?\" In analogy to the way we handle antibiotics in critically ill patients, it is time for fluid stewardship.",
+ "sections": [
+  {
+   "h": "The four D’s of fluid therapy",
+   "text": "When prescribing fluids in patients with septic shock, we must take into account their composition and their pharmocodynamic and pharmacokinetic properties. In practice, we should consider the “four D’s” of fluid therapy: drug, dosing, duration and de-escalation (Table"
+  },
+  {
+   "h": "The four phases of fluid therapy",
+   "text": "Not only are the characteristics of fluids important, but also the strategy for their administration. This strategy fundamentally changes along with the time course of septic shock. Recently a three-hit, or even four-hit model of septic shock was suggested trying to answer four basic questions, in which we can recognize four distinct dynamic phases of fluid therapy ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "There are only four major indications for fluid administration in the critically ill: resuscitation, maintenance, replacement and nutrition (enteral or parenteral). In this review, a conceptual framework is presented looking at fluids as drugs by taking into account the four D’s (drug selection, dose, duration and de-escalation) and the four phases of fluid therapy within the ROSE concept (resuscitation, optimization, stabilization and evacuation). The four hits model is presented herein. This will provide answers to the four basic questions surrounding fluid therapy: (1) When to start IV fluids? (2) When to stop fluid administration? (3) When to start fluid removal and finally (4) When to stop fluid removal? In analogy to the way we deal with antibiotics in critically ill patients, it is time for fluid stewardship."
+  }
+ ]
+}

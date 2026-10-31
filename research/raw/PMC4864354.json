@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC4864354",
+ "pmid": "27167519",
+ "doi": "10.1371/journal.pone.0152079",
+ "topic": "hyponatraemia",
+ "title": "Risk of Hyponatraemia in Cancer Patients Treated with Targeted Therapies: A Systematic Review and Meta-Analysis of Clinical Trials.",
+ "authors": "Berardi R, Santoni M, Rinaldi S, Nunzi E, Smerilli A, Caramanti M, Morgese F, Torniai M, Savini A, Fiordoliva I, Onofri A, Pistelli M, Taccaliti A, Cascinu S.",
+ "affiliation": "Clinica di Oncologia Medica, Università Politecnica delle Marche, Azienda Ospedaliero-Universitaria Ospedali Riuniti Umberto I-GM Lancisi-G Salesi, Ancona, Italy.",
+ "journal": "PloS one",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 39,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Hyponatraemia has been reported with targeted therapies in cancer patients. Aim of the study was to perform an up-to-date meta-analysis in order to determine the incidence and relative risk (RR) in cancer patients treated with these agents. Materials and methods The scientific literature regarding hyponatraemia was extensively reviewed using MEDLINE, PubMed, Embase and Cochrane databases. Eligible studies were selected according to PRISMA statement. Summary incidence, RR, and 95% Confidence Intervals were calculated using random-effects or fixed-effects models based on the heterogeneity of selected studies. Results 4803 potentially relevant trials were identified: of them, 13 randomized phase III studies were included in this meta-analysis. 6670 patients treated with 8 targeted agents were included: 2574 patients had hepatocellular carcinoma, whilst 4096 had other malignancies. The highest incidences of all-grade hyponatraemia were observed with the combination of brivanib and cetuximab (63.4) and pazopanib (31.7), while the lowest incidence was reported by afatinib (1.7). The highest incidence of high-grade hyponatraemia was reported by cetuximab (34.8), while the lowest incidences were reported by gefitinib (1.0). Summary RR of developing all-grade and high-grade hyponatraemia with targeted agents was 1.36 and 1.52, respectively. The highest RRs of all-grade and high-grade hyponatraemia were associated with brivanib (6.5 and 5.2, respectively). Grouping by drug category, the RR of high-grade hyponatraemia with angiogenesis inhibitors was 2.69 compared to anti-Epidermal Growth Factor Receptors agents (1.12). Conclusion Treatment with biological therapy in cancer patients is associated with a significant increased risk of hyponatraemia, therefore frequent clinical monitoring should be emphasized when managing targeted agents.",
+ "sections": [
+  {
+   "h": "Data Extraction and Quality Assessment",
+   "text": "Data extraction was performed from full texts of eligible articles, by two independent evaluators (MS and EN). Data collected included author name list, year of publication, number of participants, treatment arms characteristic and targeted agent employed, number and grade (all-grade and high grade) of hyponatraemia cases reported in every arm.\n\nNational Cancer Institute’s Common Terminology Criteria for Adverse Events (CTCAE) version 2 or 3 were applied to define adverse events (AEs). Study quality and appropriateness of randomization, double-blinding, and withdrawals was determined basing on Jadad scoring system ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Hyponatraemia represents a negative prognostic factor for cancer patients. Increasing evidences showed a significant increased risk of developing hyponatraemia in patients treated with biological therapy. Therefore an accurate and frequent monitoring of serum sodium should be evaluated in patients treated with new-targeted agents, in particular with antiangiogenetic drugs, both in clinical practise and in prospective studies, for a rapid diagnosis and correction of this electrolyte disturbance."
+  }
+ ]
+}

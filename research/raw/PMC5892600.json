@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC5892600",
+ "pmid": "29770166",
+ "doi": "10.1155/2018/3804979",
+ "topic": "stroke",
+ "title": "Free Radical Damage in Ischemia-Reperfusion Injury: An Obstacle in Acute Ischemic Stroke after Revascularization Therapy.",
+ "authors": "Sun MS, Jin H, Sun X, Huang S, Zhang FL, Guo ZN, Yang Y.",
+ "affiliation": "Department of Neurology, The First Hospital of Jilin University, Chang Chun 130021, China.",
+ "journal": "Oxidative medicine and cellular longevity",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 386,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute ischemic stroke is a common cause of morbidity and mortality worldwide. Thrombolysis with recombinant tissue plasminogen activator and endovascular thrombectomy are the main revascularization therapies for acute ischemic stroke. However, ischemia-reperfusion injury after revascularization therapy can result in worsening outcomes. Among all possible pathological mechanisms of ischemia-reperfusion injury, free radical damage (mainly oxidative/nitrosative stress injury) has been found to play a key role in the process. Free radicals lead to protein dysfunction, DNA damage, and lipid peroxidation, resulting in cell death. Additionally, free radical damage has a strong connection with inducing hemorrhagic transformation and cerebral edema, which are the major complications of revascularization therapy, and mainly influencing neurological outcomes due to the disruption of the blood-brain barrier. In order to get a better clinical prognosis, more and more studies focus on the pharmaceutical and nonpharmaceutical neuroprotective therapies against free radical damage. This review discusses the pathological mechanisms of free radicals in ischemia-reperfusion injury and adjunctive neuroprotective therapies combined with revascularization therapy against free radical damage.",
+ "sections": [
+  {
+   "h": "3. Complications after Revascularization Therapy",
+   "text": "Revascularization therapy may cause severe complications, such as hemorrhagic transformation and cerebral edema, and free radical damage during ischemia reperfusion has a strong connection with these complications ("
+  },
+  {
+   "h": "4. The Neuroprotective Therapies Combined with Revascularization Therapy",
+   "text": "Free radical damage in ischemia-reperfusion injury severely impacts prognosis after revascularization therapy. Thus, determining how to protect the brain from free radical damage is extremely urgent. In the following section, we review some of the most recent and effective therapies used to prevent free radical damage in ischemia-reperfusion injury that are used in combination with revascularization therapy. The adjunctive strategies have been both understudied in experimental and clinical research. The therapies are divided into two groups: nonpharmaceutical and pharmaceutical. Nonpharmaceutical therapies consist of remote ischemic conditioning and hypothermia, and pharmaceutical therapies consist of edaravone, uric acid, and citicoline."
+  },
+  {
+   "h": "4.1.2. Therapeutic Hypothermia",
+   "text": "Therapeutic hypothermia as a method of neuroprotection against acute ischemic stroke has recently seen extensive research. Therapeutic hypothermia in ischemic stroke involves methods to reduce temperature (especially brain temperature) to a specific range during or even after ischemia to protect neurons in the brain. Methods to induce hypothermia include whole body surface cooling or selective head cooling as well as whole body intravenous cooling or intra-arterial local cooling, which may or may not be combined with hypothermia-inducing drugs. Each method has advantages and disadvantages, and there is no conclusion regarding which technique is best [\n\nThe mechanism of hypothermia against ischemia-reperfusion injury has been recently studied (\n\nSome studies have found that cooling experiments can decrease the activity of tPA ["
+  },
+  {
+   "h": "5. Conclusions",
+   "text": "Free radicals, especially ROS and RNS, have intense oxidation or nitrification abilities in the human brain. During cerebral ischemia reperfusion, especially with blood reflow, massive generation of ROS and RNS leads to cell death via DNA damage, protein dysfunction, and lipid peroxidization. Oxidative/nitrosative stress in ischemia-reperfusion injury also plays a key role in inducing hemorrhagic transformation and cerebral edema after revascularization therapy. Fortunately, many basic experiments and clinical trials have indicated that cotreatment of antifree radical damage strategies, including nonpharmaceutical therapies, such as RIC and hypothermia, and pharmaceutical therapies, such as edaravone, UA, and citicoline, with revascularization therapy is safe and feasible. Further research regarding therapies that prevent free radical damage in ischemia-reperfusion injury combined with revascularization therapy should be undertaken in the future. We will understand the pathomechanisms more deeply, and patients will get better benefits from revascularization therapy."
+  }
+ ]
+}

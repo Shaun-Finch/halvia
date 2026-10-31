@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC9547753",
+ "pmid": "36209190",
+ "doi": "10.1186/s40779-022-00422-y",
+ "topic": "sepsis",
+ "title": "Sepsis-induced immunosuppression: mechanisms, diagnosis and current treatment options.",
+ "authors": "Liu D, Huang SY, Sun JH, Zhang HC, Cai QL, Gao C, Li L, Cao J, Xu F, Zhou Y, Guan CX, Jin SW, Deng J, Fang XM, Jiang JX, Zeng L.",
+ "affiliation": "Department of Trauma Medical Center, Daping Hospital, State Key Laboratory of Trauma, Burns and Combined Injury, Army Medical University, Chongqing, 400042, China.",
+ "journal": "Military Medical Research",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 529,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Sepsis is a common complication of combat injuries and trauma, and is defined as a life-threatening organ dysfunction caused by a dysregulated host response to infection. It is also one of the significant causes of death and increased health care costs in modern intensive care units. The use of antibiotics, fluid resuscitation, and organ support therapy have limited prognostic impact in patients with sepsis. Although its pathophysiology remains elusive, immunosuppression is now recognized as one of the major causes of septic death. Sepsis-induced immunosuppression is resulted from disruption of immune homeostasis. It is characterized by the release of anti-inflammatory cytokines, abnormal death of immune effector cells, hyperproliferation of immune suppressor cells, and expression of immune checkpoints. By targeting immunosuppression, especially with immune checkpoint inhibitors, preclinical studies have demonstrated the reversal of immunocyte dysfunctions and established host resistance. Here, we comprehensively discuss recent findings on the mechanisms, regulation and biomarkers of sepsis-induced immunosuppression and highlight their implications for developing effective strategies to treat patients with septic shock.",
+ "sections": [
+  {
+   "h": "Immunomodulatory therapy",
+   "text": "Hyperactive inflammatory responses and immunosuppression do not occur independently; they frequently coexist in the pathological process of sepsis. Therefore, in recent years, some researchers have proposed a combination of anti-inflammatory and immunomodulatory therapy. Combining anti-inflammatory and immune-enhancing agents can significantly improve the outcome of severe sepsis based on a meta-analysis involving 6 clinical trials [\n\nIn summary, GM-CSF, and T1α treatment may improve the prognosis of septic patients, but the treatment dose needs to be further confirmed. Routine treatment of sepsis with IgG is not recommended except for septic patients with low IgG. For patients with immunosuppression, anti-inflammatory and immune-enhancing treatment can be applied simultaneously. Still, the combination mode, optimal dose, and course of treatment of drugs need to be further confirmed by high-quality clinical studies."
+  },
+  {
+   "h": "Conclusions",
+   "text": "The literature focusing on sepsis-induced immunosuppression was reviewed. The immune response’s status during sepsis results from interactions among multiple mechanisms, including cytokines, cell death, and the expression dynamics of cellular biomarkers. Monitoring the immune status and providing immunomodulatory therapy may improve the survival of patients with sepsis-induced immunosuppression. Understanding the heterogeneity of sepsis, taking the dynamics of different phases of sepsis, and applying precise, individualized therapy are goals of future research."
+  }
+ ]
+}

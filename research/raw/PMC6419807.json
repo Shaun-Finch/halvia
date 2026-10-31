@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC6419807",
+ "pmid": "30876456",
+ "doi": "10.1186/s13287-019-1203-3",
+ "topic": "burns",
+ "title": "Skin tissue regeneration for burn injury.",
+ "authors": "Shpichka A, Butnaru D, Bezrukov EA, Sukhanov RB, Atala A, Burdukovskii V, Zhang Y, Timashev P.",
+ "affiliation": "Institute for Regenerative Medicine, Sechenov University, Moscow, Russia. ana-shpichka@yandex.ru.",
+ "journal": "Stem cell research & therapy",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 263,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The skin is the largest organ of the body, which meets the environment most directly. Thus, the skin is vulnerable to various damages, particularly burn injury. Skin wound healing is a serious interaction between cell types, cytokines, mediators, the neurovascular system, and matrix remodeling. Tissue regeneration technology remarkably enhances skin repair via re-epidermalization, epidermal-stromal cell interactions, angiogenesis, and inhabitation of hypertrophic scars and keloids. The success rates of skin healing for burn injuries have significantly increased with the use of various skin substitutes. In this review, we discuss skin replacement with cells, growth factors, scaffolds, or cell-seeded scaffolds for skin tissue reconstruction and also compare the high efficacy and cost-effectiveness of each therapy. We describe the essentials, achievements, and challenges of cell-based therapy in reducing scar formation and improving burn injury treatment.",
+ "sections": [
+  {
+   "h": "Growth factor therapy",
+   "text": "Growth factor therapy is to administrate pro-epidermal growth factors to promote wound healing. These growth factors are bioactive molecules secreted by the body whose function is to stimulate the growth and propagation of cells involved in skin wound healing and inflammation. The use of extra-growth factor increases the number of wound-healing cells, causing faster wound healing. Despite their variety, there are five types commonly used as invigorating molecules in wound healing and regaining via benign tissue repair processes (Table\n\nTo improve re-epithelialization after a burn injury, growth factors such as EGF and HGF are applied. EGF and HGF are shown to enhance epithelial cell proliferation, growth, and migration. Their potential in skin tissue regeneration is intensively studied, and various approaches to deliver them are under investigation (Table\n\nAngiogenesis in a defect site can be promoted by PDGF and VEGF. PDGF-BB is approved by FDA for diabetic ulcer treatment [\n\nThe increased stromal cell growth can be achieved by the application of FGF. FGF-2 (bFGF) was shown to control ECM formation, and its use enabled the decreased scar formation and inhibition of TGF-β1/SMAD-dependent pathway [\n\nThe main anti-scarring agent is TGF-ß3. In TGF family, TGF-β1 and TGF-β2 stimulate fibroblast differentiation, contraction, ECM synthesis and deposition, and scarring and TGF-β3 enables the reduction in scar formation. The concentration of TGF-β isoforms varies in the fetal and adult wound healing process; in the first, the TGF- β 3 concentration is high, but TGF-β1 and TGF-β2 isoforms are absent or in a small amount, while in the second, the situation is opposite and the high TGF-β1 and TGF-β2 concentrations are caused by the platelet degranulation and synthesis in monocytes during inflammation. When TGF-β1 and TGF-β2 isoforms were blocked and TGF-β3 isoform was externally added, the wound healing occurred with the less remarkable scar formation than that in control. However, blocking all three isoforms did not ensure the scarring decrease that the complexity of molecular pathways shows [\n\nGrowth factors for skin wounds are often applied locally (topically). One advantage of growth factor therapy is that it uses the body’s own cells to promote healing. Its use may also speed up the time it takes for wounds to heal, resulting in a greater reduction of disability or discomfort for the patient. Various delivery systems are offered to ensure growth factor stability and controlled release in wounds: particulate systems, scaffolds, hydrogels, and their combinations (described in [\n\nSince it is often applied topically, the incidence of systemic side effects is minimal. However, for example, high VEGF serum level causes anasacra, edema, and edema-associated burn complications although, in general, VEGF is considered to promote burn healing [\n\nIn some cases, the use of a single growth factor may be insufficient because of the complexity of molecular pathways and wound chronicity that reveals a need to develop multiple growth factor systems with sustained release. For example, Lai et al. ["
+  }
+ ]
+}

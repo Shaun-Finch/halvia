@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC8001510",
+ "pmid": "33807653",
+ "doi": "10.3390/microorganisms9030535",
+ "topic": "meningitis",
+ "title": "Bacterial Meningitis in Children: Neurological Complications, Associated Risk Factors, and Prevention.",
+ "authors": "Zainel A, Mitchell H, Sadarangani M.",
+ "affiliation": "Department of Pediatrics, Division of Infectious Diseases, University of British Columbia, Vancouver, BC V6t 1Z4, Canada.",
+ "journal": "Microorganisms",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 80,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Bacterial meningitis is a devastating infection, with a case fatality rate of up to 30% and 50% of survivors developing neurological complications. These include short-term complications such as focal neurological deficit and subdural effusion, and long-term complications such as hearing loss, seizures, cognitive impairment and hydrocephalus. Complications develop due to bacterial toxin release and the host immune response, which lead to neuronal damage. Factors associated with increased risk of developing neurological complications include young age, delayed presentation and  Streptococcus pneumoniae  as an etiologic agent. Vaccination is the primary method of preventing bacterial meningitis and therefore its complications. There are three vaccine preventable causes:  Haemophilus influenzae  type b (Hib),  S. pneumoniae,  and  Neisseria meningitidis.  Starting antibiotics without delay is also critical to reduce the risk of neurological complications. Additionally, early adjuvant corticosteroid use in Hib meningitis reduces the risk of hearing loss and severe neurological complications.",
+ "sections": [
+  {
+   "h": "6.2.1. Antibiotic Therapy",
+   "text": "It is important to have a high clinical suspicion of bacterial meningitis and start appropriate treatment without delay [S. pneumoniae and N. meningitidis. Ampicillin should be added to cover L. monocytogenes in very young children; some guidelines recommended for younger than 3 months, others recommended this for those younger than 1 month ["
+  },
+  {
+   "h": "8. Conclusions",
+   "text": "Children with bacterial meningitis are at risk of developing neurological complications that include focal neurological deficits, subdural effusion, hearing loss, cognitive impairment, seizure disorder, and hydrocephalus. There is a need to optimize utilization of available vaccines and to develop vaccines for pathogens implicated in neonatal meningitis (GBS and E. coli). For children diagnosed with bacterial meningitis, starting antibiotic therapy without delay is critical for a good prognosis and to reduce the risk of developing neurological complications. So far, steroids are the only drug that can control inflammatory response, but effectiveness is limited to specific situations."
+  }
+ ]
+}

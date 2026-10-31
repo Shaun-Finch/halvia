@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6395464",
+ "pmid": "30820692",
+ "doi": "10.1186/s13613-019-0509-8",
+ "topic": "hyperkalaemia",
+ "title": "Management of hyperkalemia in the acutely ill patient.",
+ "authors": "Dépret F, Peacock WF, Liu KD, Rafique Z, Rossignol P, Legrand M.",
+ "affiliation": "GH St-Louis-Lariboisière, Department of Anesthesiology and Critical Care and Burn Unit, St-Louis Hospital, Assistance Publique-Hopitaux de Paris, Paris, France.",
+ "journal": "Annals of intensive care",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 83,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Purpose To review the mechanisms of action, expected efficacy and side effects of strategies to control hyperkalemia in acutely ill patients. Methods We searched MEDLINE and EMBASE for relevant papers published in English between Jan 1, 1938, and July 1, 2018, in accordance with the PRISMA Statement using the following terms: \"hyperkalemia,\" \"intensive care,\" \"acute kidney injury,\" \"acute kidney failure,\" \"hyperkalemia treatment,\" \"renal replacement therapy,\" \"dialysis,\" \"sodium bicarbonate,\" \"emergency,\" \"acute.\" Reports from within the past 10 years were selected preferentially, together with highly relevant older publications. Results Hyperkalemia is a potentially life-threatening electrolyte abnormality and may cause cardiac electrophysiological disturbances in the acutely ill patient. Frequently used therapies for hyperkalemia may, however, also be associated with morbidity. Therapeutics may include the simultaneous administration of insulin and glucose (associated with frequent dysglycemic complications), β-2 agonists (associated with potential cardiac ischemia and arrhythmias), hypertonic sodium bicarbonate infusion in the acidotic patient (representing a large hypertonic sodium load) and renal replacement therapy (effective but invasive). Potassium-lowering drugs can cause rapid decrease in serum potassium level leading to cardiac hyperexcitability and rhythm disorders. Conclusions Treatment of hyperkalemia should not only focus on the ability of specific therapies to lower serum potassium level but also on their potential side effects. Tailoring treatment to the patient condition and situation may limit the risks.",
+ "sections": [
+  {
+   "h": "Renal replacement therapy and potassium dialysance",
+   "text": "Renal replacement therapies (RRT) include diffusive (i.e., hemodialysis), convective (i.e., hemofiltration) and mixed modalities (e.g., hemodiafiltration) in the acute setting. Potassium dialysance refers to the clearance of potassium in various RRT modalities. Body potassium dialysance and potassium flux depends on the gradient of potassium concentration between plasma and dialysate (or infusate using hemofiltration), blood and dialysate flow through the circuit, the modality (hemodialysis, hemofiltration, hemodiafiltration), and the dialyzer characteristics. Potassium mass transfer on the other side depends on treatment time and intracorporeal potassium kinetics (Fig.\n\nContinuous RRT, including hemofiltration (i.e., convective technique), is the most frequently used modality in the intensive care unit. Using convective techniques, flux of potassium through the membrane depends on the ultrafiltration rate and the serum potassium level (Fig.\n\nRRT will naturally be a second line strategy. In our view, the choice of RRT modality will largely depend on the available techniques. The efficacy and tolerance will however largely rely on RRT prescription. Using short high efficiency dialysis (intermittent dialysis) will require high blood and dialysate flow to remove sufficient amount of potassium (e.g., blood flow 250 mL/min and dialysate flow 500 mL/min) allowing rapid drop of serum potassium but with a risk a rebound after stopping RRT (Fig.\n\nBoth techniques expose the patient to the risk of secondary hypokalemia. Importantly, both hyperkalemia and a rapid decrease in serum potassium are associated with cardiac events and sudden death in patients with end-stage kidney disease ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Recognition of hyperkalemia-related ECG changes is central in the choice of strategy to treat the patient. ECG changes should prompt urgent medical intervention including both cardiac protection and potassium-lowering treatment. Tailoring treatment of hyperkalemia to the patient condition and situation will limit the risks of treatments side effects. Efficacy and tolerance remain however poorly explored in acute setting. There is a need for further research to evaluate both efficacy and side effects of different strategies in the acute setting."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC5622555",
+ "pmid": "28962617",
+ "doi": "10.1186/s12933-017-0604-9",
+ "topic": "atrial fibrillation",
+ "title": "Oxidative stress and inflammation as central mediators of atrial fibrillation in obesity and diabetes.",
+ "authors": "Karam BS, Chavez-Moreno A, Koh W, Akar JG, Akar FG.",
+ "affiliation": "Cardiovascular Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+ "journal": "Cardiovascular diabetology",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 399,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia in humans. Several risk factors promote AF, among which diabetes mellitus has emerged as one of the most important. The growing recognition that obesity, diabetes and AF are closely intertwined disorders has spurred major interest in uncovering their mechanistic links. In this article we provide an update on the growing evidence linking oxidative stress and inflammation to adverse atrial structural and electrical remodeling that leads to the onset and maintenance of AF in the diabetic heart. We then discuss several therapeutic strategies to improve atrial excitability by targeting pathways that control oxidative stress and inflammation.",
+ "sections": [
+  {
+   "h": "Therapies targeting oxidative stress and Inflammation for treatment of AF in diabetes",
+   "text": "Standard pharmacotherapies targeting sarcolemmal ion channels for AF treatment or prevention are associated with limited efficacy and potential toxicity, including risk of pro-arrhythmia. This is largely due to the fact that ion channel ligands typically modulate the activities of atrial and ventricular ion channels alike. As a result, they often disrupt ventricular electrophysiological properties, especially in the context of a chronic disease such as diabetes that causes adverse ventricular remodeling and fibrosis. In light of this major challenge, there is growing interest in developing non-ion channel targeting agents that have the potential to alter the underlying atrial substrate without provoking pro-arrhythmic effects ["
+  },
+  {
+   "h": "Summary",
+   "text": "Atrial fibrillation, obesity, and diabetes mellitus are intertwined disorders that are linked through oxidative stress and inflammation. Both factors exacerbate atrial electrical and structural remodeling leading to the formation of an adverse substrate that facilitates AF initiation and maintenance. Developing mechanism-based strategies targeting oxidative stress and inflammation will likely generate new, safe, and effective therapeutic opportunities for combatting the growing epidemic of diabetes-related AF."
+  }
+ ]
+}

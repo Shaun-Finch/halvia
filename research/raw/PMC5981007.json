@@ -1,0 +1,42 @@
+{
+ "pmcid": "PMC5981007",
+ "pmid": "29330085",
+ "doi": "10.1016/j.pharmthera.2018.01.001",
+ "topic": "acute coronary syndrome",
+ "title": "Inflammation following acute myocardial infarction: Multiple players, dynamic roles, and novel therapeutic opportunities.",
+ "authors": "Ong SB, Hernández-Reséndiz S, Crespo-Avilan GE, Mukhametshina RT, Kwek XY, Cabrera-Fuentes HA, Hausenloy DJ.",
+ "affiliation": "Cardiovascular and Metabolic Disorders Program, Duke-National University of Singapore, Singapore; National Heart Research Institute Singapore, National Heart Centre Singapore, Singapore.",
+ "journal": "Pharmacology & therapeutics",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 747,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute myocardial infarction (AMI) and the heart failure that often follows, are major causes of death and disability worldwide. As such, new therapies are required to limit myocardial infarct (MI) size, prevent adverse left ventricular (LV) remodeling, and reduce the onset of heart failure following AMI. The inflammatory response to AMI, plays a critical role in determining MI size, and a persistent pro-inflammatory reaction can contribute to adverse post-MI LV remodeling, making inflammation an important therapeutic target for improving outcomes following AMI. In this article, we provide an overview of the multiple players (and their dynamic roles) involved in the complex inflammatory response to AMI and subsequent LV remodeling, and highlight future opportunities for targeting inflammation as a therapeutic strategy for limiting MI size, preventing adverse LV remodeling, and reducing heart failure in AMI patients.",
+ "sections": [
+  {
+   "h": "Therapeutic targeting of inflammation following MI",
+   "text": "Given the detrimental effects of an excessive and persistent pro-inflammatory response to AMI, and the beneficial healing effects of the anti-inflammatory reparative phase which follows, a potential therapeutic strategy for limiting MI size and preventing adverse LV remodeling, is to attenuate the initial pro-inflammatory response, and upregulate the subsequent anti-inflammatory reparative response. Separate to the role of inflammation in AMI, it has been postulated that persistent or chronic inflammation following an AMI, may result in adverse LV remodeling, providing an additional therapeutic target for preventing post-MI heart failure ("
+  },
+  {
+   "h": "Therapeutic targeting of inflammatory cytokines",
+   "text": "Inflammatory cytokines constitute intriguing therapeutic targets because of their pleiotropic effects on immune responses. Despite the promising results shown in animal models, however, clinical studies of therapies targeting inflammatory cytokines and chemokines have produced mixed results."
+  },
+  {
+   "h": "Why have so many anti-inflammatory therapies failed to protect in AMI?",
+   "text": "The reason why so many anti-inflammatory therapeutic strategies have failed to reduce MI size or improve clinical outcomes in AMI patients, despite showing beneficial effects in small and large animal models of AMI, is not clear. A number of potential factors have been suggested:\n\nAs such, in order to improve the translation of future therapeutic strategies for preventing inflammation in AMI into the clinical setting more clinically relevant animal AMI models should be used and one should ensure that the therapy can adequately suppress the immune response following AMI. In addition, a multicenter blinded randomized placebo-controlled approach should be adopted in the pre-clinical assessment of potential cardioprotective strategies, in order to improve the translation of cardioprotective for patient benefit ("
+  },
+  {
+   "h": "Multi-targeted therapies",
+   "text": "The reasons for the many failures to target inflammation as a strategy for cardioprotection are unclear but may relate to the limitations of using a single-targeted approach directed to only the pro-inflammatory proponent of acute myocardial IRI. This approach does not address the other components of acute myocardial IRI (for example mitochondrial dysfunction, calcium overload, oxidative stress, microvascular obstruction, other components of the inflammatory response and so on). As such, a multi-targeted approach and combining anti-inflammatory agents with mitochondria and endothelial protective therapies may be a better approach to reducing MI size in reperfused STEMI patients ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "The complex inflammatory response to AMI is orchestrated by a number of different players, the roles of which change, according to the pro-inflammatory and anti-inflammatory reparative phases which follow AMI. Elucidation of the mechanisms underlying the inflammatory response to AMI, has identified a number of therapeutic targets for reducing acute MI size and preventing adverse LV remodeling following AMI, based on suppressing the pro-inflammatory phase, and upregulating the anti-inflammatory response. However, a number of anti-inflammatory therapies have failed to reduce MI size, and improve clinical outcomes in AMI patients. Improving the translation of anti-inflammatory therapies from the experimental to the clinical setting may be achieved by a number of approaches including: selecting the appropriate target at the right time or even combining multiple targets or broad-spectrum approaches appropriate for a multi-player process; identifying the broader timing issue of not only ischemia versus reperfusion but rather inhibiting the acute phase while enhancing the later reparative phase; appropriate power and design of clinical trials; more effective vetting of candidate therapies through rigorous preclinical trial assessment."
+  }
+ ]
+}

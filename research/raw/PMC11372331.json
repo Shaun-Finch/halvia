@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC11372331",
+ "pmid": "39163102",
+ "doi": "10.2196/54302",
+ "topic": "cellulitis and skin infection",
+ "title": "Association of Cellulitis With Obesity: Systematic Review and Meta-Analysis.",
+ "authors": "Taira KG, Wang M, Guo W, Kam O, Kaufmann T.",
+ "affiliation": "Renaissance School of Medicine, Stony Brook University, Stony Brook, NY, United States.",
+ "journal": "JMIR dermatology",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 7,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Cellulitis is a bacterial skin infection that tends to recur. Previous studies have identified several risk factors that may contribute to its pathogenesis. Obesity is an increasingly prevalent worldwide disease that has been associated with skin and soft tissue infections. Objective The aim of our systematic review and meta-analysis was to investigate the association of cellulitis with obesity. Methods The Ovid MEDLINE, Embase, Cochrane Central Register of Controlled Trials, and Web of Science databases were searched for the relevant studies from the inception of each respective database to March 13, 2021. Case-control, cross-sectional, or cohort studies that examined the odds or risk of increased BMI in patients with cellulitis were included. This study was carried out in accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. The Newcastle-Ottawa scale (NOS) was used to evaluate the risk of bias in included studies. Results In total, 9 case-control studies were included in our quantitative meta-analysis with a total of 68,148 study participants. A significant association was found between cellulitis and obesity (pooled odds ratio [OR] 2.67, 95% CI 1.91-3.71). No significant association was observed between cellulitis and being overweight (pooled OR 1.69, 95% CI 0.99-2.88). Patients with cellulitis were also found to have 1.63-fold increased odds of being male (pooled OR 1.63, 95% CI 1.12-2.38). Conclusions Our findings suggest that cellulitis is significantly associated with obesity. Maintaining a healthy BMI may be indicated for patients presenting with cellulitis.",
+ "sections": [
+  {
+   "h": "Data Extraction and Risk of Bias Assessment",
+   "text": "We extracted the following data from the included studies: first author, year of publication, country, study design, diagnosis method of cellulitis, selection criteria of cases and controls, location of cellulitis, definition of obesity/overweight, cultured microbes, and alcohol usage. Quantitative data that were extracted include total number of participants, number of cases and controls, age of participants, percentage of female participants, and univariate and multivariate odds ratios (ORs) with 95% CI on the association of cellulitis with obesity. We used the Newcastle-Ottawa scale (NOS) to assess the risk of bias in included studies ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "We found that cellulitis is associated with obesity but not with being overweight. Given that the prevalence of obesity continues to increase globally, emphasis on maintaining a healthy BMI may be indicated for patients presenting with cellulitis."
+  }
+ ]
+}

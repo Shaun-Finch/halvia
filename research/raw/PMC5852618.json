@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5852618",
+ "pmid": "29016754",
+ "doi": "10.1093/cvr/cvx183",
+ "topic": "acute coronary syndrome",
+ "title": "Cardiac troponins: from myocardial infarction to chronic disease.",
+ "authors": "Park KC, Gaze DC, Collinson PO, Marber MS.",
+ "affiliation": "BHF Centre of Research Excellence, The Rayne Institute, Cardiovascular Division, King's College London, London, UK.",
+ "journal": "Cardiovascular research",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 380,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Elucidation of the physiologically distinct subunits of troponin in 1973 greatly facilitated our understanding of cardiac contraction. Although troponins are expressed in both skeletal and cardiac muscle, there are isoforms of troponin I/T expressed selectively in the heart. By exploiting cardiac-restricted epitopes within these proteins, one of the most successful diagnostic tests to date has been developed: cardiac troponin (cTn) assays. For the past decade, cTn has been regarded as the gold-standard marker for acute myocardial necrosis: the pathological hallmark of acute myocardial infarction (AMI). Whilst cTn is the cornerstone for ruling-out AMI in patients presenting with a suspected acute coronary syndrome (ACS), elevated cTn is frequently observed in those without clinical signs indicative of AMI, often reflecting myocardial injury of 'unknown origin'. cTn is commonly elevated in acute non-ACS conditions, as well as in chronic diseases. It is unclear why these elevations occur; yet they cannot be ignored as cTn levels in chronically unwell patients are directly correlated to prognosis. Paradoxically, improvements in assay sensitivity have meant more differential diagnoses have to be considered due to decreased specificity, since cTn is now more easily detected in these non-ACS conditions. It is important to be aware cTn is highly specific for myocardial injury, which could be attributable to a myriad of underlying causes, emphasizing the notion that cTn is an organ-specific, not disease-specific biomarker. Furthermore, the ability to detect increased cTn using high-sensitivity assays following extreme exercise is disconcerting. It has been suggested troponin release can occur without cardiomyocyte necrosis, contradicting conventional dogma, emphasizing a need to understand the mechanisms of such release. This review discusses basic troponin biology, the physiology behind its detection in serum, its use in the diagnosis of AMI, and some key concepts and experimental evidence as to why cTn can be elevated in chronic diseases.",
+ "sections": [
+  {
+   "h": "7. Conclusions",
+   "text": "Originally the rationale behind the cTn assay was relatively simple: myocardial necrosis leads to membrane disruption causing troponin release which is detected in serum. The troponins have been used to diagnose acute myocardial injury and such use has become engrained in the Universal Definition of Acute Myocardial Infarction. Today however, with the evolving sensitivity of cTn assays, it is clear cTn is detectable in everyone and becomes elevated above the 99th percentile in stable chronic conditions. These features of the high-sensitivity assays have made the interpretation of cTn results more complex.\n\nIn recent years, the concept that troponin can be released with reversible cell injury, without necrosis, or even cell death, has been repeatedly suggested. In part, this is due to increased cTn being observed in several clinical situations whereby there are no obvious signs of overt cardiac disease, and in particular with the consistent finding of increased hs-cTn following extreme exercise. However, it is emphasized that current evidence reinforces the view that cTn is only released from cardiomyocytes upon irreversible cell death (whether it be by necrosis or apoptosis etc.).\n\nFuture research needs to embrace the high-sensitivity of the latest assays to expand their use in personalizing medical therapy. In particular, we believe that concentrations below and around the 99th percentile could be used to select higher risk patients for future randomized trials in HF and prevention of vascular events. Another under explored area is understanding if additional information, over and above concentration, is gained by measurement of post-translational modifications in circulating cTnI and cTnT. Since varied forms of cTn can be detected in serum following AMI (e.g. following proteolytic cleavage, post-translational modifications etc.), the future assays may not just feature enhanced analytic sensitivity, but also the ability to detect different forms of cTn released during different ‘stages‘of ischaemia–as identified by Wu et al."
+  }
+ ]
+}

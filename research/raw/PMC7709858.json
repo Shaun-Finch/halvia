@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7709858",
+ "pmid": "33393911",
+ "doi": "10.2196/13782",
+ "topic": "early warning scores",
+ "title": "Impact of Intensive Care Unit Readmissions on Patient Outcomes and the Evaluation of the National Early Warning Score to Prevent Readmissions: Literature Review.",
+ "authors": "Mcneill H, Khairat S.",
+ "affiliation": "School of Nursing, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States.",
+ "journal": "JMIR perioperative medicine",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 20,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Intensive care unit (ICU) readmissions have been shown to increase a patient's in-hospital mortality and length of stay (LOS). Despite this, no methods have been set in place to prevent readmissions from occurring. Objective The aim of this literature review was to evaluate the impact of ICU readmission on patient outcomes and to evaluate the effect of using a risk stratification tool, the National Early Warning Score (NEWS), on ICU readmissions. Methods A database search was performed on PubMed, Cumulative Index of Nursing and Allied Health Literature, Google Scholar, and ProQuest. In the initial search, 2028 articles were retrieved; after inclusion and exclusion criteria were applied, 12 articles were ultimately used in this literature review. Results This literature review found that patients readmitted to the ICU have an increased mortality rate and LOS at the hospital. The sample sizes in the reviewed studies ranged from 158 to 745,187 patients. Readmissions were most commonly associated with respiratory issues about 18% to 59% of the time. The NEWS has been shown to detect early clinical deterioration in a patient within 24 hours of transfer, with a 95% CI of 0.89 to 0.94 (P Conclusions ICU readmissions are associated with worse patient outcomes, including hospital mortality and increased LOS. Without the use of an objective screening tool, the provider has been solely responsible for the decision of patient transfer. Assessment with the NEWS could be helpful in decreasing the frequency of inappropriate transfers and ultimately ICU readmission.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The evidence reviewed supports the fact that premature transfer from the ICU to the medical floor is associated with adverse outcomes for the patient. Those adverse outcomes affect the patient’s mortality, hospital cost, and the LOS at the hospital. It is important to note that the adverse outcomes are likely not solely because of premature transfer but could be the result of the patient’s overall clinical picture and severity of illness. To this point, ICU transfer has solely been the clinical decision of the provider caring for the patient. This decision is often clouded by the constant need for ICU beds and the request for transfers in the middle of the night to make beds available. A risk stratification tool, such as the NEWS, supplies the provider with objective data to support the decision to transfer the patient and to identify the patients at high risk for readmission. Implementation of a risk stratification tool such as the NEWS would be beneficial in evaluating the patient’s readiness to get transferred from the ICU, in addition to the clinician’s judgment. However, further research needs to focus on the application of the NEWS on the surgical trauma critical care patient."
+  }
+ ]
+}

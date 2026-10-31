@@ -1,0 +1,38 @@
+{
+ "pmcid": "PMC10289390",
+ "pmid": "37352180",
+ "doi": "10.1371/journal.pone.0287326",
+ "topic": "pressure ulcers",
+ "title": "Risk factors for medical device-related pressure injury in ICU patients: A systematic review and meta-analysis.",
+ "authors": "Gou L, Zhang Z, A Y.",
+ "affiliation": "Department of Gastrointestinal surgery, Xining, China.",
+ "journal": "PloS one",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 26,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Medical device-related pressure injury (MDRPI) in intensive care unit (ICU) patients is a serious issue. We aimed to evaluate the risk factors for MDRPI associated with ICU patients through systematic review and meta-analysis, and provide insights into the clinical prevention of MDRPI. Methods We searched PubMed, Embase, Web of Science, China National Knowledge Infrastructure (CNKI), WanFang Database, and China BioMedical Literature Database (CBM) (from inception to January 2023) for studies that identified risk factors of MDRPI in ICU patients. In order to avoid the omission of relevant literature, we performed a secondary search of the above database on February 15, 2023. Meta-analysis was performed using Revman 5.3. Results Fifteen studies involving 4850 participants were selected to analyze risk factors for MDRPI in ICU patients. While conducting a meta-analysis, we used sensitivity analysis to ensure the reliability of the results for cases with significant heterogeneity among studies. When the source of heterogeneity cannot be determined, we only described the risk factor. The risk factors for MDRPI in ICU patients were elder age (OR = 1.06, 95% CI: 1.03-1.10), diabetes mellitus (OR = 3.20, 95% CI: 1.96-5.21), edema (OR = 3.62, 95% CI: 2.31-5.67), lower Braden scale score (OR = 1.22, 95%CI: 1.11-1.33), higher SOFA score (OR = 4.21, 95%CI: 2.38-7.47), higher APACHE II score (OR = 1.38, 95%CI: 1.15-1.64), longer usage time of medical devices (OR = 1.11, 95%CI: 1.05-1.19), use of vasoconstrictors (OR = 6.07, 95%CI: 3.15-11.69), surgery (OR = 4.36, 95% CI: 2.07-9.15), prone position (OR = 24.71, 95% CI: 7.34-83.15), and prone position ventilation (OR = 17.51, 95% CI: 5.86-52.36). Furthermore, we found that ICU patients who used subglottic suction catheters had a higher risk of MDRPI, whereas ICU patients with higher hemoglobin and serum albumin levels had a lower risk of MDRPI. Conclusion This study reported the risk factors for MDRPI in ICU patients. A comprehensive analysis of these risk factors will help to prevent and optimize interventions, thereby minimizing the occurrence of MDRPI.",
+ "sections": [
+  {
+   "h": "Methodological quality assessment",
+   "text": "The quality of a cohort study and case-control study was evaluated using the Newcastle-Ottawa scale (NOS), which included selection (4 items, a total of 4 points), comparability (1 item, a total of 2 points), exposure/outcome evaluation (3 items, a total of 3 points). The total score on the scale was 9. When the total score was ≤ 3, the study was rated as low quality, 4–6 as medium quality, and ≥ 7 as high quality ["
+  },
+  {
+   "h": "Treatment factors",
+   "text": "The use of vasoconstrictors. Five studies [P = 0.0009, I2 = 79%). After removing each of the included studies, it was found that the study of Qi et al. a [P = 0.68, I2 = 0%). A meta-analysis using a fixed effect model showed that ICU patients using vasoconstrictors had a greater risk of MDRPI [OR = 6.07, 95%CI (3.15, 11.69), P < 0.00001] (\n\nSurgery. Three studies [P = 0.41, I2 = 0%). Based on a meta-analysis using a fixed effect model, surgery significantly increased the risk of MDRPI in ICU patients [OR = 4.36, 95%CI (2.07, 9.15), P = 0.0001] (\n\nPosition. Two studies [P = 0.20, I2 = 39%). A meta-analysis using a fixed effect model showed that ICU patients in prone positions had a higher risk of MDRPI [OR = 24.71, 95%CI (7.34, 83.15), P < 0.00001] (\n\nProne position ventilation. The effects of prone position ventilation on MDRPI in ICU patients have been reported in two studies [P = 0.53, I2 = 0%). A meta-analysis using a fixed effect model showed that ICU patients using prone ventilation had a greater risk of MDRPI [OR = 17.51, 95%CI (5.86, 52.36), P < 0.00001] ("
+  },
+  {
+   "h": "Treatment factors",
+   "text": "The results of this study indicate that the use of vasoconstrictors is a risk factor for MDRPI in ICU patients. A systematic review [et al. [\n\nThe results of this study indicate that surgery is a risk factor for MDRPI in ICU patients. The impact of surgery on MDRPI is multifaceted. Many factors can contribute to the occurrence of MDRPI, including the length of surgery, intraoperative posture limitations, intraoperative exposure or temperature loss, intraoperative bleeding, and drug use [\n\nCertain special positions may be associated with the occurrence of PI [\n\nThe impact of prone position ventilation on MDRPI in ICU patients is reflected in multiple aspects. First, the prone position itself is a risk factor for the occurrence of MDRPI, as shown in the previous research results of this article. Second, the pressure from the head caused by gravity and the pressure from the patient’s support surface cause double compression on the respiratory tube and its fixation device, which increases the pressure on local skin and mucosa, leading to the occurrence of MDRPI. Furthermore, the duration of prone position ventilation can also influence the occurrence of MDRPI. However, many studies [\n\nOf course, this study has certain limitations. (1) The number of included literature on some risk factors is small, and the reliability of research results needs to be further improved; (2) Most of the original studies included did not distinguish between MDR-S PI and MDR-MM PI; thus, mixed calculations can only be performed during meta-analysis; (3) Some of the studies included all stages of MDRPI, while others included only one or several stages of MDRPI. However, no subgroup analysis was conducted due to the small number of literature included in this study."
+  },
+  {
+   "h": "Conclusions",
+   "text": "This study systematically evaluated the risk factors for MDRPI, which included demographic data, disease data, device factors, and treatment factors. The results of this study showed that age, diabetes, hemoglobin, serum albumin, edema, Braden scale score, SOFA score, APACHE II score, usage time of medical devices, use of a subglottic suction catheter, vasoconstrictors, surgery, position, and prone position ventilation might be related to the occurrence of MDRPI in ICU patients. A comprehensive analysis of these risk factors will help to prevent and optimize interventions, thereby minimizing the occurrence of MDRPI. However, there is still a lack of data in this area, and more high-quality research is recommended in the future to verify the relevant results."
+  }
+ ]
+}

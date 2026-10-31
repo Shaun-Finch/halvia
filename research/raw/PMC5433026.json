@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5433026",
+ "pmid": "28506216",
+ "doi": "10.1186/s12877-017-0496-2",
+ "topic": "frailty",
+ "title": "Nutritional determinants of frailty in older adults: A systematic review.",
+ "authors": "Lorenzo-López L, Maseda A, de Labra C, Regueiro-Folgueira L, Rodríguez-Villamil JL, Millán-Calenti JC.",
+ "affiliation": "Universidade da Coruña, Gerontology Research Group, Instituto de Investigación Biomédica de A Coruña (INIBIC), Complexo Hospitalario Universitario de A Coruña (CHUAC), SERGAS, 15071, A Coruña, Spain.",
+ "journal": "BMC geriatrics",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 447,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Frailty is a geriatric syndrome that affects multiple domains of human functioning. A variety of problems contributes to the development of this syndrome; poor nutritional status is an important determinant of this condition. The purpose of this systematic review was to examine recent evidence regarding the association between nutritional status and frailty syndrome in older adults. Methods PubMed, Web of Science, and Scopus electronic databases were searched using specific key words, for observational papers that were published during the period from 2005 to February 2017 and that studied the association or relationship between nutritional status and frailty in older adults. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) Statement was followed to assess the quality of the included articles. Results Of the 2042 studies found, nineteen met the inclusion criteria. Of these studies, five provided data on micronutrients and frailty, and reported that frailty syndrome is associated with low intakes of specific micronutrients. Five studies provided data on macronutrients and frailty, and among those studies, four revealed that a higher protein intake was associated with a lower risk of frailty. Three studies examined the relationship between diet quality and frailty, and showed that the quality of the diet is inversely associated with the risk of being frail. Two studies provided data on the antioxidant capacity of the diet and frailty, and reported that a high dietary antioxidant capacity is associated with a lower risk of developing frailty. Finally, seven studies evaluated the relationship between scores on both the Mini Nutritional Assessment (MNA) and the MNA-SF (Short Form) and frailty, and revealed an association between malnutrition and/or the risk of malnutrition and frailty. Conclusions This systematic review confirms the importance of both quantitative (energy intake) and qualitative (nutrient quality) factors of nutrition in the development of frailty syndrome in older adults. However, more longitudinal studies on this topic are required to further understand the potential role of nutrition in the prevention, postponement, or even reversion of frailty syndrome.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "This systematic review analyzes recent evidence that nutrition or nutritional intake is associated with frailty in older adults. However, a straightforward conclusion about the efficacy of nutrition on frailty cannot be established due mainly to the cross-sectional design of many of the included studies. In summary, more prospective cohort studies in older adults are needed to further understand the potential role of nutrition in the prevention, postponement, or the reversal of frailty syndrome."
+  }
+ ]
+}

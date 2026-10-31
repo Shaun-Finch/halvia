@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC8346591",
+ "pmid": "34362946",
+ "doi": "10.1038/s41598-021-95512-7",
+ "topic": "pulmonary embolism",
+ "title": "Mortality and risk factors associated with pulmonary embolism in coronavirus disease 2019 patients: a systematic review and meta-analysis.",
+ "authors": "Gómez CA, Sun CK, Tsai IT, Chang YP, Lin MC, Hung IY, Chang YJ, Wang LK, Lin YT, Hung KC.",
+ "affiliation": "School of Medicine for International Students, College of Medicine, I-Shou University, Kaohsiung, Taiwan.",
+ "journal": "Scientific reports",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 52,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "To determine, in patients with coronavirus disease 2019 (COVID-19) infection, the associations of pulmonary embolism (PE) with mortality and risk factors for PE as well as the therapeutic benefit of anticoagulant prophylaxis. Embase, PubMed, Cochrane controlled trials register, and Web of Science databases were searched from inception to October 10, 2020. We included all published trials on PE in patients diagnosed with COVID-19 with eligibility of the trials assessed following the PRISMA guidelines. Sixteen clinical trials with 5826 patients were eligible. There were significant associations of PE with the male gender [odd ratio (OR) = 1.59, 95% CI 1.28-1.97], mechanical ventilation (OR = 3.71, 95% CI 2.57-5.36), intensive care unit admission (OR = 2.99, 95% CI 2.11-4.23), circulating D-dimer [mean difference (MD) = 5.04 µg/mL, 95% CI 3.67-6.42) and CRP (MD = 1.97 mg/dL, 95% CI 0.58- 3.35) concentrations without significant correlation between PE and mortality (OR = 1.31, 95% CI 0.82-2.08) as well as other parameters or comorbidities. After omitting one trial with strict patient selection criteria for anticoagulant prophylaxis, significant prophylactic benefit was noted (OR = 0.31, 95% CI 0.1-0.91). Our findings identified the risk factors associated with PE in COVID-19 patients and supported the therapeutic benefit of anticoagulant prophylaxis against PE in this patient population.",
+ "sections": [
+  {
+   "h": "Primary outcome, secondary outcomes, and definitions",
+   "text": "The primary endpoint was the risk of mortality, while the secondary outcomes were potential risk factors for PE and changes in laboratory profiles with or without the occurrence of PE during the study period. If the same laboratory parameter was available at different time points, only the maximum value was selected for analysis."
+  },
+  {
+   "h": "Assessment of risks of bias for the included studies",
+   "text": "Two authors assessed the risks of bias of the included non-randomised studies with the Newcastle-Ottawa Scale (NOS) for quality of cohort studies, which scores each study based on three domains, namely, study group selection, group comparability, and outcome of interest ascertainment for cohort studies. A maximum of four, three, and two stars were assigned to the Selection, Comparability, and Outcome domains, respectively. The higher the number of stars, the better the quality of the study (i.e., up to nine stars for highest quality studies). For the second item of the Outcome domain, we awarded one star to a study if the patients were discharged from hospital or succumbed to the disease. For non-hospitalised patients or lack of relevant information (e.g., discharge or fatality) for inpatients, no star was assigned with the assumption of inadequate follow-up. One star was given to the last item of the Outcome domain for (1) studies with a follow-up rate ≥ 80%, or (2) those with a follow-up rate < 80% but including a description of lack of significant difference in demographic characteristics between the follow-up and lost-to-follow-up groups. Studies with less than six stars were considered to be of low-quality."
+  },
+  {
+   "h": "Conclusions",
+   "text": "Through systematically reviewing the eligible clinical trials, the present meta-analysis demonstrated significant associations of pulmonary embolism with the male gender, risks of mechanical ventilation and ICU admission as well as elevated circulating concentrations of D-dimer and CRP in COVID-19 patients despite the lack of correlation between pulmonary embolism and mortality. After omitting one trial with strict patient selection criteria for anticoagulant prophylaxis, our results showed significant therapeutic benefit of anticoagulant prophylaxis against pulmonary embolism in those with COVID-19 infection. Because of limited data from the included observational studies, further large-scale clinical trials are warranted to support our findings."
+  }
+ ]
+}

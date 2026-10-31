@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7533148",
+ "pmid": "33024653",
+ "doi": "10.1186/s41479-020-00074-3",
+ "topic": "pneumonia",
+ "title": "Etiology of community-acquired pneumonia in adults: a systematic review.",
+ "authors": "Shoar S, Musher DM.",
+ "affiliation": "Medical Care Line (Infectious Disease Section), Michael E. DeBakey Veterans Affairs Medical Center, 2002 Holcombe Boulevard, Room 4B-370, Houston, TX 77030 USA.",
+ "journal": "Pneumonia (Nathan Qld.)",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 186,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background The etiology of community-acquired pneumonia (CAP) has evolved since the beginning of the antibiotic era. Recent guidelines encourage immediate empiric antibiotic treatment once a diagnosis of CAP is made. Concerns about treatment recommendations, on the one hand, and antibiotic stewardship, on the other, motivated this review of the medical literature on the etiology of CAP. Methods We conducted a systematic review of English-language literature on the etiology of CAP using methods defined by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. We searched PubMed using a combination of the keywords 'pneumonia', 'CAP', 'etiology', 'microbiology', 'bacteriology', and 'pathogen'. We examined articles on antibiotics that were develop to treat pneumonia. We reviewed all 'related articles' as well as studies referenced by those that came up in the search. After we excluded articles that did not give sufficient microbiological data or failed to meet other predetermined criteria, 146 studies remained. Data were stratified into diagnostic categories according to the microbiologic studies that were done; results are presented as the percentage in each category of all cases in which an etiology was established. Results  Streptococcus pneumoniae  remains the most common cause of CAP although declining in incidence; this decline has been greater in the US than elsewhere.  Haemophilus influenzae  is the second most common cause of CAP, followed by  Staphylococcus aureus  and Gram negative bacilli. The incidence of all bacteria as causes of CAP has declined because, with routine use of PCR for viruses, the denominator, cases with an established etiology, has increased. Viruses were reported on average in about 10% of cases, but recent PCR-based studies identified a respiratory virus in about 30% of cases of CAP, with substantial rates of viral/bacterial coinfection. Conclusion The results of this study justify current guidelines for initial empiric treatment of CAP. With pneumococcus and  Haemophilus  continuing to predominate, efforts at antibiotic stewardship might be enhanced by greater attention to the routine use of sputum Gram stain and culture. Because viral/bacterial coinfection is relatively common, the identification of a virus by PCR does not, by itself, allow for discontinuation of the antibiotic therapy.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The results of this systematic review show that pneumococcus and Haemophilus continue to predominate as the bacterial causes of CAP, followed by Staphylococcus aureus and Enterobacteriaceae. For all the emphasis on Pseudomonas, this organism remained a relatively uncommon cause. On average, Moraxella was implicated in 2–3% of cases, although some series showed this organism to be the third most common cause of CAP, following pneumococcus and Haemophilus. Other bacteria were isolated far less frequently. In nearly all reports, an etiology could not be identified in more than one-half of cases. Studies that were confined to patients who provided good-quality sputum reported substantially higher yields for bacterial causes. One study called attention to the role of so-called normal respiratory flora as a prominent cause of CAP. We were unable to resolve wide discrepancies among individual studies that reported Mycoplasma and Chlamydophila in 4–20% of cases (average about 10–15%). On average, viruses were found in about 10% of case series, but recent reports that included viral PCR on most or all patients found a respiratory virus in about 30% of cases, with bacterial/viral coinfection being relatively common.\n\nThese results appear to support the 2019 guidelines for the initial empiric management of CAP [Haemophilus, Staphylococcus aureus and Enterobacteriaceae, as well as “atypical” organisms. The finding of a virus by PCR does not eliminate the need to treat empirically for bacteria, because bacterial/viral coinfection is relatively common. More careful attention to sputum Gram stain and culture results should improve outcomes in patients who do not respond to initial empiric therapy and might enable better antibiotic stewardship. Molecular techniques may, in the future, simplify the process of correct identification of causative organisms."
+  }
+ ]
+}

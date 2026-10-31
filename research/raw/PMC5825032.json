@@ -1,0 +1,39 @@
+{
+ "pmcid": "PMC5825032",
+ "pmid": "29474359",
+ "doi": "10.1371/journal.pone.0192707",
+ "topic": "pressure ulcers",
+ "title": "Support surfaces for pressure ulcer prevention: A network meta-analysis.",
+ "authors": "Shi C, Dumville JC, Cullum N.",
+ "affiliation": "Division of Nursing, Midwifery & Social Work, School of Health Sciences, Faculty of Biology, Medicine & Health, University of Manchester, Manchester Academic Health Science Centre, Manchester, United Kingdom.",
+ "journal": "PloS one",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 58,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Network Meta-Analysis",
+  "Journal Article"
+ ],
+ "abstract": "Background Pressure ulcers are a prevalent and global issue and support surfaces are widely used for preventing ulceration. However, the diversity of available support surfaces and the lack of direct comparisons in RCTs make decision-making difficult. Objectives To determine, using network meta-analysis, the relative effects of different support surfaces in reducing pressure ulcer incidence and comfort and to rank these support surfaces in order of their effectiveness. Methods We conducted a systematic review, using a literature search up to November 2016, to identify randomised trials comparing support surfaces for pressure ulcer prevention. Two reviewers independently performed study selection, risk of bias assessment and data extraction. We grouped the support surfaces according to their characteristics and formed evidence networks using these groups. We used network meta-analysis to estimate the relative effects and effectiveness ranking of the groups for the outcomes of pressure ulcer incidence and participant comfort. GRADE was used to assess the certainty of evidence. Main results We included 65 studies in the review. The network for assessing pressure ulcer incidence comprised evidence of low or very low certainty for most network contrasts. There was moderate-certainty evidence that powered active air surfaces and powered hybrid air surfaces probably reduce pressure ulcer incidence compared with standard hospital surfaces (risk ratios (RR) 0.42, 95% confidence intervals (CI) 0.29 to 0.63; 0.22, 0.07 to 0.66, respectively). The network for comfort suggested that powered active air-surfaces are probably slightly less comfortable than standard hospital mattresses (RR 0.80, 95% CI 0.69 to 0.94; moderate-certainty evidence). Conclusions This is the first network meta-analysis of the effects of support surfaces for pressure ulcer prevention. Powered active air-surfaces probably reduce pressure ulcer incidence, but are probably less comfortable than standard hospital surfaces. Most prevention evidence was of low or very low certainty, and more research is required to reduce these uncertainties.",
+ "sections": [
+  {
+   "h": "Risk of bias assessment",
+   "text": "We used Cochrane’s Risk of Bias tool to assess risk of bias of each included study [domain-specific risk of bias [\n\nWe then followed GRADE principles to summarise the overall risk of bias across domains for each included study [overall risk of bias (referred to hereon as “study limitations”) for direct evidence (i.e. pairwise meta-analysis), network contrasts, and the entire network. Three categories were used to qualitatively rate study limitations: no serious limitations; serious limitations; and very serious limitation."
+  },
+  {
+   "h": "Prevention network: Results of transitivity assessment and heterogeneity analyses",
+   "text": "We deemed that the transitivity assumption held and there was no suggestion of global inconsistency in the network using either the design-by-treatment interaction model or the model of Lu and Ades [\n\nThe common network heterogeneity was moderate: tau2 = 0.195; and I2 = 56% (95% CI: 36 to 70%). This means that there was moderate variation in the mean effect size estimate across studies in each network contrast (i.e. in one network contrast, some included studies may suggest benefit for one intervention group but others may suggest harm). This moderate common network heterogeneity may be due to the very high heterogeneity (I2 > 75%) of three pairwise meta-analyses in the network (powered or non-powered reactive low-air-loss air surfaces, non-powered reactive sheepskin surfaces, and non-powered reactive foam surfaces compared with standard hospital surfaces). Additionally, subgroup analysis suggested that funding sources, considering operating theatres as settings or not, follow-up duration, and baseline skin status defined by authors may explain the network heterogeneity (tau2 from 0.195 to 0.160, 0.160, 0.178, and 0.129, respectively) but risk of bias assessment and setting may not (see"
+  },
+  {
+   "h": "Comfort network: Summary of included evidence",
+   "text": "Twelve of 65 studies (18%) presented outcome data on patient comfort, of which eight studies could not be included in the network: six studies were excluded as they compared support surfaces from the same intervention groups (Refs 11, 13, 20, 37, 41, 42 in the"
+  },
+  {
+   "h": "Conclusions",
+   "text": "Current moderate-certainty evidence from the prevention network suggests that, compared with standard hospital surfaces, powered active air surfaces and powered hybrid air surfaces probably reduce the incidence of pressure ulcers by 58% and 78% on average, respectively. However, a limited network for the outcome of comfort suggests lower comfort on powered active air surfaces than standard hospital surfaces. The evidence is uncertain for the pressure ulcer prevention effects of other intervention groups.\n\nThe network, with sparse data and very low quality of studies, suggests that more high-quality research is required. In particular more RCT evidence is required for powered hybrid air surfaces which were evaluated in only three studies in the network meta-analysis and non-powered reactive foam surfaces (which are widely used) and non-powered reactive sheepskins should be prioritised for research.\n\nThe poor quality of the existing evidence makes it particularly important that researchers undertaking any new research ensure study rigour. For example, it may be possible to minimise detection bias by using digital photography and adjudicators of the photographs being masked to support surface ["
+  }
+ ]
+}

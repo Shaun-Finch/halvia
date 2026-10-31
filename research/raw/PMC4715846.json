@@ -1,0 +1,38 @@
+{
+ "pmcid": "PMC4715846",
+ "pmid": "26780745",
+ "doi": "10.1007/s11239-015-1315-2",
+ "topic": "venous thromboembolism",
+ "title": "Guidance for the practical management of the heparin anticoagulants in the treatment of venous thromboembolism.",
+ "authors": "Smythe MA, Priziola J, Dobesh PP, Wirth D, Cuker A, Wittkowsky AK.",
+ "affiliation": "Wayne State University, Detroit, MI, USA.",
+ "journal": "Journal of thrombosis and thrombolysis",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 149,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Venous thromboembolism (VTE) is a serious and often fatal medical condition with an increasing incidence. Despite the changing landscape of VTE treatment with the introduction of the new direct oral anticoagulants many uncertainties remain regarding the optimal use of traditional parenteral agents. This manuscript, initiated by the Anticoagulation Forum, provides clinical guidance based on existing guidelines and consensus expert opinion where guidelines are lacking. This specific chapter addresses the practical management of heparins including low molecular weight heparins and fondaparinux. For each anticoagulant a list of the most common practice related questions were created. Each question was addressed using a brief focused literature review followed by a multidisciplinary consensus guidance recommendation. Issues addressed included initial anticoagulant dosing recommendations, recommended baseline laboratory monitoring, managing dose adjustments, evidence to support a relationship between laboratory tests and meaningful clinical outcomes, special patient populations including extremes of weight and renal impairment, duration of necessary parenteral therapy during the transition to oral therapy, candidates for outpatient treatment where appropriate and management of over-anticoagulation and adverse effects including bleeding and heparin induced thrombocytopenia. This article concludes with a concise table of clinical management questions and guidance recommendations to provide a quick reference for the practical management of heparin, low molecular weight heparin and fondaparinux.",
+ "sections": [
+  {
+   "h": "Heparin for the treatment of acute VTE",
+   "text": "While heparin therapy for VTE treatment is typically administered by continuous IV infusion, both adjusted dose and fixed dose SC injections can also be utilized. A comparative study of SC and IV heparin using the same initial dose (5000 unit IV bolus followed by 30,000 units/day) reported an increased risk of VTE recurrence with SC heparin (19.3 % vs. 5.2 %; p = 0.024), suggesting the need for higher doses with this route [\n\nThe optimal initial dosing of continuous infusion heparin therapy is controversial. In 1989, the second American College of Chest Physicians (ACCP) Clinical Practice Guideline on VTE treatment recommended an initial 5000 unit bolus followed by a 1000 unit/h infusion [\n\nThe Joint Commission’s National Patient Safety Goals require that a written policy stating required baseline and ongoing laboratory tests for patients on heparin be in place in healthcare institutions ["
+  },
+  {
+   "h": "LMWH for the treatment of acute VTE",
+   "text": "Enoxaparin (Lovenox) and dalteparin (Fragmin) are the LMWHs available in the US. Enoxaparin is approved for inpatient treatment of acute DVT with or without PE and for outpatient treatment of acute DVT without PE using 1 mg/kg SQ q12 h or 1.5 mg/kg q24 h [\n\nUse of enoxaparin 1.5 mg/kg once daily for the treatment of VTE is controversial. This dosing option is based on a single randomized, clinical trial comparing unfractionated heparin (UFH) to enoxaparin 1.5 mg/kg daily or 1 mg/kg twice daily in 900 patients with VTE [\n\nLimiting dalteparin to the treatment of cancer-associated VTE is not necessary. Dalteparin is highly effective for the treatment of VTE in patients without malignancy using 200 units/kg once daily or 100 units/kg twice daily as determined in a number of clinical trials [\n\nAlthough the risk of HIT with LMWH is lower than with UFH, a baseline platelet count is recommended as a basis from which to consider the development of HIT. Re-exposure to LMWH should be avoided in a patient with a known history of HIT [\n\nTherapy should be initiated as soon as possible, as long as it is determined that fibrinolytics are not going to be administered for acute VTE. A pre-treatment hemoglobin and/or hematocrit are used as a baseline from which to assess subsequent changes that may reflect bleeding. Finally, an elevated pre-treatment PT or aPTT may detect the presence of an underlying coagulation defect."
+  },
+  {
+   "h": "Fondaparinux for the treatment of acute VTE",
+   "text": "The clinical evidence supporting the efficacy and safety of fondaparinux in the treatment of VTE comes from the MATISSE trials. In the MATISSE-DVT trial, patients (n = 2205) with acute symptomatic DVT were randomized in a double-blinded fashion to SC fondaparinux or SC enoxaparin overlapping with a VKA for at least 5 days and until an INR of greater than 2.0 was achieved [\n\nIn the MATISSE-PE trial, patients (n = 2213) with acute symptomatic PE were randomized in an open-label fashion to SC fondaparinux as dosed in the MATISSE-DVT trial, or intravenous (IV) UFH with an initial bolus of at least 5000 units and an initial infusion of at least 1250 units per hour to achieve and maintain an aPTT of 1.5–2.5 times control [\n\nIn the MATISSE-DVT trial, fondaparinux was non-inferior to enoxaparin with respect to the primary endpoint of recurrent VTE at 3 months (3.9 % vs. 4.1 %) [\n\nTherapy should be initiated as soon as possible and it is determined that fibrinolytics are not going to be administered. A baseline weight is required to determine the correct dose of fondaparinux. A baseline SCr and CrCl should be calculated since fondaparinux is contraindicated in patients with a CrCl of less than 30 mL/min. A baseline CBC should also be evaluated. An elevated pre-treatment PT or aPTT may detect the presence of an underlying coagulation defect."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Despite advances in the development of oral anticoagulants, the parenteral heparins continue to be a component of the treatment of VTE. Their appropriate use, particularly in special populations, remains a challenge for clinicians. Table"
+  }
+ ]
+}

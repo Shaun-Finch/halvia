@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC9563909",
+ "pmid": "36231034",
+ "doi": "10.3390/cells11193073",
+ "topic": "burns",
+ "title": "The Immune and Regenerative Response to Burn Injury.",
+ "authors": "Burgess M, Valdera F, Varon D, Kankuri E, Nuutila K.",
+ "affiliation": "United States Army Institute of Surgical Research, Fort Sam Houston, TX 78234, USA.",
+ "journal": "Cells",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 140,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Burn are diverse and complex injuries that not only have local effects but also serious systemic consequences through severe and prolonged inflammatory response. They are caused by heat, electricity, friction, chemicals, or radiation and are commonly divided into superficial, superficial partial-, deep partial- and full-thickness injuries. The severity of the burn depends mainly on the size and depth of the injury but also on location, age, and underlying systemic diseases. A prolonged and strong immune response makes major burns even worse by causing multiple systemic effects including damage to the heart, lungs, blood vessels, kidneys, and other organs. Burns that do not require surgical excision, superficial and superficial partial-thickness, follow the known progression of wound healing (inflammation, proliferation, remodeling), whilst deep partial- and full thickness injuries requiring excision and grafting do not. For these burns, intervention is required for optimal coverage, function, and cosmesis. Annually millions of people worldwide suffer from burns associated with high morbidity and mortality. Fortunately, over the past decades, burn care has significantly improved. The improvement in understanding the pathophysiology of burn injury and burn wound progression has led to developments in skin grafting, fluid resuscitation, infection control and nutrition This review article focuses on the immune and regenerative responses following burn injury. In the Introduction, we describe the epidemiology of burns and burn pathophysiology. The focus of the following chapter is on systemic responses to burn injury. Next, we define the immune response to burns introducing all the different cell types involved. Subsequently, we discuss the regenerative cell response to burns as well as some of the emerging novel treatments in the battle against burns.",
+ "sections": [
+  {
+   "h": "9. Conclusions",
+   "text": "Burns are the result of cellular destruction within the cutaneous and subcutaneous tissues due to a rapid transfer of energy of variable magnitude to the body. The effects of burns can extend beyond the local zones of injury. The prolonged and strong immune response in major burns causes multiple systemic effects, damaging blood vessels, the heart, lungs, kidneys, and other organs. Furthermore, prolonged inflammation at the burn site can cause excessive growth of granulation tissue and wound contraction, which ultimately leads to scarring which can be disfiguring, functionally restrictive and may require revisionary surgeries. Minor, superficial burns usually heal well following the steps of normal wound healing. Deep, major burns require surgical treatment to heal. A better understanding of burn pathophysiology and the body’s systemic response to severe burn injury has resulted in progressive developments in burn care."
+  }
+ ]
+}

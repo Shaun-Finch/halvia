@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC4717429",
+ "pmid": "26471110",
+ "doi": "10.1136/archdischild-2015-308875",
+ "topic": "infection prevention",
+ "title": "Effectiveness of hand hygiene interventions in reducing illness absence among children in educational settings: a systematic review and meta-analysis.",
+ "authors": "Willmott M, Nicholson A, Busse H, MacArthur GJ, Brookes S, Campbell R.",
+ "affiliation": "School of Social and Community Medicine, University of Bristol, Bristol, UK.",
+ "journal": "Archives of disease in childhood",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 89,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "Systematic Review",
+  "systematic-review",
+  "Journal Article"
+ ],
+ "abstract": "Objective To undertake a systematic review and meta-analysis to establish the effectiveness of handwashing in reducing absence and/or the spread of respiratory tract (RT) and/or gastrointestinal (GI) infection among school-aged children and/or staff in educational settings. Design Randomised-controlled trials (RCTs). Setting Schools and other settings with a formal educational component in any country. Patients Children aged 3-11 years, and/or staff working with them. Intervention Interventions with a hand hygiene component. Main outcome measures Incidence of RT or GI infections or symptoms related to such infections; absenteeism; laboratory results of RT and/or GI infections. Results Eighteen cluster RCTs were identified; 13 school-based, 5 in child day care facilities or preschools. Studies were heterogeneous and had significant quality issues including small numbers of clusters and participants and inadequate randomisation. Individual study results suggest interventions may reduce children's absence, RT infection incidence and symptoms, and laboratory confirmed influenza-like illness. Evidence of impact on GI infection or symptoms was equivocal. Conclusions Studies are generally not well executed or reported. Despite updating existing systematic reviews and identifying new studies, evidence of the effect of hand hygiene interventions on infection incidence in educational settings is mostly equivocal but they may decrease RT infection among children. These results update and add to knowledge about this crucial public health issue in key settings with a vulnerable population. More robust, well reported cluster RCTs which learn from existing studies, are required.",
+ "sections": [
+  {
+   "h": "Summary measures",
+   "text": "All effect measures pertaining to review outcomes are reported. Where studies included children under 3 years old and stratified the results they presented by age, we only report results for children over 3 years old. Where possible we present unadjusted results, where adjusted results are stated the variables used for adjustment are described. As a large number of studies reported absence by reason, three additional sets of outcome data are presented; absence due to any illness, absence due to RT infection, absence due to GI infection."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Interventions to improve hand hygiene in educational settings may reduce RT infection incidence among younger children. More robust, well reported studies are required, especially of multicomponent interventions."
+  }
+ ]
+}

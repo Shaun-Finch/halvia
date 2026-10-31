@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC6525416",
+ "pmid": "31101127",
+ "doi": "10.1186/s13054-019-2465-y",
+ "topic": "oxygen therapy",
+ "title": "High-flow nasal cannula oxygen therapy versus conventional oxygen therapy in patients after planned extubation: a systematic review and meta-analysis.",
+ "authors": "Zhu Y, Yin H, Zhang R, Ye X, Wei J.",
+ "affiliation": "Department of Intensive Care Unit, Guangzhou Red Cross Hospital, Medical College, Jinan University, Tongfuzhong Road No. 396, Guangzhou, 510220, Guangdong, China.",
+ "journal": "Critical care (London, England)",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 57,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background The effect of high-flow nasal cannula (HFNC) therapy in patients after planned extubation remains inconclusive. We aimed to perform a rigorous and comprehensive systematic meta-analysis to robustly quantify the benefits of HFNC for patients after planned extubation by investigating postextubation respiratory failure and other outcomes. Method We searched MEDLINE, EMBASE, Web of Science, and the Cochrane Library from inception to August 2018. Two researchers screened studies and collected the data independently. Randomized controlled trials (RCTs) and crossover studies were included. The main outcome was postextubation respiratory failure. Results Ten studies (seven RCTs and three crossover studies; HFNC group: 856 patients; Conventional oxygen therapy (COT) group: 852 patients) were included. Compared with COT, HFNC may significantly reduce postextubation respiratory failure (RR, 0.61; 95% CI, 0.41, 0.92; z = 2.38; P = 0.02) and respiratory rates (standardized mean differences (SMD), - 0.70; 95% CI, - 1.16, - 0.25; z = 3.03; P = 0.002) and increase PaO 2  (SMD, 0.30; 95% CI, 0.04, 0.56; z = 2.23; P = 0.03). There were no significant differences in reintubation rate, length of ICU and hospital stay, comfort score, PaCO 2 , mortality in ICU and hospital, and severe adverse events between HFNC and COT group. Conclusions Our meta-analysis demonstrated that compared with COT, HFNC may significantly reduce postextubation respiratory failure and respiratory rates, increase PaO 2 , and be safely administered in patients after planned extubation. Further large-scale, multicenter studies are needed to confirm our results.",
+ "sections": [
+  {
+   "h": "Quality assessment",
+   "text": "The qualities of the included randomized studies were assessed by modified Jadad scores, with scores of 1–3 and 4–7 judged as low and high quality, respectively. Furthermore, the included studies were evaluated for the risk of bias according to the methods described in the Cochrane Handbook ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "Our meta-analysis demonstrated that compared with COT therapy, HFNC therapy may significantly reduce postextubation respiratory failure and respiratory rates, may increase PaO2, and may be safely administered in patients after planned extubation. Further large-scale, multicenter studies are needed to confirm our results."
+  }
+ ]
+}

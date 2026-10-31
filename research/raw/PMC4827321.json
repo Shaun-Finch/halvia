@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC4827321",
+ "pmid": "26713368",
+ "doi": "10.1089/jpm.2015.0341",
+ "topic": "end of life care",
+ "title": "Death in the Digital Age: A Systematic Review of Information and Communication Technologies in End-of-Life Care.",
+ "authors": "Ostherr K, Killoran P, Shegog R, Bruera E.",
+ "affiliation": "1 Rice University , Houston, Texas.",
+ "journal": "Journal of palliative medicine",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 60,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background End-of-life (EOL) communication plays a critical role in ensuring that patients receive care concordant with their wishes and experience high quality of life. As the baby boomer population ages, scalable models of end-of-life communication will be needed to ensure that patients receive appropriate care. Information and communication technologies (ICTs) may help address the needs of this generation; however, few resources exist to guide the use of ICTs in EOL care. Objective The primary objective was to identify the ICTs being used in EOL communication. The secondary objective was to compare the effectiveness of different ICTs in EOL communication. Methods The study was a systematic review, following Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. We systematically searched seven databases for experimental and observational studies on EOL communication between doctors and patients using ICTs, published in 1997-2013. Results The review identified 38 relevant articles. Eleven types of technology were identified: video, website, telephone, videoconferencing, e-mail, telemonitoring, Internet search, compact disc, fax, PalmPilot, and short message service (SMS) text messaging. ICTs were most commonly used to provide information or education, serve as decision aids, promote advance care planning (ACP), and relieve physical symptom distress. Conclusions The use of ICTs in EOL care is a small but growing field of research. Additional research is needed to adapt older, analog technologies for use in the digital age. Many of the interventions discussed in this review do not take full advantage of the affordances of mobile, connected health ICTs. The growing evidence base for e-health applications in related fields should guide future interventions in EOL care.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "Based on this systematic review of the literature on ICT use in EOL care, the authors have identified several opportunities for further research. First, future research should take advantage of the affordances of mobile, connected, health ICTs. Second, the proven value of video in helping patients clarify their treatment preferences should encourage more providers to experiment with this medium using mobile devices. Third, research is needed to help health care providers determine when face-to-face communication with patients is necessary, and when remote communication will achieve comparable objectives. If the results of such comparisons became generalizable, that would enable more rapid uptake of new technologies as they emerge.\n\nScalable innovations are sorely needed to improve quality of life at EOL while reducing the costs of care. Although emerging technologies are often associated with younger rather than older users, research shows that more and more aging Americans are using the Internet and connected health technologies, and this generational change will only increase as baby boomers grow old. As increasing numbers of Americans approach their final days with their laptops, smartphones, and tablets by their side, the use of ICTs to help them manage their health will become unavoidable. To ensure that mobile, networked ICTs are used effectively to optimize EOL care, it is essential that forward-looking research builds on the existing evidence base and continues to explore new techniques for delivering health care in the 21st century."
+  }
+ ]
+}

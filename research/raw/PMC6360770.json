@@ -1,0 +1,38 @@
+{
+ "pmcid": "PMC6360770",
+ "pmid": "30717706",
+ "doi": "10.1186/s12877-019-1049-7",
+ "topic": "urinary tract infection",
+ "title": "The scientific evidence for a potential link between confusion and urinary tract infection in the elderly is still confusing - a systematic literature review.",
+ "authors": "Mayne S, Bowden A, Sundvall PD, Gunnarsson R.",
+ "affiliation": "Cairns Clinical School, College of Medicine and Dentistry, James Cook University, PO Box 902, Cairns, Queensland, 4870, Australia. sean.mayne@my.jcu.edu.au.",
+ "journal": "BMC geriatrics",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 58,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Non-specific symptoms, such as confusion, are often suspected to be caused by urinary tract infection (UTI) and continues to be the most common reason for suspecting a UTI despite many other potential causes. This leads to significant overdiagnosis of UTI, inappropriate antibiotic use and potential harmful outcomes. This problem is particularly prevalent in nursing home settings. Methods A systematic review of the literature was conducted assessing the association between confusion and UTI in the elderly. PubMed, Scopus and PsychInfo were searched with the following terms: confusion, delirium, altered mental status, acute confusional state, urinary tract infection, urine infection, urinary infection and bacteriuria. Inclusion criteria and methods were specified in advance and documented in the protocol, which was published with PROSPERO (registration ID: CRD42015025804). Quality assessment was conducted independently by two authors. Data were extracted using a standardised extraction tool and a qualitative synthesis of evidence was made. Results One thousand seven hunderd two original records were identified, of which 22 were included in the final analysis. The quality of these included studies varied, with frequent poor case definitions for UTI or confusion contributing to large variation in results and limiting their validity. Eight studies defined confusion using valid criteria; however, no studies defined UTI in accordance with established criteria. As no study used an acceptable definition of confusion and UTI, an association could not be reliably established. Only one study had acceptable definitions of confusion and bacteriuria, reporting an association with the relative risk being 1.4 (95% CI 1.0-1.7, p = 0.034). Conclusions Current evidence appears insufficient to accurately determine if UTI and confusion are associated, with estimates varying widely. This was often attributable to poor case definitions for UTI or confusion, or inadequate control of confounding factors. Future well-designed studies, using validated criteria for UTI and confusion are required to examine the relationship between UTI and acute confusion in the elderly. The optimal solution to clarify this clinical issue would be a randomized controlled trial comparing the effect of antibiotics versus placebo in patients with new onset or worsening confusion and presence of bacteriuria while lacking specific urinary tract symptoms.",
+ "sections": [
+  {
+   "h": "Quality assessment / risk of Bias",
+   "text": "Two review authors (SM and AB) assessed the risk of bias of included studies independently, with any discrepancies being resolved by consensus, or through discussion with a third reviewer (RG), if necessary. The risk of bias was assessed using a modified version of the assessment checklist developed by Downs and Black ["
+  },
+  {
+   "h": "Quality assessment",
+   "text": "The quality of the studies included in this review varied considerably (Fig.\n\nThe quality of the criteria used to define UTI, bacteriuria and confusion varied considerably and was generally quite poor. No studies used criteria for UTI completely consistent with the revised Mcgeer or Loeb Criteria. Two studies employed a reproducible definition of UTI although neither employed published explicit criteria developed through expert consensus. [\n\nAlmost all studies provided a definition of confusion criteria, but only eight studies used criteria that were valid and reliable (Table"
+  },
+  {
+   "h": "Summary of the evidence",
+   "text": "Following this review, it is evident that all of the studies which have explored the association between suspected UTI and confusion are methodologically flawed, due to poor case definition for UTI or confusion, or inadequate control of confounding factors introducing significant bias. Subsequently, no accurate conclusions about the association between UTI and confusion can be drawn. One study of acceptable quality shows an association between confusion and bacteriuria. However, this sample of patients in whom they tested bacteriuria and pyuria were patients already suspected of having a UTI, introducing a bias into their calculation ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "Insufficient evidence is available to accurately determine if an afebrile lower UTI in elderly patients without an indwelling urinary catheter causes confusion. Although studies exist that suggest there may be an association, they are significantly limited by their methodological quality. This is largely due to the frequent use of unreliable criteria for UTI and confusion, and frequently poor controlling for confounding factors. A reasonable attempt to resolve this issue are the McGeer and Loeb criteria ["
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10103574",
+ "pmid": "36796797",
+ "doi": "10.1093/europace/euac154",
+ "topic": "syncope",
+ "title": "Prevalence of asystole during tilt test-induced vasovagal syncope may depend on test methodology.",
+ "authors": "Russo V, Parente E, Groppelli A, Rivasi G, Tomaino M, Gargaro A, Giacopelli D, Ungar A, Parati G, Fedorowski A, Sutton R, van Dijk JG, Brignole M.",
+ "affiliation": "Chair of Cardiology, University of the Study of Campania 'Luigi Vanvitelli', Ospedale Monaldi, Via Leonardo Bianchi, 80131 Napoli, Italy.",
+ "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 26,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "This review addresses tilt-testing methodology by searching the literature which reports timing of asystole and loss of consciousness (LOC). Despite the Italian protocol being the most widely adopted, its stipulations are not always followed to the letter of the European Society of Cardiology guidelines. The discrepancies permit reassessment of the incidence of asystole when tilt-down is early, impending syncope, compared with late, established LOC. Asystole is uncommon with early tilt down and diminishes with increasing age. However, if LOC is established as test-end, asystole is more common, and it is age-independent. Thus, the implications are that asystole is commonly under-diagnosed by early tilt-down. The prevalence of asystolic responses observed using the Italian protocol with a rigorous tilt down time is numerically close to that observed during spontaneous attacks by electrocardiogram loop recorder. Recently, tilt-testing has been questioned as to its validity but, in selection of pacemaker therapy in older highly symptomatic vasovagal syncope patients, the occurrence of asystole has been shown to be an effective guide for treatment. The use of head-up tilt test as an indication for cardiac pacing therapy requires pursuing the test until complete LOC. This review offers explanations for the findings and their applicability to practice. A novel interpretation is offered to explain why pacing induced earlier may combat vasodepression by raising the heart rate when sufficient blood remains in the heart.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The prevalence of cardioinhibitory responses during HUTT is underestimated and tilt down at the onset of syncope, as per ESC guidelines should be the norm. Asystolic HUTT responses are much more frequent, accounting for 27 to 31% of positive tests if the Italian protocol is performed as intended, meaning tilt down starts after the onset of syncope (complete LOC). The late tilt-down approach may also blunt the effect of ageing on the asystole rate. From a practical perspective, the use of HUTT as a therapy indication, especially for cardiac pacing, requires pursuing the test until the onset of syncope (complete LOC), as implied by ESC guidelines. The benefit of longer tilt times remains to be proven given the potential damage of prolonged ischaemia. However, if HUTT is used to confirm a diagnosis of vasovagal syncope, then the decision to tilt down may be based on complaint recognition, with additional instructions to minimise risk. Physicians should always mention in their HUTT report the protocol used and if tilt table was tilted down before or after syncope occurred."
+  }
+ ]
+}

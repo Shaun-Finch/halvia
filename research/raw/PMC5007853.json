@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5007853",
+ "pmid": "27580947",
+ "doi": "10.1186/s12877-016-0329-8",
+ "topic": "frailty",
+ "title": "Frailty and post-operative outcomes in older surgical patients: a systematic review.",
+ "authors": "Lin HS, Watts JN, Peel NM, Hubbard RE.",
+ "affiliation": "Centre for Research in Geriatric Medicine, Princess Alexandra Hospital, The University of Queensland, Level 2, Building 33, Ipswich Road, Woolloongabba, QLD, 4102, Australia. huishan.lin@uq.net.au.",
+ "journal": "BMC geriatrics",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 764,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background As the population ages, increasing numbers of older adults are undergoing surgery. Frailty is prevalent in older adults and may be a better predictor of post-operative morbidity and mortality than chronological age. The aim of this review was to examine the impact of frailty on adverse outcomes in the 'older old' and 'oldest old' surgical patients. Methods A systematic review was undertaken. Electronic databases from 2010 to 2015 were searched to identify articles which evaluated the relationship between frailty and post-operative outcomes in surgical populations with a mean age of 75 and older. Articles were excluded if they were in non-English languages or if frailty was measured using a single marker only. Demographic data, type of surgery performed, frailty measure and impact of frailty on adverse outcomes were extracted from the selected studies. Quality of the studies and risk of bias was assessed by the Epidemiological Appraisal Instrument. Results Twenty-three studies were selected for the review and they were assessed as medium to high quality. The mean age ranged from 75 to 87 years, and included patients undergoing cardiac, oncological, general, vascular and hip fracture surgeries. There were 21 different instruments used to measure frailty. Regardless of how frailty was measured, the strongest evidence in terms of numbers of studies, consistency of results and study quality was for associations between frailty and increased mortality at 30 days, 90 days and one year follow-up, post-operative complications and length of stay. A small number of studies reported on discharge to institutional care, functional decline and lower quality of life after surgery, and also found a significant association with frailty. Conclusion There was strong evidence that frailty in older-old and oldest-old surgical patients predicts post-operative mortality, complications, and prolonged length of stay. Frailty assessment may be a valuable tool in peri-operative assessment. It is possible that different frailty tools are best suited for different acuity and type of surgical patients. The association between frailty and return to pre-morbid function, discharge destination, and quality of life after surgery warrants further research.",
+ "sections": [
+  {
+   "h": "Assessment of study quality and risk of bias",
+   "text": "Two reviewers (HL, JW) independently assessed the quality of the included studies using a modified version of the Epidemiological Appraisal Instrument (EAI), a valid and reliable tool for rating the quality of observational studies [\n\nAn a priori decision was made to divide the total possible score into quartiles. Quartile 1 (Q1) was 35–46 (the highest quality), quartile 2 (Q2) was 23–34, quartile 3 (Q3) was 12–23 and quartile 4 (Q4) was 0–11 (the lowest quality). Any disagreement regarding the assessment of the quality of a study was resolved by consulting a third reviewer (NP)."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Frailty is consistently found is to be associated with adverse outcomes after surgery. In the 23 articles reviewed, the strongest evidence lies in the association with increased 30 day, 90 day and 1 year mortality, post-operative complications and length of stay. This highlights the importance of detecting frailty in peri-operative assessment. The possibility that different frailty tools may be best suited for different acuity and type of surgical patients is worth exploring. The association between frailty and return to pre-morbid function, discharge destination, and quality of life after surgery warrants further research."
+  }
+ ]
+}

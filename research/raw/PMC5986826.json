@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC5986826",
+ "pmid": "29426991",
+ "doi": "10.1007/s00330-017-5246-5",
+ "topic": "acute kidney injury",
+ "title": "Post-contrast acute kidney injury - Part 1: Definition, clinical features, incidence, role of contrast medium and risk factors : Recommendations for updated ESUR Contrast Medium Safety Committee guidelines.",
+ "authors": "van der Molen AJ, Reimer P, Dekkers IA, Bongartz G, Bellin MF, Bertolotto M, Clement O, Heinz-Peer G, Stacul F, Webb JAW, Thomsen HS.",
+ "affiliation": "Department of Radiology, C2-S, Leiden University Medical Center, Albinusdreef 2, NL-2333 ZA, Leiden, The Netherlands.",
+ "journal": "European radiology",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 357,
+ "pubtypes": [
+  "brief-report",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Purpose The Contrast Media Safety Committee (CMSC) of the European Society of Urogenital Radiology (ESUR) has updated its 2011 guidelines on the prevention of post-contrast acute kidney injury (PC-AKI). The results of the literature review and the recommendations based on it, which were used to prepare the new guidelines, are presented in two papers. AREAS COVERED IN PART 1: Topics reviewed include the terminology used, the best way to measure eGFR, the definition of PC-AKI, and the risk factors for PC-AKI, including whether the risk with intravenous and intra-arterial contrast medium differs. Key points • PC-AKI is the preferred term for renal function deterioration after contrast medium. • PC-AKI has many possible causes. • The risk of AKI caused by intravascular contrast medium has been overstated. • Important patient risk factors for PC-AKI are CKD and dehydration.",
+ "sections": [
+  {
+   "h": "Clinical features and incidence of PC-AKI",
+   "text": "The term PC-AKI is used to describe a decrease in renal function that follows intravascular administration of CM. The decrease in renal function is usually mild, peaking at 2–3 days, and renal function usually returns to baseline values within 1–3 weeks. Like all forms of AKI, an episode of PC-AKI is a marker for increased short- and long-term morbidity and mortality and prolonged hospital stay [\n\nThe risk of PC-AKI after intravenous (IV) CM has probably been overestimated. Two meta-analyses of 19,000 patients who had received IV CM showed PC-AKI incidences of 6.4 % (95 % CI 5.0–8.1) and 5.0 % (95 % CI 3.8–6.5) [\n\nIt has been suggested that intra-arterial (IA) CM administration during catheter-based angiography, with or without percutaneous coronary intervention (PCI), is associated with a higher incidence of PC-AKI than IV CM administration ["
+  },
+  {
+   "h": "Renal function definitions of PC-AKI",
+   "text": "The diagnosis of PC-AKI is usually based on surrogate measures of absolute or relative change in serum creatinine (sCr), rather than patient outcomes, such as renal failure, need for RRT or mortality. The KDIGO Practice Guidelines [\n\nThe ESUR CMSC defined Contrast-Induced Nephropathy (CIN) in their first survey-based guideline as “a condition in which an impairment in renal function (an increase in sCr by more than 25 % or 44 μmol/L, or 0.5 mg/dl) occurs within 3 days following the intravascular administration of a contrast medium in the absence of an alternative aetiology” [\n\nMultiple studies have shown that the incidence of PC-AKI is largely dependent on the definition used [2) and CKD 2 (eGFR 60–89 ml/min//1.73m2), and absolute values seem to be more sensitive for patients with CKD 3A (eGFR 45–59 ml/min/1.73m2) [\n\nThe KDIGO criteria are more rigorously derived than the CIN definition and are now being adopted as the standard for PC-AKI studies ["
+  },
+  {
+   "h": "Intravenous and direct and indirect intra-arterial CM administration: definition of terms",
+   "text": "The term intravenous CM administration indicates that CM reaches the renal arteries after dilution by circulation through the right heart and pulmonary circulation or a systemic capillary bed.\n\nThe same is true for intra-arterial CM administration with second-pass renal exposure, such as via catheters into the right heart and pulmonary arteries and via catheters directly in the carotid, subclavian, brachial, coronary and mesenteric arteries, as well as into the infrarenal aorta and the iliac, femoral and crural arteries. Note: Because of backflow during this type of IA injection, small doses of CM may reach the kidney in a relatively undiluted form.\n\nThe term intra-arterial CM administration with first-pass renal exposure indicates that CM reaches the renal arteries during its first pass in a relatively undiluted form, depending on the distance of the site of injection from the renal arteries. This occurs with injections through catheters into the left heart, the thoracic and suprarenal abdominal aorta, and selectively into the renal arteries. Note: In suprarenal aortic injections, some of the injected CM escapes via suprarenal aortic side-branches and reaches the kidney after dilution in the circulation."
+  },
+  {
+   "h": "Conclusion",
+   "text": "PC-AKI has been adopted as the best term to apply to renal function deterioration after intravascular CM administration because, unlike some of the older terms, it does not imply that CM is the cause. Stage 1 of the KDIGO classification of AKI is recommended as the change in renal function used to diagnose PC-AKI. The principal risk factor for PC-AKI is impaired renal function, and the recommended ways to measure this are by the CKD-EPI equation in adults and the Schwartz equation in children. In recent years, it has become apparent that the risk of true CI-AKI was overstated in the past. When properly corrected for the many other possible causes of AKI in patients with chronic kidney disease, the risk of CI-AKI when modern low osmolar CM are administered IV or IA is low. Repeated CM administration within a 24- to 48-h period increases the risk of CI-AKI. The evidence of a higher risk with IA than with IV CM administration is limited, but the CMSC nonetheless considers that the cut-off levels of eGFR used to indicate the need for prophylaxis before IA administration with first-pass renal exposure should be stricter, and that there should be a maximum volume of CM given intra-arterially during any examination or procedure with first-pass renal exposure.\n\nThe recommendations made in this paper have been incorporated into the ESUR CMSC guidelines (see Table"
+  }
+ ]
+}

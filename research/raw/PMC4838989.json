@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC4838989",
+ "pmid": "27097888",
+ "doi": "10.1038/srep24647",
+ "topic": "asthma exacerbation",
+ "title": "Revealing the acute asthma ignorome: characterization and validation of uninvestigated gene networks.",
+ "authors": "Riba M, Garcia Manteiga JM, Bošnjak B, Cittaro D, Mikolka P, Le C, Epstein MM, Stupka E.",
+ "affiliation": "Center for Translational Genomics and Bioinformatics, San Raffaele Scientific Institute, Milan, Italy.",
+ "journal": "Scientific reports",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 25,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Systems biology provides opportunities to fully understand the genes and pathways in disease pathogenesis. We used literature knowledge and unbiased multiple data meta-analysis paradigms to analyze microarray datasets across different mouse strains and acute allergic asthma models. Our combined gene-driven and pathway-driven strategies generated a stringent signature list totaling 933 genes with 41% (440) asthma-annotated genes and 59% (493) ignorome genes, not previously associated with asthma. Within the list, we identified inflammation, circadian rhythm, lung-specific insult response, stem cell proliferation domains, hubs, peripheral genes, and super-connectors that link the biological domains (Il6, Il1ß, Cd4, Cd44, Stat1, Traf6, Rela, Cadm1, Nr3c1, Prkcd, Vwf, Erbb2). In conclusion, this novel bioinformatics approach will be a powerful strategy for clinical and across species data analysis that allows for the validation of experimental models and might lead to the discovery of novel mechanistic insights in asthma.",
+ "sections": [
+  {
+   "h": "Super-connectors, hubs and peripheral genes are affected by dexamethasone (DEX) treatment",
+   "text": "The glucocorticoid receptor Nr3c1 is the only super-connector that linked all 4 major domains and robustly changed expression across microarray comparisons and our qPCR. Given existing knowledge of the role of Nr3c1 in allergic asthma, we tested the effect of DEX, a steroid that binds to Nr3c1Stat1 was not deregulated in our model, it was down-regulated significantly after DEX treatment, which is in agreement with a previous studyTraf6 and Vwf were the only 2 super-connectors significantly down-regulated in our model that were unaffected by DEX treatment. Out of the 9 super-connectors belonging to the inflammation domain, 6 were partially or completely reverted by DEX treatment, whereas of the 3 super-connectors belonging to extracellular matrix remodelling, Erbb2 was partially reverted by DEX, Prkcd was not deregulated, and Vwf was not reverted by the treatment. To determine whether genes other than super-connectors, were affected by DEX treatment, we randomly selected 12 hub genes and 4 peripheral genes from 6 large clusters in addition to the Muc5ac gene as a representative gene in cluster 3C, because this cluster does not contain peripheral or hub genes. We found that 15 of 17 analyzed genes (10 hub genes, 4 peripheral genes and Muc5ac) were differently regulated in our model and only one (hub gene Ifng) was not fully or partially reverted by DEX treatment ("
+  }
+ ]
+}

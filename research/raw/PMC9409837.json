@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC9409837",
+ "pmid": "36005440",
+ "doi": "10.3390/jcdd9080276",
+ "topic": "hypertension emergency",
+ "title": "Cardiac Complications of Hypertensive Emergency: Classification, Diagnosis and Management Challenges.",
+ "authors": "Talle MA, Ngarande E, Doubell AF, Herbst PG.",
+ "affiliation": "Department of Medicine, Division of Cardiology, Faculty of Medicine and Health Sciences, Stellenbosch University and Tygerberg Academic Hospital, Cape Town 7505, South Africa.",
+ "journal": "Journal of cardiovascular development and disease",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 10,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "While mortality in patients with hypertensive emergency has significantly improved over the past decades, the incidence and complications associated with acute hypertension-mediated organ damage have not followed a similar trend. Hypertensive emergency is characterized by an abrupt surge in blood pressure, mostly occurring in people with pre-existing hypertension to result in acute hypertension-mediated organ damage. Acute hypertension-mediated organ damage commonly affects the cardiovascular system, and present as acute heart failure, myocardial infarction, and less commonly, acute aortic syndrome. Elevated cardiac troponin with or without myocardial infarction is one of the major determinants of outcome in hypertensive emergency. Despite being an established entity distinct from myocardial infarction, myocardial injury has not been systematically studied in hypertensive emergency. The current guidelines on the evaluation and management of hypertensive emergencies limit the cardiac troponin assay to patients presenting with features of myocardial ischemia and acute coronary syndrome, resulting in underdiagnosis, especially of atypical myocardial infarction. In this narrative review, we aimed to give an overview of the epidemiology and pathophysiology of hypertensive emergencies, highlight challenges in the evaluation, classification, and treatment of hypertensive emergency, and propose an algorithm for the evaluation and classification of cardiac acute hypertension-mediated organ damage.",
+ "sections": [
+  {
+   "h": "5.3. Treatment",
+   "text": "There are no randomized controlled trials to guide treatment in most cases of hypertensive emergencies, and the choice of medications, as well as the rate and magnitude of BP reduction is mainly based on expert opinion [\n\nPresently, there are no well-validated systems for risk stratification or consensus regarding the best management options for high-risk groups, including patients with subclinical target organ damage. Based on the results of the DEMAND MI study, patients with suspected Type 2 myocardial infarction should be subjected to routine assessment of their coronary arteries (invasive or computed tomography) and be given the benefit of evidence-based treatments to improve outcomes ["
+  },
+  {
+   "h": "6. Recommendations for the Future",
+   "text": "The following recommendations are aimed at addressing some of the challenges highlighted above:\n\nA proposed algorithm for evaluation and classification of acute severe rise in blood pressure and hypertensive emergency is presented in"
+  }
+ ]
+}

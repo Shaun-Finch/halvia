@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6717967",
+ "pmid": "31497489",
+ "doi": "10.1186/s40621-019-0213-z",
+ "topic": "opioid overdose",
+ "title": "State marijuana laws and opioid overdose mortality.",
+ "authors": "Chihuri S, Li G.",
+ "affiliation": "1Center for Injury Epidemiology and Prevention, Columbia University Irving Medical Center, 622 West 168th St, PH5-505, New York, NY 10032 USA.",
+ "journal": "Injury epidemiology",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 36,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background The opioid epidemic in the United States is a national public health crisis. In recent years, marijuana legalization has been increasingly adopted by state governments as a policy intervention to control the opioid epidemic under the premise that marijuana and opioids are substitutive substances. The purpose of this systematic review is to synthesize the empirical evidence regarding the impact of state marijuana laws on opioid overdose mortality and other opioid-related health outcomes. Method A comprehensive search of the research literature in 18 bibliographic databases returned 6640 records, with 5601 abstracts reviewed, 29 full text articles screened for eligibility, and 16 eligible studies included in the systematic review. Comprehensive Meta-Analysis software was used to generate summary estimates, forest plots, funnel plots, and heterogeneity statistics. Results Of the 16 eligible studies, 4 assessed the association of state marijuana law status with opioid overdose mortality, 7 with prescription opioids dispensed, and the remaining with nonmedical use and opioid-related hospitalizations. Random effects modeling based on pooled data revealed that legalizing marijuana for medical use was associated with a statistically non-significant 8% reduction in opioid overdose mortality (95% confidence interval: - 0.21 to 0.04;  p  = 0.201) and a 7% reduction in prescription opioids dispensed (95% confidence interval: - 0.13 to - 0.01;  p  = 0.017). Legalizing marijuana for recreational use was associated with an additional 7% reduction in opioid overdose mortality in Colorado and 6% reduction in opioid prescriptions among fee-for-service Medicaid and managed care enrollees. Conclusions Legalizing marijuana might contribute to a modest reduction in opioid prescriptions. Evidence about the effect of marijuana legalization on opioid overdose mortality is inconsistent and inconclusive. If any, the effectiveness of state marijuana laws in reducing opioid overdose mortality appears to be rather small and limited to states with operational marijuana dispensaries. It remains unclear whether the presumed benefit of legalizing marijuana in reducing opioid-related harms outweighs the policy's externalities, such as its impact on mental health and traffic safety.",
+ "sections": [
+  {
+   "h": "Quality assessment, data synthesis, and analysis",
+   "text": "We used the Newcastle-Ottawa Scale (NOS) for assessing nonrandomized studies to evaluate the quality of the studies included as suggested by the Cochran Collaboration (Higgins and Green 2 statistics were used to assess heterogeneity (Borenstein et al."
+  },
+  {
+   "h": "Conclusions",
+   "text": "Legalizing marijuana might contribute to a modest reduction in opioid prescriptions. Evidence about the effect of marijuana legalization on opioid overdose mortality is inconsistent and inconclusive. If any, the effect of state marijuana laws in reducing opioid overdose mortality appears to be rather small and limited to states with operational marijuana dispensaries. Evidence on other opioid related-outcomes, such as hospitalizations and nonmedical use, is sparse. It remains unclear whether the presumed benefit of legalizing marijuana in reducing opioid-related harms outweighs the policy’s externalities, such as its impact on mental health and traffic safety."
+  }
+ ]
+}

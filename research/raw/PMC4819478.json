@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC4819478",
+ "pmid": "26646837",
+ "doi": "10.1007/s00540-015-2105-x",
+ "topic": "anaphylaxis",
+ "title": "Sugammadex and rocuronium-induced anaphylaxis.",
+ "authors": "Takazawa T, Mitsuhata H, Mertes PM.",
+ "affiliation": "Department of Anesthesiology, Gunma University Graduate School of Medicine, 3-39-22 Showa-machi, Maebashi, 371-8511, Japan. takazawt@gunma-u.ac.jp.",
+ "journal": "Journal of anesthesia",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 79,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Perioperative anaphylaxis is a life-threatening clinical condition that is typically the result of drugs or substances used for anesthesia or surgery. The most common cause of anaphylaxis during anesthesia is reportedly neuromuscular blocking agents. Of the many muscle relaxants that are clinically available, rocuronium is becoming popular in many countries. Recent studies have demonstrated that succinylcholine (but also rocuronium use) is associated with a relatively high rate of IgE-mediated anaphylaxis compared with other muscle relaxant agents. Sugammadex is widely used for reversal of the effects of steroidal neuromuscular blocking agents, such as rocuronium and vecuronium. Confirmed cases of allergic reactions to clinical doses of sugammadex have also been recently reported. Given these circumstances, the number of cases of hypersensitivity to either sugammadex or rocuronium is likely to increase. Thus, anesthesiologists should be familiar with the epidemiology, mechanisms, and clinical presentations of anaphylaxis induced by these drugs. In this review, we focus on the diagnosis and treatment of anaphylaxis to sugammadex and neuromuscular blocking agents. Moreover, we discuss recent studies in this field, including the diagnostic utility of flow cytometry and improvement of rocuronium-induced anaphylaxis with the use of sugammadex.",
+ "sections": [
+  {
+   "h": "Clinical presentation",
+   "text": "In general, anaphylaxis symptoms involve several organ systems, including the skin, causing mainly urticarial (80–90 % of episodes), respiratory tract (70 % of episodes), gastrointestinal tract (30–45 % of episodes), cardiovascular (10–45 % of episodes), and central nervous system (10–15 % of episodes) ["
+  },
+  {
+   "h": "Treatment",
+   "text": "Quick recognition of anaphylactic signs and symptoms is essential for a favorable prognosis. In this respect, anesthesiologists have certain advantages since: (1) hemodynamics are usually monitored in patients under general anesthesia, and (2) an intravenous line for administration of drugs to treat anaphylaxis has already been established. There are several guidelines showing how physicians should treat a patient who has developed symptoms that are likely to be caused by anesthetic drugs during anesthesia [\n\nPrimary treatment other than drug therapy is as follows: (1) stop administration of the suspected substance; (2) call for help and inform the surgeon; (3) apply the Trendelenburg position; and (4) maintain the airway and give oxygen [2-adrenergic receptor agonist, such as salbutamol or nebulized adrenaline, should be administered ["
+  },
+  {
+   "h": "Anesthetic management of a patient with a history of anaphylaxis during previous surgery",
+   "text": "As patients with NMBA anaphylaxis frequently cross-react with other NMBAs, alternative anesthetic techniques that do not require the use of muscle relaxants should be considered for subsequent operations. If this is difficult, alternative safe NMBAs should be used. Rocuronium has an intermediate risk of anaphylaxis, as its rate of cross-reactivity is less than that of succinylcholine but greater than that of vecuronium ["
+  }
+ ]
+}

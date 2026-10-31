@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC8363405",
+ "pmid": "33630407",
+ "doi": "10.1002/nop2.792",
+ "topic": "pressure ulcers",
+ "title": "Predictive validity of the braden scale for pressure injury risk assessment in adults: A systematic review and meta-analysis.",
+ "authors": "Huang C, Ma Y, Wang C, Jiang M, Yuet Foon L, Lv L, Han L.",
+ "affiliation": "Evidence-Based Nursing Center, School of Nursing, Lanzhou University, Lanzhou, China.",
+ "journal": "Nursing open",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 104,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Aim Pressure injuries are common adverse events in clinical practice, affecting the well-being of patients and causing considerable financial burden to healthcare systems. It is therefore essential to use reliable assessment tools to identify pressure injuries for early prevention. The Braden Scale is a widely used tool to assess pressure injury risk, but the literature is currently lacking in determining its accuracy. This study aimed to evaluate the accuracy of the Braden Scale in assessing pressure injury risk. Design Systematic review and meta-analysis. Methods Articles published between 1973-2020 from periodicals indexed in the PubMed, EMBASE, CINAHL, Web of Science and the Cochrane Library were selected. Two reviewers independently selected the relevant studies for inclusion. Data were analysed by the STATA 15.0 and the RevMan 5.3 software. Results In total, 60 studies involving 49,326 individuals were eligible for this meta-analysis. The pooled SEN, SPE, PLR, NLR, DOR and AUC were 0.78 (95% CI: 0.74 to 0.82), 0.72 (95% CI: 0.66 to 0.78), 2.80 (95% CI: 2.30 to 3.50), 0.30 (95% CI: 0.26 to 0.35), 9.00 (95% CI: 7.00 to 13.00) and 0.82 (95% CI: 0.79 to 0.85), respectively. Subgroup analyses indicated that the AUC was higher for prospective design (0.84, 95% CI: 0.81 to 0.87), mean age  Conclusion The evidence indicated that the Braden Scale had a moderate predictive validity. It was more suitable for mean age <60 years, hospitalized patients and the Caucasian population, and the cut-off value of 18 might be used for the risk assessment of pressure injuries in clinical practice. However, due to the different cut-off values used among included studies, the results had a significant heterogeneity. Future studies should explore the optimal cut-off value in the same clinical environment.",
+ "sections": [
+  {
+   "h": "CONCLUSION",
+   "text": "The Braden Scale has a moderate predictive validity for PI risk assessment, and it is more suitable for mean age <60 years, hospitalized patients and Caucasian population, compared with mean age ≥60 years, long‐term care facility and Asian population. Meanwhile, the cut‐off value of 18 afforded the best choice in SEN and AUC, and could be recommended for use in clinical practice. Future studies should explore the optimal cut‐off in the specific environments."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC6982212",
+ "pmid": "31947993",
+ "doi": "10.3390/ijms21010338",
+ "topic": "acute pancreatitis",
+ "title": "Multifactorial Scores and Biomarkers of Prognosis of Acute Pancreatitis: Applications to Research and Practice.",
+ "authors": "Silva-Vaz P, Abrantes AM, Castelo-Branco M, Gouveia A, Botelho MF, Tralhão JG.",
+ "affiliation": "Health Sciences Research Centre, University of Beira Interior (CICS-UBI), 6200-506 Covilhã, Portugal.",
+ "journal": "International journal of molecular sciences",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 103,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute pancreatitis (AP) is a severe inflammation of the pancreas presented with sudden onset and severe abdominal pain with a high morbidity and mortality rate, if accompanied by severe local and systemic complications. Numerous studies have been published about the pathogenesis of AP; however, the precise mechanism behind this pathology remains unclear. Extensive research conducted over the last decades has demonstrated that the first 24 h after symptom onset are critical for the identification of patients who are at risk of developing complications or death. The identification of these subgroups of patients is crucial in order to start an aggressive approach to prevent mortality. In this sense and to avoid unnecessary overtreatment, thereby reducing the financial implications, the proper identification of mild disease is also important and necessary. A large number of multifactorial scoring systems and biochemical markers are described to predict the severity. Despite recent progress in understanding the pathophysiology of AP, more research is needed to enable a faster and more accurate prediction of severe AP. This review provides an overview of the available multifactorial scoring systems and biochemical markers for predicting severe AP with a special focus on their advantages and limitations.",
+ "sections": [
+  {
+   "h": "2. Clinical Assessment",
+   "text": "Clinical assessment is an evaluation of a patient’s physical condition and prognosis based on information gathered from their physical condition and the patient’s medical history. The differentiation between mild and severe AP based on clinical assessment has been evaluated in several studies ["
+  },
+  {
+   "h": "11. Conclusions",
+   "text": "Despite intense research on the pathophysiology of AP, overall disease mortality has not significantly improved. Several studies have shown that early aggressive management reduces morbidity and mortality. In this sense, early diagnosis and timely assessment of the severity are essential. However, an ideal multifactorial scoring system and/or biochemical marker for early assessment of the severity of AP has yet to be defined.\n\nBased on the analysis of available data and evidence, the authors suggest the use of the BISAP score as a multifactorial scoring system and the CRP at 48 h of presentation as the biochemical marker due to their availability, simplicity, and capability to predict AP severity.\n\nIt is critical to design and conduct large population-based multicenter studies to identify parameters that allow for the definition of multifactorial scores or biomarkers to predict AP severity and monitor disease progression that can be used routinely."
+  }
+ ]
+}

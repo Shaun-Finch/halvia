@@ -1,0 +1,45 @@
+{
+ "pmcid": "PMC5037640",
+ "pmid": "27670788",
+ "doi": "10.1186/s13054-016-1478-z",
+ "topic": "acute kidney injury",
+ "title": "Acute kidney injury 2016: diagnosis and diagnostic workup.",
+ "authors": "Ostermann M, Joannidis M.",
+ "affiliation": "Department of Critical Care Medicine, King's College London, Guy's & St Thomas' Foundation Hospital, Westminster Bridge Road, London, UK. Marlies.Ostermann@gstt.nhs.uk.",
+ "journal": "Critical care (London, England)",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 248,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute kidney injury (AKI) is common and is associated with serious short- and long-term complications. Early diagnosis and identification of the underlying aetiology are essential to guide management. In this review, we outline the current definition of AKI and the potential pitfalls, and summarise the existing and future tools to investigate AKI in critically ill patients.",
+ "sections": [
+  {
+   "h": "Diagnosis of AKI",
+   "text": "The diagnosis of AKI is traditionally based on a rise in serum creatinine and/or fall in urine output. The definition has evolved from the Risk, Injury, Failure, Loss, End-stage (RIFLE) criteria in 2004 to the AKI Network (AKIN) classification in 2007 [\n\nSeveral studies in various different patient populations have confirmed an association between stages of AKI and short- and long-term outcomes ["
+  },
+  {
+   "h": "Adjunctive diagnostic tools to diagnose AKI",
+   "text": "In certain circumstances, it may be necessary to use additional tools to diagnose AKI, especially where creatinine and urine values change only slowly, are misleading, or cannot be interpreted accurately. This is particularly relevant for critically ill patients where the presence of fluid overload, muscle wasting, sepsis, and reduced effective circulating volume may completely mask the diagnosis of AKI."
+  },
+  {
+   "h": "Diagnosis of acute kidney disease",
+   "text": "AKI is defined as occurring over 7 days and CKD starts when kidney disease has persisted for more than 90 days. Based on epidemiological studies and histological case series, it is clear that some patients have a slow but persistent (creeping) rise in serum creatinine over days or weeks but do not strictly fulfil the consensus criteria for AKI [2 for <3 months, a decrease in GFR by ≥35 %, and an increase in serum creatinine by >50 % for <3 months or evidence of structural kidney damage for <3 months ["
+  },
+  {
+   "h": "Diagnostic work-up",
+   "text": "As a syndrome, AKI can have multiple aetiologies. In critically ill patients, the most common causes are sepsis, heart failure, haemodynamic instability, hypovolaemia, and exposure to nephrotoxic substances [\n\nThe terms “pre-renal”, “renal” and “post-renal” have traditionally been used to narrow the differential diagnosis of AKI. It was a long-held view that “pre-renal AKI” or “transient” AKI were synonymous with “hypovolaemic AKI” and “fluid responsiveness” [\n\nThe specific diagnostic workup in individual patients with AKI depends on the clinical context, severity, and duration of AKI, and also on local availability. Urinalysis, examination of the urinary sediment, and imaging studies should be performed as a minimum, with additional tests depending on the clinical presentation (Fig."
+  },
+  {
+   "h": "Challenges of diagnosing AKI in critically ill patients",
+   "text": "As outlined earlier, the use of serum creatinine to estimate GFR in critically ill patients is limited by the lack of steady-state conditions, unpredictable rate of production, and variable degree of elimination (Table\n\nThe interpretation of additional diagnostic investigations can be challenging, too. Dipstick haematuria is not uncommon in patients with an indwelling urinary catheter and most commonly due to simple trauma. Even more specialised tests, like autoimmune tests, have a higher risk of false-positive results in critically ill patients. For instance, infection is a frequent cause of a false-positive ANCA result ["
+  },
+  {
+   "h": "Future diagnostic tools",
+   "text": "A variety of new functional and damage markers of AKI have been shown to provide information related to the underlying pathophysiology of AKI and may also be utilised as diagnostic tools. It is expected that some of these markers will be routinely integrated into the definition as well as diagnostic workup of AKI [\n\nAchieving the ability to rapidly and accurately measure and monitor GFR in real time would be very beneficial, especially in the ICU [\n\nNew imaging techniques may also be utilised, including cine phase-contrast magnetic resonance imaging or intravital multiphoton studies ["
+  }
+ ]
+}

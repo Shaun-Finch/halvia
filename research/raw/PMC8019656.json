@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC8019656",
+ "pmid": "33214722",
+ "doi": "10.1038/s41440-020-00569-y",
+ "topic": "hyperkalaemia",
+ "title": "Management of hyperkalemia during treatment with mineralocorticoid receptor blockers: findings from esaxerenone.",
+ "authors": "Rakugi H, Yamakawa S, Sugimoto K.",
+ "affiliation": "Department of Geriatric and General Medicine, Osaka University Graduate School of Medicine, 2-2 Yamadaoka, Suita, Osaka, 565-0871, Japan. rakugi@geriat.med.osaka-u.ac.jp.",
+ "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 36,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The nonsteroidal mineralocorticoid receptor (MR) blocker esaxerenone has demonstrated good antihypertensive activity in a variety of patients, including those with uncomplicated grade I-III hypertension, hypertension with moderate renal dysfunction, hypertension with type 2 diabetes mellitus with albuminuria, and hypertension associated with primary aldosteronism. Hyperkalemia has long been recognized as a potential side effect occurring during treatment with MR blockers, but there is a lack of understanding and guidance about the appropriate management of hyperkalemia during antihypertensive therapy with MR blockers, especially in regard to the newer agent esaxerenone. In this article, we first highlight risk factors for hyperkalemia, including advanced chronic kidney disease, diabetes mellitus, cardiovascular disease, age, and use of renin-angiotensin-aldosterone system inhibitors. Next, we examine approaches to prevention and management, including potassium monitoring, diet, and the use of appropriate therapeutic techniques. Finally, we summarize the currently available data for esaxerenone and hyperkalemia. Proper management of serum potassium is required to ensure safe clinical use of MR blockers, including awareness of at-risk patient groups, choosing appropriate dosages for therapy initiation and dosage titration, and monitoring of serum potassium during therapy. It is critical that physicians take such factors into consideration to optimize MR blocker therapy in patients with hypertension.",
+ "sections": [
+  {
+   "h": "Treatment",
+   "text": "Approaches to managing hyperkalemia depend upon symptom severity and include dietary potassium intake restriction, dosage adjustment of MR blockers and/or RAS inhibitors, promotion of potassium excretion from the body using diuretics, use of oral potassium adsorbent agents, such as calcium/sodium polystyrene sulfonate, promotion of potassium redistribution from extracellular to intracellular spaces via intravenous administration of insulin and glucose, cell membrane stabilization via intravenous administration of calcium solution, and hemodialysis [\n\nFor patients with mild hyperkalemia (<6.0 mEq/L) without ECG changes, a reduced potassium intake and discontinuation of potassium-elevating drugs may be sufficient to normalize potassium levels [\n\nThese same procedures are generally also effective for severe hyperkalemia (>6.5 mEq/L) without ECG changes. If more aggressive therapy is required, potassium can be redistributed using insulin and glucose, with a peak occurring 60 min after administration and continuing for several hours ["
+  },
+  {
+   "h": "Management of hyperkalemia during antihypertensive treatment with esaxerenone",
+   "text": "Clinical data from phase III studies showed that serum potassium levels returned to normal after withdrawal of esaxerenone, and no additional treatment was required. In the J301 and J302 studies, esaxerenone treatment was discontinued in five and four patients, respectively, with serum potassium measurements of ≥6.0 or ≥5.5 mEq/L on two consecutive occasions. In all patients, potassium levels normalized within 28 days [\n\nAvailable clinical study data can be used to develop a profile of patients at higher risk of developing hyperkalemia, allowing appropriate selection of patients for esaxerenone therapy. Based on patient factors such as lower renal function (reduced eGFR, albuminuria) and older age, gradually increasing the esaxerenone dosage from 1.25 to 2.5–5 mg/day has been suggested as a good strategy to reduce the risk of developing hyperkalemia compared with starting treatment at a fixed dosage [\n\nAn exposure–response analysis was performed using data from clinical studies where esaxerenone was given at a fixed dosage in patients with hypertension and diabetic nephropathy ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "MR blockers, including the new agent esaxerenone, have antihypertensive activity and organ protective effects. However, a careful approach to therapy and proper management of serum potassium is required to ensure safe clinical use of these agents. This includes awareness of at-risk patient groups, choosing appropriate dosages for therapy initiation and dosage titration, and monitoring of serum potassium during therapy. It is important that physicians take these important factors into consideration to optimize MR blocker therapy in patients with hypertension."
+  }
+ ]
+}

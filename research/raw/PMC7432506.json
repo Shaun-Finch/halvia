@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC7432506",
+ "pmid": "32718076",
+ "doi": "10.3390/ijerph17155320",
+ "topic": "hyponatraemia",
+ "title": "Hyponatremia in Infectious Diseases-A Literature Review.",
+ "authors": "Królicka AL, Kruczkowska A, Krajewska M, Kusztal MA.",
+ "affiliation": "Faculty of Medicine, Wroclaw Medical University, 50-367 Wroclaw, Poland.",
+ "journal": "International journal of environmental research and public health",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 50,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Hyponatremia is one of the most common water-electrolyte imbalances in the human organism. A serum sodium concentration threshold of less than 135 mmol/L is diagnostic for hyponatremia. The disorder is usually secondary to various diseases, including infections. Our review aims to summarize the diagnostic value and impact of hyponatremia on the prognosis, length of the hospitalization, and mortality among patients with active infection. The scientific literature regarding hyponatremia was reviewed using PubMed, ClinicalKey, and Web of Science databases. Studies published between 2011 and 2020 were screened and eligible studies were selected according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) statement and specific inclusion criteria. The most common infections that were associated with hyponatremia were viral and bacterial infections, including COVID-19 (coronavirus disease 2019). The etiology varied according to the infection site, setting and patient cohort it concerned. In several studies, hyponatremia was associated with prolonged hospitalization, worse outcomes, and higher mortality rates. Hyponatremia can also play a diagnostic role in differentiating pathogens that cause a certain infection type, as it was observed in community-acquired pneumonia. Although many mechanisms leading to hyponatremia have already been described, it is impossible with any certainty to ascribe the etiology of hyponatremia to any of them.",
+ "sections": [
+  {
+   "h": "5. Conclusions",
+   "text": "There is no doubt that hyponatremia in infections is a multidisciplinary problem, as it may be associated with the infection itself, but also with a variety of factors such as renal or intracranial pathologies, drugs intake, malnutrition, or critical state. The knowledge about factors predisposing to hyponatremia remains essential for a proper diagnosis and treatment.\n\nMany publications show that hyponatremia is associated with prolonged hospital stay and severity, as well as mortality in a number of infectious diseases. Despite many attempts to state its etiology in infective settings, few studies, just one in our review, took into consideration measuring the level of CT-ProVassopressin. This seems to be an adequate method to differentiate at least whether the low level of sodium is caused by SIADH or not. Therefore, we suggest including this test in the future studies of the pathomechanism of hyponatremia.\n\nSeveral authors suggest that the correlation between hyponatremia during infection and mortality risk is causal, which might indeed be the case. However, it needs to be stressed that most of the infection-related deaths occur due to respiratory or circulatory failure, and not hyponatermia-associated neurologic damage. Thus, to prove the causal relationship between hyponatremia and mortality in infective settings, large prospective trials will need to be conducted in the future. Until then, in patients with infections hyponatremia should be interpreted as an indirect marker of disease severity, a potential direct marker of other concomitant disease, or a predictor of poor prognosis in this setting.\n\nAs mentioned in the introduction, it has been recently proven that improvement of hyponatremia reduces the risk of death among patients admitted to hospital due to this disorder. Therefore, there are no doubts that each case of hyponatremia should be treated causally in order to reinstate correct water–electrolyte balance in organism. Mild- and moderate hyponatremia in certain settings may be well tolerated and treated ambulatory. However, most of the studies indicate that patients with serum sodium threshold of <125 mmol/L (irrespective of their symptoms) should be immediately admitted to hospital and treated intensively, due to high mortality reaching up to 20% in these patients.\n\nThe role of hyponatremia in HIV-infection remains uncertain. These patients were mostly excluded from studies focusing on the impact of hyponatremia on prognosis and mortality, and so the results of these cannot be extrapolated on the population of HIV positive patients.\n\nThe novelties in our paper, comparing to the similar review released in 2011, include description of hyponatremia in Ebola-infected patients, in COVID-19 patients, and in influenza-infected patients."
+  }
+ ]
+}

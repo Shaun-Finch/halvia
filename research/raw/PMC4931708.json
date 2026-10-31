@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC4931708",
+ "pmid": "27373799",
+ "doi": "10.1186/s13054-016-1352-z",
+ "topic": "acute kidney injury",
+ "title": "Acute kidney injury following cardiac surgery: current understanding and future directions.",
+ "authors": "O'Neal JB, Shaw AD, Billings FT.",
+ "affiliation": "Department of Anesthesiology, Vanderbilt University Medical Center, Nashville, TN, USA. jason.b.oneal@vanderbilt.edu.",
+ "journal": "Critical care (London, England)",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 389,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Acute kidney injury (AKI) complicates recovery from cardiac surgery in up to 30 % of patients, injures and impairs the function of the brain, lungs, and gut, and places patients at a 5-fold increased risk of death during hospitalization. Renal ischemia, reperfusion, inflammation, hemolysis, oxidative stress, cholesterol emboli, and toxins contribute to the development and progression of AKI. Preventive strategies are limited, but current evidence supports maintenance of renal perfusion and intravascular volume while avoiding venous congestion, administration of balanced salt as opposed to high-chloride intravenous fluids, and the avoidance or limitation of cardiopulmonary bypass exposure. AKI that requires renal replacement therapy occurs in 2-5 % of patients following cardiac surgery and is associated with 50 % mortality. For those who recover from renal replacement therapy or even mild AKI, progression to chronic kidney disease in the ensuing months and years is more likely than for those who do not develop AKI. Cardiac surgery continues to be a popular clinical model to evaluate novel therapeutics, off-label use of existing medications, and nonpharmacologic treatments for AKI, since cardiac surgery is fairly common, typically elective, provides a relatively standardized insult, and patients remain hospitalized and monitored following surgery. More efficient and time-sensitive methods to diagnose AKI are imperative to reduce this negative outcome. The discovery and validation of renal damage biomarkers should in time supplant creatinine-based criteria for the clinical diagnosis of AKI.",
+ "sections": [
+  {
+   "h": "Diagnosis",
+   "text": "Establishing an accurate and timely diagnosis of AKI enables prompt treatment. Current consensus guidelines for AKI diagnosis use Kidney Disease Improving Global Outcomes (KDIGO) criteria [\n\nScientists have identified proteins released from the kidney during injury and others filtered by the kidneys that more closely reflect glomerular filtration. These markers of renal damage (e.g., NGAL, KIM 1, IL-18, NAG, and GST) and function (cystatin C) offer several theoretical advantages over SCr. Concentrations of damage biomarkers increase in the plasma and urine within hours of injury, may be more specific, and are more sensitive. Haase et al. [\n\nJust as intensivists and nephrologists developed consensus criteria for AKI diagnosis, clinician scientists are hoping to adopt unified criteria for persistent renal injury. This will enable therapeutic, clinical practice, and epidemiologic data to be compared against a consistent benchmark – the same benefits AKI consensus criteria brought to the AKI field. The Major Adverse Kidney Events (MAKE) composite, consisting of a 25 % or greater eGFR reduction, dialysis, or death, meets this objective. Because some physicians believe AKI is transient and not a clinically relevant endpoint, the adaptation of MAKE as a primary endpoint may advance the field ["
+  },
+  {
+   "h": "Treatment",
+   "text": "Treatment options for AKI have focused on attenuating ischemia, reducing intrarenal inflammation, and supportive care. Nutrition is an important component of perioperative care and should not be neglected. Malnourished patients with AKI have an increased risk of mortality [\n\nIn severe AKI, RRT is frequently required to treat hyperkalemia, remove excess fluid, treat uremia, or reverse acidosis. Clinical trials of early versus late initiation of RRT in cardiac surgery patients with severe AKI suggest early RRT may lower mortality and shorten the ICU length of stay [P = 0.001) and decreased time on the ventilator (12.8 versus 18.9 days, P = 0.03) [\n\nMesenchymal stem cells (MSCs) possess anti-inflammatory and immunoregulatory characteristics that promote cell survival and tissue repair, and therefore present an attractive potential treatment for AKI [NCT01275612). Stem cells may provide a future therapy for AKI following cardiac surgery.\n\nAnother potential treatment for AKI is alkaline phosphatase [P = 0.01), although this functional benefit did not translate into a decreased need for RRT ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "AKI after cardiac surgery is common, although most often mild. The development of any AKI remains a major predictor of adverse outcomes, including progression of CKD. Effective prevention and treatment strategies for AKI after cardiac surgery may be on the horizon, and the discovery, validation, and adaptation of biomarkers of nephron damage may accelerate their development as well as shorten the time for diagnosis. For now, efforts to reduce AKI following cardiac surgery and its influence on patient morbidity are confined to hemodynamic manipulations, close attention to intravenous resuscitation strategies including goal-directed therapy and balanced-salt fluid administration, reduced exposure to CPB, and the identification and mitigation of modifiable risk factors."
+  }
+ ]
+}

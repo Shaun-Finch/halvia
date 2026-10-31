@@ -1,0 +1,21 @@
+{
+ "pmcid": "PMC7055310",
+ "pmid": "32132589",
+ "doi": "10.1038/s41598-020-60866-x",
+ "topic": "upper GI bleeding",
+ "title": "Optimal endoscopy timing in patients with acute variceal bleeding: A systematic review and meta-analysis.",
+ "authors": "Jung DH, Huh CW, Kim NJ, Kim BW.",
+ "affiliation": "Department of Internal Medicine, Severance Hospital, Yonsei University College of Medicine, Seoul, Republic of Korea.",
+ "journal": "Scientific reports",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 30,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Although current guidelines recommend performing endoscopy within 12 hours for acute variceal bleeding (AVB), the optimal timing remains controversial. This study aimed to assess the effect of endoscopy timing on the mortality and rebleeding rates in AVB through a systematic review and meta-analysis of all eligible studies. PubMed, Cochrane Library, and Embase were searched for relevant publications up to January 2019. Overall mortality, rebleeding rate, and other clinical outcomes were determined. For the non-randomized studies, the risk of bias assessment tool was used to assess the methodological quality of the included publications. The Mantel-Haenszel random-effects model of the RevMan software (Cochrane) and the inverse variance method were used to analyse binary end points and continuous outcomes, respectively. This meta-analysis included five studies with 854 and 453 participants who underwent urgent (≤12 hours) and non-urgent endoscopies (>12 hours), respectively. All the included studies were retrospective in nature, because of obvious ethical issues. No significant differences in the severity indexes were found between the urgent and non-urgent groups. Three studies showed 6-week mortality and the others in-hospital mortality as main outcomes. No significant difference in overall mortality rate was found between the groups (odds ratio [OR]: 0.72, 95% confidence interval [CI]: 0.36-1.45, p = 0.36). The rebleeding rate was similar between the two groups (OR: 1.21, 95% CI: 0.76-1.93, p = 0.41). Other outcomes such as successful haemostasis, need for salvage therapy, length of hospital stay, and number of blood transfusions were also similar between the groups. We demonstrated that endoscopy timing does not affect the mortality or rebleeding rate of patients with AVB. Therefore, an appropriate timing of endoscopy would be more important than an urgent endoscopy depending on each patient's condition.",
+ "sections": []
+}

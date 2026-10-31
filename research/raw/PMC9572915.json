@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC9572915",
+ "pmid": "36233678",
+ "doi": "10.3390/jcm11195810",
+ "topic": "hyponatraemia",
+ "title": "Pathophysiology of Drug-Induced Hyponatremia.",
+ "authors": "Kim GH.",
+ "affiliation": "Department of Internal Medicine, Hanyang University College of Medicine, Seoul 04763, Korea.",
+ "journal": "Journal of clinical medicine",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 49,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Drug-induced hyponatremia caused by renal water retention is mainly due to syndrome of inappropriate antidiuresis (SIAD). SIAD can be grouped into syndrome of inappropriate antidiuretic hormone secretion (SIADH) and nephrogenic syndrome of inappropriate antidiuresis (NSIAD). The former is characterized by uncontrolled hypersecretion of arginine vasopressin (AVP), and the latter is produced by intrarenal activation for water reabsorption and characterized by suppressed plasma AVP levels. Desmopressin is useful for the treatment of diabetes insipidus because of its selective binding to vasopressin V2 receptor (V2R), but it can induce hyponatremia when prescribed for nocturnal polyuria in older patients. Oxytocin also acts as a V2R agonist and can produce hyponatremia when used to induce labor or abortion. In current clinical practice, psychotropic agents, anticancer chemotherapeutic agents, and thiazide diuretics are the major causes of drug-induced hyponatremia. Among these, vincristine and ifosfamide were associated with sustained plasma AVP levels and are thought to cause SIADH. However, others including antipsychotics, antidepressants, anticonvulsants, cyclophosphamide, and thiazide diuretics may induce hyponatremia by intrarenal mechanisms for aquaporin-2 (AQP2) upregulation, compatible with NSIAD. In these cases, plasma AVP levels are suppressed by negative feedback. In rat inner medullary collecting duct cells, haloperidol, sertraline, carbamazepine, and cyclophosphamide upregulated V2R mRNA and increased cAMP production in the absence of vasopressin. The resultant AQP2 upregulation was blocked by a V2R antagonist tolvaptan or protein kinase A (PKA) inhibitors, suggestive of the activation of V2R-cAMP-PKA signaling. Hydrochlorothiazide can also upregulate AQP2 in the collecting duct without vasopressin, either directly or via the prostaglandin E2 pathway. In brief, nephrogenic antidiuresis, or NSIAD, is the major mechanism for drug-induced hyponatremia. The associations between pharmacogenetic variants and drug-induced hyponatremia is an area of ongoing research.",
+ "sections": [
+  {
+   "h": "3. Hyponatremia Induced by Anticancer Chemotherapeutic Agents",
+   "text": "Hyponatremia is a common complication in cancer patients because SIAD is potentially caused by malignancies and it can be related to anticancer medical therapy as well. Vincristine, vinblastine, cisplatin, carboplatin, cyclophosphamide, and ifosfamide are the chemotherapeutic agents that are most frequently associated with hyponatremia [\n\nPrevious studies have shown that SIADH underlies the mechanism of vincristine-associated hyponatremia. A 3-year-old girl who was inadvertently administered an overdose of vincristine developed clinical features compatible with SIADH. Her blood AVP level was more than four times the normal value [\n\nCisplatin is a platinum-based chemotherapeutic agent that potentially causes nephrotoxicity. It rarely induces hyponatremia via increasing plasma AVP levels [\n\nCyclophosphamide and ifosfamide are representative alkylating agents that may be associated with hyponatremia. Hyponatremia can be induced by various doses of cyclophosphamide during the treatment of malignancy and rheumatologic disease [\n\nIn contrast, elevated plasma AVP levels were found in a few cases of ifosfamide-induced hyponatremia ["
+  },
+  {
+   "h": "5.1. Clinical Presentation of TIH",
+   "text": "Thiazide and thiazide-like diuretics are the common cause of hyponatremia that is usually induced within a few weeks of starting medication but can occur at any time and rapidly in susceptible patients. They are frequently used for the treatment of hypertension and edematous disorders. According to a retrospective cohort study, approximately 3 in 10 patients who exposed to steady use of thiazides develop hyponatremia [\n\nSerum sodium levels are variable at presentation. Mild hyponatremia, ranging from 125 to 132 mmol/L, is usually asymptomatic, although vague symptoms such as fatigue or nausea are possible ["
+  },
+  {
+   "h": "6. Management of Drug-Induced Hyponatremia",
+   "text": "All potential agents that can induce hyponatremia should be discontinued. For this, meticulous history taking of previous and current medications is mandatory. Many patients are elderly and exposed to polypharmacy. Therefore, concomitant drug use should carefully be reviewed on whether multiple medications and comorbidity such as heart failure are implicated in the induction of hyponatremia. An unnecessary habit of a large fluid intake should be discouraged.\n\nOther general treatment principles in SIAD are also applied to the management of drug-induced hyponatremia. Water restriction is the basic but weak measure to restore water balance, and small doses of furosemide can increase solute-free water clearance. Increasing oral salt and protein intake is encouraged. If hyponatremia is mild and does not accompany symptoms, discontinuation of the offending agent and restriction of water intake may be sufficient to restore serum sodium levels to normal ranges [\n\nPotassium repletion will hasten the correction of hyponatremia. It is important to consider the effect of potassium supplementation on the serum sodium concentration. Because 1 mmol of retained potassium affects serum sodium as much as 1mmol of retained sodium, even partial correction of potassium depletion can cause an excessive rise in serum sodium without sodium administration [\n\nIn general, re-administration of the offending agent is strongly discouraged. Thiazides should not be prescribed for patients with a history of TIH. Continued use of the potentially incriminated agents may be considered if the hyponatremia is mild, patients have responded favorably to the therapy, and alternative treatment is not available [\n\nUrea can induce solute diuresis, and oral urea (0.5 g/kg) is an effective and inexpensive therapy in mild chronic hyponatremia due to SIAD ["
+  },
+  {
+   "h": "7. Conclusions",
+   "text": "Three drug classes (psychotropic agents, anticancer chemotherapeutic agents, and thiazide diuretics) are the major causes of drug-induced hyponatremia, which is explainable by SIAD. The final common pathway is AQP2 upregulation in the collecting duct, involving various drugs at different levels ("
+  }
+ ]
+}

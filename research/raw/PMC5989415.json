@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5989415",
+ "pmid": "29871657",
+ "doi": "10.1186/s13054-018-2060-7",
+ "topic": "cardiac arrest",
+ "title": "Prognostication after cardiac arrest.",
+ "authors": "Sandroni C, D'Arrigo S, Nolan JP.",
+ "affiliation": "Istituto Anestesiologia e Rianimazione Università Cattolica del Sacro Cuore, Fondazione Policlinico Universitario \"Agostino Gemelli, Largo Francesco Vito 1, 00168, Rome, Italy. claudio.sandroni@policlinicogemelli.it.",
+ "journal": "Critical care (London, England)",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 221,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Hypoxic-ischaemic brain injury (HIBI) is the main cause of death in patients who are comatose after resuscitation from cardiac arrest. A poor neurological outcome-defined as death from neurological cause, persistent vegetative state, or severe neurological disability-can be predicted in these patients by assessing the severity of HIBI. The most commonly used indicators of severe HIBI include bilateral absence of corneal and pupillary reflexes, bilateral absence of N 2 O waves of short-latency somatosensory evoked potentials, high blood concentrations of neuron specific enolase, unfavourable patterns on electroencephalogram, and signs of diffuse HIBI on computed tomography or magnetic resonance imaging of the brain. Current guidelines recommend performing prognostication no earlier than 72 h after return of spontaneous circulation in all comatose patients with an absent or extensor motor response to pain, after having excluded confounders such as residual sedation that may interfere with clinical examination. A multimodal approach combining multiple prognostication tests is recommended so that the risk of a falsely pessimistic prediction is minimised.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "Patients who are comatose at 72 h or more after ROSC and in whom major confounders have been excluded should undergo prognostication, aimed to detect signs of severe and irreversible HIBI. This can be achieved using four main categories of tests: clinical examination, electrophysiology, biomarkers, and neuroimaging. The timing of these tests varies and may precede the clinical assessment at ≥ 72 h that initiates the prognostication process. Among prognostic tests, ocular reflexes and somatosensory evoked potentials are considered the most robust, while biomarkers, electroencephalography, imaging, and status myoclonus have inconsistencies which suggest using them only in combination. A multimodal approach combining multiple prognostication tests is recommended by current guidelines so that the risk of a falsely pessimistic prediction is minimised."
+  }
+ ]
+}

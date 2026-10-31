@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5468371",
+ "pmid": "28659865",
+ "doi": "10.3389/fendo.2017.00106",
+ "topic": "diabetic ketoacidosis",
+ "title": "Review of Evidence for Adult Diabetic Ketoacidosis Management Protocols.",
+ "authors": "Tran TTT, Pease A, Wood AJ, Zajac JD, Mårtensson J, Bellomo R, Ekinci EII.",
+ "affiliation": "Department of Endocrinology, Austin Health, Melbourne, VIC, Australia.",
+ "journal": "Frontiers in endocrinology",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 63,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Diabetic ketoacidosis (DKA) is an endocrine emergency with associated risk of morbidity and mortality. Despite this, DKA management lacks strong evidence due to the absence of large randomised controlled trials (RCTs). Objective To review existing studies investigating inpatient DKA management in adults, focusing on intravenous (IV) fluids; insulin administration; potassium, bicarbonate, and phosphate replacement; and DKA management protocols and impact of DKA resolution rates on outcomes. Methods Ovid Medline searches were conducted with limits \"all adult\" and published between \"1973 to current\" applied. National consensus statements were also reviewed. Eligibility was determined by two reviewers' assessment of title, abstract, and availability. Results A total of 85 eligible articles published between 1973 and 2016 were reviewed. The salient findings were (i) Crystalloids are favoured over colloids though evidence is lacking. The preferred crystalloid and hydration rates remain contentious. (ii) IV infusion of regular human insulin is preferred over the subcutaneous route or rapid acting insulin analogues. Administering an initial IV insulin bolus before low-dose insulin infusions obviates the need for supplemental insulin. Consensus-statements recommend fixed weight-based over \"sliding scale\" insulin infusions although evidence is weak. (iii) Potassium replacement is imperative although no trials compare replacement rates. (iv) Bicarbonate replacement offers no benefit in DKA with pH > 6.9. In severe metabolic acidosis with pH  Conclusion There are major deficiencies in evidence for optimal management of DKA. Current practice is guided by weak evidence and consensus opinion. All aspects of DKA management require RCTs to affirm or redirect management and formulate consensus evidence-based practice to improve patient outcomes.",
+ "sections": [
+  {
+   "h": "Interpretation of DKA Correction Rate",
+   "text": "Studies have traditionally used time to correction of DKA as a surrogate end point for patient outcomes, where resolution of DKA is defined as BGL < 11mmol/L and two of the following criteria: serum bicarbonate level ≥15 mmol/L, venous pH >7.3 and a calculated anion gap ≤12 mmol/L (n = 114) concluded that very low-dose insulin administration and slow re-equilibration were the fundamental strategies in optimal management (\n\nStudies addressing this issue have been performed in the paediatric population and one retrospective observational study (n = 67) found an insulin infusion rate of 0.05 units/kg/h resulted in more gradual reduction in effective plasma osmolality over the first 12 h, and a similar length of intensive care admission to patients who received insulin doses of 0.1 unit/kg/h (n = 50) also in the paediatric population found that standard insulin doses of 0.1 unit/kg/h compared to low dose 0.05 units/kg/h was associated with higher rates of hypoglycaemia (20 vs. 4%, p = 0.17), hypokalaemia (48 vs. 20%, p = 0.07), and cerebral oedema (4 vs. 0%), whilst time to reduction of blood glucose level and resolution of acidosis were similar (\n\nGiven these findings, we conclude that rapid resolution of DKA does not necessarily correlate with superior clinical outcomes. Guidelines do not address this issue, and further research is needed to explore this question."
+  },
+  {
+   "h": "Discussion and Conclusion",
+   "text": "On review, the strength and breadth of original evidence is limited. Current weak evidence suggests crystalloids are preferred over colloids. There is no clear evidence for superiority of a given crystalloid nor for a given rate of rehydration.\n\nLow-dose insulin has limited evidence for superior safety over high-dose insulin. Administering bolus insulin prior to low-dose insulin infusions <0.14 units/kg/h may obviate the need for additional insulin supplementation. Intravenous regular insulin infusions are traditionally preferred, with emerging evidence for non-inferiority of subcutaneous insulin and with no head to head comparisons between fixed weight-based versus blood glucose-based insulin dosing regimens. Clear evidence is lacking for timing of initiation and titration of dextrose infusions, in addition to replacement of potassium, phosphate, bicarbonate. Traditionally, studies have used mean time to resolution of DKA as favourable end points, although this correlation has no supporting evidence.\n\nFew studies consider patient outcome using various protocols, with improvement in outcomes.\n\nCurrently, there is a major deficiency of strong evidence for the optimal management of DKA in the adult population with a mixture of consensus opinion and weak evidence providing the framework within which physicians manage DKA. There are inherent difficulties in conducting robust studies and these include low rates of patient admissions with DKA, large numbers of patients required to show differences and the multiple confounding variables contributing to outcomes. Despite this, all components of DKA management would benefit from prospective RCTs and there is vast potential for further studies to elucidate or establish a more robust evidence-based practice for best patient outcomes."
+  }
+ ]
+}

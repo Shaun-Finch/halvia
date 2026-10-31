@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC12431931",
+ "pmid": "40951245",
+ "doi": "10.7759/cureus.89957",
+ "topic": "handover and communication",
+ "title": "Effectiveness of Nursing Documentation Frameworks (SBAR, SOAP, and PIE) in Enhancing Clinical Handoffs and Patient Safety.",
+ "authors": "Hidalgo Tapia EC, León Yosa J, Olalla García MH, Clavijo Morocho NJ, Sanmartín Calle YA.",
+ "affiliation": "Nursing Education, Universidad de Cuenca, Cuenca, ECU.",
+ "journal": "Cureus",
+ "year": "2025",
+ "license": "cc by",
+ "cited": 1,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Constructed communication models, including SBAR (Situation, Background, Assessment, Recommendation), SOAP (Subjective, Objective, Assessment, Plan), and PIE (Problem, Intervention, Evaluation), have become more and more significant in the field of nursing because of improving handoff communication and ensuring patient safety. The purposes of these documentation formats are to achieve consistency in sharing information, keep to a minimum the occurrence of errors, and enhance the concreteness and effectiveness of communication between healthcare professionals. The systematic review was conducted to determine how the SBAR, SOAP, and PIE models can help to enhance the quality of the handoff process, alleviating the number of clinical errors and ensuring the safety of patients in different clinical contexts. The review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines. A comprehensive literature search was performed across PubMed, Web of Science, and the Cochrane Library using a combination of text words and controlled vocabulary. Studies published in English between January 2005 and May 2025, involving registered nurses and nursing staff in hospital or inpatient settings, were included. Only quasi-experimental studies, randomized controlled trials, and mixed-method studies were considered. Risk of bias was assessed using the Cochrane Risk of Bias (RoB) 2.0 for randomized controlled trials and the Risk of Bias In Non-randomized Studies of Interventions (ROBINS-I) for non-randomized studies, and the methodological quality of mixed-method studies was appraised with the Mixed Methods Appraisal Tool (MMAT). Risk of bias figures were visualized using the robvis tool. A total of 15 studies met the inclusion criteria. The quality of the 15 included studies ranged from moderate to high. Findings demonstrated that structured documentation frameworks significantly improve communication clarity, reduce information omissions, enhance documentation accuracy, and lower the incidence of handoff-related errors. SBAR was particularly effective in high-acuity settings, while SOAP and PIE were beneficial in routine care and ongoing patient assessment. Overall, the implementation of structured nursing documentation enhances interdisciplinary collaboration, supports safer transitions of care, and contributes to improved patient outcomes.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The review concluded that SBAR, SOAP, and PIE have the potential to foster documentation, minimize communication mistakes, and focus on care quality, especially when entwined with teaching, motive, and online synchronization. However, the evidence was synthesized from the moderate-quality studies (due to high heterogeneity) with small sample sizes and based on single centers, which warrants further validation through high-quality studies (e.g., randomized studies). Nonetheless, the various gaps in the area of long-term effects, scalability, and implementation fidelity identify the necessity of high-quality, multi-center, randomized, and controlled trials lasting longer periods with the outcomes of real-life condition monitoring."
+  }
+ ]
+}

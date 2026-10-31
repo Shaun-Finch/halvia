@@ -1,0 +1,20 @@
+{
+ "pmcid": "PMC5787145",
+ "pmid": "29410648",
+ "doi": "10.3389/fneur.2018.00007",
+ "topic": "status epilepticus",
+ "title": "Status Epilepticus: Behavioral and Electroencephalography Seizure Correlates in Kainate Experimental Models.",
+ "authors": "Sharma S, Puttachary S, Thippeswamy A, Kanthasamy AG, Thippeswamy T.",
+ "affiliation": "Epilepsy Research Laboratory, Department of Biomedical Sciences, College of Veterinary Medicine, Iowa State University, Ames, IA, United States.",
+ "journal": "Frontiers in neurology",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 82,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Various etiological factors, such as head injury, chemical intoxication, tumors, and gene mutation, can induce epileptogenesis. In animal models,  status epilepticus  (SE) triggers epileptogenesis. In humans, convulsive SE for >30 min can be a life-threatening medical emergency. The duration and severity of convulsive SE are highly variable in chemoconvulsant animal models. A continuous video-electroencephalography (EEG) recording, and/or diligent direct observation, facilitates quantification of exact duration of different stages of convulsive seizures (Racine stages 3-5) to determine the severity of SE. A continuous convulsive SE for >30 min usually causes high mortality in some rodents and results in widespread brain damage in the surviving animals, in spite of treating with antiepileptic drugs (AEDs). AEDs control behavioral seizures but not EEG seizures. The severity of initial SE impacts epileptogenesis and cognitive function; therefore, quantitative assessment of behavioral SE and EEG in animal models will help to understand the impact of SE severity on epileptogenesis. There are several excellent reviews on experimental models of seizure/SE/epilepsy. This review focusses on the comparison of induction and characterization of behavioral SE and EEG correlates in mice and rats induced by kainate. We also discuss the advantages of repeated low dose of kainate (i.p. route), which minimizes variability in the initial SE severity between animals and reduces mortality rate. A refined approach to induce SE with kainate also addresses the two of the 3Rs (i.e., refinement and reduction), the guiding principles for ethical and scientific standpoint of animal research.",
+ "sections": []
+}

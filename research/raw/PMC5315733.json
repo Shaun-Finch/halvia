@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5315733",
+ "pmid": "27495334",
+ "doi": "10.1007/s00464-016-5109-1",
+ "topic": "acute abdomen",
+ "title": "Biomarkers of acute appendicitis: systematic review and cost-benefit trade-off analysis.",
+ "authors": "Acharya A, Markar SR, Ni M, Hanna GB.",
+ "affiliation": "Division of Surgery, Department of Surgery and Cancer, Imperial College London, 10th Floor QEQM Building, St Mary's Hospital, South Wharf Road, London, W2 1NY, UK.",
+ "journal": "Surgical endoscopy",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 72,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Acute appendicitis is the most common surgical emergency and can represent a challenging diagnosis, with a negative appendectomy rate as high as 20 %. This review aimed to evaluate the clinical utility of individual biomarkers in the diagnosis of appendicitis and appraise the quality of these studies. Methods A systematic review of the literature between January 2000 and September 2015 using of PubMed, OvidMedline, EMBASE and Google Scholar was conducted. Studies in which the diagnostic accuracy, statistical heterogeneity and predictive ability for severity of several biomarkers could be elicited were included. Information regarding costs and process times was retrieved from the regional laboratory. European surgeons blinded to these reviews were independently asked to rank which characteristics of biomarkers were most important in acute appendicitis to inform a cost-benefit trade-off. Sensitivity testing and the QUADAS-2 tool were used to assess the robustness of the analysis and study quality, respectively. Results Sixty-two studies met the inclusion criteria and were assessed. Traditional biomarkers (such as white cell count) were found to have a moderate diagnostic accuracy (0.75) but lower costs in the diagnosis of acute appendicitis. Conversely, novel markers (pro-calcitonin, IL 6 and urinary 5-HIAA) were found to have high process-related costs including analytical times, but improved diagnostic accuracy. QUADAS-2 analysis revealed significant potential biases in the literature. Conclusion When assessing biomarkers, an appreciation of the trade-offs between the costs and benefits of individual biomarkers is needed. Further studies should seek to investigate new biomarkers and address concerns over bias, in order to improve the diagnosis of acute appendicitis.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Appendicitis continues to pose a diagnostic challenge to emergency physicians and surgeons. Clinical impression remains a crucial tool in diagnosis, and treatment allocation in those with suspected appendicitis. As yet no biomarker has been shown to have sufficient diagnostic performance to be used in isolation clinically. This would suggest that further areas of research should focus upon the search for new novel diagnostic tests and the clinical utility of the tests, rather than repeat existing research into previously studied biomarkers. Through this approach, the accuracy of diagnosis of appendicitis can be enhanced, reducing the number of negative appendectomies performed, implied adverse impact to patients and treatment costs to hospitals."
+  }
+ ]
+}

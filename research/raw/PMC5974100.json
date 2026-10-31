@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5974100",
+ "pmid": "29876337",
+ "doi": "10.3389/fped.2018.00142",
+ "topic": "venous thromboembolism",
+ "title": "The Role of Inflammation in Venous Thromboembolism.",
+ "authors": "Branchford BR, Carpenter SL.",
+ "affiliation": "University of Colorado Hemophilia and Thrombosis Center, Pediatric Hematology, University of Colorado School of Medicine and Children's Hospital Colorado, Aurora, CO, United States.",
+ "journal": "Frontiers in pediatrics",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 291,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Venous thromboembolism (VTE), comprising deep vein thrombosis (DVT), and pulmonary embolism (PE), is becoming increasingly recognized as a cause of morbidity and mortality in pediatrics, particularly among hospitalized children. Furthermore, evidence is accumulating that suggests the inflammatory response may be a cause, as well as consequence, of VTE, but current anticoagulation treatment regimens are not designed to inhibit inflammation. In fact, many established clinical VTE risk factors such as surgery, obesity, cystic fibrosis, sepsis, systemic infection, cancer, inflammatory bowel disease, and lupus likely modulate thrombosis through inflammatory mediators. Unlike other traumatic mechanisms of thrombosis involving vascular transection and subsequent exposure of subendothelial collagen and other procoagulant extracellular matrix materials, inflammation of the vessel wall may initiate thrombosis on an intact vein. Activation of endothelial cells, platelets, and leukocytes with subsequent formation of microparticles can trigger the coagulation system through the induction of tissue factor (TF). Identification of biomarkers to evaluate VTE risk could be of great use to the clinician caring for a patient with inflammatory disease to guide decisions regarding the risk:benefit ratio of various types of potential thromboprophylaxis strategies, or suggest a role for anti-inflammatory therapy. Unfortunately, no such validated inflammatory scoring system yet exists, though research in this area is ongoing. Elevation of C-reactive protein, IL-6, IL-8, and TNF-alpha during a response to systemic inflammation have been associated with increased VTE risk. Consequent platelet activation enhances the prothrombotic state, leading to VTE development, particularly in patients with other risk factors, most notably central venous catheters.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Clinical observations and mounting laboratory evidence support a complex interplay between inflammation, innate immunity, and the coagulation system. As more is understood about these interactions, novel preventive and treatment modalities for thrombosis will likely become available."
+  }
+ ]
+}

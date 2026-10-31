@@ -1,0 +1,42 @@
+{
+ "pmcid": "PMC7560934",
+ "pmid": "32185602",
+ "doi": "10.1007/s11154-020-09548-7",
+ "topic": "hypoglycaemia",
+ "title": "Hyperinsulinemic hypoglycemia in children and adolescents: Recent advances in understanding of pathophysiology and management.",
+ "authors": "Gϋemes M, Rahman SA, Kapoor RR, Flanagan S, Houghton JAL, Misra S, Oliver N, Dattani MT, Shah P.",
+ "affiliation": "Genetics and Genomic Medicine Programme, UCL Great Ormond Street Institute of Child Health, Great Ormond Street, London, WC1N 3JH, UK.",
+ "journal": "Reviews in endocrine & metabolic disorders",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 66,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Hyperinsulinemic hypoglycemia (HH) is characterized by unregulated insulin release, leading to persistently low blood glucose concentrations with lack of alternative fuels, which increases the risk of neurological damage in these patients. It is the most common cause of persistent and recurrent hypoglycemia in the neonatal period. HH may be primary, Congenital HH (CHH), when it is associated with variants in a number of genes implicated in pancreatic development and function. Alterations in fifteen genes have been recognized to date, being some of the most recently identified mutations in genes HK1, PGM1, PMM2, CACNA1D, FOXA2 and EIF2S3. Alternatively, HH can be secondary when associated with syndromes, intra-uterine growth restriction, maternal diabetes, birth asphyxia, following gastrointestinal surgery, amongst other causes. CHH can be histologically characterized into three groups: diffuse, focal or atypical. Diffuse and focal forms can be determined by scanning using fluorine-18 dihydroxyphenylalanine-positron emission tomography. Newer and improved isotopes are currently in development to provide increased diagnostic accuracy in identifying lesions and performing successful surgical resection with the ultimate aim of curing the condition. Rapid diagnostics and innovative methods of management, including a wider range of treatment options, have resulted in a reduction in co-morbidities associated with HH with improved quality of life and long-term outcomes. Potential future developments in the management of this condition as well as pathways to transition of the care of these highly vulnerable children into adulthood will also be discussed.",
+ "sections": [
+  {
+   "h": "Definition of normal blood glucose",
+   "text": "Blood glucose concentrations of normal term neonates appropriate for gestational age may range between 1.4–6.2 mmol/l (25–112 mg/dl) during the first 72 h of life; however after that, healthy children and adults will maintain blood glucose concentrations between 3.5–5.5 mmol/l (63–99 mg/dl) ["
+  },
+  {
+   "h": "Clinical presentation of HH",
+   "text": "HH usually manifests in infancy or early childhood, although some patients can present during adolescence or adulthood. Signs and symptoms of hypoglycemia are non-specific during the neonatal period (poor feeding, jitteriness, irritability), challenging its diagnosis. At later ages, symptoms can be easier to recognize and can be classified as adrenergic (hunger, pallor, tachycardia, tremor, diaphoresis) and neuroglycopenic (tiredness, blurred vision, confusion, coma and even death).\n\nRisk factors for HH need to be looked for in the perinatal history. These include maternal intrapartum administration of hypoglycemic agents, stressful delivery, large/low birth weight, and neonatal polycythemia or jaundice, among others. Examination of the baby will search for macrosomia/leanness, careful phenotypic characterization to identify syndromes, features of cardiomyopathy (due to glycogen storage in HH), hepatomegaly present in metabolic conditions (also present in HH), and midline abnormalities (including genitalia) to exclude hypothalamic-pituitary deficits. Data in the family history could suggest a genetic inheritance, therefore anamnesis must enquire for consanguinity, cases of diabetes mellitus, hypoglycemia, seizures and unexplained deaths ["
+  },
+  {
+   "h": "Recent advances in diagnostic imaging of HH",
+   "text": "As is not possible to differentiate between F-CHH and D-CHH based on clinical presentation and biochemical features, pre-operative differentiation of both subtypes is critically important. Conventional radiological imaging such as Magnetic Resonance Imaging (MRI) and Computerized Tomography (CT) scans fail to localize the focal lesions. Genetic analysis for mutations in ABCC8/KCNJ11, with combination of recently described Fluorine 18 L-3, 4- dihydroxyphenyalanine positron emission tomography (18F-DOPA-PET-CT) scanning, allows differentiation between F-CHH and D-CHH with a high sensitivity (88%) and specificity (94%) [\n\nA dosimetry study of 18F-DOPA derived from the PET-CT images in ten infants (median age 4.84 weeks) with HH suggested that a modest radiation dose (0.30 ± 0.04 mSv/MBq) was adequate ["
+  },
+  {
+   "h": "Acute management of hypoglycemia",
+   "text": "If the oral route is unavailable or glycemia is not improving despite oral glucose (glucose gel/glucose containing drinks or tablets), then an iv dextrose bolus (2 ml/kg 10%Glucose) needs to be administered followed by continuous iv glucose infusion (>8 mg/kg/min). If there is persistence of hypoglycemia, hypoglycemic seizure or inadequate iv access, then an intramuscular or subcutaneous bolus (1 mg) or infusion of glucagon can be life saving as it causes immediate release of glycogen stores from the liver leading to a temporary improvement in blood glucose concentrations. [.\n\nAs high iv glucose concentration is usually needed for weeks, insertion of a central venous access supports in managing glycemia safely."
+  },
+  {
+   "h": "Concluding remarks and future directions",
+   "text": "HH is a challenging condition to treat due to its heterogeneity. Despite diagnostic and therapeutic advances, HH remains an important cause of morbidity in children, still accounting for 26–44% of permanent intellectual disabilities, especially in neonatal-onset patients. The increasing use of NGS target panels, combined with clinical, biochemical and imaging findings allows differentiating the diagnostic management of children with F-CHH, surgically curable, from those with D-CHH, more conservatively treated with pharmacological and nutritional interventions [\n\nThere is now more research of use of CGM in children with HH which might help to detect early hypoglycemia leading to prompt management [\n\nOver the last few years, numerous medications have been tried in children with HH [\n\nBesides the development of new diagnostic tools and therapeutic agents, clinicians need to become involved in creating/potentiating HH transition clinics to provide optimal ongoing care into adulthood for these patients."
+  }
+ ]
+}

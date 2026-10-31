@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC6954115",
+ "pmid": "31934647",
+ "doi": "10.1038/s41746-019-0207-9",
+ "topic": "atrial fibrillation",
+ "title": "Photoplethysmography based atrial fibrillation detection: a review.",
+ "authors": "Pereira T, Tran N, Gadhoumi K, Pelter MM, Do DH, Lee RJ, Colorado R, Meisel K, Hu X.",
+ "affiliation": "1Department of Physiological Nursing, University of California, San Francisco, CA USA.",
+ "journal": "NPJ digital medicine",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 164,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Atrial fibrillation (AF) is a cardiac rhythm disorder associated with increased morbidity and mortality. It is the leading risk factor for cardioembolic stroke and its early detection is crucial in both primary and secondary stroke prevention. Continuous monitoring of cardiac rhythm is today possible thanks to consumer-grade wearable devices, enabling transformative diagnostic and patient management tools. Such monitoring is possible using low-cost easy-to-implement optical sensors that today equip the majority of wearables. These sensors record blood volume variations-a technology known as photoplethysmography (PPG)-from which the heart rate and other physiological parameters can be extracted to inform about user activity, fitness, sleep, and health. Recently, new wearable devices were introduced as being capable of AF detection, evidenced by large prospective trials in some cases. Such devices would allow for early screening of AF and initiation of therapy to prevent stroke. This review is a summary of a body of work on AF detection using PPG. A thorough account of the signal processing, machine learning, and deep learning approaches used in these studies is presented, followed by a discussion of their limitations and challenges towards clinical applications.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "A review of statistical and machine learning approaches applied to AF detection using PPG is presented. Although PPG has proven to be a good alternative to ECG for ambulatory real-time and continuous detection of AF, there are challenges remaining to be solved that are currently limiting the expansion of PPG-based AF detection beyond consumer wearables and its application in other clinical applications. Recent advances in computational power and the advent of powerful deep earning algorithms capable of solving complex pattern recognition problems have led to new AF detection methods proving a significant improvement in accuracy, robustness, and reliability compared to earlier approaches. Whether deep learning will ultimately lead to clinical-grade performance levels of PPG-based AF detection remains a question. Wearable devices powered by sophisticated algorithms offering precise and continuous AF detection will provide an excellent opportunity to screen AF at scale as demonstrated in the recent Apple and Huawei studies."
+  }
+ ]
+}

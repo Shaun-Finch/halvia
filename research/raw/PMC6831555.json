@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC6831555",
+ "pmid": "31736963",
+ "doi": "10.3389/fimmu.2019.02536",
+ "topic": "sepsis",
+ "title": "DAMPs and NETs in Sepsis.",
+ "authors": "Denning NL, Aziz M, Gurien SD, Wang P.",
+ "affiliation": "Center for Immunology and Inflammation, Feinstein Institutes for Medical Research, Manhasset, NY, United States.",
+ "journal": "Frontiers in immunology",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 533,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Sepsis is a deadly inflammatory syndrome caused by an exaggerated immune response to infection. Much has been focused on host response to pathogens mediated through the interaction of pathogen-associated molecular patterns (PAMPs) and pattern recognition receptors (PRRs). PRRs are also activated by host nuclear, mitochondrial, and cytosolic proteins, known as damage-associated molecular patterns (DAMPs) that are released from cells during sepsis. Some well described members of the DAMP family are extracellular cold-inducible RNA-binding protein (eCIRP), high mobility group box 1 (HMGB1), histones, and adenosine triphosphate (ATP). DAMPs are released from the cell through inflammasome activation or passively following cell death. Similarly, neutrophil extracellular traps (NETs) are released from neutrophils during inflammation. NETs are webs of extracellular DNA decorated with histones, myeloperoxidase, and elastase. Although NETs contribute to pathogen clearance, excessive NET formation promotes inflammation and tissue damage in sepsis. Here, we review DAMPs and NETs and their crosstalk in sepsis with respect to their sources, activation, release, and function. A clear grasp of DAMPs, NETs and their interaction is crucial for the understanding of the pathophysiology of sepsis and for the development of novel sepsis therapeutics.",
+ "sections": [
+  {
+   "h": "Therapeutic Strategies Targeting NETs in Sepsis",
+   "text": "Therapeutic strategies aimed at NETs primarily target the DNA component- DNase is the most frequent treatment modality. DNase treatment reduced NETs, improving lung injury and survival in a murine model of pneumonia (−/− mice demonstrated decreased NETs and lung injury in the pneumonia model (+/−) which demonstrated an improved survival curve (\n\nChloroquine has also been effective as an early upstream inhibitor of NETs, decreasing NETosis and the associated hypercoagubility and improving survival in murine models of pancreatic adenocarcinoma (\n\nThe early inhibitors of NETs such as chloroquine, PAD4 inhibitors, and APC are specifically targeted for controlling NET formation. By contrast, late inhibitors of NETs, such as DNase and anti-histone antibodies, can target extracellular DNA or histones regardless of their source. These molecules are also considered as DAMPs and can be released by a number of immune cells, in addition to their release from neutrophils. Therefore, the molecules/drugs that specifically control intracellular NET formation could be used as a more specific therapeutic regimen against NETs."
+  },
+  {
+   "h": "Future Directions and Conclusions",
+   "text": "In this review article, we discussed DAMPs and NETs in sepsis, with a focus on their interaction and therapeutic strategies for amelioration of sepsis-associated morbidity and mortality. Future studies on the interaction between the two entities would add value to the study of innate immunology and could be expanded to other inflammatory conditions in addition to sepsis. Moreover, future emphasize should also be focused on pinpointing the relationship between PAMPs and NETs and developing new therapeutic tools to target their interplay. DAMPs are released by several cell types, while NETs are specific to neutrophils. Recently, extracellular traps (ETosis) has been described in macrophages ("
+  }
+ ]
+}

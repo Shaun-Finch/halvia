@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7188990",
+ "pmid": "32345639",
+ "doi": "10.1128/mbio.00218-20",
+ "topic": "urinary tract infection",
+ "title": "Advances in Understanding the Human Urinary Microbiome and Its Potential Role in Urinary Tract Infection.",
+ "authors": "Neugent ML, Hulyalkar NV, Nguyen VH, Zimmern PE, De Nisco NJ.",
+ "affiliation": "Department of Biological Sciences, University of Texas at Dallas, Richardson, Texas, USA.",
+ "journal": "mBio",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 211,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Recent advances in the analysis of microbial communities colonizing the human body have identified a resident microbial community in the human urinary tract (UT). Compared to many other microbial niches, the human UT harbors a relatively low biomass. Studies have identified many genera and species that may constitute a core urinary microbiome. However, the contribution of the UT microbiome to urinary tract infection (UTI) and recurrent UTI (rUTI) pathobiology is not yet clearly understood. Evidence suggests that commensal species within the UT and urogenital tract (UGT) microbiomes, such as  Lactobacillus crispatus , may act to protect against colonization with uropathogens. However, the mechanisms and fundamental biology of the urinary microbiome-host relationship are not understood. The ability to measure and characterize the urinary microbiome has been enabled through the development of next-generation sequencing and bioinformatic platforms that allow for the unbiased detection of resident microbial DNA. Translating technological advances into clinical insight will require further study of the microbial and genomic ecology of the urinary microbiome in both health and disease. Future diagnostic, prognostic, and therapeutic options for the management of UTI may soon incorporate efforts to measure, restore, and/or preserve the native, healthy ecology of the urinary microbiomes.",
+ "sections": [
+  {
+   "h": "A microbiome-aware future for management and prevention of UTI and rUTI.",
+   "text": "With growing knowledge of the role that the urinary microbiota plays in urogenital health, it is becoming clear that UTI and rUTI treatment paradigms may need to consider the state of the urinary microbiome. The traditional goal of achieving UT sterility in the management of UTI and rUTI may destroy beneficial, protective microbial populations as well as pathogens. Without the beneficial microbiota, the UT may be thrown into a dysbiotic, sensitized state at risk for colonization by uropathogens. Probiotics are therefore a logical route for the development of novel therapies. However, a mechanistic understanding of how the urinary microbiota directly influences host health (and vice versa) must be gained before optimal probiotic microbial consortiums may be formulated. Recently, Lev-Sagie et al. reported that vaginal microbiome transplantation from healthy donors may be a viable therapeutic alternative for women with intractable bacterial vaginosis ("
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC11502568",
+ "pmid": "39110332",
+ "doi": "10.1007/s12519-024-00819-w",
+ "topic": "syncope",
+ "title": "Guidelines for the diagnosis and treatment of neurally mediated syncope in children and adolescents (revised 2024).",
+ "authors": "Wang C, Liao Y, Wang S, Tian H, Huang M, Dong XY, Shi L, Li YQ, Sun JH, Du JB, Jin HF, Chinese Pediatric Cardiology Society, Chinese Pediatric Society, Chinese Medical Association; Committee of Pediatric Syncope, College of Pediatricians, Chinese Medical Doctor Association; Pediatric Cardiology Society, Beijing Pediatric Society, Beijing Medical Association; Committee of Pediatric Cardiology, College of Cardiovascular Physicians, Chinese Medical Doctor Association.",
+ "affiliation": "Department of Pediatric Cardiovasoloy, Children's Medical Center, The Second Xiangya Hospital, Central South University, Changsha, 410011, China.",
+ "journal": "World journal of pediatrics : WJP",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 24,
+ "pubtypes": [
+  "Practice Guideline",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Significant progress has been made in the diagnosis and treatment of pediatric syncope since the publication of the \"2018 Chinese Pediatric Cardiology Society (CPCS) guideline for diagnosis and treatment of syncope in children and adolescents\" (\"2018 Edition Guidelines\"). Therefore, we have revised and updated it to assist pediatricians in effectively managing children with syncope. Data sources According to the \"2018 Edition Guidelines\", the expert groups collected clinical evidence, evaluated preliminary recommendations, and then organized open-ended discussions to form the recommendations. This guideline was developed by reviewing the literature and studies in databases including PubMed, Cochrane, EMBASE, China Biomedical Database, and Chinese Journal Full-text Database up to April 2024. Search terms included \"syncope\", \"children\", \"adolescents\", \"diagnosis\", and \"treatment.\" Results The guidelines were based on the latest global research progress and were evidence-based. The classification of syncope etiology, diagnostic procedures, postural tests, such as the active standing test, head-up tilt test, and active sitting test, clinical diagnosis, and individualized treatment for neurally mediated syncope in pediatric population were included. Conclusions The guidelines were updated based on the latest literature. The concepts of sitting tachycardia syndrome and sitting hypertension were introduced and the comorbidities of neurally mediated syncope were emphasized. Some biomarkers used for individualized treatment were underlined. Specific suggestions were put forward for non-pharmacological therapies as well as the follow-up process. The new guidelines will provide comprehensive guidance and reference for the diagnosis and treatment of neurally mediated syncope in children and adolescents.",
+ "sections": [
+  {
+   "h": "Unexplained diagnosis",
+   "text": "In step 3, for patients whose diagnosis cannot be confirmed or indicated by detailed medical history, physical examination, supine BP, and ECG measurements [\n\nIf a definite diagnosis cannot be achieved even after the above steps are taken, a re-evaluation is needed. This includes history-retaking, physical re-examination, and further laboratory examinations. Moreover, assessment by associated specialists such as neurologists or psychiatrists should be considered when necessary."
+  },
+  {
+   "h": "Conclusions",
+   "text": "In summary, based on the latest global research reports, the guidelines were updated. In terms of the diagnosis of NMS as well as its related disorders in children, the concepts of STS and SHT were introduced; and the comorbidities of NMS were emphasized. Regarding the management, the detailed rules and recommendations for some non-pharmacological therapies were refined and the management of comorbidities was highlighted. Specially, the newly discovered biomarkers that can be used to guide individualized treatment in recent years were summarized and recommended. Furthermore, specific suggestions were put forward for the follow-up process and efficacy evaluation. The new guidelines will provide comprehensive guidance and reference for the diagnosis and treatment of NMS in children and adolescents. It is expected that the guidelines will be further improved and perfected in the future clinical practice and related studies."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC8300734",
+ "pmid": "34202655",
+ "doi": "10.3390/antiox10071013",
+ "topic": "pressure ulcers",
+ "title": "Reactive Oxygen Species and Pressure Ulcer Formation after Traumatic Injury to Spinal Cord and Brain.",
+ "authors": "Kumar S, Theis T, Tschang M, Nagaraj V, Berthiaume F.",
+ "affiliation": "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.",
+ "journal": "Antioxidants (Basel, Switzerland)",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 31,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Traumatic injuries to the nervous system, including the brain and spinal cord, lead to neurological dysfunction depending upon the severity of the injury. Due to the loss of motor (immobility) and sensory function (lack of sensation), spinal cord injury (SCI) and brain injury (TBI) patients may be bed-ridden and immobile for a very long-time. These conditions lead to secondary complications such as bladder/bowel dysfunction, the formation of pressure ulcers (PUs), bacterial infections, etc. PUs are chronic wounds that fail to heal or heal very slowly, may require multiple treatment modalities, and pose a risk to develop further complications, such as sepsis and amputation. This review discusses the role of oxidative stress and reactive oxygen species (ROS) in the formation of PUs in patients with TBI and SCI. Decades of research suggest that ROS may be key players in mediating the formation of PUs. ROS levels are increased due to the accumulation of activated macrophages and neutrophils. Excessive ROS production from these cells overwhelms intrinsic antioxidant mechanisms. While short-term and moderate increases in ROS regulate signal transduction of various bioactive molecules; long-term and excessively elevated ROS can cause secondary tissue damage and further debilitating complications. This review discusses the role of ROS in PU development after SCI and TBI. We also review the completed and ongoing clinical trials in the management of PUs after SCI and TBI using different technologies and treatments, including antioxidants.",
+ "sections": [
+  {
+   "h": "5. Conclusions",
+   "text": "In conclusion, the accumulation of ROS in the skin tissue and the resulting oxidative stress is a key mechanism in the formation and impaired healing of PUs. While oxidation seems to have a beneficial effect in the early phase of wound healing, in later phases persistent oxidation causes additional damage to the skin tissue and increases the risk that patients develop a chronic PU. The majority of clinical trials are focusing on the education of the patients, family members, and health care workers to improve the daily care of the skin of SCI and brain injury patients. However, we believe that it is of similar importance to study the effect of antioxidants on PUs in different phases of wound healing in these patients. The use of antioxidants may be incorporated into the daily care of SCI and brain injury patients."
+  }
+ ]
+}

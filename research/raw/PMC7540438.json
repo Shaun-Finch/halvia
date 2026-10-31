@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC7540438",
+ "pmid": "33028215",
+ "doi": "10.1186/s12877-020-01801-7",
+ "topic": "frailty",
+ "title": "A scoping review of the Clinical Frailty Scale.",
+ "authors": "Church S, Rogers E, Rockwood K, Theou O.",
+ "affiliation": "Department of Medicine, Dalhousie University, Halifax, Nova Scotia, Canada.",
+ "journal": "BMC geriatrics",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 608,
+ "pubtypes": [
+  "Scoping Review",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Frailty is increasingly recognized as an important construct which has health implications for older adults. The Clinical Frailty Scale (CFS) is a judgement-based frailty tool that evaluates specific domains including comorbidity, function, and cognition to generate a frailty score ranging from 1 (very fit) to 9 (terminally ill). The aim of this scoping review is to identify and document the nature and extent of research evidence related to the CFS. Methods We performed a comprehensive literature search to identify original studies that used the Clinical Frailty Scale. Medline OVID, Scopus, Web of Science, CINAHL, PsycINFO, Cochrane Library and Embase were searched from January 2005 to March 2017. Articles were screened by two independent reviewers. Data extracted included publication date, setting, demographics, purpose of CFS assessment, and outcomes associated with CFS score. Results Our search yielded 1688 articles of which 183 studies were included. Overall, 62% of studies were conducted after 2015 and 63% of the studies measured the CFS in hospitalized patients. The association of the CFS with an outcome was examined 526 times; CFS was predictive in 74% of the cases. Mortality was the most common outcome examined with CFS being predictive 87% of the time. CFS was associated with comorbidity 73% of the time, complications 100%, length of stay 75%, falls 71%, cognition 94%, and function 91%. The CFS was associated with other frailty scores 94% of the time. Conclusions This scoping review revealed that the CFS has been widely used in multiple settings. The association of CFS score with clinical outcomes highlights its utility in the care of the aging population.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "This scoping review revealed that the CFS has been widely used in multiple settings. Most of the included studies were conducted in hospital settings and most articles that examined the association of the CFS with adverse health outcomes showed that it has good predictive ability. The association of CFS score with clinical outcomes highlights its utility in the care of the aging population."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5409572",
+ "pmid": "28368323",
+ "doi": "10.3390/ijerph14040371",
+ "topic": "infection prevention",
+ "title": "Hand Hygiene Intervention Strategies to Reduce Diarrhoea and Respiratory Infections among Schoolchildren in Developing Countries: A Systematic Review.",
+ "authors": "Mbakaya BC, Lee PH, Lee RL.",
+ "affiliation": "School of Nursing, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, SAR, China. balwani-mbakaya.chingatichifwe@connect.polyu.hk.",
+ "journal": "International journal of environmental research and public health",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 72,
+ "pubtypes": [
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Effective and appropriate hand-washing practice for schoolchildren is important in preventing infectious diseases such as diarrhoea, which is the second most common cause of death among school-age children in sub-Saharan Africa. The objective of the review was to identify hand hygiene intervention strategies to reduce infectious diseases such as diarrhoea and respiratory tract infections among schoolchildren aged 6-12 years in developing countries. Published research articles were searched from databases covering a period from as far back as the creation of the databases to November 2015. Eight randomized controlled trials (RCT/CRCT) from developing countries met the inclusion criteria. The Jadad Scale for appraising RCT/CRCT studies revealed methodological challenges in most studies, such that 75% (6/8) were rated as low-quality articles. The review found that hand hygiene can reduce the incidence of diarrhoea and respiratory conditions. Three hand hygiene intervention strategies utilized were training, funding and policy, with training and funding implemented more commonly than policy. These strategies were not only used in isolation but also in combination, and they qualified as multi-level interventions. Factors that influenced hand washing were contextual, psychosocial and technological. Findings can inform school health workers in categorizing and prioritizing activities into viable strategies when implementing multi-level hand-washing interventions. This review also adds to the existing evidence that multi-level hand-washing interventions can reduce the incidence of diarrhoea, respiratory infections, and school absenteeism. Further evidence-based studies are needed with improved methodological rigour in developing countries, to inform policy in this area.",
+ "sections": [
+  {
+   "h": "3.6. Study Key Findings",
+   "text": "The longest period of follow-up of participants in the reviewed studies was 2 years [p-values and confidence intervals in other situations.\n\nIn general, it was found that hand-washing interventions had resulted in a reduction in respiratory conditions, gastro-intestinal problems and school absenteeism in the intervention groups compared to the control groups. One of the studies [p = 0.02). By contrast, in another study [E. coli presence on the hands of children among intervention school pupils (soap for hand washing) compared with controls. Similarly, findings in yet another study revealed that a hygiene promotion and water treatment intervention did not reduce E. coli presence on the hands of children (RR (risk ratio) = 0.92, CI = 0.5–1.56) [\n\nSeven studies found that hand washing had decreased the incidence of diarrhoea (53%–73%). Three studies found a decrease in acute respiratory infection (RR = 0.77; CI = 0.62–0.95; EDM (Exploratory Data Mining) −2%; 90% CI = −3% to −1%) but no significant decrease in the incidence of diarrhoea. A study by Pickering [p-value = 0.01)."
+  },
+  {
+   "h": "5. Conclusions",
+   "text": "Apart from the identified strategies, the multi-level approach and factors that influence hand washing, this review adds to the bulk of existing evidence that hand-washing interventions can reduce the incidence of gastro-intestinal and respiratory conditions, as well as school absenteeism. However, more scientifically sound, evidence-based studies need to be carried out in developing countries; since few studies have been performed, it is difficult to generalize the findings. In addition, a simplified hand-washing technique, which has been shown to be effective in reducing school absenteeism in Hong Kong ["
+  }
+ ]
+}

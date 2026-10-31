@@ -1,0 +1,35 @@
+{
+ "pmcid": "PMC9856673",
+ "pmid": "36607634",
+ "doi": "10.1001/jamanetworkopen.2022.49950",
+ "topic": "delirium",
+ "title": "Predisposing and Precipitating Factors Associated With Delirium: A Systematic Review.",
+ "authors": "Ormseth CH, LaHue SC, Oldham MA, Josephson SA, Whitaker E, Douglas VC.",
+ "affiliation": "Department of Emergency Medicine, University of California, San Francisco.",
+ "journal": "JAMA network open",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 248,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Importance Despite discrete etiologies leading to delirium, it is treated as a common end point in hospital and in clinical trials, and delirium research may be hampered by the attempt to treat all instances of delirium similarly, leaving delirium management as an unmet need. An individualized approach based on unique patterns of delirium pathophysiology, as reflected in predisposing factors and precipitants, may be necessary, but there exists no accepted method of grouping delirium into distinct etiologic subgroups. Objective To conduct a systematic review to identify potential predisposing and precipitating factors associated with delirium in adult patients agnostic to setting. Evidence review A literature search was performed of PubMed, Embase, Web of Science, and PsycINFO from database inception to December 2021 using search Medical Subject Headings (MeSH) terms consciousness disorders, confusion, causality, and disease susceptibility, with constraints of cohort or case-control studies. Two reviewers selected studies that met the following criteria for inclusion: published in English, prospective cohort or case-control study, at least 50 participants, delirium assessment in person by a physician or trained research personnel using a reference standard, and results including a multivariable model to identify independent factors associated with delirium. Findings A total of 315 studies were included with a mean (SD) Newcastle-Ottawa Scale score of 8.3 (0.8) out of 9. Across 101 144 patients (50 006 [50.0%] male and 49 766 [49.1%] female patients) represented (24 015 with delirium), studies reported 33 predisposing and 112 precipitating factors associated with delirium. There was a diversity of factors associated with delirium, with substantial physiological heterogeneity. Conclusions and relevance In this systematic review, a comprehensive list of potential predisposing and precipitating factors associated with delirium was found across all clinical settings. These findings may be used to inform more precise study of delirium's heterogeneous pathophysiology and treatment.",
+ "sections": [
+  {
+   "h": "Quality Assessment",
+   "text": "Risk of bias was assessed by 2 reviewers (C.H.O. and S.C.L.) using the Newcastle-Ottawa Scale (NOS). The NOS is a validated tool for quality assessment that contains 8 items categorized into 3 domains (selection, comparability, and outcome or exposure). Each favorable attribute earns 1 to 2 points, for a minimum of 0 points and a maximum of 9 points. Owing to stringent inclusion and exclusion criteria, all studies in this review scored between 7 and 9, representing a low risk of bias."
+  },
+  {
+   "h": "Delirium Assessment",
+   "text": "Delirium was measured by research personnel in 171 studies (54.3%), a combination of research personnel and physicians in 5 studies (1.6%), and a physician in 139 studies. The most frequently used assessment tool was the CAM, which was used in 174 studies (55.2%). Delirium was assessed daily or more frequently in 222 studies (60.5%). Delirium incidence ranged from 42 of 1367 patients (3.1%) to 47 of 53 patients (88.7%), and prevalence ranged from 19 of 560 patients (3.4%) to 83 of 118 patients (70.3%)."
+  },
+  {
+   "h": "Conclusions",
+   "text": "This systematic review found a tremendous range of predisposing and precipitating factors associated with delirium. The best explanation for the physiological heterogeneity represented across studies may be that delirium cannot be restricted to a singular physiological event or sequence of events. Delirium is a convergent clinical syndrome, and discrete yet often interacting pathophysiological processes are associated with this syndrome, each of which warrants targeted interventions. These findings argue against a one-size-fits-all approach to understanding, identifying, and treating delirium; they encourage a reappraisal of delirium from the perspective of its multiple physiological pathways. Current management includes treating the underlying cause, managing psychiatric symptoms, and promoting procognitive factors. Multicomponent, nonpharmacological approaches are associated with decreased delirium incidence but with prevention of a minority of incidences and have not been shown to be associated with a reverse in delirium once it has developed. Whereas we advocate for multicomponent approaches to delirium, we would go a step further and advocate for a reconceptualization of delirium in terms of putative endotypes. That is, we emphasize the need to target individual, specific physiological pathways. Predisposing and precipitating factors identified here implicate a range of pathophysiological types and strongly imply that delirium research and clinical management should not only specify factors associated with delirium, but also consider underlying pathophysiology. This systematic review provides a comprehensive library of predisposing and precipitating factors associated with delirium, which may be used to inform the study of delirium pathophysiology and its treatment."
+  }
+ ]
+}

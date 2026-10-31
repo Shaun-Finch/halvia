@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC9225466",
+ "pmid": "35743436",
+ "doi": "10.3390/jcm11123365",
+ "topic": "COPD exacerbation",
+ "title": "A Comprehensive Systematic Review and Meta-Analysis of the Association between the Neutrophil-to-Lymphocyte Ratio and Adverse Outcomes in Patients with Acute Exacerbation of Chronic Obstructive Pulmonary Disease.",
+ "authors": "Zinellu A, Zinellu E, Pau MC, Carru C, Pirina P, Fois AG, Mangoni AA.",
+ "affiliation": "Department of Biomedical Sciences, University of Sassari, 07100 Sassari, Italy.",
+ "journal": "Journal of clinical medicine",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 24,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The neutrophil-to-lymphocyte ratio (NLR) predicts adverse outcomes in stable chronic obstructive pulmonary disease (COPD); however, its prognostic role in acute exacerbations (AECOPD) is less clear. We conducted a systematic review and meta-analysis of the association between the NLR on admission and adverse outcomes (mortality, need for mechanical ventilation, transfer to the intensive care unit, length of stay, pulmonary hypertension, or their combination) in AECOPD by searching PubMed, Web of Science, and Scopus from inception to April 2022. Risk of bias and certainty of evidence were assessed using the Joanna Briggs Institute Critical Appraisal Checklist and the Grades of Recommendation, Assessment, Development, and Evaluation, respectively. In 15 studies (n = 10,038 patients), the NLR was significantly associated with the risk of adverse outcomes (odds ratio = 1.054, 95% CI 1.016 to 1.093, p = 0.005; low certainty of evidence; standard mean difference = 0.82, 95% CI 0.57 to 1.06, p < 0.001; high certainty of evidence). Pooled sensitivity, specificity, and area under the curve were 0.71 (95% CI 0.64 to 0.77), 0.73 (95% CI 0.65 to 0.80), and 0.78 (95% CI 0.74 to 0.81), respectively. In our study, the NLR on admission was significantly associated with adverse outcomes in AECOPD patients, suggesting the potential utility of this biomarker for early risk stratification and management in this group.",
+ "sections": [
+  {
+   "h": "5. Conclusions",
+   "text": "Our systematic review and meta-analysis have shown that the NLR on admission is significantly associated, both in terms of ORs and as SMDs, with the risk of several adverse events during hospitalization, particularly short-term mortality up to 90 days, in AECOPD. Further prospective studies investigating other biomarkers over longer follow-up periods are warranted to establish the potential clinical use of the NLR, singly or as part of a combined predictive model, in early risk stratification and therapeutic decisions in patients with AECOPD."
+  }
+ ]
+}

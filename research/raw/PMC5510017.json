@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5510017",
+ "pmid": "28751974",
+ "doi": "10.12688/f1000research.11250.1",
+ "topic": "chest pain",
+ "title": "Coronary CT angiography in acute chest pain.",
+ "authors": "Goyal N, Stillman A.",
+ "affiliation": "Department of Radiology and Imaging Sciences, Emory University, Atlanta, GA, USA.",
+ "journal": "F1000Research",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 3,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Coronary computed tomographic angiography has become a reliable diagnostic tool in the evaluation of patients with chest pain. Studies have shown this modality to be accurate and safe when compared with conventional methods of assessing patients with chest pain. We review the recent developments with coronary computed tomographic angiography and devote particular attention toward its application to triage patients in the emergency department.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "CCTA is emerging as a complementary modality in the workup of patients with chest pain. Advances in CT hardware along with software have led to our understanding beyond just anatomical evaluation of stenosis. The ultimate goal of both anatomic and hemodynamic assessment of the coronaries by CT may be widely realized in the not-so-distant future. This will be particularly important in the setting of evaluating patients presenting with acute chest pain in the ED."
+  }
+ ]
+}

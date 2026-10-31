@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC13549594",
+ "pmid": "42700009",
+ "doi": "10.1097/md.0000000000050070",
+ "topic": "hypertension emergency",
+ "title": "Clinical challenges and individualized management of hypertensive emergency complicated by acute ischemic stroke: A case report and literature review.",
+ "authors": "Wang W, Zhu D, Liu X, Zhao K, Zhang X, Gu Z.",
+ "affiliation": "Department of Emergency Medicine, Shaoxing Central Hospital, Shaoxing, Zhejiang, China.",
+ "journal": "Medicine",
+ "year": "2026",
+ "license": "cc by",
+ "cited": 0,
+ "pubtypes": [
+  "research-article",
+  "Review",
+  "Journal Article",
+  "Case Reports"
+ ],
+ "abstract": "Rationale Hypertensive emergency complicated by acute ischemic stroke (AIS) represents a life-threatening clinical condition. Abrupt elevations in blood pressure not only increase the risk of stroke-related complications but also predispose patients to cerebral perfusion imbalance and target-organ injury. However, there is no consensus regarding the optimal antihypertensive strategy or individualized management protocol in this setting. Patient concerns Three individuals with preexisting chronic hypertension developed acute ischemic stroke in the context of a hypertensive emergency, posing challenges in evaluating disease evolution, optimizing individualized treatment strategies, and assessing long-term prognosis. Diagnoses Based on clinical manifestations and imaging examinations, all 3 cases were diagnosed as hypertensive emergencies with concomitant AIS. Interventions In the emergency department, all patients were managed with urapidil administered through a continuous microinfusion pump to achieve blood pressure control. Following stabilization, intravenous thrombolysis was performed in case 1, whereas mechanical thrombectomy was undertaken in cases 2 and 3. Outcomes After therapeutic intervention, all patients achieved blood pressure stabilization within the target range and demonstrated significant neurological recovery in the acute phase. Cases 1 and 2 demonstrated favorable clinical recovery without major complications during follow-up. Case 3 underwent successful emergency thrombectomy but was transferred to another institution shortly thereafter and was subsequently lost to follow-up. Lessons Treating hypertensive emergency in the setting of AIS demands careful appraisal of the patient's condition, hemodynamic profile, and cerebral perfusion needs to guide individualized therapy. Effective yet safe blood pressure reduction is critical to avoid cerebral hypoperfusion. Long-term prognosis can be further optimized through a multidisciplinary team (MDT), close follow-up, strict medication compliance, and targeted lifestyle interventions.",
+ "sections": [
+  {
+   "h": "4. Conclusion",
+   "text": "Hypertensive emergency complicated by acute ischemic stroke (AIS) poses a frequent yet complex clinical challenge. Effective management requires balancing blood pressure control with the preservation of adequate cerebral perfusion. Individualized therapeutic plans should account for the patient’s hemodynamic status, disease severity, and cerebral perfusion needs, with careful monitoring serving as the cornerstone for safe blood pressure reduction. While precise management helps minimize stroke-related complications, overly rapid lowering may be harmful. MDT involvement is essential for optimizing treatment outcomes and enhancing long-term quality of life."
+  }
+ ]
+}

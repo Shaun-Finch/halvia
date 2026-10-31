@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC5446992",
+ "pmid": "28611774",
+ "doi": "10.3389/fimmu.2017.00614",
+ "topic": "anaphylaxis",
+ "title": "Epidemiology, Mechanisms, and Diagnosis of Drug-Induced Anaphylaxis.",
+ "authors": "Montañez MI, Mayorga C, Bogas G, Barrionuevo E, Fernandez-Santamaria R, Martin-Serrano A, Laguna JJ, Torres MJ, Fernandez TD, Doña I.",
+ "affiliation": "Research Laboratory, IBIMA-Regional University Hospital of Malaga-UMA, Málaga, Spain.",
+ "journal": "Frontiers in immunology",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 90,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Anaphylaxis is an acute, life-threatening, multisystem syndrome resulting from the sudden release of mediators by mast cells and basophils. Although anaphylaxis is often under-communicated and thus underestimated, its incidence appears to have risen over recent decades. Drugs are among the most common triggers in adults, being analgesics and antibiotics the most common causal agents. Anaphylaxis can be caused by immunologic or non-immunologic mechanisms. Immunologic anaphylaxis can be mediated by IgE-dependent or -independent pathways. The former involves activation of Th2 cells and the cross-linking of two or more specific IgE (sIgE) antibodies on the surface of mast cells or basophils. The IgE-independent mechanism can be mediated by IgG, involving the release of platelet-activating factor, and/or complement activation. Non-immunological anaphylaxis can occur through the direct stimulation of mast cell degranulation by some drugs, inducing histamine release and leading to anaphylactic symptoms. Work-up of a suspected drug-induced anaphylaxis should include clinical history; however, this can be unreliable, and skin tests should also be used if available and validated. Drug provocation testing is not recommended due to the risk of inducing a harmful reaction.  In vitro  testing can help to confirm anaphylaxis by analyzing the release of mediators such as tryptase or histamine by mast cells. When immunologic mechanisms are suspected, serum-sIgE quantification or the use of the basophil activation test can help confirm the culprit drug. In this review, we will discuss multiple aspects of drug-induced anaphylaxis, including epidemiology, mechanisms, and diagnosis.",
+ "sections": [
+  {
+   "h": "Diagnosis of Anaphylaxis and Identification of the Culprit Drug",
+   "text": "The diagnosis of anaphylaxis is based on a thorough examination of patient history and physical evaluation (In vitro tests can complement the diagnosis confirming clinical suspicions of a severe systemic reaction and avoiding the need to conduct DPTs, potentially saving the patient from suffering another reaction. Moreover, they may help to identify the culprit drug and the underlying mechanism ("
+  },
+  {
+   "h": "In Vivo Diagnosis",
+   "text": "To assess IgE-mediated anaphylaxis, skin testing including skin prick tests (SPT) and intradermal testing (IDT) should be performed. For drug-induced anaphylaxis, SPT are typically performed with the undiluted drug. If negative, IDT is performed sequentially with increasing concentrations of the drug, due to the potential risk of inducing systemic symptoms (\n\nFor most drugs, a negative skin test does not rule out allergy. Therefore, DPT is generally accepted as the gold standard; however, it is not recommended in anaphylaxis due to the high risk of inducing another reaction. It is primarily indicated for patients where clinical suspicion is low, and for patients where it is essential that alternatives to an implicated drug are found ("
+  },
+  {
+   "h": "In Vitro Diagnosis",
+   "text": "Mast cell mediator release can be analyzed immediately after symptom onset and can be considered useful for diagnosis. Tryptase is among the early mediators released by mast cells during an acute allergic reaction, often showing elevated serum levels (>11.5 ng/mL) in anaphylaxis. The measure of total serum tryptase is the most widely used laboratory test to confirm anaphylaxis. As its levels peak 1–2 h after symptom onset and normalize after 5–6 h (\n\nHistamine is the first mediator released by mast cells; any elevation in plasma or urine is consistent with anaphylaxis. However, normal levels do not exclude diagnosis and, like tryptase, the acute level must be compared with baseline (N-methylhistamine or N-methylimidazoleacetic acid, in urine. These appear within 30–60 min of the event and stay detectable for a 24-h period (\n\nIn addition, levels of chymase, mast cell carboxypeptidase A3, PFA, and other mast cell products may prove to be useful as biomarkers for anaphylaxis (\n\nWhen immunologic mechanisms are involved in the reaction, additional laboratory assays, such as serum-sIgE quantification or the basophil activation test, can be useful to confirm the culprit drug. Immunoassays for drug-sIgE determination using ImmunoCAP are available for a handful of drugs, including five beta-lactams, NMBAs, chlorhexidine, and a few other biological agents ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "Drug-induced anaphylaxis is a potentially life-threatening reaction that appears to be increasing in both prevalence and incidence, likely due in part to the introduction of new medications. An accurate and prompt diagnosis is necessary to a correct management of this acute reaction, and the identification of the culprit drug is crucial to avoid new future reactions. Further research about mechanisms and risk factors is needed to try to prevent the development of this reaction and to orient therapeutic approaches to patient, based on the culprit drug and the clinical reactions, which should target the underlying specific mechanisms."
+  }
+ ]
+}

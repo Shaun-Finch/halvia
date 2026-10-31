@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC6373132",
+ "pmid": "30805182",
+ "doi": "10.1186/s13756-019-0471-0",
+ "topic": "antimicrobial stewardship",
+ "title": "Value of hospital antimicrobial stewardship programs [ASPs]: a systematic review.",
+ "authors": "Nathwani D, Varghese D, Stephens J, Ansari W, Martin S, Charbonneau C.",
+ "affiliation": "1Ninewells Hospital and Medical School, Dundee, DD19SY UK.",
+ "journal": "Antimicrobial resistance and infection control",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 306,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Hospital antimicrobial stewardship programs (ASPs) aim to promote judicious use of antimicrobials to combat antimicrobial resistance. For ASPs to be developed, adopted, and implemented, an economic value assessment is essential. Few studies demonstrate the cost-effectiveness of ASPs. This systematic review aimed to evaluate the economic and clinical impact of ASPs. Methods An update to the Dik et al. systematic review (2000-2014) was conducted on EMBASE and Medline using PRISMA guidelines. The updated search was limited to primary research studies in English (30 September 2014-31 December 2017) that evaluated patient and/or economic outcomes after implementation of hospital ASPs including length of stay (LOS), antimicrobial use, and total (including operational and implementation) costs. Results One hundred forty-six studies meeting inclusion criteria were included. The majority of these studies were conducted within the last 5 years in North America (49%), Europe (25%), and Asia (14%), with few studies conducted in Africa (3%), South America (3%), and Australia (3%). Most studies were conducted in hospitals with 500-1000 beds and evaluated LOS and change in antibiotic expenditure, the majority of which showed a decrease in LOS (85%) and antibiotic expenditure (92%). The mean cost-savings varied by hospital size and region after implementation of ASPs. Average cost savings in US studies were $732 per patient (range: $2.50 to $2640), with similar trends exhibited in European studies. The key driver of cost savings was from reduction in LOS. Savings were higher among hospitals with comprehensive ASPs which included therapy review and antibiotic restrictions. Conclusions Our data indicates that hospital ASPs have significant value with beneficial clinical and economic impacts. More robust published data is required in terms of implementation, LOS, and overall costs so that decision-makers can make a stronger case for investing in ASPs, considering competing priorities. Such data on ASPs in lower- and middle-income countries is limited and requires urgent attention.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "Overall this systematic review demonstrates that ASPs can offset or reduce costs while improving some patient outcomes, thereby suggesting high value for certain healthcare systems. The findings also suggest that costs associated with start-up and implementation of ASPs are potentially offset by subsequent cost-savings. Additionally, numerous systematic reviews and meta-analyses have demonstrated that such programs have beneficial effects on hospital LOS ["
+  }
+ ]
+}

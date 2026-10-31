@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC8221459",
+ "pmid": "34161388",
+ "doi": "10.1371/journal.pone.0253588",
+ "topic": "medication safety",
+ "title": "Pharmacist-led educational interventions provided to healthcare providers to reduce medication errors: A systematic review and meta-analysis.",
+ "authors": "Jaam M, Naseralallah LM, Hussain TA, Pawluk SA.",
+ "affiliation": "Clinical Pharmacy and Practice Department, College of Pharmacy, QU Health, Qatar University, Doha, Qatar.",
+ "journal": "PloS one",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 64,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Introduction Medication errors are avoidable events that can occur at any stage of the medication use process. They are widespread in healthcare systems and are linked to an increased risk of morbidity and mortality. Several strategies have been studied to reduce their occurrence including different types of pharmacy-based interventions. One of the main pharmacist-led interventions is educational programs, which seem to have promising benefits. Objective To describe and compare various pharmacist-led educational interventions delivered to healthcare providers and to evaluate their impact qualitatively and quantitatively on medication error rates. Methods A systematic review and meta-analysis was conducted through searching Cochrane Library, EBSCO, EMBASE, Medline and Google Scholar from inception to June 2020. Only interventional studies that reported medication error rate change after the intervention were included. Two independent authors worked through the data extraction and quality assessment using Crowe Critical Appraisal Tool (CCAT). Summary odds ratios (ORs) with 95% confidence intervals (CIs) were calculated using a random-effects model for rates of medication errors. Research protocol is available in The International Prospective Register of Systematic Reviews (PROSPERO) under the registration number CRD42019116465. Results Twelve studies involving 115058 participants were included. The two main recipients of the educational interventions were nurses and resident physicians. Educational programs involved lectures, posters, practical teaching sessions, audit and feedback method and flash cards of high-risk abbreviations. All studies included educational sessions as part of their program, either alone or in combination with other approaches, and most studies used errors encountered before implementing the intervention to inform the content of these sessions. Educational programs led by a pharmacist were associated with significant reductions in the overall rate of medication errors occurrence (OR, 0.38; 95% CI, 0.22 to 0.65). Conclusion Pharmacist-led educational interventions directed to healthcare providers are effective at reducing medication error rates. This review supports the implementation of pharmacist-led educational intervention aimed at reducing medication errors.",
+ "sections": [
+  {
+   "h": "Data extraction and quality assessment",
+   "text": "A data extraction sheet was created and piloted on two randomly chosen included articles. The final data extraction form included: title, authors, year of publication, country, setting, objective, study type, medication error definition, outcome measure, the intervention provided, description of education provided, time frame, error rate -before and after-, conclusion, limitations and quality score. Whenever a study included multiple interventions, results of the pharmacist-led educational intervention alone were pooled out separately. The process was conducted by two independent researchers and consensus was sought through discussion.\n\nThe Crowe Critical Appraisal Tool (CCAT) was used for the quality assessment of included articles ["
+  },
+  {
+   "h": "Conclusion",
+   "text": "This systematic review and meta-analysis demonstrated that pharmacist-led educational interventions to healthcare providers are effective in reducing medication errors. The educational intervention was observed to be most effective when supplemented with printed handouts that summarize the session content, providing posters or pocket-sized flashcards to prescribers, and when healthcare providers receive an individualized written or electronic report about their medication errors. Additionally, frequent educational sessions were observed to be more effective than one-time sessions. These combined approaches serve as constant reminders to the healthcare practitioners to minimize medication errors at different stages of the medication-use process. Further research should consider the effect on morbidity, mortality related to medication errors and the economic impact of pharmacist-led education provided to healthcare providers."
+  }
+ ]
+}

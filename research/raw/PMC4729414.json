@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC4729414",
+ "pmid": "26823926",
+ "doi": "10.5811/westjem.2015.11.28715",
+ "topic": "asthma exacerbation",
+ "title": "Association of Insurance Status with Severity and Management in ED Patients with Asthma Exacerbation.",
+ "authors": "Hasegawa K, Stoll SJ, Ahn J, Kysia RF, Sullivan AF, Camargo CA.",
+ "affiliation": "Massachusetts General Hospital, Harvard Medical School, Department of Emergency Medicine, Boston, Massachusetts.",
+ "journal": "The western journal of emergency medicine",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 26,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Multicenter Study",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Introduction Previous studies have demonstrated an association of low socioeconomic status with frequent asthma exacerbations. However, there have been no recent multicenter efforts to examine the relationship of insurance status - a proxy for socioeconomic status - with asthma severity and management in adults. The objective is to investigate chronic and acute asthma management disparities by insurance status among adults requiring emergency department (ED) treatment in the United States. Methods We conducted a multicenter chart review study (48 EDs in 23 U.S. states) on ED patients, aged 18-54 years, with acute asthma between 2011 and 2012. Each site underwent training (lecture, practice charts, certification) before reviewing randomly selected charts. We categorized patients into three groups based on their primary health insurance: private, public, and no insurance. Outcome measures were chronic asthma severity (as measured by ≥2 ED visits in one-year period) and management prior to the index ED visit, acute asthma management in the ED, and prescription at ED discharge. Results The analytic cohort comprised 1,928 ED patients with acute asthma. Among these, 33% had private insurance, 40% had public insurance, and 27% had no insurance. Compared to patients with private insurance, those with public insurance or no insurance were more likely to have ≥2 ED visits during the preceding year (35%, 49%, and 45%, respectively; p Conclusion In this multicenter observational study of ED patients with acute asthma, we found significant discrepancies in chronic asthma severity and management by insurance status. By contrast, there were no differences in acute asthma management among the insurance groups.",
+ "sections": [
+  {
+   "h": "CONCLUSION",
+   "text": "In this large multicenter study of 1,928 ED patients with asthma exacerbation, we found an ongoing disparity in disease burden and management by insurance status. Compared to patients with private insurance, those with public insurance or no insurance had a greater risk of frequent ED visits. However, those with no insurance had less utilization of asthma controller medications and asthma specialist care. Although acute asthma treatment in the ED did not differ by insurance, patients with public insurance or no insurance were no more likely to be newly prescribed ICS at ED discharge despite their higher chronic severity. Additionally, we found that only a small subset of patients received guideline-recommended prevention-oriented asthma care regardless of their insurance. Therefore, it is unlikely that expanding insurance coverage through the Affordable Care Act alone can fully address the observed disparities in this high-risk population. Our data should encourage policymakers and clinicians to improve access to asthma specialists and promote greater implementation of the evidenced-based asthma guidelines.,"
+  }
+ ]
+}

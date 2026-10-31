@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC9402708",
+ "pmid": "36002638",
+ "doi": "10.1038/s41598-022-18654-2",
+ "topic": "upper GI bleeding",
+ "title": "Selective serotonin reuptake inhibitors increase risk of upper gastrointestinal bleeding when used with NSAIDs: a systemic review and meta-analysis.",
+ "authors": "Alam SM, Qasswal M, Ahsan MJ, Walters RW, Chandra S.",
+ "affiliation": "Department of Internal Medicine, CHI Health Creighton University Medical Center-Bergan Mercy, 7710 Mercy Rd, Suite 301, Omaha, NE, 68124, USA. sal91640@creighton.edu.",
+ "journal": "Scientific reports",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 18,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "The use of selective serotonin reuptake inhibitors (SSRIs) can increase the risk of gastrointestinal (GI) bleeding. Similarly, it is well known that the use of NSAIDs predisposes patients to upper GI bleeding. The aim of this study was to explore if the addition of SSRIs in patients already taking NSAIDs significantly increases their risk for upper GI bleeding. An electronic literature search was conducted using the SCOPUS and MEDLINE databases from inception through September 2020. Cohort and case-control trials that reported patients with upper GI bleeding on NSAIDs with SSRIs, compared to controls on NSAIDs only were included. Newcastle-Ottawa checklist was used to ensure inclusion of high-quality studies. Data was extracted by the lead investigator and cross-checked by the second author. Dichotomous data was pooled to obtain an odds ratio (OR) of the risk of upper GI bleeding in patients on NSAIDs with concomitant SSRI use. The primary endpoint of the study was the risk of upper GI bleeding with SSRIs and NSAIDs compared to NSAIDs alone. A total of 366 citations were reviewed, and 21 were selected for full-text evaluation. 1 cohort and 9 case-control studies were eligible. There was an additional increased risk of upper GI bleeding in patients on NSAIDs with concomitant SSRI use (OR 1.75, 95% CI = 1.32-2.33). In patients already on NSAID therapy, the concomitant use of SSRIs can significantly increase the risk of upper of GI bleeding.",
+ "sections": [
+  {
+   "h": "Definitions and endpoints",
+   "text": "The primary study outcome was the odds ratio of having a GI bleed while on concomitant SSRI and NSAIDs compared to NSAIDs alone. Subjects were considered to have an upper GI bleed if there were any symptoms of hematemesis, coffee-ground emesis, melena, hematochezia, or a verified bleed on endoscopy or colonoscopy. Patients needed to be on this combination for at least 1 week, had to have not had any GI bleeding prior to starting SSRIs and NSAIDs, and have no other precipitating factors to increase the likelihood of GI bleeding. Multiple studies that were included in the final analysis reported on SSRIs and NSAIDs as a class rather than individual medications. Therefore, the investigators collected data based on if a patient was prescribed a certain drug class (NSAID or SSRI) rather than an individual drug. To minimize bias, we used the Newcastle–Ottawa scale to objectively select high quality studies."
+  },
+  {
+   "h": "Quality assessment",
+   "text": "Two investigators (S.M.A., M.J.A) used the Newcastle–Ottawa quality assessment scale for case–control studies (NOS) to assess the quality of each selected study. A quality score was calculated for each study based on selection of the groups included in each study, comparability, and assessment of the outcome and exposure. Disagreements with study selection was resolved with consensus with the presence of the fourth investigator (S.C)."
+  },
+  {
+   "h": "Conclusion",
+   "text": "Use of SSRIs in patients on NSAIDs increases risk of upper GI bleeding significantly. Clinicians need to weigh the risk and benefits on adding SSRI therapy if NSAIDs cannot be discontinued. The use of acid suppressing agents such as PPIs can be considered in patients taking concomitant SSRI with NSAIDs. However, further investigation of patients on SSRIs and NSAIDs with and without PPIs needs to be established before determining the true risk of developing an upper GI bleed."
+  }
+ ]
+}

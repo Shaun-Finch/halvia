@@ -1,0 +1,35 @@
+{
+ "pmcid": "PMC7426189",
+ "pmid": "32761068",
+ "doi": "10.1093/neuros/nyaa278",
+ "topic": "head injury",
+ "title": "Guidelines for the Management of Severe Traumatic Brain Injury: 2020 Update of the Decompressive Craniectomy Recommendations.",
+ "authors": "Hawryluk GWJ, Rubiano AM, Totten AM, O'Reilly C, Ullman JS, Bratton SL, Chesnut R, Harris OA, Kissoon N, Shutter L, Tasker RC, Vavilala MS, Wilberger J, Wright DW, Lumba-Brown A, Ghajar J.",
+ "affiliation": "Section of Neurosurgery, GB1-Health Sciences Centre, University of Manitoba, Winnipeg, Manitoba, Canada.",
+ "journal": "Neurosurgery",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 286,
+ "pubtypes": [
+  "Research Support, U.S. Gov't, P.H.S.",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Practice Guideline",
+  "Journal Article"
+ ],
+ "abstract": "When the fourth edition of the Brain Trauma Foundation's Guidelines for the Management of Severe Traumatic Brain Injury were finalized in late 2016, it was known that the results of the RESCUEicp (Trial of Decompressive Craniectomy for Traumatic Intracranial Hypertension) randomized controlled trial of decompressive craniectomy would be public after the guidelines were released. The guideline authors decided to proceed with publication but to update the decompressive craniectomy recommendations later in the spirit of \"living guidelines,\" whereby topics are updated more frequently, and between new editions, when important new evidence is published. The update to the decompressive craniectomy chapter presented here integrates the findings of the RESCUEicp study as well as the recently published 12-mo outcome data from the DECRA (Decompressive Craniectomy in Patients With Severe Traumatic Brain Injury) trial. Incorporation of these publications into the body of evidence led to the generation of 3 new level-IIA recommendations; a fourth previously presented level-IIA recommendation remains valid and has been restated. To increase the utility of the recommendations, we added a new section entitled Incorporating the Evidence into Practice. This summary of expert opinion provides important context and addresses key issues for practitioners, which are intended to help the clinician utilize the available evidence and these recommendations. The full guideline can be found at: https://braintrauma.org/guidelines/guidelines-for-the-management-of-severe-tbi-4th-ed#/.",
+ "sections": [
+  {
+   "h": "UPDATED RECOMMENDATIONS",
+   "text": "DECRA and RESCUEicp are higher quality studies whose findings supersede those of lesser quality investigations. Though both studied secondary DC for the treatment of refractory ICP elevation, a key difference in the study protocols for DECRA and RESCUEicp is that they were designed to investigate conditions of early and late refractory ICP elevations, respectively. Indeed, DECRA enrolled TBI patients with ICP above 20 mm Hg for 15 min over a 1-h period despite the optimization of tier 1 treatments within the first 72 h of care (early), while RESCUEicp enrolled patients with ICP greater than 25 mm Hg for 1 to 12 h refractory to 2 tiers of treatment within 10 d of admission (late). In constructing the recommendations that follow, we thus refer to early and late refractory ICP elevations to reference conditions similar to those studied in DECRA and RESCUEicp, respectively.\n\nThe addition of these studies to the available research evidence is the basis for the following updated recommendations:\n\n† Recommendation #2 should not be extrapolated to primary DC in which the bone flap is left off when an intracranial mass lesion is evacuated early after injury."
+  },
+  {
+   "h": "Quality Assessment",
+   "text": "Fundamental to this update was an appraisal of the level of evidence provided by both the DECRA and the RESCUEicp RCTs. DECRA had previously been judged to be a class I study with an overall quality rating of “Good” (on a scale of Good/Fair/Poor) as it was an RCT without multiple, serious risks of bias. RESCUEicp underwent an independent assessment for quality by 2 reviewers using the same instrument as used to assess the DECRA trial and all other studies included in the fourth edition. RESCUEicp was rated a good-quality (class I) study as DECRA had been (see , RESCUEicp and DECRA quality assessment). The new DECRA publication was similarly evaluated, and we determined that the new information provided about the study should not change the rating."
+  },
+  {
+   "h": "Evidence Summary",
+   "text": "The relationship between secondary DC and neurological outcome following severe TBI has been investigated in many studies; however, 2 RCTs provide the best evidence currently available. The 2 studies are DECRA and RESCUEicp, both providing class I evidence."
+  }
+ ]
+}

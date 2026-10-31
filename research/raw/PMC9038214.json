@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC9038214",
+ "pmid": "34957779",
+ "doi": "10.31083/j.rcm2204144",
+ "topic": "chest pain",
+ "title": "Scoring systems for the triage and assessment of short-term cardiovascular risk in patients with acute chest pain.",
+ "authors": "Ashburn NP, O'Neill JC, Stopyra JP, Mahler SA.",
+ "affiliation": "Department of Emergency Medicine, Wake Forest School of Medicine, Medical Center Boulevard, Winston-Salem, NC 27157, USA.",
+ "journal": "Reviews in cardiovascular medicine",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 7,
+ "pubtypes": [
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute chest pain is a common emergency department (ED) chief complaint. Evaluating patients for acute coronary syndrome is challenging because missing the diagnosis carries substantial morbidity, mortality, and medicolegal consequences. However, over-testing is associated with increased cost, overcrowding, and possible iatrogenic harm. Over the past two decades, multiple risk scoring systems have been developed to help emergency providers evaluate patients with acute chest pain. The ideal risk score balances safety by achieving high sensitivity and negative predictive value for major adverse cardiovascular events while also being effective in identifying a large proportion of patients for early discharge from the ED. This review examines contemporary risk scores used to risk stratify patients with acute chest pain.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "When caring for patients with acute chest pain, emergency providers have an array of risk stratification tools at their disposal. Each tool has unique benefits as well as key limitations. Local standards of care and provider risk tolerance should determine which tool is used. However, there is no perfect tool, thus risk scores and ADPs are not meant to eliminate provider judgment. Although novel hs-cTn only algorithms may identify more patients for early discharge, US-based prospective safety data are mixed, suggesting that relying solely on these algorithms may expose patients and providers to unnecessary and avoidable risks. The highest quality evidence indicates that the safest care is provided by combining risk scores with serial cTn measurements. The HEART Pathway has been proven safe and effective among US patients both in internal and external validation studies conducted across multiple sites, institutions, and among thousands of patients. Even so, given that the field of chest pain risk stratification research is rapidly maturing, safer and more efficient approaches are likely on the horizon."
+  }
+ ]
+}

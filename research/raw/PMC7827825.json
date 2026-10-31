@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7827825",
+ "pmid": "33435405",
+ "doi": "10.3390/medicina57010055",
+ "topic": "hyponatraemia",
+ "title": "Is There a Relationship between COVID-19 and Hyponatremia?",
+ "authors": "Gheorghe G, Ilie M, Bungau S, Stoian AMP, Bacalbasa N, Diaconu CC.",
+ "affiliation": "Department of Gastroenterology, \"Carol Davila\" University of Medicine and Pharmacy, 050474 Bucharest, Romania.",
+ "journal": "Medicina (Kaunas, Lithuania)",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 41,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Nowadays, humanity faces one of the most serious health crises, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic. The severity of coronavirus disease 2019 (COVID-19) pandemic is related to the high rate of interhuman transmission of the virus, variability of clinical presentation, and the absence of specific therapeutic methods. COVID-19 can manifest with non-specific symptoms and signs, especially among the elderly. In some cases, the clinical manifestations of hyponatremia may be the first to appear. The pathophysiological mechanisms of hyponatremia among patients with COVID-19 are diverse, including syndrome of inappropriate antidiuretic hormone secretion (SIADH), digestive loss of sodium ions, reduced sodium ion intake or use of diuretic therapy. Hyponatremia may also be considered a negative prognostic factor in patients diagnosed with COVID-19. We need further studies to evaluate the etiology and therapeutic management of hyponatremia in patients with COVID-19.",
+ "sections": [
+  {
+   "h": "5. Hyponatremia Management in COVID-19 Patients",
+   "text": "There are currently no clinical guidelines for the management of hyponatremia in patients diagnosed with COVID-19. The therapeutic approach of this hydro-electrolytic disorder depends, on one hand, on the etiology, and on the other hand on the volume status and comorbidities of the patient. As specified above, the hyponatremia etiology in patients with COVID-19 is multifactorial. According to existing data, the causes of hyponatremia include SIADH and digestive losses of sodium through diarrhea or vomiting ["
+  },
+  {
+   "h": "6. Conclusions",
+   "text": "Hyponatremia is frequent among patients with COVID-19, who sometimes may present only with symptoms and clinical signs secondary to this electrolytic imbalance. The diagnosis of hyponatremia upon admission of a patient, in the context of COVID-19 pandemic, should nowadays rise the suspicion of a possible SARS-CoV-2 infection. The causes of hyponatremia in these patients are diverse. It is very important to establish the exact etiology of this electrolytic disorder, because therapeutic management differs depending on its pathophysiological mechanism. Noteworthy, hyponatremia may be considered an unfavorable prognostic factor among patients with COVID-19. Future studies are needed to evaluate the exact incidence, pathogenesis, and therapeutic management of hyponatremia in patients with SARS-CoV-2 infection."
+  }
+ ]
+}

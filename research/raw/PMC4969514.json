@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC4969514",
+ "pmid": "27517043",
+ "doi": "10.1155/2016/4054513",
+ "topic": "upper GI bleeding",
+ "title": "Esophageal Stent for Refractory Variceal Bleeding: A Systemic Review and Meta-Analysis.",
+ "authors": "Shao XD, Qi XS, Guo XZ.",
+ "affiliation": "Department of Gastroenterology, General Hospital of Shenyang Military Area Command, Shenyang 110016, China.",
+ "journal": "BioMed research international",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 20,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background. Preliminary studies suggest that covered self-expandable metal stents may be helpful in controlling esophageal variceal bleeding. Aims. To evaluate the effectiveness and safety of esophageal stent in refractory variceal bleeding in a systematic review and meta-analysis. Methods. A comprehensive literature search was conducted on PubMed, EMBASE, and Cochrane Library covering the period from January 1970 to December 2015. Data were selected and abstracted from eligible studies and were pooled using a random-effects model. Heterogeneity was assessed using I (2) test. Results. Five studies involving 80 patients were included in the analysis. The age of patients ranged from 18 to 91 years. The mean duration of follow-up was 46.8 d (range, 30-60 d). The success rate of stent deployment was 96.7% (95% CI: 91.6%-99.5%) and complete response to esophageal stenting was in 93.9% (95% CI: 82.2%-99.6%). The incidence of rebleeding was 13.2% (95% CI: 1.8%-32.8%) and the overall mortality was 34.5% (95% CI: 24.8%-44.8%). Most of patients (87.4%) died from hepatic or multiple organ failure, and only 12.6% of patients died from uncontrolled bleeding. There was no stent-related complication reported and the incidence of stent migration was 21.6% (95% CI: 4.7%-46.1%). Conclusion. Esophageal stent may be considered in patients with variceal bleeding refractory to conventional therapy.",
+ "sections": [
+  {
+   "h": "2.4. Definitions",
+   "text": "Refractory Variceal Bleeding. Patients with active variceal bleeding were unresponsive to pharmacologic and endoscopic therapy and required transfusion.\n\nResponse to Esophageal Stent. Clinically, response was considered as complete hemostasis if the patients' symptoms of bleeding resolved. No response was defined as persistent or worsening symptoms of bleeding. Endoscopically, response was defined as no active bleeding or oozing from a varix on endoscopy. No response was defined as active bleeding or oozing found on endoscopy. Eligible studies used endoscopic and/or clinical criteria to assess the response to esophageal stent.\n\nEsophageal Stent-Related Complications. Esophageal stent-related complications include esophageal tear or perforation, pulmonary dysfunction, aspiration pneumonia, asphyxia, and esophageal ulcer leading to bleeding which need further specific treatment.\n\nStent Migration. Esophageal stent migration was defined as stent migrating proximally or distally from the place where stents were deployed initially. Radiological examinations were necessary.\n\nOverall Mortality. Overall mortality was defined as any death events throughout the follow-up period. The follow-up period varied across the studies, with the longest duration being 60 d."
+  }
+ ]
+}

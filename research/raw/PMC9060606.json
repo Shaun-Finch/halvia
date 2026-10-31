@@ -1,0 +1,20 @@
+{
+ "pmcid": "PMC9060606",
+ "pmid": "35512728",
+ "doi": "10.1016/s0140-6736(22)00519-0",
+ "topic": "COVID-19 in hospital",
+ "title": "Remdesivir and three other drugs for hospitalised patients with COVID-19: final results of the WHO Solidarity randomised trial and updated meta-analyses.",
+ "authors": "WHO Solidarity Trial Consortium.",
+ "affiliation": "",
+ "journal": "Lancet (London, England)",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 327,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background The Solidarity trial among COVID-19 inpatients has previously reported interim mortality analyses for four repurposed antiviral drugs. Lopinavir, hydroxychloroquine, and interferon (IFN)-β1a were discontinued for futility but randomisation to remdesivir continued. Here, we report the final results of Solidarity and meta-analyses of mortality in all relevant trials to date. Methods Solidarity enrolled consenting adults (aged ≥18 years) recently hospitalised with, in the view of their doctor, definite COVID-19 and no contraindication to any of the study drugs, regardless of any other patient characteristics. Participants were randomly allocated, in equal proportions between the locally available options, to receive whichever of the four study drugs (lopinavir, hydroxychloroquine, IFN-β1a, or remdesivir) were locally available at that time or no study drug (controls). All patients also received the local standard of care. No placebos were given. The protocol-specified primary endpoint was in-hospital mortality, subdivided by disease severity. Secondary endpoints were progression to ventilation if not already ventilated, and time-to-discharge from hospital. Final log-rank and Kaplan-Meier analyses are presented for remdesivir, and are appended for all four study drugs. Meta-analyses give weighted averages of the mortality findings in this and all other randomised trials of these drugs among hospital inpatients. Solidarity is registered with ISRCTN, ISRCTN83971151, and ClinicalTrials.gov, NCT04315948. Findings Between March 22, 2020, and Jan 29, 2021, 14 304 potentially eligible patients were recruited from 454 hospitals in 35 countries in all six WHO regions. After the exclusion of 83 (0·6%) patients with a refuted COVID-19 diagnosis or encrypted consent not entered into the database, Solidarity enrolled 14 221 patients, including 8275 randomly allocated (1:1) either to remdesivir (ten daily infusions, unless discharged earlier) or to its control (allocated no study drug although remdesivir was locally available). Compliance was high in both groups. Overall, 602 (14·5%) of 4146 patients assigned to remdesivir died versus 643 (15·6%) of 4129 assigned to control (mortality rate ratio [RR] 0·91 [95% CI 0·82-1·02], p=0·12). Of those already ventilated, 151 (42·1%) of 359 assigned to remdesivir died versus 134 (38·6%) of 347 assigned to control (RR 1·13 [0·89-1·42], p=0·32). Of those not ventilated but on oxygen, 14·6% assigned to remdesivir died versus 16·3% assigned to control (RR 0·87 [0·76-0·99], p=0·03). Of 1730 not on oxygen initially, 2·9% assigned to remdesivir died versus 3·8% assigned to control (RR 0·76 [0·46-1·28], p=0·30). Combining all those not ventilated initially, 11·9% assigned to remdesivir died versus 13·5% assigned to control (RR 0·86 [0·76-0·98], p=0·02) and 14·1% versus 15·7% progressed to ventilation (RR 0·88 [0·77-1·00], p=0·04). The non-prespecified composite outcome of death or progression to ventilation occurred in 19·6% assigned to remdesivir versus 22·5% assigned to control (RR 0·84 [0·75-0·93], p=0·001). Allocation to daily remdesivir infusions (vs open-label control) delayed discharge by about 1 day during the 10-day treatment period. A meta-analysis of mortality in all randomised trials of remdesivir versus no remdesivir yielded similar findings. Interpretation Remdesivir has no significant effect on patients with COVID-19 who are already being ventilated. Among other hospitalised patients, it has a small effect against death or progression to ventilation (or both). Funding WHO.",
+ "sections": []
+}

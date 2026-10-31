@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC5895053",
+ "pmid": "29641605",
+ "doi": "10.1371/journal.pone.0195659",
+ "topic": "delirium",
+ "title": "Inflammatory markers in postoperative delirium (POD) and cognitive dysfunction (POCD): A meta-analysis of observational studies.",
+ "authors": "Liu X, Yu Y, Zhu S.",
+ "affiliation": "Zhejiang University School of Medicine, Hangzhou, Zhejiang, P.R. China.",
+ "journal": "PloS one",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 190,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background The aim of this study was to summarize and discuss the similarities and differences in inflammatory biomarkers in postoperative delirium (POD) and cognitive dysfunction (POCD). Methods A systematic retrieval of literature up to June 2017 in PubMed, Embase, the Cochrane Library, the China National Knowledge Infrastructure database, and the Wanfang database was conducted. Extracted data were analyzed with STATA (version 14). The standardized mean difference (SMD) and the 95% confidence interval (95% CI) of each indicator were calculated using a random effect model. We also performed tests of heterogeneity, sensitivity analysis, assessments of bias, and meta-regression in this meta-analysis. Results A total of 54 observational studies were included. By meta-analysis we found significantly increased C-reactive protein (CRP) (9 studies, SMD 0.883, 95% CI 0.130 to 1.637, P = 0.022 in POD; 10 studies, SMD -0.133, 95% CI -0.512 to 0.246, P = 0.429 in POCD) and interleukin (IL)-6 (7 studies, SMD 0.386, 95% CI 0.054 to 0.717, P = 0.022 in POD; 16 studies, SMD 0.089, 95% CI -0.133 to 0.311, P = 0.433 in POCD) concentrations in both POD and POCD patients. We also found that the SMDs of CRP and IL-6 from POCD patients were positively correlated with surgery type in the meta-regression (CRP: Coefficient = 1.555365, P = 0.001, 10 studies; IL-6: Coefficient = -0.6455521, P = 0.086, 16 studies). Conclusion Available evidence from medium-to-high quality observational studies suggests that POD and POCD are indeed correlated with the concentration of peripheral inflammatory markers. Some of these markers, such as CRP and IL-6, play roles in both POD and POCD, while others are specific to either one of them.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "It is clear that POD and POCD are multifactorial conditions. Among the identified pathomechanisms, some inflammatory biomarkers were common, such as the elevation of CRP and IL-6 postoperatively. S-100β and IL-8 were elevated in only POD postoperatively and during the preoperative period, CRP and IL-6 increased in POD, while NSE levels increased in POCD. No changes in IL-1β, TNF-α, S-100β, IL-8, and IL-10 were found in POD preoperatively, or in TNFα and NSE in POCD postoperatively."
+  }
+ ]
+}

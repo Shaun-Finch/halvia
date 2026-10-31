@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC8173512",
+ "pmid": "34082822",
+ "doi": "10.1186/s13756-021-00957-0",
+ "topic": "infection prevention",
+ "title": "Knowledge of infection prevention and control among healthcare workers and factors influencing compliance: a systematic review.",
+ "authors": "Alhumaid S, Al Mutair A, Al Alawi Z, Alsuliman M, Ahmed GY, Rabaan AA, Al-Tawfiq JA, Al-Omari A.",
+ "affiliation": "Administration of Pharmaceutical Care, Al-Ahsa Health Cluster, Ministry of Health, Al-Ahsa, Saudi Arabia.",
+ "journal": "Antimicrobial resistance and infection control",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 169,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Knowledge of infection prevention and control (IPC) procedures among healthcare workers (HCWs) is crucial for effective IPC. Compliance with IPC measures has critical implications for HCWs safety, patient protection and the care environment. Aims To discuss the body of available literature regarding HCWs' knowledge of IPC and highlight potential factors that may influence compliance to IPC precautions. Design A systematic review. A protocol was developed based on the Preferred Reporting Items for Systematic reviews and Meta-Analysis [PRISMA] statement. Data sources Electronic databases (PubMed, CINAHL, Embase, Proquest, Wiley online library, Medline, and Nature) were searched from 1 January 2006 to 31 January 2021 in the English language using the following keywords alone or in combination: knowledge, awareness, healthcare workers, infection, compliance, comply, control, prevention, factors. 3417 papers were identified and 30 papers were included in the review. Results Overall, the level of HCW knowledge of IPC appears to be adequate, good, and/or high concerning standard precautions, hand hygiene, and care pertaining to urinary catheters. Acceptable levels of knowledge were also detected in regards to IPC measures for specific diseases including TB, MRSA, MERS-CoV, COVID-19 and Ebola. However, gaps were identified in several HCWs' knowledge concerning occupational vaccinations, the modes of transmission of infectious diseases, and the risk of infection from needle stick and sharps injuries. Several factors for noncompliance surrounding IPC guidelines are discussed, as are recommendations for improving adherence to those guidelines. Conclusion Embracing a multifaceted approach towards improving IPC-intervention strategies is highly suggested. The goal being to improve compliance among HCWs with IPC measures is necessary.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "This review intended to discuss literature on knowledge of IPC among HCWs and factors influencing compliance. Overall, the level of HCWs knowledge on IPC seems to be adequate towards standard precautions, hand hygiene, and IPC measures for TB, MRSA, MERS-CoV, and COVID-19, and care pertaining to urinary catheters. There appears to be gaps in some HCWs' knowledge of occupational vaccinations (HBV, varicella and influenza), modes of transmission of infectious diseases (HBV, HCV, HIV, and influenza A/H1N1), the risk of infection from NSSIs, the understanding that needle and sharp safe practices are enough to protect against BBPs, and the CDC guidelines for preventing CVCs-related infections. Several factors may affect HCWs' compliance and noncompliance with the IPC measures: knowledge, education and training, experience, lack of supplies (alcohol hand rub, nearby sink, soap or paper towels), working in ICU or surgical ward, working at public or secondary or tertiary hospital, and working for a patient with exposure to blood or body fluid. Barriers to comply with IPC may include workload, insufficient time, professional category and low patient-to-nurse ratio. It is highly suggested that adopting a multifaceted approach to IPC improvement intervention strategies has been shown to reduce HAIs and improve compliance among HCWs with IPC measures."
+  }
+ ]
+}

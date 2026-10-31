@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10281854",
+ "pmid": "37351245",
+ "doi": "10.7759/cureus.39313",
+ "topic": "refeeding and nutrition",
+ "title": "Clinical Outcomes of Refeeding Syndrome: A Systematic Review of High vs. Low-Calorie Diets for the Treatment of Anorexia Nervosa and Related Eating Disorders in Children and Adolescents.",
+ "authors": "Mosuka EM, Murugan A, Thakral A, Ngomo MC, Budhiraja S, St Victor R.",
+ "affiliation": "Pediatrics, Brookdale University Hospital Medical Center, New York, USA.",
+ "journal": "Cureus",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 9,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Over the years, the standard of care for re-alimentation of patients admitted for the treatment of anorexia nervosa (AN) has been a conservative or cautious approach described as \"start low and go slow.\" These traditional refeeding protocols advocate for a low-calorie diet that restricts carbohydrates, with the primary goal of hypothetically lowering the risk of refeeding syndrome (RFS) and its complication. However, no consensus exists for the optimal inpatient approach to refeeding children and adolescents with AN. There is still some disagreement about what constitutes an ideal pace for nutritional rehabilitation. Varying treatment protocols have emerged across the globe, often reflecting the preferences and biases of individual practitioners and contributing to the lack of a universally accepted protocol for refeeding in AN. Although it is widely accepted that low-caloric refeeding (LCR) is safe for inpatient treatment of AN, this strategy has been shown to have several significant drawbacks, leading to increased criticism of the LCR method. Research from the last decade has led to calls for a more aggressive refeeding protocol, one that suggests a higher caloric intake from the offset. As a result, this research aimed to conduct a systematic review of the existing literature on strategies for refeeding hospitalized pediatric/adolescent patients with AN and related eating disorders. We aimed to compare high-caloric refeeding (HCR) and LCR in terms of weight gain, length of stay, and risk of RFS. We conducted a thorough search of medical databases for abstracts published in English, including Google Scholar, PubMed, and MEDLINE, to find relevant studies published between 2010 and February 2023. Our focus was on articles that evaluated high versus low refeeding protocols in children and adolescents hospitalized for treating AN and related eating disorders. Only articles that reported on at least one of the outcome variables of interest, such as hypophosphatemia, weight gain, RFS, or length of hospital stay, were considered. This review included 20 full-text articles published in the last decade on the HCR protocol in children and adolescents, with a total sample size of 2191 participants. In only one of the 20 studies did researchers find evidence of a true clinical case of RFS. We, therefore, found no evidence that HCR increased the risk of RFS in adolescents, even in those with a very low body mass index (BMI). However, evidence suggests a lower BMI at the time of hospital admission is a better predictor of hypophosphatemia than total caloric intake. In conclusion, based on the evidence from this review, a high-caloric diet or rapid refeeding in children/adolescents suffering from AN may be both safe and effective, with serial laboratory investigations and phosphate supplementation as needed. Hence, more research, particularly, randomized controlled trials, is required to help shape an evidence-based refeeding guideline outlining target calorie intakes and rates of advancement to assist clinicians in the treatment of adolescents with AN and related eating disorders.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "The result of this study provides strong evidence challenging the traditional refeeding approach to managing adolescent patients hospitalized for AN. Our findings suggest that the severity of hypophosphatemia or RFS may not correlate with total caloric intake but may be influenced by the severity of malnutrition before admission. With serial laboratory investigations and phosphate supplementation, when necessary, a high-caloric diet or rapid refeeding in children/adolescents suffering from AN may be both safe and effective. In addition, HCR may shorten the LOS, which minimizes cost and improves weight gain, which is beneficial in long-term recovery. In conclusion, more research, particularly, RCTs, is required to help shape an evidence-based refeeding guideline outlining target calorie intakes and rates of advancement to assist clinicians in the treatment of adolescents with AN and related eating disorders."
+  }
+ ]
+}

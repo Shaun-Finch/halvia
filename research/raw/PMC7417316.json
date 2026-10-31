@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7417316",
+ "pmid": "32849610",
+ "doi": "10.3389/fimmu.2020.01722",
+ "topic": "sepsis",
+ "title": "Pulmonary Innate Immune Response Determines the Outcome of Inflammation During Pneumonia and Sepsis-Associated Acute Lung Injury.",
+ "authors": "Kumar V.",
+ "affiliation": "Children's Health Queensland Clinical Unit, Faculty of Medicine, School of Clinical Medicine, Mater Research, University of Queensland, Brisbane, QLD, Australia.",
+ "journal": "Frontiers in immunology",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 560,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The lung is a primary organ for gas exchange in mammals that represents the largest epithelial surface in direct contact with the external environment. It also serves as a crucial immune organ, which harbors both innate and adaptive immune cells to induce a potent immune response. Due to its direct contact with the outer environment, the lung serves as a primary target organ for many airborne pathogens, toxicants (aerosols), and allergens causing pneumonia, acute respiratory distress syndrome (ARDS), and acute lung injury or inflammation (ALI). The current review describes the immunological mechanisms responsible for bacterial pneumonia and sepsis-induced ALI. It highlights the immunological differences for the severity of bacterial sepsis-induced ALI as compared to the pneumonia-associated ALI. The immune-based differences between the Gram-positive and Gram-negative bacteria-induced pneumonia show different mechanisms to induce ALI. The role of pulmonary epithelial cells (PECs), alveolar macrophages (AMs), innate lymphoid cells (ILCs), and different pattern-recognition receptors (PRRs, including Toll-like receptors (TLRs) and inflammasome proteins) in neutrophil infiltration and ALI induction have been described during pneumonia and sepsis-induced ALI. Also, the resolution of inflammation is frequently observed during ALI associated with pneumonia, whereas sepsis-associated ALI lacks it. Hence, the review mainly describes the different immune mechanisms responsible for pneumonia and sepsis-induced ALI. The differences in immune response depending on the causal pathogen (Gram-positive or Gram-negative bacteria) associated pneumonia or sepsis-induced ALI should be taken in mind specific immune-based therapeutics.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "Pneumonia and sepsis, both are associated with the onset of ALI/ARDS. However, the pneumonia-associated ALI is less severe and often resolves once the infection has cleared. But this resolution of ALI during sepsis has not been observed. However, the pneumonia-associated ALI resolution leaves a long-lasting impact on the host immune response to future infection. This resolution of ALI involves the transforming growth factor-β (TGF-β) generation and the activation of pulmonary regulatory T cells (Tregs) inducing the immunosuppressive environment in the lungs (\n\nThe immunosuppressive environment in the lung following the resolution of ALI-associated with pneumonia further disposes the host to acquire secondary pulmonary infection. However, this can be avoided by following the instruction, like keeping the recovered patient in the pathogen-free environment and keeping him/her on the immune-boosting diet. For example, the study has shown that these paralyzed macrophages and DCs generated following the resolution of pneumonia-associated ALI remains active for at least 21 days post clearance of the pathogen ("
+  }
+ ]
+}

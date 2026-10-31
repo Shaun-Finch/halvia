@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC4715852",
+ "pmid": "26780740",
+ "doi": "10.1007/s11239-015-1313-4",
+ "topic": "venous thromboembolism",
+ "title": "Guidance for the prevention and treatment of cancer-associated venous thromboembolism.",
+ "authors": "Khorana AA, Carrier M, Garcia DA, Lee AY.",
+ "affiliation": "Taussig Cancer Institute and Case Comprehensive Cancer Center, Cleveland Clinic, 9500 Euclid Ave, R35, Cleveland, OH, 44195, USA. khorana@ccf.org.",
+ "journal": "Journal of thrombosis and thrombolysis",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 133,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Venous thromboembolism (VTE) is a highly prevalent complication of malignancy with emerging changes in incidence, diagnosis and treatment paradigms. This manuscript, initiated by the Anticoagulation Forum, provides clinical guidance based on existing guidelines and consensus expert opinion where guidelines are lacking. We address a) the appropriate workup to search for occult malignancy in patients with idiopathic VTE, b) identification of high-risk cancer patients for primary thromboprophylaxis, c) the appropriate immediate and long-term treatment for people with cancer diagnosed with acute thromboembolism, d) the appropriate duration of anticoagulation and e) the appropriate treatment strategy in patients with recurrent VTE on anticoagulation. Areas of controversy and future directions in this field are highlighted.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "VTE is an important cause of morbidity and mortality in patients with malignancy. In this chapter, we have identified important clinical questions and attempted to provide recommendations to clinicians based on analysis of existing data, systematic reviews and meta-analyses as well as consensus between authors (Table"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC9738481",
+ "pmid": "36499240",
+ "doi": "10.3390/ijms232314912",
+ "topic": "alcohol withdrawal",
+ "title": "Alcohol Withdrawal and the Associated Mood Disorders-A Review.",
+ "authors": "Ngui HHL, Kow ASF, Lai S, Tham CL, Ho YC, Lee MT.",
+ "affiliation": "Faculty of Pharmaceutical Sciences, UCSI University, Kuala Lumpur 56000, Malaysia.",
+ "journal": "International journal of molecular sciences",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 15,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Recreational use of alcohol is a social norm in many communities worldwide. Alcohol use in moderation brings pleasure and may protect the cardiovascular system. However, excessive alcohol consumption or alcohol abuse are detrimental to one's health. Three million deaths due to excessive alcohol consumption were reported by the World Health Organization. Emerging evidence also revealed the danger of moderate consumption, which includes the increased risk to cancer. Alcohol abuse and periods of withdrawal have been linked to depression and anxiety. Here, we present the effects of alcohol consumption (acute and chronic) on important brain structures-the frontal lobe, the temporal lobe, the limbic system, and the cerebellum. Apart from this, we also present the link between alcohol abuse and withdrawal and mood disorders in this review, thus drawing a link to oxidative stress. In addition, we also discuss the positive impacts of some pharmacotherapies used. Due to the ever-rising demands of life, the cycle between alcohol abuse, withdrawal, and mood disorders may be a never-ending cycle of destruction. Hence, through this review, we hope that we can emphasise the importance and urgency of managing this issue with the appropriate approaches.",
+ "sections": [
+  {
+   "h": "12. Pharmacotherapy for Ethanol Use Disorders-Associated Psychological Disorders",
+   "text": "As ethanol induces brain neurotransmitter changes that might exacerbate depression, antidepressant medicines have been the mainstay of pharmacotherapy for alcoholics with comorbid depression. A slew of meta-analyses had shown that antidepressants are more efficacious than placebo in reducing depressive symptoms in patients with comorbid ethanol use disorder. The efficacy of antidepressants is comparable in depressive patients both with and without ethanol use disorder [\n\nAntidepressants, interestingly, have just a slight influence on ethanol use [\n\nPetrakis and collaborators reported that naltrexone and disulfiram were effective in reducing ethanol craving and improving mood among patients with comorbid ethanol use disorder and major depression. Reduced ethanol consumption may have contributed to the remission of depressive symptoms ["
+  },
+  {
+   "h": "13. Conclusions",
+   "text": "Alcohol abuse and alcohol withdrawal both could lead to neuropsychological problems such as depression and anxiety. It is widely accepted that this is due to the changes observed in the central nervous system. Although there are differences in the observed individual oxidative stress parameters studied, it is generally agreed on that alcohol abuse and alcohol withdrawal could exacerbate oxidative stress, and this has been linked to depression and anxiety. Even though these neuropsychological disorders could be controlled by antidepressants, their effects may not be sustainable, and their effectiveness may vary between individuals. With the numerous studies conducted on the neuroprotective effect of vitamin E, it is believed that vitamin E could be a potential treatment option in alleviating depression and anxiety disorders. Nevertheless, further studies are still needed, as the underlying mechanism of neuropsychological disorders induced by alcohol abuse and alcohol withdrawal is multifaceted."
+  }
+ ]
+}

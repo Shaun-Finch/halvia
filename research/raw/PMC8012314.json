@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC8012314",
+ "pmid": "33738528",
+ "doi": "10.1007/s00125-020-05369-0",
+ "topic": "hypoglycaemia",
+ "title": "Consequences of recurrent hypoglycaemia on brain function in diabetes.",
+ "authors": "McCrimmon RJ.",
+ "affiliation": "Systems Medicine, School of Medicine, University of Dundee, Ninewells Hospital and Medical School, Dundee, UK. r.mccrimmon@dundee.ac.uk.",
+ "journal": "Diabetologia",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 57,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The discovery of insulin and its subsequent mass manufacture transformed the lives of people with type 1 and 2 diabetes. Insulin, however, was a drug with a 'dark side'. It brought with it the risk of iatrogenic hypoglycaemia. In this short review, the cellular consequences of recurrent hypoglycaemia, with a particular focus on the brain, are discussed. Using the ventromedial hypothalamus as an exemplar, this review highlights how recurrent hypoglycaemia has an impact on the specialised cells in the brain that are critical to the regulation of glucose homeostasis and the counterregulatory response to hypoglycaemia. In these cells, recurrent hypoglycaemia initiates a series of adaptations that ensure that they are more resilient to subsequent hypoglycaemia, but this leads to impaired hypoglycaemia awareness and a paradoxical increased risk of severe hypoglycaemia. This review also highlights how hypoglycaemia, as an oxidative stressor, may also exacerbate chronic hyperglycaemia-induced increases in oxidative stress and inflammation, leading to damage to vulnerable brain regions (and other end organs) and accelerating cognitive decline. Pre-clinical research indicates that glucose recovery following hypoglycaemia is considered a period where reactive oxygen species generation and oxidative stress are pronounced and can exacerbate the longer-term consequence of chronic hypoglycaemia. It is proposed that prior glycaemic control, hypoglycaemia and the degree of rebound hyperglycaemia interact synergistically to accelerate oxidative stress and inflammation, which may explain why increased glycaemic variability is now increasingly considered a risk factor for the complications of diabetes.",
+ "sections": [
+  {
+   "h": "Summary",
+   "text": "The value of insulin in the management of diabetes and the evidence in support of intensive insulin therapy targeting near-normalisation of glycaemic control to minimise the micro- and macrovascular complications of diabetes is overwhelming. However, hypoglycaemia remains a relatively common adverse effect of insulin therapy that has consequences for the individual and their carers. Asides from the immediate cognitive and emotional impacts of acute hypoglycaemia, impaired hypoglycaemia awareness is a consequence of repeated exposure to hypoglycaemia that carries a high risk for severe hypoglycaemia. Epidemiological and pre-clinical research also indicates that recurrent hypoglycaemia may exacerbate chronic hyperglycaemia-induced increases in oxidative stress and inflammation, leading, in particular, to damage in vulnerable brain regions and accelerated cognitive decline.\n\nThere remain many unanswered questions that hopefully future research will be able to shed light on. For instance, do the effects of recurrent hypoglycaemia on specialised glucose-sensing neurons occur through a single signalling defect or multiple pathways given the complexity of the hypoglycaemic response? Moreover, is there actually a ‘defect’ in sensing or are glucose-sensing neurons just less responsive to low glucose? If the latter, do the major changes specifically occur in the specialised neuron or in the periphery (e.g., adrenal gland)? It is also uncertain whether these effects are reversible in all people through strict hypoglycaemic avoidance or whether, in some, these may prove irreversible as a consequence of long-term damage to critical components of this homeostatic defence mechanism.\n\nWhen we consider other consequences of recurrent hypoglycaemia on the brain, we also need clarity on the actual level of hypoglycaemia that is clinically significant, which may or may not be 3.0 mmol/l as recently proposed by the International Hypoglycaemia Study Group ["
+  }
+ ]
+}

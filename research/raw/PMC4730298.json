@@ -1,0 +1,28 @@
+{
+ "pmcid": "PMC4730298",
+ "pmid": "26729111",
+ "doi": "10.3390/ijms17010053",
+ "topic": "burns",
+ "title": "Cardiovascular Dysfunction Following Burn Injury: What We Have Learned from Rat and Mouse Models.",
+ "authors": "Guillory AN, Clayton RP, Herndon DN, Finnerty CC.",
+ "affiliation": "Department of Surgery, University of Texas Medical Branch, 301 University Blvd., Galveston, TX 77555, USA. asguillo@utmb.edu.",
+ "journal": "International journal of molecular sciences",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 52,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Research Support, U.S. Gov't, Non-P.H.S.",
+  "Journal Article",
+  "Research Support, N.I.H., Extramural"
+ ],
+ "abstract": "Severe burn profoundly affects organs both proximal and distal to the actual burn site. Cardiovascular dysfunction is a well-documented phenomenon that increases morbidity and mortality following a massive thermal trauma. Beginning immediately post-burn, during the ebb phase, cardiac function is severely depressed. By 48 h post-injury, cardiac function rebounds and the post-burn myocardium becomes tachycardic and hyperinflammatory. While current clinical trials are investigating a variety of drugs targeted at reducing aspects of the post-burn hypermetabolic response such as heart rate and cardiac work, there is still a paucity of knowledge regarding the underlying mechanisms that induce cardiac dysfunction in the severely burned. There are many animal models of burn injury, from rodents, to sheep or swine, but the majority of burn related cardiovascular investigations have occurred in rat and mouse models. This literature review consolidates the data supporting the prevalent role that β-adrenergic receptors play in mediating post-burn cardiac dysfunction and the idea that pharmacological modulation of this receptor family is a viable therapeutic target for resolving burn-induced cardiac deficits.",
+ "sections": [
+  {
+   "h": "4. Conclusions",
+   "text": "Cardiovascular dysfunction following burn injury is a major problem in humans and can be replicated and studied in animals. A rapid and robust inflammatory response precedes the onset of defects in left ventricular pressure and sarcomere shortening. Calcium dyshomeostasis and dysregulation of NO levels also contribute to depression of cardiac contractility. Sepsis or infection further exacerbates cardiac depression. Many of these signaling changes occur downstream of β-ARs and may be the result of overstimulation of these receptors by elevated circulating catecholamine levels."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5597697",
+ "pmid": "28785969",
+ "doi": "10.1007/s11897-017-0351-y",
+ "topic": "acute heart failure",
+ "title": "Acute Heart Failure: Definition, Classification and Epidemiology.",
+ "authors": "Kurmani S, Squire I.",
+ "affiliation": "Department of Cardiovascular Sciences, University of Leicester Glenfield Hospital, Leicester, LE3 9QP, UK. sak36@le.ac.uk.",
+ "journal": "Current heart failure reports",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 241,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Purpose of review The purpose of this review is to describe the extent and scope of acute heart failure (AHF), place it within its clinical context and highlight some of the difficulties in defining it as a pathophysiological entity. Recent findings A diagnosis of AHF is made when patients present acutely with signs and symptoms of heart failure, often with decompensation of pre-existing cardiomyopathy. The most current guidelines classify based on clinical features at initial presentation and are used to both risk stratify and guide the management of haemodynamic compromise. Despite this, AHF remains a diagnosis with a poor prognosis and there is no therapy proven to have long-term mortality benefits. We provide an introduction to AHF and discuss its definition, causes and precipitants. We also present epidemiological and demographic data to suggest that there is significant patient heterogeneity and that AHF is not a single pathology, but rather a range of pathophysiological entities. This poses a challenge when designing clinical trials and may, at least in part, explain why the results in this area have been largely disappointing.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "Acute heart failure is a clinical syndrome characterised by signs and symptoms of fluid overload which require hospitalisation. Patients may present with AHF as the first presentation of heart disease but more commonly as decompensation of a pre-existing cardiomyopathy. In the latter case, admission to hospital represents a significant prognostic event in the natural history of cardiomyopathy as it is associated with worsening mortality and morbidity. The classification and subsequent treatment strategies have focussed on the management of the initial haemodynamic disturbances in a population often with multiple medical co-morbidities. However, in contrast to chronic stable heart failure, little has materialised in the way of therapies that improve long-term survival following admission with AHF. If future clinical trials are to bear fruit, their design and conduct must be done with a more comprehensive understanding of the pathophysiology and with better definition of the patient population."
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC10016932",
+ "pmid": "32563999",
+ "doi": "10.1136/postgradmedj-2020-138234",
+ "topic": "COVID-19 in hospital",
+ "title": "Origin, transmission, diagnosis and management of coronavirus disease 2019 (COVID-19).",
+ "authors": "Umakanthan S, Sahu P, Ranade AV, Bukelo MM, Rao JS, Abrahao-Machado LF, Dahal S, Kumar H, Kv D.",
+ "affiliation": "Paraclinical Sciences, The University of the West Indies at Saint Augustine Faculty of Medical Sciences, Saint Augustine, Trinidad and Tobago Srikanth.Umakanthan@sta.uwi.edu dr.u.srikanth@gmail.com.",
+ "journal": "Postgraduate medical journal",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 398,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Coronavirus has emerged as a global health threat due to its accelerated geographic spread over the last two decades. This article reviews the current state of knowledge concerning the origin, transmission, diagnosis and management of coronavirus disease 2019 (COVID-19). Historically, it has caused two pandemics: severe acute respiratory syndrome and Middle East respiratory syndrome followed by the present COVID-19 that emerged from China. The virus is believed to be acquired from zoonotic source and spreads through direct and contact transmission. The symptomatic phase manifests with fever, cough and myalgia to severe respiratory failure. The diagnosis is confirmed using reverse transcriptase PCR. Management of COVID-19 is mainly by supportive therapy along with mechanical ventilation in severe cases. Preventive strategies form the major role in reducing the public spread of virus along with successful disease isolation and community containment. Development of a vaccine to eliminate the virus from the host still remains an ongoing challenge.",
+ "sections": [
+  {
+   "h": "Management",
+   "text": "At the initial presentation of cluster infection, many cases were treated with antiviral therapy, antibacterial therapy and glucocorticoids. Observation forms the mainstay for those who have mild illness. Moderately ill patients with underlying chronic illness, immunocompromised conditions and pregnancy require hospitalisation.\n\nThe anti-malarial drugs, hydroxychloroquine and chloroquine, showed promising results in early in vitro study. However, the most robust and recent study in patients with COVID-19 have not shown unequivocal evidence of benefits for the treatment with hydroxychloroquine or chloroquine. In fact, the largest analysis to date of the risks and benefits of treating COVID-19 patients with these anti-malarial drugs was unable to confirm a benefit of hydroxychloroquine or chloroquine, when used alone or with a macrolide, on in-hospital outcomes for COVID-19. Besides, this study of 96 000 hospitalised patients on six continents found that those who received the drugs had a significantly higher risk of death and an increased frequency of ventricular arrhythmias compared with those who did not use it."
+  },
+  {
+   "h": "Treatment of systemic complications in COVID-19",
+   "text": "Extracorporeal membrane oxygenation is an excellent choice for patients with ARDS progressing to respiratory failure. Other modes of treatment include high-flow nasal oxygen and endotracheal intubation. Patients experiencing persistent refractory hypoxemia need prone positioning followed by neuromuscular blockade, inhaled nitric oxide (at 5–20ppm) and also provide optimal end-expiratory pressure by inserting oesophagal balloon.\n\nIn the presence of shock with acute renal failure, negative fluid balance needs to be achieved by dialysis. Antimicrobials are used for pre-exposure and post-exposure prophylaxis. This prevents illness from SARS-CoV-2 and also reduces the risk of acquiring secondary infection. Fluid management is important to reduce pulmonary oedema. Glucocorticoids are best avoided due to its harmful effects in viral pneumonia and ARDS. Rescue therapy by administration of intravenous infusion of vitamin C has been suggested to attenuate vascular injury and systemic inflammation in sepsis and ARDS."
+  },
+  {
+   "h": "Conclusion",
+   "text": "COVID-19 has presented itself as a global pandemic in a short time period resulting in rapid curve shift of infected patients, increasing death rates, huge global economic burden and widespread mobilisation of medical resource across the globe. Being a novel disease, COVID-19 has presented itself as a mystery infection to the medical field, also requiring tremendous research and insights about the nature of the virus, and posing frequent challenges for a successful vaccine outcome. The approach to this disease requires active loco-regional to international collaboration with regards to disease containment, preventive strategies and treatment approach."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC8945353",
+ "pmid": "35327376",
+ "doi": "10.3390/biomedicines10030574",
+ "topic": "stroke",
+ "title": "Oxidative Stress in Ischemia/Reperfusion Injuries following Acute Ischemic Stroke.",
+ "authors": "Jurcau A, Ardelean AI.",
+ "affiliation": "Department of Psycho-Neurosciences and Rehabilitation, Faculty of Medicine and Pharmacy, University of Oradea, 410087 Oradea, Romania.",
+ "journal": "Biomedicines",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 139,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Recanalization therapy is increasingly used in the treatment of acute ischemic stroke. However, in about one third of these patients, recanalization is followed by ischemia/reperfusion injuries, and clinically to worsening of the neurological status. Much research has focused on unraveling the involved mechanisms in order to prevent or efficiently treat these injuries. What we know so far is that oxidative stress and mitochondrial dysfunction are significantly involved in the pathogenesis of ischemia/reperfusion injury. However, despite promising results obtained in experimental research, clinical studies trying to interfere with the oxidative pathways have mostly failed. The current article discusses the main mechanisms leading to ischemia/reperfusion injuries, such as mitochondrial dysfunction, excitotoxicity, and oxidative stress, and reviews the clinical trials with antioxidant molecules highlighting recent developments and future strategies.",
+ "sections": [
+  {
+   "h": "4. From Bench to Bedside: Translating Knowledge on Oxidative Stress in Ischemic Stroke into Therapeutic Approaches",
+   "text": "Unfortunately, translating accumulated knowledge on the contribution of oxidative stress to cellular damage in ischemic stroke into more efficient therapies has proved a challenging endeavor. Despite success in preclinical trials, the clinical use of a series of molecules has failed or yielded inconclusive results, leading the scientific community to search for causes for these discrepancies in order to avoid future failures. Several factors have been identified [\n\nMost preclinical studies were performed in animal models of transient ischemia, lasting for 1–2 h, and much less frequently in models of permanent cerebral ischemia. Only a small percentage of human patients achieve recanalization so early. The therapeutic time window for endovascular treatment was extended to 24 h [\n\nThe success rates in preclinical models are determined by infarct size, while in clinical trial the endpoint is functional outcome, and a significant discrepancy between infarct volume and clinical deficits may exist in human subjects [\n\nStroke usually occurs in elderly people, with significant comorbidities, while preclinical studies are performed mainly on young and healthy animals. Aging leads to a significant decline in the brain’s ability to restore its biochemical and cellular functions, resulting in a 9-fold increase in mortality rates in aged rats [\n\nThe strategies to pharmaceutically diminish oxidative stress following cerebral ischemia and reperfusion can be subdivided into the following sections."
+  },
+  {
+   "h": "5. Concluding Remarks",
+   "text": "Given the complex interplay between the various cascades which contribute to tissue damage following cerebral ischemia and reperfusion, and the step-wise progression of these vicious pathways extending over days to weeks after the ischemic insult, it is likely that the one drug/one target approach will not yield rewarding results. Multi-targeted drugs, activation of the endogenous protective mechanisms, and a sequential approach with combination of multiple molecules seem more promising. A meta-analysis of 126 trials of treatments in animal stroke models showed that in terms of infarct size, single treatments reduced it by 20% and adding a second treatment offered an additional 18% reduction, while in terms of functional outcome, single treatments improved it by 12% with a further 25% improvement achieved by adding a second treatment [\n\nIn our view, antioxidants will have a definite place in the future of ischemic stroke treatment. Multimodal molecules, such as polyphenols, quercetin, or curcumin, with improved delivery (engineered as nanoparticles) and delivered prior to and together with recanalization therapies will allow antioxidants to diminish the magnitude of reperfusion injuries. Autologous stem cells could be harvested upon arrival of the patient in the stroke unit and cultured to allow transferring of healthy mitochondria to damaged cells ["
+  }
+ ]
+}

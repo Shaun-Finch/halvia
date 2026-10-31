@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC5390465",
+ "pmid": "28403909",
+ "doi": "10.1186/s13054-017-1670-9",
+ "topic": "cardiac arrest",
+ "title": "Clinical pathophysiology of hypoxic ischemic brain injury after cardiac arrest: a \"two-hit\" model.",
+ "authors": "Sekhon MS, Ainslie PN, Griesdale DE.",
+ "affiliation": "Division of Critical Care Medicine, Department of Medicine, Vancouver General Hospital, University of British Columbia, Room 2438, Jim Pattison Pavilion, 2nd Floor, 855 West 12th Avenue, Vancouver, BC, V5Z 1M9, Canada. mypindersekhon@gmail.com.",
+ "journal": "Critical care (London, England)",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 466,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Hypoxic ischemic brain injury (HIBI) after cardiac arrest (CA) is a leading cause of mortality and long-term neurologic disability in survivors. The pathophysiology of HIBI encompasses a heterogeneous cascade that culminates in secondary brain injury and neuronal cell death. This begins with primary injury to the brain caused by the immediate cessation of cerebral blood flow following CA. Thereafter, the secondary injury of HIBI takes place in the hours and days following the initial CA and reperfusion. Among factors that may be implicated in this secondary injury include reperfusion injury, microcirculatory dysfunction, impaired cerebral autoregulation, hypoxemia, hyperoxia, hyperthermia, fluctuations in arterial carbon dioxide, and concomitant anemia.Clarifying the underlying pathophysiology of HIBI is imperative and has been the focus of considerable research to identify therapeutic targets. Most notably, targeted temperature management has been studied rigorously in preventing secondary injury after HIBI and is associated with improved outcome compared with hyperthermia. Recent advances point to important roles of anemia, carbon dioxide perturbations, hypoxemia, hyperoxia, and cerebral edema as contributing to secondary injury after HIBI and adverse outcomes. Furthermore, breakthroughs in the individualization of perfusion targets for patients with HIBI using cerebral autoregulation monitoring represent an attractive area of future work with therapeutic implications.We provide an in-depth review of the pathophysiology of HIBI to critically evaluate current approaches for the early treatment of HIBI secondary to CA. Potential therapeutic targets and future research directions are summarized.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "HIBI pathophysiology is complex, with a significant contribution attributable to secondary injury. Researchers have investigated the effects of interventions aimed at preventing secondary injury, most notably hypothermia. Future targets of research include individualized perfusion targets, normobaric hyperoxia, transfusion triggers, and PaCO2 goals."
+  }
+ ]
+}

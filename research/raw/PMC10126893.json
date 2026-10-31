@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC10126893",
+ "pmid": "37052295",
+ "doi": "10.1017/s0950268823000328",
+ "topic": "meningitis",
+ "title": "Epidemiology of invasive meningococcal disease worldwide from 2010-2019: a literature review.",
+ "authors": "Pardo de Santayana C, Tin Tin Htar M, Findlow J, Balmer P.",
+ "affiliation": "Pfizer Vaccine Medical Development, Scientific and Clinical Affairs, Paris, France.",
+ "journal": "Epidemiology and infection",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 95,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The epidemiology of invasive meningococcal disease (IMD) is unpredictable, varies by region and age group and continuously evolves. This review aimed to describe trends in the incidence of IMD and serogroup distribution by age group and global region over time. Data were extracted from 90 subnational, national and multinational grey literature surveillance reports and 22 published articles related to the burden of IMD from 2010 to 2019 in 77 countries. The global incidence of IMD was generally low, with substantial variability between regions in circulating disease-causing serogroups. The highest incidence was usually observed in infants, generally followed by young children and adolescents/young adults, as well as older adults in some countries. Globally, serogroup B was a predominant cause of IMD in most countries. Additionally, there was a notable increase in the number of IMD cases caused by serogroups W and Y from 2010 to 2019 in several regions, highlighting the unpredictable and dynamic nature of the disease. Overall, serogroups A, B, C, W and Y were responsible for the vast majority of IMD cases, despite the availability of vaccines to prevent disease due to these serogroups.",
+ "sections": [
+  {
+   "h": "Summary",
+   "text": "IMD epidemiology is constantly evolving, and robust surveillance data are essential for its characterisation. Although global IMD incidence was generally low during 2010‒2019, relative predominance within circulating disease-causing serogroups varied substantially between countries. Changes in IMD epidemiology over time were likely influenced by natural fluctuations, emergence of virulent meningococcal clones (such as W:cc11), social trends and immunisation programs. Incidence was highest in infants, generally followed by young children; additional peaks were observed in adolescents/young adults and/or older adults in some countries. During the observation period, serogroup B generally predominated, while serogroup C remained ubiquitous but varied in proportion across global regions. Importantly, the number of IMD cases caused by serogroups W and Y notably increased during the study period. Although serogroup A no longer causes IMD in the African meningitis belt, serogroup A cases continue to occur in small numbers in other global regions. Thus, the vast majority of IMD cases were caused by serogroups A, B, C, W and Y, despite the availability of vaccines to prevent disease due to these serogroups."
+  }
+ ]
+}

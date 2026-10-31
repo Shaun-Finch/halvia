@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC7690410",
+ "pmid": "33105652",
+ "doi": "10.3390/antiox9111029",
+ "topic": "status epilepticus",
+ "title": "Seizure-Induced Oxidative Stress in Status Epilepticus: Is Antioxidant Beneficial?",
+ "authors": "Lin TK, Chen SD, Lin KJ, Chuang YC.",
+ "affiliation": "Department of Neurology, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung 83301, Taiwan.",
+ "journal": "Antioxidants (Basel, Switzerland)",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 67,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Epilepsy is a common neurological disorder which affects patients physically and mentally and causes a real burden for the patient, family and society both medically and economically. Currently, more than one-third of epilepsy patients are still under unsatisfied control, even with new anticonvulsants. Other measures may be added to those with drug-resistant epilepsy. Excessive neuronal synchronization is the hallmark of epileptic activity and prolonged epileptic discharges such as in status epilepticus can lead to various cellular events and result in neuronal damage or death. Unbalanced oxidative status is one of the early cellular events and a critical factor to determine the fate of neurons in epilepsy. To counteract excessive oxidative damage through exogenous antioxidant supplements or induction of endogenous antioxidative capability may be a reasonable approach for current anticonvulsant therapy. In this article, we will introduce the critical roles of oxidative stress and further discuss the potential use of antioxidants in this devastating disease.",
+ "sections": [
+  {
+   "h": "5. Conclusions and Future Perspective",
+   "text": "Epilepsy is a common neurological disease with a prevalence of 0.5–1.5% in the general population. Although antiepileptic drug or anticonvulsants is a standard treatment for patients with epilepsy, more than one-third of patients remain in poor control of seizure frequency, the so-called drug-resistant epilepsy even with the several new antiepileptic drugs used in recent decades. Status epilepticus, in patients with prolonged or continuous epileptic seizures, is often associated with significant morbidity and mortality. Emerging evidence reveals the significant role of ROS/RNS in status epilepticus. It is reasonable to speculate that besides antiepileptic drugs, the addition of antioxidants as a combination therapy may exert an additional beneficial effect, lessen the neuronal damage, and improve clinical outcomes. Here, we provide some evidence for the potential application of antioxidants in epileptic patients. However, more studies are still mandatory both pre-clinically and clinically in order to achieve this goal. Although mounting evidence revealed the success of antioxidants treatment in status epilepticus in pre-clinical studies as summarized in"
+  }
+ ]
+}

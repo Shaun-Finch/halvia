@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC11821718",
+ "pmid": "39379765",
+ "doi": "10.1007/s10877-024-01224-4",
+ "topic": "early warning scores",
+ "title": "Wearable devices as part of postoperative early warning score systems: a scoping review.",
+ "authors": "Bignami EG, Panizzi M, Bezzi F, Mion M, Bagnoli M, Bellini V.",
+ "affiliation": "Anesthesiology, Critical Care and Pain Medicine Division, Department of Medicine and Surgery, University of Parma, Viale Gramsci 14, 43126, Parma, Italy. elenagiovanna.bignami@unipr.it.",
+ "journal": "Journal of clinical monitoring and computing",
+ "year": "2025",
+ "license": "cc by",
+ "cited": 12,
+ "pubtypes": [
+  "Scoping Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Postoperative deterioration is often preceded by abnormalities in vital parameters, but limited resources prevent their continuous monitoring in patients with no indication to ICU admission. The development of new technologies allowed the introduction of wearable devices (WDs), enabling the possibility of postoperative monitoring in surgical wards. We performed a Scoping Review to determine the current use of wearable devices as part of Continuous Remote Early Warning Score (CREWS) systems and their efficiency during postoperative period. This Scoping Review was conducted according to PRISMA-ScR guidelines. PICO framework was used before the search to define the review protocol. Systematic literature research has been performed on PubMed, MeSH, MEDLINE and Embase, considering a period between 2018 and February 2024. Prospective and retrospective studies involving patients undergoing cardiac and non-cardiac surgery are included. A total of 10 articles were included in the review. 11 different CE/FDA approved wearable devices were used in the studies analyzed. In all studies the WDs were applied the day of the surgery. The use of WDs as part of CREWS systems is feasible and safe. Furthermore, with the aid of other technologies (LoRa and Artificial Intelligence), they shorten Length of Stay (LOS) and reduce the number of ICU admissions with a reduction in healthcare costs. Continuous monitoring in surgical departments can facilitate the correct and timely identification of postoperative complications. This article is a starting point for the development of new protocols and for the application of these monitoring systems in clinical practice.",
+ "sections": [
+  {
+   "h": "Conclusions",
+   "text": "We found 10 papers, most of them prospective, which describe and apply real case CREWS protocols using wearable devices and continuous monitoring.\n\nThese studies show the potential for these well accepted and convenient devices to be increasingly used in clinical practice as perioperative monitoring systems, also considering the ongoing introduction of devices and software that can be integrated with new technologies such as LoRa and artificial intelligence.\n\nMonitoring vital sign trends, rather than evaluating isolated alarms from wearable devices based on clinician-established thresholds, can enhance decision-making efficiency by fostering a proactive rather than reactive approach.\n\nOn the other hand, these promising devices should be validated better under a technical point of view, in particular regarding the RR measurement.\n\nIn conclusion, even if further studies are needed to develop and validate existing protocols, the evaluating of vital signs trends with continuous monitoring in non-intensive settings may facilitate the correct and timely identification of postoperative complications and the patient's postoperative setting."
+  }
+ ]
+}

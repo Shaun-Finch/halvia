@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC9576837",
+ "pmid": "36251136",
+ "doi": "10.1186/s13613-022-01072-y",
+ "topic": "intravenous fluids",
+ "title": "Intravenous fluid therapy in patients with severe acute pancreatitis admitted to the intensive care unit: a narrative review.",
+ "authors": "Crosignani A, Spina S, Marrazzo F, Cimbanassi S, Malbrain MLNG, Van Regenmortel N, Fumagalli R, Langer T.",
+ "affiliation": "School of Medicine and Surgery, University of Milan-Bicocca, Milan, Italy.",
+ "journal": "Annals of intensive care",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 53,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Patients with acute pancreatitis (AP) often require ICU admission, especially when signs of multiorgan failure are present, a condition that defines AP as severe. This disease is characterized by a massive pancreatic release of pro-inflammatory cytokines that causes a systemic inflammatory response syndrome and a profound intravascular fluid loss. This leads to a mixed hypovolemic and distributive shock and ultimately to multiorgan failure. Aggressive fluid resuscitation is traditionally considered the mainstay treatment of AP. In fact, all available guidelines underline the importance of fluid therapy, particularly in the first 24-48 h after disease onset. However, there is currently no consensus neither about the type, nor about the optimal fluid rate, total volume, or goal of fluid administration. In general, a starting fluid rate of 5-10 ml/kg/h of Ringer's lactate solution for the first 24 h has been recommended. Fluid administration should be aggressive in the first hours, and continued only for the appropriate time frame, being usually discontinued, or significantly reduced after the first 24-48 h after admission. Close clinical and hemodynamic monitoring along with the definition of clear resuscitation goals are fundamental. Generally accepted targets are urinary output, reversal of tachycardia and hypotension, and improvement of laboratory markers. However, the usefulness of different endpoints to guide fluid therapy is highly debated. The importance of close monitoring of fluid infusion and balance is acknowledged by most available guidelines to avoid the deleterious effect of fluid overload. Fluid therapy should be carefully tailored in patients with severe AP, as for other conditions frequently managed in the ICU requiring large fluid amounts, such as septic shock and burn injury. A combination of both noninvasive clinical and invasive hemodynamic parameters, and laboratory markers should guide clinicians in the early phase of severe AP to meet organ perfusion requirements with the proper administration of fluids while avoiding fluid overload. In this narrative review the most recent evidence about fluid therapy in severe AP is discussed and an operative algorithm for fluid administration based on an individualized approach is proposed.",
+ "sections": [
+  {
+   "h": "Fluid resuscitation: general recommendations",
+   "text": "Available guidelines for the treatment of AP underline the importance of early fluid therapy [\n\nSome studies have shown that the rapid reversal of hypovolemia is associated with improved outcomes [\n\nSome laboratory values such as hematocrit (Ht) and blood urea nitrogen (BUN) have been traditionally considered markers of hypovolemia and might contribute to the assessment of fluid status. High values at admission and their increase during the first 24–48 h could thus indicate inadequate fluid resuscitation [\n\nHemoconcentration (i.e., high Ht) is associated with high fluid sequestration and increased blood viscosity, which, by itself, might contribute to impaired pancreatic microcirculation, favoring pancreatic necrosis [\n\nIn addition, hypovolemia might lead to an increase in BUN. Its specificity is, however, low, as the increase might be multifactorial: hypovolemia, renal failure, increased protein catabolism, and gastrointestinal bleeding [\n\nWhile both parameters are discussed in literature, Ht might be a more appealing endpoint to guide fluid resuscitation, as compared to BUN, being the latter more influenced by other pathological conditions that are common in the critically ill patients. Moreover, Ht is relatively simple to measure, as it is commonly calculated from the results of the point-of-care arterial blood gas analysis."
+  },
+  {
+   "h": "Conclusions",
+   "text": "Fluid therapy is a key treatment of patients admitted to the ICU with severe forms of acute pancreatitis. A broadly accepted early and aggressive fluid therapy has been recently questioned due to potential harm and not definitive efficacy in clinical trials. Since there is a possible risk of under-resuscitation when a fixed infusion rate is used, a more tailored approach is warranted. It should be based on a careful assessment of the patient’s volume status, with enhanced volume expansion in the first hours of admission for the most severe cases. Crystalloids, and in particular RL, are the fluids of choice, with a suggested initial fluid rate usually ranging between 5–10 ml/kg/h. Then, if at any time during the first 24 h resuscitation goals are met, it is reasonable to reduce fluid rate to 2–3 ml/kg/h. Patients with SAP should be strictly monitored in the ICU, where advanced hemodynamic monitoring systems are available to guide clinicians."
+  }
+ ]
+}

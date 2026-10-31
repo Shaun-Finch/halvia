@@ -1,0 +1,41 @@
+{
+ "pmcid": "PMC8139870",
+ "pmid": "33895231",
+ "doi": "10.1016/j.resuscitation.2021.04.010",
+ "topic": "anaphylaxis",
+ "title": "Evidence update for the treatment of anaphylaxis.",
+ "authors": "Dodd A, Hughes A, Sargant N, Whyte AF, Soar J, Turner PJ.",
+ "affiliation": "Severn Deanery, UK.",
+ "journal": "Resuscitation",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 80,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "The Resuscitation Council UK has updated its Guideline for healthcare providers on the Emergency treatment of anaphylaxis. As part of this process, an evidence review was undertaken by the Guideline Working Group, using an internationally-accepted approach for adoption, adaptation, and de novo guideline development based on the Grading of Recommendations Assessment, Development and Evaluation (GRADE) evidence to decision (EtD) framework, referred to as GRADE-ADOLOPMENT. A number of significant changes have been made, which will be reflected in the updated Guideline. These include: emphasis on repeating intramuscular adrenaline doses after 5 min if symptoms of anaphylaxis do not resolve; corticosteroids (e.g. hydrocortisone) no longer being routinely recommended for the emergency treatment of anaphylaxis; interventions for reactions which are refractory to initial treatment with adrenaline; a recommendation against the use of antihistamines for the acute management of anaphylaxis; and guidance relating to the duration of observation following anaphylaxis, and timing of discharge.",
+ "sections": [
+  {
+   "h": "Recommendation",
+   "text": "Adrenaline should be administered early once symptoms of anaphylaxis have been recognized or suspected (weak recommendation, very low certainty evidence).\n\n(adopted from RCUK 2008 and EAACI 2014 guidelines)"
+  },
+  {
+   "h": "Updated recommendations",
+   "text": "(adapted from RCUK 2008, EAACI 2014 and ASCIA 2020 guidelines, with greater emphasis on early recognition of refractory reactions and further adrenaline treatment, preferably using a low dose IV adrenaline infusion)"
+  },
+  {
+   "h": "Updated recommendations:",
+   "text": "(adapted from RCUK 2008, WAO 2011/2020, EAACI 2014 and ASCIA 2020 guidelines, with greater emphasis on the risks of antihistamines delaying timely and appropriate use of adrenaline to treat anaphylaxis)"
+  },
+  {
+   "h": "Updated recommendations",
+   "text": "(adapted from RCUK 2008 and JTFPP 2020 guidelines, in view of new data which casts further doubt on the efficacy of steroids to prevent biphasic reactions and possibility of harm (increased need for hospitalisation) in at least one study)"
+  },
+  {
+   "h": "Conclusion",
+   "text": "We used the GRADE-ADOLOPMENT process to evaluate current evidence for the emergency treatment of anaphylaxis, incorporating a public consultation, to inform the updated 2021 Resuscitation Council UK Anaphylaxis Guideline."
+  }
+ ]
+}

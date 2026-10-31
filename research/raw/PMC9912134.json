@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC9912134",
+ "pmid": "36757700",
+ "doi": "10.1001/jamanetworkopen.2022.53806",
+ "topic": "antimicrobial stewardship",
+ "title": "Association Between Antimicrobial Stewardship Programs and Antibiotic Use Globally: A Systematic Review and Meta-Analysis.",
+ "authors": "Zay Ya K, Win PTN, Bielicki J, Lambiris M, Fink G.",
+ "affiliation": "Department of Epidemiology and Public Health, Swiss Tropical and Public Health Institute, Allschwil, Switzerland.",
+ "journal": "JAMA network open",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 146,
+ "pubtypes": [
+  "Meta-Analysis",
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Importance Antimicrobial resistance continues to spread rapidly at a global scale. Little evidence exists on the association of antimicrobial stewardship programs (ASPs) with the consumption of antibiotics across health care and income settings. Objective To synthesize current evidence regarding the association between antimicrobial stewardship programs and the consumption of antibiotics globally. Data sources PubMed, Web of Science, and Scopus databases were searched from August 1, 2010, to Aug 1, 2020. Additional studies from the bibliography sections of previous systematic reviews were included. Study selection Original studies of the association of ASPs with antimicrobial consumption across health care and income settings. Animal and environmental studies were excluded. Data extraction and synthesis Following the Preferred Reporting Items in Systematic Reviews and Meta-Analyses guideline, the pooled association of targeted ASPs with antimicrobial consumption was measured using multilevel random-effects models. The Effective Public Health Practice Project quality assessment tool was used to assess study quality. Main outcomes and measures The main outcome measures were proportion of patients receiving an antibiotic prescription and defined daily doses per 100 patient-days. Results Overall, 52 studies (with 1 794 889 participants) measured the association between ASPs and antimicrobial consumption and were included, with 40 studies conducted in high-income countries and 12 in low- and middle-income countries (LMICs). ASPs were associated with a 10% (95% CI, 4%-15%) reduction in antibiotic prescriptions and a 28% reduction in antibiotic consumption (rate ratio, 0.72; 95% CI, 0.56-0.92). ASPs were also associated with a 21% (95% CI, 5%-36%) reduction in antibiotic consumption in pediatric hospitals and a 28% reduction in World Health Organization watch groups antibiotics (rate ratio, 0.72; 95% CI, 0.56-0.92). Conclusions and relevance In this systematic review and meta-analysis, ASPs appeared to be effective in reducing antibiotic consumption in both hospital and nonhospital settings. Impact assessment of ASPs in resource-limited settings remains scarce; further research is needed on how to best achieve reductions in antibiotic use in LMICs.",
+ "sections": [
+  {
+   "h": "Risk of Bias Assessment",
+   "text": "We used the Effective Public Health Practice Project (EPHPP) quality assessment tool to assess 6 domains of quality: (1) selection bias, (2) design, (3) confounders, (4) blinding, (5) data collection methods, and (6) withdrawal and dropouts. EPHPP is a widely used assessment tool for quantitative studies designed for systematic literature reviews of effectiveness studies. The aim of the quality assessment was to evaluate the overall quality of evidence and the risk of bias. Two independent reviewers rated all articles as strong, moderate, or weak in each domain (eTable 3 in"
+  },
+  {
+   "h": "Conclusions",
+   "text": "In this systematic review and meta-analysis of the association of ASPs with antimicrobial consumption, ASPs were associated with reduced antibiotic consumption in both hospital and nonhospital settings. Our results show that ASPs can reduce the consumption of WHO Watch group antibiotics with high resistance potential and can potentially contribute to major reductions in antimicrobial consumption in pediatric patients. Overuse and misuse of antibiotics are the main drivers of AMR; reducing antimicrobial consumption through ASPs should thus contribute toward reducing the risk of AMR. This study is limited by the availability of assessments of ASPs in resource-limited settings. Pragmatic randomized clinical trials of ASPs explicitly linking appropriateness of antibiotic utilization to resistant bacterial prevalence as an outcome should therefore be a key research priority. Performance of ASPs might vary considerably in different income settings, and this warrants a particular focus on LMICs where implementation of ASPs could face operational, behavioral, and financial challenges."
+  }
+ ]
+}

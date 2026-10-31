@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC5342240",
+ "pmid": "28273133",
+ "doi": "10.1371/journal.pone.0173107",
+ "topic": "acute pain",
+ "title": "Postoperative pain treatment after total knee arthroplasty: A systematic review.",
+ "authors": "Karlsen AP, Wetterslev M, Hansen SE, Hansen MS, Mathiesen O, Dahl JB.",
+ "affiliation": "Department of Anaesthesia, Bispebjerg and Frederiksberg Hospital, Copenhagen, Denmark.",
+ "journal": "PloS one",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 132,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Introduction The aim of this systematic review was to document efficacy, safety and quality of evidence of analgesic interventions after total knee arthroplasty (TKA). Methods This PRISMA-compliant and PROSPERO-registered review includes all-language randomized controlled trials of medication-based analgesic interventions after TKA. Bias was evaluated according to Cochrane methodology. Outcomes were opioid consumption (primary), pain scores at rest and during mobilization, adverse events, and length of stay. Interventions investigated in three or more trials were meta-analysed. Outcomes were evaluated using forest plots, Grading of Recommendations Assessment, Development and Evaluation (GRADE), L'Abbe Plots and trial sequential analysis. Results The included 113 trials, investigating 37 different analgesic interventions, were characterized by unclear/high risk of bias, low assay sensitivity and considerable differences in pain assessment tools, basic analgesic regimens, and reporting of adverse events. In meta-analyses single and continuous femoral nerve block (FNB), intrathecal morphine, local infiltration analgesia, intraarticular injection of local anaesthetics, non-steroidal anti-inflammatory drugs, and gabapentinoids demonstrated significant analgesic effects. The 24-hour morphine-sparing effects ranged from 4.2 mg (CI: 1.3, 7.2; intraarticular local anaesthetics), to 16.6 mg (CI: 11.2, 22; single FNB). Pain relieving effects at rest at 6 hours ranged from 4 mm (CI: -10, 2; gabapentinoids), to 19 mm (CI: 8, 31; single FNB), and at 24 hours from 3 mm (CI: -2, 8; gabapentinoids), to 16 mm (CI: 8, 23; continuous FNB). GRADE-rated quality of evidence was generally low. Conclusion A low quality of evidence, small sample sizes and heterogeneity of trial designs prohibit designation of an optimal procedure-specific analgesic regimen after TKA.",
+ "sections": [
+  {
+   "h": "Bias assessment",
+   "text": "We used the Cochrane bias assessment tool [\n\nIn addition, we evaluated trial sample size as a contributor to bias. A cumulated trial sample size of < 50 patients was rated as high risk of bias, 50–199 as moderate risk of bias, 200–499 as low risk of bias, and > 499 as very low risk of bias based on Dechartres et al. ["
+  },
+  {
+   "h": "Summary of findings",
+   "text": "Quality of evidence was assessed with The Grading of Recommendations Assessment, Development and Evaluation (GRADE). Five factors were evaluated for each outcome: Study limitations; publication bias; indirectness of evidence; inconsistent results; and imprecision (evaluation based on results in TSA) [\n\nOutcome effects and quality of evidence were summarized according to GRADE using GRADEpro 3.6."
+  },
+  {
+   "h": "Interpretation of meta-analysed interventions",
+   "text": "For oral treatments we analyzed two subgroups: NSAIDs/COX-2-inhibitors and gabapentinoids.\n\nThe included trials in the NSAID subgroup were characterized by low assay sensitivity, which contributes to a low absolute effect. However, the intervention provided a small but statistically significant effect on pain scores and morphine consumption. The adverse event profile of NSAIDs is controversial and short follow up periods in randomized pain trials in general may be problematic for the detection hereof (17). However, the meta-analyses did not demonstrate an increased risk of adverse effects which is supported by similar results in the review regarding THA [\n\nThe evidence regarding gabapentinoids was even less convincing, with insignificant results partially due to a low number of included trials.\n\nFour meta-analysed interventions investigated procedure specific local anaesthetic interventions: single FNB, continuous FNB, LIA, and intraarticular injection of local anaesthetics. When reviewing the outcomes, intraarticular injection tended to be inferior compared to the other interventions.\n\nSingle FNB performed slightly better in two out of three primary outcomes compared to continuous FNB. The strength of evidence in TSA was generally high for both interventions. Continuous FNB is a more invasive, time consuming and for the patient cumbersome procedure due to the postoperative catheterization.\n\nSingle FNB and LIA provided equally satisfying analgesia. Both procedures demonstrated a relevant reduction in morphine consumption, pain scores and PONV. A recent systematic review of trials comparing LIA to FNB after TKA reported a small insignificant difference in analgesic effect favoring LIA [\n\nThe meta-analysis of intrathecal morphine demonstrated some analgesic effect on morphine consumption and pain scores, but a rather large increase in morphine related adverse events."
+  }
+ ]
+}

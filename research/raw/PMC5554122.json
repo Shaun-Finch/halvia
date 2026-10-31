@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC5554122",
+ "pmid": "28848725",
+ "doi": "10.3389/fped.2017.00170",
+ "topic": "pulmonary embolism",
+ "title": "Pulmonary Embolism in Children.",
+ "authors": "Zaidi AU, Hutchins KK, Rajpurkar M.",
+ "affiliation": "Division of Hematology Oncology, Carman and Ann Adams Department of Pediatrics, Wayne State University School of Medicine, Children's Hospital of Michigan, Detroit, MI, United States.",
+ "journal": "Frontiers in pediatrics",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 53,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Pulmonary embolism (PE) in the pediatric population is relatively rare when compared to adults; however, the incidence is increasing and accurate and timely diagnosis is critical. A high clinical index of suspicion is warranted as PE often goes unrecognized among children leading to misdiagnosis and potentially increased morbidity and mortality. Evidence-based guidelines for the diagnosis, management, and follow-up of children with PE are lacking and current practices are extrapolated from adult data. Treatment options include thrombolysis and anticoagulation with heparins and oral vitamin K antagonists, with newer direct oral anticoagulants currently in clinical trials. Long-term sequelae of PE, although studied in adults, are vastly unknown among children and adolescents. Additional research is needed in order to provide pediatric focused care for patients with acute PE.",
+ "sections": [
+  {
+   "h": "Treatment",
+   "text": "Prompt recognition and diagnosis is of utmost importance to not only prevent progression and adverse sequelae of underlying PE but also to avoid unnecessary invasive treatment (\n\nThere are no specific treatment algorithms for management of PE in children. Each institution should consider a treatment approach that works best for the individual setting. Some centers have developed pulmonary embolism response teams with involvement from multidisciplinary teams, such as hematology, emergency department, intensive care, and interventional cardiologists (in vitro clot lysis activity, and fibrin specificity (via a peripheral vein (systemic thrombolysis) or via catheter-directed thrombolysis where-in a catheter is placed in close proximity to the clot. Although there are no specific preferences, in general, catheter-directed therapy is preferred if there is a higher perceived risk of bleeding. Furthermore, although there are ACCP guidelines concerning dosing, the optimal dose for rtPA for the management of pediatric PE has not been established. Currently, there are two dosing regimens with each presenting potential advantage. One regimen uses rtPA at a higher dose of 0.1–0.6 mg/kg/h for 6 h. While this may offer the advantage of improved clot resolution, there may be higher risk of bleeding. On the other hand, a low-dose regimen consisting of 0.03–0.06 mg/kg/h with a maximum dose of 2 mg/h has been shown to be efficacious with less risk of bleeding (\n\nUnfractionated heparin (UFH: 75 U/kg over 10 min intravenous followed by 20 U/kg/h for patients >1 year, 28 U/kg/h for <1 year of age) and low molecular weight heparin (LMWH: 1 mg/kg twice daily subcutaneously for patients >2 months of age, 1.5 mg/kg twice daily subcutaneously for patients <2 months of age) remain the most commonly used initial therapies for children with PE. If the patient is not clinically stable or has a higher risk of bleeding, UFH may be used as this is easily reversible and has a shorter half-life. Long-term treatment consists of either LMWH or warfarin. The duration of therapy in PE has not been defined and treatment duration has varied from 3 months to 1 year. Newer direct oral anticoagulants such as rivaroxaban, which directly inhibits factor Xa, have been studied in randomized controlled trials among adults for use in PE ("
+  },
+  {
+   "h": "Conclusion",
+   "text": "Pulmonary embolism is a rare, but potentially fatal, condition that often goes unrecognized among the pediatric population. It is critical to maintain a high index of suspicion of PE particularly among patients at greatest risk, including patients with a CVL, congenital heart disease or other conditions known to predispose to PE (obesity, hormonal supplementation, etc.). Diagnostic prediction models for the diagnosis of PE, such as the Wells criteria and Geneva score, have been validated among the adult population; however, there are no similar models for use among children and adolescents that are greatly needed. CT angiography is the primary modality utilized for diagnosis of PE in this age group. The mainstay of treatment remains UFH, LMWH, or warfarin for these patients, and trials are ongoing to determine the utility of newer oral anticoagulants as potential alternatives. It is critical that the field of pediatric hematology continues to focus research on patients with acute and chronic VTE not only to improve the knowledge and understanding of this disease process but to provide improved, evidenced-based care for these patients."
+  }
+ ]
+}

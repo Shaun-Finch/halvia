@@ -1,0 +1,34 @@
+{
+ "pmcid": "PMC8561958",
+ "pmid": "34724964",
+ "doi": "10.1186/s13054-021-03799-9",
+ "topic": "major haemorrhage",
+ "title": "Effect of tranexamic acid on thrombotic events and seizures in bleeding patients: a systematic review and meta-analysis.",
+ "authors": "Murao S, Nakata H, Roberts I, Yamakawa K.",
+ "affiliation": "Department of Traumatology and Acute Critical Medicine, Osaka University Graduate School of Medicine, Suita, Osaka, 565-0871, Japan.",
+ "journal": "Critical care (London, England)",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 113,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Tranexamic acid (TXA) reduces surgical bleeding and reduces death from bleeding after trauma and childbirth. However, its effects on thrombotic events and seizures are less clear. We conducted a systematic review and meta-analysis to examine the safety of TXA in bleeding patients. Methods For this systematic review and meta-analysis, we searched MEDLINE, EMBASE and the Cochrane Central Register of Controlled trials from inception until June 1, 2020. We included randomized trials comparing intravenous tranexamic acid and placebo or no intervention in bleeding patients. The primary outcomes were thrombotic events, venous thromboembolism, acute coronary syndrome, stroke and seizures. A meta-analysis was performed using a random effects model and meta-regression analysis was performed to evaluate how effects vary by dose. We assessed the certainty of evidence using the grading of recommendations, assessment, development and evaluations (GRADE) approach. Results A total of 234 studies with 102,681 patients were included in the meta-analysis. In bleeding patients, there was no evidence that TXA increased the risk of thrombotic events (RR = 1.00 [95% CI 0.93-1.08]), seizures (1.18 [0.91-1.53]), venous thromboembolism (1.04 [0.92-1.17]), acute coronary syndrome (0.88 [0.78-1.00]) or stroke (1.12 [0.98-1.27]). In a dose-by-dose sensitivity analysis, seizures were increased in patients receiving more than 2 g/day of TXA (3.05 [1.01-9.20]). Meta-regression showed an increased risk of seizures with increased dose of TXA (p = 0.011). Conclusion Tranexamic acid did not appear to increase the risk of thrombotic events in bleeding patients. However, because there may be dose-dependent increase in the risk of seizures, very high doses should be avoided.",
+ "sections": [
+  {
+   "h": "Quality assessment",
+   "text": "Two authors (HN, SM) independently assessed the risk of systematic errors (bias) of the trials included in the meta-analysis according to the Cochrane Handbook, version 6.1 [\n\nRisk of bias was rated according to the following domains (1) bias due to randomization, (2) bias due to deviations from indented interventions, (3) bias due to missing data, (4) bias due to outcome measurement, (5) bias due to selection of reported result. Trials adjudicated as having concerns or having high risk of bias for one or more domains were classified as having an overall high risk of bias."
+  },
+  {
+   "h": "Summary of main results",
+   "text": "In this systematic review and meta-analysis, intravenous tranexamic acid administration did not appear to increase the risk of thrombotic events and seizures in bleeding patients. In per disease analysis, the risk of thrombotic events and stroke was higher in the TXA group than control in intracranial hemorrhage. With regard to seizures, its risk was increased in cardiac surgery and gastrointestinal hemorrhage, and those increase probably came from higher dose of TXA use. In view of the evidence, tranexamic can be safely used in bleeding patients, especially in trauma, obstetrics and gynecology and orthopedic surgery. There may be a dose-dependent increase in the risk of seizures."
+  },
+  {
+   "h": "Conclusion",
+   "text": "In conclusion, there is no evidence that tranexamic acid increases the risk of thrombotic events and seizures, and thus can be safely used in bleeding patients. However, because there may be dose-dependent increase in the risk of seizures, the administration of high doses should be avoided."
+  }
+ ]
+}

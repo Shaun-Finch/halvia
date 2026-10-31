@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC11366986",
+ "pmid": "39228492",
+ "doi": "10.31083/j.rcm2508302",
+ "topic": "chest pain",
+ "title": "How to Approach Patients with Acute Chest Pain.",
+ "authors": "Inoue K, Minamino T.",
+ "affiliation": "Department of Cardiovascular Biology and Medicine, Juntendo University Nerima Hospital, 177-0033 Tokyo, Japan.",
+ "journal": "Reviews in cardiovascular medicine",
+ "year": "2024",
+ "license": "cc by",
+ "cited": 2,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Acute coronary syndrome (ACS) is associated with high mortality rates. Although the goal was to achieve a missed diagnosis rate of   2%. Chest pain diagnosis has remained unchanged over the years and is based on medical interviews and electrocardiograms (ECG), with biomarkers playing complementary roles. We aimed to summarize the key points of medical interviews, ECG clinics, use of biomarkers, and clinical scores, identify problems, and provide directions for future research. Medical interviews should focus on the character and location of chest pain (is it accompanied by radiating pain?) and the duration, induction, and ameliorating factors. An ECG should be recorded within 10 minutes of the presentation. The serial performance of an ECG is recommended for emergency department (ED) evaluation of suspected ACS. Characteristic ECG traces, such as Wellens syndrome and De Winter T-waves, should be understood. Therefore, troponin levels in all patients with suspected ischemic heart disease should be examined using a highly sensitive assay system. Depending on the ED facility, the patient should be risk stratified by serial measurements of cardiac troponin levels (re-testing at one hour would be preferred) to determine the appropriate time to perform an invasive strategy for a definitive diagnosis. The diagnostics should be based on Bayes' theorem; however, care should be taken to avoid the influence of heuristic bias.",
+ "sections": [
+  {
+   "h": "9.2 Interpretation of Troponin Values in Patients with Heart Failure at Presentation",
+   "text": "If a patient with heart failure show a troponin level above the 99th percentile, ischemic heart disease may be the underlying cause. However, in clinical practice, the first priority should be managing the heart failure itself. Coronary artery evaluation should only be considered if heart failure is not well controlled, rather than based on troponin values. The timing of coronary artery evaluation should be based on vital signs, including the patient’s respiratory status, rather than by troponin levels."
+  },
+  {
+   "h": "10. Conclusions",
+   "text": "We reviewed the current status of how to approach patients with acute chest pain. This issue is long-standing, but has not been resolved. The reason why innovative methods for chest pain management have yet to be firmly established lies in the complexity and variability of chest pain etiology. Chest pain can originate from a wide range of causes, including cardiac, gastrointestinal, musculoskeletal, and psychological sources, making a one-size-fits-all approach challenging. Moreover, individual patient factors, such as comorbidities and varying presentations of symptoms, add layers of complexity to developing universally applicable and effective treatment protocols. The decision-making method that uses the technique with the highest empirical probability of resolution is called a heuristic. It is almost synonymous with the rules of thumb, quick thinking, and intuition. Decision-making is usually based on this process because it solves problems with less effort. The difference in the accuracy rates between experienced and young ED physicians can be attributed to the breadth of the heuristic repertoire. Heuristic bias, a negative aspect of heuristics, begins to appear when clinicians become slightly more familiar with them. Therefore, clinicians need to estimate the prior probability of diagnosis qualitatively from the medical interview and ECG within the limited time available in the ED and pay attention to increasing the post-test probability by quantitative evaluation using troponin to reduce the number of severe missed cases."
+  }
+ ]
+}

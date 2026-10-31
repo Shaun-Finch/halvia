@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC9871603",
+ "pmid": "36704229",
+ "doi": "10.3389/fncom.2022.1090301",
+ "topic": "handover and communication",
+ "title": "Research on the network handoff strategy based on the best access point name decision.",
+ "authors": "Shu Z, Shu YJ, Zhang Q, Ye HR.",
+ "affiliation": "School of Electronic and Information Engineering, Jingchu University of Technology, Jingmen, China.",
+ "journal": "Frontiers in computational neuroscience",
+ "year": "2022",
+ "license": "cc by",
+ "cited": 0,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "To improve the network switching performance and efficiency of mobile phone terminals and establish an efficient mobile communication network connection, this paper constructs the SDN+MPTCP+CP (Software Defined Network, Multi-Path TCP, and Mobile Terminal) mobile communication network model and designs a network switching algorithm with a preselected available access point name (APN) based on the potential game method. The constructed network model integrates a 5G mobile communication network, satellite communication, the SDN network, and the MPTCP multi-way communication technology. APN access point is preselected by using Kalman filtering theory, and dual problems are resolved with the Lagrange function. To determine the MPTCP sub-flow transmission path, the differential derivative calculation is introduced. The performance of the network switching strategy is evaluated based on the Jacobian matrix. Then, the game coefficient is designed, and the game function is calculated. A potential game balance point is found, and an updating strategy is formulated to determine the best APN access point. The simulation network model is constructed, and the parameters of the performance evaluation are defined to find the performance comprehensively. The experimental results demonstrated the extreme reliability, stability, and compatibility of the proposed algorithm.",
+ "sections": [
+  {
+   "h": "5. Conclusion",
+   "text": "The manuscript employed SDN technology to manage the resources of a mobile network system. The network switching mode is closely related to the strength of the signal of the APN access point. Besides, the game theory is introduced in the enhanced network handover method. Moreover, the transmission performance parameters of network evaluation, namely, throughput and transmission delay of the network, and packet loss rate of the MPTCP sub-flow transmission were introduced. The main conclusions of the research work were summarized as follows:\n\nFuture research will focus on the internal improvement of the MPTCP communication protocol, advance the transmission performance of MPTCP sub-streams and provide a stable and efficient transmission platform for the data stream. The research results of the 6G communication network can be combined with the current outcomes to improve the stability and reliability of the interface with satellite communication and more complex network connections and network switching can be ensured."
+  }
+ ]
+}

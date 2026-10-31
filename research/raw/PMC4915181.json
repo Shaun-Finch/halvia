@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC4915181",
+ "pmid": "27323708",
+ "doi": "10.1186/s13054-016-1318-1",
+ "topic": "head injury",
+ "title": "Chronic impact of traumatic brain injury on outcome and quality of life: a narrative review.",
+ "authors": "Stocchetti N, Zanier ER.",
+ "affiliation": "Department of Physiopathology and Transplantation, Milan University, Milan, Italy.",
+ "journal": "Critical care (London, England)",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 325,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Traditionally seen as a sudden, brutal event with short-term impairment, traumatic brain injury (TBI) may cause persistent, sometimes life-long, consequences. While mortality after TBI has been reduced, a high proportion of severe TBI survivors require prolonged rehabilitation and may suffer long-term physical, cognitive, and psychological disorders. Additionally, chronic consequences have been identified not only after severe TBI but also in a proportion of cases previously classified as moderate or mild. This burden affects the daily life of survivors and their families; it also has relevant social and economic costs.Outcome evaluation is difficult for several reasons: co-existing extra-cranial injuries (spinal cord damage, for instance) may affect independence and quality of life outside the pure TBI effects; scales may not capture subtle, but important, changes; co-operation from patients may be impossible in the most severe cases. Several instruments have been developed for capturing specific aspects, from generic health status to specific cognitive functions. Even simple instruments, however, have demonstrated variable inter-rater agreement.The possible links between structural traumatic brain damage and functional impairment have been explored both experimentally and in the clinical setting with advanced neuro-imaging techniques. We briefly report on some fundamental findings, which may also offer potential targets for future therapies.Better understanding of damage mechanisms and new approaches to neuroprotection-restoration may offer better outcomes for the millions of survivors of TBI.",
+ "sections": [
+  {
+   "h": "Outcome assessment",
+   "text": "Outcome assessment after TBI is complex and the specific consequences due to brain damage are sometimes difficult to identify. Brain trauma, especially in the case of road traffic accidents, is often associated with extra-cranial injuries. These injuries may themselves cause disabilities, sometimes to an overwhelming extent, as in case of concomitant spinal cord damage. Facial injuries, ocular damage, limb lesions or amputations, pelvic fractures, etc. are further examples of associated injuries potentially affecting quality of life (QoL) independent of, or in association with, brain damage.\n\nAccordingly, pre-existing diseases may confuse the assessment: if TBI affects a person with a history of substance abuse or in the context of severe psychiatric disorders, the dissection of the pure effect of head injury becomes arduous or impossible.\n\nThe Glasgow Outcome Scale (GOS), a simple, five point scale, was designed in 1975 specifically for assessing outcome after TBI [\n\nTwo major improvements have been subsequently introduced: an extended GOS scale, based on eight categories, and a structured interview for guiding the examiners toward a final accurate score [\n\nDespite the simplicity of the GOS and the guidance offered by the structured interview, discrepancies among raters remained a problem: when, during a trial on a neuroprotective agent, the results of interviews were reviewed centrally, more than one-third of the scores were discordant [\n\nObjective measurements of mental and physical function, as performed using a range of tools, may miss the patient’s own perspective on QoL, while he/she is the most qualified expert for evaluating the quality of his/her own life.\n\nThis could be captured by instruments for assessing the generic health status, such as the Medical Outcomes Survey 36-Item Short Form Health Questionnaire (SF-36) [\n\nQoL is usually self-reported but self-reporting is not suitable for the most severe cases, with aphasia or persistent vegetative status.\n\nIdeally a combination of instruments, such as the extended GOS and the QOLIBRI or other additional tools, could document important domains that are often not sufficiently investigated, such as interpersonal relationships, social and leisure activities, self and the environment, etc. ["
+  },
+  {
+   "h": "Conclusions",
+   "text": "Traditionally seen as a sudden, brutal event with short-term consequences, TBI may cause persistent, sometimes life-long, consequences.\n\nA huge amount of work has been invested in improving early TBI care, from rescue to emergency surgical interventions, prevention of secondary insults, acute treatment of intracranial hypertension in intensive care, etc. Data bases with ten thousands of patients have been assembled to better define diagnosis, management, and prognosis in the acute phase. In contrast, fewer data, usually on a very limited numbers of cases, are available on long-term outcomes. This is striking, because bringing patients with head injuries back to an enjoyable life should be the ultimate goal of any treatment.\n\nImportant long-term consequences have been identified not only after severe TBI but also in a relevant proportion of cases previously classified as moderate or mild.\n\nBetter understanding of the damage mechanisms and new approaches to neuroprotection-restoration may offer better outcomes for millions of survivors of TBI."
+  }
+ ]
+}

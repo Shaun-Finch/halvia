@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC5704695",
+ "pmid": "29183961",
+ "doi": "10.1136/bmj.j5058",
+ "topic": "atrial fibrillation",
+ "title": "Oral anticoagulants for prevention of stroke in atrial fibrillation: systematic review, network meta-analysis, and cost effectiveness analysis.",
+ "authors": "López-López JA, Sterne JAC, Thom HHZ, Higgins JPT, Hingorani AD, Okoli GN, Davies PA, Bodalia PN, Bryden PA, Welton NJ, Hollingworth W, Caldwell DM, Savović J, Dias S, Salisbury C, Eaton D, Stephens-Boal A, Sofat R.",
+ "affiliation": "Department of Population Health Sciences, Bristol Medical School, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, UK.",
+ "journal": "BMJ (Clinical research ed.)",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 416,
+ "pubtypes": [
+  "research-article",
+  "Systematic Review",
+  "Network Meta-Analysis",
+  "Journal Article"
+ ],
+ "abstract": "Objective  To compare the efficacy, safety, and cost effectiveness of direct acting oral anticoagulants (DOACs) for patients with atrial fibrillation. Design  Systematic review, network meta-analysis, and cost effectiveness analysis.  Data sources  Medline, PreMedline, Embase, and The Cochrane Library. Eligibility criteria for selecting studies  Published randomised trials evaluating the use of a DOAC, vitamin K antagonist, or antiplatelet drug for prevention of stroke in patients with atrial fibrillation. Results  23 randomised trials involving 94 656 patients were analysed: 13 compared a DOAC with warfarin dosed to achieve a target INR of 2.0-3.0. Apixaban 5 mg twice daily (odds ratio 0.79, 95% confidence interval 0.66 to 0.94), dabigatran 150 mg twice daily (0.65, 0.52 to 0.81), edoxaban 60 mg once daily (0.86, 0.74 to 1.01), and rivaroxaban 20 mg once daily (0.88, 0.74 to 1.03) reduced the risk of stroke or systemic embolism compared with warfarin. The risk of stroke or systemic embolism was higher with edoxaban 60 mg once daily (1.33, 1.02 to 1.75) and rivaroxaban 20 mg once daily (1.35, 1.03 to 1.78) than with dabigatran 150 mg twice daily. The risk of all-cause mortality was lower with all DOACs than with warfarin. Apixaban 5 mg twice daily (0.71, 0.61 to 0.81), dabigatran 110 mg twice daily (0.80, 0.69 to 0.93), edoxaban 30 mg once daily (0.46, 0.40 to 0.54), and edoxaban 60 mg once daily (0.78, 0.69 to 0.90) reduced the risk of major bleeding compared with warfarin. The risk of major bleeding was higher with dabigatran 150 mg twice daily than apixaban 5 mg twice daily (1.33, 1.09 to 1.62), rivaroxaban 20 mg twice daily than apixaban 5 mg twice daily (1.45, 1.19 to 1.78), and rivaroxaban 20 mg twice daily than edoxaban 60 mg once daily (1.31, 1.07 to 1.59). The risk of intracranial bleeding was substantially lower for most DOACs compared with warfarin, whereas the risk of gastrointestinal bleeding was higher with some DOACs than warfarin. Apixaban 5 mg twice daily was ranked the highest for most outcomes, and was cost effective compared with warfarin. Conclusions  The network meta-analysis informs the choice of DOACs for prevention of stroke in patients with atrial fibrillation. Several DOACs are of net benefit compared with warfarin. A trial directly comparing DOACs would overcome the need for indirect comparisons to be made through network meta-analysis. Systematic review registration  PROSPERO CRD 42013005324.",
+ "sections": [
+  {
+   "h": "Collection of data and assessment of the risk of bias",
+   "text": "Two members of the review team independently screened titles and abstracts. We assessed full texts of all potentially relevant reports for inclusion, having collated multiple reports from the same studies. We extracted the following data: study details (identifier, study design, location, year, length of follow-up, and industry sponsorship); participant details (number of participants, age, and sex); intervention details (drug name, dose, and timing); comparator details; details relevant to the risk of bias assessment (including adherence to and withdrawal from randomised allocation); and effect modifiers. Multiple reports from a study informed a single data extraction form. We extracted dichotomous data as number of events in intervention and control groups and numbers of participants, and we sought details of follow-up time. We also extracted estimates of hazard ratios and their confidence intervals where available. We extracted intention to treat data where these were reported. Otherwise we extracted the data as reported (often a modified intention to treat based on, eg, all patients who received at least one dose of the study drug).\n\nData extraction and risk of bias assessments using the Cochrane tool were carried out by one reviewer (GNO) in a Microsoft Access data collection form, and checked by a second reviewer (PB)."
+  },
+  {
+   "h": "Conclusion",
+   "text": "DOACs appear to be at least equivalent to warfarin at preventing stroke in patients with atrial fibrillation and to carry a reduced risk of bleeding. They overcome some of the limitations associated with warfarin and may lead to increased use by patients with atrial fibrillation. The cost of anticoagulation may be greatly reduced once generic DOACs become available, since they do not require monitoring, the major cost associated with warfarin use. Despite a similar mechanism of action, apixaban at the right dose appears to maximise efficacy and safety among the DOACs, with favourable cost effectiveness. Further long term data may bring other insights with respect to safety, and it is important to identify patient groups that may not benefit from DOACs, as well as to develop drugs to reverse the anticoagulant effects of each DOAC."
+  }
+ ]
+}

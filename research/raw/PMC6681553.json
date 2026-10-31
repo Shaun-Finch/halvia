@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC6681553",
+ "pmid": "31373653",
+ "doi": "10.1001/jamanetworkopen.2019.8398",
+ "topic": "frailty",
+ "title": "Global Incidence of Frailty and Prefrailty Among Community-Dwelling Older Adults: A Systematic Review and Meta-analysis.",
+ "authors": "Ofori-Asenso R, Chin KL, Mazidi M, Zomer E, Ilomaki J, Zullo AR, Gasevic D, Ademi Z, Korhonen MJ, LoGiudice D, Bell JS, Liew D.",
+ "affiliation": "School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria, Australia.",
+ "journal": "JAMA network open",
+ "year": "2019",
+ "license": "cc by",
+ "cited": 448,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Importance Frailty is a common geriatric syndrome of significant public health importance, yet there is limited understanding of the risk of frailty development at a population level. Objective To estimate the global incidence of frailty and prefrailty among community-dwelling adults 60 years or older. Data sources MEDLINE, Embase, PsycINFO, Web of Science, CINAHL Plus, and AMED (Allied and Complementary Medicine Database) were searched from inception to January 2019 without language restrictions using combinations of the keywords frailty, older adults, and incidence. The reference lists of eligible studies were hand searched. Study selection In the systematic review, 2 authors undertook the search, article screening, and study selection. Cohort studies that reported or had sufficient data to compute incidence of frailty or prefrailty among community-dwelling adults 60 years or older at baseline were eligible. Data extraction and synthesis The methodological quality of included studies was assessed using The Joanna Briggs Institute's Critical Appraisal Checklist for Prevalence and Incidence Studies. Meta-analysis was conducted using a random-effects (DerSimonian and Laird) model. Main outcomes and measures Incidence of frailty (defined as new cases of frailty among robust or prefrail individuals) and incidence of prefrailty (defined as new cases of prefrailty among robust individuals), both over a specified duration. Results Of 15 176 retrieved references, 46 observational studies involving 120 805 nonfrail (robust or prefrail) participants from 28 countries were included in this systematic review. Among the nonfrail individuals who survived a median follow-up of 3.0 (range, 1.0-11.7) years, 13.6% (13 678 of 100 313) became frail, with the pooled incidence rate being 43.4 (95% CI, 37.3-50.4; I2 = 98.5%) cases per 1000 person-years. The incidence of frailty was significantly higher in prefrail individuals than robust individuals (pooled incidence rates, 62.7 [95% CI, 49.2-79.8; I2 = 97.8%] vs 12.0 [95% CI, 8.2-17.5; I2 = 94.9%] cases per 1000 person-years, respectively; P for difference  Conclusions and relevance Results of this study suggest that community-dwelling older adults are prone to developing frailty. Increased awareness of the factors that confer high risk of frailty in this population subgroup is vital to inform the design of interventions to prevent frailty and to minimize its consequences.",
+ "sections": [
+  {
+   "h": "Study Quality Assessment and Data Extraction",
+   "text": "Two of us (R.O-A. and K.L.C.) evaluated each included study for methodological quality using The Joanna Briggs Institute’s Critical Appraisal Checklist for Prevalence and Incidence Studies. This checklist consists of 9 criteria, and studies were ineligible if fewer than 5 of the criteria were achieved.\n\nThe following information was collected from individual articles: study details (authors, year of publication, country, and study name), participant characteristics (sample size and percentage of women), frailty measurement method, duration of follow-up, and incidence data. Sex-stratified or age-stratified incidence data were collected, where available. Authors were contacted for additional data or clarification, when required."
+  },
+  {
+   "h": "Conclusions",
+   "text": "There is a high risk of frailty among community-dwelling older adults, and we observed that the incidence of frailty varies by sex, region, country income level, and diagnostic criteria used. It is imperative to improve understanding of the factors that confer increased risk of frailty. This will help inform the design of interventions to prevent frailty or minimize its negative consequences on health."
+  }
+ ]
+}

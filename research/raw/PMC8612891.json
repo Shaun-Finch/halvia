@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC8612891",
+ "pmid": "32011427",
+ "doi": "10.1097/pts.0000000000000632",
+ "topic": "medication safety",
+ "title": "Systemic Causes of In-Hospital Intravenous Medication Errors: A Systematic Review.",
+ "authors": "Kuitunen S, Niittynen I, Airaksinen M, Holmström AR.",
+ "affiliation": "",
+ "journal": "Journal of patient safety",
+ "year": "2021",
+ "license": "cc by",
+ "cited": 44,
+ "pubtypes": [
+  "Research Support, Non-U.S. Gov't",
+  "research-article",
+  "Systematic Review",
+  "Journal Article"
+ ],
+ "abstract": "Objectives Delivery of intravenous medications in hospitals is a complex process posing to systemic risks for errors. The aim of this study was to identify systemic causes of in-hospital intravenous medication errors. Methods A systematic review adhering to PRISMA guidelines was conducted. We searched MEDLINE (Ovid), Scopus, CINAHL, and EMB reviews for articles published between January 2005 and June 2016. Peer-reviewed journal articles published in English were included. Two reviewers independently selected articles according to a predetermined PICO tool. The quality of studies was assessed using the GRADE system and the evidence analyzed using qualitative content analysis. Results Eleven studies from six countries were included in the analysis. We identified systemic causes related to prescribing (n = 6 studies), preparation (n = 6), administration (n = 6), dispensing and storage (n = 5), and treatment monitoring (n = 2). Administration, prescribing, and preparation were the process phases most prone to systemic errors. Insufficient actions to secure safe use of high-alert medications, lack of knowledge of the drug, calculation tasks, failure in double-checking procedures, and confusion between look-alike, sound-alike medications were the leading causes of intravenous medication errors. The number of the included studies was limited, all of them being observational studies and graded as low quality. Conclusions Current intravenous medication systems remain vulnerable, which can result in patient harm. Our findings suggest further focus on medication safety activities related to administration, prescribing, and preparation of intravenous medications. This study provides healthcare organizations with preliminary knowledge about systemic causes of intravenous medication errors, but more rigorous evidence is needed.",
+ "sections": [
+  {
+   "h": "CONCLUSIONS",
+   "text": "According to our study, insufficient actions to secure safe use of high-alert medications, lack of knowledge of the drug, calculation tasks, failure in double-checking procedures, and confusion between LASA medications are the leading systemic causes of intravenous medication errors. Current intravenous medication systems remain vulnerable. Our findings suggest further focus on medication safety activities related to administration, prescribing, and preparation of intravenous medications. Process standardization and implementation of effective systemic defenses are essential to improve medication safety. Our study provides healthcare organizations with preliminary knowledge about systemic causes of intravenous medication errors, but more rigorous evidence is needed."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "pmcid": "PMC5673880",
+ "pmid": "29061558",
+ "doi": "10.2196/mhealth.8230",
+ "topic": "acute pain",
+ "title": "Commercially Available Smartphone Apps to Support Postoperative Pain Self-Management: Scoping Review.",
+ "authors": "Lalloo C, Shah U, Birnie KA, Davies-Chalmers C, Rivera J, Stinson J, Campbell F.",
+ "affiliation": "The Hospital for Sick Children, Department of Child Health Evaluative Sciences, Toronto, ON, Canada.",
+ "journal": "JMIR mHealth and uHealth",
+ "year": "2017",
+ "license": "cc by",
+ "cited": 74,
+ "pubtypes": [
+  "Scoping Review",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Recently, the use of smartphones to deliver health-related content has experienced rapid growth, with more than 165,000 mobile health (mHealth) apps currently available in the digital marketplace. With 3 out of 4 Canadians currently owning a smartphone, mHealth apps offer opportunities to deliver accessible health-related knowledge and support. Many individuals experience pain after surgery, which can negatively impact their health-related quality of life, including sleep, emotional, and social functioning. Smartphone apps that provide remote real-time monitoring and symptom management have the potential to improve self-management skills in patients experiencing postoperative pain. Increased confidence and practice of self-management skills could contribute to decreased postoperative pain and reduce risk of developing persistent pain. Published reviews of general pain self-management apps demonstrate a lack of evidence-based content, theoretical grounding, and health care professional involvement. However, no review to date has focused on the app marketplace specific for individuals with postoperative pain. Objective The aim of this study was to characterize and critically appraise the content and functionality of commercially available postoperative pain self-management apps. Methods An electronic search and extraction was conducted between December 2016 and March 2017 of the official Canadian app stores for the three major smartphone operating systems (iPhone operating system [iOS], Android, and Windows). Stores were searched separately using predetermined search terms. Two authors screened apps based on information provided in the public app description. Metadata from all included apps were abstracted into a standard spreadsheet. Two authors verified the data with reference to the apps and downloaded apps themselves. The content and functionality of each app as it pertained to postoperative pain self-management was rated. Results A total of 10 apps met the inclusion criteria. All included apps were designed exclusively for the Android platform. Education was the most common self-management feature offered (8/10, 80%), with none of the apps offering features related to goal setting or social support. Overall, no single app was comprehensive in terms of pain self-management content. Five (50%) apps reported the involvement of a health care provider in their development. However, not a single app involved end users in their development, and none of the apps underwent scientific evaluation. Additionally, none of the apps were designed for use in pediatric patients. Conclusions Currently available postoperative pain apps for patients lack evidence-based content, goal setting, and social support functions. There is a need to develop and test comprehensive theory-based apps to support patients with pain self-management care following surgery.",
+ "sections": [
+  {
+   "h": "Existing Reviews of Pain Management Apps",
+   "text": "There are a growing number of generalized pain self-management smartphone apps available for users to download on their personal mobile devices. In a 2011 scoping review, Rosser and Eccleston identified 111 such apps ["
+  },
+  {
+   "h": "Content Assessment",
+   "text": "To assess the comprehensiveness of app self-management content, the following criteria were used: (1) having a postoperative pain tracking function, (2) ability to set goals related to improving pain and functioning, (3) provision of skills training related to specific pain self-care strategies, (4) provision of social support, (5) provision of education related to surgery, and (6) provision of education related to pain after surgery. For each criterion, we assessed coverage as either present or absent. Similar criteria were used in our 2015 published scoping review [\n\nWe also assessed whether a regulated health care professional had provided clinical expertise related to development of the app content and function. An app was required to reference the involvement of a health care professional listed in the Ontario Regulated Health Professions Act [absent. The involvement of end users (eg, surgery patients) in app development was also documented as present or absent. Apps were reviewed to determine whether they were designed for pediatric (aged 18 years or younger) or adult users.\n\nThe app store descriptions were also screened for any reference to the app being part of formal scientific research. The app description and corresponding developer website (if available) were reviewed to determine whether any specific theoretical framework had been used to guide the development of app content. Finally, large publicly accessible scientific literature databases (ie, NCBI PubMed and Google Scholar) were searched using the app name as a query for any published research related to the app. The MyHealthApps website was also reviewed as per the methods of de la Vega and Miro ["
+  },
+  {
+   "h": "Self-Management Content of Reviewed Apps",
+   "text": "Education related to postoperative pain was the most common self-management feature offered across the identified apps. This educational content largely focused on self-care advice following surgery, particularly physiotherapy exercises to support return to mobility. However, there was no specific content related to emotional factors such as anxiety or catastrophizing related to surgery. As well, none of the apps offered features related to goal setting or social support. Overall, no single app was comprehensive in terms of pain self-management content. Additionally, no apps were designed specifically for pediatric patients. See"
+  },
+  {
+   "h": "Conclusions",
+   "text": "Currently available postoperative pain apps are characterized by a lack of evidence-based content, goal setting, and social support functions and are not targeted to pediatric users. There is a need to develop and evaluate comprehensive, theory-based apps to better support patients with pain self-management care following surgery."
+  }
+ ]
+}

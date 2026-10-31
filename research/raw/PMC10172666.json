@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10172666",
+ "pmid": "37181899",
+ "doi": "10.3389/fpsyt.2023.1141836",
+ "topic": "alcohol withdrawal",
+ "title": "The therapeutic use and efficacy of ketamine in alcohol use disorder and alcohol withdrawal syndrome: a scoping review.",
+ "authors": "Goldfine CE, Tom JJ, Im DD, Yudkoff B, Anand A, Taylor JJ, Chai PR, Suzuki J.",
+ "affiliation": "Department of Emergency Medicine, Brigham and Women's Hospital, Boston, MA, United States.",
+ "journal": "Frontiers in psychiatry",
+ "year": "2023",
+ "license": "cc by",
+ "cited": 17,
+ "pubtypes": [
+  "Scoping Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "Introduction Alcohol use disorder (AUD) is the most prevalent substance use disorder (SUD) globally. In 2019, AUD affected 14.5 million Americans and contributed to 95,000 deaths, with an annual cost exceeding 250 billion dollars. Current treatment options for AUD have moderate therapeutic effects and high relapse rates. Recent investigations have demonstrated the potential efficacy of intravenous ketamine infusions to increase alcohol abstinence and may be a safe adjunct to the existing alcohol withdrawal syndrome (AWS) management strategies. Methods We followed Preferred Reporting Items for Systematic Reviews (PRISMA) guidelines to conduct a scoping review of two databases (PubMed and Google Scholar) for peer-reviewed manuscripts describing the use of ketamine in AUD and AWS. Studies that evaluated the use of ketamine in AUD and AWS in humans were included. We excluded studies that examined laboratory animals, described alternative uses of ketamine, or discussed other treatments of AUD and AWS. Results We identified 204 research studies in our database search. Of these, 10 articles demonstrated the use of ketamine in AUD or AWS in humans. Seven studies investigated the use of ketamine in AUD and three studies described its use in AWS. Ketamine used in AUD was beneficial in reducing cravings, alcohol consumption and longer abstinence rates when compared to treatment as usual. In AWS, ketamine was used as an adjunct to standard benzodiazepine therapy during severe refractory AWS and at signs of delirium tremens. Adjunctive use of ketamine demonstrated earlier resolution of delirium tremens and AWS, reduced ICU stay, and lowered likelihood of intubation. Oversedation, headache, hypertension, and euphoria were the documented adverse effects after ketamine administration for AUD and AWS. Conclusion The use of sub-dissociative doses of ketamine for the treatment of AUD and AWS is promising but more definitive evidence of its efficacy and safety is required before recommending it for broader clinical use.",
+ "sections": [
+  {
+   "h": "Conclusion",
+   "text": "The emerging evidence-base for ketamine points to the possible role as a pharmacologic agent for the treatment of AUD and AWS. However, additional rigorous studies are urgently needed to better understand the impact of ketamine on AUD-related outcomes before routine clinical use."
+  }
+ ]
+}

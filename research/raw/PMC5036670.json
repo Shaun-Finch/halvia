@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC5036670",
+ "pmid": "27563914",
+ "doi": "10.3390/ijerph13090837",
+ "topic": "diabetic ketoacidosis",
+ "title": "Evaluation of the Accuracy of Capillary Hydroxybutyrate Measurement Compared with Other Measurements in the Diagnosis of Diabetic Ketoacidosis: A Systematic Review.",
+ "authors": "Brooke J, Stiell M, Ojo O.",
+ "affiliation": "College of Nursing, Midwifery and Healthcare, University of West London, Boston Manor Road Brentford, Middlesex TW8 9GA, UK. joanne.brooke@uwl.ac.uk.",
+ "journal": "International journal of environmental research and public health",
+ "year": "2016",
+ "license": "cc by",
+ "cited": 42,
+ "pubtypes": [
+  "Systematic Review",
+  "review-article",
+  "Journal Article"
+ ],
+ "abstract": "A complication of diabetes is diabetic ketoacidosis (DKA), which if left untreated is a life threatening condition. Prompt and accurate diagnosis of DKA is required for the commencement of life saving interventions. Measurements of ketone bodies in DKA have usually been through nitroprusside urine acetoacetate testing. The aim of this systematic review was to examine whether capillary β-hydroxybutyrate (β-OHB) testing is more accurate compared to other diagnostic methods of DKA. The following electronic databases were searched: EBSCO Host, MEDLINE, PSYCHInfo, CINAHL and Science Direct for publications from 1 January 2005 and up to and including 1 January 2016. Inclusion criteria were: Adults 18 years and over and known type 1 or type 2 diabetes. Retrospective and prospective observation studies were included. A total of nine studies met the inclusion criteria. Capillary β-OHB was found to have high sensitivity, specificity, positive predictive value and negative predictive value in identifying DKA compared to urinary ketone testing.",
+ "sections": [
+  {
+   "h": "9. Conclusions",
+   "text": "The use of capillary β-OHB testing is more accurate than urinary ketone testing and compares well with the enzymatic method. This approach will be useful in early identification of DKA.\n\nCapillary β-OHB testing is a simple tool that is an accurate, precise method of early identification of DKA in the Emergency Department and reduces unnecessary delays in diagnosis of DKA. Capillary β-OHB and urine ketones had high sensitivity, but urine ketones had low specificity in identifying DKA in the ED, with an error of almost 30% of false positive results. Capillary β-OHB testing is more accurate than urine ketones, as accurate as manual enzymatic method, and highly correlated with a clinical diagnosis of DKA."
+  }
+ ]
+}

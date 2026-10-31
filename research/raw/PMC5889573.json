@@ -1,0 +1,45 @@
+{
+ "pmcid": "PMC5889573",
+ "pmid": "29625590",
+ "doi": "10.1186/s13052-018-0481-1",
+ "topic": "asthma exacerbation",
+ "title": "Guideline on management of the acute asthma attack in children by Italian Society of Pediatrics.",
+ "authors": "Indinnimeo L, Chiappini E, Miraglia Del Giudice M, Italian Panel for the management of acute asthma attack in children Roberto Bernardini.",
+ "affiliation": "Pediatric Department \"Sapienza\" University of Rome, Policlinico Umberto I Viale Regina Elena 324, 00161, Rome, Italy. luciana.indinnimeo@uniroma1.it.",
+ "journal": "Italian journal of pediatrics",
+ "year": "2018",
+ "license": "cc by",
+ "cited": 33,
+ "pubtypes": [
+  "review-article",
+  "Review",
+  "Journal Article"
+ ],
+ "abstract": "Background Acute asthma attack is a frequent condition in children. It is one of the most common reasons for emergency department (ED) visit and hospitalization. Appropriate care is fundamental, considering both the high prevalence of asthma in children, and its life-threatening risks. Italian Society of Pediatrics recently issued a guideline on the management of acute asthma attack in children over age 2, in ambulatory and emergency department settings. Methods The Grading of Recommendations Assessment, Development, and Evaluation (GRADE) methodology was adopted. A literature search was performed using the Cochrane Library and Medline/PubMed databases, retrieving studies in English or Italian and including children over age 2 year. Results Inhaled ß 2  agonists are the first line drugs for acute asthma attack in children. Ipratropium bromide should be added in moderate/severe attacks. Early use of systemic steroids is associated with reduced risk of ED visits and hospitalization. High doses of inhaled steroids should not replace systemic steroids. Aminophylline use should be avoided in mild/moderate attacks. Weak evidence supports its use in life-threatening attacks. Epinephrine should not be used in the treatment of acute asthma for its lower cost / benefit ratio, compared to β 2  agonists. Intravenous magnesium solphate could be used in children with severe attacks and/or forced expiratory volume1 (FEV1) lower than 60% predicted, unresponsive to initial inhaled therapy. Heliox could be administered in life-threatening attacks. Leukotriene receptor antagonists are not recommended. Conclusions This Guideline is expected to be a useful resource in managing acute asthma attacks in children over age 2.",
+ "sections": [
+  {
+   "h": "Clinical and objective assessment",
+   "text": "History should be collected very carefully since it is an extremely important tool to predict the severity of exacerbations and the risk for hospitalization. Symptoms are poorly related to the severity of airway obstruction. Therefore, objective evaluations (i.e. pulse oximetry; peak expiratory flow; FEV1; blood gas measurement) should be considered [\n\nLevels of severity of the acute asthma attack and indications for hospitalization are summarized in Tables"
+  },
+  {
+   "h": "Recommendation",
+   "text": "Level of severity should be assessed considering both clinical and objective evaluations, including pulse oximetry, peak expiratory flow or FEV1. Blood gas measurement should be reserved only to more severe attacks."
+  },
+  {
+   "h": "Recommendation",
+   "text": "Humidified oxygen therapy using a tight fitting face mask or nasal cannula should be administered to children with severe acute asthma attack and/or SpO2 < 92%. Flow rates and oxygen concentration may be released by specific Venturi mask and should be sufficient to achieve saturations of ≥ 95%."
+  },
+  {
+   "h": "Recommendation",
+   "text": "MDI with spacer should be used to delivery ß2 agonists in children with mild to moderate asthma attack. Children with severe asthma should receive frequent doses of nebulised bronchodilators (2.5 to 5 mg of salbutamol), driven by oxygen."
+  },
+  {
+   "h": "Recommendations",
+   "text": "Systemic steroids (SS) should be used in the moderate to severe acute asthma attack in order to reduce the hospitalization rate and the risk of recurrence. Oral course, should be preferred in children able to retain drugs orally."
+  },
+  {
+   "h": "Recommendation",
+   "text": "Iv Salbutamol or iv aminophylline could be used in severe acute asthma in children non-responder to inhaled β2 agonist and oral corticosteroids. There are no significant differences between the two treatments."
+  }
+ ]
+}

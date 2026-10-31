@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC7499955",
+ "pmid": "32943047",
+ "doi": "10.1186/s12931-020-01482-1",
+ "topic": "COPD exacerbation",
+ "title": "Blood eosinophils as a biomarker of future COPD exacerbation risk: pooled data from 11 clinical trials.",
+ "authors": "Singh D, Wedzicha JA, Siddiqui S, de la Hoz A, Xue W, Magnussen H, Miravitlles M, Chalmers JD, Calverley PMA.",
+ "affiliation": "Medicines Evaluation Unit, University of Manchester, Manchester University NHS Foundation Trust, Manchester, UK. DSingh@meu.org.uk.",
+ "journal": "Respiratory research",
+ "year": "2020",
+ "license": "cc by",
+ "cited": 43,
+ "pubtypes": [
+  "Meta-Analysis",
+  "research-article",
+  "Journal Article"
+ ],
+ "abstract": "Background Chronic obstructive pulmonary disease (COPD) is characterised by progressive airflow limitation and chronic inflammation. Predicting exacerbations of COPD, which contribute to disease progression, is important to guide preventative treatment and improve outcomes. Blood eosinophils are a biomarker for patient responsiveness to inhaled corticosteroids (ICS); however, their effectiveness as a predictive biomarker for COPD exacerbations is unclear. Methods This post hoc analysis pooled data from 11 Boehringer Ingelheim-sponsored Phase III and IV randomised COPD studies with similar methodologies. Exacerbation data were collected from these studies, excluding patients from the ICS withdrawal arm of the WISDOM® study. Patients were grouped according to their baseline blood eosinophil count, baseline ICS use and number of exacerbations in the year prior to each study. Results Exacerbation rate data and baseline eosinophil count were available for 22,125 patients; 45.6% presented with a baseline blood eosinophil count of ≤ 150 cells/μL, 34.3% with 150-300 cells/μL and 20.1% with > 300 cells/μL. The lowest exacerbation rates were observed in patients with ≤ 150 cells/μL, with small increases in exacerbation rate observed with increasing eosinophil count. When stratified by exacerbation history, the annual rate of exacerbations for patients with 0 exacerbations in the previous year increased in line with increasing eosinophil counts (0.38 for ≤ 150 cells/μL, 0.39 for 150-300 cells/μL and 0.44 for > 300 cells/μL respectively). A similar trend was identified for patients with one exacerbation in the previous year, 0.62, 0.66 and 0.67 respectively. For patients with ≥ 2 exacerbations, exacerbation rates fluctuated between 1.02 (≤ 150 cells/μL) to 1.10 (150-300 cells/μL) and 1.07 (> 300 cells/μL). Higher exacerbation rates were noted in patients treated with ICS at baseline (range 0.75 to 0.82 with increasing eosinophil count) compared with patients not on ICS (range 0.45 to 0.49). Conclusion We found no clinically important relationship between baseline blood eosinophil count and exacerbation rate. Hence, the current analysis does not support the use of blood eosinophils to predict exacerbation risk; however, previous exacerbation history was found to be a more reliable predictor of future exacerbations. Trial registration ClinicalTrials.gov Identifiers: NCT00168844 , NCT00168831 , NCT00387088 , NCT00782210 , NCT00782509 , NCT00793624 , NCT00796653 , NCT01431274 , NCT01431287 , NCT02296138 and NCT00975195 .",
+ "sections": [
+  {
+   "h": "Plain language summary",
+   "text": "People with chronic obstructive pulmonary disease often start treatment with either a long-acting muscarinic antagonist or a long-acting β2-agonist. Doctors can prescribe these treatments together (long-acting muscarinic antagonist/long-acting β2-agonist) if needed. Other medicines called inhaled corticosteroids can be added as required. Measuring the number of eosinophils, a type of white blood cell, in the blood can help to predict which people will benefit most from inhaled corticosteroid treatment.\n\nPeople with chronic obstructive pulmonary disease sometimes experience a worsening of their symptoms, known as an exacerbation. Eosinophil levels may be useful to predict the risk of exacerbations. We studied the results from 11 clinical trials, involving 22,125 people with chronic obstructive pulmonary disease. We looked at how many exacerbations people had during these trials and whether this was linked to the level of eosinophils in their blood, their previous history of exacerbations, or whether they had been treated with inhaled corticosteroids before.\n\nOverall, we found that a previous history of exacerbations predicted the future rate of exacerbations. We did not find a clear link between the rate of exacerbations and eosinophil levels."
+  },
+  {
+   "h": "Conclusions",
+   "text": "In this pooled analysis of 22,125 patients with COPD, we did not find a clinically important relationship between baseline blood eosinophil count and exacerbation rate. This analysis, coupled with other studies on this topic ["
+  }
+ ]
+}
