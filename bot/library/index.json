@@ -1,8 +1,188 @@
 [
- {"id":"news2","file":"news2.md","title":"NEWS2: National Early Warning Score 2","source":"Royal College of Physicians, 2017"},
- {"id":"sepsis","file":"sepsis.md","title":"Recognising sepsis in adults","source":"Based on NICE NG51 (updated 2024) and the UK Sepsis Trust"},
- {"id":"abcde","file":"abcde.md","title":"ABCDE assessment of the acutely unwell adult","source":"Based on the Resuscitation Council UK ABCDE approach"},
- {"id":"sbar","file":"sbar.md","title":"SBAR: structured handover and escalation","source":"SBAR, as used across the NHS"},
- {"id":"black-eye","file":"black-eye.md","title":"Black eye: aftercare advice for patients","source":"General first-aid guidance"},
- {"id":"halvia-bot","file":"halvia-bot.md","title":"About Halvia bot","source":"Halvia"}
+ {
+  "id": "news2",
+  "file": "news2.md",
+  "title": "NEWS2: National Early Warning Score 2",
+  "source": "Royal College of Physicians, 2017"
+ },
+ {
+  "id": "sepsis",
+  "file": "sepsis.md",
+  "title": "Recognising sepsis in adults",
+  "source": "Based on NICE NG51 (updated 2024) and the UK Sepsis Trust"
+ },
+ {
+  "id": "abcde",
+  "file": "abcde.md",
+  "title": "ABCDE assessment of the acutely unwell adult",
+  "source": "Based on the Resuscitation Council UK ABCDE approach"
+ },
+ {
+  "id": "sbar",
+  "file": "sbar.md",
+  "title": "SBAR: structured handover and escalation",
+  "source": "SBAR, as used across the NHS"
+ },
+ {
+  "id": "black-eye",
+  "file": "black-eye.md",
+  "title": "Black eye: aftercare advice for patients",
+  "source": "General first-aid guidance"
+ },
+ {
+  "id": "anaphylaxis",
+  "file": "anaphylaxis.md",
+  "title": "Anaphylaxis: emergency treatment",
+  "source": "Based on Resuscitation Council UK, 2021"
+ },
+ {
+  "id": "cardiac-arrest",
+  "file": "cardiac-arrest.md",
+  "title": "Adult cardiac arrest: advanced life support",
+  "source": "Based on Resuscitation Council UK ALS guidelines, 2021"
+ },
+ {
+  "id": "hyperkalaemia",
+  "file": "hyperkalaemia.md",
+  "title": "Hyperkalaemia in adults: emergency treatment",
+  "source": "Based on UK Kidney Association, 2020 (updated 2023)"
+ },
+ {
+  "id": "hypoglycaemia",
+  "file": "hypoglycaemia.md",
+  "title": "Hypoglycaemia in adults in hospital",
+  "source": "Based on JBDS-IP guidance"
+ },
+ {
+  "id": "dka",
+  "file": "dka.md",
+  "title": "Diabetic ketoacidosis (DKA) in adults",
+  "source": "Based on JBDS-IP guidance"
+ },
+ {
+  "id": "aki",
+  "file": "aki.md",
+  "title": "Acute kidney injury (AKI)",
+  "source": "Based on NICE NG148 and KDIGO"
+ },
+ {
+  "id": "stroke",
+  "file": "stroke.md",
+  "title": "Stroke and TIA: recognition and early management",
+  "source": "Based on NICE NG128 and TA990"
+ },
+ {
+  "id": "chest-pain-acs",
+  "file": "chest-pain-acs.md",
+  "title": "Acute chest pain and acute coronary syndrome",
+  "source": "Based on NICE CG95 and NG185"
+ },
+ {
+  "id": "status-epilepticus",
+  "file": "status-epilepticus.md",
+  "title": "Convulsive status epilepticus in adults",
+  "source": "Based on NICE NG217 and the ESETT trial"
+ },
+ {
+  "id": "head-injury",
+  "file": "head-injury.md",
+  "title": "Head injury: assessment and CT in adults",
+  "source": "Based on NICE NG232, 2023"
+ },
+ {
+  "id": "delirium",
+  "file": "delirium.md",
+  "title": "Delirium in hospital",
+  "source": "Based on NICE CG103 and the 4AT"
+ },
+ {
+  "id": "asthma",
+  "file": "asthma.md",
+  "title": "Acute asthma in adults",
+  "source": "Based on BTS/SIGN asthma guidance"
+ },
+ {
+  "id": "copd",
+  "file": "copd.md",
+  "title": "Exacerbation of COPD in hospital",
+  "source": "Based on NICE NG115 and BTS oxygen guideline"
+ },
+ {
+  "id": "oxygen",
+  "file": "oxygen.md",
+  "title": "Oxygen therapy in adults",
+  "source": "Based on BTS oxygen guideline, 2017"
+ },
+ {
+  "id": "gi-bleed",
+  "file": "gi-bleed.md",
+  "title": "Acute upper gastrointestinal bleeding",
+  "source": "Based on NICE CG141"
+ },
+ {
+  "id": "transfusion",
+  "file": "transfusion.md",
+  "title": "Blood transfusion and major haemorrhage",
+  "source": "Based on NICE NG24 and CRASH-2"
+ },
+ {
+  "id": "alcohol-withdrawal",
+  "file": "alcohol-withdrawal.md",
+  "title": "Alcohol withdrawal and Wernicke's encephalopathy",
+  "source": "Based on NICE CG100"
+ },
+ {
+  "id": "paracetamol-overdose",
+  "file": "paracetamol-overdose.md",
+  "title": "Paracetamol overdose",
+  "source": "Based on MHRA advice and TOXBASE"
+ },
+ {
+  "id": "vte",
+  "file": "vte.md",
+  "title": "Venous thromboembolism: prevention, DVT and PE",
+  "source": "Based on NICE NG89 and NG158"
+ },
+ {
+  "id": "hyponatraemia",
+  "file": "hyponatraemia.md",
+  "title": "Hyponatraemia in adults",
+  "source": "Based on the European hyponatraemia guideline, 2014"
+ },
+ {
+  "id": "gcs",
+  "file": "gcs.md",
+  "title": "Glasgow Coma Scale (GCS) and ACVPU",
+  "source": "Teasdale and Jennett, The Lancet, 1974"
+ },
+ {
+  "id": "iv-fluids",
+  "file": "iv-fluids.md",
+  "title": "Intravenous fluids in adults",
+  "source": "Based on NICE CG174"
+ },
+ {
+  "id": "drug-calculations",
+  "file": "drug-calculations.md",
+  "title": "Drug and infusion calculations",
+  "source": "Standard UK formulae"
+ },
+ {
+  "id": "infection-prevention",
+  "file": "infection-prevention.md",
+  "title": "Infection prevention and control on the ward",
+  "source": "Based on WHO 5 Moments and the NHS IPC Manual"
+ },
+ {
+  "id": "falls",
+  "file": "falls.md",
+  "title": "Falls in hospital: after a fall",
+  "source": "Based on NICE falls guidance and the RCP falls audit"
+ },
+ {
+  "id": "halvia-bot",
+  "file": "halvia-bot.md",
+  "title": "About Halvia bot",
+  "source": "Halvia"
+ }
 ]

@@ -163,7 +163,7 @@ function search(q, k = 4) {
       s += idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * it.len / ix.avg));
     }
     // Clinical reference and the user's own documents rank ahead of research papers on a tie.
-    if (s > 0) scored.push({ ...it, score: s * (0.6 + 0.4 * hits / qt.length) * (it.doc.weight || 1) });
+    if (s > 0) scored.push({ ...it, score: s * (0.6 + 0.4 * hits / qt.length) * (it.doc.weight || (it.doc.starter ? 1 : 1.2)) });
   }
   scored.sort((a, b) => b.score - a.score);
   const top = scored[0]?.score || 0, per = new Map(), out = [];
@@ -656,7 +656,7 @@ async function init() {
   // Starter library
   try {
     const list = await (await fetch('library/index.json')).json();
-    S.starter = await Promise.all(list.map(async d => ({ ...d, starter: true, passages: toPassages(await (await fetch('library/' + d.file)).text()) })));
+    S.starter = await Promise.all(list.map(async d => ({ ...d, starter: true, passages: toPassages(await (await fetch('library/' + d.file)).text()).filter(p => !/^Source:/.test(p.text)) })));
   } catch (e) { console.warn('Starter library unavailable', e); }
   try {
     const pack = await (await fetch('library/research.json')).json();
