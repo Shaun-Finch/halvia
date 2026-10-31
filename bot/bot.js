@@ -13,7 +13,6 @@ const LS = {
 };
 
 const MODELS = [
-  { key: 'pocket', name: 'Pocket', model: 'SmolLM2 360M', f16: 'SmolLM2-360M-Instruct-q4f16_1-MLC', f32: 'SmolLM2-360M-Instruct-q4f32_1-MLC', size: 'about 0.3 GB', note: 'For older phones: short, simple answers' },
   { key: 'fast', name: 'Fast', model: 'Llama 3.2 1B', f16: 'Llama-3.2-1B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', size: 'about 0.9 GB', note: 'Works on most laptops and recent phones' },
   { key: 'better', name: 'Better', model: 'Llama 3.2 3B', f16: 'Llama-3.2-3B-Instruct-q4f16_1-MLC', f32: 'Llama-3.2-3B-Instruct-q4f32_1-MLC', size: 'about 2.3 GB', note: 'Clearer answers, needs a recent laptop' },
   { key: 'best', name: 'Most capable', model: 'Phi-3.5 mini', f16: 'Phi-3.5-mini-instruct-q4f16_1-MLC', f32: 'Phi-3.5-mini-instruct-q4f32_1-MLC', size: 'about 3.7 GB', note: 'Desktop or gaming laptop with a good GPU' },
@@ -377,7 +376,7 @@ function docMeta(d) {
   if (d.starter) return 'Halvia clinical reference · ' + d.source;
   return 'Your library';
 }
-async function answerWithAi(chat, msg, text) {
+function buildMessages(chat, msg, text) {
   const ctx = msg.sources.map((s, i) => `[${i + 1}] ${s.title}${s.h ? ' — ' + s.h : ''}${s.page ? ` (p. ${s.page})` : ''}${s.research ? ` (research paper: ${s.meta.replace(/^Research · /, '')})` : ''}\n${s.text.slice(0, 1000)}`).join('\n\n');
   const history = chat.messages.slice(0, -2).slice(-4).map(m => ({ role: m.role, content: m.content.slice(0, 800) }));
   const messages = [
@@ -385,6 +384,10 @@ async function answerWithAi(chat, msg, text) {
     ...history,
     { role: 'user', content: (ctx ? `Sources:\n${ctx}` : 'Sources: none found in the library.') + `\n\nQuestion: ${text}` },
   ];
+  return messages;
+}
+async function answerWithAi(chat, msg, text) {
+  const messages = buildMessages(chat, msg, text);
   const stream = await S.engine.chat.completions.create({ messages, stream: true, temperature: 0.2, max_tokens: 700 });
   let raf = 0;
   for await (const part of stream) {
@@ -808,3 +811,5 @@ async function init() {
   }
 }
 init();
+// Lets the test suite check retrieval and prompts without a model.
+if (new URLSearchParams(location.search).has('debug')) window.halviaDebug = { S, search, buildMessages, docMeta };

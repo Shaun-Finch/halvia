@@ -4,7 +4,7 @@ An AI assistant for clinicians that runs on the device and works with no interne
 
 ## How it works
 
-- **On-device AI.** [WebLLM](https://github.com/mlc-ai/web-llm) runs SmolLM2 360M (Pocket), Llama 3.2 1B (Fast) or 3B (Better), or Phi-3.5 mini on the device's GPU through WebGPU, inside a web worker (`llm-worker.js`). The model downloads once from Hugging Face and is cached by the browser, so it keeps working offline.
+- **On-device AI.** [WebLLM](https://github.com/mlc-ai/web-llm) runs Llama 3.2 1B (Fast) or 3B (Better), or Phi-3.5 mini on the device's GPU through WebGPU, inside a web worker (`llm-worker.js`). The model downloads once from Hugging Face and is cached by the browser, so it keeps working offline.
 - **Answers from a library.** Every question is searched against a local library (BM25 over passages, in `bot.js`). The best passages go to the model with the question, and the answer cites them. Without the model (not downloaded, or no WebGPU), the bot answers by quoting the most relevant sentences.
 - **Teaching it.** Signed-in users add PDFs (pdf.js), Word `.docx` files, text, Markdown, HTML, CSV or pasted text. Documents are split into passages and indexed. This is retrieval, not fine-tuning: the model reads your documents at answer time and shows which passages it used.
 - **Profiles.** Local profiles on the device. Documents and chats are stored in IndexedDB, encrypted with AES-GCM using a key derived from the passcode (PBKDF2, 310,000 rounds). Profiles lock after 15 minutes without use.
