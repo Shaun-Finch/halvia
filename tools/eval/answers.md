@@ -150,3 +150,81 @@ _6s_
 I couldn't find that in your library.
 
 For a dog bite, the recommended dose of amoxicillin is not specified in the sources provided. The sources suggest that the dose should be based on the dog's weight, but do not provide a specific guideline. It is recommended to consult with a veterinarian for proper treatment and dosage.
+
+
+## Llama 3.2 3B (Better)
+
+
+### Q: What NEWS2 score needs an emergency response?
+_20s_
+
+According to [1], an aggregate score of 7 or more is high risk and needs an emergency response: emergency assessment by a team with critical care competencies, usually with transfer to a higher level of care considered.
+
+• No further information is available in the provided sources.
+
+
+### Q: What is the adrenaline dose for anaphylaxis in an adult?
+_13s_
+
+For anaphylaxis in an adult, the recommended dose of intramuscular (IM) adrenaline is 500 micrograms (0.5 mL).
+
+[2]
+
+
+### Q: How do I treat hyperkalaemia with ECG changes?
+_13s_
+
+To treat hyperkalaemia with ECG changes, follow these steps:
+
+* Administer IV calcium: 
+  • 10 mL of 10% calcium chloride or 30 mL of 10% calcium gluconate, over 5 to 10 minutes [2]
+* Repeat the ECG; further doses may be needed if ECG changes persist [2]
+* Note: Calcium does not lower potassium, but protects the heart from the effects of hyperkalaemia [2]
+
+I couldn't find information on the efficacy and tolerance of different calcium dosages in the provided sources.
+
+
+### Q: What insulin rate is used in DKA?
+_18s_
+
+The starting fixed-rate intravenous insulin infusion (FRIII) rate in DKA is 0.1 units per kg per hour.
+
+• This rate is used alongside the patient's usual long-acting basal insulin.
+• The rate is adjusted when blood glucose falls below 14.0 mmol/L, at which point 10% glucose is added at 125 mL per hour.
+
+
+### Q: Second line drugs for status epilepticus?
+_20s_
+
+According to the provided sources:
+
+* The second-line drugs for status epilepticus are:
+	+ Levetiracetam (60 mg/kg, maximum 4,500 mg)
+	+ Phenytoin (20 mg/kg, with ECG monitoring)
+	+ Sodium valproate (40 mg/kg, maximum 3,000 mg)
+* Note: Avoid valproate in women and girls who could become pregnant unless there is no alternative.
+
+[1]
+
+
+### Q: When should someone on anticoagulants get a CT head after a fall?
+_12s_
+
+According to [2], someone on anticoagulants should get a CT head within 8 hours of the injury, even without other risk factors.
+
+Here are the key points:
+* Age 65 or over: CT within 8 hours
+* History of bleeding or clotting disorders: CT within 8 hours
+* Dangerous mechanism of injury: CT within 8 hours
+* More than 30 minutes of retrograde amnesia: CT within 8 hours
+* People taking anticoagulant medicines: CT within 8 hours (even without other risk factors)
+
+
+### Q: What oxygen saturation target for a COPD patient?
+_14s_
+
+For a COPD patient, the target oxygen saturation is 88 to 92%. 
+
+* This target is for people at risk of hypercapnic (type 2) respiratory failure, including those with COPD, severe chest wall or spinal disease, neuromuscular disease, severe obesity, cystic fibrosis and bronchiectasis. [1]
+* Using controlled oxygen through a Venturi mask (24% or 28%) or nasal cannulae is recommended. [2]
+* Blood gases should be checked on arrival and after changes in oxygen. [2]
