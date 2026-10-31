@@ -18,15 +18,11 @@ jobs:
       - name: Install llama.cpp bindings
         run: pip install -q huggingface_hub llama-cpp-python --prefer-binary --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
       - name: Run prompts
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          ( while sleep 120; do git add tools/eval/answers.md 2>/dev/null && git commit -qm "eval progress" && git pull -q --rebase origin bot-lab && git push -q; done ) &
+          ( while sleep 90; do MSG="eval progress" tools/publish.sh tools/eval/answers.md; done ) &
           python tools/eval/run_eval.py
-      - name: Commit answers
+      - name: Publish answers
         if: always()
-        run: |
-          git add tools/eval/answers.md
-          git commit -m "Answer quality check results" || echo "nothing new"
-          git pull --rebase -q origin bot-lab || true
-          git push
+        env: { GH_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+        run: MSG="Answer quality check results" tools/publish.sh tools/eval/answers.md

@@ -356,14 +356,12 @@ async function removeModel() {
 // After the model is in, make sure the PDF reader is cached too, so adding PDFs works offline.
 function warmOfflineFiles() { caches.open(CACHES.vendor).then(c => Promise.all(VENDOR.map(async u => (await c.match(new URL(u, location.href).href)) || c.add(u)))).catch(() => {}); }
 
-const SYSTEM = strict => `You are Halvia bot, an assistant for UK doctors, nurses and other clinicians. You run offline on the user's own device.
-Answer the question using ONLY the numbered sources. Put the source number after each fact, like [1].
-Rules:
-- Use CLINICAL GUIDE and YOUR DOCUMENT sources for what to do. Use RESEARCH PAPER sources only to describe evidence, and say that it is research.
-- Only give a dose, rate or threshold if a source states it for exactly that drug or situation. Copy it exactly, with its units. Never mix numbers from different sentences.
-- ${strict ? 'If the sources do not answer the question, reply "I couldn\'t find that in your library." and suggest what kind of document to add. Do not guess and do not use outside knowledge.' : 'Prefer the sources. If you add general knowledge that is not in the sources, say so clearly and do not cite it.'}
-- Keep it short: a one-sentence answer, then at most 5 bullet points. Do not repeat yourself. Use UK spelling.
-- Never make a diagnosis or work out a dose for a specific patient. Do not ask for, or repeat, patient-identifiable information.`;
+const SYSTEM = strict => `You are Halvia bot, a clinical assistant for UK hospital staff. It runs offline on this device.
+Answer the question using the numbered sources. After each fact, add its source number, like [1].
+Copy doses, rates and thresholds exactly as the source writes them, with units, and only for the drug or situation they belong to.
+Use CLINICAL GUIDE and YOUR DOCUMENT sources for what to do. If you use a RESEARCH PAPER, say it is research.
+Keep it short: one sentence, then up to 5 bullet points. Use UK spelling. Never diagnose or work out a dose for a specific patient.
+${strict ? 'If none of the sources are about the question, say only: "I couldn\'t find that in your library."' : 'If the sources do not cover something, you may add general knowledge, but say clearly that it is not from the library.'}`;
 
 /* ---------- chat ---------- */
 function currentChat() { return S.chats.find(c => c.id === S.chatId); }
@@ -389,7 +387,7 @@ async function ask(text) {
   S.busy = true; S.stopReq = false; setSend();
   try {
     if (S.ai === 'ready' && S.engine) await answerWithAi(chat, msg, text);
-    else msg.content = answerFromLibrary(text, hits);
+    else msg.content = answerFromLibrary(text, [...hits].sort((x, y) => y.score - x.score));
   } catch (err) {
     console.error(err);
     if (S.ai === 'ready') { S.engine = null; S.worker?.terminate(); setAi('error', 'AI stopped · tap to restart'); }
@@ -413,7 +411,7 @@ function buildMessages(chat, msg, text) {
   const messages = [
     { role: 'system', content: SYSTEM(S.strict) },
     ...history,
-    { role: 'user', content: (ctx ? `Sources:\n${ctx}` : 'Sources: none found in the library.') + `\n\nQuestion: ${text}` },
+    { role: 'user', content: `Question: ${text}\n\n` + (ctx ? `Sources:\n${ctx}` : 'Sources: none found in the library.') + `\n\nUsing the sources, answer the question: ${text}` },
   ];
   return messages;
 }
