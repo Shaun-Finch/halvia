@@ -228,3 +228,39 @@ For a COPD patient, the target oxygen saturation is 88 to 92%.
 * This target is for people at risk of hypercapnic (type 2) respiratory failure, including those with COPD, severe chest wall or spinal disease, neuromuscular disease, severe obesity, cystic fibrosis and bronchiectasis. [1]
 * Using controlled oxygen through a Venturi mask (24% or 28%) or nasal cannulae is recommended. [2]
 * Blood gases should be checked on arrival and after changes in oxygen. [2]
+
+
+### Q: How do I treat hypoglycaemia in an unconscious patient?
+_18s_
+
+According to [1], if there is IV access, give 75 to 80 mL of 20% glucose or 150 to 160 mL of 10% glucose over 10 to 15 minutes. If there is no IV access, give glucagon 1 mg IM.
+
+Additional considerations:
+- Check airway, breathing and circulation.
+- Stop any IV insulin.
+- Recheck glucose after 10 minutes and repeat if still below 4.0 mmol/L.
+
+It's also recommended to assess the level of consciousness using ACVPU or the Glasgow Coma Scale, check pupils, and check the blood glucose, as per [4].
+
+
+### Q: What are the high-risk signs of sepsis in adults?
+_23s_
+
+According to [2], the high-risk features in adults that suggest a high risk of severe illness or death from sepsis include:
+
+• Objective evidence of new altered mental state
+• Respiratory rate of 25 breaths per minute or more, or a new need for 40% oxygen or more to keep oxygen saturation above 92% (above 88% in known COPD)
+• Heart rate above 130 beats per minute
+• Systolic blood pressure of 90 mmHg or less, or more than 40 mmHg below normal
+• Not having passed urine in the previous 18 hours, or a urine output below 0.5 ml/kg per hour in a catheterised patient
+• Mottled or ashen appearance
+• Cyanosis of the skin, lips or tongue
+• Non-blanching rash of the skin
+
+
+### Q: Does procalcitonin help guide antibiotics in sepsis?
+_20s_
+
+I couldn't find that in your library. 
+
+To answer this question, you may want to consider adding a document on Procalcitonin (PCT) and its role in sepsis management.
