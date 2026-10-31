@@ -7,7 +7,7 @@ const MODEL = process.env.MODEL || 'pocket';
 const OUT = 'e2e';
 fs.mkdirSync(OUT, { recursive: true });
 const log = [];
-const say = (...a) => { const l = `[${new Date().toISOString().slice(11, 19)}] ` + a.join(' '); console.log(l); log.push(l); };
+const say = (...a) => { const l = `[${new Date().toISOString().slice(11, 19)}] ` + a.join(' '); console.log(l); log.push(l); try { fs.writeFileSync(OUT + '/progress.log', log.join('\n') + '\n'); } catch {} };
 const FLAGSETS = [
   ['--enable-unsafe-webgpu', '--enable-features=Vulkan', '--use-vulkan=swiftshader', '--use-webgpu-adapter=swiftshader', '--disable-vulkan-surface', '--ignore-gpu-blocklist'],
   ['--enable-unsafe-webgpu', '--use-webgpu-adapter=swiftshader', '--ignore-gpu-blocklist'],
@@ -63,7 +63,7 @@ async function askAndWait(page, q, ms) {
   await page.click('#openSet'); await page.waitForTimeout(500);
   await page.check(`input[name="model"][value="${MODEL}"]`); await page.waitForTimeout(300);
   await page.click('#readyBtn');
-  const st = await waitAi(page, ['ready', 'error'], 45 * 60000);
+  const st = await waitAi(page, ['ready', 'error'], 25 * 60000);
   say('Model state after download:', st, '|', await page.textContent('#progText').catch(() => ''));
   await page.waitForTimeout(3000);
   say('Readiness:', (await page.innerText('#readyList')).replace(/\n+/g, ' | '));
@@ -72,7 +72,7 @@ async function askAndWait(page, q, ms) {
 
   if (st === 'ready') {
     await page.click('#newChat');
-    const a1 = await askAndWait(page, 'What NEWS2 score needs an emergency response?', 15 * 60000);
+    const a1 = await askAndWait(page, 'What NEWS2 score needs an emergency response?', 6 * 60000);
     say('ONLINE AI answer:', a1.body.slice(0, 600).replace(/\n+/g, ' / '));
     await page.screenshot({ path: OUT + '/2-online-answer.png' });
   }
@@ -83,10 +83,10 @@ async function askAndWait(page, q, ms) {
   await page.reload({ waitUntil: 'domcontentloaded' }).catch(e => say('reload failed', e.message));
   await page.waitForTimeout(3000);
   say('Offline title:', await page.title(), '| net:', await page.textContent('#netPill').catch(() => 'n/a'));
-  const st2 = await waitAi(page, ['ready', 'error', 'unsupported', 'none'], 20 * 60000);
+  const st2 = await waitAi(page, ['ready', 'error', 'unsupported', 'none'], 12 * 60000);
   say('Offline model state:', st2, await page.textContent('#aiPillText').catch(() => ''));
-  if (st2 !== 'ready') { const st3 = await waitAi(page, ['ready'], 10 * 60000); say('Offline model state (2nd wait):', st3); }
-  const a2 = await askAndWait(page, 'What are the high-risk signs of sepsis in adults?', 15 * 60000);
+  if (st2 !== 'ready') { const st3 = await waitAi(page, ['ready'], 4 * 60000); say('Offline model state (2nd wait):', st3); }
+  const a2 = await askAndWait(page, 'What are the high-risk signs of sepsis in adults?', 6 * 60000);
   say('OFFLINE answer:', a2.body.slice(0, 600).replace(/\n+/g, ' / '));
   await page.screenshot({ path: OUT + '/3-offline-answer.png' });
   const p2 = await ctx.newPage();
