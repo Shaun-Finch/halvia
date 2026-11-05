@@ -1,12 +1,21 @@
 """Look up official logos on Wikimedia Commons with their licence details (side branch, not deployed)."""
-import json, os, urllib.parse, urllib.request
+import json, os, time, urllib.error, urllib.parse, urllib.request
 API = "https://commons.wikimedia.org/w/api.php"
-UA = {"User-Agent": "Halvia-site-builder/1.0 (halvia.cloud)"}
-QUERIES = ["ChatGPT logo", "OpenAI logo", "Grok logo", "xAI Grok logo", "Dots logo"]
+UA = {"User-Agent": "HalviaSiteBuilder/1.0 (https://halvia.cloud; one-off logo lookup)"}
+QUERIES = ["ChatGPT logo", "Grok logo"]
 os.makedirs("logos", exist_ok=True)
+def fetch(url):
+    # Wikimedia rate-limits bursts (HTTP 429): pause between calls and back off on 429.
+    for i in range(6):
+        time.sleep(2 + i * 8)
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
+        except urllib.error.HTTPError as e:
+            if e.code != 429: raise
+            print("429, backing off", flush=True)
+    raise SystemExit("rate limited")
 def get(params):
-    url = API + "?" + urllib.parse.urlencode({**params, "format": "json"})
-    return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60))
+    return json.loads(fetch(API + "?" + urllib.parse.urlencode({**params, "format": "json"})))
 report = []
 for q in QUERIES:
     res = get({"action": "query", "generator": "search", "gsrsearch": f"filetype:drawing {q}", "gsrnamespace": 6, "gsrlimit": 6,
@@ -19,7 +28,7 @@ for q in QUERIES:
         report.append(row)
         if ii["mime"] == "image/svg+xml" and len([r for r in report if r["query"] == q and r.get("saved")]) < 2:
             fn = "logos/" + p["title"].split(":", 1)[1].replace(" ", "_")
-            open(fn, "wb").write(urllib.request.urlopen(urllib.request.Request(ii["url"], headers=UA), timeout=60).read())
+            open(fn, "wb").write(fetch(ii["url"]))
             row["saved"] = fn
 json.dump(report, open("logos/report.json", "w"), indent=1)
 for r in report: print(r["query"], "|", r["title"], "|", r["license"], "|", r["restrictions"], "|", r.get("saved", ""))
