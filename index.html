@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Halvia — AI systems for healthcare</title>
-<meta name="description" content="Halvia: Shaun Finch designs, builds and sets up AI tools for healthcare. Seven working tools you can try now, from a live NEWS2 ward board to SBAR handover, ICD-10 coding and GP discharge letters, plus shipped work for CHKS.">
+<meta name="description" content="Halvia: Shaun Finch designs, builds and sets up AI agents and tools for healthcare admin. Five working tools you can try now: discharge letters, shift handover, missed appointments, plain-English letters and clinical coding, plus shipped work for CHKS.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Shaun Finch">
 <meta property="og:title" content="Halvia — AI tools for healthcare you can try today">
-<meta property="og:description" content="Seven working clinical tools on synthetic patients: a live NEWS2 ward board, handover, coding, discharge letters and plain-English patient letters. Designed and built by Shaun Finch.">
+<meta property="og:description" content="AI agents and five working tools for healthcare admin: discharge letters, shift handover, missed appointments, plain-English letters and clinical coding. Designed and built by Shaun Finch.">
 <meta property="og:url" content="https://halvia.cloud/">
 <meta property="og:image" content="https://halvia.cloud/og.png">
 <meta property="og:image:width" content="1200">
@@ -83,41 +83,11 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 @media (max-width:56rem){.split2{grid-template-columns:minmax(0,1fr)}}
 
 /* ---------- hero ---------- */
-.hero{padding-block:clamp(2rem,5vw,3.5rem) clamp(2.5rem,6vw,4.5rem)}
-.herogrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:2.5rem clamp(2rem,4vw,4rem);align-items:center}
-@media (max-width:64rem){.herogrid{grid-template-columns:minmax(0,1fr)}}
-.hero h1{font-size:clamp(2.6rem,5.6vw,4.9rem);max-width:15ch}
-.hero h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-.lede{color:var(--mute);font-size:clamp(.92rem,1.3vw,1rem);max-width:56ch;margin:1.5rem 0 0;line-height:1.85}
-.lede b{color:var(--ink);font-weight:500}
-.trust{margin:1.6rem 0 0;font-size:.74rem;color:var(--mute);display:flex;flex-wrap:wrap;gap:.5rem 1.1rem}
-.trust span{display:inline-flex;align-items:center;gap:.45rem}
-.trust span::before{content:"";width:.42rem;height:.42rem;border-radius:50%;background:var(--grad)}
-.stage{position:relative;border-radius:28px;padding:clamp(1rem,2.4vw,1.8rem);overflow:hidden;isolation:isolate;
-  background:radial-gradient(34rem 22rem at 100% 100%,rgba(255,92,40,.95),transparent 60%),radial-gradient(30rem 22rem at 0% 0%,rgba(4,10,90,.95),transparent 62%),linear-gradient(135deg,#1430F0 0%,#2A3BFF 45%,#5A2CE0 75%,#FF5A1F 115%);
-  box-shadow:0 40px 80px -40px rgba(26,40,200,.6)}
-.stage::after{content:"";position:absolute;inset:0;background:radial-gradient(40rem 14rem at 50% -10%,rgba(255,255,255,.18),transparent 70%);pointer-events:none;z-index:-1}
-.device{border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 30px 60px -20px rgba(0,4,60,.7),0 0 0 1px rgba(255,255,255,.4);transform:perspective(1600px) rotateY(-4deg) rotateX(2deg)}
-.device .chrome{display:flex;align-items:center;gap:.35rem;padding:.5rem .7rem;background:#F3F4F8;border-bottom:1px solid #E4E7EF;font-size:.66rem;color:#666C7A}
-.device .chrome i{width:.55rem;height:.55rem;border-radius:50%;background:#D7DBE5}
-.device .chrome span{margin-left:.6rem}
-.device video,.device img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:top left;background:#fff}
-.glass{position:absolute;display:flex;align-items:center;gap:.55rem;padding:.6rem .85rem;border-radius:14px;font-size:.74rem;color:#fff;
-  background:linear-gradient(160deg,rgba(28,40,170,.82),rgba(10,14,90,.72));border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  box-shadow:0 18px 40px -16px rgba(0,6,80,.8),inset 0 1px 0 rgba(255,255,255,.35);animation:drift 7s ease-in-out infinite}
-.glass b{font-weight:500}
-.glass i{font-style:normal;display:inline-grid;place-items:center;width:1.5rem;height:1.5rem;border-radius:8px;font-size:.72rem;background:linear-gradient(135deg,#FF6FB0,#FF8A3D);box-shadow:0 0 16px rgba(255,120,160,.8)}
-.glass.g1{left:-.4rem;bottom:4.4rem;animation-delay:-2s}
-.glass.g2{right:-.3rem;top:2.6rem;animation-delay:-4s}
-.glass.g2 i{background:linear-gradient(135deg,#3BE38F,#18B3FF);box-shadow:0 0 16px rgba(60,230,160,.7)}
 @keyframes drift{50%{translate:0 -8px}}
-.stagecap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-top:1rem;color:rgba(255,255,255,.9);font-size:.72rem}
-.stagecap a{color:#fff}
-@media (max-width:40rem){.glass{display:none}.device{transform:none}}
 
 
 /* CHKS case study */
-.feature{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:1.5rem 2.5rem;align-items:start}
+.feature{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:1.5rem 2.5rem;align-items:end}
 @media (max-width:60rem){.feature{grid-template-columns:minmax(0,1fr)}}
 .vid{margin:0;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 30px 60px -36px rgba(11,13,18,.45)}
 .vid video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#fff}
@@ -127,8 +97,10 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .facts dt{color:var(--dim)}
 .facts dd{margin:0}
 
-.pex{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:2rem clamp(2rem,5vw,5rem);align-items:center;margin-top:clamp(3rem,6vw,5rem);padding:clamp(1.5rem,4vw,3rem);border-radius:28px;background:radial-gradient(30rem 20rem at 20% 50%,rgba(26,60,255,.10),transparent 70%),radial-gradient(24rem 18rem at 10% 100%,rgba(255,90,31,.10),transparent 70%),var(--soft);border:1px solid var(--line)}
-@media (max-width:56rem){.pex{grid-template-columns:minmax(0,1fr)}}
+.pex-in{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:2rem clamp(2rem,5vw,5rem);align-items:center}
+#work{padding-bottom:clamp(1rem,2vw,1.5rem)}
+.pex{margin:clamp(3rem,6vw,5rem) clamp(.4rem,1.4vw,1.25rem) 0;padding-block:clamp(1.5rem,4vw,3rem);background:radial-gradient(30rem 20rem at 20% 50%,rgba(26,60,255,.10),transparent 70%),radial-gradient(24rem 18rem at 10% 100%,rgba(255,90,31,.10),transparent 70%),var(--soft);border:1px solid var(--line)}
+@media (max-width:56rem){.pex-in{grid-template-columns:minmax(0,1fr)}}
 .phone{justify-self:center;width:min(19rem,78vw);aspect-ratio:9/16;border-radius:38px;padding:9px;background:#0B0D12;box-shadow:0 40px 70px -30px rgba(11,13,18,.55),0 0 0 1px rgba(255,255,255,.08) inset}
 .phone video{display:block;width:100%;height:100%;object-fit:cover;border-radius:30px;background:#0B0D12}
 .pex h2{font-size:clamp(1.9rem,3.6vw,2.8rem);max-width:18ch}
@@ -304,7 +276,8 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .nphotos img{width:100%;height:100%;object-fit:cover;display:block}
 .nphotos figcaption{position:absolute;left:.8rem;bottom:.7rem;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(10,18,56,.62);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:.25rem .6rem;border-radius:999px}
 /* AI agents */
-.agents{border-radius:32px;background:var(--soft);border:1px solid var(--line);padding:clamp(1.5rem,4vw,3.2rem);overflow:hidden}
+/* Full-width panels share the Decks panel's side margin, so every box lines up edge to edge. */
+.agents{margin:clamp(1rem,2vw,1.5rem) clamp(.4rem,1.4vw,1.25rem);background:var(--soft);border:1px solid var(--line);overflow:hidden}
 .agrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem 3rem;align-items:stretch;margin-top:.5rem}
 @media (max-width:60rem){.agrid{grid-template-columns:minmax(0,1fr)}}
 .aphoto{margin:0;position:relative;border-radius:22px;overflow:hidden;min-height:24rem;border:1px solid var(--line)}
@@ -325,6 +298,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .alog small{display:block;margin-top:.45rem;color:rgba(226,232,255,.6);font-size:.64rem}
 .acards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}
 @media (max-width:34rem){.acards{grid-template-columns:minmax(0,1fr)}}
+.acard:last-child:nth-child(odd){grid-column:1/-1}
 .acard{border-radius:18px;background:#fff;border:1px solid var(--line);padding:1rem 1.05rem}
 .acard b{display:block;font-family:var(--sans);font-weight:400;font-size:1.2rem;letter-spacing:-.015em;margin-bottom:.3rem}
 .acard p{margin:0;font-size:.76rem;line-height:1.65;color:var(--mute)}
@@ -342,7 +316,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .credits a{color:var(--dim)}
 
 /* contact */
-.contact{border-radius:32px;padding:clamp(2rem,5vw,4rem);color:#fff;position:relative;overflow:hidden;isolation:isolate;
+.contact{margin:clamp(1rem,2vw,1.5rem) clamp(.4rem,1.4vw,1.25rem);color:#fff;position:relative;overflow:hidden;isolation:isolate;
   background:radial-gradient(40rem 24rem at 100% 100%,rgba(255,92,40,.95),transparent 60%),radial-gradient(34rem 24rem at 0% 0%,rgba(4,10,90,.9),transparent 62%),linear-gradient(135deg,#1430F0,#2A3BFF 50%,#5A2CE0)}
 .contact .in{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:2rem 3rem;align-items:center}
 @media (max-width:56rem){.contact .in{grid-template-columns:minmax(0,1fr)}}
@@ -392,7 +366,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
 /* Square corners: every container box has 90-degree edges. Buttons, chips, tags and round dots keep their shape.
    Tool demo boxes are squared only here (#cases), so the separate Halvia Ward app is unchanged. */
-.stage,.device,.glass,.vid,.pex,.phone,.phone video,#cases,.ft,.tab,.appcta,.navy-sec,.ncard,.ncard .ic,.term,
+.vid,.pex,.phone,.phone video,#cases,.ft,.tab,.appcta,.navy-sec,.ncard,.ncard .ic,.term,
 .navy-sec .hb-shot,.hb-q,.hb-a .av,.hb-src span,.hb-comp,.slideimg,.sci,.nphotos figure,.agents,.aphoto,.alog,.acard,.aflow li,
 .contact,.card-w,.ask,.ask .hd .av,.ask .msg,.ask .msg.me,
 #cases .hv-card,#cases .hv-vivid .hv-card,#cases .hv-kpi,#cases .hv-alert,#cases .hv-bed,#cases .hv-draft,#cases .hv-sb,#cases .hv-sb h4 i,
@@ -407,11 +381,12 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
   <div class="wrap">
     <nav class="pill" aria-label="Main">
       <a class="mark" href="#main" aria-label="Halvia home"><svg viewBox="0 0 37 32" aria-hidden="true" shape-rendering="crispEdges" color="#0B0D12"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg><span><span class="chev">&#10095;</span> halvia</span><span class="ver">v0.2</span></a>
+      <a class="nl" href="#agents">Agents</a>
+      <a class="nl" href="#bot">Bot</a>
       <a class="nl" href="#work">Work</a>
       <a class="nl" href="#cases">Tools</a>
       <a class="nl" href="#medtech">Medtech</a>
       <a class="nl" href="#decks">Decks</a>
-      <a class="nl" href="#agents">Agents</a><a class="nl" href="#bot">Bot</a>
           </nav>
     <div class="pill right">
       <a class="cta" href="ward/">Open Halvia Ward</a>
@@ -421,29 +396,80 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 </header>
 
 <main id="main">
-  <section class="hero" aria-labelledby="heroH">
-    <div class="wrap herogrid">
-      <div>
-        <p class="eyebrow">Halvia &middot; AI systems for healthcare</p>
-        <h1 id="heroH">AI that gives care teams <em>time back</em></h1>
-        <p class="lede">I'm <b>Shaun Finch</b>, a UI/UX and motion designer in Manchester working on <b>AI in health and science</b>. I design, build and set up AI tools around how doctors, nurses, coders and patients actually work, with a person always making the final call. Seven of them are working software you can try below.</p>
-        <div class="actions">
-          <a class="btn go" href="ward/">Open Halvia Ward &#8599;</a>
-          <a class="btn" href="#cases">See the seven tools</a>
+  <h1 class="sr">Halvia: AI systems for healthcare, by Shaun Finch</h1>
+
+  <section class="sec agents" id="agents" aria-labelledby="agentH">
+    <div class="wrap">
+        <div class="split2" style="margin-bottom:1.8rem">
+          <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents that give staff time back for patients</h2></div>
+          <p class="intro">Clinicians lose hours a week to inboxes, letters, rotas and reports. I set up AI agents and automations that take on that admin, connected to the systems you already use, with a person approving anything that reaches a patient or a record.</p>
         </div>
-        <p class="trust"><span>Synthetic patients only</span><span>Nothing leaves your browser</span><span>A clinician approves every output</span></p>
-      </div>
-      <div class="stage">
-        <div class="device">
-          <div class="chrome" aria-hidden="true"><i></i><i></i><i></i><span>halvia ward &middot; demo</span></div>
-          <video id="tour" autoplay muted loop playsinline preload="metadata" poster="media/tour.jpg" aria-label="A 30-second tour of Halvia Ward: the live ward board, recording observations, an escalation, a handover and a GP discharge letter">
-            <source src="media/tour.webm" type="video/webm">
-            <source src="media/tour.mp4" type="video/mp4">
-          </video>
+        <div class="agrid">
+          <figure class="aphoto">
+            <div class="alogos" role="img" aria-label="AI tools I set up for care teams: Grok, ChatGPT and dots">
+              <div class="lg"><img src="media/logos/grok.svg" alt="" width="34" height="33"><span>Grok</span></div>
+              <div class="lg"><img src="media/logos/chatgpt.svg" alt="" width="320" height="320"><span>ChatGPT</span></div>
+              <div class="lg"><b>dots</b><span>&nbsp;</span></div>
+            </div>
+            <div class="alog" role="img" aria-label="Example agent run: clinic preparation for Tuesday cardiology, 14 appointments pulled, 3 letters drafted for sign-off, 2 referrals missing an ECG requested from GP practices">
+              <b>Agent run &middot; clinic prep, Tuesday cardiology</b>
+              <ul><li><span class="ok">&#10003;</span>14 appointments pulled from the clinic list</li><li><span class="ok">&#10003;</span>3 pre-clinic letters drafted, waiting for sign-off</li><li><span class="mid">&#9680;</span>2 referrals missing an ECG: request sent to the GP practices</li><li><span class="go">&rarr;</span>Summary sent to the clinic lead</li></ul>
+              <small>Example run for illustration.</small>
+            </div>
+          </figure>
+          <div>
+            <div class="acards">
+              <div class="acard"><b>Discharge letters</b><p>Drafts the GP discharge letter from the ward notes in a standard structure, ready for the doctor to check and sign.</p></div>
+              <div class="acard"><b>Shift handover</b><p>Turns end-of-shift notes into a structured handover, so nothing gets lost between teams. Staff approve each section.</p></div>
+              <div class="acard"><b>Missed appointments</b><p>Flags clinic bookings that may be missed and sends reminders, video options or an easy way to rebook.</p></div>
+              <div class="acard"><b>Plain-English letters</b><p>Rewrites clinic letters for patients: jargon explained, next steps first. The clinician signs off the patient copy.</p></div>
+              <div class="acard"><b>Clinical coding</b><p>Suggests codes from the discharge record, with the sentence behind each one, for the coding team to accept or change.</p></div>
+            </div>
+            <p class="tools-used"><span>Built with tools including</span><span class="t">Claude</span><span class="t">Claude Cowork</span><span class="t">Grok</span><span class="t">your existing systems</span></p>
+          </div>
         </div>
-        <div class="glass g1" aria-hidden="true"><i>&#9829;</i><span><b>Bed 3 &middot; NEWS2 6</b><br>urgent review</span></div>
-        <div class="glass g2" aria-hidden="true"><i>&#10003;</i><span><b>Handover signed off</b><br>4 of 4 sections</span></div>
-        <div class="stagecap"><span>Halvia Ward: a working demo with six synthetic patients</span><button type="button" id="tourToggle" style="all:unset;cursor:pointer;color:#fff;text-decoration:underline;text-underline-offset:3px">Pause tour</button></div>
+        <ol class="aflow" aria-label="How an agent project runs">
+          <li><b>Map the task</b>Shadow the team and time the admin</li>
+          <li><b>Build the agent</b>Limited permissions, clear steps</li>
+          <li><b>Test safely</b>On synthetic data first</li>
+          <li><b>Run with a person</b>Staff approve what matters</li>
+          <li><b>Measure</b>Hours given back to patient care</li>
+        </ol>
+        <p class="safe"><b>Patient data stays protected.</b> Patient-identifiable information only goes into tools your information governance team has approved, under a data protection impact assessment. Agents work with the least access they need, and every action is logged.</p>
+    </div>
+  </section>
+
+  <section class="sec navy-sec" id="bot" aria-labelledby="botH">
+    <div class="wrap">
+      <div class="hb">
+        <div>
+          <p class="eyebrow">Halvia bot &middot; offline AI</p>
+          <h2 id="botH">An AI assistant for clinicians that <em>works with no signal</em></h2>
+          <p class="intro">Halvia bot runs on the device itself, so it keeps answering on a ward with no Wi-Fi, in a basement clinic or on a flight. It answers from a library of guidance, shows the passages it used, and learns from the papers and protocols you add.</p>
+          <ul class="hb-feats">
+            <li><b>Works offline</b>The AI model downloads once, then runs on the phone or laptop with no internet.</li>
+            <li><b>Built-in medical library</b>30 clinical guides based on NICE, Resuscitation Council UK and JBDS guidance, plus 240 open-access peer-reviewed papers. Every answer cites its source.</li>
+            <li><b>Learns your documents</b>Sign in and add PDFs, Word files and notes: they're indexed and used in answers.</li>
+            <li><b>Private by design</b>Documents and chats stay on the device, encrypted with your passcode.</li>
+          </ul>
+          <div class="actions">
+            <a class="btn go" href="bot/">Open Halvia bot</a>
+            <span style="font-size:.74rem;color:rgba(226,232,255,.72)">Web app today &middot; Android and iOS next</span>
+          </div>
+        </div>
+        <a class="hb-shot" href="bot/" aria-label="Open Halvia bot: preview of the chat answering a NEWS2 question offline, with sources">
+          <div class="hb-bar" aria-hidden="true"><span class="logo"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg>Halvia <b>bot</b></span><span class="hb-pill off"><i></i>Offline</span><span class="hb-pill"><i></i>AI on this device</span></div>
+          <div class="hb-body" aria-hidden="true">
+            <div class="hb-q">What NEWS2 score needs an emergency response?</div>
+            <div class="hb-a"><span class="av"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg></span><div>
+              <p>An aggregate NEWS2 of <strong>7 or more</strong> is high risk and needs an emergency response.<sup>1</sup> That means:</p>
+              <ul><li>Emergency assessment by a team with critical care competencies<sup>1</sup></li><li>Continuous monitoring of vital signs<sup>2</sup></li></ul>
+              <div class="hb-src"><span>1 &middot; NEWS2 &middot; RCP 2017</span><span>2 &middot; Observation frequency</span><span>+ Your trust protocol</span></div>
+            </div></div>
+          </div>
+          <div class="hb-comp" aria-hidden="true"><span>Ask Halvia bot&hellip;</span><i>&uarr;</i></div>
+          <div class="hb-open"><span><b>Try Halvia bot</b><br>Prototype &middot; not a medical device</span><span aria-hidden="true">halvia.cloud/bot &rarr;</span></div>
+        </a>
       </div>
     </div>
   </section>
@@ -485,7 +511,9 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           <div class="actions" style="margin-top:1.3rem"><a class="btn" href="#code" data-open="code">Try the coding tool &rarr;</a></div>
         </div>
       </div>
-      <div class="pex" id="patient-video">
+    </div>
+    <div class="pex" id="patient-video">
+      <div class="wrap pex-in">
         <div class="phone">
           <video controls playsinline preload="metadata" poster="media/black-eye-explainer.jpg" aria-label="How to look after a black eye: a 31-second patient explainer made with Google Veo 3">
             <source src="media/black-eye-explainer.mp4" type="video/mp4">
@@ -509,59 +537,53 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
   <section class="sec" id="cases" aria-labelledby="casesH">
     <div class="floaters" aria-hidden="true">
-      <span class="ft f1"><i>&#9829;</i>NEWS2 &middot; 5</span>
+      <span class="ft f1"><i>&#9993;</i>GP letter</span>
       <span class="ft f2">SBAR</span>
       <span class="ft f3">ICD-10</span>
       <span class="ft f4"><i>&#10003;</i>Approved</span>
     </div>
     <div class="wrap">
-      <p class="eyebrow">Seven tools &middot; working software</p>
-      <h2 id="casesH">Seven places AI can help, today</h2>
-      <p class="intro">Each tool is a working concept for one job on a ward, in a records office or in clinic. They share one synthetic ward, so recording observations in one updates the ward board in another. Use them here, or open the full-screen workspace.</p>
+      <p class="eyebrow">Five tools &middot; working software</p>
+      <h2 id="casesH">Five places AI can help, today</h2>
+      <p class="intro">Each tool is a working concept for one piece of paperwork or admin around care: letters, handovers, bookings and coding. Use them here, or open the full-screen workspace.</p>
       <div class="console">
         <div>
           <p class="railhead">Tools</p>
           <div class="rail" role="tablist" aria-label="Tools" aria-orientation="vertical">
-            <button class="tab" role="tab" id="t-ward" aria-controls="p-ward" aria-selected="true"><span class="ic">01</span><span class="nm">Ward overview<span class="new">new</span><small>Nurses in charge</small></span></button>
-            <button class="tab" role="tab" id="t-news" aria-controls="p-news" aria-selected="false" tabindex="-1"><span class="ic">02</span><span class="nm">Early warning<small>Ward nurses</small></span></button>
-            <button class="tab" role="tab" id="t-sbar" aria-controls="p-sbar" aria-selected="false" tabindex="-1"><span class="ic">03</span><span class="nm">Shift handover<small>Nurses and doctors</small></span></button>
-            <button class="tab" role="tab" id="t-discharge" aria-controls="p-discharge" aria-selected="false" tabindex="-1"><span class="ic">04</span><span class="nm">Discharge letters<span class="new">new</span><small>Doctors and GPs</small></span></button>
+            <button class="tab" role="tab" id="t-discharge" aria-controls="p-discharge" aria-selected="true"><span class="ic">01</span><span class="nm">Discharge letters<span class="new">new</span><small>Doctors and GPs</small></span></button>
+            <button class="tab" role="tab" id="t-sbar" aria-controls="p-sbar" aria-selected="false" tabindex="-1"><span class="ic">02</span><span class="nm">Shift handover<small>Nurses and doctors</small></span></button>
+            <button class="tab" role="tab" id="t-dna" aria-controls="p-dna" aria-selected="false" tabindex="-1"><span class="ic">03</span><span class="nm">Missed appointments<small>Outpatients</small></span></button>
+            <button class="tab" role="tab" id="t-plain" aria-controls="p-plain" aria-selected="false" tabindex="-1"><span class="ic">04</span><span class="nm">Plain-English letters<small>Patients</small></span></button>
             <button class="tab" role="tab" id="t-code" aria-controls="p-code" aria-selected="false" tabindex="-1"><span class="ic">05</span><span class="nm">Clinical coding<small>Coding teams</small></span></button>
-            <button class="tab" role="tab" id="t-dna" aria-controls="p-dna" aria-selected="false" tabindex="-1"><span class="ic">06</span><span class="nm">Missed appointments<small>Outpatients</small></span></button>
-            <button class="tab" role="tab" id="t-plain" aria-controls="p-plain" aria-selected="false" tabindex="-1"><span class="ic">07</span><span class="nm">Plain-English letters<small>Patients</small></span></button>
           </div>
           <div class="more"><b>About these tools</b>Synthetic patients and simple, visible rules, so you can see exactly why each output appears.</div>
         </div>
 
         <div>
-          <section class="panel" id="p-ward" role="tabpanel" aria-labelledby="t-ward">
-            <div class="phead"><div><p class="uri">halvia://ward/overview</p><h3>See the whole ward, and who needs you next</h3><p>Every bed's NEWS2 score, trend and next observations on one board. Press <b>Live</b> and the demo clock runs: observations arrive as often as NEWS2 says they should, and a patient who's getting worse rises to the top with an escalation ready to review.</p></div>
-              <aside class="basis"><b>Who it helps</b><span>Nurses in charge, outreach teams</span><b>Final call</b><span>Registered nurse</span><a class="full" href="ward/#ward">Open full screen &#8599;</a></aside></div>
-            <div class="hv hv-vivid" data-tool="ward"></div>
-            <div class="cs"><div><b>The problem</b><p>Nurses in charge piece together who's sickest from paper charts, e-obs screens and handover notes, often while doing their own patients' care.</p></div><div><b>What I'd build</b><p>A live board fed by the e-obs system, sorted by risk, showing overdue observations and trends, with one tap into the chart and an escalation draft.</p></div><div><b>What we'd measure</b><p>Overdue observations per shift, time from a trigger score to review, and how often staff use the board at the start of a shift.</p></div></div>
+          <section class="panel" id="p-discharge" role="tabpanel" aria-labelledby="t-discharge">
+            <div class="phead"><div><p class="uri">halvia://ward/discharge-letter</p><h3>From ward notes to a GP letter in one step</h3><p>Discharge summaries are written at the end of a long day and GPs often get them late or incomplete. This turns ward notes into a structured letter: diagnosis, what happened, <b>every medicine change</b>, actions for the GP and what the patient was told, with each line linked back to its source.</p></div>
+              <aside class="basis"><b>Who it helps</b><span>Discharging doctors, pharmacists and GPs</span><b>Final call</b><span>Discharging clinician</span><a class="full" href="ward/#discharge">Open full screen &#8599;</a></aside></div>
+            <div class="hv hv-vivid" data-tool="discharge"></div>
+            <div class="cs"><div><b>The problem</b><p>Medicine changes and GP actions get lost between ward and practice, which leads to repeat tests, missed follow-up and avoidable readmissions.</p></div><div><b>What I'd build</b><p>A drafting tool inside the discharge workflow that pulls from the notes and drug chart, follows a standard structure, and won't send until medicines are checked.</p></div><div><b>What we'd measure</b><p>Time to write a summary, letters sent within 24 hours, medicine discrepancies found by GPs and pharmacists, and GP satisfaction.</p></div></div>
           </section>
-
-          <section class="panel" id="p-news" role="tabpanel" aria-labelledby="t-news" hidden>
-            <div class="phead"><div><p class="uri">halvia://ward/early-warning</p><h3>Spot the patient who is quietly getting worse</h3><p>NEWS2 is the early warning score used across UK hospitals. Scoring it is simple; noticing the <b>trend</b> across a busy shift, and escalating clearly, is the hard part. This scores observations live, charts the trend and drafts the escalation for the nurse to check and send.</p></div>
-              <aside class="basis"><b>Who it helps</b><span>Ward nurses, outreach and medical teams</span><b>Final call</b><span>Registered nurse</span><a class="full" href="ward/#news">Open full screen &#8599;</a></aside></div>
-            <div class="hv hv-vivid" data-tool="news"></div>
-            <div class="cs"><div><b>The problem</b><p>Deterioration is often visible in the observations hours before a crisis, but it's spread across charts and shift changes. Escalation calls can be rushed or unclear.</p></div><div><b>What I'd build</b><p>A bedside view that scores as obs are entered, highlights rising trends across shifts, and drafts an SBAR escalation the nurse edits and sends from the same screen.</p></div><div><b>What we'd measure</b><p>Time from a trigger score to review, missed escalations, nurse-rated clarity of calls, and alert fatigue.</p></div></div>
-          </section>
-
           <section class="panel" id="p-sbar" role="tabpanel" aria-labelledby="t-sbar" hidden>
             <div class="phead"><div><p class="uri">halvia://ward/handover</p><h3>Turn rushed notes into a safe handover</h3><p>Paste free-text notes and the assistant sorts them into SBAR (Situation, Background, Assessment, Recommendation), pulls out the to-do list and raises safety flags, including a medicine and allergy clash hidden in Bed 3's notes.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Nurses and junior doctors at shift change</span><b>Final call</b><span>Clinician handing over approves each section</span><a class="full" href="ward/#sbar">Open full screen &#8599;</a></aside></div>
             <div class="hv hv-vivid" data-tool="sbar"></div>
             <div class="cs"><div><b>The problem</b><p>Handovers vary by person and by how tired they are. An allergy query, a near-miss fall or a pending blood test can sit in a paragraph and get missed.</p></div><div><b>What I'd build</b><p>A handover tool that structures notes into SBAR, cross-checks medicines against allergies, and asks the outgoing nurse to approve each section, with a record of what was handed over.</p></div><div><b>What we'd measure</b><p>Handover time, items missed in audit, incidents linked to handover, and whether incoming staff feel they have what they need.</p></div></div>
           </section>
-
-          <section class="panel" id="p-discharge" role="tabpanel" aria-labelledby="t-discharge" hidden>
-            <div class="phead"><div><p class="uri">halvia://ward/discharge-letter</p><h3>From ward notes to a GP letter in one step</h3><p>Discharge summaries are written at the end of a long day and GPs often get them late or incomplete. This turns ward notes into a structured letter: diagnosis, what happened, <b>every medicine change</b>, actions for the GP and what the patient was told, with each line linked back to its source.</p></div>
-              <aside class="basis"><b>Who it helps</b><span>Discharging doctors, pharmacists and GPs</span><b>Final call</b><span>Discharging clinician</span><a class="full" href="ward/#discharge">Open full screen &#8599;</a></aside></div>
-            <div class="hv hv-vivid" data-tool="discharge"></div>
-            <div class="cs"><div><b>The problem</b><p>Medicine changes and GP actions get lost between ward and practice, which leads to repeat tests, missed follow-up and avoidable readmissions.</p></div><div><b>What I'd build</b><p>A drafting tool inside the discharge workflow that pulls from the notes and drug chart, follows a standard structure, and won't send until medicines are checked.</p></div><div><b>What we'd measure</b><p>Time to write a summary, letters sent within 24 hours, medicine discrepancies found by GPs and pharmacists, and GP satisfaction.</p></div></div>
+          <section class="panel" id="p-dna" role="tabpanel" aria-labelledby="t-dna" hidden>
+            <div class="phead"><div><p class="uri">halvia://outpatients/missed-appointments</p><h3>Fewer empty clinic slots, without penalising patients</h3><p>Missed appointments waste clinic time and delay care. This estimates who might struggle to attend, explains why in plain terms, and suggests <b>help</b>: a reminder, a video slot or a nearer date. It's never used to overbook or move anyone down a list.</p></div>
+              <aside class="basis"><b>Who it helps</b><span>Outpatient booking teams and patients</span><b>Final call</b><span>Booking team, with patient choice</span><a class="full" href="ward/#dna">Open full screen &#8599;</a></aside></div>
+            <div class="hv hv-vivid" data-tool="dna"></div>
+            <div class="cs"><div><b>The problem</b><p>Every empty slot is time a patient on the waiting list could have used. Blanket reminders help, but the people most likely to miss often need a different kind of help.</p></div><div><b>What I'd build</b><p>A daily list for booking teams showing who may need support and why, with reminder, video and rebooking actions built in, and freed slots offered back to the waiting list.</p></div><div><b>What we'd measure</b><p>Missed-appointment rate by clinic and by patient group (to check it's fair), slots refilled and staff time per list.</p></div></div>
           </section>
-
+          <section class="panel" id="p-plain" role="tabpanel" aria-labelledby="t-plain" hidden>
+            <div class="phead"><div><p class="uri">halvia://patients/plain-english</p><h3>Clinic letters patients can actually read</h3><p>Clinic letters are usually written for other clinicians. This rewrites one for the patient: jargon explained, medicines in a table and next steps up front. It measures the reading age before and after, and can read the letter aloud.</p></div>
+              <aside class="basis"><b>Who it helps</b><span>Patients, carers and the clinicians writing letters</span><b>Final call</b><span>Clinician signs off the patient version</span><a class="full" href="ward/#plain">Open full screen &#8599;</a></aside></div>
+            <div class="hv hv-vivid" data-tool="plain"></div>
+            <div class="cs"><div><b>The problem</b><p>Many adults struggle with health information written at a high reading level. Patients leave clinic unsure what was found or what to do next, and call the hospital to ask.</p></div><div><b>What I'd build</b><p>A letter assistant that drafts a patient version alongside the GP letter, with a glossary, medicines table, reading-age check, translation and audio.</p></div><div><b>What we'd measure</b><p>Reading age of letters sent, patient understanding, follow-up calls to the clinic, and the extra clinician time per letter.</p></div></div>
+          </section>
           <section class="panel" id="p-code" role="tabpanel" aria-labelledby="t-code" hidden>
             <div class="phead"><div><p class="uri">halvia://records/clinical-coding</p><h3>Help coders get from discharge summary to codes</h3><p>Clinical coding turns each hospital stay into standard codes that drive funding, research and planning. In England that means ICD-10 for diagnoses and OPCS-4 for procedures. This suggests ICD-10 codes, shows the sentence behind each one, and spots conditions that were ruled out so they aren't coded by mistake.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Clinical coders and coding auditors</span><b>Final call</b><span>Accredited clinical coder</span><b>My background</b><span><a href="#work">Explainer for CHKS's AI clinical coding system</a></span><a class="full" href="ward/#code">Open full screen &#8599;</a></aside></div>
@@ -569,22 +591,14 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
             <div class="cs"><div><b>The problem</b><p>Coders read long, unstructured notes under time pressure. Missed or wrong codes affect funding and the data used to plan, and backlogs build quickly.</p></div><div><b>What I'd build</b><p>A suggestion panel inside the coder's existing system: evidence for every code, negation and uncertainty spotted, and one-click accept or reject that feeds an audit trail.</p></div><div><b>What we'd measure</b><p>Episodes coded per hour, audit accuracy, depth of coding, and how often coders override suggestions, and why.</p></div></div>
           </section>
 
-          <section class="panel" id="p-dna" role="tabpanel" aria-labelledby="t-dna" hidden>
-            <div class="phead"><div><p class="uri">halvia://outpatients/missed-appointments</p><h3>Fewer empty clinic slots, without penalising patients</h3><p>Missed appointments waste clinic time and delay care. This estimates who might struggle to attend, explains why in plain terms, and suggests <b>help</b>: a reminder, a video slot or a nearer date. It's never used to overbook or move anyone down a list.</p></div>
-              <aside class="basis"><b>Who it helps</b><span>Outpatient booking teams and patients</span><b>Final call</b><span>Booking team, with patient choice</span><a class="full" href="ward/#dna">Open full screen &#8599;</a></aside></div>
-            <div class="hv hv-vivid" data-tool="dna"></div>
-            <div class="cs"><div><b>The problem</b><p>Every empty slot is time a patient on the waiting list could have used. Blanket reminders help, but the people most likely to miss often need a different kind of help.</p></div><div><b>What I'd build</b><p>A daily list for booking teams showing who may need support and why, with reminder, video and rebooking actions built in, and freed slots offered back to the waiting list.</p></div><div><b>What we'd measure</b><p>Missed-appointment rate by clinic and by patient group (to check it's fair), slots refilled and staff time per list.</p></div></div>
-          </section>
 
-          <section class="panel" id="p-plain" role="tabpanel" aria-labelledby="t-plain" hidden>
-            <div class="phead"><div><p class="uri">halvia://patients/plain-english</p><h3>Clinic letters patients can actually read</h3><p>Clinic letters are usually written for other clinicians. This rewrites one for the patient: jargon explained, medicines in a table and next steps up front. It measures the reading age before and after, and can read the letter aloud.</p></div>
-              <aside class="basis"><b>Who it helps</b><span>Patients, carers and the clinicians writing letters</span><b>Final call</b><span>Clinician signs off the patient version</span><a class="full" href="ward/#plain">Open full screen &#8599;</a></aside></div>
-            <div class="hv hv-vivid" data-tool="plain"></div>
-            <div class="cs"><div><b>The problem</b><p>Many adults struggle with health information written at a high reading level. Patients leave clinic unsure what was found or what to do next, and call the hospital to ask.</p></div><div><b>What I'd build</b><p>A letter assistant that drafts a patient version alongside the GP letter, with a glossary, medicines table, reading-age check, translation and audio.</p></div><div><b>What we'd measure</b><p>Reading age of letters sent, patient understanding, follow-up calls to the clinic, and the extra clinician time per letter.</p></div></div>
-          </section>
+
+
+
+
         </div>
       </div>
-      <div class="appcta"><p><b>Halvia Ward, full screen</b>All seven tools in one workspace with an activity log, keyboard shortcuts, print and copy. Six synthetic patients, ready to use.</p><a class="btn light" href="ward/">Open Halvia Ward &#8599;</a></div>
+      <div class="appcta"><p><b>Halvia Ward, full screen</b>The tools in one workspace with an activity log, keyboard shortcuts, print and copy. Six synthetic patients, ready to use.</p><a class="btn light" href="ward/">Open Halvia Ward &#8599;</a></div>
     </div>
   </section>
 
@@ -677,88 +691,8 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec" id="agents" aria-labelledby="agentH" style="padding-top:0">
+  <section class="sec contact" id="contact" aria-labelledby="contactH">
     <div class="wrap">
-      <div class="agents">
-        <div class="split2" style="margin-bottom:1.8rem">
-          <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents that give staff time back for patients</h2></div>
-          <p class="intro">Clinicians lose hours a week to inboxes, letters, rotas and reports. I set up AI agents and automations that take on that admin, connected to the systems you already use, with a person approving anything that reaches a patient or a record.</p>
-        </div>
-        <div class="agrid">
-          <figure class="aphoto">
-            <div class="alogos" role="img" aria-label="AI tools I set up for care teams: Grok, ChatGPT and dots">
-              <div class="lg"><img src="media/logos/grok.svg" alt="" width="34" height="33"><span>Grok</span></div>
-              <div class="lg"><img src="media/logos/chatgpt.svg" alt="" width="320" height="320"><span>ChatGPT</span></div>
-              <div class="lg"><b>dots</b><span>&nbsp;</span></div>
-            </div>
-            <div class="alog" role="img" aria-label="Example agent run: clinic preparation for Tuesday cardiology, 14 appointments pulled, 3 letters drafted for sign-off, 2 referrals missing an ECG requested from GP practices">
-              <b>Agent run &middot; clinic prep, Tuesday cardiology</b>
-              <ul><li><span class="ok">&#10003;</span>14 appointments pulled from the clinic list</li><li><span class="ok">&#10003;</span>3 pre-clinic letters drafted, waiting for sign-off</li><li><span class="mid">&#9680;</span>2 referrals missing an ECG: request sent to the GP practices</li><li><span class="go">&rarr;</span>Summary sent to the clinic lead</li></ul>
-              <small>Example run for illustration.</small>
-            </div>
-          </figure>
-          <div>
-            <div class="acards">
-              <div class="acard"><b>Inbox and referral triage</b><p>Sorts shared inboxes, drafts routine replies and flags urgent referrals for a clinician to see first.</p></div>
-              <div class="acard"><b>Letters and notes</b><p>Drafts clinic letters, discharge summaries and meeting minutes from notes, ready for sign-off.</p></div>
-              <div class="acard"><b>Rotas and clinic prep</b><p>Prepares clinic lists, chases missing results and suggests cover for gaps in the rota.</p></div>
-              <div class="acard"><b>Research and evidence</b><p>Searches and summarises papers and guidelines with their sources, for journal clubs and protocol reviews.</p></div>
-              <div class="acard"><b>Reports and audit</b><p>Pulls the numbers into weekly dashboards and audit reports, and chases the data that's missing.</p></div>
-              <div class="acard"><b>Patient messages</b><p>Approved reminders, preparation instructions and plain-English follow-ups, sent at the right time.</p></div>
-            </div>
-            <p class="tools-used"><span>Built with tools including</span><span class="t">Claude</span><span class="t">Claude Cowork</span><span class="t">Grok</span><span class="t">your existing systems</span></p>
-          </div>
-        </div>
-        <ol class="aflow" aria-label="How an agent project runs">
-          <li><b>Map the task</b>Shadow the team and time the admin</li>
-          <li><b>Build the agent</b>Limited permissions, clear steps</li>
-          <li><b>Test safely</b>On synthetic data first</li>
-          <li><b>Run with a person</b>Staff approve what matters</li>
-          <li><b>Measure</b>Hours given back to patient care</li>
-        </ol>
-        <p class="safe"><b>Patient data stays protected.</b> Patient-identifiable information only goes into tools your information governance team has approved, under a data protection impact assessment. Agents work with the least access they need, and every action is logged.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec navy-sec" id="bot" aria-labelledby="botH">
-    <div class="wrap">
-      <div class="hb">
-        <div>
-          <p class="eyebrow">Halvia bot &middot; offline AI</p>
-          <h2 id="botH">An AI assistant for clinicians that <em>works with no signal</em></h2>
-          <p class="intro">Halvia bot runs on the device itself, so it keeps answering on a ward with no Wi-Fi, in a basement clinic or on a flight. It answers from a library of guidance, shows the passages it used, and learns from the papers and protocols you add.</p>
-          <ul class="hb-feats">
-            <li><b>Works offline</b>The AI model downloads once, then runs on the phone or laptop with no internet.</li>
-            <li><b>Built-in medical library</b>30 clinical guides based on NICE, Resuscitation Council UK and JBDS guidance, plus 240 open-access peer-reviewed papers. Every answer cites its source.</li>
-            <li><b>Learns your documents</b>Sign in and add PDFs, Word files and notes: they're indexed and used in answers.</li>
-            <li><b>Private by design</b>Documents and chats stay on the device, encrypted with your passcode.</li>
-          </ul>
-          <div class="actions">
-            <a class="btn go" href="bot/">Open Halvia bot</a>
-            <span style="font-size:.74rem;color:rgba(226,232,255,.72)">Web app today &middot; Android and iOS next</span>
-          </div>
-        </div>
-        <a class="hb-shot" href="bot/" aria-label="Open Halvia bot: preview of the chat answering a NEWS2 question offline, with sources">
-          <div class="hb-bar" aria-hidden="true"><span class="logo"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg>Halvia <b>bot</b></span><span class="hb-pill off"><i></i>Offline</span><span class="hb-pill"><i></i>AI on this device</span></div>
-          <div class="hb-body" aria-hidden="true">
-            <div class="hb-q">What NEWS2 score needs an emergency response?</div>
-            <div class="hb-a"><span class="av"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg></span><div>
-              <p>An aggregate NEWS2 of <strong>7 or more</strong> is high risk and needs an emergency response.<sup>1</sup> That means:</p>
-              <ul><li>Emergency assessment by a team with critical care competencies<sup>1</sup></li><li>Continuous monitoring of vital signs<sup>2</sup></li></ul>
-              <div class="hb-src"><span>1 &middot; NEWS2 &middot; RCP 2017</span><span>2 &middot; Observation frequency</span><span>+ Your trust protocol</span></div>
-            </div></div>
-          </div>
-          <div class="hb-comp" aria-hidden="true"><span>Ask Halvia bot&hellip;</span><i>&uarr;</i></div>
-          <div class="hb-open"><span><b>Try Halvia bot</b><br>Prototype &middot; not a medical device</span><span aria-hidden="true">halvia.cloud/bot &rarr;</span></div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec" id="contact" aria-labelledby="contactH" style="padding-top:0">
-    <div class="wrap">
-      <div class="contact">
         <div class="in">
           <div>
             <p class="eyebrow">Work with me</p>
@@ -777,7 +711,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
             <a href="https://shaun-finch.github.io/Design/">Full portfolio &rarr;</a>
           </div>
         </div>
-      </div>
     </div>
   </section>
 </main>
@@ -834,19 +767,12 @@ if(h&&$('#t-'+h)){show($('#t-'+h));setTimeout(function(){$('#cases').scrollIntoV
   pp.addEventListener('click',function(){if(t)stop();else play()});
   if(reduce)stop();else play();})();
 
-/* hero tour video: honour reduced motion and offer a pause */
-var v=$('#tour'),tg=$('#tourToggle');
-function setTg(){tg.textContent=v.paused?'Play tour':'Pause tour'}
-if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}
-tg.addEventListener('click',function(){if(v.paused)v.play();else v.pause();setTg()});
-v.addEventListener('play',setTg);v.addEventListener('pause',setTg);setTg();
-
 /* Ask Halvia: a scripted helper, no network calls */
 var btn=$('#askBtn'),box=$('#ask'),log=$('#askLog'),chips=$('#askChips'),form=$('#askForm'),inp=$('#askIn'),started=false;
 var A=[
   {k:/contact|email|call|meet|book|talk|hire/i,q:'How do I get in touch?',a:'Email <a href="mailto:shaundavidfinch@gmail.com">shaundavidfinch@gmail.com</a> or message on <a href="https://www.linkedin.com/in/shaun-finch" rel="noopener">LinkedIn</a>. A short description of the problem is plenty to start.'},
   {k:/offline|\bbot\b|chat ?bot|no (internet|signal|wifi)|halvia bot/i,q:'What is Halvia bot?',a:'An AI assistant for clinicians that runs on the device and keeps working with no internet. It answers from a library of guidance, cites its sources, and learns from the papers you add. <a href="bot/">Open Halvia bot</a>.'},
-  {k:/build|make|do you do|service|offer|help with/i,q:'What can you build?',a:'Design, working prototypes and AI set-up for health teams: ward tools like the NEWS2 board, documentation helpers such as handover and discharge letters, coding support and patient-facing content. The seven tools on this page are examples. <a href="#cases">Try them</a>.'},
+  {k:/build|make|do you do|service|offer|help with/i,q:'What can you build?',a:'Design, working prototypes and AI set-up for the admin around care: handover and discharge letters, appointment booking, coding support and patient-facing letters. The five tools on this page are examples. <a href="#cases">Try them</a>.'},
   {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
   {k:/cost|price|budget|quote|pilot|start|timeline|how long/i,q:'How does a pilot start?',a:'Usually with 1 to 2 weeks of discovery with one team, then a 2 to 4 week working prototype tested on synthetic data. Every project is scoped with you, so <a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20pilot">email Shaun</a> for a plan and a quote.'},
