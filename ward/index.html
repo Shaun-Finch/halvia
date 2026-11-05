@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Halvia Ward — demo clinical workspace</title>
-<meta name="description" content="Halvia Ward: a working demo of seven AI-assisted tools for a hospital ward and clinic, from a live NEWS2 ward board to handover, coding, discharge letters and plain-English patient letters. Synthetic patients, runs in your browser.">
+<meta name="description" content="Halvia Ward: five working AI tools for the paperwork around care: discharge letters, shift handover, missed appointments, plain-English letters and clinical coding. Synthetic patients, runs in your browser.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Halvia Ward — try the demo clinical workspace">
-<meta property="og:description" content="A live NEWS2 ward board, SBAR handover, ICD-10 coding, GP discharge letters and plain-English patient letters. Synthetic patients; nothing leaves your browser.">
+<meta property="og:description" content="Discharge letters, shift handover, missed appointments, plain-English letters and clinical coding. Synthetic patients; nothing leaves your browser.">
 <meta property="og:url" content="https://halvia.cloud/ward/">
 <meta property="og:image" content="https://halvia.cloud/og-app.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -82,6 +82,34 @@ main{min-width:0;padding:0 clamp(1rem,2.6vw,2.2rem) 3rem}
 .modal .bd{padding:1.2rem 1.6rem 1.5rem;font-size:.8rem;line-height:1.7;color:var(--mute)}
 .modal .bd ul{padding-left:1.1rem;margin:.4rem 0 1rem}
 .modal .bd b{color:var(--ink);font-weight:500}
+
+/* Blue theme: the same vivid blue as the tools panel on halvia.cloud, with square boxes */
+html{background:#0A22C9}
+body{color:#F4F6FF;background:radial-gradient(46rem 28rem at -6% 108%,rgba(255,96,80,.55),transparent 62%),radial-gradient(34rem 22rem at 6% 96%,rgba(214,48,160,.35),transparent 60%),radial-gradient(48rem 30rem at 104% -6%,rgba(2,6,70,.95),transparent 62%),radial-gradient(40rem 26rem at 70% 40%,rgba(40,80,255,.55),transparent 70%),linear-gradient(135deg,#2A1FD6 0%,#1238FF 46%,#0A22C9 78%,#06137E 100%) fixed;color-scheme:dark}
+:focus-visible{outline-color:#fff}
+.side{background:transparent;border-right-color:rgba(255,255,255,.16)}
+.brand{color:#fff}.brand svg{color:#fff}.brand small{color:rgba(226,232,255,.7)}
+.nav h2{color:rgba(206,214,255,.72)}
+.nav a{color:rgba(226,232,255,.85);border-radius:0}
+.nav a:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav a[aria-current="page"]{background:rgba(255,255,255,.15);color:#fff;box-shadow:inset 3px 0 0 #fff,0 10px 30px -14px rgba(0,4,60,.7)}
+.nav .ic{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.22);color:#fff;border-radius:0}
+.nav a[aria-current="page"] .ic{background:#fff;color:#1029C9}
+.nav kbd{color:rgba(226,232,255,.75);border-color:rgba(255,255,255,.28)}
+.side .foot{color:rgba(226,232,255,.75);border-top-color:rgba(255,255,255,.16)}.side .foot a{color:#fff}
+.top{background:rgba(10,30,170,.6);border-bottom-color:rgba(255,255,255,.16)}
+.user{color:rgba(226,232,255,.88)}
+.vh h1{color:#fff}.vh p{color:rgba(226,232,255,.88)}.vh .who{color:rgba(226,232,255,.8)}
+.activity{background:rgba(4,12,90,.35);border-left-color:rgba(255,255,255,.16)}
+.activity h2{color:rgba(206,214,255,.72)}
+.activity li{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);border-radius:0;color:#F4F6FF}
+.activity li time{color:rgba(226,232,255,.65)}
+.activity .keys{color:rgba(226,232,255,.82)}
+.activity kbd{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.28);color:#fff}
+.modal .bd{color:#4B5160}
+@media (max-width:52rem){.side{border-bottom-color:rgba(255,255,255,.16)}}
+.app .hv-card,.app .hv-vivid .hv-card,.app .hv-kpi,.app .hv-alert,.app .hv-bed,.app .hv-draft,.app .hv-sb,.app .hv-sb h4 i,.app .hv-flags li,.app .hv-doc,.app .hv-code,.app .hv-episode,.app .hv-letterdoc,.app .hv-sms,.app .hv-letter,.app .hv-tag,.app .hv-pts,
+.app .hv textarea,.app .hv input[type="text"],.app .hv input[type="number"],.app .hv select{border-radius:0}
 </style>
 </head>
 <body>
@@ -90,16 +118,12 @@ main{min-width:0;padding:0 clamp(1rem,2.6vw,2.2rem) 3rem}
   <aside class="side" aria-label="Halvia Ward navigation">
     <a class="brand" href="../" aria-label="Halvia home"><svg viewBox="0 0 37 32" aria-hidden="true" shape-rendering="crispEdges" color="#0B0D12"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg><span><b>halvia ward</b><small>Demo workspace</small></span></a>
     <nav class="nav" aria-label="Tools">
-      <h2>Ward</h2>
-      <a href="#ward" data-view="ward"><span class="ic">&#9638;</span>Ward overview<kbd>1</kbd></a>
-      <a href="#news" data-view="news"><span class="ic">&#9829;</span>Early warning<kbd>2</kbd></a>
-      <a href="#sbar" data-view="sbar"><span class="ic">S</span>Handover<kbd>3</kbd></a>
-      <a href="#discharge" data-view="discharge"><span class="ic">&#9993;</span>Discharge letters<kbd>4</kbd></a>
-      <h2>Records</h2>
+      <h2>Tools</h2>
+      <a href="#discharge" data-view="discharge"><span class="ic">&#9993;</span>Discharge letters<kbd>1</kbd></a>
+      <a href="#sbar" data-view="sbar"><span class="ic">S</span>Shift handover<kbd>2</kbd></a>
+      <a href="#dna" data-view="dna"><span class="ic">&#9719;</span>Missed appointments<kbd>3</kbd></a>
+      <a href="#plain" data-view="plain"><span class="ic">Aa</span>Plain-English letters<kbd>4</kbd></a>
       <a href="#code" data-view="code"><span class="ic">#</span>Clinical coding<kbd>5</kbd></a>
-      <h2>Clinic</h2>
-      <a href="#dna" data-view="dna"><span class="ic">&#9719;</span>Missed appointments<kbd>6</kbd></a>
-      <a href="#plain" data-view="plain"><span class="ic">Aa</span>Patient letters<kbd>7</kbd></a>
     </nav>
     <div class="foot">Synthetic patients only. Not a medical device and not for clinical use. Nothing you type leaves this browser.<a href="../">&larr; Back to Halvia</a><a href="../#contact">Talk about a pilot</a></div>
   </aside>
@@ -107,32 +131,30 @@ main{min-width:0;padding:0 clamp(1rem,2.6vw,2.2rem) 3rem}
   <main id="main" tabindex="-1">
     <div class="top">
       <span class="demo">Demo &middot; synthetic patients &middot; not for clinical use</span>
-      <span class="right hv">
+      <span class="right hv hv-vivid">
         <button class="hv-btn sm" type="button" id="reset">Reset demo</button>
         <button class="hv-btn sm" type="button" id="help" aria-haspopup="dialog">How it works</button>
         <span class="user"><i aria-hidden="true">RN</i>Demo nurse</span>
       </span>
     </div>
 
-    <section class="view" data-v="ward" aria-labelledby="h-ward"><div class="vh"><div><h1 id="h-ward">Ward overview</h1><p>Every bed's NEWS2 score, trend and next observations at a glance. Press Live and the demo clock runs: observations arrive at the frequency NEWS2 sets, and anyone who needs escalating rises to the top.</p></div><div class="who">For nurses in charge and outreach teams. Final call: the registered nurse.</div></div><div data-tool="ward"></div></section>
-    <section class="view" data-v="news" aria-labelledby="h-news" hidden><div class="vh"><div><h1 id="h-news">Early warning</h1><p>Record a set of observations and NEWS2 scores them as you go. The trend across the shift and a ready-to-edit SBAR escalation sit underneath. Save to the chart and the ward board updates.</p></div><div class="who">For ward nurses. Final call: the registered nurse.</div></div><div data-tool="news"></div></section>
-    <section class="view" data-v="sbar" aria-labelledby="h-sbar" hidden><div class="vh"><div><h1 id="h-sbar">Handover</h1><p>Free-text notes into SBAR, with safety flags for allergies, falls, anticoagulants, delirium and results to chase. Each section is approved before sign-off.</p></div><div class="who">For nurses and doctors at shift change. Final call: the clinician handing over.</div></div><div data-tool="sbar"></div></section>
-    <section class="view" data-v="discharge" aria-labelledby="h-discharge" hidden><div class="vh"><div><h1 id="h-discharge">Discharge letters</h1><p>Ward discharge notes into a structured letter for the GP: diagnosis, what happened, medicine changes, actions for the GP and what the patient was told. Every line links back to its source.</p></div><div class="who">For discharging doctors and pharmacists. Final call: the discharging clinician.</div></div><div data-tool="discharge"></div></section>
-    <section class="view" data-v="code" aria-labelledby="h-code" hidden><div class="vh"><div><h1 id="h-code">Clinical coding</h1><p>Suggested ICD-10 codes with the sentence behind each one. Conditions that were ruled out are spotted and excluded.</p></div><div class="who">For clinical coders. Final call: the accredited coder.</div></div><div data-tool="code"></div></section>
-    <section class="view" data-v="dna" aria-labelledby="h-dna" hidden><div class="vh"><div><h1 id="h-dna">Missed appointments</h1><p>Who might struggle to attend tomorrow's clinic, why, and the help to offer: a text, a video appointment or an earlier date. Never used to overbook.</p></div><div class="who">For outpatient booking teams. Final call: the booking team, with patient choice.</div></div><div data-tool="dna"></div></section>
-    <section class="view" data-v="plain" aria-labelledby="h-plain" hidden><div class="vh"><div><h1 id="h-plain">Patient letters</h1><p>A clinic letter rewritten for the patient, with jargon explained, a medicines table, next steps and a reading-age check. It can read the letter aloud.</p></div><div class="who">For clinicians writing to patients. Final call: the clinician signs off the patient version.</div></div><div data-tool="plain"></div></section>
+    <section class="view" data-v="discharge" aria-labelledby="h-discharge"><div class="vh"><div><h1 id="h-discharge">Discharge letters</h1><p>Ward discharge notes into a structured letter for the GP: diagnosis, what happened, medicine changes, actions for the GP and what the patient was told. Every line links back to its source.</p></div><div class="who">For discharging doctors and pharmacists. Final call: the discharging clinician.</div></div><div class="hv hv-vivid" data-tool="discharge"></div></section>
+    <section class="view" data-v="sbar" aria-labelledby="h-sbar" hidden><div class="vh"><div><h1 id="h-sbar">Shift handover</h1><p>Free-text notes into SBAR, with safety flags for allergies, falls, anticoagulants, delirium and results to chase. Each section is approved before sign-off.</p></div><div class="who">For nurses and doctors at shift change. Final call: the clinician handing over.</div></div><div class="hv hv-vivid" data-tool="sbar"></div></section>
+    <section class="view" data-v="dna" aria-labelledby="h-dna" hidden><div class="vh"><div><h1 id="h-dna">Missed appointments</h1><p>Who might struggle to attend tomorrow's clinic, why, and the help to offer: a text, a video appointment or an earlier date. Never used to overbook.</p></div><div class="who">For outpatient booking teams. Final call: the booking team, with patient choice.</div></div><div class="hv hv-vivid" data-tool="dna"></div></section>
+    <section class="view" data-v="plain" aria-labelledby="h-plain" hidden><div class="vh"><div><h1 id="h-plain">Plain-English letters</h1><p>A clinic letter rewritten for the patient, with jargon explained, a medicines table, next steps and a reading-age check. It can read the letter aloud.</p></div><div class="who">For clinicians writing to patients. Final call: the clinician signs off the patient version.</div></div><div class="hv hv-vivid" data-tool="plain"></div></section>
+    <section class="view" data-v="code" aria-labelledby="h-code" hidden><div class="vh"><div><h1 id="h-code">Clinical coding</h1><p>Suggested ICD-10 codes with the sentence behind each one. Conditions that were ruled out are spotted and excluded.</p></div><div class="who">For clinical coders. Final call: the accredited coder.</div></div><div class="hv hv-vivid" data-tool="code"></div></section>
   </main>
 
   <aside class="activity" aria-label="Activity">
     <h2>Activity &middot; audit trail</h2>
     <ol id="log" aria-live="polite"></ol>
-    <div class="keys"><h2 style="margin-top:0">Shortcuts</h2><kbd>1</kbd>&ndash;<kbd>7</kbd> switch tools<br><kbd>L</kbd> start or pause the ward clock<br><kbd>?</kbd> how it works</div>
+    <div class="keys"><h2 style="margin-top:0">Shortcuts</h2><kbd>1</kbd>&ndash;<kbd>5</kbd> switch tools<br><kbd>?</kbd> how it works</div>
   </aside>
 </div>
 
 <div class="modal" id="welcome" role="dialog" aria-modal="true" aria-labelledby="wh" hidden>
   <div>
-    <div class="hd"><span>Halvia Ward &middot; demo</span><h2 id="wh">A clinical workspace you can try right now</h2></div>
+    <div class="hd"><span>Halvia Ward &middot; demo</span><h2 id="wh">Five AI tools for the paperwork around care</h2></div>
     <div class="bd">
       <p>This is a working concept by Shaun Finch, built to show how AI-assisted tools could fit a real shift.</p>
       <ul>
@@ -141,7 +163,7 @@ main{min-width:0;padding:0 clamp(1rem,2.6vw,2.2rem) 3rem}
         <li><b>A person approves everything</b> before it's saved, sent or signed off.</li>
         <li><b>Not a medical device</b> and not for clinical use. Nothing leaves your browser.</li>
       </ul>
-      <button class="hv-btn primary" type="button" id="start">Open the ward</button>
+      <button class="hv-btn primary" type="button" id="start">Open the tools</button>
     </div>
   </div>
 </div>
@@ -154,7 +176,7 @@ var H=window.Halvia,views=Array.prototype.slice.call(document.querySelectorAll('
 var order=links.map(function(a){return a.dataset.view});
 H.mountAll(document);
 function go(v,focus){
-  if(order.indexOf(v)<0)v='ward';
+  if(order.indexOf(v)<0)v='discharge';
   views.forEach(function(s){s.hidden=s.dataset.v!==v});
   links.forEach(function(a){if(a.dataset.view===v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   if(location.hash.slice(1)!==v){try{history.replaceState(null,'','#'+v)}catch(e){}}
@@ -165,11 +187,11 @@ function go(v,focus){
 H.router=function(tool,ctx){go(tool,true);if(H._inst[tool])H._inst[tool].select(ctx||{})};
 links.forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();go(a.dataset.view,true)})});
 window.addEventListener('hashchange',function(){go(location.hash.slice(1))});
-go(location.hash.slice(1)||'ward');
+go(location.hash.slice(1)||'discharge');
 // activity log
 var logEl=document.getElementById('log');
 function pad(n){return String(n).padStart(2,'0')}
-function drawLog(){logEl.innerHTML=H.store.log.slice(0,30).map(function(l){return '<li><time>'+pad(l.t.getHours())+':'+pad(l.t.getMinutes())+'</time>'+H.esc(l.text)+'</li>'}).join('')||'<li>Nothing yet. Record observations, sign off a handover or approve a letter and it appears here.</li>'}
+function drawLog(){logEl.innerHTML=H.store.log.slice(0,30).map(function(l){return '<li><time>'+pad(l.t.getHours())+':'+pad(l.t.getMinutes())+'</time>'+H.esc(l.text)+'</li>'}).join('')||'<li>Nothing yet. Sign off a handover or approve a letter and it appears here.</li>'}
 H.store.on(drawLog);drawLog();
 document.getElementById('reset').addEventListener('click',function(){H.store.reset()});
 // welcome / how it works
@@ -186,8 +208,7 @@ if(!seen&&!/[?&]nowelcome/.test(location.search))openWel();
 document.addEventListener('keydown',function(e){
   if(e.ctrlKey||e.metaKey||e.altKey||!wel.hidden||document.querySelector('.hv-drawer'))return;
   var t=e.target;if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)))return;
-  if(/^[1-7]$/.test(e.key)){go(order[+e.key-1],true)}
-  else if(e.key==='l'||e.key==='L'){H.store.live=!H.store.live;H.store.emit('live')}
+  if(/^[1-5]$/.test(e.key)){go(order[+e.key-1],true)}
   else if(e.key==='?'){openWel()}
 });
 })();
