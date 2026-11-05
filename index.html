@@ -115,13 +115,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .stagecap a{color:#fff}
 @media (max-width:40rem){.glass{display:none}.device{transform:none}}
 
-/* clients strip */
-.clients{padding-block:clamp(1.5rem,3vw,2.5rem);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.clients .wrap{display:flex;align-items:center;gap:1.2rem 3rem;flex-wrap:wrap}
-.clients p{margin:0;font-family:var(--sans);font-size:clamp(1.15rem,2vw,1.5rem);font-weight:300;letter-spacing:-.02em;max-width:22ch;line-height:1.2}
-.clients ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:1rem 2.6rem;flex-wrap:wrap;flex:1;justify-content:space-between}
-.clients li{font-family:var(--sans);font-weight:600;font-size:clamp(1.1rem,1.8vw,1.45rem);letter-spacing:-.02em;color:#5F6575}
-.clients li small{display:block;font-family:var(--mono);font-weight:400;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
 
 /* CHKS case study */
 .feature{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:1.5rem 2.5rem;align-items:start}
@@ -133,14 +126,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .facts div:first-child{border-top:1px solid var(--line)}
 .facts dt{color:var(--dim)}
 .facts dd{margin:0}
-.story{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:2rem}
-@media (max-width:60rem){.story{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:34rem){.story{grid-template-columns:minmax(0,1fr)}}
-.story > div{border-radius:18px;background:var(--soft);padding:1.2rem 1.25rem;border:1px solid var(--line)}
-.story .n{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--blue)}
-.story h3{font-size:1.35rem;margin:.5rem 0 .5rem}
-.story p{margin:0;font-size:.8rem;color:var(--mute);line-height:1.75}
-.story ul{margin:.3rem 0 0;padding-left:1rem;font-size:.78rem;color:var(--mute);line-height:1.7}
 
 .pex{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:2rem clamp(2rem,5vw,5rem);align-items:center;margin-top:clamp(3rem,6vw,5rem);padding:clamp(1.5rem,4vw,3rem);border-radius:28px;background:radial-gradient(30rem 20rem at 20% 50%,rgba(26,60,255,.10),transparent 70%),radial-gradient(24rem 18rem at 10% 100%,rgba(255,90,31,.10),transparent 70%),var(--soft);border:1px solid var(--line)}
 @media (max-width:56rem){.pex{grid-template-columns:minmax(0,1fr)}}
@@ -150,16 +135,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .pex .intro{margin:1rem 0 1.4rem}
 .note2{font-size:.74rem;color:var(--dim);line-height:1.7;margin:1.2rem 0 0;padding-left:.9rem;border-left:2px solid transparent;border-image:var(--grad) 1}
 .note2 b{color:var(--ink);font-weight:500}
-/* offer */
-.offer{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
-@media (max-width:56rem){.offer{grid-template-columns:minmax(0,1fr)}}
-.offer > div{border:1px solid var(--line);border-radius:22px;padding:1.6rem 1.5rem;background:#fff;position:relative;overflow:hidden}
-.offer > div::before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--grad)}
-.offer .n{display:inline-grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:12px;background:var(--soft);font-size:.78rem;color:var(--blue)}
-.offer h3{font-size:1.7rem;margin:1rem 0 .6rem}
-.offer p{margin:0 0 1rem;font-size:.82rem;color:var(--mute);line-height:1.75}
-.offer ul{margin:0;padding:0;list-style:none;font-size:.78rem;display:flex;flex-direction:column;gap:.4rem}
-.offer li::before{content:"\2192  ";color:var(--violet)}
 
 /* ---------- case studies: vivid electric-blue panel ---------- */
 #cases{position:relative;margin:0 clamp(.4rem,1.4vw,1.25rem);border-radius:clamp(18px,2.4vw,32px);overflow:clip;isolation:isolate;color:#F4F6FF;
@@ -184,7 +159,9 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .console{display:grid;grid-template-columns:15.5rem minmax(0,1fr);gap:2rem}
 .console > div{min-width:0}
 .railhead{font-size:.66rem;color:rgba(206,214,255,.7);text-transform:uppercase;letter-spacing:.2em;margin:0 0 .9rem}
-.rail{display:flex;flex-direction:column;gap:.2rem;position:sticky;top:5.5rem}
+.rail{display:flex;flex-direction:column;gap:.2rem}
+/* The menu and the note below it are pinned together, so nothing scrolls beneath the menu. Only on screens tall enough to hold them. */
+@media (min-width:60.01rem) and (min-height:43rem){.console > div:first-child{position:sticky;top:5.5rem;align-self:start}}
 .tab{all:unset;box-sizing:border-box;display:grid;grid-template-columns:1.6rem 1fr;align-items:baseline;gap:.5rem;padding:.65rem .75rem;border-radius:14px;cursor:pointer;min-width:0;color:rgba(226,232,255,.82)}
 .tab:hover{background:rgba(255,255,255,.08)}
 .tab:focus-visible{outline:2px solid #fff;outline-offset:1px}
@@ -225,21 +202,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .appcta p b{display:block;font-family:var(--sans);font-weight:400;font-size:1.5rem;letter-spacing:-.02em;color:#fff;margin-bottom:.2rem}
 
 /* how the demos work */
-.flow{display:flex;align-items:stretch;gap:.6rem;flex-wrap:wrap;margin-bottom:2.2rem}
-.flow div{flex:1 1 9rem;border-radius:16px;border:1px solid var(--line);padding:.9rem 1rem;background:#fff;position:relative}
-.flow div b{display:block;font-family:var(--sans);font-weight:400;font-size:1.15rem;letter-spacing:-.01em}
-.flow div span{font-size:.72rem;color:var(--dim)}
-.flow div.key{background:var(--grad);border-color:transparent;color:#fff}
-.flow div.key span{color:rgba(255,255,255,.85)}
-.how{width:100%;border-collapse:separate;border-spacing:0;font-size:.8rem}
-.how th{text-align:left;font-weight:400;font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);padding:.6rem .9rem;border-bottom:1px solid var(--line)}
-.how td{padding:1rem .9rem;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.7;color:var(--mute)}
-.how td:first-child{color:var(--ink);font-family:var(--sans);font-size:1.1rem;font-weight:400;letter-spacing:-.01em;white-space:nowrap}
-.how td.today{color:var(--ink)}
-.how tr:hover td{background:var(--soft)}
-.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:20px}
-.tblwrap table{min-width:52rem}
-@media (max-width:56rem){.how td:first-child{white-space:normal}}
 
 /* ---------- navy sections (medtech, decks) ---------- */
 .navy-sec{position:relative;margin:clamp(1rem,2vw,1.5rem) clamp(.4rem,1.4vw,1.25rem);border-radius:clamp(18px,2.4vw,32px);overflow:clip;isolation:isolate;color:#EEF1FB;
@@ -346,8 +308,15 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .agrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem 3rem;align-items:stretch;margin-top:.5rem}
 @media (max-width:60rem){.agrid{grid-template-columns:minmax(0,1fr)}}
 .aphoto{margin:0;position:relative;border-radius:22px;overflow:hidden;min-height:24rem;border:1px solid var(--line)}
-.aphoto img{position:absolute;inset:0}
-.aphoto img{width:100%;height:100%;object-fit:cover;display:block}
+/* Logo tiles fill the frame above the agent-run card. */
+.aphoto{background:#fff;display:flex;flex-direction:column}
+.alogos{flex:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--line)}
+.aphoto .alog{position:static;margin:1rem}
+.alogos .lg{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9rem;padding:1.6rem .6rem 1.1rem;min-height:9.5rem}
+.alogos .lg + .lg{border-left:1px solid var(--line)}
+.alogos img{height:clamp(2.2rem,4.5vw,3.4rem);width:auto;display:block}
+.alogos b{font-family:var(--sans);font-weight:500;font-size:clamp(1.7rem,3.4vw,2.4rem);line-height:1;letter-spacing:-.03em;color:var(--ink);height:clamp(2.2rem,4.5vw,3.4rem);display:flex;align-items:center}
+.alogos span{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
 .alog{position:absolute;left:1rem;right:1rem;bottom:1rem;border-radius:16px;background:rgba(8,12,40,.86);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#EEF1FB;font-size:.74rem;padding:.8rem .95rem;border:1px solid rgba(255,255,255,.18)}
 .alog b{display:block;font-weight:500;margin-bottom:.4rem;font-size:.72rem;letter-spacing:.06em}
 .alog ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.25rem;line-height:1.5}
@@ -371,28 +340,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .credits summary{cursor:pointer;color:var(--mute)}
 .credits ul{margin:.4rem 0 0;padding-left:1rem}
 .credits a{color:var(--dim)}
-/* experience, process, principles */
-.exp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
-@media (max-width:56rem){.exp{grid-template-columns:minmax(0,1fr)}}
-.exp > div{border-top:2px solid var(--ink);padding-top:1rem}
-.exp .when{font-size:.68rem;color:var(--dim);letter-spacing:.06em}
-.exp h3{font-size:1.4rem;margin:.5rem 0 .5rem;line-height:1.2}
-.exp p{margin:0;font-size:.8rem;color:var(--mute);line-height:1.7}
-.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;counter-reset:s}
-@media (max-width:56rem){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:34rem){.steps{grid-template-columns:minmax(0,1fr)}}
-.steps li{counter-increment:s;border-radius:20px;padding:1.3rem 1.25rem;background:var(--soft);border:1px solid var(--line)}
-.steps li::before{content:"0" counter(s);font-size:.66rem;letter-spacing:.2em;color:var(--blue)}
-.steps b{display:block;font-family:var(--sans);font-weight:400;font-size:1.45rem;letter-spacing:-.02em;margin:.4rem 0 .4rem}
-.steps p{margin:0;font-size:.78rem;color:var(--mute);line-height:1.7}
-.steps small{display:block;margin-top:.7rem;font-size:.68rem;color:var(--dim)}
-.rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.8rem 2.4rem}
-@media (max-width:56rem){.rules{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:34rem){.rules{grid-template-columns:minmax(0,1fr)}}
-.rule{border-top:1px solid var(--line);padding-top:1rem}
-.rule .n{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--violet)}
-.rule b{display:block;font-family:var(--sans);font-weight:400;font-size:1.35rem;letter-spacing:-.02em;margin:.5rem 0 .4rem}
-.rule p{margin:0;font-size:.8rem;color:var(--mute);line-height:1.7}
 
 /* contact */
 .contact{border-radius:32px;padding:clamp(2rem,5vw,4rem);color:#fff;position:relative;overflow:hidden;isolation:isolate;
@@ -442,6 +389,15 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Square corners: every container box has 90-degree edges. Buttons, chips, tags and round dots keep their shape.
+   Tool demo boxes are squared only here (#cases), so the separate Halvia Ward app is unchanged. */
+.stage,.device,.glass,.vid,.pex,.phone,.phone video,#cases,.ft,.tab,.appcta,.navy-sec,.ncard,.ncard .ic,.term,
+.navy-sec .hb-shot,.hb-q,.hb-a .av,.hb-src span,.hb-comp,.slideimg,.sci,.nphotos figure,.agents,.aphoto,.alog,.acard,.aflow li,
+.contact,.card-w,.ask,.ask .hd .av,.ask .msg,.ask .msg.me,
+#cases .hv-card,#cases .hv-vivid .hv-card,#cases .hv-kpi,#cases .hv-alert,#cases .hv-bed,#cases .hv-draft,#cases .hv-sb,#cases .hv-sb h4 i,
+#cases .hv-flags li,#cases .hv-doc,#cases .hv-code,#cases .hv-episode,#cases .hv-letterdoc,#cases .hv-sms,#cases .hv-letter,#cases .hv-tag,#cases .hv-pts,
+#cases .hv textarea,#cases .hv input[type="text"],#cases .hv input[type="number"],#cases .hv select{border-radius:0}
 </style>
 </head>
 <body>
@@ -453,7 +409,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
       <a class="mark" href="#main" aria-label="Halvia home"><svg viewBox="0 0 37 32" aria-hidden="true" shape-rendering="crispEdges" color="#0B0D12"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg><span><span class="chev">&#10095;</span> halvia</span><span class="ver">v0.2</span></a>
       <a class="nl" href="#work">Work</a>
       <a class="nl" href="#cases">Tools</a>
-      <a class="nl" href="#how">How it works</a>
       <a class="nl" href="#medtech">Medtech</a>
       <a class="nl" href="#decks">Decks</a>
       <a class="nl" href="#agents">Agents</a><a class="nl" href="#bot">Bot</a>
@@ -490,19 +445,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         <div class="glass g2" aria-hidden="true"><i>&#10003;</i><span><b>Handover signed off</b><br>4 of 4 sections</span></div>
         <div class="stagecap"><span>Halvia Ward: a working demo with six synthetic patients</span><button type="button" id="tourToggle" style="all:unset;cursor:pointer;color:#fff;text-decoration:underline;text-underline-offset:3px">Pause tour</button></div>
       </div>
-    </div>
-  </section>
-
-  <section class="clients" aria-label="Experience">
-    <div class="wrap">
-      <p>Experience across health, broadcast and sport</p>
-      <ul>
-        <li>CHKS<small>Clinical coding</small></li>
-        <li>BBC<small>EastEnders, iPlayer</small></li>
-        <li>Universal<small>Film titles</small></li>
-        <li>Paramount<small>Film titles</small></li>
-        <li>LIV Golf<small>Broadcast</small></li>
-      </ul>
     </div>
   </section>
 
@@ -543,14 +485,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           <div class="actions" style="margin-top:1.3rem"><a class="btn" href="#code" data-open="code">Try the coding tool &rarr;</a></div>
         </div>
       </div>
-      <!-- Case study copy: Shaun to confirm or replace the brief, role, process and outcome below (see CASE-STUDY-TODO.md). -->
-      <div class="story">
-        <div><span class="n">01 &middot; Brief</span><h3>Make it simple, keep it credible</h3><p>Coding teams are experts. The film needed to show what the AI does without overselling it, and leave viewers clear that coders review every suggestion.</p></div>
-        <div><span class="n">02 &middot; Role</span><h3>Motion design</h3><p>Turning the product story into animated sequences: the coding journey, the interface moments and the closing message.</p><!-- TODO Shaun: add any script, storyboard, illustration, voice or edit work you did. --></div>
-        <div><span class="n">03 &middot; Process</span><h3>Story first</h3><ul><li>Understand the product and its users</li><li>Script and storyboard</li><li>Illustration and animation</li><li>Review rounds with the client</li></ul><!-- TODO Shaun: confirm these steps. --></div>
-        <div><span class="n">04 &middot; Outcome</span><h3>A clear 72 seconds</h3><p>One film covering coding status from not coded to fully coded, local rules, readiness for ICD-11 and the experience behind the product.</p><!-- TODO Shaun: add where it's used, any numbers or a client quote. --></div>
-      </div>
-
       <div class="pex" id="patient-video">
         <div class="phone">
           <video controls playsinline preload="metadata" poster="media/black-eye-explainer.jpg" aria-label="How to look after a black eye: a 31-second patient explainer made with Google Veo 3">
@@ -569,23 +503,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           </dl>
           <p class="note2"><b>AI-generated video.</b> A concept to show how generative video could support patient information. In real use, every script is checked by clinicians against current guidance before a patient sees it.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec" aria-labelledby="offerH" style="padding-top:0">
-    <div class="wrap">
-      <div class="split2">
-        <div><p class="eyebrow">What I do</p><h2 id="offerH">Design, build, set up</h2></div>
-        <p class="intro">Most AI projects in health don't fail on the model. They fail because the tool doesn't fit a twelve-hour shift, nobody trusts the output, or patients can't read what it says. That gap is where I work.</p>
-      </div>
-      <div class="offer">
-        <div><span class="n">01</span><h3>Interfaces staff trust at 3am</h3><p>UI/UX for AI systems built around doctor and nurse ease of use: clear screens, explainable flags, and designs tested with the people who'll use them.</p>
-          <ul><li>Clinical workflow mapping</li><li>Prototypes in Figma and Framer</li><li>Explainer video and motion</li><li>Accessible, plain-English patient content</li></ul></div>
-        <div><span class="n">02</span><h3>Working software, not slides</h3><p>Front-ends and tools that actually run, like Halvia Ward, so a ward or team can try the idea before anyone signs a contract.</p>
-          <ul><li>Web apps and dashboards</li><li>LLM features with guardrails</li><li>Healthcare data visualisation</li><li>Built with Claude Code and VS Code</li></ul></div>
-        <div><span class="n">03</span><h3>Systems that stay safe in use</h3><p>Connecting AI into existing workflows and checking it keeps working: evaluation of model outputs, audit trails and handover documentation.</p>
-          <ul><li>LLM output evaluation and scoring</li><li>Pilot design and success measures</li><li>Clinical safety and IG considered from day one</li><li>Training material for staff</li></ul></div>
       </div>
     </div>
   </section>
@@ -613,7 +530,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
             <button class="tab" role="tab" id="t-dna" aria-controls="p-dna" aria-selected="false" tabindex="-1"><span class="ic">06</span><span class="nm">Missed appointments<small>Outpatients</small></span></button>
             <button class="tab" role="tab" id="t-plain" aria-controls="p-plain" aria-selected="false" tabindex="-1"><span class="ic">07</span><span class="nm">Plain-English letters<small>Patients</small></span></button>
           </div>
-          <div class="more"><b>About these tools</b>Synthetic patients and simple, visible rules, so you can see exactly why each output appears. <a href="#how">How they'd work with real models &darr;</a></div>
+          <div class="more"><b>About these tools</b>Synthetic patients and simple, visible rules, so you can see exactly why each output appears.</div>
         </div>
 
         <div>
@@ -668,35 +585,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         </div>
       </div>
       <div class="appcta"><p><b>Halvia Ward, full screen</b>All seven tools in one workspace with an activity log, keyboard shortcuts, print and copy. Six synthetic patients, ready to use.</p><a class="btn light" href="ward/">Open Halvia Ward &#8599;</a></div>
-    </div>
-  </section>
-
-  <section class="sec" id="how" aria-labelledby="howH">
-    <div class="wrap">
-      <div class="split2">
-        <div><p class="eyebrow">How the demos work</p><h2 id="howH">Rules today, real models tomorrow, a person every time</h2></div>
-        <p class="intro">These tools run on simple, visible rules so you can see exactly why each output appears. In a real project the rules are swapped for validated models and your systems, but the shape stays the same: every suggestion is explained, and a person approves it.</p>
-      </div>
-      <div class="flow" aria-label="How every Halvia tool works">
-        <div><b>Input</b><span>Observations, notes, letters, clinic lists</span></div>
-        <div><b>Rules or model</b><span>Scores, sorts, drafts and flags</span></div>
-        <div><b>Explanation</b><span>The sentence, number or rule behind it</span></div>
-        <div class="key"><b>A person approves</b><span>Edit, accept or reject</span></div>
-        <div><b>Record and audit</b><span>Who approved what, and when</span></div>
-      </div>
-      <div class="tblwrap" tabindex="0" role="region" aria-label="How each tool works (scrolls sideways on small screens)">
-        <table class="how">
-          <thead><tr><th scope="col">Tool</th><th scope="col">In this demo</th><th scope="col">With real models and systems</th><th scope="col">Safety gate</th></tr></thead>
-          <tbody>
-            <tr><td>Ward overview and early warning</td><td class="today">The NEWS2 chart from the Royal College of Physicians, plus a simple trend across recent scores</td><td>Fed live from the e-obs system; deterioration models that also use blood results, validated on local data</td><td>Thresholds agreed with outreach; a nurse confirms every escalation</td></tr>
-            <tr><td>Shift handover</td><td class="today">Keyword rules sort sentences into SBAR and match a list of safety flags</td><td>A language model summarises from the record, cross-checked against prescribing and allergy data</td><td>Every section approved; each flag shows its source sentence</td></tr>
-            <tr><td>Discharge letters</td><td class="today">A parser reads labelled ward notes and builds the letter structure</td><td>Drafted from the full record and drug chart, following the national discharge summary headings</td><td>Won't send until medicines are checked; the clinician signs off</td></tr>
-            <tr><td>Clinical coding</td><td class="today">A dictionary of about twenty ICD-10 codes, with rules for negation</td><td>Clinical language processing mapped to the full ICD-10 and OPCS-4, with national coding standards</td><td>An accredited coder accepts every code; audit sampling</td></tr>
-            <tr><td>Missed appointments</td><td class="today">Hand-set weights in a simple risk formula</td><td>A model trained on local attendance data, tested for fairness across patient groups</td><td>Used only to offer help; never to overbook or deprioritise</td></tr>
-            <tr><td>Plain-English letters</td><td class="today">A glossary and a reading-age formula</td><td>A language model rewrites to a target reading age, with translation and audio</td><td>The clinician signs off the patient version</td></tr>
-          </tbody>
-        </table>
-      </div>
     </div>
   </section>
 
@@ -759,19 +647,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec" aria-labelledby="expH">
-    <div class="wrap">
-      <p class="eyebrow">Where this comes from</p>
-      <h2 id="expH">Health, science and screens</h2>
-      <p class="intro">I've spent my career making complex things clear on screen, and now focus on clinical and scientific products.</p>
-      <div class="exp">
-        <div><span class="when">Virtual Spaces &middot; 2025 to now</span><h3>Product explainer for the CHKS clinical coding system (NHS)</h3><p>Explaining a clinical coding product used across the NHS to the people who use it, plus interactive UI built with Framer and Claude Code. <a href="#work">Watch it &uarr;</a></p></div>
-        <div><span class="when">Science &amp; health</span><h3>Scientific data visualisation</h3><p>Clearer scientific data visualisations, and medical and scientific explainer video.</p></div>
-        <div><span class="when">Broadcast &amp; brand</span><h3>BBC, Paramount, Universal, LIV Golf</h3><p>Motion and digital design for broadcast and entertainment, including EastEnders and iPlayer at the BBC.</p></div>
-      </div>
-    </div>
-  </section>
-
   <section class="sec navy-sec" id="decks" aria-labelledby="deckH">
     <div class="wrap">
       <div class="split2">
@@ -802,38 +677,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec" aria-labelledby="stepsH">
-    <div class="wrap">
-      <div class="split2">
-        <div><p class="eyebrow">How a project runs</p><h2 id="stepsH">Small, safe steps</h2></div>
-        <p class="intro">Start with one job and one team, prove it helps, then grow it. Each step ends with something you can see and decide on.</p>
-      </div>
-      <ol class="steps">
-        <li><b>Discover</b><p>Shadow the team, map the workflow and agree the one problem worth solving first.</p><small>1 to 2 weeks &middot; workflow map, success measures</small></li>
-        <li><b>Prototype</b><p>Working software like Halvia Ward, tested with staff on synthetic data.</p><small>2 to 4 weeks &middot; prototype, feedback</small></li>
-        <li><b>Pilot</b><p>A small, supervised pilot with your clinical safety officer and IG team, measured against the agreed outcomes.</p><small>Agreed with you &middot; safety case input, evaluation</small></li>
-        <li><b>Scale</b><p>Hand over designs, code, training and an evaluation plan, so the tool keeps working after launch.</p><small>Ongoing &middot; docs, training, monitoring</small></li>
-      </ol>
-    </div>
-  </section>
-
-  <section class="sec" id="principles" aria-labelledby="ruleH" style="padding-top:0">
-    <div class="wrap">
-      <div class="split2">
-        <div><p class="eyebrow">Principles</p><h2 id="ruleH">How I build AI for care</h2></div>
-        <p class="intro">Six rules every Halvia project follows, written for clinical safety officers and IG teams as much as for designers.</p>
-      </div>
-      <div class="rules">
-        <div class="rule"><span class="n">01</span><b>A person makes the call</b><p>AI drafts, flags and suggests. A named member of staff approves anything that affects care, and the interface makes that step obvious.</p></div>
-        <div class="rule"><span class="n">02</span><b>Show the why</b><p>Every flag links to the sentence, number or rule behind it. If staff can't see why, they can't trust it or challenge it.</p></div>
-        <div class="rule"><span class="n">03</span><b>Privacy first</b><p>Least data, for the shortest time, in the right place. Designed with UK GDPR, data protection impact assessments and the NHS Data Security and Protection Toolkit in mind.</p></div>
-        <div class="rule"><span class="n">04</span><b>Safety is designed in</b><p>Hazards logged from the first sketch, so your clinical safety officer can work to DCB0129 and DCB0160, and the DTAC assessment has what it needs.</p></div>
-        <div class="rule"><span class="n">05</span><b>Accessible to everyone</b><p>Plain English, reading-age checks, WCAG 2.2 AA contrast and keyboard support, and layouts that work on a ward PC and a phone.</p></div>
-        <div class="rule"><span class="n">06</span><b>Measure, then trust</b><p>Model outputs are scored against clinician-written rubrics before and after launch, and checked for fairness across patient groups.</p></div>
-      </div>
-    </div>
-  </section>
-
   <section class="sec" id="agents" aria-labelledby="agentH" style="padding-top:0">
     <div class="wrap">
       <div class="agents">
@@ -843,7 +686,11 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         </div>
         <div class="agrid">
           <figure class="aphoto">
-            <img src="media/photos/dna-sequencer-robot.jpg" alt="Robotic arm loading samples into an automated DNA sequencer" loading="lazy">
+            <div class="alogos" role="img" aria-label="AI tools I set up for care teams: Grok, ChatGPT and dots">
+              <div class="lg"><img src="media/logos/grok.svg" alt="" width="34" height="33"><span>Grok</span></div>
+              <div class="lg"><img src="media/logos/chatgpt.svg" alt="" width="320" height="320"><span>ChatGPT</span></div>
+              <div class="lg"><b>dots</b><span>&nbsp;</span></div>
+            </div>
             <div class="alog" role="img" aria-label="Example agent run: clinic preparation for Tuesday cardiology, 14 appointments pulled, 3 letters drafted for sign-off, 2 referrals missing an ECG requested from GP practices">
               <b>Agent run &middot; clinic prep, Tuesday cardiology</b>
               <ul><li><span class="ok">&#10003;</span>14 appointments pulled from the clinic list</li><li><span class="ok">&#10003;</span>3 pre-clinic letters drafted, waiting for sign-off</li><li><span class="mid">&#9680;</span>2 referrals missing an ECG: request sent to the GP practices</li><li><span class="go">&rarr;</span>Summary sent to the clinic lead</li></ul>
@@ -938,7 +785,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 <footer class="foot">
   <div class="wrap">
     <p><b style="color:var(--ink);font-weight:500">Important:</b> Halvia tools are concept prototypes made to show design and engineering approach. They use made-up patients and simple illustrative rules, have not been clinically validated, are not medical devices and must not be used for real patient care. NEWS2 thresholds follow the Royal College of Physicians' published chart (2017). Halvia is an independent practice and is not affiliated with or endorsed by the NHS or any NHS organisation.</p>
-    <details class="credits"><summary>Photo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:HIV-1_virus_particles_colorized_scanning_electron_micrograph_-_411.jpg" rel="noopener">HIV-1 virus particles colorized scanning electron micrograph - 411.jpg</a> by NIAID, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:HIV-1_virus_particles_colorized_scanning_electron_micrograph_-_311.jpg" rel="noopener">HIV-1 virus particles colorized scanning electron micrograph - 311.jpg</a> by NIAID, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">CDC scientist transfers H7N9.png</a> by Photo Credit: James Gathany Content Providers: CDC/ Douglas E. Jordan, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Female doctor listens to the patient using a stethoscope closeup.jpg</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor display.jpg</a> by Petty Officer 1st Class James Stenberg, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Close-up_of_the_ocular_lenses_of_a_microscope_with_a_blurry_background.jpg" rel="noopener">Close-up of the ocular lenses of a microscope with a blurry background.jpg</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Behind-the-Ear_Hearing_Aid_grayscale_photo.jpg" rel="noopener">Behind-the-Ear Hearing Aid grayscale photo.jpg</a> by Steve Johnson, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:8_%C5%9Al%C4%85ski_Festiwal_Nauki,_MCK,_Katowice,,_09.12.2024,_1234.jpg" rel="noopener">8 Śląski Festiwal Nauki, MCK, Katowice,, 09.12.2024, 1234.jpg</a> by Krzysztof Popławski, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:SK8-18-2_human_derived_cells,_fluorescence_microscopy_(29942101073).jpg" rel="noopener">SK8-18-2 human derived cells, fluorescence microscopy (29942101073).jpg</a> by ZEISS Microscopy from Germany, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Revolocity_DNA_sequencer.jpg" rel="noopener">Revolocity DNA sequencer.jpg</a> by Scotted400, CC BY 4.0</li></ul><p style="margin:.4rem 0 0">Photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p></details>
+    <details class="credits"><summary>Photo and logo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:HIV-1_virus_particles_colorized_scanning_electron_micrograph_-_411.jpg" rel="noopener">HIV-1 virus particles colorized scanning electron micrograph - 411.jpg</a> by NIAID, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:HIV-1_virus_particles_colorized_scanning_electron_micrograph_-_311.jpg" rel="noopener">HIV-1 virus particles colorized scanning electron micrograph - 311.jpg</a> by NIAID, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">CDC scientist transfers H7N9.png</a> by Photo Credit: James Gathany Content Providers: CDC/ Douglas E. Jordan, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Female doctor listens to the patient using a stethoscope closeup.jpg</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor display.jpg</a> by Petty Officer 1st Class James Stenberg, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Close-up_of_the_ocular_lenses_of_a_microscope_with_a_blurry_background.jpg" rel="noopener">Close-up of the ocular lenses of a microscope with a blurry background.jpg</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Behind-the-Ear_Hearing_Aid_grayscale_photo.jpg" rel="noopener">Behind-the-Ear Hearing Aid grayscale photo.jpg</a> by Steve Johnson, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:8_%C5%9Al%C4%85ski_Festiwal_Nauki,_MCK,_Katowice,,_09.12.2024,_1234.jpg" rel="noopener">8 Śląski Festiwal Nauki, MCK, Katowice,, 09.12.2024, 1234.jpg</a> by Krzysztof Popławski, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:SK8-18-2_human_derived_cells,_fluorescence_microscopy_(29942101073).jpg" rel="noopener">SK8-18-2 human derived cells, fluorescence microscopy (29942101073).jpg</a> by ZEISS Microscopy from Germany, CC BY 2.0</li></ul><p style="margin:.4rem 0 0">Photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p><p style="margin:.4rem 0 0">Logos: <a href="https://commons.wikimedia.org/wiki/File:Grok-feb-2025-logo.svg" rel="noopener">Grok</a> (symbol only) and <a href="https://commons.wikimedia.org/wiki/File:ChatGPT-Logo.svg" rel="noopener">ChatGPT</a>, from Wikimedia Commons (public domain). Grok is a trademark of xAI and ChatGPT is a trademark of OpenAI. Shown to name tools I work with; no endorsement is implied.</p></details>
     <p>Nothing you type on this page leaves your browser. Fonts: Inter Tight and JetBrains Mono (SIL Open Font License). &copy; Shaun Finch</p>
   </div>
 </footer>
@@ -1000,7 +847,7 @@ var A=[
   {k:/contact|email|call|meet|book|talk|hire/i,q:'How do I get in touch?',a:'Email <a href="mailto:shaundavidfinch@gmail.com">shaundavidfinch@gmail.com</a> or message on <a href="https://www.linkedin.com/in/shaun-finch" rel="noopener">LinkedIn</a>. A short description of the problem is plenty to start.'},
   {k:/offline|\bbot\b|chat ?bot|no (internet|signal|wifi)|halvia bot/i,q:'What is Halvia bot?',a:'An AI assistant for clinicians that runs on the device and keeps working with no internet. It answers from a library of guidance, cites its sources, and learns from the papers you add. <a href="bot/">Open Halvia bot</a>.'},
   {k:/build|make|do you do|service|offer|help with/i,q:'What can you build?',a:'Design, working prototypes and AI set-up for health teams: ward tools like the NEWS2 board, documentation helpers such as handover and discharge letters, coding support and patient-facing content. The seven tools on this page are examples. <a href="#cases">Try them</a>.'},
-  {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output. <a href="#how">See the comparison</a>.'},
+  {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
   {k:/cost|price|budget|quote|pilot|start|timeline|how long/i,q:'How does a pilot start?',a:'Usually with 1 to 2 weeks of discovery with one team, then a 2 to 4 week working prototype tested on synthetic data. Every project is scoped with you, so <a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20pilot">email Shaun</a> for a plan and a quote.'},
   {k:/hearing|prosthe|device|medtech|biotech|lab\b|firmware|code health|sbom|62304|integration|fhir|troubleshoot/i,q:'Do you work on medtech software?',a:'Yes: hearing aid and prosthetics apps, medical device software interfaces, code health checks, lab and biotech data tools, and set-up and troubleshooting. <a href="#medtech">See the details</a>.'},
