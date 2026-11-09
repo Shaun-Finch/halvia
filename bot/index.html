@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Halvia bot — offline AI for clinicians</title>
-<meta name="description" content="Halvia bot: an AI assistant for doctors and nurses: a web app that runs on your device after a one-time download and keeps working with no internet. Answers cite their sources, and you can add your own papers and guidelines. Prototype, not a medical device.">
+<meta name="description" content="Halvia bot: an AI assistant for doctors and nurses: a web app; the demo can run offline once loaded. Answers cite their sources, and you can add your own papers and guidelines. Prototype, not a medical device.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Halvia">
-<meta property="og:title" content="Halvia bot — an AI assistant that works with no signal">
-<meta property="og:description" content="A web app that runs on your device, works offline, cites its sources and learns from the papers you add. A prototype by Halvia.">
+<meta property="og:title" content="Halvia bot — an AI assistant for clinicians">
+<meta property="og:description" content="A web app that runs on your device. The demo can run offline once loaded, and it cites its sources and learns from the papers you add. A prototype by Halvia.">
 <meta property="og:url" content="https://halvia.cloud/bot/">
 <meta property="og:image" content="https://halvia.cloud/bot/og-bot.png">
 <meta property="og:image:width" content="1200">
@@ -89,7 +89,7 @@
       <div class="hello" id="hello">
         <svg class="hello-logo" aria-hidden="true"><use href="#heart"/></svg>
         <h2 id="helloH">How can I help on shift?</h2>
-        <p class="hello-sub">Ask about guidelines, scores and protocols. I answer from your library, cite my sources and keep working with no internet.</p>
+        <p class="hello-sub">Ask about guidelines, scores and protocols. I answer from your library and cite my sources. The demo can run offline once loaded.</p>
         <div class="status-card" id="statusCard" hidden></div>
         <div class="sugs" id="sugs" role="group" aria-label="Suggested questions">
           <button type="button" class="sug">What NEWS2 score needs an emergency response?</button>
@@ -127,7 +127,7 @@
     <p class="lead">Halvia bot answers from these documents. Add your own papers, guidelines and notes to teach it: they're split into passages, indexed and cited in answers. Everything stays on this device.</p>
     <section aria-labelledby="mineH">
       <h3 id="mineH">Your documents</h3>
-      <div id="mineGuest" class="gate"><svg aria-hidden="true"><use href="#i-lock"/></svg><p><b>Sign in to add your own documents.</b> Your profile is created on this device, and your documents are designed to be encrypted locally with your passcode.</p><button class="btn go sm" type="button" id="libSign">Sign in or create a profile</button></div>
+      <div id="mineGuest" class="gate"><svg aria-hidden="true"><use href="#i-lock"/></svg><p><b>Sign in to add your own documents.</b> Your profile is created on this device, designed to encrypt data locally with a passcode.</p><button class="btn go sm" type="button" id="libSign">Sign in or create a profile</button></div>
       <div id="mineBox" hidden>
         <label class="drop" id="drop" for="fileIn">
           <svg aria-hidden="true"><use href="#i-file"/></svg>
@@ -226,7 +226,7 @@
       <p class="err" id="newErr" role="alert"></p>
       <button class="btn go" type="submit">Create profile</button>
     </form></div>
-    <p class="tiny">Your profile lives on this device only, and your documents and chats are designed to be encrypted locally with your passcode. If you forget it, they can't be recovered. Profiles that sync across devices are coming.</p>
+    <p class="tiny">Your profile lives on this device only, designed to encrypt data locally with a passcode. If you forget it, they can't be recovered. Profiles that sync across devices are coming.</p>
   </div>
 </dialog>
 

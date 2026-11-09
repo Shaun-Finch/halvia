@@ -420,7 +420,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
   <section class="sec agents" id="agents" aria-labelledby="agentH">
     <div class="wrap">
-        <p class="topline">Concept AI tools I&rsquo;ve designed and built for healthcare staff &mdash; demos with synthetic data, not for real patient care.</p>
+        <p class="topline">Concept AI tools I&rsquo;ve designed and built for healthcare staff. Demos use synthetic data and are not for real patient care.</p>
         <div class="split2" style="margin-bottom:1.8rem">
           <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents designed to cut admin time for care staff</h2></div>
           <p class="intro">I set up AI agents that take on inbox, letter and report admin, connected to the systems you already use. A person approves anything that reaches a patient or a record.</p>
@@ -455,7 +455,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           <li><b>Run with a person</b>Staff approve</li>
           <li><b>Measure</b>Admin time, before and after</li>
         </ol>
-        <p class="safe"><b>Designed to protect patient data.</b> Patient-identifiable information only goes into tools your information governance team has approved. Agents get the least access they need and are designed to log every action.</p>
+        <p class="safe"><b>Patient data.</b> Designed so patient-identifiable information only goes into tools your information governance team has approved. Agents are designed to get the least access they need and to log every action.</p>
     </div>
   </section>
 
@@ -464,13 +464,13 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
       <div class="hb">
         <div>
           <p class="eyebrow">Halvia bot &middot; offline AI</p>
-          <h2 id="botH">An AI assistant for clinicians that <em>works with no signal</em></h2>
-          <p class="intro">Halvia bot is a web app that runs in your browser. After a one-time download, the AI model runs on your phone or laptop, so it keeps answering with no signal. It answers from a library of guidance and shows the passages it used.</p>
+          <h2 id="botH">An AI assistant for clinicians. <em>The demo can run offline once loaded.</em></h2>
+          <p class="intro">Halvia bot answers from a library of guidance and shows the passages it used. In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure.</p>
           <ul class="hb-feats">
-            <li><b>Works offline</b>Download once, then use it with no internet.</li>
+            <li><b>Runs offline</b>The demo can run offline once loaded.</li>
             <li><b>Built-in library</b>31 guides based on NICE, Resuscitation Council UK and JBDS guidance, plus 240 open-access papers. Answers show their sources.</li>
             <li><b>Add your documents</b>Sign in to add PDFs, Word files and notes to the library.</li>
-            <li><b>Stays on your device</b>Designed to keep documents and chats on this device, encrypted locally with your passcode.</li>
+            <li><b>Stays on your device</b>Designed to encrypt data locally with a passcode.</li>
           </ul>
           <div class="actions">
             <a class="btn go" href="bot/">Open Halvia bot</a>
@@ -691,7 +691,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     <p><b style="color:var(--ink);font-weight:500">Important:</b> Halvia tools are concept prototypes made to show design and engineering approach. They use made-up patients and simple illustrative rules, have not been clinically validated, are not medical devices and must not be used for real patient care. NEWS2 thresholds follow the Royal College of Physicians' published chart (2017). Halvia is an independent practice and is not affiliated with or endorsed by the NHS or any NHS organisation.</p>
     <details class="credits"><summary>Photo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">Scientist pipetting</a> by James Gathany, CDC, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Doctor with stethoscope</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor</a> by Petty Officer 1st Class James Stenberg, US Navy, public domain</li></ul><p style="margin:.4rem 0 0">Stock photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p></details>
     <p><b style="color:var(--ink);font-weight:500">About:</b> Halvia is the healthcare practice of Shaun Finch, a UI/UX and motion designer in Manchester who designs and builds AI tools for health and science. <a href="privacy.html">Privacy and terms</a></p>
-    <p>Nothing you type on this page leaves your browser. Fonts: Inter Tight and JetBrains Mono (SIL Open Font License). &copy; Shaun Finch</p>
+    <p>In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure. Fonts: Inter Tight and JetBrains Mono (SIL Open Font License). &copy; Shaun Finch</p>
   </div>
 </footer>
 
@@ -701,7 +701,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
   <div class="log" id="askLog" aria-live="polite"></div>
   <div class="chips" id="askChips"></div>
   <form id="askForm"><label class="sr" for="askIn">Ask a question</label><input id="askIn" autocomplete="off" placeholder="Ask about Halvia, pilots or the tools"><button type="submit">Send</button></form>
-  <p class="legal">Nothing you type leaves your browser and nothing is stored. Please don't share personal or health information.</p>
+  <p class="legal">In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure. Please don't share personal or health information.</p>
 </section>
 
 <script src="assets/tools.js"></script>
@@ -743,7 +743,7 @@ if(h&&$('#t-'+h)){show($('#t-'+h));setTimeout(function(){$('#cases').scrollIntoV
 var btn=$('#askBtn'),box=$('#ask'),log=$('#askLog'),chips=$('#askChips'),form=$('#askForm'),inp=$('#askIn'),started=false;
 var A=[
   {k:/contact|email|call|meet|book|talk|hire/i,q:'How do I get in touch?',a:'Email <a href="mailto:shaundavidfinch@gmail.com">shaundavidfinch@gmail.com</a> or message on <a href="https://www.linkedin.com/in/shaun-finch" rel="noopener">LinkedIn</a>. A short description of the problem is plenty to start.'},
-  {k:/offline|\bbot\b|chat ?bot|no (internet|signal|wifi)|halvia bot/i,q:'What is Halvia bot?',a:'An AI assistant for clinicians that runs on the device and keeps working with no internet. It answers from a library of guidance, cites its sources, and learns from the papers you add. <a href="bot/">Open Halvia bot</a>.'},
+  {k:/offline|\bbot\b|chat ?bot|no (internet|signal|wifi)|halvia bot/i,q:'What is Halvia bot?',a:'An AI assistant for clinicians. The demo can run offline once loaded. It answers from a library of guidance, cites its sources, and learns from the papers you add. <a href="bot/">Open Halvia bot</a>.'},
   {k:/build|make|do you do|service|offer|help with/i,q:'What can you build?',a:'Design, working prototypes and AI set-up for the admin around care: handover and discharge letters, appointment booking, coding support and patient-facing letters. The five tools on this page are examples. <a href="#cases">Try them</a>.'},
   {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
