@@ -222,7 +222,7 @@ function top0() { scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
 // ---------- setup ----------
 function renderSetup() {
   main.innerHTML = `
-    <h1>Create your quiz</h1>
+    <h1>Create quiz for staff training</h1>
     <div class="step"><b>1</b><h2>What&rsquo;s the training for?</h2></div>
     <label class="field"><span class="sr">Training topic</span><input id="subj" type="text" maxlength="80" placeholder="e.g. Ward admin induction, Information governance, Safe handover" value="${esc(draft.subject)}"></label>
     <div class="step"><b>2</b><h2>Add your training documents</h2></div>
