@@ -222,9 +222,7 @@ function top0() { scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
 // ---------- setup ----------
 function renderSetup() {
   main.innerHTML = `
-    <p class="eyebrow">Staff training</p>
-    <h1>Turn policies and protocols into staff training</h1>
-    <p class="lede">Add your policies, protocols and training notes and say what the training is for. Gizmo builds a short course of modules, each with key points, key terms and a quiz, then a final assessment with a pass mark.</p>
+    <h1>Create your quiz</h1>
     <div class="step"><b>1</b><h2>What&rsquo;s the training for?</h2></div>
     <label class="field"><span class="sr">Training topic</span><input id="subj" type="text" maxlength="80" placeholder="e.g. Ward admin induction, Information governance, Safe handover" value="${esc(draft.subject)}"></label>
     <div class="step"><b>2</b><h2>Add your training documents</h2></div>
