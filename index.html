@@ -372,6 +372,19 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 #cases .hv-card,#cases .hv-vivid .hv-card,#cases .hv-kpi,#cases .hv-alert,#cases .hv-bed,#cases .hv-draft,#cases .hv-sb,#cases .hv-sb h4 i,
 #cases .hv-flags li,#cases .hv-doc,#cases .hv-code,#cases .hv-episode,#cases .hv-letterdoc,#cases .hv-sms,#cases .hv-letter,#cases .hv-tag,#cases .hv-pts,
 #cases .hv textarea,#cases .hv input[type="text"],#cases .hv input[type="number"],#cases .hv select{border-radius:0}
+
+/* Nov 2026: top line, generic AI icon, demo flag, photo credits, standards label */
+.topline{margin:0 0 1.8rem;padding:.75rem 1rem;border:1px solid var(--line2);background:var(--soft);font-size:.88rem;line-height:1.5;color:var(--ink);border-radius:0}
+.aiicon{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:1.8rem .8rem 1.3rem;min-height:9.5rem;border-bottom:1px solid var(--line);color:var(--blue)}
+.aiicon svg{width:clamp(3.4rem,6vw,4.6rem);height:auto;display:block}
+.aiicon span{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.hb-flag{align-self:flex-start;font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#8A2A00;background:#FFE9DE;border:1px solid #FFB896;padding:.28rem .6rem;border-radius:0}
+.pcred{position:absolute;z-index:2;font-size:.6rem;line-height:1.3;color:rgba(255,255,255,.9);background:rgba(0,0,0,.5);padding:.15rem .45rem}
+.sci-slide .pcred{left:.8rem;bottom:.8rem}
+@media (max-width:640px){.sci-slide .pcred{bottom:auto;top:.7rem}}
+.nphotos .pcred{right:.6rem;top:.6rem}
+.std .lbl{border:0;padding-left:0;color:rgba(226,232,255,.72)}
+.foot a{color:inherit}
 </style>
 </head>
 <body>
@@ -400,16 +413,16 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
   <section class="sec agents" id="agents" aria-labelledby="agentH">
     <div class="wrap">
+        <p class="topline">Concept AI tools I&rsquo;ve designed and built for healthcare staff &mdash; demos with synthetic data, not for real patient care.</p>
         <div class="split2" style="margin-bottom:1.8rem">
-          <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents that give staff time back for patients</h2></div>
-          <p class="intro">Clinicians lose hours a week to inboxes, letters, rotas and reports. I set up AI agents and automations that take on that admin, connected to the systems you already use, with a person approving anything that reaches a patient or a record.</p>
+          <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents designed to cut admin time for care staff</h2></div>
+          <p class="intro">I set up AI agents that take on inbox, letter and report admin, connected to the systems you already use. A person approves anything that reaches a patient or a record.</p>
         </div>
         <div class="agrid">
           <figure class="aphoto">
-            <div class="alogos" role="img" aria-label="AI tools I set up for care teams: Grok, ChatGPT and dots">
-              <div class="lg"><img src="media/logos/grok.svg" alt="" width="34" height="33"><span>Grok</span></div>
-              <div class="lg"><img src="media/logos/chatgpt.svg" alt="" width="320" height="320"><span>ChatGPT</span></div>
-              <div class="lg"><b>dots</b><span>&nbsp;</span></div>
+            <div class="aiicon" role="img" aria-label="AI tools connected to the systems your team already uses">
+              <svg viewBox="0 0 96 96" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3"><rect x="22" y="22" width="52" height="52" rx="6"/><path d="M34 22V12M48 22V12M62 22V12M34 84V74M48 84V74M62 84V74M22 34H12M22 48H12M22 62H12M84 34H74M84 48H74M84 62H74"/><path d="M48 34c1.6 7.4 6.6 12.4 14 14-7.4 1.6-12.4 6.6-14 14-1.6-7.4-6.6-12.4-14-14 7.4-1.6 12.4-6.6 14-14z" fill="currentColor" stroke="none"/></svg>
+              <span>AI tools &middot; connected to your systems</span>
             </div>
             <div class="alog" role="img" aria-label="Example agent run: clinic preparation for Tuesday cardiology, 14 appointments pulled, 3 letters drafted for sign-off, 2 referrals missing an ECG requested from GP practices">
               <b>Agent run &middot; clinic prep, Tuesday cardiology</b>
@@ -419,23 +432,23 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           </figure>
           <div>
             <div class="acards">
-              <div class="acard"><b>Discharge letters</b><p>Drafts the GP discharge letter from the ward notes in a standard structure, ready for the doctor to check and sign.</p></div>
-              <div class="acard"><b>Shift handover</b><p>Turns end-of-shift notes into a structured handover, so nothing gets lost between teams. Staff approve each section.</p></div>
-              <div class="acard"><b>Missed appointments</b><p>Flags clinic bookings that may be missed and sends reminders, video options or an easy way to rebook.</p></div>
-              <div class="acard"><b>Plain-English letters</b><p>Rewrites clinic letters for patients: jargon explained, next steps first. The clinician signs off the patient copy.</p></div>
-              <div class="acard"><b>Clinical coding</b><p>Suggests codes from the discharge record, with the sentence behind each one, for the coding team to accept or change.</p></div>
+              <div class="acard"><b>Discharge letters</b><p>Drafts the GP letter from ward notes for the doctor to check and sign.</p></div>
+              <div class="acard"><b>Shift handover</b><p>Turns shift notes into a structured handover. Staff approve each section.</p></div>
+              <div class="acard"><b>Missed appointments</b><p>Flags bookings that may be missed and offers reminders or rebooking.</p></div>
+              <div class="acard"><b>Plain-English letters</b><p>Rewrites clinic letters for patients. The clinician signs off.</p></div>
+              <div class="acard"><b>Clinical coding</b><p>Suggests codes with the sentence behind each one, for coders to accept or change.</p></div>
             </div>
-            <p class="tools-used"><span>Built with tools including</span><span class="t">Claude</span><span class="t">Claude Cowork</span><span class="t">Grok</span><span class="t">your existing systems</span></p>
+            <p class="tools-used"><span>Built with tools including</span> <span class="t">Claude</span> <span class="t">Claude Cowork</span> <span class="t">your existing systems</span></p>
           </div>
         </div>
         <ol class="aflow" aria-label="How an agent project runs">
-          <li><b>Map the task</b>Shadow the team and time the admin</li>
-          <li><b>Build the agent</b>Limited permissions, clear steps</li>
-          <li><b>Test safely</b>On synthetic data first</li>
-          <li><b>Run with a person</b>Staff approve what matters</li>
-          <li><b>Measure</b>Hours given back to patient care</li>
+          <li><b>Map the task</b>Shadow the team</li>
+          <li><b>Build the agent</b>Least access, clear steps</li>
+          <li><b>Test safely</b>Synthetic data first</li>
+          <li><b>Run with a person</b>Staff approve</li>
+          <li><b>Measure</b>Admin time, before and after</li>
         </ol>
-        <p class="safe"><b>Patient data stays protected.</b> Patient-identifiable information only goes into tools your information governance team has approved, under a data protection impact assessment. Agents work with the least access they need, and every action is logged.</p>
+        <p class="safe"><b>Designed to protect patient data.</b> Patient-identifiable information only goes into tools your information governance team has approved. Agents get the least access they need and are designed to log every action.</p>
     </div>
   </section>
 
@@ -445,21 +458,22 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         <div>
           <p class="eyebrow">Halvia bot &middot; offline AI</p>
           <h2 id="botH">An AI assistant for clinicians that <em>works with no signal</em></h2>
-          <p class="intro">Halvia bot runs on the device itself, so it keeps answering on a ward with no Wi-Fi, in a basement clinic or on a flight. It answers from a library of guidance, shows the passages it used, and learns from the papers and protocols you add.</p>
+          <p class="intro">Halvia bot is a web app that runs in your browser. After a one-time download, the AI model runs on your phone or laptop, so it keeps answering with no signal. It answers from a library of guidance and shows the passages it used.</p>
           <ul class="hb-feats">
-            <li><b>Works offline</b>The AI model downloads once, then runs on the phone or laptop with no internet.</li>
-            <li><b>Built-in medical library</b>30 clinical guides based on NICE, Resuscitation Council UK and JBDS guidance, plus 240 open-access peer-reviewed papers. Every answer cites its source.</li>
-            <li><b>Learns your documents</b>Sign in and add PDFs, Word files and notes: they're indexed and used in answers.</li>
-            <li><b>Private by design</b>Documents and chats stay on the device, encrypted with your passcode.</li>
+            <li><b>Works offline</b>Download once, then use it with no internet.</li>
+            <li><b>Built-in library</b>31 guides based on NICE, Resuscitation Council UK and JBDS guidance, plus 240 open-access papers. Answers show their sources.</li>
+            <li><b>Add your documents</b>Sign in to add PDFs, Word files and notes to the library.</li>
+            <li><b>Stays on your device</b>Designed to keep documents and chats on this device, encrypted locally with your passcode.</li>
           </ul>
           <div class="actions">
             <a class="btn go" href="bot/">Open Halvia bot</a>
-            <span style="font-size:.74rem;color:rgba(226,232,255,.72)">Web app today &middot; Android and iOS next</span>
+            <span style="font-size:.74rem;color:rgba(226,232,255,.72)">Web app today &middot; Android and iOS apps next</span>
           </div>
         </div>
-        <a class="hb-shot" href="bot/" aria-label="Open Halvia bot: preview of the chat answering a NEWS2 question offline, with sources">
+        <a class="hb-shot" href="bot/" aria-label="Open Halvia bot. Fictional demo preview, not clinical guidance: the chat answering a NEWS2 question with sources">
           <div class="hb-bar" aria-hidden="true"><span class="logo"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg>Halvia <b>bot</b></span><span class="hb-pill off"><i></i>Offline</span><span class="hb-pill"><i></i>AI on this device</span></div>
           <div class="hb-body" aria-hidden="true">
+            <div class="hb-flag">Fictional demo &mdash; not clinical guidance</div>
             <div class="hb-q">What NEWS2 score needs an emergency response?</div>
             <div class="hb-a"><span class="av"><svg viewBox="0 0 37 32" shape-rendering="crispEdges"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg></span><div>
               <p>An aggregate NEWS2 of <strong>7 or more</strong> is high risk and needs an emergency response.<sup>1</sup> That means:</p>
@@ -475,12 +489,11 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
   </section>
 
   <section class="sci" id="science" aria-roledescription="carousel" aria-label="Science and care">
-    <figure class="sci-slide on" aria-roledescription="slide" aria-label="1 of 4"><img src="media/photos/sem-t-cells.jpg" alt="Coloured scanning electron micrograph of human immune cells covered in virus particles" width="1920" height="1493"><figcaption><span>Grounded in the science</span></figcaption></figure>
-    <figure class="sci-slide" aria-roledescription="slide" aria-label="2 of 4" aria-hidden="true"><img src="media/photos/lab-pipetting.jpg" alt="Scientist in protective gear pipetting samples inside a laboratory safety cabinet" loading="lazy"><figcaption><span>Built with the people at the bench</span></figcaption></figure>
-    <figure class="sci-slide" aria-roledescription="slide" aria-label="3 of 4" aria-hidden="true"><img src="media/photos/stethoscope.jpg" alt="Doctor listening to a patient's back with a stethoscope" loading="lazy"><figcaption><span>Designed around the patient in front of you</span></figcaption></figure>
-    <figure class="sci-slide" aria-roledescription="slide" aria-label="4 of 4" aria-hidden="true"><img src="media/photos/vitals-monitor.jpg" alt="Bedside monitor showing a patient's heart rate, oxygen and blood pressure" loading="lazy"><figcaption><span>Made for the reality of a twelve-hour shift</span></figcaption></figure>
+    <figure class="sci-slide on" aria-roledescription="slide" aria-label="1 of 3"><img src="media/photos/lab-pipetting.jpg" alt="Scientist in protective gear pipetting samples inside a laboratory safety cabinet"><figcaption><span>Designed for the people at the bench</span></figcaption><small class="pcred">Stock photo &middot; James Gathany, CDC &middot; public domain</small></figure>
+    <figure class="sci-slide" aria-roledescription="slide" aria-label="2 of 3" aria-hidden="true"><img src="media/photos/stethoscope.jpg" alt="Doctor listening to a patient's back with a stethoscope" loading="lazy"><figcaption><span>Designed around the patient in front of you</span></figcaption><small class="pcred">Stock photo &middot; Shixart1985 &middot; CC BY 2.0</small></figure>
+    <figure class="sci-slide" aria-roledescription="slide" aria-label="3 of 3" aria-hidden="true"><img src="media/photos/vitals-monitor.jpg" alt="Bedside monitor showing a patient's heart rate, oxygen and blood pressure" loading="lazy"><figcaption><span>Made for the reality of a twelve-hour shift</span></figcaption><small class="pcred">Stock photo &middot; James Stenberg, US Navy &middot; public domain</small></figure>
     <div class="sci-ctl" role="group" aria-label="Slideshow controls">
-      <button type="button" data-go="0" aria-label="Show slide 1" aria-current="true"></button><button type="button" data-go="1" aria-label="Show slide 2"></button><button type="button" data-go="2" aria-label="Show slide 3"></button><button type="button" data-go="3" aria-label="Show slide 4"></button>
+      <button type="button" data-go="0" aria-label="Show slide 1" aria-current="true"></button><button type="button" data-go="1" aria-label="Show slide 2"></button><button type="button" data-go="2" aria-label="Show slide 3"></button>
       <button type="button" class="pp" id="sciPP" aria-label="Pause slideshow">&#10073;&#10073;</button>
     </div>
   </section>
@@ -492,7 +505,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           <p class="eyebrow">Case study &middot; CHKS</p>
           <h2 id="chksH">Explaining AI clinical coding to the people who use it</h2>
         </div>
-        <p class="intro">A product explainer for CHKS's AI clinical coding system, used across the NHS. The film had to make a technical product feel simple and trustworthy for coding teams: what it does, how it fits their day, and why the coder stays in control.</p>
+        <p class="intro">A product explainer for CHKS's AI clinical coding system, used in the NHS. It had to make a technical product feel simple and trustworthy for coding teams, and show that the coder stays in control.</p>
       </div>
       <div class="feature">
         <figure class="vid">
@@ -508,7 +521,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
             <div><dt>My role</dt><dd>Motion design and animation</dd></div>
             <div><dt>Format</dt><dd>1:12 explainer film</dd></div>
           </dl>
-          <div class="actions" style="margin-top:1.3rem"><a class="btn" href="#code" data-open="code">Try the coding tool &rarr;</a></div>
+          <div class="actions" style="margin-top:1.3rem"><a class="btn" href="#cases" data-open="code">Try the coding tool &rarr;</a></div>
         </div>
       </div>
     </div>
@@ -522,12 +535,10 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         <div class="pex-copy">
           <p class="eyebrow">Patient explainer &middot; AI video</p>
           <h2>How to look after a black eye, in 31 seconds</h2>
-          <p class="intro">A short vertical film for patients to watch after a GP or minor injuries visit. It shows what's happening under the skin, the cold compress, pain relief, the warm compress after a couple of days, and the warning signs that mean coming back. Clinicians explain all of this in the room, but patients often forget it by the time they get home.</p>
+          <p class="intro">A short vertical film for patients after a GP or minor injuries visit: what's happening under the skin, cold and warm compresses, pain relief, and the warning signs that mean coming back.</p>
           <dl class="facts">
             <div><dt>Made with</dt><dd>Google Veo 3, edited by me</dd></div>
             <div><dt>Format</dt><dd>0:31, vertical for phones</dd></div>
-            <div><dt>Shared by</dt><dd>Text message or a QR code on the advice leaflet</dd></div>
-            <div><dt>Goal</dt><dd>Better recall of self-care advice and when to seek help</dd></div>
           </dl>
           <p class="note2"><b>AI-generated video.</b> A concept to show how generative video could support patient information. In real use, every script is checked by clinicians against current guidance before a patient sees it.</p>
         </div>
@@ -545,7 +556,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     <div class="wrap">
       <p class="eyebrow">Five tools &middot; working software</p>
       <h2 id="casesH">Five places AI can help, today</h2>
-      <p class="intro">Each tool is a working concept for one piece of paperwork or admin around care: letters, handovers, bookings and coding. Use them here, or open the full-screen workspace.</p>
+      <p class="intro">Each tool is a working concept for one piece of admin around care. Use them here, or open the full-screen workspace.</p>
       <div class="console">
         <div>
           <p class="railhead">Tools</p>
@@ -561,34 +572,34 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
         <div>
           <section class="panel" id="p-discharge" role="tabpanel" aria-labelledby="t-discharge">
-            <div class="phead"><div><p class="uri">halvia://ward/discharge-letter</p><h3>From ward notes to a GP letter in one step</h3><p>Discharge summaries are written at the end of a long day and GPs often get them late or incomplete. This turns ward notes into a structured letter: diagnosis, what happened, <b>every medicine change</b>, actions for the GP and what the patient was told, with each line linked back to its source.</p></div>
+            <div class="phead"><div><p class="uri">halvia://ward/discharge-letter</p><h3>From ward notes to a GP letter in one step</h3><p>Turns ward notes into a structured GP letter: diagnosis, what happened, <b>every medicine change</b>, GP actions and what the patient was told, each line linked to its source.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Discharging doctors, pharmacists and GPs</span><b>Final call</b><span>Discharging clinician</span><a class="full" href="ward/#discharge">Open full screen &#8599;</a></aside></div>
             <div class="hv hv-vivid" data-tool="discharge"></div>
-            <div class="cs"><div><b>The problem</b><p>Medicine changes and GP actions get lost between ward and practice, which leads to repeat tests, missed follow-up and avoidable readmissions.</p></div><div><b>What I'd build</b><p>A drafting tool inside the discharge workflow that pulls from the notes and drug chart, follows a standard structure, and won't send until medicines are checked.</p></div><div><b>What we'd measure</b><p>Time to write a summary, letters sent within 24 hours, medicine discrepancies found by GPs and pharmacists, and GP satisfaction.</p></div></div>
+            <div class="cs"><div><b>The problem</b><p>Medicine changes and GP actions can get lost between ward and practice.</p></div><div><b>What I'd build</b><p>A drafting tool in the discharge workflow that won't send until medicines are checked.</p></div><div><b>What we'd measure</b><p>Time per summary, letters sent within 24 hours, and medicine discrepancies found by GPs.</p></div></div>
           </section>
           <section class="panel" id="p-sbar" role="tabpanel" aria-labelledby="t-sbar" hidden>
-            <div class="phead"><div><p class="uri">halvia://ward/handover</p><h3>Turn rushed notes into a safe handover</h3><p>Paste free-text notes and the assistant sorts them into SBAR (Situation, Background, Assessment, Recommendation), pulls out the to-do list and raises safety flags, including a medicine and allergy clash hidden in Bed 3's notes.</p></div>
+            <div class="phead"><div><p class="uri">halvia://ward/handover</p><h3>Turn rushed notes into a safe handover</h3><p>Paste free-text notes and get an SBAR handover (Situation, Background, Assessment, Recommendation), a to-do list and safety flags, including an allergy clash hidden in Bed 3's notes.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Nurses and junior doctors at shift change</span><b>Final call</b><span>Clinician handing over approves each section</span><a class="full" href="ward/#sbar">Open full screen &#8599;</a></aside></div>
             <div class="hv hv-vivid" data-tool="sbar"></div>
-            <div class="cs"><div><b>The problem</b><p>Handovers vary by person and by how tired they are. An allergy query, a near-miss fall or a pending blood test can sit in a paragraph and get missed.</p></div><div><b>What I'd build</b><p>A handover tool that structures notes into SBAR, cross-checks medicines against allergies, and asks the outgoing nurse to approve each section, with a record of what was handed over.</p></div><div><b>What we'd measure</b><p>Handover time, items missed in audit, incidents linked to handover, and whether incoming staff feel they have what they need.</p></div></div>
+            <div class="cs"><div><b>The problem</b><p>Handovers vary by person and by how tired they are, and key details can sit unnoticed in a paragraph.</p></div><div><b>What I'd build</b><p>A tool that structures notes into SBAR, checks medicines against allergies and records what was handed over.</p></div><div><b>What we'd measure</b><p>Handover time, items missed in audit and incidents linked to handover.</p></div></div>
           </section>
           <section class="panel" id="p-dna" role="tabpanel" aria-labelledby="t-dna" hidden>
-            <div class="phead"><div><p class="uri">halvia://outpatients/missed-appointments</p><h3>Fewer empty clinic slots, without penalising patients</h3><p>Missed appointments waste clinic time and delay care. This estimates who might struggle to attend, explains why in plain terms, and suggests <b>help</b>: a reminder, a video slot or a nearer date. It's never used to overbook or move anyone down a list.</p></div>
+            <div class="phead"><div><p class="uri">halvia://outpatients/missed-appointments</p><h3>Fewer empty clinic slots, without penalising patients</h3><p>Estimates who might struggle to attend, explains why, and suggests <b>help</b>: a reminder, a video slot or a nearer date. It's never used to overbook or move anyone down a list.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Outpatient booking teams and patients</span><b>Final call</b><span>Booking team, with patient choice</span><a class="full" href="ward/#dna">Open full screen &#8599;</a></aside></div>
             <div class="hv hv-vivid" data-tool="dna"></div>
-            <div class="cs"><div><b>The problem</b><p>Every empty slot is time a patient on the waiting list could have used. Blanket reminders help, but the people most likely to miss often need a different kind of help.</p></div><div><b>What I'd build</b><p>A daily list for booking teams showing who may need support and why, with reminder, video and rebooking actions built in, and freed slots offered back to the waiting list.</p></div><div><b>What we'd measure</b><p>Missed-appointment rate by clinic and by patient group (to check it's fair), slots refilled and staff time per list.</p></div></div>
+            <div class="cs"><div><b>The problem</b><p>Every empty slot is time someone on the waiting list could have used.</p></div><div><b>What I'd build</b><p>A daily list for booking teams with reminder, video and rebooking actions built in.</p></div><div><b>What we'd measure</b><p>Missed-appointment rate by clinic and patient group (to check it's fair) and slots refilled.</p></div></div>
           </section>
           <section class="panel" id="p-plain" role="tabpanel" aria-labelledby="t-plain" hidden>
-            <div class="phead"><div><p class="uri">halvia://patients/plain-english</p><h3>Clinic letters patients can actually read</h3><p>Clinic letters are usually written for other clinicians. This rewrites one for the patient: jargon explained, medicines in a table and next steps up front. It measures the reading age before and after, and can read the letter aloud.</p></div>
+            <div class="phead"><div><p class="uri">halvia://patients/plain-english</p><h3>Clinic letters patients can actually read</h3><p>Rewrites a clinic letter for the patient: jargon explained, medicines in a table, next steps first. It checks the reading age before and after, and can read the letter aloud.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Patients, carers and the clinicians writing letters</span><b>Final call</b><span>Clinician signs off the patient version</span><a class="full" href="ward/#plain">Open full screen &#8599;</a></aside></div>
             <div class="hv hv-vivid" data-tool="plain"></div>
-            <div class="cs"><div><b>The problem</b><p>Many adults struggle with health information written at a high reading level. Patients leave clinic unsure what was found or what to do next, and call the hospital to ask.</p></div><div><b>What I'd build</b><p>A letter assistant that drafts a patient version alongside the GP letter, with a glossary, medicines table, reading-age check, translation and audio.</p></div><div><b>What we'd measure</b><p>Reading age of letters sent, patient understanding, follow-up calls to the clinic, and the extra clinician time per letter.</p></div></div>
+            <div class="cs"><div><b>The problem</b><p>Health information is often written at a high reading level, so patients can leave unsure what to do next.</p></div><div><b>What I'd build</b><p>A letter assistant that drafts a patient version alongside the GP letter.</p></div><div><b>What we'd measure</b><p>Reading age, patient understanding and follow-up calls to the clinic.</p></div></div>
           </section>
           <section class="panel" id="p-code" role="tabpanel" aria-labelledby="t-code" hidden>
-            <div class="phead"><div><p class="uri">halvia://records/clinical-coding</p><h3>Help coders get from discharge summary to codes</h3><p>Clinical coding turns each hospital stay into standard codes that drive funding, research and planning. In England that means ICD-10 for diagnoses and OPCS-4 for procedures. This suggests ICD-10 codes, shows the sentence behind each one, and spots conditions that were ruled out so they aren't coded by mistake.</p></div>
+            <div class="phead"><div><p class="uri">halvia://records/clinical-coding</p><h3>Help coders get from discharge summary to codes</h3><p>Suggests ICD-10 codes from a discharge summary, shows the sentence behind each one, and spots ruled-out conditions so they aren't coded by mistake.</p></div>
               <aside class="basis"><b>Who it helps</b><span>Clinical coders and coding auditors</span><b>Final call</b><span>Accredited clinical coder</span><b>My background</b><span><a href="#work">Explainer for CHKS's AI clinical coding system</a></span><a class="full" href="ward/#code">Open full screen &#8599;</a></aside></div>
             <div class="hv hv-vivid" data-tool="code"></div>
-            <div class="cs"><div><b>The problem</b><p>Coders read long, unstructured notes under time pressure. Missed or wrong codes affect funding and the data used to plan, and backlogs build quickly.</p></div><div><b>What I'd build</b><p>A suggestion panel inside the coder's existing system: evidence for every code, negation and uncertainty spotted, and one-click accept or reject that feeds an audit trail.</p></div><div><b>What we'd measure</b><p>Episodes coded per hour, audit accuracy, depth of coding, and how often coders override suggestions, and why.</p></div></div>
+            <div class="cs"><div><b>The problem</b><p>Coders read long, unstructured notes under time pressure, and backlogs build quickly.</p></div><div><b>What I'd build</b><p>A suggestion panel in the coder's existing system, with evidence for each code and one-click accept or reject.</p></div><div><b>What we'd measure</b><p>Episodes coded per hour, audit accuracy and how often coders override suggestions.</p></div></div>
           </section>
 
 
@@ -598,7 +609,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
         </div>
       </div>
-      <div class="appcta"><p><b>Halvia Ward, full screen</b>The tools in one workspace with an activity log, keyboard shortcuts, print and copy. Six synthetic patients, ready to use.</p><a class="btn light" href="ward/">Open Halvia Ward &#8599;</a></div>
+      <div class="appcta"><p><b>Halvia Ward, full screen</b>The tools in one workspace with an activity log, shortcuts, print and copy. Six synthetic patients.</p><a class="btn light" href="ward/">Open Halvia Ward &#8599;</a></div>
     </div>
   </section>
 
@@ -606,37 +617,31 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     <div class="wrap">
       <div class="split2">
         <div><p class="eyebrow">Medtech &amp; biotech software</p><h2 id="medH">Code for devices, labs and the systems around them</h2></div>
-        <p class="intro">Hearing aids, prosthetic hands and lab instruments all run on software, and so do the apps, dashboards and set-ups around them. These are real roles in medtech and biotech teams. I work on the design and software side, alongside your engineers, clinicians and regulatory team.</p>
+        <p class="intro">Hearing aids, prosthetic hands and lab instruments all run on software. I work on the design and software side, alongside your engineers, clinicians and regulatory team.</p>
       </div>
       <div class="nphotos">
-        <figure><img src="media/photos/fluorescent-cells.jpg" alt="Human cells under a fluorescence microscope, nuclei in blue and structure in green" loading="lazy"><figcaption>Cell imaging</figcaption></figure>
-        <figure><img src="media/photos/hearing-ear.jpg" alt="Black and white close-up of an ear" loading="lazy"><figcaption>Hearing</figcaption></figure>
-        <figure><img src="media/photos/circuit-soldering.jpg" alt="Hands soldering a circuit board under a magnifier" loading="lazy"><figcaption>Device hardware</figcaption></figure>
+        <figure><img src="media/photos/fluorescent-cells.jpg" alt="Human cells under a fluorescence microscope, nuclei in blue and structure in green" loading="lazy"><figcaption>Cell imaging</figcaption><small class="pcred">Stock photo &middot; ZEISS Microscopy &middot; CC BY 2.0</small></figure>
+        <figure><img src="media/photos/hearing-ear.jpg" alt="Black and white close-up of an ear" loading="lazy"><figcaption>Hearing</figcaption><small class="pcred">Stock photo &middot; Steve Johnson &middot; CC BY 2.0</small></figure>
+        <figure><img src="media/photos/circuit-soldering.jpg" alt="Hands soldering a circuit board under a magnifier" loading="lazy"><figcaption>Device hardware</figcaption><small class="pcred">Stock photo &middot; Krzysztof Pop&#322;awski &middot; CC BY-SA 4.0</small></figure>
       </div>
       <div class="ncards">
         <article class="ncard"><span class="ic" aria-hidden="true">&#9673;</span><h3>Hearing aid apps and fitting software</h3>
-          <p>Users change volume, programs and streaming from a companion app. Audiologists use fitting software to set each device to the person's hearing test.</p>
-          <ul><li>Companion app screens and flows built for older users</li><li>Remote fitting session screens for audiologists</li><li>Bluetooth pairing and connection journeys</li></ul>
-          <div class="std" aria-label="Standards and technologies"><span>Bluetooth LE Audio</span><span>Made for iPhone hearing devices</span><span>Android ASHA</span></div></article>
+          <p>Companion apps for users, and fitting software for audiologists.</p>
+          <div class="std" aria-label="Technologies"><span>Bluetooth LE Audio</span><span>Made for iPhone hearing devices</span><span>Android ASHA</span></div></article>
         <article class="ncard"><span class="ic" aria-hidden="true">&#9995;</span><h3>Prosthetics and orthotics software</h3>
-          <p>Myoelectric prosthetic hands are set up through apps that choose grip patterns and tune how sensitive they are to muscle signals (EMG). Prosthetists use clinic software to calibrate them.</p>
-          <ul><li>Configuration and grip-pattern apps</li><li>Clear EMG signal views for prosthetists</li><li>Practice and training games for new users</li></ul>
-          <div class="std" aria-label="Standards"><span>IEC 62304</span><span>IEC 62366-1</span><span>ISO 14971</span></div></article>
+          <p>Apps that set grip patterns and tune sensitivity to muscle signals (EMG).</p>
+          <div class="std" aria-label="Standards I design with in mind"><span class="lbl">I design with these in mind</span><span>IEC 62304</span><span>IEC 62366-1</span><span>ISO 14971</span></div></article>
         <article class="ncard"><span class="ic" aria-hidden="true">&#9638;</span><h3>Medical device software</h3>
-          <p>When software is itself a medical device, it's built under a defined lifecycle and a usability engineering process, with every design decision documented.</p>
-          <ul><li>Interface design and prototypes for usability testing</li><li>User-interface specs and use-related risk input</li><li>Design documentation your QMS can file</li></ul>
-          <div class="std" aria-label="Standards and regulations"><span>IEC 62304</span><span>IEC 62366-1</span><span>UK MDR 2002</span></div></article>
+          <p>When software is itself a medical device, every design decision needs to be documented.</p>
+          <div class="std" aria-label="Standards I design with in mind"><span class="lbl">I design with these in mind</span><span>IEC 62304</span><span>IEC 62366-1</span><span>UK MDR 2002</span></div></article>
         <article class="ncard"><span class="ic" aria-hidden="true">&#10003;</span><h3>Code health checks</h3>
-          <p>An independent look at an existing codebase before an audit, a funding round or a handover to a new team.</p>
-          <ul><li>Tests, coverage and anything failing</li><li>Static analysis and code quality</li><li>Dependency and vulnerability scan, with a software bill of materials (SBOM)</li><li>Requirements traced to tests, and a ranked fix list</li></ul>
-          <div class="std" aria-label="Standards and tools"><span>SBOM (CycloneDX)</span><span>IEC 81001-5-1</span><span>OWASP</span></div></article>
+          <p>An independent look at a codebase before an audit, a funding round or a handover.</p>
+          <div class="std" aria-label="Standards I design with in mind"><span class="lbl">I design with these in mind</span><span>SBOM (CycloneDX)</span><span>IEC 81001-5-1</span><span>OWASP</span></div></article>
         <article class="ncard"><span class="ic" aria-hidden="true">&#9879;</span><h3>Lab and biotech data tools</h3>
-          <p>Labs run on instrument exports, analysis pipelines and a lot of spreadsheets. Good tools make results quicker to read and easier to trust.</p>
-          <ul><li>Dashboards for assay and screening results</li><li>Front-ends for bioinformatics pipelines</li><li>Clean exports from your LIMS</li><li>Reproducible analysis notebooks</li></ul>
+          <p>Dashboards and front-ends that make lab results quicker to read.</p>
           <div class="std" aria-label="Technologies"><span>Nextflow</span><span>Snakemake</span><span>FAIR data</span></div></article>
         <article class="ncard"><span class="ic" aria-hidden="true">&#9881;</span><h3>Set-up, integration and troubleshooting</h3>
-          <p>Getting systems talking to each other, then keeping them working once real staff and patients are using them.</p>
-          <ul><li>HL7 FHIR and HL7 v2 interface mapping</li><li>Device and app set-up guides and runbooks</li><li>Log review and fault-finding for connections and updates</li><li>Clear handover notes for support teams</li></ul>
+          <p>Getting systems talking to each other, and keeping them working.</p>
           <div class="std" aria-label="Standards"><span>HL7 FHIR</span><span>HL7 v2</span><span>DICOM</span></div></article>
       </div>
       <div class="nrow">
@@ -654,7 +659,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           <small>Example output for illustration, not a real product's results.</small>
         </div>
         <div>
-          <p class="fineprint">The standards listed are the ones this work sits within, so it fits how your quality team already operates. Certification and regulatory sign-off stay with your quality and regulatory team.</p>
+          <p class="fineprint">I design with these standards in mind so the work fits how your quality team operates. I&rsquo;m not certified against them: certification and regulatory sign-off stay with your quality and regulatory team.</p>
           <div class="actions"><a class="btn light" href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20%E2%80%94%20medtech%20software">Talk about a device or lab project</a></div>
         </div>
       </div>
@@ -665,7 +670,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     <div class="wrap">
       <div class="split2">
         <div><p class="eyebrow">Decks &amp; research documents</p><h2 id="deckH">Research decks clinicians actually want to sit through</h2></div>
-        <p class="intro">Clinical and research meetings move fast. I design decks, case-study PDFs and posters that make the finding clear in the first minute, for grand rounds, MDT and governance meetings, journal clubs, funding bids and conferences.</p>
+        <p class="intro">I design decks, case-study PDFs and posters that make the finding clear in the first minute, for grand rounds, MDTs, journal clubs, funding bids and conferences.</p>
       </div>
       <div class="decks">
         <figure class="dfeat">
@@ -685,7 +690,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
       </div>
       <ul class="dlist" aria-label="What I can make">
         <li>Research and grand-rounds decks</li><li>Case-study PDFs</li><li>Clinical audit reports</li><li>Conference posters</li>
-        <li>Forest plots, survival curves and CONSORT flow diagrams</li><li>Patient-friendly summaries</li><li>Templates for PowerPoint, Keynote or Google Slides</li>
       </ul>
       <p class="fineprint">Samples use illustrative data. Real projects are built from your data and checked by your research team before they're presented.</p>
     </div>
@@ -697,7 +701,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
           <div>
             <p class="eyebrow">Work with me</p>
             <h2 id="contactH">Got a workflow that's eating your team's time?</h2>
-            <p class="intro">I work with NHS trusts, health-tech companies and research teams on design, prototypes and AI set-up. Tell me about the problem and I'll come back with a short plan and what a first prototype could look like.</p>
+            <p class="intro">Design, prototypes and AI set-up for health and research teams. Tell me about the problem and I'll come back with a short plan.</p>
             <div class="actions">
               <a class="btn light" href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20%E2%80%94%20healthcare%20AI%20project">Email Shaun</a>
               <a class="btn outline-w" href="Halvia-capability-sheet.pdf" download>Capability sheet (PDF)</a>
@@ -718,7 +722,8 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 <footer class="foot">
   <div class="wrap">
     <p><b style="color:var(--ink);font-weight:500">Important:</b> Halvia tools are concept prototypes made to show design and engineering approach. They use made-up patients and simple illustrative rules, have not been clinically validated, are not medical devices and must not be used for real patient care. NEWS2 thresholds follow the Royal College of Physicians' published chart (2017). Halvia is an independent practice and is not affiliated with or endorsed by the NHS or any NHS organisation.</p>
-    <details class="credits"><summary>Photo and logo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:HIV-1_virus_particles_colorized_scanning_electron_micrograph_-_411.jpg" rel="noopener">HIV-1 virus particles colorized scanning electron micrograph - 411.jpg</a> by NIAID, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:HIV-1_virus_particles_colorized_scanning_electron_micrograph_-_311.jpg" rel="noopener">HIV-1 virus particles colorized scanning electron micrograph - 311.jpg</a> by NIAID, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">CDC scientist transfers H7N9.png</a> by Photo Credit: James Gathany Content Providers: CDC/ Douglas E. Jordan, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Female doctor listens to the patient using a stethoscope closeup.jpg</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor display.jpg</a> by Petty Officer 1st Class James Stenberg, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Close-up_of_the_ocular_lenses_of_a_microscope_with_a_blurry_background.jpg" rel="noopener">Close-up of the ocular lenses of a microscope with a blurry background.jpg</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Behind-the-Ear_Hearing_Aid_grayscale_photo.jpg" rel="noopener">Behind-the-Ear Hearing Aid grayscale photo.jpg</a> by Steve Johnson, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:8_%C5%9Al%C4%85ski_Festiwal_Nauki,_MCK,_Katowice,,_09.12.2024,_1234.jpg" rel="noopener">8 Śląski Festiwal Nauki, MCK, Katowice,, 09.12.2024, 1234.jpg</a> by Krzysztof Popławski, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:SK8-18-2_human_derived_cells,_fluorescence_microscopy_(29942101073).jpg" rel="noopener">SK8-18-2 human derived cells, fluorescence microscopy (29942101073).jpg</a> by ZEISS Microscopy from Germany, CC BY 2.0</li></ul><p style="margin:.4rem 0 0">Photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p><p style="margin:.4rem 0 0">Logos: <a href="https://commons.wikimedia.org/wiki/File:Grok-feb-2025-logo.svg" rel="noopener">Grok</a> (symbol only) and <a href="https://commons.wikimedia.org/wiki/File:ChatGPT-Logo.svg" rel="noopener">ChatGPT</a>, from Wikimedia Commons (public domain). Grok is a trademark of xAI and ChatGPT is a trademark of OpenAI. Shown to name tools I work with; no endorsement is implied.</p></details>
+    <details class="credits"><summary>Photo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">Scientist pipetting</a> by James Gathany, CDC, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Doctor with stethoscope</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor</a> by Petty Officer 1st Class James Stenberg, US Navy, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:SK8-18-2_human_derived_cells,_fluorescence_microscopy_(29942101073).jpg" rel="noopener">Fluorescent cells</a> by ZEISS Microscopy, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Behind-the-Ear_Hearing_Aid_grayscale_photo.jpg" rel="noopener">Hearing aid</a> by Steve Johnson, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:8_%C5%9Al%C4%85ski_Festiwal_Nauki,_MCK,_Katowice,,_09.12.2024,_1234.jpg" rel="noopener">Soldering a circuit board</a> by Krzysztof Pop&#322;awski, CC BY-SA 4.0</li></ul><p style="margin:.4rem 0 0">Stock photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p></details>
+    <p><b style="color:var(--ink);font-weight:500">About:</b> Halvia is the healthcare practice of Shaun Finch, a UI/UX and motion designer in Manchester who designs and builds AI tools for health and science. <a href="privacy.html">Privacy and terms</a></p>
     <p>Nothing you type on this page leaves your browser. Fonts: Inter Tight and JetBrains Mono (SIL Open Font License). &copy; Shaun Finch</p>
   </div>
 </footer>
@@ -777,9 +782,9 @@ var A=[
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
   {k:/cost|price|budget|quote|pilot|start|timeline|how long/i,q:'How does a pilot start?',a:'Usually with 1 to 2 weeks of discovery with one team, then a 2 to 4 week working prototype tested on synthetic data. Every project is scoped with you, so <a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20pilot">email Shaun</a> for a plan and a quote.'},
   {k:/hearing|prosthe|device|medtech|biotech|lab\b|firmware|code health|sbom|62304|integration|fhir|troubleshoot/i,q:'Do you work on medtech software?',a:'Yes: hearing aid and prosthetics apps, medical device software interfaces, code health checks, lab and biotech data tools, and set-up and troubleshooting. <a href="#medtech">See the details</a>.'},
-  {k:/agent|automat|grok|cowork|claude|admin|inbox|rota/i,q:'Can you set up AI agents?',a:'Yes: agents and automations for inboxes, letters, rotas, reports and research, built with tools like Claude, Claude Cowork and Grok, with staff approving anything that matters. <a href="#agents">See how</a>.'},
+  {k:/agent|automat|cowork|claude|admin|inbox|rota/i,q:'Can you set up AI agents?',a:'Yes: agents and automations for inboxes, letters, rotas, reports and research, built with tools like Claude and Claude Cowork, with staff approving anything that matters. <a href="#agents">See how</a>.'},
   {k:/deck|slide|present|pdf|poster|research|audit|grand round/i,q:'Can you design research decks?',a:'Yes: decks, case-study PDFs, audit reports and posters for clinical and research meetings. <a href="#decks">See a sample deck</a>.'},
-  {k:/chks|coding|explainer|video|film/i,q:'Tell me about the CHKS work',a:'A 72-second explainer for CHKS\u2019s AI clinical coding system, used across the NHS, showing coding teams how the product helps while they stay in control. <a href="#work">Watch it</a>.'},
+  {k:/chks|coding|explainer|video|film/i,q:'Tell me about the CHKS work',a:'A 72-second explainer for CHKS\u2019s AI clinical coding system, used in the NHS, showing coding teams how the product helps while they stay in control. <a href="#work">Watch it</a>.'},
   {k:/who|shaun|about|experience|background/i,q:'Who is behind Halvia?',a:'Shaun Finch, a UI/UX and motion designer in Manchester working on AI in health and science, with a background in broadcast design for the BBC, Universal, Paramount and LIV Golf.'}
 ];
 function say(html,me){var d=document.createElement('div');d.className='msg'+(me?' me':'');if(me)d.textContent=html;else d.innerHTML=html;log.appendChild(d);log.scrollTop=log.scrollHeight}
