@@ -385,6 +385,13 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .nphotos .pcred{right:.6rem;top:.6rem}
 .std .lbl{border:0;padding-left:0;color:rgba(226,232,255,.72)}
 .foot a{color:inherit}
+
+/* staff training: embedded Gizmo */
+.gz-embed{border:1px solid var(--line2);background:#fff;overflow:hidden;margin-top:1.6rem}
+.gz-embed iframe{display:block;width:100%;height:min(820px,88vh);border:0}
+.gz-foot{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1rem}
+.gz-foot p{margin:0;font-size:.82rem;color:var(--dim)}
+@media (max-width:860px){.gz-embed iframe{height:760px}}
 </style>
 </head>
 <body>
@@ -396,10 +403,10 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
       <a class="mark" href="#main" aria-label="Halvia home"><svg viewBox="0 0 37 32" aria-hidden="true" shape-rendering="crispEdges" color="#0B0D12"><path fill="currentColor" d="M5 0h10v1h-10zM23 0h10v1h-10zM3 2h4v1h-4zM15 2h2v1h-2zM21 2h2v1h-2zM33 2h2v1h-2zM1 4h5v1h-5zM16 4h2v1h-2zM20 4h2v1h-2zM35 4h2v1h-2zM1 6h9v1h-9zM35 6h2v1h-2zM1 8h9v1h-9zM35 8h2v1h-2zM1 10h9v1h-9zM35 10h2v1h-2zM2 12h9v1h-9zM34 12h2v1h-2zM3 14h9v1h-9zM33 14h2v1h-2zM5 16h8v1h-8zM31 16h2v1h-2zM7 18h7v1h-7zM29 18h2v1h-2zM9 20h6v1h-6zM27 20h2v1h-2zM11 22h5v1h-5zM25 22h2v1h-2zM13 24h3v1h-3zM23 24h2v1h-2zM17 26h6v1h-6zM16 27h2v1h-2zM19 28h4v1h-4zM25 28h2v1h-2zM29 28h2v1h-2zM18 29h2v1h-2zM21 30h2v1h-2zM25 30h2v1h-2zM20 31h2v1h-2z"/><path fill="#4038FF" d="M18 10h1v1h-1zM17 11h1v1h-1zM19 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM17 13h1v1h-1zM19 13h1v1h-1zM19 14h1v1h-1zM19 15h1v1h-1zM19 16h1v1h-1zM16 24h2v1h-2z"/><path fill="#FF2BE0" d="M13 14h4v1h-4z"/><path fill="#2BF05A" d="M23 14h5v1h-5zM22 15h1v1h-1zM21 16h1v1h-1zM20 17h1v1h-1zM20 24h2v1h-2z"/><path fill="#FF3A3A" d="M18 24h2v1h-2z"/></svg><span><span class="chev">&#10095;</span> halvia</span><span class="ver">v0.2</span></a>
       <a class="nl" href="#agents">Agents</a>
       <a class="nl" href="#bot">Bot</a>
-      <a class="nl" href="#work">Work</a>
       <a class="nl" href="#cases">Tools</a>
-      <a class="nl" href="#medtech">Medtech</a>
+      <a class="nl" href="#training">Training</a>
       <a class="nl" href="#decks">Decks</a>
+      <a class="nl" href="#work">Work</a>
           </nav>
     <div class="pill right">
       <a class="cta" href="ward/">Open Halvia Ward</a>
@@ -498,54 +505,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec" id="work" aria-labelledby="chksH">
-    <div class="wrap">
-      <div class="split2">
-        <div>
-          <p class="eyebrow">Case study &middot; CHKS</p>
-          <h2 id="chksH">Explaining AI clinical coding to the people who use it</h2>
-        </div>
-        <p class="intro">A product explainer for CHKS's AI clinical coding system, used in the NHS. It had to make a technical product feel simple and trustworthy for coding teams, and show that the coder stays in control.</p>
-      </div>
-      <div class="feature">
-        <figure class="vid">
-          <video controls playsinline preload="metadata" poster="media/chks-poster.jpg" aria-label="CHKS AI Clinical Coding explainer video">
-            <source src="media/chks-clinical-coding.mp4" type="video/mp4">
-          </video>
-        </figure>
-        <div>
-          <dl class="facts">
-            <div><dt>Client</dt><dd>CHKS</dd></div>
-            <div><dt>Product</dt><dd>AI clinical coding</dd></div>
-            <div><dt>Audience</dt><dd>NHS clinical coding teams and managers</dd></div>
-            <div><dt>My role</dt><dd>Motion design and animation</dd></div>
-            <div><dt>Format</dt><dd>1:12 explainer film</dd></div>
-          </dl>
-          <div class="actions" style="margin-top:1.3rem"><a class="btn" href="#cases" data-open="code">Try the coding tool &rarr;</a></div>
-        </div>
-      </div>
-    </div>
-    <div class="pex" id="patient-video">
-      <div class="wrap pex-in">
-        <div class="phone">
-          <video controls playsinline preload="metadata" poster="media/black-eye-explainer.jpg" aria-label="How to look after a black eye: a 31-second patient explainer made with Google Veo 3">
-            <source src="media/black-eye-explainer.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="pex-copy">
-          <p class="eyebrow">Patient explainer &middot; AI video</p>
-          <h2>How to look after a black eye, in 31 seconds</h2>
-          <p class="intro">A short vertical film for patients after a GP or minor injuries visit: what's happening under the skin, cold and warm compresses, pain relief, and the warning signs that mean coming back.</p>
-          <dl class="facts">
-            <div><dt>Made with</dt><dd>Google Veo 3, edited by me</dd></div>
-            <div><dt>Format</dt><dd>0:31, vertical for phones</dd></div>
-          </dl>
-          <p class="note2"><b>AI-generated video.</b> A concept to show how generative video could support patient information. In real use, every script is checked by clinicians against current guidance before a patient sees it.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="sec" id="cases" aria-labelledby="casesH">
     <div class="floaters" aria-hidden="true">
       <span class="ft f1"><i>&#9993;</i>GP letter</span>
@@ -613,56 +572,16 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec navy-sec" id="medtech" aria-labelledby="medH">
+  <section class="sec training" id="training" aria-labelledby="trainH">
     <div class="wrap">
       <div class="split2">
-        <div><p class="eyebrow">Medtech &amp; biotech software</p><h2 id="medH">Code for devices, labs and the systems around them</h2></div>
-        <p class="intro">Hearing aids, prosthetic hands and lab instruments all run on software. I work on the design and software side, alongside your engineers, clinicians and regulatory team.</p>
+        <div><p class="eyebrow">Staff training &middot; Gizmo</p><h2 id="trainH">Turn policies and protocols into short staff training</h2></div>
+        <p class="intro">Add your policies, protocols and training notes. Gizmo builds a short course of modules with key points and quizzes, then a final assessment with a pass mark. Try it below with sample training notes; nothing you add leaves the browser.</p>
       </div>
-      <div class="nphotos">
-        <figure><img src="media/photos/fluorescent-cells.jpg" alt="Human cells under a fluorescence microscope, nuclei in blue and structure in green" loading="lazy"><figcaption>Cell imaging</figcaption><small class="pcred">Stock photo &middot; ZEISS Microscopy &middot; CC BY 2.0</small></figure>
-        <figure><img src="media/photos/hearing-ear.jpg" alt="Black and white close-up of an ear" loading="lazy"><figcaption>Hearing</figcaption><small class="pcred">Stock photo &middot; Steve Johnson &middot; CC BY 2.0</small></figure>
-        <figure><img src="media/photos/circuit-soldering.jpg" alt="Hands soldering a circuit board under a magnifier" loading="lazy"><figcaption>Device hardware</figcaption><small class="pcred">Stock photo &middot; Krzysztof Pop&#322;awski &middot; CC BY-SA 4.0</small></figure>
+      <div class="gz-embed">
+        <iframe src="gizmo/" title="Gizmo for staff training: interactive demo" loading="lazy" allow="autoplay"></iframe>
       </div>
-      <div class="ncards">
-        <article class="ncard"><span class="ic" aria-hidden="true">&#9673;</span><h3>Hearing aid apps and fitting software</h3>
-          <p>Companion apps for users, and fitting software for audiologists.</p>
-          <div class="std" aria-label="Technologies"><span>Bluetooth LE Audio</span><span>Made for iPhone hearing devices</span><span>Android ASHA</span></div></article>
-        <article class="ncard"><span class="ic" aria-hidden="true">&#9995;</span><h3>Prosthetics and orthotics software</h3>
-          <p>Apps that set grip patterns and tune sensitivity to muscle signals (EMG).</p>
-          <div class="std" aria-label="Standards I design with in mind"><span class="lbl">I design with these in mind</span><span>IEC 62304</span><span>IEC 62366-1</span><span>ISO 14971</span></div></article>
-        <article class="ncard"><span class="ic" aria-hidden="true">&#9638;</span><h3>Medical device software</h3>
-          <p>When software is itself a medical device, every design decision needs to be documented.</p>
-          <div class="std" aria-label="Standards I design with in mind"><span class="lbl">I design with these in mind</span><span>IEC 62304</span><span>IEC 62366-1</span><span>UK MDR 2002</span></div></article>
-        <article class="ncard"><span class="ic" aria-hidden="true">&#10003;</span><h3>Code health checks</h3>
-          <p>An independent look at a codebase before an audit, a funding round or a handover.</p>
-          <div class="std" aria-label="Standards I design with in mind"><span class="lbl">I design with these in mind</span><span>SBOM (CycloneDX)</span><span>IEC 81001-5-1</span><span>OWASP</span></div></article>
-        <article class="ncard"><span class="ic" aria-hidden="true">&#9879;</span><h3>Lab and biotech data tools</h3>
-          <p>Dashboards and front-ends that make lab results quicker to read.</p>
-          <div class="std" aria-label="Technologies"><span>Nextflow</span><span>Snakemake</span><span>FAIR data</span></div></article>
-        <article class="ncard"><span class="ic" aria-hidden="true">&#9881;</span><h3>Set-up, integration and troubleshooting</h3>
-          <p>Getting systems talking to each other, and keeping them working.</p>
-          <div class="std" aria-label="Standards"><span>HL7 FHIR</span><span>HL7 v2</span><span>DICOM</span></div></article>
-      </div>
-      <div class="nrow">
-        <div class="term" role="img" aria-label="Example code health report: 214 tests passing, 2 failing, 71% coverage, 3 vulnerable dependencies, SBOM generated, 5 ranked fixes">
-          <div class="tb"><i></i><i></i><i></i><span>code-health &middot; example report</span></div>
-          <ul>
-            <li><span class="ok">&#10003;</span><span>214 tests passing &middot; <span class="bad">2 failing</span></span></li>
-            <li><span class="mid">&#9680;</span>Test coverage 71% (target 80%)</li>
-            <li><span class="ok">&#10003;</span>Static analysis: 0 critical, 6 warnings</li>
-            <li><span class="bad">&#10007;</span>3 dependencies with known vulnerabilities (1 high)</li>
-            <li><span class="ok">&#10003;</span>SBOM generated: 186 components, CycloneDX</li>
-            <li><span class="mid">&#9680;</span>Requirements traced to tests: 82%</li>
-            <li><span class="go">&rarr;</span>5 fixes, ranked by risk to patients and users</li>
-          </ul>
-          <small>Example output for illustration, not a real product's results.</small>
-        </div>
-        <div>
-          <p class="fineprint">I design with these standards in mind so the work fits how your quality team operates. I&rsquo;m not certified against them: certification and regulatory sign-off stay with your quality and regulatory team.</p>
-          <div class="actions"><a class="btn light" href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20%E2%80%94%20medtech%20software">Talk about a device or lab project</a></div>
-        </div>
-      </div>
+      <div class="gz-foot"><p>A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p><a class="btn" href="gizmo/">Open full screen &#8599;</a></div>
     </div>
   </section>
 
@@ -695,6 +614,54 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
+  <section class="sec" id="work" aria-labelledby="chksH">
+    <div class="wrap">
+      <div class="split2">
+        <div>
+          <p class="eyebrow">Case study &middot; CHKS</p>
+          <h2 id="chksH">Explaining AI clinical coding to the people who use it</h2>
+        </div>
+        <p class="intro">A product explainer for CHKS's AI clinical coding system, used in the NHS. It had to make a technical product feel simple and trustworthy for coding teams, and show that the coder stays in control.</p>
+      </div>
+      <div class="feature">
+        <figure class="vid">
+          <video controls playsinline preload="metadata" poster="media/chks-poster.jpg" aria-label="CHKS AI Clinical Coding explainer video">
+            <source src="media/chks-clinical-coding.mp4" type="video/mp4">
+          </video>
+        </figure>
+        <div>
+          <dl class="facts">
+            <div><dt>Client</dt><dd>CHKS</dd></div>
+            <div><dt>Product</dt><dd>AI clinical coding</dd></div>
+            <div><dt>Audience</dt><dd>NHS clinical coding teams and managers</dd></div>
+            <div><dt>My role</dt><dd>Motion design and animation</dd></div>
+            <div><dt>Format</dt><dd>1:12 explainer film</dd></div>
+          </dl>
+          <div class="actions" style="margin-top:1.3rem"><a class="btn" href="#cases" data-open="code">Try the coding tool &rarr;</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="pex" id="patient-video">
+      <div class="wrap pex-in">
+        <div class="phone">
+          <video controls playsinline preload="metadata" poster="media/black-eye-explainer.jpg" aria-label="How to look after a black eye: a 31-second patient explainer made with Google Veo 3">
+            <source src="media/black-eye-explainer.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="pex-copy">
+          <p class="eyebrow">Patient explainer &middot; AI video</p>
+          <h2>How to look after a black eye, in 31 seconds</h2>
+          <p class="intro">A short vertical film for patients after a GP or minor injuries visit: what's happening under the skin, cold and warm compresses, pain relief, and the warning signs that mean coming back.</p>
+          <dl class="facts">
+            <div><dt>Made with</dt><dd>Google Veo 3, edited by me</dd></div>
+            <div><dt>Format</dt><dd>0:31, vertical for phones</dd></div>
+          </dl>
+          <p class="note2"><b>AI-generated video.</b> A concept to show how generative video could support patient information. In real use, every script is checked by clinicians against current guidance before a patient sees it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="sec contact" id="contact" aria-labelledby="contactH">
     <div class="wrap">
         <div class="in">
@@ -722,7 +689,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 <footer class="foot">
   <div class="wrap">
     <p><b style="color:var(--ink);font-weight:500">Important:</b> Halvia tools are concept prototypes made to show design and engineering approach. They use made-up patients and simple illustrative rules, have not been clinically validated, are not medical devices and must not be used for real patient care. NEWS2 thresholds follow the Royal College of Physicians' published chart (2017). Halvia is an independent practice and is not affiliated with or endorsed by the NHS or any NHS organisation.</p>
-    <details class="credits"><summary>Photo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">Scientist pipetting</a> by James Gathany, CDC, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Doctor with stethoscope</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor</a> by Petty Officer 1st Class James Stenberg, US Navy, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:SK8-18-2_human_derived_cells,_fluorescence_microscopy_(29942101073).jpg" rel="noopener">Fluorescent cells</a> by ZEISS Microscopy, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Behind-the-Ear_Hearing_Aid_grayscale_photo.jpg" rel="noopener">Hearing aid</a> by Steve Johnson, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:8_%C5%9Al%C4%85ski_Festiwal_Nauki,_MCK,_Katowice,,_09.12.2024,_1234.jpg" rel="noopener">Soldering a circuit board</a> by Krzysztof Pop&#322;awski, CC BY-SA 4.0</li></ul><p style="margin:.4rem 0 0">Stock photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p></details>
+    <details class="credits"><summary>Photo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">Scientist pipetting</a> by James Gathany, CDC, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Doctor with stethoscope</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vital_signs_monitor_display.jpg" rel="noopener">Vital signs monitor</a> by Petty Officer 1st Class James Stenberg, US Navy, public domain</li></ul><p style="margin:.4rem 0 0">Stock photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p></details>
     <p><b style="color:var(--ink);font-weight:500">About:</b> Halvia is the healthcare practice of Shaun Finch, a UI/UX and motion designer in Manchester who designs and builds AI tools for health and science. <a href="privacy.html">Privacy and terms</a></p>
     <p>Nothing you type on this page leaves your browser. Fonts: Inter Tight and JetBrains Mono (SIL Open Font License). &copy; Shaun Finch</p>
   </div>
@@ -781,7 +748,7 @@ var A=[
   {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
   {k:/cost|price|budget|quote|pilot|start|timeline|how long/i,q:'How does a pilot start?',a:'Usually with 1 to 2 weeks of discovery with one team, then a 2 to 4 week working prototype tested on synthetic data. Every project is scoped with you, so <a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20pilot">email Shaun</a> for a plan and a quote.'},
-  {k:/hearing|prosthe|device|medtech|biotech|lab\b|firmware|code health|sbom|62304|integration|fhir|troubleshoot/i,q:'Do you work on medtech software?',a:'Yes: hearing aid and prosthetics apps, medical device software interfaces, code health checks, lab and biotech data tools, and set-up and troubleshooting. <a href="#medtech">See the details</a>.'},
+  {k:/train|gizmo|course|quiz|induction|mandatory|learning|policy|policies/i,q:'Can it help with staff training?',a:'Yes: Gizmo turns your policies, protocols and training notes into short modules with quizzes and a final assessment with a pass mark. <a href="#training">Try it</a>, or <a href="gizmo/">open it full screen</a>.'},
   {k:/agent|automat|cowork|claude|admin|inbox|rota/i,q:'Can you set up AI agents?',a:'Yes: agents and automations for inboxes, letters, rotas, reports and research, built with tools like Claude and Claude Cowork, with staff approving anything that matters. <a href="#agents">See how</a>.'},
   {k:/deck|slide|present|pdf|poster|research|audit|grand round/i,q:'Can you design research decks?',a:'Yes: decks, case-study PDFs, audit reports and posters for clinical and research meetings. <a href="#decks">See a sample deck</a>.'},
   {k:/chks|coding|explainer|video|film/i,q:'Tell me about the CHKS work',a:'A 72-second explainer for CHKS\u2019s AI clinical coding system, used in the NHS, showing coding teams how the product helps while they stay in control. <a href="#work">Watch it</a>.'},
