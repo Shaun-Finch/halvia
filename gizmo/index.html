@@ -150,6 +150,11 @@ h3{font-size:1rem;margin:0 0 .3rem;font-weight:700}
   .voice span{display:none}
   .top a.back{display:none}
 }
+@media (max-width:860px){
+  .pane{flex-direction:column;align-items:center;text-align:center;gap:6px;padding:14px 14px 12px}
+  .bot{width:min(190px,56vw);aspect-ratio:1}
+  .say{font-size:.92rem}
+}
 @media print{.top,.pane,.btn,.ask,.sticky-cta{display:none!important}.wrap{display:block}}
 /* Halvia: square containers; no top bar when embedded in halvia.cloud */
 .paper,.paper .ic,.plan div,.mod .n,.term,.answer,.opt,.fb,.qbar,.drop,.field input,.field select,textarea,.chip,.brand small{border-radius:0!important}

@@ -392,6 +392,20 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .gz-foot{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1rem}
 .gz-foot p{margin:0;font-size:.82rem;color:var(--dim)}
 @media (max-width:860px){.gz-embed iframe{height:760px}}
+
+/* Nov 2026 round: square header, smaller mark, lime framing box, dark bot panel, loop diagram */
+.pill,.pill > a:not(.mark):not(.cta),.cta,.cta.go{border-radius:0!important}
+.mark svg{width:30px;height:26px}
+.topline{background:#EEFBD8;border-color:#CFEAA6}
+#bot.navy-sec{background:#111214}
+.btn.sq{border-radius:0}
+.uline{position:relative;display:inline-block}
+.uline::after{content:"";position:absolute;left:0;right:0;bottom:-.02em;height:2px;background:#fff}
+#cases h2#casesH{margin-bottom:clamp(2rem,4vw,3rem)}
+.aloop{position:relative;flex:1;display:block;padding:1.1rem 1rem .4rem;border-bottom:1px solid var(--line);background:#fff;color:var(--blue)}
+.aloop-svg{display:block;width:100%;height:auto}
+.aloop-chip{position:absolute;right:.9rem;top:.8rem;width:30px;height:30px}
+@media (max-width:560px){.aloop{padding:.8rem .4rem .2rem}.aloop-chip{width:22px;height:22px;right:.55rem;top:.55rem}}
 </style>
 </head>
 <body>
@@ -427,9 +441,33 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         </div>
         <div class="agrid">
           <figure class="aphoto">
-            <div class="aiicon" role="img" aria-label="AI tools connected to the systems your team already uses">
-              <svg viewBox="0 0 96 96" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3"><rect x="22" y="22" width="52" height="52" rx="6"/><path d="M34 22V12M48 22V12M62 22V12M34 84V74M48 84V74M62 84V74M22 34H12M22 48H12M22 62H12M84 34H74M84 48H74M84 62H74"/><path d="M48 34c1.6 7.4 6.6 12.4 14 14-7.4 1.6-12.4 6.6-14 14-1.6-7.4-6.6-12.4-14-14 7.4-1.6 12.4-6.6 14-14z" fill="currentColor" stroke="none"/></svg>
-              <span>AI tools &middot; connected to your systems</span>
+            <div class="aloop" role="img" aria-label="How an agent works in a loop: Claude, connected with your systems, produces an output; people give feedback; the agent iterates, improves and re-runs.">
+              <svg class="aloop-chip" viewBox="0 0 96 96" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3"><rect x="22" y="22" width="52" height="52" rx="6"/><path d="M34 22V12M48 22V12M62 22V12M34 84V74M48 84V74M62 84V74M22 34H12M22 48H12M22 62H12M84 34H74M84 48H74M84 62H74"/><path d="M48 34c1.6 7.4 6.6 12.4 14 14-7.4 1.6-12.4 6.6-14 14-1.6-7.4-6.6-12.4-14-14 7.4-1.6 12.4-6.6 14-14z" fill="currentColor" stroke="none"/></svg>
+              <svg class="aloop-svg" viewBox="0 0 640 360" aria-hidden="true" font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace">
+                <defs>
+                  <pattern id="lgrid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#E9ECF5" stroke-width="1"/></pattern>
+                  <marker id="larr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1A3CFF"/></marker>
+                </defs>
+                <rect width="640" height="360" fill="url(#lgrid)"/>
+                <ellipse cx="320" cy="186" rx="236" ry="122" fill="none" stroke="#CDD3F0" stroke-width="1.5" stroke-dasharray="4 6"/>
+                <g fill="none" stroke="#1A3CFF" stroke-width="1.6" marker-end="url(#larr)">
+                  <path d="M168 92 L250 76"/><path d="M392 76 L470 92"/><path d="M548 140 L556 196"/><path d="M520 262 L452 290"/><path d="M308 302 L214 280"/><path d="M110 238 L94 196"/><path d="M96 140 L104 112"/>
+                </g>
+                <g font-size="13" text-anchor="middle">
+                  <g transform="translate(108 78)"><rect x="-58" y="-22" width="116" height="44" fill="#1A3CFF"/><text y="-4" fill="#C9D2FF" font-size="9">01</text><text y="11" fill="#fff" font-weight="700">Claude</text></g>
+                  <g transform="translate(320 70)"><rect x="-70" y="-22" width="140" height="44" fill="#fff" stroke="#0B0D12"/><text y="-4" fill="#6B7180" font-size="9">02</text><text y="11" fill="#0B0D12">Your systems</text></g>
+                  <g transform="translate(530 112)"><rect x="-54" y="-22" width="108" height="44" fill="#fff" stroke="#0B0D12"/><text y="-4" fill="#6B7180" font-size="9">03</text><text y="11" fill="#0B0D12">Output</text></g>
+                  <g transform="translate(548 236)"><rect x="-58" y="-22" width="116" height="44" fill="#fff" stroke="#0B0D12"/><text y="-4" fill="#6B7180" font-size="9">04</text><text y="11" fill="#0B0D12">Feedback</text></g>
+                  <g transform="translate(366 300)"><rect x="-56" y="-22" width="112" height="44" fill="#fff" stroke="#0B0D12"/><text y="-4" fill="#6B7180" font-size="9">05</text><text y="11" fill="#0B0D12">Iterate</text></g>
+                  <g transform="translate(148 268)"><rect x="-56" y="-22" width="112" height="44" fill="#fff" stroke="#0B0D12"/><text y="-4" fill="#6B7180" font-size="9">06</text><text y="11" fill="#0B0D12">Improve</text></g>
+                  <g transform="translate(92 168)"><rect x="-56" y="-22" width="112" height="44" fill="#EEF1FF" stroke="#1A3CFF"/><text y="-4" fill="#1A3CFF" font-size="9">07</text><text y="11" fill="#1A3CFF" font-weight="700">Re-run</text></g>
+                </g>
+                <g text-anchor="middle">
+                  <text x="320" y="176" font-size="10" fill="#6B7180" letter-spacing="2">AGENT LOOP</text>
+                  <text x="320" y="198" font-size="13" fill="#0B0D12">connected &#183; reviewed &#183; improving</text>
+                  <text x="320" y="218" font-size="9.5" fill="#6B7180">a person approves anything that matters</text>
+                </g>
+              </svg>
             </div>
             <div class="alog" role="img" aria-label="Example agent run: clinic preparation for Tuesday cardiology, 14 appointments pulled, 3 letters drafted for sign-off, 2 referrals missing an ECG requested from GP practices">
               <b>Agent run &middot; clinic prep, Tuesday cardiology</b>
@@ -448,13 +486,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
             <p class="tools-used"><span>Built with tools including</span> <span class="t">Claude</span> <span class="t">Claude Cowork</span> <span class="t">your existing systems</span></p>
           </div>
         </div>
-        <ol class="aflow" aria-label="How an agent project runs">
-          <li><b>Map the task</b>Shadow the team</li>
-          <li><b>Build the agent</b>Least access, clear steps</li>
-          <li><b>Test safely</b>Synthetic data first</li>
-          <li><b>Run with a person</b>Staff approve</li>
-          <li><b>Measure</b>Admin time, before and after</li>
-        </ol>
         <p class="safe"><b>Patient data.</b> Designed so patient-identifiable information only goes into tools your information governance team has approved. Agents are designed to get the least access they need and to log every action.</p>
     </div>
   </section>
@@ -463,7 +494,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     <div class="wrap">
       <div class="hb">
         <div>
-          <p class="eyebrow">Halvia bot &middot; offline AI</p>
+          <p class="eyebrow">Halvia bot &middot; offline AI <span aria-hidden="true" style="font-size:1rem;letter-spacing:0">&#129302;</span></p>
           <h2 id="botH">An AI assistant for clinicians. <em>The demo can run offline once loaded.</em></h2>
           <p class="intro">Halvia bot answers from a library of guidance and shows the passages it used. In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure.</p>
           <ul class="hb-feats">
@@ -473,7 +504,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
             <li><b>Stays on your device</b>Designed to encrypt data locally with a passcode.</li>
           </ul>
           <div class="actions">
-            <a class="btn go" href="bot/">Open Halvia bot</a>
+            <a class="btn go sq" href="bot/">Open Halvia bot</a>
             <span style="font-size:.74rem;color:rgba(226,232,255,.72)">Web app today &middot; Android and iOS apps next</span>
           </div>
         </div>
@@ -514,8 +545,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
     <div class="wrap">
       <p class="eyebrow">Five tools &middot; working software</p>
-      <h2 id="casesH">Five places AI can help, today</h2>
-      <p class="intro">Each tool is a working concept for one piece of admin around care. Use them here, or open the full-screen workspace.</p>
+      <h2 id="casesH">Five places AI can <span class="uline">help, today</span></h2>
       <div class="console">
         <div>
           <p class="railhead">Tools</p>
@@ -572,12 +602,8 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
     </div>
   </section>
 
-  <section class="sec training" id="training" aria-labelledby="trainH">
+  <section class="sec training" id="training" aria-label="Gizmo for staff training">
     <div class="wrap">
-      <div class="split2">
-        <div><p class="eyebrow">Staff training &middot; Gizmo</p><h2 id="trainH">Turn policies and protocols into short staff training</h2></div>
-        <p class="intro">Add your policies, protocols and training notes. Gizmo builds a short course of modules with key points and quizzes, then a final assessment with a pass mark. Try it below with sample training notes; nothing you add leaves the browser.</p>
-      </div>
       <div class="gz-embed">
         <iframe src="gizmo/" title="Gizmo for staff training: interactive demo" loading="lazy" allow="autoplay"></iframe>
       </div>
@@ -641,25 +667,7 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
         </div>
       </div>
     </div>
-    <div class="pex" id="patient-video">
-      <div class="wrap pex-in">
-        <div class="phone">
-          <video controls playsinline preload="metadata" poster="media/black-eye-explainer.jpg" aria-label="How to look after a black eye: a 31-second patient explainer made with Google Veo 3">
-            <source src="media/black-eye-explainer.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="pex-copy">
-          <p class="eyebrow">Patient explainer &middot; AI video</p>
-          <h2>How to look after a black eye, in 31 seconds</h2>
-          <p class="intro">A short vertical film for patients after a GP or minor injuries visit: what's happening under the skin, cold and warm compresses, pain relief, and the warning signs that mean coming back.</p>
-          <dl class="facts">
-            <div><dt>Made with</dt><dd>Google Veo 3, edited by me</dd></div>
-            <div><dt>Format</dt><dd>0:31, vertical for phones</dd></div>
-          </dl>
-          <p class="note2"><b>AI-generated video.</b> A concept to show how generative video could support patient information. In real use, every script is checked by clinicians against current guidance before a patient sees it.</p>
-        </div>
-      </div>
-    </div>
+
   </section>
 
   <section class="sec contact" id="contact" aria-labelledby="contactH">
