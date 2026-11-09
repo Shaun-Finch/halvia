@@ -406,6 +406,10 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .aloop-svg{display:block;width:100%;height:auto}
 .aloop-chip{position:absolute;right:.9rem;top:.8rem;width:30px;height:30px}
 @media (max-width:560px){.aloop{padding:.8rem .4rem .2rem}.aloop-chip{width:22px;height:22px;right:.55rem;top:.55rem}}
+
+/* Gradient buttons (Work with me, Open Halvia bot): pale blue into bright blue */
+.cta.go,.btn.go{background:linear-gradient(110deg,#A9C1FF 0%,#4D72FF 45%,#1A3CFF 100%);color:#fff;box-shadow:0 10px 24px -12px rgba(26,60,255,.75);text-shadow:0 1px 2px rgba(10,25,120,.35)}
+.cta.go:hover,.btn.go:hover{background:linear-gradient(110deg,#97B3FF 0%,#3A62FF 45%,#1029C9 100%);color:#fff;filter:none}
 </style>
 </head>
 <body>
@@ -434,7 +438,6 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
   <section class="sec agents" id="agents" aria-labelledby="agentH">
     <div class="wrap">
-        <p class="topline">Concept AI tools I&rsquo;ve designed and built for healthcare staff. Demos use synthetic data and are not for real patient care.</p>
         <div class="split2" style="margin-bottom:1.8rem">
           <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents designed to cut admin time for care staff</h2></div>
           <p class="intro">I set up AI agents that take on inbox, letter and report admin, connected to the systems you already use. A person approves anything that reaches a patient or a record.</p>
