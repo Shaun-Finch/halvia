@@ -413,9 +413,11 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 
 /* Agents: the loop diagram on its own, larger and centred */
 #agents .agrid{display:block}
-#agents .aphoto{max-width:1000px;margin:0 auto;min-height:0}
+#agents .split2:has(.ahead){display:block}
+#agents .ahead .intro{margin-top:1.2rem;max-width:62ch}
+#agents .aphoto{max-width:840px;margin:clamp(2.5rem,6vw,4.5rem) auto 0;min-height:0}
 #agents .aloop{padding:1.4rem 1.6rem .6rem}
-#agents .safe{max-width:1000px;margin-left:auto;margin-right:auto}
+#agents .safe{max-width:840px;margin-left:auto;margin-right:auto}
 </style>
 </head>
 <body>
@@ -445,7 +447,8 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
   <section class="sec agents" id="agents" aria-labelledby="agentH">
     <div class="wrap">
         <div class="split2" style="margin-bottom:1.8rem">
-          <div><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents designed to cut admin time for care staff</h2></div>
+          <div class="ahead"><p class="eyebrow">AI agents &amp; automation</p><h2 id="agentH">AI agents designed to cut admin time for care staff</h2>
+          <p class="intro">I set up AI agents that can take on inbox, letter and report admin, connected to the systems already in use. Appropriate staff can be looped in for approval when necessary.</p></div>
         </div>
         <div class="agrid">
           <figure class="aphoto">
