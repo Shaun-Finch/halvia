@@ -610,7 +610,7 @@ body{color:var(--ink)}
     <div class="wrap gz-wrap">
       <h2 id="trainH">Create quizzes from material to help train staff</h2>
       <div class="gz-box">
-        <div class="gz-bot" id="gzBot" role="button" tabindex="0" aria-label="Gizmo, a friendly 3D robot. Click him to make him dance."></div>
+        <div class="gz-bot" id="gzBot" role="button" tabindex="0" aria-label="Gizmo, a friendly 3D robot, sitting on a bench reading a book. Click him and he looks up."></div>
       </div>
       <a class="btn go" href="gizmo/">Open the tool</a>
       <p class="gz-note">A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p>
@@ -759,19 +759,19 @@ form.addEventListener('submit',function(e){e.preventDefault();var t=inp.value.tr
 })();
 </script>
 <script type="module">
-// Gizmo on the home page: the 3D figure loads when its box comes near the screen, waves, then runs through his moves.
+// Gizmo on the home page: the 3D figure loads when its box comes near the screen. He sits on a bench reading,
+// turns pages and glances up by himself, and looks up or waves when clicked.
 const el = document.getElementById('gzBot');
 if (el) {
-  const MOVES = ['wave', 'hop', 'dance', 'shimmy', 'flip', 'spin', 'glance'];
-  let AV = null, started = false, i = 0, timer = null;
-  const next = () => { if (!AV) return; AV.move(MOVES[i++ % MOVES.length]); };
-  const tap = () => { if (AV && !AV.isBusy()) AV.move(['dance', 'flip', 'spin', 'hop'][Math.floor(Math.random() * 4)]); };
+  const TAPS = ['wave', 'lookup', 'page'];
+  let AV = null, started = false, i = 0;
+  const tap = () => { if (AV && !AV.isBusy()) AV.move(TAPS[i++ % TAPS.length]); };
   const still = () => { const img = document.createElement('img'); img.className = 'still'; img.src = 'gizmo/gizmo-still.png'; img.alt = ''; el.appendChild(img); };
   const start = async () => {
     if (started) return; started = true;
-    try { const m = await import('./gizmo/avatar3d.js?v=20261114'); AV = m.createAvatar(el, { onClick: tap }); } catch (e) { AV = null; }
+    try { const m = await import('./gizmo/avatar3d.js?v=20261116'); AV = m.createAvatar(el, { onClick: tap }); } catch (e) { AV = null; }
     if (!AV) { still(); return; }
-    setTimeout(next, 600); timer = setInterval(() => { if (!document.hidden && !AV.isBusy()) next(); }, 4200);
+    setTimeout(() => AV.move('wave'), 700);
   };
   el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tap(); } });
   if ('IntersectionObserver' in window) { const io = new IntersectionObserver(es => { if (es.some(x => x.isIntersecting)) { io.disconnect(); start(); } }, { rootMargin: '600px 0px' }); io.observe(el); }
