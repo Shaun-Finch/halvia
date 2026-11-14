@@ -1,0 +1,23 @@
+name: render intro voice (one-off)
+on:
+  push:
+    branches: [voice-lab]
+    paths: ['tools/voice.py', '.github/workflows/voice.yml']
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q piper-tts
+      - run: python tools/voice.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git add media/voice-raw
+          git diff --cached --quiet && exit 0
+          git commit -m "Render intro voice samples"
+          git push origin HEAD:voice-lab
