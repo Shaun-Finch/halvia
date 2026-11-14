@@ -2,13 +2,13 @@
 #hvIntro{display:none}
 html.hv-intro{overflow:hidden}
 html.hv-intro #hvIntro{display:grid}
-#hvIntro{position:fixed;inset:0;z-index:9999;place-items:center;background:#FFFFFF;transition:opacity .9s ease;font-family:"Inter Tight","Helvetica Neue",Arial,system-ui,sans-serif;cursor:default;overflow:hidden}
+#hvIntro{position:fixed;inset:0;z-index:9999;place-items:center;background:#FFFFFF;transition:opacity .9s ease;font-family:Helvetica,"Helvetica Neue",Arial,sans-serif;cursor:default;overflow:hidden}
 #hvIntro.out{opacity:0;pointer-events:none}
 #hvIntro .in{position:relative;text-align:center;padding:0 16px;max-width:100%}
-#hvIntro .lbl{font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;font-size:clamp(.66rem,1.3vw,.86rem);letter-spacing:.22em;text-transform:uppercase;color:#1A3CFF;margin:0 0 1.4rem;min-height:1.3em;white-space:pre}
-#hvIntro h1{margin:0;font-weight:500;font-size:clamp(2.3rem,7.4vw,6rem);line-height:1.02;letter-spacing:-.035em;color:#0B0D12;min-height:1.05em;white-space:nowrap}
+#hvIntro .lbl{font-weight:300;font-family:Helvetica,"Helvetica Neue",Arial,sans-serif;font-size:clamp(.66rem,1.3vw,.86rem);letter-spacing:.22em;text-transform:uppercase;color:#1A3CFF;margin:0 0 1.4rem;min-height:1.3em;white-space:pre}
+#hvIntro h1{margin:0;font-weight:700;font-size:clamp(2.3rem,7.4vw,6rem);line-height:1.02;letter-spacing:-.035em;color:#0B0D12;min-height:1.05em;white-space:nowrap}
 #hvIntro .ch{display:inline-block;white-space:pre}
-#hvIntro .ch.scr{color:#1A3CFF;font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:600}
+#hvIntro .ch.scr{color:#1A3CFF;font-weight:700}
 #hvIntro .blk{background:#1A3CFF;color:#FFFFFF;box-shadow:none}
 #hvIntro .cur{display:inline-block;width:.42em;height:.86em;margin-left:.06em;background:#1A3CFF;vertical-align:-.06em;animation:hvBlink .7s steps(1) infinite}
 #hvIntro.done .cur{display:none}
@@ -20,6 +20,6 @@ html.hv-intro #hvIntro{display:grid}
 #hvIntro .gw.g3{transform:translateX(.03em) skewX(-6deg)}
 #hvIntro .px{position:absolute;width:clamp(26px,3.4vw,44px);height:auto;pointer-events:none}
 #hvIntro .px rect{transition:opacity .12s}
-#hvIntro .skip-intro{position:absolute;right:16px;bottom:16px;border:1px solid #0B0D12;background:#FFFFFF;color:#0B0D12;font:500 .8rem/1 "Inter Tight",system-ui,sans-serif;padding:.6rem .9rem;cursor:pointer;border-radius:0}
+#hvIntro .skip-intro{position:absolute;right:16px;bottom:16px;border:1px solid #0B0D12;background:#FFFFFF;color:#0B0D12;font:300 .8rem/1 Helvetica,"Helvetica Neue",Arial,sans-serif;padding:.6rem .9rem;cursor:pointer;border-radius:0}
 #hvIntro .skip-intro:hover{color:#0B0D12;border-color:#0B0D12}
 @media (prefers-reduced-motion:reduce){#hvIntro{transition:opacity .3s}#hvIntro .cur{animation:none}}
