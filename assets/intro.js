@@ -42,7 +42,7 @@
     for (var y = 0; y < 4; y++) for (var x = 0; x < 4; x++) {
       if (Math.random() < .45) continue;
       var r = document.createElementNS('http://www.w3.org/2000/svg', 'rect'); r.setAttribute('x', x); r.setAttribute('y', y); r.setAttribute('width', 1); r.setAttribute('height', 1);
-      r.setAttribute('fill', Math.random() < .55 ? '#1A3CFF' : '#8EA2FF'); r.style.opacity = reduce ? 1 : 0; svg.appendChild(r);
+      r.setAttribute('fill', '#1A3CFF'); r.style.opacity = reduce ? 1 : 0; svg.appendChild(r);
     }
     box.appendChild(svg);
   });
