@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="assets/tools.css">
 <link rel="stylesheet" href="assets/intro.css">
-<script>try{var q=new URLSearchParams(location.search);if(q.has('intro')||!sessionStorage.getItem('hv-intro-seen'))document.documentElement.classList.add('hv-intro')}catch(e){document.documentElement.classList.add('hv-intro')}</script>
+<script>document.documentElement.classList.add('hv-intro')</script>
 <style>
 :root{
   --bg:#FFFFFF;--soft:#F6F7FB;--soft2:#EEF0F7;--line:#E4E7EF;--line2:#CDD2DE;
@@ -426,10 +426,9 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 <div id="hvIntro" role="dialog" aria-label="Welcome to Halvia">
   <div class="in"><p class="lbl" aria-hidden="true"></p><h1 aria-label="Welcome to Halvia"></h1></div>
   <audio src="media/welcome-halvia.mp3" preload="auto"></audio>
-  <p class="snd" aria-live="polite"></p>
   <button class="skip-intro" type="button">Skip intro</button>
 </div>
-<script src="assets/intro.js"></script>
+<script src="assets/intro.js?v=20261114"></script>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="bar">

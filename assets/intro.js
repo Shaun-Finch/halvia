@@ -1,6 +1,7 @@
-// "Welcome to Halvia" intro. Runs once per browser session (add ?intro to the URL to see it again).
+// "Welcome to Halvia" intro. Plays every time the home page loads.
 // Types the title on with a glitch, plays a robotic female voice, then fades away to reveal the page.
-// Browsers only allow sound after the visitor interacts, so if autoplay is blocked the voice plays on the first click or key.
+// The voice starts straight away. Some browsers hold back sound until the visitor first interacts with the page;
+// if so it plays on their first touch, click or key, with no prompt shown.
 (function () {
   'use strict';
   var root = document.documentElement, box = document.getElementById('hvIntro');
@@ -11,7 +12,6 @@
   var GLYPHS = '#%&@$*+=<>/\\|[]{}01';
   var timers = [], finished = false, voiced = false;
   var later = function (fn, ms) { var t = setTimeout(fn, ms); timers.push(t); return t; };
-  try { sessionStorage.setItem('hv-intro-seen', '1'); } catch (e) { }
 
   // ---------- voice ----------
   function speakFallback() {
@@ -25,14 +25,13 @@
     if (voiced || finished) return;
     if (audio && audio.readyState >= 0) {
       var p = audio.play();
-      if (p && p.then) p.then(function () { voiced = true; note(''); }).catch(function () { note('Click or press any key for sound'); });
+      if (p && p.then) p.then(function () { voiced = true; }).catch(function () { });
       else voiced = true;
     } else { speakFallback(); voiced = true; }
   }
-  function note(t) { var n = box.querySelector('.snd'); if (n) n.textContent = t; }
   if (audio) audio.addEventListener('error', function () { audio = null; });
   function gesture() { if (!voiced && !finished) { if (audio) audio.currentTime = 0; voice(); } }
-  box.addEventListener('pointerdown', gesture);
+  ['pointerdown', 'touchstart', 'mousedown', 'click'].forEach(function (ev) { addEventListener(ev, gesture, { capture: true, passive: true }); });
   addEventListener('keydown', function onKey(e) { if (finished) return removeEventListener('keydown', onKey); if (e.key === 'Escape') return end(true); gesture(); });
 
   // ---------- pixel clusters ----------
