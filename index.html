@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="assets/intro.css">
 <script>document.documentElement.classList.add('hv-intro')</script>
+<script type="importmap">{"imports":{"three":"./gizmo/lib/three.module.min.js"}}</script>
 <style>
 :root{
   --bg:#FFFFFF;--soft:#FFFFFF;--soft2:#FFFFFF;--line:#E4E7EF;--line2:#D9DDE6;
@@ -384,11 +385,14 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .foot a{color:inherit}
 
 /* staff training: embedded Gizmo */
-.gz-embed{border:1px solid var(--line2);background:#FFFFFF;overflow:hidden;margin-top:1.6rem}
-.gz-embed iframe{display:block;width:100%;height:min(820px,88vh);border:0}
-.gz-foot{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1rem}
-.gz-foot p{margin:0;font-size:.82rem;color:var(--dim)}
-@media (max-width:860px){.gz-embed iframe{height:760px}}
+.gz-wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:clamp(1.4rem,3vw,2.2rem)}
+.gz-wrap h2{max-width:20ch}
+.gz-box{width:min(34rem,100%);background:var(--card);display:grid;place-items:center;padding:clamp(1.2rem,3vw,2.2rem)}
+.gz-bot{position:relative;width:min(300px,66vw);aspect-ratio:.82;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.gz-bot canvas{display:block}
+.gz-bot .still{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.gz-bot:focus-visible{outline:3px solid var(--blue);outline-offset:6px}
+.gz-note{margin:0;font-size:.78rem;color:var(--dim);max-width:52ch}
 
 /* Nov 2026 round: square header, smaller mark, lime framing box, dark bot panel, loop diagram */
 .pill,.pill > a:not(.mark):not(.cta),.cta,.cta.go{border-radius:0}
@@ -433,7 +437,6 @@ body{color:var(--ink)}
 .hb-open{background:var(--blue);color:#FFFFFF}
 .hb h2 em{background:none;-webkit-background-clip:border-box;background-clip:border-box;color:inherit;text-decoration:none}
 .slideimg{border:0;background:var(--soft2)}
-.gz-embed{border:1px solid var(--line)}
 .uline::after{background:var(--blue)}
 /* buttons: blue */
 .btn,.btn.light,.btn.outline-w{background:#FFFFFF;border:1px solid var(--blue);color:var(--blue)}
@@ -603,12 +606,14 @@ body{color:var(--ink)}
     </div>
   </section>
 
-  <section class="sec training" id="training" aria-label="Gizmo for staff training">
-    <div class="wrap">
-      <div class="gz-embed">
-        <iframe src="gizmo/?v=20261114" title="Gizmo for staff training: interactive demo" loading="lazy" allow="autoplay"></iframe>
+  <section class="sec training" id="training" aria-labelledby="trainH">
+    <div class="wrap gz-wrap">
+      <h2 id="trainH">Create quizzes from material to help train staff</h2>
+      <div class="gz-box">
+        <div class="gz-bot" id="gzBot" role="button" tabindex="0" aria-label="Gizmo, a friendly 3D robot. Click him to make him dance."></div>
       </div>
-      <div class="gz-foot"><p>A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p><a class="btn" href="gizmo/">Open full screen &#8599;</a></div>
+      <a class="btn go" href="gizmo/">Open the tool</a>
+      <p class="gz-note">A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p>
     </div>
   </section>
 
@@ -734,7 +739,7 @@ var A=[
   {k:/demo|rules?\b|\bmodels?\b|\bai\b|how .*work/i,q:'How do the demos work?',a:'They run on simple, visible rules and six synthetic patients, all inside your browser. In a real project the rules become validated models connected to your systems, and a clinician still approves every output.'},
   {k:/nhs|safe|dcb|dtac|gdpr|\big\b|governance|regulat|medical device/i,q:'Is it ready for the NHS?',a:'These are concept prototypes, not medical devices. Real projects are designed with DCB0129 and DCB0160 clinical safety, DTAC and UK GDPR in mind from the first sketch, working with your clinical safety officer and IG team.'},
   {k:/cost|price|budget|quote|pilot|start|timeline|how long/i,q:'How does a pilot start?',a:'Usually with 1 to 2 weeks of discovery with one team, then a 2 to 4 week working prototype tested on synthetic data. Every project is scoped with you, so <a href="mailto:shaundavidfinch@gmail.com?subject=Halvia%20pilot">email Shaun</a> for a plan and a quote.'},
-  {k:/train|gizmo|course|quiz|induction|mandatory|learning|policy|policies/i,q:'Can it help with staff training?',a:'Yes: Gizmo turns your policies, protocols and training notes into short modules with quizzes and a final assessment with a pass mark. <a href="#training">Try it</a>, or <a href="gizmo/">open it full screen</a>.'},
+  {k:/train|gizmo|course|quiz|induction|mandatory|learning|policy|policies/i,q:'Can it help with staff training?',a:'Yes: Gizmo turns your policies, protocols and training notes into short modules with quizzes and a final assessment with a pass mark. <a href="gizmo/">Open the tool</a>.'},
   {k:/agent|automat|cowork|claude|admin|inbox|rota/i,q:'Can you set up AI agents?',a:'Yes: agents and automations for inboxes, letters, rotas, reports and research, built with tools like Claude and Claude Cowork, with staff approving anything that matters. <a href="#agents">See how</a>.'},
   {k:/deck|slide|present|pdf|poster|research|audit|grand round/i,q:'Can you design research decks?',a:'Yes: decks, case-study PDFs, audit reports and posters for clinical and research meetings. <a href="#decks">See a sample deck</a>.'},
   {k:/chks|coding|explainer|video|film/i,q:'Tell me about the CHKS work',a:'A 72-second explainer for CHKS\u2019s AI clinical coding system, used in the NHS, showing coding teams how the product helps while they stay in control. <a href="#work">Watch it</a>.'},
@@ -752,6 +757,26 @@ box.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
 chips.addEventListener('click',function(e){var b=e.target.closest('button[data-i]');if(!b)return;var x=A[+b.dataset.i];say(x.q,true);setTimeout(function(){say(x.a)},250)});
 form.addEventListener('submit',function(e){e.preventDefault();var t=inp.value.trim();if(!t)return;say(t,true);inp.value='';answer(t)});
 })();
+</script>
+<script type="module">
+// Gizmo on the home page: the 3D figure loads when its box comes near the screen, waves, then runs through his moves.
+const el = document.getElementById('gzBot');
+if (el) {
+  const MOVES = ['wave', 'hop', 'dance', 'shimmy', 'flip', 'spin', 'glance'];
+  let AV = null, started = false, i = 0, timer = null;
+  const next = () => { if (!AV) return; AV.move(MOVES[i++ % MOVES.length]); };
+  const tap = () => { if (AV && !AV.isBusy()) AV.move(['dance', 'flip', 'spin', 'hop'][Math.floor(Math.random() * 4)]); };
+  const still = () => { const img = document.createElement('img'); img.className = 'still'; img.src = 'gizmo/gizmo-still.png'; img.alt = ''; el.appendChild(img); };
+  const start = async () => {
+    if (started) return; started = true;
+    try { const m = await import('./gizmo/avatar3d.js?v=20261114'); AV = m.createAvatar(el, { onClick: tap }); } catch (e) { AV = null; }
+    if (!AV) { still(); return; }
+    setTimeout(next, 600); timer = setInterval(() => { if (!document.hidden && !AV.isBusy()) next(); }, 4200);
+  };
+  el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tap(); } });
+  if ('IntersectionObserver' in window) { const io = new IntersectionObserver(es => { if (es.some(x => x.isIntersecting)) { io.disconnect(); start(); } }, { rootMargin: '600px 0px' }); io.observe(el); }
+  else start();
+}
 </script>
 </body>
 </html>
