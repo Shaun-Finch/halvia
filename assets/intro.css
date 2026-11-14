@@ -1,0 +1,26 @@
+/* "Welcome to Halvia" intro: white screen, typed glitch title, pixel clusters, robotic voice, then fades to the page */
+#hvIntro{display:none}
+html.hv-intro{overflow:hidden}
+html.hv-intro #hvIntro{display:grid}
+#hvIntro{position:fixed;inset:0;z-index:9999;place-items:center;background:linear-gradient(180deg,#FFFFFF 0%,#FFFFFF 58%,#E4E6EA 100%);transition:opacity .9s ease;font-family:"Inter Tight","Helvetica Neue",Arial,system-ui,sans-serif;cursor:default;overflow:hidden}
+#hvIntro.out{opacity:0;pointer-events:none}
+#hvIntro .in{position:relative;text-align:center;padding:0 16px;max-width:100%}
+#hvIntro .lbl{font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;font-size:clamp(.66rem,1.3vw,.86rem);letter-spacing:.22em;text-transform:uppercase;color:#1A3CFF;margin:0 0 1.4rem;min-height:1.3em;white-space:pre}
+#hvIntro h1{margin:0;font-weight:500;font-size:clamp(2.3rem,7.4vw,6rem);line-height:1.02;letter-spacing:-.035em;color:#0B0D12;min-height:1.05em;white-space:nowrap}
+#hvIntro .ch{display:inline-block;white-space:pre}
+#hvIntro .ch.scr{color:#1A3CFF;font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:600}
+#hvIntro .blk{background:#1A3CFF;color:#fff;box-shadow:.02em 0 0 #1A3CFF,-.02em 0 0 #1A3CFF}
+#hvIntro .cur{display:inline-block;width:.42em;height:.86em;margin-left:.06em;background:#1A3CFF;vertical-align:-.06em;animation:hvBlink .7s steps(1) infinite}
+#hvIntro.done .cur{display:none}
+@keyframes hvBlink{50%{opacity:0}}
+/* glitch: sliced copies of the last word shift sideways in blue for a few frames */
+#hvIntro .gw{position:relative;display:inline-block}
+#hvIntro .gw.g1{clip-path:inset(10% 0 52% 0);transform:translateX(.05em)}
+#hvIntro .gw.g2{clip-path:inset(58% 0 6% 0);transform:translateX(-.06em)}
+#hvIntro .gw.g3{transform:translateX(.03em) skewX(-6deg)}
+#hvIntro .px{position:absolute;width:clamp(26px,3.4vw,44px);height:auto;pointer-events:none}
+#hvIntro .px rect{transition:opacity .12s}
+#hvIntro .skip-intro{position:absolute;right:16px;bottom:16px;border:1px solid #CDD2DE;background:#fff;color:#4B5160;font:500 .8rem/1 "Inter Tight",system-ui,sans-serif;padding:.6rem .9rem;cursor:pointer;border-radius:0}
+#hvIntro .skip-intro:hover{color:#0B0D12;border-color:#9EA6B8}
+#hvIntro .snd{position:absolute;left:16px;bottom:16px;font:500 .74rem/1.3 "JetBrains Mono",ui-monospace,monospace;color:#666C7A;letter-spacing:.06em}
+@media (prefers-reduced-motion:reduce){#hvIntro{transition:opacity .3s}#hvIntro .cur{animation:none}}
