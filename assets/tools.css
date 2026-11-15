@@ -9,8 +9,8 @@
   --green:#0E7A47;--amber:#8F5600;--red:#C42121;--warn:#B84A00;
   --green-bg:#E3F5EC;--amber-bg:#FFF3D6;--orange-bg:#FFE3D2;--red-bg:#FBE0E0;
   --focus:#1A3CFF;--spark:#1A3CFF;--spark-bg:#FFFFFF;
-  --mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
-  --sans:"Inter Tight","Helvetica Neue",Arial,system-ui,sans-serif;
+  --mono:"Open Sans",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --sans:"Open Sans","Helvetica Neue",Arial,system-ui,sans-serif;
   --r:14px;
   font-family:var(--mono);color:var(--ink);font-size:.86rem;line-height:1.6;
 }

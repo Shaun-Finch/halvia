@@ -19,7 +19,7 @@ const MODELS = [
 ];
 const IDLE_LOCK_MS = 15 * 60 * 1000;
 // Must match sw.js.
-const CACHES = { shell: 'halvia-bot-shell-v2', vendor: 'halvia-bot-vendor-v1' };
+const CACHES = { shell: 'halvia-bot-shell-v3', vendor: 'halvia-bot-vendor-v1' };
 const VENDOR = ['./vendor/web-llm.js', './vendor/pdf.min.mjs', './vendor/pdf.worker.min.mjs'];
 
 const S = {

@@ -5,8 +5,8 @@
   --user:#EEF0F7;--ok:#0E8A4B;--warn:#A35200;--bad:#C0262D;
   --grad:linear-gradient(115deg,#1A3CFF 0%,#5A2CE0 55%,#FF5A1F 100%);
   --shadow:0 18px 40px -24px rgba(16,24,64,.35),0 2px 6px -2px rgba(16,24,64,.08);
-  --sans:"Inter Tight","Helvetica Neue",Arial,system-ui,sans-serif;
-  --mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --sans:"Open Sans","Helvetica Neue",Arial,system-ui,sans-serif;
+  --mono:"Open Sans",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){

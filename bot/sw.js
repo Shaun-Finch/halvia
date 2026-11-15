@@ -3,13 +3,13 @@
 //   3.5 seconds or when offline.
 // - AI engine, PDF reader, fonts and icons: cache first.
 // Model weights are cached separately by WebLLM. Cache names must match CACHES in bot.js.
-const SHELL_CACHE = 'halvia-bot-shell-v2';
+const SHELL_CACHE = 'halvia-bot-shell-v3';
 const VENDOR_CACHE = 'halvia-bot-vendor-v1';
 const SHELL = [
   './', 'index.html', 'bot.css', 'bot.js', 'llm-worker.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',
   'library/index.json', 'library/research.json',
-  '../assets/fonts/fonts.css', '../assets/fonts/InterTight.woff2', '../assets/fonts/JetBrainsMono.woff2', '../favicon.png',
+  '../assets/fonts/fonts.css', '../assets/fonts/OpenSans-latin.woff2', '../assets/fonts/OpenSans-latin-ext.woff2', '../assets/fonts/OpenSans-Italic-latin.woff2', '../favicon.png',
 ];
 self.addEventListener('install', e => {
   e.waitUntil((async () => {

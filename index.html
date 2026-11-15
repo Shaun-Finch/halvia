@@ -17,7 +17,8 @@
 <meta name="theme-color" content="#FFFFFF">
 <link rel="canonical" href="https://halvia.cloud/">
 <link rel="icon" href="favicon.png">
-<link rel="stylesheet" href="assets/intro.css?v=2">
+<link rel="stylesheet" href="assets/fonts/fonts.css?v=2">
+<link rel="stylesheet" href="assets/intro.css?v=3">
 <script>document.documentElement.classList.add('hv-intro')</script>
 <script type="importmap">{"imports":{"three":"./gizmo/lib/three.module.min.js"}}</script>
 <style>
@@ -26,8 +27,8 @@
   --ink:#1F2228;--mute:#3F434C;--dim:#555B68;
   --blue:#1A3CFF;--blue-deep:#1A3CFF;--violet:#1A3CFF;--orange:#1A3CFF;
   --grad:#1A3CFF;
-  --sans:Helvetica,"Helvetica Neue",Arial,sans-serif;
-  --mono:Helvetica,"Helvetica Neue",Arial,sans-serif;
+  --sans:"Open Sans",Arial,sans-serif;
+  --mono:"Open Sans",Arial,sans-serif;
   --gutter:clamp(1rem,3.4vw,2.25rem);
   color-scheme:light;
 }
@@ -384,14 +385,37 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .foot a{color:inherit}
 
 /* staff training: embedded Gizmo */
-.gz-wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:clamp(1.4rem,3vw,2.2rem)}
-.gz-wrap h2{max-width:20ch}
-.gz-box{width:min(34rem,100%);background:var(--card);display:grid;place-items:center;padding:clamp(1.2rem,3vw,2.2rem)}
-.gz-bot{position:relative;width:min(300px,66vw);aspect-ratio:.82;cursor:pointer;-webkit-tap-highlight-color:transparent}
+/* Training and news: Gizmo on the left, the news carousel on the right. Titles, boxes and buttons share rows so they line up. */
+.gn{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"gt nt" "gb nb" "ga na";gap:1.4rem clamp(1.5rem,4vw,3.5rem);align-items:start}
+.gn-gt{grid-area:gt}.gn-gb{grid-area:gb}.gn-ga{grid-area:ga}.gn-nt{grid-area:nt}.gn-nb{grid-area:nb}.gn-na{grid-area:na}
+.gn h2{font-size:clamp(1.6rem,2.8vw,2.3rem);max-width:22ch;align-self:end}
+.gn-ga,.gn-na{display:flex;flex-direction:column;align-items:flex-start;gap:.8rem}
+@media (max-width:56rem){.gn{grid-template-columns:minmax(0,1fr);grid-template-areas:"gt" "gb" "ga" "nt" "nb" "na"}.gn-nt{margin-top:clamp(1.5rem,5vw,2.5rem)}}
+.gz-box{width:100%;height:clamp(19rem,30vw,23rem);background:var(--card);display:grid;place-items:center;padding:1rem}
+.gz-bot{position:relative;width:min(230px,52vw);aspect-ratio:.82;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .gz-bot canvas{display:block}
 .gz-bot .still{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
 .gz-bot:focus-visible{outline:3px solid var(--blue);outline-offset:6px}
 .gz-note{margin:0;font-size:.78rem;color:var(--dim);max-width:52ch}
+.nw{width:100%;height:clamp(19rem,30vw,23rem);background:var(--card);display:flex;flex-direction:column;padding:clamp(1.2rem,2.4vw,1.8rem)}
+.nw-slides{position:relative;flex:1;min-height:0}
+.nw-slide{position:absolute;inset:0;display:flex;flex-direction:column;gap:.6rem;opacity:0;visibility:hidden;transition:opacity .5s ease,visibility .5s}
+.nw-slide.on{opacity:1;visibility:visible}
+.nw-meta{margin:0;font-size:.78rem;color:var(--dim);display:flex;flex-wrap:wrap;gap:.2rem .6rem}
+.nw-meta .tp{color:var(--blue);font-weight:400}
+.nw-h{margin:0;font-weight:400;font-size:clamp(1.15rem,1.9vw,1.5rem);line-height:1.28;letter-spacing:-.015em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nw-h a{color:var(--ink);text-decoration:none}
+.nw-h a:hover{text-decoration:underline}
+.nw-sum{margin:0;font-size:.86rem;color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nw-go{margin-top:auto;font-size:.86rem}
+.nw-ctl{display:flex;align-items:center;gap:.5rem;padding-top:.9rem}
+.nw-btn{width:2.3rem;height:2.3rem;display:grid;place-items:center;border:1px solid var(--line2);background:#FFFFFF;color:var(--ink);font:inherit;font-size:.95rem;cursor:pointer;padding:0}
+.nw-btn:hover{border-color:var(--blue);color:var(--blue)}
+.nw-pp{margin-left:auto;font-size:.7rem}
+.nw-dots{display:flex;gap:.4rem;margin:0 .3rem}
+.nw-dots button{width:.65rem;height:.65rem;padding:0;border:0;background:var(--line2);cursor:pointer}
+.nw-dots button[aria-current="true"]{background:var(--blue)}
+@media (prefers-reduced-motion:reduce){.nw-slide{transition:none}}
 
 /* Nov 2026 round: square header, smaller mark, lime framing box, dark bot panel, loop diagram */
 .pill,.pill > a:not(.mark):not(.cta),.cta,.cta.go{border-radius:0}
@@ -469,14 +493,14 @@ body{color:var(--ink)}
 #cases .hv [style*="#666C7A"]{color:inherit!important}
 #cases .hv svg [stroke="#FFB27A"],#cases .hv svg [stroke="#F08A8A"]{stroke:currentColor}
 
-/* Type: Helvetica throughout. Titles bold, box headings regular, everything else light (light oblique for italics). */
+/* Type: Open Sans throughout. Titles bold, box headings regular, everything else light (light italic where needed). */
 body{font-weight:300}
 b,strong{font-weight:inherit}
 h1,h2,.sci-slide figcaption span{font-weight:700}
 h3,.acard b,.aflow li b,.hb-feats b,.appcta p b,.ask .hd b,.hb-open b,.alogos b,.alog b{font-weight:400}
 .mark,.mark .ver,.cta,.btn,.ft,.note2 b,.safe b,.more b,.basis b,.cs b,.phead p b,.basis .full,.hb-flag,.hb-bar .logo b,.ask-btn{font-weight:300}
 .hb-a sup{font:300 .6rem/1 var(--mono)}
-em,i,cite{font-style:oblique;font-weight:300}
+em,i,cite{font-style:italic;font-weight:300}
 h1 em,h2 em{font-style:normal;font-weight:inherit}
 .ft i,.hb-pill i,.hb-comp i,.term .tb i{font-style:normal}
 button,input,select,textarea{font-family:inherit}
@@ -522,7 +546,7 @@ button,input,select,textarea{font-family:inherit}
           <figure class="aphoto">
             <div class="aloop" role="img" aria-label="How an agent works in a loop: Claude, connected with your systems, produces an output; people give feedback; the agent iterates, improves and re-runs.">
               <svg class="aloop-chip" viewBox="0 0 96 96" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3"><rect x="22" y="22" width="52" height="52" rx="6"/><path d="M34 22V12M48 22V12M62 22V12M34 84V74M48 84V74M62 84V74M22 34H12M22 48H12M22 62H12M84 34H74M84 48H74M84 62H74"/><path d="M48 34c1.6 7.4 6.6 12.4 14 14-7.4 1.6-12.4 6.6-14 14-1.6-7.4-6.6-12.4-14-14 7.4-1.6 12.4-6.6 14-14z" fill="currentColor" stroke="none"/></svg>
-              <svg class="aloop-svg" viewBox="0 0 640 360" aria-hidden="true" font-family="Helvetica,'Helvetica Neue',Arial,sans-serif">
+              <svg class="aloop-svg" viewBox="0 0 640 360" aria-hidden="true" font-family="'Open Sans',Arial,sans-serif">
                 <defs>
                   <pattern id="lgrid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#E9ECF2" stroke-width="1"/></pattern>
                   <marker id="larr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1A3CFF"/></marker>
@@ -617,14 +641,25 @@ button,input,select,textarea{font-family:inherit}
     </div>
   </section>
 
-  <section class="sec training" id="training" aria-labelledby="trainH">
-    <div class="wrap gz-wrap">
-      <h2 id="trainH">Create quizzes from material to help train staff</h2>
-      <div class="gz-box">
+  <section class="sec training" id="training" aria-label="Staff training and news">
+    <div class="wrap gn">
+      <h2 class="gn-gt" id="trainH">Create quizzes from material to help train staff</h2>
+      <div class="gz-box gn-gb">
         <div class="gz-bot" id="gzBot" role="button" tabindex="0" aria-label="Gizmo, a friendly 3D robot, sitting on a bench reading a book. Click him and he looks up."></div>
       </div>
-      <a class="btn go" href="gizmo/">Open the tool</a>
-      <p class="gz-note">A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p>
+      <div class="gn-ga"><a class="btn go" href="gizmo/">Open the tool</a><p class="gz-note">A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p></div>
+
+      <h2 class="gn-nt" id="newsH">Latest in science and technology</h2>
+      <div class="nw gn-nb" id="news" role="region" aria-roledescription="carousel" aria-labelledby="newsH">
+        <div class="nw-slides" id="nwSlides" aria-live="off"><div class="nw-slide nw-wait"><p class="nw-meta">Halvia news</p><p class="nw-h">This week&rsquo;s top stories are on their way.</p></div></div>
+        <div class="nw-ctl">
+          <button class="nw-btn" type="button" id="nwPrev" aria-label="Previous story">&larr;</button>
+          <div class="nw-dots" id="nwDots"></div>
+          <button class="nw-btn" type="button" id="nwNext" aria-label="Next story">&rarr;</button>
+          <button class="nw-btn nw-pp" type="button" id="nwPP" aria-label="Pause the stories">&#10073;&#10073;</button>
+        </div>
+      </div>
+      <div class="gn-na"><a class="btn go" href="news/">Open Halvia news</a><p class="gz-note" id="nwNote">Science and technology stories from trusted publishers, updated every Monday.</p></div>
     </div>
   </section>
 
@@ -711,7 +746,7 @@ button,input,select,textarea{font-family:inherit}
     <p><b style="color:var(--ink)">Important:</b> Halvia tools are concept prototypes made to show design and engineering approach. They use made-up patients and simple illustrative rules, have not been clinically validated, are not medical devices and must not be used for real patient care. NEWS2 thresholds follow the Royal College of Physicians' published chart (2017). Halvia is an independent practice and is not affiliated with or endorsed by the NHS or any NHS organisation.</p>
     <details class="credits"><summary>Photo credits</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png" rel="noopener">Scientist pipetting</a> by James Gathany, CDC, public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg" rel="noopener">Doctor with stethoscope</a> by Shixart1985, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Close-up_of_the_ocular_lenses_of_a_microscope_with_a_blurry_background.jpg" rel="noopener">Microscope eyepieces</a> by Shixart1985, CC BY 2.0</li></ul><p style="margin:.4rem 0 0">Stock photos from Wikimedia Commons, used under the licences shown. Some are cropped.</p></details>
     <p><b style="color:var(--ink)">About:</b> Halvia is the healthcare practice of Shaun Finch, a UI/UX and motion designer in Manchester who designs and builds AI tools for health and science. <a href="privacy.html">Privacy and terms</a></p>
-    <p>In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure. Fonts: Inter Tight and JetBrains Mono (SIL Open Font License). &copy; Shaun Finch</p>
+    <p>In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure. Font: Open Sans (SIL Open Font License). &copy; Shaun Finch</p>
   </div>
 </footer>
 
@@ -788,6 +823,44 @@ if (el) {
   if ('IntersectionObserver' in window) { const io = new IntersectionObserver(es => { if (es.some(x => x.isIntersecting)) { io.disconnect(); start(); } }, { rootMargin: '600px 0px' }); io.observe(el); }
   else start();
 }
+</script>
+<script src="assets/news.js?v=1"></script>
+<script>
+// News carousel: the week's five top stories. Moves on every 7 seconds; pauses on hover, focus or the pause button,
+// and stays still for visitors who ask for reduced motion.
+(function () {
+  var N = window.HalviaNews, box = document.getElementById('news'); if (!N || !box) return;
+  var slidesEl = document.getElementById('nwSlides'), dotsEl = document.getElementById('nwDots'), pp = document.getElementById('nwPP');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches, i = 0, n = 0, timer = null, paused = reduce, hold = false;
+  function show(k, say) {
+    if (!n) return; i = (k + n) % n;
+    [].forEach.call(slidesEl.children, function (s, j) { var on = j === i; s.classList.toggle('on', on); s.setAttribute('aria-hidden', on ? 'false' : 'true'); [].forEach.call(s.querySelectorAll('a'), function (a) { a.tabIndex = on ? 0 : -1; }); });
+    [].forEach.call(dotsEl.children, function (d, j) { d.setAttribute('aria-current', j === i ? 'true' : 'false'); });
+    slidesEl.setAttribute('aria-live', say ? 'polite' : 'off');
+  }
+  function tick() { clearInterval(timer); timer = null; if (!paused && !hold && n > 1) timer = setInterval(function () { if (!document.hidden) show(i + 1, false); }, 7000); }
+  function setPaused(p) { paused = p; pp.innerHTML = p ? '&#9654;' : '&#10073;&#10073;'; pp.setAttribute('aria-label', p ? 'Play the stories' : 'Pause the stories'); tick(); }
+  document.getElementById('nwPrev').addEventListener('click', function () { show(i - 1, true); tick(); });
+  document.getElementById('nwNext').addEventListener('click', function () { show(i + 1, true); tick(); });
+  pp.addEventListener('click', function () { setPaused(!paused); });
+  ['mouseenter', 'focusin'].forEach(function (e) { box.addEventListener(e, function () { hold = true; tick(); }); });
+  ['mouseleave', 'focusout'].forEach(function (e) { box.addEventListener(e, function () { hold = false; tick(); }); });
+  N.load('data/news.json').then(function (d) {
+    var top = d.top.slice(0, 5); if (!top.length) { box.querySelector('.nw-ctl').hidden = true; return; }
+    slidesEl.textContent = ''; dotsEl.textContent = ''; n = top.length;
+    top.forEach(function (it, k) {
+      var s = N.el('article', 'nw-slide'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', (k + 1) + ' of ' + n);
+      var meta = N.el('p', 'nw-meta'); meta.appendChild(N.el('span', 'tp', it.topic || 'Science')); meta.appendChild(N.el('span', '', it.source)); meta.appendChild(N.el('span', '', N.date(it.date)));
+      var h = N.el('p', 'nw-h'), a = N.el('a', '', it.title); a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; h.appendChild(a);
+      s.appendChild(meta); s.appendChild(h); if (it.summary) s.appendChild(N.el('p', 'nw-sum', it.summary));
+      var go = N.el('a', 'nw-go', 'Read on ' + it.source + ' \u2197'); go.href = it.url; go.target = '_blank'; go.rel = 'noopener'; go.setAttribute('aria-label', 'Read the full story on ' + it.source + ' (opens in a new tab)'); s.appendChild(go);
+      slidesEl.appendChild(s);
+      var dot = N.el('button'); dot.type = 'button'; dot.setAttribute('aria-label', 'Story ' + (k + 1)); dot.addEventListener('click', function () { show(k, true); tick(); }); dotsEl.appendChild(dot);
+    });
+    if (d.updated) document.getElementById('nwNote').textContent = 'Science and technology stories from trusted publishers, updated every Monday. Last updated ' + N.date(d.updated, true) + '.';
+    show(0, false); setPaused(paused);
+  });
+})();
 </script>
 </body>
 </html>
