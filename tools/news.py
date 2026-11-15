@@ -67,7 +67,7 @@ BIOMED = re.compile(r'\b(cells?|genes?|genetic\w*|genom\w*|dna|rna|proteins?|mic
 TRADE = {'Cosmetics Business', 'Premium Beauty News'}
 PER_TOPIC = 22
 # some feeds mix in other languages; keep English only
-NOT_ENGLISH = re.compile(r"\b(le|la|les|des|du|une|et|à|pour|avec|sur|dans|nouvelle|édition|réuni|comment|und|der|die|das|el|los|para|con)\b", re.I)
+NOT_ENGLISH = re.compile(r"\b(le|la|les|des|du|une|et|en|à|au|aux|pour|avec|sur|dans|son|ses|cette|qui|est|sont|nouvelle|édition|réuni|comment|fait|und|der|die|das|el|los|para|con)\b|\b[ldj]'\w", re.I)
 
 
 def english(text):
