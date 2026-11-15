@@ -63,6 +63,17 @@ HEALTH_WORDS = re.compile('|'.join(rx.pattern for _, rx in TOPICS), re.I)
 BIOMED = re.compile(r'\b(cells?|genes?|genetic\w*|genom\w*|dna|rna|proteins?|microbiome|gut|bacteria\w*|virus\w*|viral|immun\w*|infection\w*|disease\w*|cancer\w*|tumou?rs?|brain|neuro\w*|enzymes?|stem cells?|antibiotic\w*|human|patients?|health|medic\w*|blood|organs?|tissues?|metaboli\w*|hormones?|insulin|obesity|diabet\w*|heart|liver|kidney)\b', re.I)
 
 
+# beauty-industry trade feeds: always filed under cosmetics and skin, never in the top five
+TRADE = {'Cosmetics Business', 'Premium Beauty News'}
+PER_TOPIC = 22
+# some feeds mix in other languages; keep English only
+NOT_ENGLISH = re.compile(r"\b(le|la|les|des|du|une|et|à|pour|avec|sur|dans|nouvelle|édition|réuni|comment|und|der|die|das|el|los|para|con)\b", re.I)
+
+
+def english(text):
+    return len(NOT_ENGLISH.findall(text)) < 2 and sum(ch in 'éèêàçùôâî' for ch in text) < 3
+
+
 def topic_for(title, summ, default):
     """The topic whose words appear most (headline words count three times); the feed's topic breaks ties."""
     best, score = default, 0
@@ -173,9 +184,9 @@ def items_from(xml_bytes, source, topic):
             continue
         if NOT_HEALTH.search(title + ' ' + summ[:300]) and not HEALTH_WORDS.search(title):
             continue
-        if re.match(r'^STAT\+\s*:', title):          # subscriber-only stories
+        if re.match(r'^STAT\+\s*:', title) or not english(title):   # subscriber-only or not in English
             continue
-        topic_here = topic_for(title, summ, topic)
+        topic_here = topic if source in TRADE else topic_for(title, summ, topic)
         if topic_here == 'Biology' and not BIOMED.search(title + ' ' + summ[:300]):
             continue
         if summ.lower().startswith(title.lower()):
@@ -254,11 +265,17 @@ def main():
         print('no stories gathered; leaving the existing file as it is', file=sys.stderr)
         return 0
     items.sort(key=lambda x: x['date'], reverse=True)
-    items = items[:MAX_ITEMS]
+    per = {}
+    capped = []
+    for it in items:                                  # no single topic can flood the feed
+        per[it['topic']] = per.get(it['topic'], 0) + 1
+        if per[it['topic']] <= PER_TOPIC:
+            capped.append(it)
+    items = capped[:MAX_ITEMS]
     # five top stories: the newest from the last week, one per publisher, mixing topics
     def fit(i):
         t = i['title'] + ' ' + i['summary'][:160]
-        return len(i['summary']) > 60 and not OFFTOPIC.search(t) and not NOT_NEWS.search(t) and RESEARCH.search(t)
+        return i['source'] not in TRADE and len(i['summary']) > 60 and not OFFTOPIC.search(t) and not NOT_NEWS.search(t) and RESEARCH.search(t)
     recent = [i for i in items if (now - i['date']).days <= TOP_DAYS and fit(i)] or [i for i in items if (now - i['date']).days <= TOP_DAYS] or items
     # every top story needs a good picture: use the article's own share image when the feed's is missing or small
     checked = 0
