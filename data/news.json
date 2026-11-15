@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:41:41Z",
+ "updated": "2026-11-15T09:42:39Z",
  "sources": [
   "ScienceDaily (Science)",
   "Phys.org (Science)",
@@ -14,11 +14,11 @@
   "NIH (Health and medicine)"
  ],
  "top": [
-  "1b82033f568f",
   "c483ec2db561",
   "162522190d56",
-  "26e68e5831f8",
-  "6ec99d3f5a9a"
+  "789ab8670134",
+  "6e4f12848fc1",
+  "5eefb7321fbf"
  ],
  "items": [
   {
@@ -28,7 +28,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-15T06:00:01Z",
    "summary": "Low oxygen levels in the brain, or cerebral anoxia, are a leading cause of death worldwide. Patients who recover from cerebral anoxia deal with persistent neurological issues that worsen their quality of life. Building on previous work…",
-   "image": "https://scx2.b-cdn.net/gfx/news/hires/2023/heart-and-brain.jpg",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/heart-and-brain.jpg",
    "id": "1b82033f568f"
   },
   {
@@ -68,7 +68,7 @@
    "topic": "Science",
    "date": "2026-11-15T02:18:16Z",
    "summary": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves. The laser-induced alignment lasts just a trillionth of a…",
-   "image": "https://www.sciencedaily.com/images/1920/laser-light-crystal-quantum-material.webp",
+   "image": "",
    "id": "5d04dde7507a"
   },
   {
@@ -128,7 +128,7 @@
    "topic": "Science",
    "date": "2026-11-14T21:00:01Z",
    "summary": "Since 2022, astronomers have been puzzling over a new kind of cosmic object called long-period radio transients. These are objects that emit bright flashes of radio waves into space every few minutes to every few hours. Some have been…",
-   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-dead-star-is-flashin.jpg",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-dead-star-is-flashin.jpg",
    "id": "b1c2971434a1"
   },
   {
@@ -158,7 +158,7 @@
    "topic": "Technology",
    "date": "2026-11-14T18:38:56Z",
    "summary": "Tech giant Microsoft said Saturday it has \"restored service\" to customers, effectively bringing an end to a massive outage that caused chaos and disrupted public services and business around the world.",
-   "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/microsoft-1.jpg",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/microsoft-1.jpg",
    "id": "26e68e5831f8"
   },
   {
@@ -168,7 +168,7 @@
    "topic": "Technology",
    "date": "2026-11-14T18:37:23Z",
    "summary": "Italy announced an €805 million ($887 million) fine against Meta on Saturday for using photos and videos from Android users' galleries on Facebook without specific consent or adequate disclosure.",
-   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/meta.jpg",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/meta.jpg",
    "id": "62680459d012"
   },
   {
@@ -178,7 +178,7 @@
    "topic": "Science",
    "date": "2026-11-14T18:37:10Z",
    "summary": "NASA's Voyager 1 is about to become humanity's first object to reach one light-day from Earth as it pushes ever deeper into interstellar space.",
-   "image": "https://scx2.b-cdn.net/gfx/news/2026/nasa-voyager-1.jpg",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nasa-voyager-1.jpg",
    "id": "ba392d6a4357"
   },
   {
@@ -238,7 +238,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:10Z",
    "summary": "New evidence supports the idea that differences within and between sexes impact how neurological disorders progress and respond to treatment. The findings were presented at Neuroscience 2026, the annual meeting of the Society for…",
-   "image": "https://scx2.b-cdn.net/gfx/news/hires/2019/human.jpg",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/human.jpg",
    "id": "695a1b7fdcfc"
   },
   {
@@ -288,7 +288,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T15:20:01Z",
    "summary": "Having a vaccine available is essential for preventing hepatitis B, but it is not enough when part of the population cannot access it.",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/hepatitis-b.jpg",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/hepatitis-b.jpg",
    "id": "28c34b7326ce"
   },
   {
@@ -298,7 +298,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T14:20:01Z",
    "summary": "Anxiety disorders are some of the most common psychiatric conditions, estimated to affect around 4.4% of people worldwide, according to the World Health Organization. While neuroscientists have been studying these disorders for decades…",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/predator-like-scent-ac-1.jpg",
+   "image": "https://scx2.b-cdn.net/gfx/news/2026/predator-like-scent-ac-1.jpg",
    "id": "dde4f78053b9"
   },
   {
@@ -318,7 +318,7 @@
    "topic": "Technology",
    "date": "2026-11-14T13:40:02Z",
    "summary": "Humans can create loose maps of environments they are exploring in their minds, using their senses and navigation skills. Many robots, on the other hand, rely on set maps of known environments or new maps produced using data collected by…",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/robots-recognize-the-s.jpg",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/robots-recognize-the-s.jpg",
    "id": "6e4f12848fc1"
   },
   {
@@ -328,7 +328,7 @@
    "topic": "Science",
    "date": "2026-11-14T13:00:06Z",
    "summary": "In propulsion system design, engineers have long faced a trade-off between solid and liquid rocket fuels. Each has advantages and disadvantages, and in an effort to try to min/max the efficacy of different types of fuel, researchers have…",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/graphic-of-the-chemica.jpg",
+   "image": "https://scx2.b-cdn.net/gfx/news/2026/graphic-of-the-chemica.jpg",
    "id": "a75ef863b76e"
   },
   {
@@ -348,7 +348,7 @@
    "topic": "Science",
    "date": "2026-11-14T12:48:01Z",
    "summary": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults who followed consistent daily schedules reported less…",
-   "image": "",
+   "image": "https://www.sciencedaily.com/images/1920/yellow-and-red-smileys-happy-sad-depression.webp",
    "id": "df42fd5a2698"
   },
   {
@@ -358,7 +358,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T12:35:36Z",
    "summary": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome (IBS) without worsening bloating, pain, or other digestive symptoms. The specially designed blend also improved…",
-   "image": "",
+   "image": "https://www.sciencedaily.com/images/1920/woman-holding-stomach-digestive-heart-health.webp",
    "id": "073d8f2c6f89"
   },
   {
@@ -368,7 +368,7 @@
    "topic": "Science",
    "date": "2026-11-14T12:25:05Z",
    "summary": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same patterns also…",
-   "image": "",
+   "image": "https://www.sciencedaily.com/images/1920/neuroscience-brain-connections-signal-processing.webp",
    "id": "7b3fa9f63382"
   },
   {
