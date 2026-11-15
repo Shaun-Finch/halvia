@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:45:38Z",
+ "updated": "2026-11-15T21:46:35Z",
  "sources": [
   "ScienceDaily (Hospitals and care)",
   "ScienceDaily (Medicines)",
@@ -26,8 +26,8 @@
   "4a3ab100745e",
   "479089cb0731",
   "3b08b117bc59",
-  "2a955ac23908",
-  "b49d4913a618"
+  "b49d4913a618",
+  "57516e208680"
  ],
  "items": [
   {
@@ -234,10 +234,10 @@
    "title": "Technology: How AI is shaping the future of the perfume industry",
    "url": "https://www.premiumbeautynews.com/en/technology-how-ai-is-shaping-the,28535",
    "source": "Premium Beauty News",
-   "topic": "Medicines",
+   "topic": "Cosmetics and skin",
    "date": "2026-11-14T15:41:00Z",
    "summary": "There may be a hint of bergamot in the top notes and sweet iris as a follow-up, but there is a noticeable dose of Artificial Intelligence emerging in new perfumes, according to industry specialists. The traditional world of perfumes has…",
-   "image": "https://www.premiumbeautynews.com/IMG/logo/1050x600_adobestock_2099673894__iqbal_ia-2.jpg?1794757283",
+   "image": "",
    "id": "2a955ac23908"
   },
   {
@@ -327,7 +327,7 @@
    "topic": "Biology",
    "date": "2026-11-13T22:20:01Z",
    "summary": "Most DNA in an organism is inherited from its parent or parents. This form of genetic inheritance is referred to as vertical inheritance because genes are passed down from generation to generation.",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fusion-of-a-unicellula.jpg",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/fusion-of-a-unicellula.jpg",
    "id": "08f158740a97"
   },
   {
@@ -449,16 +449,6 @@
    "summary": "Returning from March 26 to 29, 2027, alongside Beautyworld Taipei, Scent Taipei will expand its showcase of international and local fragrance brands, offering a platform to explore opportunities in Taiwan's fast-evolving scent market. As…",
    "image": "",
    "id": "d1ffc5a7e7e6"
-  },
-  {
-   "title": "La 12e édition de Cosmetic 360 a réuni 5700 visiteurs et 260 exposants",
-   "url": "https://www.premiumbeautynews.com/fr/la-12e-edition-de-cosmetic-360-a,28536",
-   "source": "Premium Beauty News",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-13T16:45:00Z",
-   "summary": "Les 14 et 15 octobre 2026, Cosmetic 360 a accueilli plus de 5700 visiteurs au Carrousel du Louvre, à Paris. Organisée par Cosmetic Valley, cette 12e édition du salon international dédié à l'innovation dans la parfumerie-cosmétique a…",
-   "image": "",
-   "id": "ea20b09acd3b"
   },
   {
    "title": "CeraVe named ‘official moisturiser of Arrakis’ with Dune Part Three film tie-up",
@@ -841,56 +831,6 @@
    "id": "e2e4f5ba46ae"
   },
   {
-   "title": "Are we nearing peak K-beauty? Industry experts weigh in…",
-   "url": "https://www.cosmeticsbusiness.com/k-beauty-nearing-peak-fatigue-industry-experts-views",
-   "source": "Cosmetics Business",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-12T12:29:00Z",
-   "summary": "With K-beauty brands entering numerous US retailers, and Western brands tapping into innovation from Korea – from packaging to ingredients – Cosmetics Business asked industry experts if we are nearing K-beauty saturation, and where the…",
-   "image": "",
-   "id": "ff61dde1afc6"
-  },
-  {
-   "title": "Symrise names Martin Huber new CFO to support ‘next phase of durable growth’",
-   "url": "https://www.cosmeticsbusiness.com/symrise-names-martin-huber-new-cfo-to-support",
-   "source": "Cosmetics Business",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-12T12:23:00Z",
-   "summary": "Former Aryzta and Nestlé executive, Martin Huber, will succeed Olaf Klinger as CFO of Symrise from 1 April 2027",
-   "image": "",
-   "id": "c8fb8c4e92d2"
-  },
-  {
-   "title": "AI-powered bionic eye breakthrough could help the blind see again",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-12T11:55:55Z",
-   "summary": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning how an individual's…",
-   "image": "",
-   "id": "3a92920b6504"
-  },
-  {
-   "title": "A butterfly that fooled scientists for 200 years finally reveals its secrets",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-12T10:47:43Z",
-   "summary": "Researchers have discovered that a familiar tropical butterfly actually belongs to three nearly identical species, including one previously unknown to science. Hidden ultraviolet wing patterns and DNA differences revealed the truth…",
-   "image": "",
-   "id": "6f227a931927"
-  },
-  {
-   "title": "CEW France : Qui sont les gagnants de l'édition 2026 des Achiever Awards ?",
-   "url": "https://www.premiumbeautynews.com/fr/cew-france-qui-sont-les-gagnants,28530",
-   "source": "Premium Beauty News",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-12T10:47:00Z",
-   "summary": "Le CEW France a célébré son 40e anniversaire le 4 novembre 2026 avec une édition spéciale de ses Achiever Awards, qui récompensent chaque année des personnalités marquantes du monde de la cosmétique et du parfum. Pour cette édition…",
-   "image": "",
-   "id": "6532c94dcfd7"
-  },
-  {
    "title": "NHS elective performance at 5-year high amid record demand",
    "url": "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/",
    "source": "NHS England",
@@ -899,16 +839,6 @@
    "summary": "The NHS delivered its best 18-week elective performance for more than five years in September, as staff manage record demand on services. New NHS figures published today show almost 66% of patients on the waiting list have been waiting…",
    "image": "",
    "id": "e22cf8bc7885"
-  },
-  {
-   "title": "Scientists discover a common sugar may help cancer cells break free and spread",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261111221501.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-12T04:39:31Z",
-   "summary": "Scientists have uncovered a surprising way that fructose, a sugar commonly found in sweetened foods and drinks, may help aggressive ovarian cancer spread. Researchers discovered that cancer cells surviving chemotherapy release fructose…",
-   "image": "",
-   "id": "38ee36b1ac55"
   },
   {
    "title": "NHS fast tracks rollout of first ever targeted treatment for anal cancer",
@@ -929,6 +859,76 @@
    "summary": "Nature Medicine, Published online: 12 November 2026; doi:10.1038/s41591-026-04784-x The evidence available to support the treatment of obesity in children and adolescents is insufficient and requires rapid improvement.",
    "image": "",
    "id": "aff3854ff21f"
+  },
+  {
+   "title": "Social factors shape health as we age",
+   "url": "https://www.nature.com/articles/s43587-026-01291-z",
+   "source": "Nature Aging",
+   "topic": "Longevity",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01291-z Our knowledge that social factors can influence health is abundant and has shaped research and policy across medicine, public health and society for decades.…",
+   "image": "",
+   "id": "57f77a0f148b"
+  },
+  {
+   "title": "When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
+   "url": "https://www.nature.com/articles/s43587-026-01266-0",
+   "source": "Nature Aging",
+   "topic": "Longevity",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01266-0 When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
+   "image": "",
+   "id": "f9903372a2fa"
+  },
+  {
+   "title": "Scaling productive aging to mitigate cumulative disadvantage",
+   "url": "https://www.nature.com/articles/s43587-026-01174-3",
+   "source": "Nature Aging",
+   "topic": "Longevity",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01174-3 Productive engagement among older adults — which spans employment, volunteering and family caregiving — functions as a multidimensional driver of healthspan…",
+   "image": "",
+   "id": "24fe015556d0"
+  },
+  {
+   "title": "To understand how social factors shape aging, we need to measure trajectories rather than states",
+   "url": "https://www.nature.com/articles/s43587-026-01205-z",
+   "source": "Nature Aging",
+   "topic": "Longevity",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01205-z To understand how social disadvantage becomes biologically embedded, aging research must move beyond one-time assessments and instead track continuous…",
+   "image": "",
+   "id": "a1ea546318a5"
+  },
+  {
+   "title": "Environmental health resilience and exposure reduction for healthy aging and longevity",
+   "url": "https://www.nature.com/articles/s43587-026-01231-x",
+   "source": "Nature Aging",
+   "topic": "Longevity",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01231-x Ji et al. define environmental health resilience factors such as green spaces, age-friendly design and climate-resilient infrastructure as modifiers of…",
+   "image": "",
+   "id": "a56cac83b005"
+  },
+  {
+   "title": "Animal models illuminate causal mechanisms of social determinants of aging to advance experimental social geroscience",
+   "url": "https://www.nature.com/articles/s43587-026-01144-9",
+   "source": "Nature Aging",
+   "topic": "Longevity",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01144-9 Social gradients in aging are well known, but their biological basis remains unclear. Bartolomucci and colleagues discuss data from animal models revealing…",
+   "image": "",
+   "id": "642c2984acdd"
+  },
+  {
+   "title": "Blood-thinning drug limits cartilage damage and relieves osteoarthritis pain",
+   "url": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
+   "source": "New Scientist",
+   "topic": "Medicines",
+   "date": "2026-11-11T19:00:00Z",
+   "summary": "A study in animals suggests a drug used to thin blood might eventually be able to slow down the development of osteoarthritis. Currently, there are no approved drugs capable of doing this",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320300237.jpg",
+   "id": "4a54635f8611"
   }
  ]
 }
