@@ -2,8 +2,9 @@
 """Halvia news: gather the latest science and technology stories from publishers' public RSS/Atom feeds.
 
 Runs weekly on GitHub Actions (.github/workflows/news.yml) and writes data/news.json, which the home page
-carousel and news/index.html read. Only headlines, dates and short summaries are kept, and every story links
-to the original article. If every feed fails, the existing file is left as it is so the site never empties.
+carousel and news/index.html read. Only headlines, dates, short summaries and the publisher's own preview image
+address are kept (images are shown from the publisher's site, credited, never copied), and every story links to
+the original article. If every feed fails, the existing file is left as it is so the site never empties.
 
 Usage: python tools/news.py
 """
@@ -41,6 +42,8 @@ PER_FEED = 12
 MAX_ITEMS = 90
 SUMMARY_LEN = 240
 # newsletters, podcasts and round-ups are left out: the feed is for individual stories
+# top stories are science and technology, not politics or general news-wire items
+OFFTOPIC = re.compile(r'\b(trump|biden|administration|election|congress|senate|parliament|tariffs?|lawsuit|court|ceo|stocks?|shares|layoffs?|police|war)\b', re.I)
 SKIP = re.compile(r'^(the download|the checkup|the week|this week|week in review|podcast|newsletter|quiz)\b|\b(newsletter|podcast|live updates?|crossword)\b', re.I)
 
 
@@ -132,9 +135,51 @@ def items_from(xml_bytes, source, topic):
             continue
         if summ.lower().startswith(title.lower()):
             summ = summ[len(title):].lstrip(' .:-')
-        out.append({'title': title, 'url': link, 'source': source, 'topic': topic, 'date': date, 'summary': shorten(summ)})
+        out.append({'title': title, 'url': link, 'source': source, 'topic': topic, 'date': date, 'summary': shorten(summ), 'image': feed_image(el)})
     out.sort(key=lambda x: x['date'], reverse=True)
     return out[:PER_FEED]
+
+
+def feed_image(el):
+    """The best image address the feed gives for an item: media:content / media:thumbnail / enclosure, else an <img> in the text."""
+    best, bw = '', -1
+    for c in el.iter():
+        name = local(c.tag)
+        url, w = '', 0
+        if name in ('content', 'thumbnail') and c.get('url'):
+            if c.get('medium', 'image') != 'image' and not (c.get('type') or 'image').startswith('image'):
+                continue
+            url, w = c.get('url'), int(c.get('width') or (1 if name == 'thumbnail' else 2))
+        elif name == 'enclosure' and (c.get('type') or '').startswith('image') and c.get('url'):
+            url, w = c.get('url'), 2
+        if url and w > bw:
+            best, bw = url, w
+    if not best:
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)', ''.join(text_of(child(el, n)) for n in ('description', 'encoded', 'content', 'summary')) or '')
+        if not m:
+            raw = ET.tostring(el, encoding='unicode')
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)', html.unescape(raw))
+        best = m.group(1) if m else ''
+    return safe_url(html.unescape(best))
+
+
+def page_image(url):
+    """The share image (og:image / twitter:image) from the article page: usually the publisher's full-size picture."""
+    try:
+        h = fetch(url)[:400000].decode('utf-8', 'ignore')
+    except Exception:
+        return ''
+    for prop in ('og:image:secure_url', 'og:image', 'twitter:image', 'twitter:image:src'):
+        m = re.search(r'<meta[^>]+(?:property|name)=["\']' + re.escape(prop) + r'["\'][^>]+content=["\']([^"\']+)', h, re.I) or \
+            re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']' + re.escape(prop) + r'["\']', h, re.I)
+        if m:
+            return safe_url(html.unescape(m.group(1)))
+    return ''
+
+
+def small(u):
+    """Feed thumbnails that are too small for the carousel (sized folders or query strings in the address)."""
+    return bool(re.search(r'/(tmb|thumb|thumbnails?|small|w\d{2,3}|\d{2,3}x\d{2,3})/|[?&](w|width)=([1-5]?\d{1,2})\b|-\d{2,3}x\d{2,3}\.', u, re.I))
 
 
 def key(title):
@@ -166,7 +211,16 @@ def main():
     items.sort(key=lambda x: x['date'], reverse=True)
     items = items[:MAX_ITEMS]
     # five top stories: the newest from the last week, one per publisher, mixing topics
-    recent = [i for i in items if (now - i['date']).days <= TOP_DAYS and len(i['summary']) > 60] or items
+    recent = [i for i in items if (now - i['date']).days <= TOP_DAYS and len(i['summary']) > 60 and not OFFTOPIC.search(i['title'] + ' ' + i['summary'][:120])] or items
+    # every top story needs a good picture: use the article's own share image when the feed's is missing or small
+    checked = 0
+    for it in recent:
+        if checked >= 24:
+            break
+        if not it['image'] or small(it['image']):
+            checked += 1
+            it['image'] = page_image(it['url']) or ('' if small(it['image']) else it['image'])
+    recent = [i for i in recent if i['image']] or recent
     top, used_src, used_topic = [], set(), {}
     for rnd in range(3):
         for it in recent:

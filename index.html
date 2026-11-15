@@ -391,24 +391,29 @@ h1,h2,h3{font-family:var(--sans);font-weight:300;letter-spacing:-.035em;line-hei
 .gn h2{font-size:clamp(1.6rem,2.8vw,2.3rem);max-width:22ch;align-self:end}
 .gn-ga,.gn-na{display:flex;flex-direction:column;align-items:flex-start;gap:.8rem}
 @media (max-width:56rem){.gn{grid-template-columns:minmax(0,1fr);grid-template-areas:"gt" "gb" "ga" "nt" "nb" "na"}.gn-nt{margin-top:clamp(1.5rem,5vw,2.5rem)}}
-.gz-box{width:100%;height:clamp(19rem,30vw,23rem);background:var(--card);display:grid;place-items:center;padding:1rem}
+.gz-box{width:100%;height:clamp(26rem,36vw,30rem);background:var(--card);display:grid;place-items:center;padding:1rem}
 .gz-bot{position:relative;width:min(230px,52vw);aspect-ratio:.82;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .gz-bot canvas{display:block}
 .gz-bot .still{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
 .gz-bot:focus-visible{outline:3px solid var(--blue);outline-offset:6px}
 .gz-note{margin:0;font-size:.78rem;color:var(--dim);max-width:52ch}
-.nw{width:100%;height:clamp(19rem,30vw,23rem);background:var(--card);display:flex;flex-direction:column;padding:clamp(1.2rem,2.4vw,1.8rem)}
+.nw{width:100%;height:clamp(26rem,36vw,30rem);background:var(--card);display:flex;flex-direction:column;padding:0 0 clamp(1rem,2vw,1.4rem)}
 .nw-slides{position:relative;flex:1;min-height:0}
-.nw-slide{position:absolute;inset:0;display:flex;flex-direction:column;gap:.6rem;opacity:0;visibility:hidden;transition:opacity .5s ease,visibility .5s}
+.nw-slide{position:absolute;inset:0;display:flex;flex-direction:column;gap:.55rem;opacity:0;visibility:hidden;transition:opacity .5s ease,visibility .5s}
+.nw-slide > :not(.nw-pic){margin-left:clamp(1.1rem,2.2vw,1.6rem);margin-right:clamp(1.1rem,2.2vw,1.6rem)}
+.nw-pic{position:relative;margin:0 0 .35rem;flex:none;height:48%;background:var(--soft2);overflow:hidden}
+.nw-pic img{display:block;width:100%;height:100%;object-fit:cover}
+.nw-pic figcaption{position:absolute;right:0;bottom:0;background:rgba(31,34,40,.72);color:#FFFFFF;font-size:.66rem;padding:.15rem .45rem}
+.nw-wait{padding-top:clamp(1.2rem,2.4vw,1.8rem)}
 .nw-slide.on{opacity:1;visibility:visible}
 .nw-meta{margin:0;font-size:.78rem;color:var(--dim);display:flex;flex-wrap:wrap;gap:.2rem .6rem}
 .nw-meta .tp{color:var(--blue);font-weight:400}
-.nw-h{margin:0;font-weight:400;font-size:clamp(1.15rem,1.9vw,1.5rem);line-height:1.28;letter-spacing:-.015em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nw-h{margin:0;font-weight:400;font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.28;letter-spacing:-.015em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .nw-h a{color:var(--ink);text-decoration:none}
 .nw-h a:hover{text-decoration:underline}
-.nw-sum{margin:0;font-size:.86rem;color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nw-sum{margin:0;font-size:.84rem;color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .nw-go{margin-top:auto;font-size:.86rem}
-.nw-ctl{display:flex;align-items:center;gap:.5rem;padding-top:.9rem}
+.nw-ctl{display:flex;align-items:center;gap:.5rem;padding:.8rem clamp(1.1rem,2.2vw,1.6rem) 0}
 .nw-btn{width:2.3rem;height:2.3rem;display:grid;place-items:center;border:1px solid var(--line2);background:#FFFFFF;color:var(--ink);font:inherit;font-size:.95rem;cursor:pointer;padding:0}
 .nw-btn:hover{border-color:var(--blue);color:var(--blue)}
 .nw-pp{margin-left:auto;font-size:.7rem}
@@ -581,7 +586,6 @@ button,input,select,textarea{font-family:inherit}
     <div class="wrap">
       <div class="hb">
         <div>
-          <p class="eyebrow">Halvia bot &middot; offline AI <span aria-hidden="true" style="font-size:1rem;letter-spacing:0">&#129302;</span></p>
           <h2 id="botH">An AI assistant for clinicians. <em>The demo can run offline once loaded.</em></h2>
           <p class="intro">Halvia bot answers from a library of guidance and shows the passages it used. In this demo, what you type stays in your browser. A real deployment would run on-device or on approved infrastructure.</p>
           <ul class="hb-feats">
@@ -632,7 +636,6 @@ button,input,select,textarea{font-family:inherit}
     </div>
     <div class="wrap">
       <div class="tcopy">
-        <p class="eyebrow">Five tools &middot; working software</p>
         <h2 id="casesH">Five places AI can <span class="uline">help, today</span></h2>
         <p class="intro">Discharge letters, shift handover, missed appointments, plain-English letters and clinical coding. The tools in one workspace with an activity log, shortcuts, print and copy. Six synthetic patients.</p>
         <div class="actions"><a class="btn go" href="ward/">Open Halvia Ward &#8599;</a></div>
@@ -666,7 +669,7 @@ button,input,select,textarea{font-family:inherit}
   <section class="sec navy-sec" id="decks" aria-labelledby="deckH">
     <div class="wrap">
       <div class="split2">
-        <div><p class="eyebrow">Decks &amp; research documents</p><h2 id="deckH">Research decks clinicians actually want to sit through</h2></div>
+        <div><h2 id="deckH">Research decks clinicians actually want to sit through</h2></div>
         <p class="intro">I design decks, case-study PDFs and posters that make the finding clear in the first minute, for grand rounds, MDTs, journal clubs, funding bids and conferences.</p>
       </div>
       <div class="decks">
@@ -691,7 +694,6 @@ button,input,select,textarea{font-family:inherit}
     <div class="wrap">
       <div class="split2">
         <div>
-          <p class="eyebrow">Case study &middot; CHKS</p>
           <h2 id="chksH">Video explainers, simple to complex</h2>
         </div>
         <p class="intro">A product explainer for CHKS's AI clinical coding system, used in the NHS. It had to make a technical product feel simple and trustworthy for coding teams, and show that the coder stays in control.</p>
@@ -721,7 +723,6 @@ button,input,select,textarea{font-family:inherit}
     <div class="wrap">
         <div class="in">
           <div>
-            <p class="eyebrow">Work with me</p>
             <h2 id="contactH">Got a workflow that's eating your team's time?</h2>
             <p class="intro">Design, prototypes and AI set-up for health and research teams. Tell me about the problem and I'll come back with a short plan.</p>
             <div class="actions">
@@ -850,6 +851,12 @@ if (el) {
     slidesEl.textContent = ''; dotsEl.textContent = ''; n = top.length;
     top.forEach(function (it, k) {
       var s = N.el('article', 'nw-slide'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', (k + 1) + ' of ' + n);
+      if (/^https:\/\//i.test(it.image || '')) {
+        // the publisher's own preview picture, shown from their site and credited; hidden if it can't load
+        var fig = N.el('figure', 'nw-pic'), img = N.el('img'); img.alt = ''; img.loading = k ? 'lazy' : 'eager'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer'; img.src = it.image;
+        img.addEventListener('error', function () { fig.remove(); });
+        fig.appendChild(img); fig.appendChild(N.el('figcaption', '', 'Image: ' + it.source)); s.appendChild(fig);
+      } else s.style.paddingTop = '1.4rem';
       var meta = N.el('p', 'nw-meta'); meta.appendChild(N.el('span', 'tp', it.topic || 'Science')); meta.appendChild(N.el('span', '', it.source)); meta.appendChild(N.el('span', '', N.date(it.date)));
       var h = N.el('p', 'nw-h'), a = N.el('a', '', it.title); a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; h.appendChild(a);
       s.appendChild(meta); s.appendChild(h); if (it.summary) s.appendChild(N.el('p', 'nw-sum', it.summary));
