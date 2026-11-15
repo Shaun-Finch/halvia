@@ -1,0 +1,19 @@
+name: site check (one-off)
+on:
+  push:
+    branches: [site-check]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: DNS
+        run: |
+          for t in A AAAA CNAME; do echo "== halvia.cloud $t"; dig +short halvia.cloud $t; done
+          echo "== www.halvia.cloud"; dig +short www.halvia.cloud
+      - name: HTTPS
+        run: |
+          for u in https://halvia.cloud/ http://halvia.cloud/ https://www.halvia.cloud/ https://shaun-finch.github.io/halvia/ https://halvia.cloud/news/ https://halvia.cloud/assets/fonts/fonts.css https://halvia.cloud/assets/intro.js?v=20261114; do
+            echo "== $u"; curl -sS -o /tmp/b -m 20 -L -w 'status %{http_code}  final %{url_effective}  time %{time_total}s  bytes %{size_download}\n' "$u" || true
+          done
+          echo "== certificate"; echo | openssl s_client -connect halvia.cloud:443 -servername halvia.cloud 2>/dev/null | openssl x509 -noout -subject -issuer -dates || true
+          echo "== home page head"; curl -sS -m 20 https://halvia.cloud/ | head -c 600 || true
