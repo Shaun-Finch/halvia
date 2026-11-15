@@ -44,6 +44,9 @@ SUMMARY_LEN = 240
 # newsletters, podcasts and round-ups are left out: the feed is for individual stories
 # top stories are science and technology, not politics or general news-wire items
 OFFTOPIC = re.compile(r'\b(trump|biden|administration|election|congress|senate|parliament|tariffs?|lawsuit|court|ceo|stocks?|shares|layoffs?|police|war)\b', re.I)
+# top stories should report research or a development, not service news, opinion or features about the publisher
+RESEARCH = re.compile(r'\b(stud(y|ies)|research(ers)?|scientists?|engineers?|discover(y|ed|ies)?|reveals?|finds?|found|develop(ed|s)?|trials?|experiments?|cells?|genes?|genetic|proteins?|molecules?|quantum|telescope|robots?|algorithm|batter(y|ies)|vaccines?|brain|planets?|species|fossils?|materials?|sensors?|chips?|therapy|drug|tumou?r|cancer|climate|ocean|galaxy|black hole|AI model)\b', re.I)
+NOT_NEWS = re.compile(r'\b(outage|restored|readers|letters|opinion|review:|gift|deals?|sale|subscribe|magazine|how to|best .* of 20\d\d)\b', re.I)
 SKIP = re.compile(r'^(the download|the checkup|the week|this week|week in review|podcast|newsletter|quiz)\b|\b(newsletter|podcast|live updates?|crossword)\b', re.I)
 
 
@@ -211,7 +214,10 @@ def main():
     items.sort(key=lambda x: x['date'], reverse=True)
     items = items[:MAX_ITEMS]
     # five top stories: the newest from the last week, one per publisher, mixing topics
-    recent = [i for i in items if (now - i['date']).days <= TOP_DAYS and len(i['summary']) > 60 and not OFFTOPIC.search(i['title'] + ' ' + i['summary'][:120])] or items
+    def fit(i):
+        t = i['title'] + ' ' + i['summary'][:160]
+        return len(i['summary']) > 60 and not OFFTOPIC.search(t) and not NOT_NEWS.search(t) and RESEARCH.search(t)
+    recent = [i for i in items if (now - i['date']).days <= TOP_DAYS and fit(i)] or [i for i in items if (now - i['date']).days <= TOP_DAYS] or items
     # every top story needs a good picture: use the article's own share image when the feed's is missing or small
     checked = 0
     for it in recent:

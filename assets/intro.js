@@ -31,7 +31,7 @@
   }
   if (audio) audio.addEventListener('error', function () { audio = null; });
   function gesture() { if (!voiced && !finished) { if (audio) audio.currentTime = 0; voice(); } }
-  ['pointerdown', 'touchstart', 'mousedown', 'click'].forEach(function (ev) { addEventListener(ev, gesture, { capture: true, passive: true }); });
+  ['pointerdown', 'pointerup', 'touchstart', 'touchend', 'mousedown', 'mouseup', 'click'].forEach(function (ev) { addEventListener(ev, gesture, { capture: true, passive: true }); });
   addEventListener('keydown', function onKey(e) { if (finished) return removeEventListener('keydown', onKey); if (e.key === 'Escape') return end(true); gesture(); });
 
   // ---------- pixel clusters ----------
