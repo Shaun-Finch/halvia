@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:14:10Z",
+ "updated": "2026-11-15T09:41:41Z",
  "sources": [
   "ScienceDaily (Science)",
   "Phys.org (Science)",
@@ -17,8 +17,8 @@
   "1b82033f568f",
   "c483ec2db561",
   "162522190d56",
-  "3feda8230e7e",
-  "04ab322d24b7"
+  "26e68e5831f8",
+  "6ec99d3f5a9a"
  ],
  "items": [
   {
@@ -28,6 +28,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-15T06:00:01Z",
    "summary": "Low oxygen levels in the brain, or cerebral anoxia, are a leading cause of death worldwide. Patients who recover from cerebral anoxia deal with persistent neurological issues that worsen their quality of life. Building on previous work…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2023/heart-and-brain.jpg",
    "id": "1b82033f568f"
   },
   {
@@ -37,6 +38,7 @@
    "topic": "Science",
    "date": "2026-11-15T04:31:56Z",
    "summary": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shrinking before the…",
+   "image": "https://www.sciencedaily.com/images/1920/alzheimers-brain-atrophy.webp",
    "id": "c483ec2db561"
   },
   {
@@ -46,6 +48,7 @@
    "topic": "Science",
    "date": "2026-11-15T03:42:52Z",
    "summary": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins. While one population has remained stable for decades, another has declined by more than 40%, apparently due to a…",
+   "image": "https://www.sciencedaily.com/images/1920/erect-crested-penguins.webp",
    "id": "e9166ef1d741"
   },
   {
@@ -55,6 +58,7 @@
    "topic": "Science",
    "date": "2026-11-15T03:00:54Z",
    "summary": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth. Researchers discovered chemical signatures suggesting that coastal…",
+   "image": "https://www.sciencedaily.com/images/1920/dinosaur-beach-seaweed.webp",
    "id": "eb7e17bdccc6"
   },
   {
@@ -64,6 +68,7 @@
    "topic": "Science",
    "date": "2026-11-15T02:18:16Z",
    "summary": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves. The laser-induced alignment lasts just a trillionth of a…",
+   "image": "https://www.sciencedaily.com/images/1920/laser-light-crystal-quantum-material.webp",
    "id": "5d04dde7507a"
   },
   {
@@ -73,6 +78,7 @@
    "topic": "Science",
    "date": "2026-11-15T01:52:47Z",
    "summary": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes…",
+   "image": "https://www.sciencedaily.com/images/1920/ancient-quasar-artists-concept.webp",
    "id": "b53dbb591be4"
   },
   {
@@ -82,6 +88,7 @@
    "topic": "Science",
    "date": "2026-11-15T01:30:01Z",
    "summary": "On April 10, 2019, the Event Horizon Telescope (EHT) Collaboration revealed the first picture of a black hole. The object is at the center of a galaxy known as M87, about 55 million light-years away.",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/is-this-iconic-black-h.jpg",
    "id": "162522190d56"
   },
   {
@@ -91,6 +98,7 @@
    "topic": "Technology",
    "date": "2026-11-15T01:05:10Z",
    "summary": "Scientists have uncovered a hidden warning sign in routine heart scans that could predict sudden cardiac death before it strikes. The AI-powered discovery outperformed conventional screening methods, potentially revealing thousands of…",
+   "image": "https://www.sciencedaily.com/images/1920/cardiology-heart-attack-disease-prevention.webp",
    "id": "1d795f884f56"
   },
   {
@@ -100,6 +108,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-15T00:10:01Z",
    "summary": "In response to growing geopolitical tensions, editors of more than 100 international journals have jointly published an editorial urging health professionals to keep health at the center of public discussions on nuclear risk.",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/nuclear-weapon-1.jpg",
    "id": "789ab8670134"
   },
   {
@@ -109,6 +118,7 @@
    "topic": "Science",
    "date": "2026-11-14T22:00:01Z",
    "summary": "The advance of urbanization in the São Paulo Metropolitan Area in Brazil is causing the collapse of food webs in local streams. A study published in August in the journal Nature Cities reveals that the impact of the metropolis goes far…",
+   "image": "https://scx2.b-cdn.net/gfx/news/2026/urban-expansion-causes.jpg",
    "id": "1d9c84f2da72"
   },
   {
@@ -118,6 +128,7 @@
    "topic": "Science",
    "date": "2026-11-14T21:00:01Z",
    "summary": "Since 2022, astronomers have been puzzling over a new kind of cosmic object called long-period radio transients. These are objects that emit bright flashes of radio waves into space every few minutes to every few hours. Some have been…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-dead-star-is-flashin.jpg",
    "id": "b1c2971434a1"
   },
   {
@@ -127,6 +138,7 @@
    "topic": "Science",
    "date": "2026-11-14T19:00:01Z",
    "summary": "Today, Old Dongola is an abandoned settlement on the banks of the Nile in northern Sudan. Hundreds of years ago, however, this place looked very different.",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/two-men-stand-in-profi.jpg",
    "id": "0780769ce31c"
   },
   {
@@ -136,6 +148,7 @@
    "topic": "Technology",
    "date": "2026-11-14T18:50:02Z",
    "summary": "Weary travelers braced for more flight disruptions Saturday as service resumed at U.S. airports after an hours-long stoppage that the Trump administration blamed on faulty equipment or an error by a contractor tasked with switching out old…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/repair-of-old-copper-w.jpg",
    "id": "3feda8230e7e"
   },
   {
@@ -145,6 +158,7 @@
    "topic": "Technology",
    "date": "2026-11-14T18:38:56Z",
    "summary": "Tech giant Microsoft said Saturday it has \"restored service\" to customers, effectively bringing an end to a massive outage that caused chaos and disrupted public services and business around the world.",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/microsoft-1.jpg",
    "id": "26e68e5831f8"
   },
   {
@@ -154,6 +168,7 @@
    "topic": "Technology",
    "date": "2026-11-14T18:37:23Z",
    "summary": "Italy announced an €805 million ($887 million) fine against Meta on Saturday for using photos and videos from Android users' galleries on Facebook without specific consent or adequate disclosure.",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/meta.jpg",
    "id": "62680459d012"
   },
   {
@@ -163,6 +178,7 @@
    "topic": "Science",
    "date": "2026-11-14T18:37:10Z",
    "summary": "NASA's Voyager 1 is about to become humanity's first object to reach one light-day from Earth as it pushes ever deeper into interstellar space.",
+   "image": "https://scx2.b-cdn.net/gfx/news/2026/nasa-voyager-1.jpg",
    "id": "ba392d6a4357"
   },
   {
@@ -172,6 +188,7 @@
    "topic": "Science",
    "date": "2026-11-14T18:20:01Z",
    "summary": "Thanks to the gravitational lensing caused by a massive galaxy cluster and high-resolution images from the James Webb Space Telescope (JWST), astronomers discovered an exploding star when the universe was 4.9 billion years old. The…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-cosmic-magnifying-gl.jpg",
    "id": "f475aa88e0ed"
   },
   {
@@ -181,6 +198,7 @@
    "topic": "Science",
    "date": "2026-11-14T17:00:33Z",
    "summary": "Earth is approximately 4.5 billion years old, according to estimates. However, rocks dating back to the planet's earliest days are extremely rare. Hence the excitement over the discovery in northern China of some of the oldest known rocks…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/some-of-the-oldest-roc-1.jpg",
    "id": "32da69861ad6"
   },
   {
@@ -190,6 +208,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:29Z",
    "summary": "New attention-deficit/hyperactivity disorder (ADHD) research shows the condition influences mental and physical health across the life span. The findings were presented at Neuroscience 2026, the annual meeting of the Society for…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/late-to-work.jpg",
    "id": "53a8e91812c2"
   },
   {
@@ -199,6 +218,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:24Z",
    "summary": "Integrating artificial intelligence (AI) into neuroscience is changing how scientists engage with data, improving our understanding of the brain and leading to better ways of training computational models. The findings will be presented at…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/neuroscience.jpg",
    "id": "698b4a98450d"
   },
   {
@@ -208,6 +228,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:20Z",
    "summary": "Newly developed biomarkers may enhance clinicians' ability to detect and treat disorders of the nervous system, including Alzheimer's disease, mood disorders and neurodevelopmental conditions. The findings were presented at Neuroscience…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2021/brain-image.jpg",
    "id": "a0817703bec4"
   },
   {
@@ -217,6 +238,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:10Z",
    "summary": "New evidence supports the idea that differences within and between sexes impact how neurological disorders progress and respond to treatment. The findings were presented at Neuroscience 2026, the annual meeting of the Society for…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2019/human.jpg",
    "id": "695a1b7fdcfc"
   },
   {
@@ -226,6 +248,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:06Z",
    "summary": "Recent advancements in brain-computer interfaces are helping restore communication in clinical trial participants who have lost the ability to speak or make voluntary movements. New findings were presented at Neuroscience 2026, the annual…",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/neurolink.jpg",
    "id": "585971f35c97"
   },
   {
@@ -235,6 +258,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T17:00:01Z",
    "summary": "Research on Alzheimer's disease (AD) and aging has found strong connections between physical health and brain health. These new connections were presented at Neuroscience 2026, the annual meeting of the Society for Neuroscience.",
+   "image": "https://scx2.b-cdn.net/gfx/news/hires/2024/alzheimers-disease-2.jpg",
    "id": "f925f716f0ff"
   },
   {
@@ -244,6 +268,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T16:40:01Z",
    "summary": "High levels of LDL cholesterol and triglycerides, which are types of blood fats, are major contributors to atherosclerotic cardiovascular disease. Gene-editing technologies offer a potential alternative to lipid-lowering medications. In a…",
+   "image": "https://scx2.b-cdn.net/gfx/news/2026/one-crispr-infusion-lo.jpg",
    "id": "eabbaa5433fb"
   },
   {
@@ -253,6 +278,7 @@
    "topic": "Science",
    "date": "2026-11-14T15:40:01Z",
    "summary": "Lake Baikal in Siberia holds around 20% of the world's surface freshwater, making it the most voluminous freshwater lake (Lake Superior on the United States–Canada border is the largest by surface area). This makes the lake one of the most…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-worlds-largest-fre-2.jpg",
    "id": "6402784acf6b"
   },
   {
@@ -262,6 +288,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T15:20:01Z",
    "summary": "Having a vaccine available is essential for preventing hepatitis B, but it is not enough when part of the population cannot access it.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/hepatitis-b.jpg",
    "id": "28c34b7326ce"
   },
   {
@@ -271,6 +298,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T14:20:01Z",
    "summary": "Anxiety disorders are some of the most common psychiatric conditions, estimated to affect around 4.4% of people worldwide, according to the World Health Organization. While neuroscientists have been studying these disorders for decades…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/predator-like-scent-ac-1.jpg",
    "id": "dde4f78053b9"
   },
   {
@@ -280,6 +308,7 @@
    "topic": "Science",
    "date": "2026-11-14T14:00:01Z",
    "summary": "How unequal were prehistoric societies? And how can archaeologists measure wealth in cultures that left behind no written records, no tax registers and no census data?",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/archaeologists-shed-ne.jpg",
    "id": "7004de1d0c1e"
   },
   {
@@ -289,6 +318,7 @@
    "topic": "Technology",
    "date": "2026-11-14T13:40:02Z",
    "summary": "Humans can create loose maps of environments they are exploring in their minds, using their senses and navigation skills. Many robots, on the other hand, rely on set maps of known environments or new maps produced using data collected by…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/robots-recognize-the-s.jpg",
    "id": "6e4f12848fc1"
   },
   {
@@ -298,6 +328,7 @@
    "topic": "Science",
    "date": "2026-11-14T13:00:06Z",
    "summary": "In propulsion system design, engineers have long faced a trade-off between solid and liquid rocket fuels. Each has advantages and disadvantages, and in an effort to try to min/max the efficacy of different types of fuel, researchers have…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/graphic-of-the-chemica.jpg",
    "id": "a75ef863b76e"
   },
   {
@@ -307,6 +338,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T13:00:01Z",
    "summary": "Ice baths have become one of the most popular recovery strategies in sport. They are used by elite athletes and recreational gym-goers to reduce soreness and recuperate more quickly after exercising.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/sea-sauna.jpg",
    "id": "0d1f9b12ee0b"
   },
   {
@@ -316,6 +348,7 @@
    "topic": "Science",
    "date": "2026-11-14T12:48:01Z",
    "summary": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults who followed consistent daily schedules reported less…",
+   "image": "",
    "id": "df42fd5a2698"
   },
   {
@@ -325,6 +358,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T12:35:36Z",
    "summary": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome (IBS) without worsening bloating, pain, or other digestive symptoms. The specially designed blend also improved…",
+   "image": "",
    "id": "073d8f2c6f89"
   },
   {
@@ -334,6 +368,7 @@
    "topic": "Science",
    "date": "2026-11-14T12:25:05Z",
    "summary": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same patterns also…",
+   "image": "",
    "id": "7b3fa9f63382"
   },
   {
@@ -343,6 +378,7 @@
    "topic": "Technology",
    "date": "2026-11-14T12:20:01Z",
    "summary": "Anthropic chief executive Dario Amodei pitched investors on safety and a strict hiring culture on Friday, days before the AI company's stock market debut.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/anthropic-chief-execut-1.jpg",
    "id": "f55cd0929b09"
   },
   {
@@ -352,6 +388,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T12:14:57Z",
    "summary": "A new study suggests that the right kind of exercise could help protect young adults from early knee osteoarthritis following ACL surgery. Researchers found that a four-month supervised rehabilitation program improved pain, muscle…",
+   "image": "",
    "id": "8015affe541a"
   },
   {
@@ -361,6 +398,7 @@
    "topic": "Science",
    "date": "2026-11-14T12:00:12Z",
    "summary": "In his Alaskan community, fisherman Bob Candopoulos has long welcomed tourists to his business that's showcased by a sign featuring a king salmon.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/some-fishermen-blame-i.jpg",
    "id": "47395265f743"
   },
   {
@@ -370,6 +408,7 @@
    "topic": "Technology",
    "date": "2026-11-14T12:00:01Z",
    "summary": "With the United Nations climate talks underway, India has set an ambitious goal of installing enough clean power to supply more than 1 billion homes by 2035, and has approved nearly $20 billion in power grid upgrades to ease bottlenecks…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/climate-cop31-india-re.jpg",
    "id": "faa40dfeff52"
   },
   {
@@ -379,6 +418,7 @@
    "topic": "Science",
    "date": "2026-11-14T11:58:42Z",
    "summary": "Astronomers have uncovered a potentially enormous new dwarf planet beyond Pluto, hidden for years in one of the most crowded regions of the night sky. The discovery of 2026 ED138 could expand the solar system's official dwarf planet family…",
+   "image": "",
    "id": "d837e9eb2622"
   },
   {
@@ -388,6 +428,7 @@
    "topic": "Technology",
    "date": "2026-11-14T11:42:28Z",
    "summary": "Scientists have developed an efficient method to transform used coffee grounds into a potential source of biodiesel while preserving the leftover material for other renewable fuels and valuable chemicals. The discovery could turn millions…",
+   "image": "",
    "id": "ccd3864424b1"
   },
   {
@@ -397,6 +438,7 @@
    "topic": "Science",
    "date": "2026-11-14T11:40:06Z",
    "summary": "California was bracing Friday for a storm series packing heavy rain and surf that could once again flood coastal communities and potentially send monster waves pounding shores.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-worker-carries-gasol.jpg",
    "id": "27fb26f08d22"
   },
   {
@@ -406,6 +448,7 @@
    "topic": "Technology",
    "date": "2026-11-14T11:40:02Z",
    "summary": "A global Microsoft outage this week disrupted email and other workplace tools, plunging business chatter and everyday services into disarray worldwide and highlighting the risks of depending on one of just a few major providers of…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/microsoft-outage-4.jpg",
    "id": "f0578a55bd02"
   },
   {
@@ -415,6 +458,7 @@
    "topic": "Technology",
    "date": "2026-11-14T11:22:47Z",
    "summary": "Flights in the United States were resuming on Saturday after being grounded for several hours due to a major communications outage, though authorities said returning to normal operations would take time.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/passengers-wait-at-boa.jpg",
    "id": "977771b79f1a"
   },
   {
@@ -424,6 +468,7 @@
    "topic": "Technology",
    "date": "2026-11-14T11:22:10Z",
    "summary": "Tesla said on Friday that some customers will be able to buy its driverless Cybercab for personal use.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-tesla-cybercab-drive.jpg",
    "id": "07857f147b20"
   },
   {
@@ -433,6 +478,7 @@
    "topic": "Technology",
    "date": "2026-11-14T11:13:42Z",
    "summary": "Microsoft said Saturday that services were fully restored after a massive outage that lasted for hours.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/microsoft-outage-3.jpg",
    "id": "27f8cd99c23a"
   },
   {
@@ -442,6 +488,7 @@
    "topic": "Science",
    "date": "2026-11-14T07:00:00Z",
    "summary": "To celebrate our 70th anniversary, we asked readers how they first encountered New Scientist – and why they still read it today",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/10/SEI_318736989.jpg",
    "id": "6ec99d3f5a9a"
   },
   {
@@ -451,6 +498,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T04:26:12Z",
    "summary": "Yale researchers have discovered that certain prescription drugs, healthy diets, and exercise can measurably slow biological aging, while popular anti-aging supplements appear largely ineffective. Their analysis of 51 studies could…",
+   "image": "",
    "id": "92373d046955"
   },
   {
@@ -460,6 +508,7 @@
    "topic": "Science",
    "date": "2026-11-14T02:59:05Z",
    "summary": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially fatal head injuries in 18, suggesting that at least 39% of those…",
+   "image": "",
    "id": "171b720aca8e"
   },
   {
@@ -469,6 +518,7 @@
    "topic": "Technology",
    "date": "2026-11-14T02:40:05Z",
    "summary": "The EU's proposed Cloud and AI Development Act (CADA) is intended to strengthen Europe's cloud and AI sectors and reduce its dependence on providers from outside Europe. But according to researchers at the Institute for Information Law…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/cloud-storage-1.jpg",
    "id": "e0793a2e2770"
   },
   {
@@ -478,6 +528,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-14T01:50:58Z",
    "summary": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers…",
+   "image": "",
    "id": "5ea45c63c751"
   },
   {
@@ -487,6 +538,7 @@
    "topic": "Science",
    "date": "2026-11-14T01:13:05Z",
    "summary": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum…",
+   "image": "",
    "id": "39136d85fce3"
   },
   {
@@ -496,6 +548,7 @@
    "topic": "Technology",
    "date": "2026-11-13T23:41:08Z",
    "summary": "Researchers at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousands of times faster than conventional methods. The breakthrough allows scientists to predict how laser pulses behave inside…",
+   "image": "",
    "id": "916f45b01bb0"
   },
   {
@@ -505,6 +558,7 @@
    "topic": "Technology",
    "date": "2026-11-13T23:20:04Z",
    "summary": "Small hydropower systems could generate 22.6 megawatts of electricity in a remote part of western North Carolina, enough to power 5,000 homes in an area where the rugged, heavily forested terrain limits reliable access to energy, according…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hydropower-study-revea.jpg",
    "id": "9d1ff60e4df5"
   },
   {
@@ -514,6 +568,7 @@
    "topic": "Science",
    "date": "2026-11-13T19:00:00Z",
    "summary": "The documentary offers a window into scientists’ wonder and joy in their work as they discover new life forms in the depths of the Southern Ocean.",
+   "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/ExpeditionSavingOurSeas_MM10514_260216_01298.jpg?w=601",
    "id": "5eefb7321fbf"
   },
   {
@@ -523,6 +578,7 @@
    "topic": "Science",
    "date": "2026-11-13T18:00:00Z",
    "summary": "There is almost nowhere on Earth free from disruptive human noise – but it's one of the easiest environmental problems to solve",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320410870.jpg",
    "id": "2fdc4725ae69"
   },
   {
@@ -532,6 +588,7 @@
    "topic": "Science",
    "date": "2026-11-13T17:55:02Z",
    "summary": "The polar vortex winds have undergone an unprecedented weakening, which could bring cold weather to Europe. Some scientists suspect the record El Niño is to blame",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320559766.jpg",
    "id": "2d50e2553918"
   },
   {
@@ -541,6 +598,7 @@
    "topic": "Science",
    "date": "2026-11-13T17:00:00Z",
    "summary": "Quantum clocks usually rely on advanced lasers and isolated atoms in the lab, but a new experiment showed that the same clock design can work with sunlight instead",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320386804.jpg",
    "id": "8a84c07ca832"
   },
   {
@@ -550,6 +608,7 @@
    "topic": "Science",
    "date": "2026-11-13T16:00:00Z",
    "summary": "We’ve loved sci-fi at New Scientist for the past 70 years, but which novels got the future right? From Neuromancer to The Handmaid’s Tale, Emily H. Wilson picks the most prescient reads of the past seven decades",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI320187926.jpg",
    "id": "a5ffbba7912f"
   },
   {
@@ -559,6 +618,7 @@
    "topic": "Science",
    "date": "2026-11-13T16:00:00Z",
    "summary": "Infernogallus – the ‘hell chicken’ dinosaur – evolved to eat a fruit-heavy diet. It may be the first evidence of fruit-eating adaptations among non-avian dinosaurs.",
+   "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110526_jb_fruit-eating-dinosaur_main.jpg?w=800",
    "id": "d3f2c1071d47"
   },
   {
@@ -568,6 +628,7 @@
    "topic": "Science",
    "date": "2026-11-13T13:00:00Z",
    "summary": "Test your knowledge of Nobel-prizewinning discoveries in microbiology, genomics and cosmology with questions set by the laureates themselves: Barry Marshall, Jennifer Doudna and Saul Perlmutter",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/10/SEI_317848336.jpg",
    "id": "ffe19d74371d"
   },
   {
@@ -577,6 +638,7 @@
    "topic": "Science",
    "date": "2026-11-13T12:55:11Z",
    "summary": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to their spleens and…",
+   "image": "",
    "id": "673e1144cf72"
   },
   {
@@ -586,6 +648,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-13T12:48:10Z",
    "summary": "A study of more than 750,000 pregnancies found that early exposure to Ozempic, Wegovy, and similar drugs was not linked to increased pregnancy complications when used for weight loss, but was associated with a higher risk of premature…",
+   "image": "",
    "id": "18469747e998"
   },
   {
@@ -595,6 +658,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-13T12:14:39Z",
    "summary": "A major study of nearly 1,900 older adults suggests that stopping statins after age 70 may be relatively safe in the short term for people who have never experienced a heart attack or stroke. However, a higher rate of serious…",
+   "image": "",
    "id": "28f98ae760de"
   },
   {
@@ -604,6 +668,7 @@
    "topic": "Science",
    "date": "2026-11-13T11:56:39Z",
    "summary": "Why do some volcanoes erupt with spectacular lava fountains while others release lava more quietly? Scientists have discovered that a hidden effect of extreme heat inside magma may help explain the difference. Experiments revealed that…",
+   "image": "",
    "id": "3cebc2227579"
   },
   {
@@ -613,6 +678,7 @@
    "topic": "Technology",
    "date": "2026-11-13T11:08:34Z",
    "summary": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energy could have…",
+   "image": "",
    "id": "bcd1b15318a8"
   },
   {
@@ -622,6 +688,7 @@
    "topic": "Technology",
    "date": "2026-11-13T10:00:00Z",
    "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those…",
+   "image": "",
    "id": "04ab322d24b7"
   },
   {
@@ -631,6 +698,7 @@
    "topic": "Technology",
    "date": "2026-11-13T10:00:00Z",
    "summary": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year…",
+   "image": "",
    "id": "5de37488cd54"
   },
   {
@@ -640,6 +708,7 @@
    "topic": "Technology",
    "date": "2026-11-13T09:49:36Z",
    "summary": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% of the charged…",
+   "image": "",
    "id": "6111ca3be9f4"
   },
   {
@@ -649,6 +718,7 @@
    "topic": "Science",
    "date": "2026-11-13T09:00:00Z",
    "summary": "As we near Black Friday, columnist David Robson explores the psychology behind our impulse to buy things – and how marketers take advantage of our brains to push us to purchase",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320278605.jpg",
    "id": "b8545696e63f"
   },
   {
@@ -658,6 +728,7 @@
    "topic": "Technology",
    "date": "2026-11-13T05:26:41Z",
    "summary": "Scientists have discovered a faster way to identify diamond-based materials that could power quantum computers and sensors at room temperature. The breakthrough has already revealed promising new quantum building blocks that could help…",
+   "image": "",
    "id": "91ae39dd3186"
   },
   {
@@ -667,6 +738,7 @@
    "topic": "Health and medicine",
    "date": "2026-11-13T02:28:20Z",
    "summary": "Researchers have uncovered a surprising hidden function of a protein that may hold the key to repairing damaged muscles and treating muscular dystrophy. Known for protecting chromosomes, TRF2 also helps muscle stem cells maintain their…",
+   "image": "",
    "id": "c2a8250e264b"
   },
   {
@@ -676,6 +748,7 @@
    "topic": "Technology",
    "date": "2026-11-13T01:40:17Z",
    "summary": "Researchers at Brown University have overcome a major obstacle to creating ultra-low-power computer chips that could help slash the energy demands of AI. Their breakthrough eliminates a long-standing \"dead layer\" problem that causes…",
+   "image": "",
    "id": "b35133fe92ee"
   },
   {
@@ -685,6 +758,7 @@
    "topic": "Science",
    "date": "2026-11-13T00:00:00Z",
    "summary": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03668-x Declines in students from China and India are driving the trend, which researchers say could slow the progress of US science.",
+   "image": "",
    "id": "24678a50e304"
   },
   {
@@ -694,6 +768,7 @@
    "topic": "Science",
    "date": "2026-11-13T00:00:00Z",
    "summary": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03456-7 Malaysia, Hong Kong and Macau are the new hot destinations for students.",
+   "image": "",
    "id": "03b7b5070e99"
   },
   {
@@ -703,6 +778,7 @@
    "topic": "Science",
    "date": "2026-11-13T00:00:00Z",
    "summary": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03516-y It’s the end — or is it?",
+   "image": "",
    "id": "92a3d7ae0503"
   },
   {
@@ -712,6 +788,7 @@
    "topic": "Science",
    "date": "2026-11-13T00:00:00Z",
    "summary": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03679-8 Being able to target and debug systems could improve artificial-intelligence safety and utility.",
+   "image": "",
    "id": "9ec33813a956"
   },
   {
@@ -721,6 +798,7 @@
    "topic": "Science",
    "date": "2026-11-13T00:00:00Z",
    "summary": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03716-6 In the first of our new podcast series, a Nature reporter looks for reasons for hope in the face of overwhelming climate anxiety.",
+   "image": "",
    "id": "df930e7655cf"
   },
   {
@@ -730,6 +808,7 @@
    "topic": "Technology",
    "date": "2026-11-12T20:16:24Z",
    "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on…",
+   "image": "",
    "id": "07356858caea"
   },
   {
@@ -739,6 +818,7 @@
    "topic": "Science",
    "date": "2026-11-12T20:00:00Z",
    "summary": "An AI-powered proof has rigorously shown that using quantum computers wouldn't have huge advantages for a whole class of mathematical problems, confirming a vastly influential conjecture",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320282515.jpg",
    "id": "ddf94a746fc1"
   },
   {
@@ -748,6 +828,7 @@
    "topic": "Science",
    "date": "2026-11-12T19:00:00Z",
    "summary": "Autonomous in-orbit manufacturing will be key to any future space economy, and researchers have taken the first step with a robot building a radio antenna without astronaut assistance",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320392890.jpg",
    "id": "4165c4803c3d"
   },
   {
@@ -757,6 +838,7 @@
    "topic": "Science",
    "date": "2026-11-12T18:20:00Z",
    "summary": "World leaders at COP31 show little enthusiasm for phasing out fossil fuels, but the plummeting costs of renewable energy will be the key factor in how quickly we can rein in global warming",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320413701.jpg",
    "id": "f1383ded9651"
   },
   {
@@ -766,6 +848,7 @@
    "topic": "Science",
    "date": "2026-11-12T16:00:00Z",
    "summary": "What determines which moments are remembered? The amygdala, typically associated with regulating fear and aggression, may play a major role",
+   "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_AS_amygdala_main.jpg?w=800",
    "id": "6786df56423f"
   },
   {
@@ -775,6 +858,7 @@
    "topic": "Science",
    "date": "2026-11-12T14:00:00Z",
    "summary": "Europe’s Hera spacecraft is just beginning its exploration of the binary asteroid Didymos in a mission that’s tantalizing scientists on two fronts.",
+   "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg?w=800",
    "id": "17dcd545f05d"
   },
   {
@@ -784,6 +868,7 @@
    "topic": "Technology",
    "date": "2026-11-12T11:55:55Z",
    "summary": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning how an individual's…",
+   "image": "",
    "id": "3a92920b6504"
   },
   {
@@ -793,6 +878,7 @@
    "topic": "Science",
    "date": "2026-11-12T00:00:00Z",
    "summary": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03638-3 Aged mice engineered to lack granzyme K have improved heart and liver function and less kidney damage.",
+   "image": "",
    "id": "b99b3bf0ad66"
   },
   {
@@ -802,6 +888,7 @@
    "topic": "Science",
    "date": "2026-11-12T00:00:00Z",
    "summary": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03639-2 A Florida fungus might combine the psychedelic compound psilocybin with deadly chemicals to defend itself against hungry animals.",
+   "image": "",
    "id": "c2e0d8b5cd7a"
   },
   {
@@ -811,6 +898,7 @@
    "topic": "Science",
    "date": "2026-11-12T00:00:00Z",
    "summary": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03665-0 Insights into the reproductive modes of brown algae could help in the fight to protect them in warming climate.",
+   "image": "",
    "id": "ebb42fd6ccfc"
   },
   {
@@ -820,6 +908,7 @@
    "topic": "Science",
    "date": "2026-11-12T00:00:00Z",
    "summary": "Nature, Published online: 12 November 2026; doi:10.1038/s41586-026-11409-3 Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+   "image": "",
    "id": "8f3afd9fc180"
   },
   {
@@ -829,6 +918,7 @@
    "topic": "Science",
    "date": "2026-11-12T00:00:00Z",
    "summary": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03666-z The Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and funding cuts…",
+   "image": "",
    "id": "d52848ec6409"
   }
  ]
