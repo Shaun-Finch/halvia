@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:44:18Z",
+ "updated": "2026-11-15T21:45:38Z",
  "sources": [
   "ScienceDaily (Hospitals and care)",
   "ScienceDaily (Medicines)",
@@ -15,16 +15,31 @@
   "Nature Medicine (Medicines)",
   "Nature Aging (Longevity)",
   "New Scientist (Hospitals and care)",
-  "MIT Technology Review (Biology)"
+  "MIT Technology Review (Biology)",
+  "Medical Xpress (Cosmetics and skin)",
+  "Dermatology Times (Cosmetics and skin)",
+  "Cosmetics Business (Cosmetics and skin)",
+  "Premium Beauty News (Cosmetics and skin)",
+  "Healio Dermatology (Cosmetics and skin)"
  ],
  "top": [
+  "4a3ab100745e",
   "479089cb0731",
-  "40a2ec682aed",
-  "e23abe21d5d0",
   "3b08b117bc59",
-  "2e3e1a11a8f9"
+  "2a955ac23908",
+  "b49d4913a618"
  ],
  "items": [
+  {
+   "title": "Odds for sleep disturbance higher in pediatric atopic dermatitis",
+   "url": "https://www.healio.com/news/allergy-asthma/20261115/odds-for-sleep-disturbance-elevated-in-pediatric-atopic-dermatitis",
+   "source": "Healio Dermatology",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-15T18:32:09Z",
+   "summary": "PHOENIX — Pediatric patients with vs. without atopic dermatitis had greater odds for sleep disturbance, and this stayed true regardless of comorbid atopy or mental health status, according to data presented here. “These findings reinforce…",
+   "image": "https://www.healio.com/~/media/slack-news/allergy_asthma/infographics/2026/11_november/aa1126sundermeier_acaai_ig1.jpg",
+   "id": "4a3ab100745e"
+  },
   {
    "title": "People with autism show remarkable variability in brain activity",
    "url": "https://medicalxpress.com/news/2026-11-people-autism-remarkable-variability-brain.html",
@@ -39,31 +54,11 @@
    "title": "How sourness overpowers other kinds of tastes",
    "url": "https://medicalxpress.com/news/2026-11-sourness-overpowers-kinds.html",
    "source": "Medical Xpress",
-   "topic": "Medicines",
+   "topic": "Biology",
    "date": "2026-11-15T18:00:01Z",
    "summary": "When organisms consume foods or drinks with a mixture of tastes, like sweet and sour, how do their taste buds communicate this taste information to the brain? In a new study in JNeurosci, Stephen Roper and colleagues at the University of…",
    "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/sour-1.jpg",
    "id": "5bcfcb8047f6"
-  },
-  {
-   "title": "STAT+: FDA rejects lung cancer treatment ivonescimab from Summit Therapeutics",
-   "url": "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-15T15:05:15Z",
-   "summary": "The FDA has rejected ivonescimab, a treatment for a type of lung cancer developed by U.S. biotech Summit Therapeutics and the Chinese drugmaker Akeso.",
-   "image": "https://www.statnews.com/wp-content/uploads/2024/09/GettyImages-1237273640-1-1024x576.jpg",
-   "id": "40a2ec682aed"
-  },
-  {
-   "title": "Giant, prehistoric rodent fossils discovered in southern Thailand",
-   "url": "https://phys.org/news/2026-11-giant-prehistoric-rodent-fossils-southern.html",
-   "source": "Phys.org",
-   "topic": "Biology",
-   "date": "2026-11-15T15:00:01Z",
-   "summary": "An international team of paleontologists, including researchers from McGill University, has discovered \"remarkably large\" rodent fossils in the pit of a mine in southern Thailand. The finding, published in Scientific Reports, provides a…",
-   "image": "https://scx2.b-cdn.net/gfx/news/2026/illustration-of-yakamy.jpg",
-   "id": "e23abe21d5d0"
   },
   {
    "title": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
@@ -84,16 +79,6 @@
    "summary": "Scientists have uncovered a surprising genetic connection to spinal degeneration and found that an existing osteoporosis drug can prevent damaging mineral buildup in zebrafish spines. The discovery could pave the way for new treatments…",
    "image": "https://www.sciencedaily.com/images/1920/radiograph-x-ray-back-bone-spinal-pain.webp",
    "id": "fcba369e63e0"
-  },
-  {
-   "title": "Taiwan Indigenous farmer revives climate-resilient millet",
-   "url": "https://phys.org/news/2026-11-taiwan-indigenous-farmer-revives-climate.html",
-   "source": "Phys.org",
-   "topic": "Biology",
-   "date": "2026-11-15T13:40:08Z",
-   "summary": "Indigenous farmer Banu Ismahasan walks through a golden field of tall stalks in southeastern Taiwan, harvesting by hand the grain heads of an ancient crop resistant to extreme weather.",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/oil-millet-a-tradition.jpg",
-   "id": "50743857d154"
   },
   {
    "title": "Could brain energy mismatches explain altered experiences in schizophrenia?",
@@ -156,26 +141,6 @@
    "id": "c483ec2db561"
   },
   {
-   "title": "Scientists discover a bizarre paradox among endangered penguins",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261112230458.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-15T03:42:52Z",
-   "summary": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins. While one population has remained stable for decades, another has declined by more than 40%, apparently due to a…",
-   "image": "https://www.sciencedaily.com/images/1920/erect-crested-penguins.webp",
-   "id": "e9166ef1d741"
-  },
-  {
-   "title": "Dinosaurs may have been eating seaweed 100 million years ago",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-15T03:00:54Z",
-   "summary": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth. Researchers discovered chemical signatures suggesting that coastal…",
-   "image": "https://www.sciencedaily.com/images/1920/dinosaur-beach-seaweed.webp",
-   "id": "eb7e17bdccc6"
-  },
-  {
    "title": "AI discovers a hidden heart signal that could predict sudden death",
    "url": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm",
    "source": "ScienceDaily",
@@ -196,14 +161,24 @@
    "id": "789ab8670134"
   },
   {
-   "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
-   "url": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
-   "source": "Phys.org",
-   "topic": "Biology",
-   "date": "2026-11-14T22:00:01Z",
-   "summary": "The advance of urbanization in the São Paulo Metropolitan Area in Brazil is causing the collapse of food webs in local streams. A study published in August in the journal Nature Cities reveals that the impact of the metropolis goes far…",
-   "image": "https://scx2.b-cdn.net/gfx/news/2026/urban-expansion-causes.jpg",
-   "id": "1d9c84f2da72"
+   "title": "Creech shares advice on caring for children taking biologics",
+   "url": "https://www.healio.com/news/pediatrics/20261114/creech-shares-advice-on-caring-for-children-taking-biologics",
+   "source": "Healio Dermatology",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-14T22:06:02Z",
+   "summary": "NEW YORK — In this video from the Infectious Diseases in Children Symposium, C. Buddy Creech, MD, MPH, shares advice on tailoring preventive healthcare for children receiving biologic agents. The type of biologic agent — whether it is…",
+   "image": "https://www.healio.com/~/media/slack-news/pediatrics/video-og-images/creech-og-image.jpg?w=300",
+   "id": "84556aa901fe"
+  },
+  {
+   "title": "Prior authorization approvals for biologics take about a month",
+   "url": "https://www.healio.com/news/allergy-asthma/20261114/prior-authorization-biologic-approvals-take-about-a-month-in-pediatric-atopic-conditions",
+   "source": "Healio Dermatology",
+   "topic": "Medicines",
+   "date": "2026-11-14T18:46:02Z",
+   "summary": "PHOENIX — After prescribing a biologic to pediatric patients with atopic conditions, it took a mean of 32.7 days to receive prior authorization approval, according to data presented here. “For the everyday clinician, the main message is…",
+   "image": "https://www.healio.com/~/media/slack-news/allergy_asthma/infographics/2026/11_november/aa1126holland_acaai_ig1.jpg",
+   "id": "0279a0c57e91"
   },
   {
    "title": "ADHD's effects on breathing, perception and behavior",
@@ -256,6 +231,26 @@
    "id": "585971f35c97"
   },
   {
+   "title": "Technology: How AI is shaping the future of the perfume industry",
+   "url": "https://www.premiumbeautynews.com/en/technology-how-ai-is-shaping-the,28535",
+   "source": "Premium Beauty News",
+   "topic": "Medicines",
+   "date": "2026-11-14T15:41:00Z",
+   "summary": "There may be a hint of bergamot in the top notes and sweet iris as a follow-up, but there is a noticeable dose of Artificial Intelligence emerging in new perfumes, according to industry specialists. The traditional world of perfumes has…",
+   "image": "https://www.premiumbeautynews.com/IMG/logo/1050x600_adobestock_2099673894__iqbal_ia-2.jpg?1794757283",
+   "id": "2a955ac23908"
+  },
+  {
+   "title": "Technologie : Comment l'intelligence artificielle fait son nid en parfumerie",
+   "url": "https://www.premiumbeautynews.com/fr/technologie-comment-l-intelligence,28534",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-14T15:31:00Z",
+   "summary": "Bergamote en note de tête, iris pallida en note de cœur, algorithmes en note de fond... Dans le monde des parfums, l'intelligence artificielle s'est fait une place, accélérant la recherche et ouvrant de nouvelles pistes créatives. Avec la…",
+   "image": "",
+   "id": "20b3c128d881"
+  },
+  {
    "title": "Scientists find a simple daily routine linked to less pain and depression",
    "url": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
    "source": "ScienceDaily",
@@ -296,16 +291,6 @@
    "id": "8015affe541a"
   },
   {
-   "title": "Alaska laments decline of its prized salmon populations",
-   "url": "https://phys.org/news/2026-11-alaska-laments-decline-prized-salmon.html",
-   "source": "Phys.org",
-   "topic": "Biology",
-   "date": "2026-11-14T12:00:12Z",
-   "summary": "In his Alaskan community, fisherman Bob Candopoulos has long welcomed tourists to his business that's showcased by a sign featuring a king salmon.",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/some-fishermen-blame-i.jpg",
-   "id": "47395265f743"
-  },
-  {
    "title": "Yale scientists reveal what really slows aging and what doesn't",
    "url": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
    "source": "ScienceDaily",
@@ -316,23 +301,13 @@
    "id": "92373d046955"
   },
   {
-   "title": "The role of social relationships in scaling agricultural innovations: A dimension that remains underreported in research",
-   "url": "https://phys.org/news/2026-11-role-social-relationships-scaling-agricultural.html",
-   "source": "Phys.org",
-   "topic": "Biology",
-   "date": "2026-11-14T02:40:01Z",
-   "summary": "A study published in Frontiers in Sustainable Food Systems reveals that, although partnerships and institutional collaboration feature prominently in climate-oriented agricultural research, their relationship with the scaling of…",
-   "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/agriculture.jpg",
-   "id": "c1f000a56fec"
-  },
-  {
    "title": "Forcing yourself to smile can actually make you miserable",
    "url": "https://www.sciencedaily.com/releases/2026/11/261112025536.htm",
    "source": "ScienceDaily",
    "topic": "Hospitals and care",
    "date": "2026-11-14T01:50:58Z",
    "summary": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers…",
-   "image": "",
+   "image": "https://www.sciencedaily.com/images/1920/woman-with-fake-forced-smile.webp",
    "id": "5ea45c63c751"
   },
   {
@@ -342,18 +317,8 @@
    "topic": "Biology",
    "date": "2026-11-13T22:40:01Z",
    "summary": "Researchers at Penn Dental Medicine have uncovered a previously unknown molecular mechanism by which bacteria rapidly compromise the body's protective barriers, a finding that could reshape how scientists approach a wide range of serious…",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hidden-master-switch-a.jpg",
+   "image": "https://scx2.b-cdn.net/gfx/news/2026/hidden-master-switch-a.jpg",
    "id": "b49d4913a618"
-  },
-  {
-   "title": "STAT+: Enforcement of stringent Medicaid work requirements delayed for six months",
-   "url": "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-13T22:21:56Z",
-   "summary": "Enforcement of the Trump administration's stringent new Medicaid work requirements have been delayed for six months, until July 1, 2027.",
-   "image": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2282810874-1024x576.jpg",
-   "id": "acbac1dec4ba"
   },
   {
    "title": "'Planimal' cells retain nearly entire algal genome after experimental cell fusion",
@@ -376,14 +341,14 @@
    "id": "740de65f9d7f"
   },
   {
-   "title": "STAT+: Democrats coalesce around ‘Medicare for More,’ ‘Medikids’ proposals",
-   "url": "https://www.statnews.com/2026/11/13/democrats-eye-medicare-for-more-vs-medicare-for-all/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-13T21:46:05Z",
-   "summary": "Democrats are coalescing around a plan to offer Medicare to more Americans, if not all of them.",
-   "image": "https://www.statnews.com/wp-content/uploads/2026/11/AP26317628389286-1024x576.jpg",
-   "id": "3352826055c3"
+   "title": "Air pollution exposure tied to atopic dermatitis in children",
+   "url": "https://medicalxpress.com/news/2026-11-air-pollution-exposure-atopic-dermatitis.html",
+   "source": "Medical Xpress",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T21:40:04Z",
+   "summary": "Air pollution exposure is associated with increased atopic dermatitis (AD) prevalence in children, according to a review published online Nov. 9 in JAMA Pediatrics.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/air-pollution-exposure-2.jpg",
+   "id": "9cd17bd53773"
   },
   {
    "title": "Genomic analysis restores species status to 12 overlooked Great Barrier Reef corals",
@@ -416,54 +381,124 @@
    "id": "57516e208680"
   },
   {
-   "title": "A newly discovered South African dinosaur was a heavyweight even as a youngster",
-   "url": "https://phys.org/news/2026-11-newly-south-african-dinosaur-heavyweight.html",
-   "source": "Phys.org",
-   "topic": "Biology",
-   "date": "2026-11-13T20:20:04Z",
-   "summary": "It probably walked on two legs and weighed about 400 kilograms (880 pounds), despite still being a youngster. Meet Nyana rooiwalensis, a newly identified dinosaur species that lived more than 200 million years ago in what is now South…",
-   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-newly-discovered-sou-1.jpg",
-   "id": "3f17f893267c"
-  },
-  {
    "title": "Fruit fly sleep protein yields peptides that inhibit drug-resistant bacteria in lab tests",
    "url": "https://phys.org/news/2026-11-fruit-fly-protein-yields-peptides.html",
    "source": "Phys.org",
-   "topic": "Medicines",
+   "topic": "Biology",
    "date": "2026-11-13T19:40:04Z",
    "summary": "Researchers at University of Tsukuba and collaborating institutions have identified short antimicrobial peptides derived from Nemuri, a sleep-inducing protein in the fruit fly Drosophila melanogaster. The research is published in the…",
    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/drug-resistant-bacteri.jpg",
    "id": "4f5b20368ec0"
   },
   {
-   "title": "STAT+: Doctors have questions about the Watchman. Boston Scientific has a sales pitch.",
-   "url": "https://www.statnews.com/2026/11/13/investigation-boston-scientific-watchman-cardiac-implant-marketing-science/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Hospitals and care",
-   "date": "2026-11-13T17:55:00Z",
-   "summary": "The Boston Globe investigates if Boston Scientific's marketing of its cardiac implant, Watchman, outpaced the science.",
-   "image": "https://www.statnews.com/wp-content/uploads/2026/11/bs_screenshot5-1024x576.jpg",
-   "id": "913e9475dc40"
+   "title": "New genetic atlas reveals traces of 10,000 years of sheep breeding",
+   "url": "https://phys.org/news/2026-11-genetic-atlas-reveals-years-sheep.html",
+   "source": "Phys.org",
+   "topic": "Biology",
+   "date": "2026-11-13T19:20:06Z",
+   "summary": "For around 10,000 years, humans have selectively bred sheep for desirable traits. Generation after generation, we have chosen animals for their wool, size and reproductive characteristics and gradually left our mark on their DNA.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/sheep-2.jpg",
+   "id": "e7a6097edce1"
   },
   {
-   "title": "STAT+: Up and down the ladder: The latest comings and goings",
-   "url": "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-13T15:48:14Z",
-   "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-   "image": "https://www.statnews.com/wp-content/uploads/2021/03/Pharmalot_ComingGoing_STILL-1024x576.jpg",
-   "id": "27d35507d934"
+   "title": "Evolution found another way to build a primate brain",
+   "url": "https://phys.org/news/2026-11-evolution-primate-brain.html",
+   "source": "Phys.org",
+   "topic": "Biology",
+   "date": "2026-11-13T19:00:09Z",
+   "summary": "What makes the human brain so much larger and more complex than the brains of many other mammals? Scientists have long sought clues in our DNA. Some discoveries show how genetic changes enable the developing brain to produce more cells.…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/evolution-found-anothe.jpg",
+   "id": "6c3dbe167551"
   },
   {
-   "title": "STAT+: HHS plans funding for research into ibogaine for PTSD",
-   "url": "https://www.statnews.com/2026/11/13/biotech-news-hhs-funding-for-research-into-ibogaine-for-ptsd/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-13T15:25:46Z",
-   "summary": "The Trump administration will funnel up to $4.9 million into supporting research into ibogaine, a psychedelic that’s drawn interest as a potential treatment for PTSD and addiction.",
-   "image": "https://www.statnews.com/wp-content/uploads/2025/02/4096px-Dept_Health_and_Human_Services_HQ_sign_Washington_DC_2025-02-07_13-58-43_1-1024x576.jpg",
-   "id": "a2480a822e75"
+   "title": "Consider hormone therapy to improve menopause-related skin changes",
+   "url": "https://www.healio.com/news/dermatology/20261113/consider-hormone-therapy-to-improve-menopauserelated-skin-changes",
+   "source": "Healio Dermatology",
+   "topic": "Longevity",
+   "date": "2026-11-13T18:57:51Z",
+   "summary": "SAN DIEGO — Perimenopause and menopause can profoundly impact a woman’s skin and self-confidence and dermatologists must understand these hormonal shifts before starting any treatment, according to a speaker. Menopausal women often…",
+   "image": "https://www.healio.com/~/media/slack-news/dermatology/misc/infographics/2026/11_november/derm1126asds_fabi_graphic_01.jpg?w=300",
+   "id": "a3ce76622e3e"
+  },
+  {
+   "title": "Clariant innove en matière de solaires hybrides à in-cosmetics Asia",
+   "url": "https://www.premiumbeautynews.com/fr/clariant-innove-en-matiere-de,28539",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T17:46:00Z",
+   "summary": "Clariant a dévoilé trois nouveaux ingrédients pour soins personnels lors du salon in-cosmetics Asia, qui s'est tenu du 3 au 5 novembre à Bangkok, en Thaïlande. Le fabricant d'ingrédients cosmétiques a présenté une série d'innovations…",
+   "image": "",
+   "id": "7336d879aa78"
+  },
+  {
+   "title": "Clariant puts hybrid sun care innovation in the spotlight at in-cosmetics Asia",
+   "url": "https://www.premiumbeautynews.com/en/clariant-puts-hybrid-sun-care,28537",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T17:42:00Z",
+   "summary": "Clariant has unveiled three new personal care ingredients at the in-cosmetics Asia trade show, which took place November 3-5 in Bangkok, Thailand. The manufacturer of personal care ingredients exhibited a portfolio of innovations…",
+   "image": "",
+   "id": "0b3c318bede1"
+  },
+  {
+   "title": "Scent Taipei 2027 puts Taiwan's growing fragrance market in the spotlight",
+   "url": "https://www.premiumbeautynews.com/en/scent-taipei-2027-puts-taiwan-s,28538",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T17:18:00Z",
+   "summary": "Returning from March 26 to 29, 2027, alongside Beautyworld Taipei, Scent Taipei will expand its showcase of international and local fragrance brands, offering a platform to explore opportunities in Taiwan's fast-evolving scent market. As…",
+   "image": "",
+   "id": "d1ffc5a7e7e6"
+  },
+  {
+   "title": "La 12e édition de Cosmetic 360 a réuni 5700 visiteurs et 260 exposants",
+   "url": "https://www.premiumbeautynews.com/fr/la-12e-edition-de-cosmetic-360-a,28536",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T16:45:00Z",
+   "summary": "Les 14 et 15 octobre 2026, Cosmetic 360 a accueilli plus de 5700 visiteurs au Carrousel du Louvre, à Paris. Organisée par Cosmetic Valley, cette 12e édition du salon international dédié à l'innovation dans la parfumerie-cosmétique a…",
+   "image": "",
+   "id": "ea20b09acd3b"
+  },
+  {
+   "title": "CeraVe named ‘official moisturiser of Arrakis’ with Dune Part Three film tie-up",
+   "url": "https://www.cosmeticsbusiness.com/cerave-named-official-moisturiser-of-arrakis-with-dune",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T16:21:00Z",
+   "summary": "In its first film partnership, CeraVe’s Dune Part Three activations will roll out globally ahead of the film’s release in December",
+   "image": "",
+   "id": "da25031e70a4"
+  },
+  {
+   "title": "‘Give back to yourself’: Flourishing as a provider",
+   "url": "https://www.healio.com/news/primary-care/20261113/give-back-to-yourself-flourishing-as-a-provider",
+   "source": "Healio Dermatology",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T15:52:44Z",
+   "summary": "ORLANDO — Self-care can help healthcare providers truly flourish, according to a speaker here. In her keynote presentation at the annual ACLM conference, Dawn Mussallem, DO, DipABLM, chief medical officer of Fountain Life in Jacksonville…",
+   "image": "https://www.healio.com/~/media/slack-news/stock-images/fm_im/d/diverse-group-of-health-care-professionals-talking.jpeg?w=300",
+   "id": "f4f92ef60d50"
+  },
+  {
+   "title": "Asking the right questions: How to design fairer, more rigorous observational studies",
+   "url": "https://www.healio.com/news/dermatology/20261113/asking-the-right-questions-how-to-design-fairer-more-rigorous-observational-studies",
+   "source": "Healio Dermatology",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T15:37:46Z",
+   "summary": "Observational studies remain a valuable way to assess real-world relationships and long-term outcomes, but confounding variables, selection bias and poor design can make for spurious associations that perpetuate misinformation. The most…",
+   "image": "https://www.healio.com/~/media/slack-news/dermatology/misc/infographics/2026/11_november/derm1125dpecmitraqaog.jpg?w=300",
+   "id": "5598cbc0487a"
+  },
+  {
+   "title": "Oregon logs its first H5N1 case in cows; farmers' union says human avian flu cases underreported in Washington",
+   "url": "https://phys.org/news/2026-11-oregon-h5n1-case-cows-farmers.html",
+   "source": "Phys.org",
+   "topic": "Biology",
+   "date": "2026-11-13T15:20:14Z",
+   "summary": "Earlier this week, the U.S. Department of Agriculture's Animal and Plant Health Inspection Service (USDA's APHIS) announced the first detection of H5N1 avian flu in a dairy herd in Oregon.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/dairy-herd.jpg",
+   "id": "ccae4f22f65a"
   },
   {
    "title": "Opinion: New organ donation rules are unfair to families",
@@ -486,24 +521,24 @@
    "id": "612cd86d1c03"
   },
   {
-   "title": "STAT+: Pharmalittle: We’re reading about Lilly conflict questions, a DEA OK for a narcolepsy pill, and more",
-   "url": "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-13T14:33:16Z",
-   "summary": "A deal for smart-ring maker Oura to acquire a telehealth company is raising conflict-of-interest questions for Eli Lilly",
-   "image": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg",
-   "id": "226b7a2cc0d4"
+   "title": "Microscopic solar panels could help shape 3D-printed biological tissue",
+   "url": "https://phys.org/news/2026-11-microscopic-solar-panels-3d-biological.html",
+   "source": "Phys.org",
+   "topic": "Biology",
+   "date": "2026-11-13T14:20:04Z",
+   "summary": "Bioprinting uses living cells and molecular signals to produce biological tissues and even whole organs, building them layer by layer in the lab. To keep the bioink, or blend of cells and materials that power this printing, correctly…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/microscopic-solar-pane.jpg",
+   "id": "3a261bd994d2"
   },
   {
-   "title": "STAT+: Senators introduce bill to curb conflicts of interest on preventive care panel",
-   "url": "https://www.statnews.com/2026/11/13/uspstf-preventive-care-panel-senators-target-conflicts-of-interest/?utm_campaign=rss",
-   "source": "STAT",
-   "topic": "Medicines",
-   "date": "2026-11-13T14:00:00Z",
-   "summary": "Some of the panel's members could benefit financially from the decisions they make, STAT's reporting showed.",
-   "image": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2250612428-1024x576.jpg",
-   "id": "2ea842bd9c73"
+   "title": "Experts weigh in on liability over AI use in healthcare",
+   "url": "https://www.healio.com/news/nephrology/20261113/experts-weigh-in-on-liability-over-ai-use-in-healthcare",
+   "source": "Healio Dermatology",
+   "topic": "Hospitals and care",
+   "date": "2026-11-13T14:01:41Z",
+   "summary": "ORLANDO — Developers, hospital systems and clinicians may be liable when AI makes a mistake, although the ultimate decision about legal accountability will be determined in court, according to experts at AIMed26. In a panel discussion, Leo…",
+   "image": "https://www.healio.com/~/media/slack-news/stock-images/general/a/ai-worker-touch.jpg?w=300",
+   "id": "2840066f98a0"
   },
   {
    "title": "The future of heart drug research in the wake of study setbacks",
@@ -514,6 +549,16 @@
    "summary": "What does the failure of two closely watched heart disease medicines mean for the future of drug research in the field? Find out on this week's episode of \"The Readout…",
    "image": "https://www.statnews.com/wp-content/uploads/2024/07/ROL_Rectangle-1024x576.jpg",
    "id": "cc29162f7941"
+  },
+  {
+   "title": "Wider daily temperature ranges linked to stronger fevers in amphibians and reptiles",
+   "url": "https://phys.org/news/2026-11-wider-daily-temperature-ranges-linked.html",
+   "source": "Phys.org",
+   "topic": "Biology",
+   "date": "2026-11-13T13:00:05Z",
+   "summary": "When amphibians and reptiles get an infection, they sometimes raise their body temperature above its usual level by moving to a warmer environment. This well-documented behavioral response is known as behavioral fever.",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/wider-daily-temperatur.jpg",
+   "id": "00d8217ce521"
   },
   {
    "title": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
@@ -536,6 +581,36 @@
    "id": "18469747e998"
   },
   {
+   "title": "How a multidrug-resistant bacterial clone emerged, evolved and disappeared in a hospital",
+   "url": "https://phys.org/news/2026-11-multidrug-resistant-bacterial-clone-emerged.html",
+   "source": "Phys.org",
+   "topic": "Biology",
+   "date": "2026-11-13T12:40:05Z",
+   "summary": "Vancomycin-resistant Enterococcus faecium is listed by the World Health Organization as one of the highest-priority bacteria in its 2024 Bacterial Priority Pathogens List, ahead of MRSA, due to its ability to transfer resistance genes…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2018/2-hospital.jpg",
+   "id": "17394bbf53e2"
+  },
+  {
+   "title": "e.l.f. Beauty targets 50% clean electricity use in product manufacturing by 2032",
+   "url": "https://www.cosmeticsbusiness.com/e-l-f-beauty-targets-50-clean-electricity-use-2032",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T12:25:00Z",
+   "summary": "The company’s 50% clean electricity goal for 2032 was reported in e.l.f. Beauty’s new impact report, which details how the owner of Hailey Bieber’sRhode is making an environmental and social impact",
+   "image": "",
+   "id": "cf437d4b0ee5"
+  },
+  {
+   "title": "Cosmetics Business picks: 7 need-to-know beauty launches for November",
+   "url": "https://www.cosmeticsbusiness.com/cb-picks-7-new-beauty-launches-nov26",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T12:24:00Z",
+   "summary": "New fragrances by Orebella and Parfums de Marly, Loewe’s The Nightmare Before Christmas collections and Amika and The Nue Co’s entries into body care are among this week’s best new beauty launches",
+   "image": "",
+   "id": "86632078fd29"
+  },
+  {
    "title": "Stopping statins after 70 may be safer than expected, but there's a catch",
    "url": "https://www.sciencedaily.com/releases/2026/11/261112025534.htm",
    "source": "ScienceDaily",
@@ -544,6 +619,26 @@
    "summary": "A major study of nearly 1,900 older adults suggests that stopping statins after age 70 may be relatively safe in the short term for people who have never experienced a heart attack or stroke. However, a higher rate of serious…",
    "image": "",
    "id": "28f98ae760de"
+  },
+  {
+   "title": "Dermatologists top Gen Z’s most-trusted list for skin care advice",
+   "url": "https://www.cosmeticsbusiness.com/dermatologists-top-gen-z-s-most-trusted-list",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T12:11:00Z",
+   "summary": "A survey by tele-dermatology service Curology of nearly 2,000 skin care purchasers aged 13 to 29 found that 43% named dermatologists as their most trusted skin care source",
+   "image": "",
+   "id": "d3b7019e27a6"
+  },
+  {
+   "title": "Unilever calls for more government action on electrification at COP31",
+   "url": "https://www.cosmeticsbusiness.com/unilever-calls-for-more-government-action-on-electrification",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-13T11:27:00Z",
+   "summary": "Unilever has joined the We Mean Business Coalition’s new Electric Advantage Leadership Alliance at COP31, taking place in Antalya, Türkiye, bringing together business leaders working to accelerate the shift to electrification",
+   "image": "",
+   "id": "77068577655a"
   },
   {
    "title": "NHS statement on Microsoft outage",
@@ -564,6 +659,46 @@
    "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those…",
    "image": "",
    "id": "04ab322d24b7"
+  },
+  {
+   "title": "Senator-elect Abdul El-Sayed on restoring trust in science, the state of public health, and RFK Jr.",
+   "url": "https://www.statnews.com/2026/11/13/senator-abdul-el-sayed-interview-public-health-rfk-jr-trust-in-science/?utm_campaign=rss",
+   "source": "STAT",
+   "topic": "Medicines",
+   "date": "2026-11-13T09:30:00Z",
+   "summary": "Senator-elect Abdul El-Sayed talks to STAT about restoring trust in science, the state of public health, and RFK Jr.",
+   "image": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2304299477-1024x576.jpg",
+   "id": "8dd37dd72d4b"
+  },
+  {
+   "title": "5 takeaways from STAT’s investigation of the sprawling ‘three-parent IVF’ industry",
+   "url": "https://www.statnews.com/2026/11/13/fertility-tourism-5-takeaways-mrt-investigation/?utm_campaign=rss",
+   "source": "STAT",
+   "topic": "Hospitals and care",
+   "date": "2026-11-13T09:30:00Z",
+   "summary": "A STAT investigation of the fertility tourism industry found that clinics are offering an unproven IVF procedure to older women. Here are 5 takeaways from the investigation.",
+   "image": "https://www.statnews.com/wp-content/uploads/2026/10/DSCF5525-1024x576.jpg",
+   "id": "d67928a276aa"
+  },
+  {
+   "title": "Opinion: STAT+: ‘What will I do with the time I have left?’: What it’s like to find out you might develop Alzheimer’s",
+   "url": "https://www.statnews.com/2026/11/13/alzheimers-disease-biomarker-tests-psychological-legal-challenges/?utm_campaign=rss",
+   "source": "STAT",
+   "topic": "Longevity",
+   "date": "2026-11-13T09:30:00Z",
+   "summary": "“What people fear isn’t the end of life, the demise of the animated body, but the demise of the mind,” writes Jason Karlawish.",
+   "image": "https://www.statnews.com/wp-content/uploads/2025/09/Neurotransmissions_Illustration_MollyFerguson_091925-1024x576.jpg",
+   "id": "2b879fb6402b"
+  },
+  {
+   "title": "Across the U.S., homegrown experiments aim to save kids from their phones",
+   "url": "https://www.statnews.com/2026/11/13/phone-addiction-young-people-fight-back-attention-activism/?utm_campaign=rss",
+   "source": "STAT",
+   "topic": "Medicines",
+   "date": "2026-11-13T09:30:00Z",
+   "summary": "As researchers struggle to understand phone addiction, young people are finding ways to reclaim their attention and push back against Big Tech.",
+   "image": "https://www.statnews.com/wp-content/uploads/2026/11/DisConnect_021-1024x576.jpg",
+   "id": "dbd599ba0550"
   },
   {
    "title": "Vaccines could be a new frontier in KRAS targeting",
@@ -606,6 +741,16 @@
    "id": "ec5852676e8b"
   },
   {
+   "title": "Q&A: Can combining two diets help prolong life?",
+   "url": "https://www.healio.com/news/primary-care/20261112/qa-can-combining-two-diets-help-prolong-life",
+   "source": "Healio Dermatology",
+   "topic": "Longevity",
+   "date": "2026-11-12T19:11:36Z",
+   "summary": "ORLANDO — A scientific diet joining two popular patterns could be helpful for longevity, according to a speaker at the American College of Lifestyle Medicine annual meeting. Valter Longo, PhD, the Edna Jones Professor of Gerontology and a…",
+   "image": "https://www.healio.com/~/media/slack-news/fm_im/misc/infographics/2026/11_november/pc1126longo_graphic_01_web.jpg?w=300",
+   "id": "e42c95647b1d"
+  },
+  {
    "title": "Pink noise played during sleep shows promise for Alzheimer’s memory loss",
    "url": "https://www.newscientist.com/article/2598656-pink-noise-played-during-sleep-shows-promise-for-alzheimers-memory-loss/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
    "source": "New Scientist",
@@ -614,6 +759,26 @@
    "summary": "There is some evidence that pink noise signals can boost the brain's ability to clear out waste products. Now there are some indications that this might improve memory performance in people with Alzheimer's",
    "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320287222.jpg",
    "id": "2e3e1a11a8f9"
+  },
+  {
+   "title": "Toly and Eastman introduce Gemini, a new standard in sustainable luxury packaging",
+   "url": "https://www.cosmeticsbusiness.com/toly-and-eastman-introduce-gemini-a-new-standard",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T16:28:00Z",
+   "summary": "Cosmetics compact from Toly is the first to feature Eastman Cristal™ One Renew IM812",
+   "image": "",
+   "id": "8063987f4f95"
+  },
+  {
+   "title": "Eight specialty PET resins from Eastman receive RecyClass Approval",
+   "url": "https://www.cosmeticsbusiness.com/eight-specialty-pet-resins-from-eastman-receive-recyclass",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T16:28:00Z",
+   "summary": "Eastman copolyester resins earn RecyClass Approval, with six grades fully compatible with Europe's PET bottle recycling processes",
+   "image": "",
+   "id": "e7419b6a44ba"
   },
   {
    "title": "A little-known immune condition is being mistaken for food allergies",
@@ -626,14 +791,74 @@
    "id": "34e6e618d16a"
   },
   {
-   "title": "Crows can make decisions twice as fast as humans, scientists discover",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-12T12:17:19Z",
-   "summary": "Crows may be even smarter than we thought, and their brains are astonishingly fast. Researchers at the University of Tübingen discovered that crows can make visual decisions twice as quickly as humans and monkeys, taking just 235…",
+   "title": "Sol de Janeiro teams up with Brazilian racing driver Aurelia Nobels",
+   "url": "https://www.premiumbeautynews.com/en/sol-de-janeiro-teams-up-with,28531",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T15:11:00Z",
+   "summary": "Sol de Janeiro has partnered with rising Brazilian racing driver Aurelia Nobels to launch Aurelia Perfume Mist , a limited-edition fragrance inspired by her Brazilian roots and the adrenaline of motorsport. A rising talent in motorsport…",
    "image": "",
-   "id": "f9f6b92afbc1"
+   "id": "5ad1c9d7bce3"
+  },
+  {
+   "title": "Study finds link between eczema and sleep problems in kids",
+   "url": "https://medicalxpress.com/news/2026-11-link-eczema-problems-kids.html",
+   "source": "Medical Xpress",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T15:01:17Z",
+   "summary": "A new study presented at the 2026 Annual Scientific Meeting of the American College of Allergy, Asthma and Immunology (ACAAI) adds evidence that atopic dermatitis (also known as eczema) in children is associated with sleep disturbance. The…",
+   "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/sleep-problems-in-kids.jpg",
+   "id": "eb056d3faf9b"
+  },
+  {
+   "title": "PPWR compliance for cosmetics: what to ask your manufacturer",
+   "url": "https://www.cosmeticsbusiness.com/ppwr-compliance-for-cosmetics-what-to-ask-your",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T14:37:00Z",
+   "summary": "As the EU Packaging and Packaging Waste Regulation begins to reshape cosmetics packaging, having a manufacturer that follows the legislation closely is becoming a practical advantage",
+   "image": "",
+   "id": "6aa4c749c4ad"
+  },
+  {
+   "title": "Activon introduces magnolia-derived actives for next-generation skincare",
+   "url": "https://www.cosmeticsbusiness.com/activon-introduces-magnolia-derived-actives-for-next-generation",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T14:11:00Z",
+   "summary": "Harnessing the natural power of magnolia for antimicrobial protection and skin benefits",
+   "image": "",
+   "id": "5ecbc0438280"
+  },
+  {
+   "title": "Are we going back to the 2000s celebrity fragrance wardrobe era?",
+   "url": "https://www.cosmeticsbusiness.com/return-to-the-2000s-celebrity-fragrance-wardrobe",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T12:33:00Z",
+   "summary": "With a plethora of celebrities entering fragrance, from rappers Megan Thee Stallion and Ice Spice to singer Tate McRae, perfume collections are beginning to reflect the A-list-founded wardrobes of the early 2000s. But can celebrity…",
+   "image": "",
+   "id": "e2e4f5ba46ae"
+  },
+  {
+   "title": "Are we nearing peak K-beauty? Industry experts weigh in…",
+   "url": "https://www.cosmeticsbusiness.com/k-beauty-nearing-peak-fatigue-industry-experts-views",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T12:29:00Z",
+   "summary": "With K-beauty brands entering numerous US retailers, and Western brands tapping into innovation from Korea – from packaging to ingredients – Cosmetics Business asked industry experts if we are nearing K-beauty saturation, and where the…",
+   "image": "",
+   "id": "ff61dde1afc6"
+  },
+  {
+   "title": "Symrise names Martin Huber new CFO to support ‘next phase of durable growth’",
+   "url": "https://www.cosmeticsbusiness.com/symrise-names-martin-huber-new-cfo-to-support",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T12:23:00Z",
+   "summary": "Former Aryzta and Nestlé executive, Martin Huber, will succeed Olaf Klinger as CFO of Symrise from 1 April 2027",
+   "image": "",
+   "id": "c8fb8c4e92d2"
   },
   {
    "title": "AI-powered bionic eye breakthrough could help the blind see again",
@@ -654,6 +879,16 @@
    "summary": "Researchers have discovered that a familiar tropical butterfly actually belongs to three nearly identical species, including one previously unknown to science. Hidden ultraviolet wing patterns and DNA differences revealed the truth…",
    "image": "",
    "id": "6f227a931927"
+  },
+  {
+   "title": "CEW France : Qui sont les gagnants de l'édition 2026 des Achiever Awards ?",
+   "url": "https://www.premiumbeautynews.com/fr/cew-france-qui-sont-les-gagnants,28530",
+   "source": "Premium Beauty News",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T10:47:00Z",
+   "summary": "Le CEW France a célébré son 40e anniversaire le 4 novembre 2026 avec une édition spéciale de ses Achiever Awards, qui récompensent chaque année des personnalités marquantes du monde de la cosmétique et du parfum. Pour cette édition…",
+   "image": "",
+   "id": "6532c94dcfd7"
   },
   {
    "title": "NHS elective performance at 5-year high amid record demand",
@@ -679,7 +914,7 @@
    "title": "NHS fast tracks rollout of first ever targeted treatment for anal cancer",
    "url": "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/",
    "source": "NHS England",
-   "topic": "Medicines",
+   "topic": "Hospitals and care",
    "date": "2026-11-12T00:01:27Z",
    "summary": "NHS patients living with advanced anal cancer can now benefit from a new life-extending treatment, hailed by the NHS’s top cancer doctor as “one of the most significant steps in decades” for people with the disease. The NHS rollout follows…",
    "image": "",
@@ -694,236 +929,6 @@
    "summary": "Nature Medicine, Published online: 12 November 2026; doi:10.1038/s41591-026-04784-x The evidence available to support the treatment of obesity in children and adolescents is insufficient and requires rapid improvement.",
    "image": "",
    "id": "aff3854ff21f"
-  },
-  {
-   "title": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial",
-   "url": "https://www.nature.com/articles/s41591-026-04712-z",
-   "source": "Nature Medicine",
-   "topic": "Biology",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Medicine, Published online: 12 November 2026; doi:10.1038/s41591-026-04712-z In a prespecified companion study (BMT CTN 1801) of the randomized phase 3 BMT CTN 1703 trial comparing two common GVHD prophylaxis regimens, microbiome…",
-   "image": "",
-   "id": "b623b764d74b"
-  },
-  {
-   "title": "Social factors shape health as we age",
-   "url": "https://www.nature.com/articles/s43587-026-01291-z",
-   "source": "Nature Aging",
-   "topic": "Longevity",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01291-z Our knowledge that social factors can influence health is abundant and has shaped research and policy across medicine, public health and society for decades.…",
-   "image": "",
-   "id": "57f77a0f148b"
-  },
-  {
-   "title": "When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
-   "url": "https://www.nature.com/articles/s43587-026-01266-0",
-   "source": "Nature Aging",
-   "topic": "Longevity",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01266-0 When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
-   "image": "",
-   "id": "f9903372a2fa"
-  },
-  {
-   "title": "Scaling productive aging to mitigate cumulative disadvantage",
-   "url": "https://www.nature.com/articles/s43587-026-01174-3",
-   "source": "Nature Aging",
-   "topic": "Longevity",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01174-3 Productive engagement among older adults — which spans employment, volunteering and family caregiving — functions as a multidimensional driver of healthspan…",
-   "image": "",
-   "id": "24fe015556d0"
-  },
-  {
-   "title": "To understand how social factors shape aging, we need to measure trajectories rather than states",
-   "url": "https://www.nature.com/articles/s43587-026-01205-z",
-   "source": "Nature Aging",
-   "topic": "Longevity",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01205-z To understand how social disadvantage becomes biologically embedded, aging research must move beyond one-time assessments and instead track continuous…",
-   "image": "",
-   "id": "a1ea546318a5"
-  },
-  {
-   "title": "Environmental health resilience and exposure reduction for healthy aging and longevity",
-   "url": "https://www.nature.com/articles/s43587-026-01231-x",
-   "source": "Nature Aging",
-   "topic": "Longevity",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01231-x Ji et al. define environmental health resilience factors such as green spaces, age-friendly design and climate-resilient infrastructure as modifiers of…",
-   "image": "",
-   "id": "a56cac83b005"
-  },
-  {
-   "title": "Animal models illuminate causal mechanisms of social determinants of aging to advance experimental social geroscience",
-   "url": "https://www.nature.com/articles/s43587-026-01144-9",
-   "source": "Nature Aging",
-   "topic": "Longevity",
-   "date": "2026-11-12T00:00:00Z",
-   "summary": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01144-9 Social gradients in aging are well known, but their biological basis remains unclear. Bartolomucci and colleagues discuss data from animal models revealing…",
-   "image": "",
-   "id": "642c2984acdd"
-  },
-  {
-   "title": "Scientists discover that necks didn't evolve for the reason we thought",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261108233101.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-11T23:49:03Z",
-   "summary": "Scientists have discovered that the first animals to venture onto land nearly 380 million years ago had surprisingly stiff necks, overturning a long-standing theory about evolution. Rather than evolving to help animals turn their heads…",
-   "image": "",
-   "id": "e99a3aace497"
-  },
-  {
-   "title": "Blood-thinning drug limits cartilage damage and relieves osteoarthritis pain",
-   "url": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
-   "source": "New Scientist",
-   "topic": "Medicines",
-   "date": "2026-11-11T19:00:00Z",
-   "summary": "A study in animals suggests a drug used to thin blood might eventually be able to slow down the development of osteoarthritis. Currently, there are no approved drugs capable of doing this",
-   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320300237.jpg",
-   "id": "4a54635f8611"
-  },
-  {
-   "title": "Revised approach for assessing obesity improves on BMI",
-   "url": "https://www.newscientist.com/article/2598510-revised-approach-for-assessing-obesity-improves-on-bmi/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
-   "source": "New Scientist",
-   "topic": "Medicines",
-   "date": "2026-11-11T16:00:00Z",
-   "summary": "Using data from more than 800,000 people, researchers have tested a system that can identify those with obesity who would benefit from treatment, and those who don't require intervention",
-   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320275831.jpg",
-   "id": "3efc2c1fff40"
-  },
-  {
-   "title": "Energy drinks linked to 11 times more reports of cardiac arrest",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261110042543.htm",
-   "source": "ScienceDaily",
-   "topic": "Medicines",
-   "date": "2026-11-11T13:10:51Z",
-   "summary": "A new study found that energy drinks and stimulant supplements were linked to disproportionately frequent reports of serious heart problems, including 11 times more reports of cardiac arrest and 4.5 times more reports of heart attacks.…",
-   "image": "",
-   "id": "5fec164962b8"
-  },
-  {
-   "title": "Obesity linked to up to 27% lower risk of death in dementia",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261109205401.htm",
-   "source": "ScienceDaily",
-   "topic": "Longevity",
-   "date": "2026-11-11T12:59:57Z",
-   "summary": "A surprising study of more than 4,500 older adults found that people who were overweight or obese when diagnosed with dementia had a 16% to 27% lower risk of death than those at a normal weight. Researchers suspect that extra energy and…",
-   "image": "",
-   "id": "411dd4be4502"
-  },
-  {
-   "title": "The mystery of how hair knows where to grow may finally be solved",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-11T12:48:30Z",
-   "summary": "Scientists have discovered that the intricate patterns of hair follicles on mammals may arise from a remarkably simple process involving cells following chemical signals. The findings challenge a long-standing theory and reveal how nature…",
-   "image": "",
-   "id": "24dbfecdedf2"
-  },
-  {
-   "title": "Cancer-fighting chewing gum slashes HPV levels by up to 93%",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261108203832.htm",
-   "source": "ScienceDaily",
-   "topic": "Medicines",
-   "date": "2026-11-11T04:27:12Z",
-   "summary": "A surprising new weapon against microbes linked to head and neck cancer could be as simple as chewing gum. Scientists developed a bioengineered gum that reduced HPV levels by up to 93% in oral samples from cancer patients and nearly…",
-   "image": "",
-   "id": "f453af46668b"
-  },
-  {
-   "title": "Even occasional marijuana use linked to 40% higher odds of stroke",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261110042539.htm",
-   "source": "ScienceDaily",
-   "topic": "Medicines",
-   "date": "2026-11-11T03:47:25Z",
-   "summary": "New research involving more than 440,000 Americans links cannabis use to increased cardiovascular risk, with occasional users showing 40% higher odds of reporting a history of stroke. The findings suggest that even infrequent marijuana use…",
-   "image": "",
-   "id": "a12ff6eb2b99"
-  },
-  {
-   "title": "Scientists discover why some mosquitoes love you and others don't",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm",
-   "source": "ScienceDaily",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-11T02:21:13Z",
-   "summary": "A surprising new study reveals that mosquitoes have very different tastes in humans, with each species attracted to its own combination of skin odors, chemicals, and bacteria. The discovery challenges the idea of a universal mosquito…",
-   "image": "",
-   "id": "8e2d9cd3d011"
-  },
-  {
-   "title": "Scientists discover a giant 66-pound rodent that lived 34 million years ago",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-11T01:36:04Z",
-   "summary": "Scientists have uncovered fossils of a giant rodent that lived in Thailand 34 million years ago, revealing that enormous rodents evolved much earlier than previously thought. Named Yakamys sirindhornae, the ancient animal may have weighed…",
-   "image": "",
-   "id": "9286d32c7235"
-  },
-  {
-   "title": "237-million-year-old fossils reveal a bizarre armored sea amphibian",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-11T00:59:32Z",
-   "summary": "A bizarre, heavily armored amphibian roamed the oceans 237 million years ago, despite the fact that modern amphibians cannot survive entirely in saltwater. Discovered in China, the giant salamander-sized creature may be the first known…",
-   "image": "",
-   "id": "07e631b1d71d"
-  },
-  {
-   "title": "Lessons from recent investigator-initiated trials of gene-editing therapies in China",
-   "url": "https://www.nature.com/articles/s41591-026-04768-x",
-   "source": "Nature Medicine",
-   "topic": "Biology",
-   "date": "2026-11-11T00:00:00Z",
-   "summary": "Nature Medicine, Published online: 11 November 2026; doi:10.1038/s41591-026-04768-x Several deaths during trials of experimental cell and gene therapies in China appear to reveal gaps in governance and oversight. A new layer of independent…",
-   "image": "",
-   "id": "e6e33c8f7942"
-  },
-  {
-   "title": "Normalized membrane ratio of TROP2 as a predictor of clinical outcomes with datopotamab deruxtecan in non-small-cell lung cancer",
-   "url": "https://www.nature.com/articles/s41591-026-04716-9",
-   "source": "Nature Medicine",
-   "topic": "Biology",
-   "date": "2026-11-11T00:00:00Z",
-   "summary": "Nature Medicine, Published online: 11 November 2026; doi:10.1038/s41591-026-04716-9 This work developed and validated a computational pathology biomarker—the TROP2 normalized membrane ratio—that quantifies subcellular TROP2 localization…",
-   "image": "",
-   "id": "76f0c76adf97"
-  },
-  {
-   "title": "What terrifying sleep paralysis demons reveal about the mind-body connection",
-   "url": "https://www.newscientist.com/article/2596521-what-terrifying-sleep-paralysis-demons-reveal-about-the-mind-body-connection/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
-   "source": "New Scientist",
-   "topic": "Hospitals and care",
-   "date": "2026-11-10T16:00:00Z",
-   "summary": "After waking with the feeling of a shadowy presence pressing on his chest, neuroscientist Baland Jalal went on to study sleep paralysis. He explains what this frightening condition might reveal about consciousness",
-   "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI319166576.jpg",
-   "id": "b71f929e8faf"
-  },
-  {
-   "title": "Eating less protein could slow aging, review of 350 studies finds",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261108203714.htm",
-   "source": "ScienceDaily",
-   "topic": "Longevity",
-   "date": "2026-11-10T12:48:16Z",
-   "summary": "A major review of more than 350 studies suggests that eating less protein could slow aging, improve metabolic health, and potentially extend lifespan, challenging the widespread belief that more protein is always better. Researchers warn…",
-   "image": "",
-   "id": "c421b6f8d13b"
-  },
-  {
-   "title": "Paleontologists discover “one-in-a-million” fossil with 450-million-year-old soft tissue",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261105085201.htm",
-   "source": "ScienceDaily",
-   "topic": "Biology",
-   "date": "2026-11-10T12:16:08Z",
-   "summary": "Scientists have discovered a remarkably preserved 450-million-year-old fossil containing soft tissues from an ancient starfish relative, revealing unexpected details about marine life more than 200 million years before dinosaurs existed.…",
-   "image": "",
-   "id": "29974185b4d6"
   }
  ]
 }
