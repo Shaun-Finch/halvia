@@ -40,10 +40,16 @@ FEEDS = [
     ('Nature Aging', 'https://www.nature.com/nataging.rss', 'Longevity'),
     ('New Scientist', 'https://www.newscientist.com/subject/health/feed/', 'Hospitals and care'),
     ('MIT Technology Review', 'https://www.technologyreview.com/topic/biotechnology/feed', 'Biology'),
+    # cosmetics, aesthetics and skin
+    ('Medical Xpress', 'https://medicalxpress.com/rss-feed/dermatology-news/', 'Cosmetics and skin'),
+    ('Dermatology Times', 'https://www.dermatologytimes.com/rss', 'Cosmetics and skin'),
+    ('Cosmetics Business', 'https://www.cosmeticsbusiness.com/rss', 'Cosmetics and skin'),
+    ('Premium Beauty News', 'https://www.premiumbeautynews.com/spip.php?page=backend', 'Cosmetics and skin'),
+    ('Healio Dermatology', 'https://www.healio.com/sws/feed/news/dermatology', 'Cosmetics and skin'),
 ]
 # topic words, checked in this order; the first match sets the story's topic
 TOPICS = [
-    ('Cosmetics and skin', r'\b(skin|dermat\w*|cosmetic\w*|botox|wrinkles?|acne|eczema|psoriasis|sunscreen|fillers?|aesthetic\w*|hair loss|melanoma|collagen|scars?)\b'),
+    ('Cosmetics and skin', r'\b(skin ?care|skin (ageing|aging|cancer|condition|disease|health|barrier|cells?)|dermat\w*|cosmetic\w*|botox|botulinum|wrinkles?|acne|eczema|psoriasis|rosacea|sunscreens?|spf|dermal fillers?|aesthetic (medicine|treatments?|clinics?)|hair loss|alopecia|melanoma|collagen|scars?|beauty|anti-ageing|anti-aging|retinoids?|hyaluronic)\b'),
     ('Longevity', r'\b(ageing|aging|longevity|lifespan|healthspan|older adults|elderly|senescen\w*|dementia|alzheimer\w*|menopause|frailty|centenarians?|biological age)\b'),
     ('Medicines', r'\b(drugs?|medications?|medicines?|vaccines?|antibiotics?|doses?|dosing|clinical trials?|fda|mhra|nice|pharma\w*|prescri\w*|glp-1|ozempic|wegovy|semaglutide|tirzepatide|chemotherapy|immunotherapy|gene therapy|treatments?)\b'),
     ('Hospitals and care', r'\b(hospitals?|nhs|patients?|clinics?|nurses?|nursing|doctors?|gps?|surgeons?|surgery|emergency|icu|intensive care|care homes?|waiting lists?|ambulance|primary care|health systems?|staff|workforce|diagnos\w*|screening)\b'),
@@ -53,6 +59,18 @@ TOPICS = [(t, re.compile(rx, re.I)) for t, rx in TOPICS]
 # physics, space, energy and gadget stories are left out unless the headline is clearly about health
 NOT_HEALTH = re.compile(r'\b(black holes?|galax\w*|quantum|dark (energy|matter)|exoplanets?|planets?|telescopes?|astronom\w*|particle physics|physicists?|lasers?|semiconductors?|chips?|batter(y|ies)|solar storms?|earthquakes?|volcan\w*|cosmolog\w*|rockets?|satellites?|asteroids?|electric vehicles?|crypto\w*)\b', re.I)
 HEALTH_WORDS = re.compile('|'.join(rx.pattern for _, rx in TOPICS), re.I)
+# biology stories must connect to human health (cells, genes, disease...), not fossils, farming or wildlife
+BIOMED = re.compile(r'\b(cells?|genes?|genetic\w*|genom\w*|dna|rna|proteins?|microbiome|gut|bacteria\w*|virus\w*|viral|immun\w*|infection\w*|disease\w*|cancer\w*|tumou?rs?|brain|neuro\w*|enzymes?|stem cells?|antibiotic\w*|human|patients?|health|medic\w*|blood|organs?|tissues?|metaboli\w*|hormones?|insulin|obesity|diabet\w*|heart|liver|kidney)\b', re.I)
+
+
+def topic_for(title, summ, default):
+    """The topic whose words appear most (headline words count three times); the feed's topic breaks ties."""
+    best, score = default, 0
+    for t, rx in TOPICS:
+        sc = 3 * len(rx.findall(title)) + len(rx.findall(summ[:300]))
+        if sc > score or (sc == score and sc and t == default):
+            best, score = t, sc
+    return best
 KEEP_DAYS = 21          # stories older than this are dropped
 TOP_DAYS = 7            # the five top stories come from the last week
 PER_FEED = 12
@@ -155,7 +173,11 @@ def items_from(xml_bytes, source, topic):
             continue
         if NOT_HEALTH.search(title + ' ' + summ[:300]) and not HEALTH_WORDS.search(title):
             continue
-        topic_here = next((t for t, rx in TOPICS if rx.search(title)), None) or next((t for t, rx in TOPICS if rx.search(summ[:300])), topic)
+        if re.match(r'^STAT\+\s*:', title):          # subscriber-only stories
+            continue
+        topic_here = topic_for(title, summ, topic)
+        if topic_here == 'Biology' and not BIOMED.search(title + ' ' + summ[:300]):
+            continue
         if summ.lower().startswith(title.lower()):
             summ = summ[len(title):].lstrip(' .:-')
         out.append({'title': title, 'url': link, 'source': source, 'topic': topic_here, 'date': date, 'summary': shorten(summ), 'image': feed_image(el)})
@@ -227,7 +249,7 @@ def main():
             it['id'] = hashlib.sha1(it['url'].encode()).hexdigest()[:12]
             items.append(it)
     for f in failed:
-        print('feed failed:', f, file=sys.stderr)
+        print('feed failed:', f)
     if not items:
         print('no stories gathered; leaving the existing file as it is', file=sys.stderr)
         return 0
