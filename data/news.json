@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:46:35Z",
+ "updated": "2026-11-15T21:48:26Z",
  "sources": [
   "ScienceDaily (Hospitals and care)",
   "ScienceDaily (Medicines)",
@@ -241,16 +241,6 @@
    "id": "2a955ac23908"
   },
   {
-   "title": "Technologie : Comment l'intelligence artificielle fait son nid en parfumerie",
-   "url": "https://www.premiumbeautynews.com/fr/technologie-comment-l-intelligence,28534",
-   "source": "Premium Beauty News",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-14T15:31:00Z",
-   "summary": "Bergamote en note de tête, iris pallida en note de cœur, algorithmes en note de fond... Dans le monde des parfums, l'intelligence artificielle s'est fait une place, accélérant la recherche et ouvrant de nouvelles pistes créatives. Avec la…",
-   "image": "",
-   "id": "20b3c128d881"
-  },
-  {
    "title": "Scientists find a simple daily routine linked to less pain and depression",
    "url": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
    "source": "ScienceDaily",
@@ -419,16 +409,6 @@
    "summary": "SAN DIEGO — Perimenopause and menopause can profoundly impact a woman’s skin and self-confidence and dermatologists must understand these hormonal shifts before starting any treatment, according to a speaker. Menopausal women often…",
    "image": "https://www.healio.com/~/media/slack-news/dermatology/misc/infographics/2026/11_november/derm1126asds_fabi_graphic_01.jpg?w=300",
    "id": "a3ce76622e3e"
-  },
-  {
-   "title": "Clariant innove en matière de solaires hybrides à in-cosmetics Asia",
-   "url": "https://www.premiumbeautynews.com/fr/clariant-innove-en-matiere-de,28539",
-   "source": "Premium Beauty News",
-   "topic": "Cosmetics and skin",
-   "date": "2026-11-13T17:46:00Z",
-   "summary": "Clariant a dévoilé trois nouveaux ingrédients pour soins personnels lors du salon in-cosmetics Asia, qui s'est tenu du 3 au 5 novembre à Bangkok, en Thaïlande. Le fabricant d'ingrédients cosmétiques a présenté une série d'innovations…",
-   "image": "",
-   "id": "7336d879aa78"
   },
   {
    "title": "Clariant puts hybrid sun care innovation in the spotlight at in-cosmetics Asia",
@@ -829,6 +809,26 @@
    "summary": "With a plethora of celebrities entering fragrance, from rappers Megan Thee Stallion and Ice Spice to singer Tate McRae, perfume collections are beginning to reflect the A-list-founded wardrobes of the early 2000s. But can celebrity…",
    "image": "",
    "id": "e2e4f5ba46ae"
+  },
+  {
+   "title": "Are we nearing peak K-beauty? Industry experts weigh in…",
+   "url": "https://www.cosmeticsbusiness.com/k-beauty-nearing-peak-fatigue-industry-experts-views",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T12:29:00Z",
+   "summary": "With K-beauty brands entering numerous US retailers, and Western brands tapping into innovation from Korea – from packaging to ingredients – Cosmetics Business asked industry experts if we are nearing K-beauty saturation, and where the…",
+   "image": "",
+   "id": "ff61dde1afc6"
+  },
+  {
+   "title": "Symrise names Martin Huber new CFO to support ‘next phase of durable growth’",
+   "url": "https://www.cosmeticsbusiness.com/symrise-names-martin-huber-new-cfo-to-support",
+   "source": "Cosmetics Business",
+   "topic": "Cosmetics and skin",
+   "date": "2026-11-12T12:23:00Z",
+   "summary": "Former Aryzta and Nestlé executive, Martin Huber, will succeed Olaf Klinger as CFO of Symrise from 1 April 2027",
+   "image": "",
+   "id": "c8fb8c4e92d2"
   },
   {
    "title": "NHS elective performance at 5-year high amid record demand",
