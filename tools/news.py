@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Halvia news: gather the latest science and technology stories from publishers' public RSS/Atom feeds.
+"""Halvia news: gather the latest healthcare stories (hospitals and care, medicines, longevity, biology, cosmetics and skin)
+from publishers' public RSS/Atom feeds.
 
 Runs weekly on GitHub Actions (.github/workflows/news.yml) and writes data/news.json, which the home page
 carousel and news/index.html read. Only headlines, dates, short summaries and the publisher's own preview image
@@ -23,19 +24,35 @@ import xml.etree.ElementTree as ET
 OUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'news.json')
 UA = 'Mozilla/5.0 (compatible; HalviaNews/1.0; +https://halvia.cloud/news/)'
 FEEDS = [
-    # (source, url, topic)
-    ('ScienceDaily', 'https://www.sciencedaily.com/rss/top/science.xml', 'Science'),
-    ('Phys.org', 'https://phys.org/rss-feed/', 'Science'),
-    ('Nature', 'https://www.nature.com/nature.rss', 'Science'),
-    ('New Scientist', 'https://www.newscientist.com/feed/home/', 'Science'),
-    ('Science News', 'https://www.sciencenews.org/feed', 'Science'),
-    ('ScienceDaily', 'https://www.sciencedaily.com/rss/top/technology.xml', 'Technology'),
-    ('MIT Technology Review', 'https://www.technologyreview.com/feed/', 'Technology'),
-    ('Tech Xplore', 'https://techxplore.com/rss-feed/', 'Technology'),
-    ('ScienceDaily', 'https://www.sciencedaily.com/rss/top/health.xml', 'Health and medicine'),
-    ('Medical Xpress', 'https://medicalxpress.com/rss-feed/', 'Health and medicine'),
-    ('NIH', 'https://www.nih.gov/news-releases/feed.xml', 'Health and medicine'),
+    # (source, url, default topic). Every story is re-sorted into a topic by its words; the default is the fallback.
+    ('ScienceDaily', 'https://www.sciencedaily.com/rss/top/health.xml', 'Hospitals and care'),
+    ('ScienceDaily', 'https://www.sciencedaily.com/rss/health_medicine/pharmacology.xml', 'Medicines'),
+    ('ScienceDaily', 'https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml', 'Longevity'),
+    ('ScienceDaily', 'https://www.sciencedaily.com/rss/health_medicine/skin_care.xml', 'Cosmetics and skin'),
+    ('ScienceDaily', 'https://www.sciencedaily.com/rss/plants_animals/biology.xml', 'Biology'),
+    ('Medical Xpress', 'https://medicalxpress.com/rss-feed/', 'Hospitals and care'),
+    ('Phys.org', 'https://phys.org/rss-feed/biology-news/', 'Biology'),
+    ('NIH', 'https://www.nih.gov/news-releases/feed.xml', 'Medicines'),
+    ('NHS England', 'https://www.england.nhs.uk/feed/', 'Hospitals and care'),
+    ('STAT', 'https://www.statnews.com/feed/', 'Medicines'),
+    ('Fierce Healthcare', 'https://www.fiercehealthcare.com/rss/xml', 'Hospitals and care'),
+    ('Nature Medicine', 'https://www.nature.com/nm.rss', 'Medicines'),
+    ('Nature Aging', 'https://www.nature.com/nataging.rss', 'Longevity'),
+    ('New Scientist', 'https://www.newscientist.com/subject/health/feed/', 'Hospitals and care'),
+    ('MIT Technology Review', 'https://www.technologyreview.com/topic/biotechnology/feed', 'Biology'),
 ]
+# topic words, checked in this order; the first match sets the story's topic
+TOPICS = [
+    ('Cosmetics and skin', r'\b(skin|dermat\w*|cosmetic\w*|botox|wrinkles?|acne|eczema|psoriasis|sunscreen|fillers?|aesthetic\w*|hair loss|melanoma|collagen|scars?)\b'),
+    ('Longevity', r'\b(ageing|aging|longevity|lifespan|healthspan|older adults|elderly|senescen\w*|dementia|alzheimer\w*|menopause|frailty|centenarians?|biological age)\b'),
+    ('Medicines', r'\b(drugs?|medications?|medicines?|vaccines?|antibiotics?|doses?|dosing|clinical trials?|fda|mhra|nice|pharma\w*|prescri\w*|glp-1|ozempic|wegovy|semaglutide|tirzepatide|chemotherapy|immunotherapy|gene therapy|treatments?)\b'),
+    ('Hospitals and care', r'\b(hospitals?|nhs|patients?|clinics?|nurses?|nursing|doctors?|gps?|surgeons?|surgery|emergency|icu|intensive care|care homes?|waiting lists?|ambulance|primary care|health systems?|staff|workforce|diagnos\w*|screening)\b'),
+    ('Biology', r'\b(cells?|genes?|genetic\w*|genom\w*|dna|rna|proteins?|microbiome|bacteria\w*|virus\w*|immune|enzymes?|stem cells?|neurons?|brain|organisms?|evolution\w*|species|tissues?|metaboli\w*)\b'),
+]
+TOPICS = [(t, re.compile(rx, re.I)) for t, rx in TOPICS]
+# physics, space, energy and gadget stories are left out unless the headline is clearly about health
+NOT_HEALTH = re.compile(r'\b(black holes?|galax\w*|quantum|dark (energy|matter)|exoplanets?|planets?|telescopes?|astronom\w*|particle physics|physicists?|lasers?|semiconductors?|chips?|batter(y|ies)|solar storms?|earthquakes?|volcan\w*|cosmolog\w*|rockets?|satellites?|asteroids?|electric vehicles?|crypto\w*)\b', re.I)
+HEALTH_WORDS = re.compile('|'.join(rx.pattern for _, rx in TOPICS), re.I)
 KEEP_DAYS = 21          # stories older than this are dropped
 TOP_DAYS = 7            # the five top stories come from the last week
 PER_FEED = 12
@@ -45,7 +62,7 @@ SUMMARY_LEN = 240
 # top stories are science and technology, not politics or general news-wire items
 OFFTOPIC = re.compile(r'\b(trump|biden|administration|election|congress|senate|parliament|tariffs?|lawsuit|court|ceo|stocks?|shares|layoffs?|police|war)\b', re.I)
 # top stories should report research or a development, not service news, opinion or features about the publisher
-RESEARCH = re.compile(r'\b(stud(y|ies)|research(ers)?|scientists?|engineers?|discover(y|ed|ies)?|reveals?|finds?|found|develop(ed|s)?|trials?|experiments?|cells?|genes?|genetic|proteins?|molecules?|quantum|telescope|robots?|algorithm|batter(y|ies)|vaccines?|brain|planets?|species|fossils?|materials?|sensors?|chips?|therapy|drug|tumou?r|cancer|climate|ocean|galaxy|black hole|AI model)\b', re.I)
+RESEARCH = re.compile(r'\b(stud(y|ies)|research(ers)?|scientists?|doctors?|clinicians?|discover(y|ed|ies)?|reveals?|finds?|found|develop(ed|s)?|trials?|experiments?|approv\w*|launch\w*|new|cells?|genes?|genetic|proteins?|vaccines?|brain|therapy|drugs?|tumou?r|cancer|patients?|hospitals?|nhs|ageing|aging|skin)\b', re.I)
 NOT_NEWS = re.compile(r'\b(outage|restored|readers|letters|opinion|review:|gift|deals?|sale|subscribe|magazine|how to|best .* of 20\d\d)\b', re.I)
 SKIP = re.compile(r'^(the download|the checkup|the week|this week|week in review|podcast|newsletter|quiz)\b|\b(newsletter|podcast|live updates?|crossword)\b', re.I)
 
@@ -136,9 +153,12 @@ def items_from(xml_bytes, source, topic):
         link = safe_url(link)
         if not title or not link or not date or SKIP.search(title):
             continue
+        if NOT_HEALTH.search(title + ' ' + summ[:300]) and not HEALTH_WORDS.search(title):
+            continue
+        topic_here = next((t for t, rx in TOPICS if rx.search(title)), None) or next((t for t, rx in TOPICS if rx.search(summ[:300])), topic)
         if summ.lower().startswith(title.lower()):
             summ = summ[len(title):].lstrip(' .:-')
-        out.append({'title': title, 'url': link, 'source': source, 'topic': topic, 'date': date, 'summary': shorten(summ), 'image': feed_image(el)})
+        out.append({'title': title, 'url': link, 'source': source, 'topic': topic_here, 'date': date, 'summary': shorten(summ), 'image': feed_image(el)})
     out.sort(key=lambda x: x['date'], reverse=True)
     return out[:PER_FEED]
 

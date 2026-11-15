@@ -660,7 +660,7 @@ button,input,select,textarea{font-family:inherit}
       </div>
       <div class="gn-ga"><a class="btn go" href="gizmo/">Open the tool</a><p class="gz-note">A concept demo. It doesn&rsquo;t replace your organisation&rsquo;s mandatory training or sign-off.</p></div>
 
-      <h2 class="gn-nt" id="newsH">Latest in science and technology</h2>
+      <h2 class="gn-nt" id="newsH">Latest in healthcare</h2>
       <div class="nw gn-nb" id="news" role="region" aria-roledescription="carousel" aria-labelledby="newsH">
         <div class="nw-slides" id="nwSlides" aria-live="off"><div class="nw-slide nw-wait"><p class="nw-meta">Halvia news</p><p class="nw-h">This week&rsquo;s top stories are on their way.</p></div></div>
         <div class="nw-ctl">
@@ -670,7 +670,7 @@ button,input,select,textarea{font-family:inherit}
           <button class="nw-btn nw-pp" type="button" id="nwPP" aria-label="Pause the stories">&#10073;&#10073;</button>
         </div>
       </div>
-      <div class="gn-na"><a class="btn go" href="news/">Open Halvia news</a><p class="gz-note" id="nwNote">Science and technology stories from trusted publishers, updated every Monday.</p></div>
+      <div class="gn-na"><a class="btn go" href="news/">Open Halvia news</a><p class="gz-note" id="nwNote">Hospitals and care, medicines, longevity, biology, and cosmetics and skin, from trusted health publishers. Updated every Monday.</p></div>
     </div>
   </section>
 
@@ -846,7 +846,7 @@ if (el) {
 </script>
 <script src="assets/news.js?v=1"></script>
 <script>
-// News carousel: the week's five top stories. Moves on every 7 seconds; pauses on hover, focus or the pause button,
+// News carousel: the week's five top healthcare stories. Moves on every 7 seconds; pauses on hover, focus or the pause button,
 // and stays still for visitors who ask for reduced motion.
 (function () {
   var N = window.HalviaNews, box = document.getElementById('news'); if (!N || !box) return;
@@ -876,14 +876,14 @@ if (el) {
         img.addEventListener('error', function () { fig.remove(); });
         fig.appendChild(img); fig.appendChild(N.el('figcaption', '', 'Image: ' + it.source)); s.appendChild(fig);
       } else s.style.paddingTop = '1.4rem';
-      var meta = N.el('p', 'nw-meta'); meta.appendChild(N.el('span', 'tp', it.topic || 'Science')); meta.appendChild(N.el('span', '', it.source)); meta.appendChild(N.el('span', '', N.date(it.date)));
+      var meta = N.el('p', 'nw-meta'); meta.appendChild(N.el('span', 'tp', it.topic || 'Healthcare')); meta.appendChild(N.el('span', '', it.source)); meta.appendChild(N.el('span', '', N.date(it.date)));
       var h = N.el('p', 'nw-h'), a = N.el('a', '', it.title); a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; h.appendChild(a);
       s.appendChild(meta); s.appendChild(h); if (it.summary) s.appendChild(N.el('p', 'nw-sum', it.summary));
       var go = N.el('a', 'nw-go', 'Read on ' + it.source + ' \u2197'); go.href = it.url; go.target = '_blank'; go.rel = 'noopener'; go.setAttribute('aria-label', 'Read the full story on ' + it.source + ' (opens in a new tab)'); s.appendChild(go);
       slidesEl.appendChild(s);
       var dot = N.el('button'); dot.type = 'button'; dot.setAttribute('aria-label', 'Story ' + (k + 1)); dot.addEventListener('click', function () { show(k, true); tick(); }); dotsEl.appendChild(dot);
     });
-    if (d.updated) document.getElementById('nwNote').textContent = 'Science and technology stories from trusted publishers, updated every Monday. Last updated ' + N.date(d.updated, true) + '.';
+    if (d.updated) document.getElementById('nwNote').textContent = 'Hospitals and care, medicines, longevity, biology, and cosmetics and skin, from trusted health publishers. Last updated ' + N.date(d.updated, true) + '.';
     show(0, false); setPaused(paused);
   });
 })();

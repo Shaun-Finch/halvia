@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Halvia news: the latest in science and technology</title>
-<meta name="description" content="The latest science and technology stories, gathered every Monday from trusted science publishers, with links to the original articles.">
+<title>Halvia news: the latest in healthcare</title>
+<meta name="description" content="The latest healthcare stories, from hospitals and medicines to longevity, biology and skin, gathered every Monday from trusted health publishers.">
 <link rel="canonical" href="https://halvia.cloud/news/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Halvia news: the latest in science and technology">
-<meta property="og:description" content="Science and technology stories, gathered every Monday from trusted science publishers.">
+<meta property="og:title" content="Halvia news: the latest in healthcare">
+<meta property="og:description" content="Healthcare stories, gathered every Monday from trusted health publishers.">
 <meta property="og:url" content="https://halvia.cloud/news/">
 <meta property="og:image" content="https://halvia.cloud/og.png">
 <meta name="theme-color" content="#FFFFFF">
@@ -64,14 +64,16 @@ a{color:var(--blue);text-underline-offset:3px}
   <div class="wrap">
     <div class="head">
       <h1>Halvia news</h1>
-      <p>The latest in science and technology, gathered every Monday from trusted science publishers. Each story links to the original article.</p>
+      <p>The latest in healthcare: hospitals and care, medicines, longevity, biology, and cosmetics and skin. Gathered every Monday from trusted health publishers, and each story links to the original article.</p>
       <span class="updated" id="updated"></span>
     </div>
     <div class="filters" role="group" aria-label="Show stories about">
       <button type="button" data-t="" aria-pressed="true">All</button>
-      <button type="button" data-t="Science" aria-pressed="false">Science</button>
-      <button type="button" data-t="Technology" aria-pressed="false">Technology</button>
-      <button type="button" data-t="Health and medicine" aria-pressed="false">Health and medicine</button>
+      <button type="button" data-t="Hospitals and care" aria-pressed="false">Hospitals and care</button>
+      <button type="button" data-t="Medicines" aria-pressed="false">Medicines</button>
+      <button type="button" data-t="Longevity" aria-pressed="false">Longevity</button>
+      <button type="button" data-t="Biology" aria-pressed="false">Biology</button>
+      <button type="button" data-t="Cosmetics and skin" aria-pressed="false">Cosmetics and skin</button>
     </div>
     <p class="sr" id="count" aria-live="polite"></p>
     <ul class="grid" id="grid"></ul>
@@ -80,7 +82,7 @@ a{color:var(--blue);text-underline-offset:3px}
 </main>
 <footer class="foot"><div class="wrap">
   <p>Headlines and short summaries come from each publisher&rsquo;s public news feed and link to the original article. Halvia doesn&rsquo;t write or edit these stories, and their copyright stays with the publishers.</p>
-  <p>Sources: ScienceDaily, Phys.org, Nature, New Scientist, Science News, MIT Technology Review, Tech Xplore, Medical Xpress and the US National Institutes of Health.</p>
+  <p>Sources include ScienceDaily, Medical Xpress, Phys.org (biology), NHS England, the US National Institutes of Health, STAT, Fierce Healthcare, Nature Medicine, Nature Aging, New Scientist (health) and MIT Technology Review (biotechnology).</p>
   <p><a href="../privacy.html">Privacy and terms</a></p>
 </div></footer>
 <script src="../assets/news.js?v=1"></script>
@@ -90,7 +92,7 @@ a{color:var(--blue);text-underline-offset:3px}
   var N = window.HalviaNews, el = N.el, grid = document.getElementById('grid'), PAGE = 24, shown = PAGE, topic = '', all = [];
   function card(it) {
     var li = el('li', 'card'), meta = el('p', 'meta');
-    meta.appendChild(el('span', 'tp', it.topic || 'Science')); meta.appendChild(el('span', '', it.source)); meta.appendChild(el('span', '', N.date(it.date, true)));
+    meta.appendChild(el('span', 'tp', it.topic || 'Healthcare')); meta.appendChild(el('span', '', it.source)); meta.appendChild(el('span', '', N.date(it.date, true)));
     var h = el('h2'), a = el('a', '', it.title); a.href = it.url; a.target = '_blank'; a.rel = 'noopener'; h.appendChild(a);
     li.appendChild(meta); li.appendChild(h);
     if (it.summary) li.appendChild(el('p', 'sum', it.summary));
