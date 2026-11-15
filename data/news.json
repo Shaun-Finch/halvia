@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:12:57Z",
+ "updated": "2026-11-15T09:14:10Z",
  "sources": [
   "ScienceDaily (Science)",
   "Phys.org (Science)",
@@ -18,7 +18,7 @@
   "c483ec2db561",
   "162522190d56",
   "3feda8230e7e",
-  "f1dbc25a6463"
+  "04ab322d24b7"
  ],
  "items": [
   {
@@ -562,15 +562,6 @@
    "id": "d3f2c1071d47"
   },
   {
-   "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
-   "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
-   "source": "MIT Technology Review",
-   "topic": "Technology",
-   "date": "2026-11-13T13:10:00Z",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a…",
-   "id": "f1dbc25a6463"
-  },
-  {
    "title": "Can you pass our science quiz set by Nobel laureates?",
    "url": "https://www.newscientist.com/article/2594152-think-you-know-science-try-our-quiz-set-by-nobel-laureates/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
    "source": "New Scientist",
@@ -787,15 +778,6 @@
    "id": "17dcd545f05d"
   },
   {
-   "title": "The Download: COP31’s climate challenge and the quest for immortality",
-   "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
-   "source": "MIT Technology Review",
-   "topic": "Technology",
-   "date": "2026-11-12T13:10:00Z",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists…",
-   "id": "56aae23ea0ec"
-  },
-  {
    "title": "AI-powered bionic eye breakthrough could help the blind see again",
    "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
    "source": "ScienceDaily",
@@ -830,6 +812,24 @@
    "date": "2026-11-12T00:00:00Z",
    "summary": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03665-0 Insights into the reproductive modes of brown algae could help in the fight to protect them in warming climate.",
    "id": "ebb42fd6ccfc"
+  },
+  {
+   "title": "Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+   "url": "https://www.nature.com/articles/s41586-026-11409-3",
+   "source": "Nature",
+   "topic": "Science",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature, Published online: 12 November 2026; doi:10.1038/s41586-026-11409-3 Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+   "id": "8f3afd9fc180"
+  },
+  {
+   "title": "Record-breaking Ebola outbreak: phone data reconstruct first weeks of spread",
+   "url": "https://www.nature.com/articles/d41586-026-03666-z",
+   "source": "Nature",
+   "topic": "Science",
+   "date": "2026-11-12T00:00:00Z",
+   "summary": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03666-z The Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and funding cuts…",
+   "id": "d52848ec6409"
   }
  ]
 }
