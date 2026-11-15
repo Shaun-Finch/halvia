@@ -40,6 +40,8 @@ TOP_DAYS = 7            # the five top stories come from the last week
 PER_FEED = 12
 MAX_ITEMS = 90
 SUMMARY_LEN = 240
+# newsletters, podcasts and round-ups are left out: the feed is for individual stories
+SKIP = re.compile(r'^(the download|the checkup|the week|this week|week in review|podcast|newsletter|quiz)\b|\b(newsletter|podcast|live updates?|crossword)\b', re.I)
 
 
 def fetch(url):
@@ -126,7 +128,7 @@ def items_from(xml_bytes, source, topic):
         date = parse_date(text_of(child(el, 'pubdate', 'published', 'updated', 'date', 'issued')))
         summ = clean(text_of(child(el, 'description', 'summary', 'encoded', 'content')))
         link = safe_url(link)
-        if not title or not link or not date:
+        if not title or not link or not date or SKIP.search(title):
             continue
         if summ.lower().startswith(title.lower()):
             summ = summ[len(title):].lstrip(' .:-')
@@ -164,7 +166,7 @@ def main():
     items.sort(key=lambda x: x['date'], reverse=True)
     items = items[:MAX_ITEMS]
     # five top stories: the newest from the last week, one per publisher, mixing topics
-    recent = [i for i in items if (now - i['date']).days <= TOP_DAYS] or items
+    recent = [i for i in items if (now - i['date']).days <= TOP_DAYS and len(i['summary']) > 60] or items
     top, used_src, used_topic = [], set(), {}
     for rnd in range(3):
         for it in recent:
